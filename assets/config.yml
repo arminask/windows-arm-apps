@@ -1,0 +1,172 @@
+---
+
+title: "Windows arm apps"
+subtitle: "‎ "
+logo: "logo.png"
+# icon: "fas fa-skull-crossbones" # Optional icon
+
+header: true
+footer: '<p>Created with <span class="has-text-danger">❤️</span> with <a href="https://bulma.io/">bulma</a>, <a href="https://vuejs.org/">vuejs</a> & <a href="https://fontawesome.com/">font awesome</a> // Fork me on <a href="https://github.com/bastienwirtz/homer"><i class="fab fa-github-alt"></i></a></p>' # set false if you want to hide it.
+
+# Optional theme customization
+theme: default
+colors:
+  light:
+    highlight-primary: "#3367d6"
+    highlight-secondary: "#4285f4"
+    highlight-hover: "#5a95f5"
+    background: "#f5f5f5"
+    card-background: "#ffffff"
+    text: "#363636"
+    text-header: "#ffffff"
+    text-title: "#303030"
+    text-subtitle: "#424242"
+    card-shadow: rgba(0, 0, 0, 0.1)
+    link: "#3273dc"
+    link-hover: "#363636"
+  dark:
+    highlight-primary: "#3367d6"
+    highlight-secondary: "#4285f4"
+    highlight-hover: "#5a95f5"
+    background: "#131313"
+    card-background: "#2b2b2b"
+    text: "#eaeaea"
+    text-header: "#ffffff"
+    text-title: "#fafafa"
+    text-subtitle: "#f5f5f5"
+    card-shadow: rgba(0, 0, 0, 0.4)
+    link: "#3273dc"
+    link-hover: "#ffdd57"
+
+message:
+  style: "is-dark" # See https://bulma.io/documentation/components/message/#colors for styling options.
+  title: "Note"
+  icon: "fa fa-house"
+  content: "This website is a collection of native programs for Windows on ARM architecture. <br />The list is not full, contribute on Github by adding more apps to the list."
+
+links:
+  - name: "Contribute"
+    icon: "fab fa-github"
+    url: "https://github.com/arminask/windows-arm-apps"
+    target: "_blank" # optional html a tag target attribute 
+
+
+# Services
+services:
+  - name: "Web Browsers"
+    icon: "fa-brands fa-internet-explorer"
+    items:
+      - name: "Firefox Browser"
+        logo: "assets/tools/firefox.png"
+        url: "https://www.mozilla.org/en-GB/firefox/all/#product-desktop-release"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Brave Browser"
+        logo: "assets/tools/brave.png"
+        url: "https://github.com/brave/brave-browser/releases/tag/v1.47.9"
+        target: "_blank" # optional html a tag target attribute
+
+  - name: "Compression"
+    icon: "fa-solid fa-file-zipper"
+    items:
+      - name: "7-Zip"
+        logo: "assets/tools/7zip.png"
+        url: "https://www.7-zip.org/download.html"
+        target: "_blank" # optional html a tag target attribute
+
+  - name: "Messaging"
+    icon: "fa-solid fa-message-dots"
+    items:
+      - name: "Zoom"
+        logo: "assets/tools/zoom.png"
+        url: "https://zoom.us/download#client_4meeting"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Twitter"
+        logo: "assets/tools/twitter.png"
+        url: "https://apps.microsoft.com/store/detail/twitter/9WZDNCRFJ140?hl=en-us&gl=us"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Instagram"
+        logo: "assets/tools/instagram.png"
+        url: "https://apps.microsoft.com/store/detail/instagram/9NBLGGH5L9XT?hl=en-in&gl=in"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Unigram (Telegram)"
+        logo: "assets/tools/telegram.png"
+        url: "https://apps.microsoft.com/store/detail/unigram%E2%80%94telegram-for-windows/9N97ZCKPD60Q?hl=en-us&gl=us"
+        target: "_blank" # optional html a tag target attribute
+
+  - name: "Media"
+    icon: "fa-solid fa-photo-film"
+    items:
+      - name: "VLC media player"
+        logo: "assets/tools/vlc.png"
+        url: "https://artifacts.videolan.org/vlc/nightly-win64-arm-llvm/"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Netflix"
+        logo: "assets/tools/netflix.png"
+        url: "https://apps.microsoft.com/store/detail/netflix/9WZDNCRFJ3TJ?hl=en-us&gl=us"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Handbrake"
+        logo: "assets/tools/handbrake.png"
+        url: "https://handbrake.fr/downloads.php"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Spotify"
+        logo: "assets/tools/spotify.png"
+        url: "https://community.spotify.com/t5/Live-Ideas/Desktop-Developer-Spotify-for-Windows-on-Arm-Win32-Desktop-app/idi-p/4992167/page/4#M243280"
+        target: "_blank" # optional html a tag target attribute
+
+  - name: "Developer tools"
+    icon: "fa-solid fa-code"
+    items:
+      - name: "Bandizip"
+        logo: "assets/tools/bandizip.png"
+        url: "https://apps.microsoft.com/store/detail/bandizip/9P2W3W81SPPB?hl=en-us&gl=us"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Filezilla"
+        logo: "assets/tools/filezilla.png"
+        url: "https://github.com/driver1998/filezilla-woa/releases"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Github Desktop"
+        logo: "assets/tools/github.png"
+        url: "https://github.com/desktop/desktop#beta-channel"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Notepad++"
+        logo: "assets/tools/notepad.png"
+        url: "https://notepad-plus-plus.org/downloads/"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Python"
+        logo: "assets/tools/python.png"
+        url: "https://www.python.org/downloads/windows/"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "PuTTY"
+        logo: "assets/tools/putty.png"
+        url: "https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Microsoft PowerToys"
+        logo: "assets/tools/microsoftpowertoys.png"
+        url: "https://apps.microsoft.com/store/detail/microsoft-powertoys/XP89DCGQ3K6VLD"
+        target: "_blank" # optional html a tag target attribute
+
+  - name: "Other"
+    icon: "fa-solid fa-question"
+    items:
+      - name: "Phone Link"
+        logo: "assets/tools/phonelink.png"
+        url: "https://apps.microsoft.com/store/detail/phone-link/9NMPJ99VJBWV?hl=en-in&gl=in"
+        target: "_blank" # optional html a tag target attribute
+
+
+
+
+

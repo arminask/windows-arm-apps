@@ -1,0 +1,1 @@
+{"name":"Homer dashboard","short_name":"Homer","start_url":"../","display":"standalone","background_color":"#ffffff","lang":"en","scope":"../","description":"Home Server Dashboard","theme_color":"#3367D6","icons":[{"src":"./icons/pwa-192x192.png","sizes":"192x192","type":"image/png"},{"src":"./icons/pwa-512x512.png","sizes":"512x512","type":"image/png"}]}
