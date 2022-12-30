@@ -15,3 +15,5 @@ App icons:
 ```
 assets/tools/
 ```
+
+Website template from [https://github.com/bastienwirtz/homer](Homer).
