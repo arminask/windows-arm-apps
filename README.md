@@ -14,7 +14,7 @@ assets/config.yml
 Add a new category:
 ```
   - name: "Web Browsers" # Category name
-    icon: "fa-solid fa-file-zipper" # Category icon from [fontawesome](https://fontawesome.com/icons)
+    icon: "fa-solid fa-file-zipper" # Category icon from https://fontawesome.com/icons
     items:
 ```
 
