@@ -11,9 +11,28 @@ To add a new app to a website, edit this file:
 assets/config.yml
 ```
 
+Add a new category:
+```
+  - name: "Web Browsers" # Category name
+    icon: "fa-solid fa-file-zipper" # Category icon from [fontawesome](https://fontawesome.com/icons)
+    items:
+```
+
+Add a new app:
+```
+      - name: "Firefox Browser" # App name
+        logo: "assets/tools/firefox.png" # App icon
+        url: "https://www.mozilla.org/en-GB/firefox/all/#product-desktop-release" # URL to download the app
+        target: "_blank"
+```
+
+
 App icons:
 ```
 assets/tools/
 ```
 
+App icons have to be in png format, transparent and 64x64 in size.
+
+##
 Website template from [Homer](https://github.com/bastienwirtz/homer).
