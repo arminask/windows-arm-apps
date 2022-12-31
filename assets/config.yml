@@ -66,6 +66,12 @@ services:
         url: "https://github.com/brave/brave-browser/releases/tag/v1.47.9"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "Chromium"
+        logo: "assets/tools/chromium.png"
+        url: "https://chromium.woolyss.com/#windows-on-arm"
+        target: "_blank" # optional html a tag target attribute
+
+
   - name: "Compression"
     icon: "fa-solid fa-file-zipper"
     items:
@@ -74,8 +80,13 @@ services:
         url: "https://www.7-zip.org/download.html"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "Bandizip"
+        logo: "assets/tools/bandizip.png"
+        url: "https://apps.microsoft.com/store/detail/bandizip/9P2W3W81SPPB?hl=en-us&gl=us"
+        target: "_blank" # optional html a tag target attribute
+
   - name: "Messaging"
-    icon: "fa-solid fa-message-dots"
+    icon: "fa-solid fa-message"
     items:
       - name: "Zoom"
         logo: "assets/tools/zoom.png"
@@ -95,6 +106,11 @@ services:
       - name: "Unigram (Telegram)"
         logo: "assets/tools/telegram.png"
         url: "https://apps.microsoft.com/store/detail/unigram%E2%80%94telegram-for-windows/9N97ZCKPD60Q?hl=en-us&gl=us"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Microsoft Teams"
+        logo: "assets/tools/teams.png"
+        url: "https://apps.microsoft.com/store/detail/microsoft-teams/XP8BT8DW290MPQ"
         target: "_blank" # optional html a tag target attribute
 
   - name: "Media"
@@ -120,14 +136,9 @@ services:
         url: "https://community.spotify.com/t5/Live-Ideas/Desktop-Developer-Spotify-for-Windows-on-Arm-Win32-Desktop-app/idi-p/4992167/page/4#M243280"
         target: "_blank" # optional html a tag target attribute
 
-  - name: "Developer tools"
+  - name: "Tools"
     icon: "fa-solid fa-code"
     items:
-      - name: "Bandizip"
-        logo: "assets/tools/bandizip.png"
-        url: "https://apps.microsoft.com/store/detail/bandizip/9P2W3W81SPPB?hl=en-us&gl=us"
-        target: "_blank" # optional html a tag target attribute
-
       - name: "Filezilla"
         logo: "assets/tools/filezilla.png"
         url: "https://github.com/driver1998/filezilla-woa/releases"
@@ -158,12 +169,37 @@ services:
         url: "https://apps.microsoft.com/store/detail/microsoft-powertoys/XP89DCGQ3K6VLD"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "Visual Studio Code"
+        logo: "assets/tools/visualstudiocode.png"
+        url: "https://apps.microsoft.com/store/detail/visual-studio-code/XP9KHM4BK9FZ7Q"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Speedtest by Ookla"
+        logo: "assets/tools/speedtest.png"
+        url: "https://apps.microsoft.com/store/detail/speedtest-by-ookla/9NBLGGH4Z1JC"
+        target: "_blank" # optional html a tag target attribute
+
+
+
   - name: "Other"
     icon: "fa-solid fa-question"
     items:
       - name: "Phone Link"
         logo: "assets/tools/phonelink.png"
         url: "https://apps.microsoft.com/store/detail/phone-link/9NMPJ99VJBWV?hl=en-in&gl=in"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Windows Maps"
+        logo: "assets/tools/windowsmaps.png"
+        url: "https://apps.microsoft.com/store/detail/windows-maps/9WZDNCRDTBVB"
+        target: "_blank" # optional html a tag target attribute
+
+  - name: "Games"
+    icon: "fa-solid fa-gamepad"
+    items:
+      - name: "Duolingo"
+        logo: "assets/tools/duolingo.png"
+        url: "https://apps.microsoft.com/store/detail/duolingo-learn-languages-for-free/9WZDNCRCV5XN"
         target: "_blank" # optional html a tag target attribute
 
 
