@@ -178,6 +178,12 @@ services:
         logo: "assets/tools/speedtest.png"
         url: "https://apps.microsoft.com/store/detail/speedtest-by-ookla/9NBLGGH4Z1JC"
         target: "_blank" # optional html a tag target attribute
+        
+      - name: "Geekbench 5"
+        logo: "assets/tools/geekbench5.png"
+        url: "https://www.geekbench.com/download/"
+        target: "_blank" # optional html a tag target attribute
+
 
 
 
