@@ -82,10 +82,10 @@ services:
 
       - name: "Bandizip"
         logo: "assets/tools/bandizip.png"
-        url: "https://apps.microsoft.com/store/detail/bandizip/9P2W3W81SPPB?hl=en-us&gl=us"
+        url: "https://apps.microsoft.com/store/detail/bandizip/9P2W3W81SPPB"
         target: "_blank" # optional html a tag target attribute
 
-  - name: "Messaging"
+  - name: "Social"
     icon: "fa-solid fa-message"
     items:
       - name: "Zoom"
@@ -95,17 +95,17 @@ services:
 
       - name: "Twitter"
         logo: "assets/tools/twitter.png"
-        url: "https://apps.microsoft.com/store/detail/twitter/9WZDNCRFJ140?hl=en-us&gl=us"
+        url: "https://apps.microsoft.com/store/detail/twitter/9WZDNCRFJ140"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Instagram"
         logo: "assets/tools/instagram.png"
-        url: "https://apps.microsoft.com/store/detail/instagram/9NBLGGH5L9XT?hl=en-in&gl=in"
+        url: "https://apps.microsoft.com/store/detail/instagram/9NBLGGH5L9XT"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Unigram (Telegram)"
         logo: "assets/tools/telegram.png"
-        url: "https://apps.microsoft.com/store/detail/unigram%E2%80%94telegram-for-windows/9N97ZCKPD60Q?hl=en-us&gl=us"
+        url: "https://apps.microsoft.com/store/detail/unigram%E2%80%94telegram-for-windows/9N97ZCKPD60Q"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Microsoft Teams"
@@ -113,6 +113,35 @@ services:
         url: "https://apps.microsoft.com/store/detail/microsoft-teams/XP8BT8DW290MPQ"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "Twitter"
+        logo: "assets/tools/twitter.png"
+        url: "https://apps.microsoft.com/store/detail/twitter/9WZDNCRFJ140"
+        target: "_blank" # optional html a tag target attribute
+        
+      - name: "Pinterest"
+        logo: "assets/tools/pinterest.png"
+        url: "https://apps.microsoft.com/store/detail/pinterest/9PFHDSF91B9R"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "GroupMe"
+        logo: "assets/tools/groupme.png"
+        url: "https://apps.microsoft.com/store/detail/groupme/9NBLGGH5Z4F2"
+        target: "_blank" # optional html a tag target attribute  
+        
+      - name: "Piny"
+        logo: "assets/tools/piny.png"
+        url: "https://apps.microsoft.com/store/detail/piny/9NBLGGH441NQ"
+        target: "_blank" # optional html a tag target attribute  
+        
+      - name: "Reddit"
+        logo: "assets/tools/reddit.png"
+        url: "https://apps.microsoft.com/store/detail/reddit/9NS3RBQ5HV5F"
+        target: "_blank" # optional html a tag target attribute 
+        
+      - name: "Social Page Manager"
+        logo: "assets/tools/socialpagemanager.png"
+        url: "https://apps.microsoft.com/store/detail/social-page-manager/9WZDNCRFJ9N7"
+        target: "_blank" # optional html a tag target attribute 
   - name: "Media"
     icon: "fa-solid fa-photo-film"
     items:
@@ -123,7 +152,7 @@ services:
 
       - name: "Netflix"
         logo: "assets/tools/netflix.png"
-        url: "https://apps.microsoft.com/store/detail/netflix/9WZDNCRFJ3TJ?hl=en-us&gl=us"
+        url: "https://apps.microsoft.com/store/detail/netflix/9WZDNCRFJ3TJ"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Handbrake"
@@ -192,7 +221,7 @@ services:
     items:
       - name: "Phone Link"
         logo: "assets/tools/phonelink.png"
-        url: "https://apps.microsoft.com/store/detail/phone-link/9NMPJ99VJBWV?hl=en-in&gl=in"
+        url: "https://apps.microsoft.com/store/detail/phone-link/9NMPJ99VJBWV"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Windows Maps"
