@@ -108,14 +108,14 @@ services:
         url: "https://apps.microsoft.com/store/detail/unigram%E2%80%94telegram-for-windows/9N97ZCKPD60Q"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "Tiktok"
+        logo: "assets/tools/tiktok.png"
+        url: "https://apps.microsoft.com/store/detail/tiktok/9NH2GPH4JZS4"
+        target: "_blank" # optional html a tag target attribute 
+        
       - name: "Microsoft Teams"
         logo: "assets/tools/teams.png"
         url: "https://apps.microsoft.com/store/detail/microsoft-teams/XP8BT8DW290MPQ"
-        target: "_blank" # optional html a tag target attribute
-
-      - name: "Twitter"
-        logo: "assets/tools/twitter.png"
-        url: "https://apps.microsoft.com/store/detail/twitter/9WZDNCRFJ140"
         target: "_blank" # optional html a tag target attribute
         
       - name: "Pinterest"
@@ -201,6 +201,11 @@ services:
       - name: "Visual Studio Code"
         logo: "assets/tools/visualstudiocode.png"
         url: "https://apps.microsoft.com/store/detail/visual-studio-code/XP9KHM4BK9FZ7Q"
+        target: "_blank" # optional html a tag target attribute
+        
+      - name: "Visual Studio Community 2022"
+        logo: "assets/tools/visualstudiocommunity2022.png"
+        url: "https://apps.microsoft.com/store/detail/visual-studio-community-2022/XPDCFJDKLZJLP8"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Speedtest by Ookla"
