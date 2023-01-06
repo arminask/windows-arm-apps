@@ -18,7 +18,7 @@ Add a new category:
     items:
 ```
 
-Add a new app:
+Add a new app (below the category section, below "items:" line):
 ```
       - name: "Firefox Browser" # App name
         logo: "assets/tools/firefox.png" # App icon
@@ -29,7 +29,7 @@ Add a new app:
 
 App icons:
 ```
-assets/tools/
+assets/tools/*.png
 ```
 
 App icons have to be in png format, transparent and 64x64 in size.
