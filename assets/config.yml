@@ -1,7 +1,7 @@
 ---
 
 title: "Windows arm apps"
-subtitle: "‎ "
+subtitle: "‎Home"
 logo: "logo.png"
 # icon: "fas fa-skull-crossbones" # Optional icon
 
@@ -45,6 +45,10 @@ message:
   content: "This website is a collection of native programs for Windows on ARM architecture. <br /> The list is not full, contribute on Github by adding more apps to the list. <br /> Run Windows natively on your ARM android device! <a href='https://github.com/edk2-porting/edk2-msm'>edk2-msm</a>"
 
 links:
+  - name: "Home"
+    icon: "fa-sharp fa-solid fa-house"
+    url: ""
+
   - name: "Contribute"
     icon: "fab fa-github"
     url: "https://github.com/arminask/windows-arm-apps"
@@ -54,6 +58,10 @@ links:
     icon: "fab fa-github"
     url: "https://github.com/edk2-porting/edk2-msm"
     target: "_blank" # optional html a tag target attribute 
+
+  - name: "FAQ"
+    icon: "fa fa-question"
+    url: "#faq"
 
 # Services
 services:
