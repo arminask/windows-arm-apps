@@ -49,6 +49,10 @@ links:
     icon: "fa-sharp fa-solid fa-house"
     url: ""
 
+  - name: "FAQ"
+    icon: "fa fa-question"
+    url: "#faq"
+
   - name: "Contribute"
     icon: "fab fa-github"
     url: "https://github.com/arminask/windows-arm-apps"
@@ -58,10 +62,6 @@ links:
     icon: "fab fa-github"
     url: "https://github.com/edk2-porting/edk2-msm"
     target: "_blank" # optional html a tag target attribute 
-
-  - name: "FAQ"
-    icon: "fa fa-question"
-    url: "#faq"
 
 # Services
 services:
