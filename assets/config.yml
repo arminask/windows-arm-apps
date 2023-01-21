@@ -245,6 +245,11 @@ services:
         logo: "assets/tools/windowsmaps.png"
         url: "https://apps.microsoft.com/store/detail/windows-maps/9WZDNCRDTBVB"
         target: "_blank" # optional html a tag target attribute
+        
+      - name: "Moonlight Client"
+        logo: "assets/tools/moonlight.png"
+        url: "https://github.com/moonlight-stream/moonlight-qt/releases/latest"
+        target: "_blank" # optional html a tag target attribute
 
   - name: "Games"
     icon: "fa-solid fa-gamepad"
