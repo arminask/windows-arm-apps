@@ -259,6 +259,10 @@ services:
         url: "https://apps.microsoft.com/store/detail/duolingo-learn-languages-for-free/9WZDNCRCV5XN"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "Heroic Games Launcher"
+        logo: "assets/tools/heroic.png"
+        url: "https://github.com/Heroic-Games-Launcher/HeroicGamesLauncher/releases"
+        target: "_blank" # optional html a tag target attribute
 
 
 
