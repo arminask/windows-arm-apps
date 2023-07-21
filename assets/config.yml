@@ -93,20 +93,49 @@ services:
         url: "https://www.srware.net/forum/viewforum.php?f=18"
         target: "_blank" # optional html a tag target attribute
 
-
-  - name: "Compression"
-    icon: "fa-solid fa-file-zipper"
+  - name: "Media"
+    icon: "fa-solid fa-photo-film"
     items:
-      - name: "7-Zip"
-        logo: "assets/tools/7zip.png"
-        url: "https://www.7-zip.org/download.html"
+      - name: "VLC media player"
+        logo: "assets/tools/vlc.png"
+        url: "https://artifacts.videolan.org/vlc/nightly-win64-arm-llvm/"
+        target: "_blank" # optional html a tag target attribute
+        
+      - name: "foobar2000"
+        logo: "assets/tools/foobar2000.png"
+        url: "https://www.foobar2000.org/download"
+        target: "_blank" # optional html a tag target attribute
+        
+      - name: "Netflix"
+        logo: "assets/tools/netflix.png"
+        url: "https://apps.microsoft.com/store/detail/netflix/9WZDNCRFJ3TJ"
         target: "_blank" # optional html a tag target attribute
 
-      - name: "Bandizip"
-        logo: "assets/tools/bandizip.png"
-        url: "https://apps.microsoft.com/store/detail/bandizip/9P2W3W81SPPB"
+      - name: "Handbrake"
+        logo: "assets/tools/handbrake.png"
+        url: "https://handbrake.fr/downloads.php"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "Spotify"
+        logo: "assets/tools/spotify.png"
+        url: "https://community.spotify.com/t5/Live-Ideas/Desktop-Developer-Spotify-for-Windows-on-Arm-Win32-Desktop-app/idi-p/4992167/page/4#M243280"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "DVDForge"
+        logo: "assets/tools/dvdforge.png"
+        url: "https://www.yubsoft.com/dvdforge/"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "ImgDrive"
+        logo: "assets/tools/imgdrive.png"
+        url: "https://www.yubsoft.com/imgdrive/"
+        target: "_blank" # optional html a tag target attribute
+              
+      - name: "Xreveal"
+        logo: "assets/tools/xreveal.png"
+        url: "https://www.xreveal.com/"
+        target: "_blank" # optional html a tag target attribute        
+        
   - name: "Social"
     icon: "fa-solid fa-message"
     items:
@@ -164,29 +193,20 @@ services:
         logo: "assets/tools/socialpagemanager.png"
         url: "https://apps.microsoft.com/store/detail/social-page-manager/9WZDNCRFJ9N7"
         target: "_blank" # optional html a tag target attribute 
-  - name: "Media"
-    icon: "fa-solid fa-photo-film"
+        
+  - name: "Compression"
+    icon: "fa-solid fa-file-zipper"
     items:
-      - name: "VLC media player"
-        logo: "assets/tools/vlc.png"
-        url: "https://artifacts.videolan.org/vlc/nightly-win64-arm-llvm/"
+      - name: "7-Zip"
+        logo: "assets/tools/7zip.png"
+        url: "https://www.7-zip.org/download.html"
         target: "_blank" # optional html a tag target attribute
 
-      - name: "Netflix"
-        logo: "assets/tools/netflix.png"
-        url: "https://apps.microsoft.com/store/detail/netflix/9WZDNCRFJ3TJ"
+      - name: "Bandizip"
+        logo: "assets/tools/bandizip.png"
+        url: "https://apps.microsoft.com/store/detail/bandizip/9P2W3W81SPPB"
         target: "_blank" # optional html a tag target attribute
-
-      - name: "Handbrake"
-        logo: "assets/tools/handbrake.png"
-        url: "https://handbrake.fr/downloads.php"
-        target: "_blank" # optional html a tag target attribute
-
-      - name: "Spotify"
-        logo: "assets/tools/spotify.png"
-        url: "https://community.spotify.com/t5/Live-Ideas/Desktop-Developer-Spotify-for-Windows-on-Arm-Win32-Desktop-app/idi-p/4992167/page/4#M243280"
-        target: "_blank" # optional html a tag target attribute
-
+        
   - name: "Tools"
     icon: "fa-solid fa-code"
     items:
