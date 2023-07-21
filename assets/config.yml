@@ -68,19 +68,29 @@ services:
   - name: "Web Browsers"
     icon: "fa-brands fa-internet-explorer"
     items:
-      - name: "Firefox Browser"
+      - name: "Mozilla Firefox"
         logo: "assets/tools/firefox.png"
         url: "https://www.mozilla.org/en-GB/firefox/all/#product-desktop-release"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "Microsoft Edge"
+        logo: "assets/tools/edge.png"
+        url: "https://apps.microsoft.com/store/detail/microsoft-edge-browser/XPFFTQ037JWMHS"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "Brave Browser"
         logo: "assets/tools/brave.png"
-        url: "https://github.com/brave/brave-browser/releases/tag/v1.47.9"
+        url: "https://github.com/brave/brave-browser/releases/tag/v1.58.38"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Chromium"
         logo: "assets/tools/chromium.png"
         url: "https://chromium.woolyss.com/#windows-on-arm"
+        target: "_blank" # optional html a tag target attribute
+        
+      - name: "SRWare Iron"
+        logo: "assets/tools/iron.png"
+        url: "https://www.srware.net/forum/viewforum.php?f=18"
         target: "_blank" # optional html a tag target attribute
 
 
