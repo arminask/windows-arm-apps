@@ -110,6 +110,16 @@ services:
         logo: "assets/tools/netflix.png"
         url: "https://apps.microsoft.com/store/detail/netflix/9WZDNCRFJ3TJ"
         target: "_blank" # optional html a tag target attribute
+        
+      - name: "Prime Video"
+        logo: "assets/tools/primevideo.png"
+        url: "https://apps.microsoft.com/store/detail/prime-video-for-windows/9P6RC76MSMMJ"
+        target: "_blank" # optional html a tag target attribute
+        
+      - name: "Disney+"
+        logo: "assets/tools/disneyplus.png"
+        url: "https://apps.microsoft.com/store/detail/disney/9NXQXXLFST89"
+        target: "_blank" # optional html a tag target attribute
 
       - name: "Handbrake"
         logo: "assets/tools/handbrake.png"
@@ -207,27 +217,35 @@ services:
         url: "https://apps.microsoft.com/store/detail/bandizip/9P2W3W81SPPB"
         target: "_blank" # optional html a tag target attribute
         
+  - name: "Office"
+    icon: "fa-solid fa-briefcase"
+    items:
+      - name: "LibreOffice"
+        logo: "assets/tools/libreoffice.png"
+        url: "https://downloadarchive.documentfoundation.org/libreoffice/old/7.6.0.1/win/aarch64/"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Microsoft 365 (Office)"
+        logo: "assets/tools/msoffice365.png"
+        url: "https://apps.microsoft.com/store/detail/microsoft-365-office/9WZDNCRD29V9"
+        target: "_blank" # optional html a tag target attribute
+        
   - name: "Tools"
-    icon: "fa-solid fa-code"
+    icon: "fa-solid fa-screwdriver-wrench"
     items:
       - name: "Filezilla"
         logo: "assets/tools/filezilla.png"
         url: "https://github.com/driver1998/filezilla-woa/releases"
         target: "_blank" # optional html a tag target attribute
-
-      - name: "Github Desktop"
-        logo: "assets/tools/github.png"
-        url: "https://github.com/desktop/desktop#beta-channel"
-        target: "_blank" # optional html a tag target attribute
-
+ 
       - name: "Notepad++"
-        logo: "assets/tools/notepad.png"
+        logo: "assets/tools/notepadplusplus.png"
         url: "https://notepad-plus-plus.org/downloads/"
         target: "_blank" # optional html a tag target attribute
 
-      - name: "Python"
-        logo: "assets/tools/python.png"
-        url: "https://www.python.org/downloads/windows/"
+      - name: "KeePassXC"
+        logo: "assets/tools/keepassxc.png"
+        url: "https://github.com/minnyres/keepassxc-windows-arm64/releases"
         target: "_blank" # optional html a tag target attribute
 
       - name: "PuTTY"
@@ -240,16 +258,11 @@ services:
         url: "https://apps.microsoft.com/store/detail/microsoft-powertoys/XP89DCGQ3K6VLD"
         target: "_blank" # optional html a tag target attribute
 
-      - name: "Visual Studio Code"
-        logo: "assets/tools/visualstudiocode.png"
-        url: "https://apps.microsoft.com/store/detail/visual-studio-code/XP9KHM4BK9FZ7Q"
+      - name: "Rufus"
+        logo: "assets/tools/rufus.png"
+        url: "https://rufus.ie/"
         target: "_blank" # optional html a tag target attribute
-        
-      - name: "Visual Studio Community 2022"
-        logo: "assets/tools/visualstudiocommunity2022.png"
-        url: "https://apps.microsoft.com/store/detail/visual-studio-community-2022/XPDCFJDKLZJLP8"
-        target: "_blank" # optional html a tag target attribute
-
+     
       - name: "Speedtest by Ookla"
         logo: "assets/tools/speedtest.png"
         url: "https://apps.microsoft.com/store/detail/speedtest-by-ookla/9NBLGGH4Z1JC"
@@ -260,8 +273,66 @@ services:
         url: "https://www.geekbench.com/download/"
         target: "_blank" # optional html a tag target attribute
 
+  - name: "Coding"
+    icon: "fa-solid fa-code"
+    items:
+      - name: "CMake"
+        logo: "assets/tools/cmake.png"
+        url: "https://cmake.org/download/"
+        target: "_blank" # optional html a tag target attribute
 
+      - name: "Github Desktop"
+        logo: "assets/tools/githubdesktop.png"
+        url: "https://github.com/desktop/desktop#beta-channel"
+        target: "_blank" # optional html a tag target attribute
 
+      - name: "git"
+        logo: "assets/tools/git.png"
+        url: "https://github.com/dennisameling/git/releases"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Python"
+        logo: "assets/tools/python.png"
+        url: "https://www.python.org/downloads/windows/"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "PowerShell"
+        logo: "assets/tools/powershell.png"
+        url: "https://github.com/PowerShell/PowerShell/releases/"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "OpenJDK (MS builds)"
+        logo: "assets/tools/openjdk.png"
+        url: "https://docs.microsoft.com/en-us/java/openjdk/download"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Visual Studio Code"
+        logo: "assets/tools/visualstudiocode.png"
+        url: "https://apps.microsoft.com/store/detail/visual-studio-code/XP9KHM4BK9FZ7Q"
+        target: "_blank" # optional html a tag target attribute
+        
+      - name: "Visual Studio Community 2022"
+        logo: "assets/tools/visualstudiocommunity2022.png"
+        url: "https://apps.microsoft.com/store/detail/visual-studio-community-2022/XPDCFJDKLZJLP8"
+        target: "_blank" # optional html a tag target attribute
+
+  - name: "Emulation"
+    icon: "fa-solid fa-microchip"
+    items:
+      - name: "DOSBox-X"
+        logo: "assets/tools/dosbox.png"
+        url: "https://github.com/joncampbell123/dosbox-x/releases"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "WinSubsystem for Linux (WSL)"
+        logo: "assets/tools/wsl.png"
+        url: "https://apps.microsoft.com/store/detail/windows-subsystem-for-linux/9P9TQF7MRM4R"
+        target: "_blank" # optional html a tag target attribute
+        
+      - name: "WinSubsystem for Android (WSA)"
+        logo: "assets/tools/wsa.png"
+        url: "https://apps.microsoft.com/store/detail/windows-subsystem-for-android%E2%84%A2-with-amazon-appstore/9P3395VX91NR"
+        target: "_blank" # optional html a tag target attribute
 
   - name: "Other"
     icon: "fa-solid fa-question"
@@ -284,6 +355,16 @@ services:
   - name: "Games"
     icon: "fa-solid fa-gamepad"
     items:
+      - name: "Dolphin"
+        logo: "assets/tools/dolphin.png"
+        url: "https://dolphin-emu.org/download/?ref=btn"
+        target: "_blank" # optional html a tag target attribute
+        
+      - name: "OpenGL Compatibility Pack"
+        logo: "assets/tools/openglcompat.png"
+        url: "https://apps.microsoft.com/store/detail/opencl%E2%84%A2-and-opengl%C2%AE-compatibility-pack/9NQPSL29BFFF"
+        target: "_blank" # optional html a tag target attribute
+        
       - name: "Duolingo"
         logo: "assets/tools/duolingo.png"
         url: "https://apps.microsoft.com/store/detail/duolingo-learn-languages-for-free/9WZDNCRCV5XN"
@@ -292,6 +373,11 @@ services:
       - name: "Heroic Games Launcher"
         logo: "assets/tools/heroic.png"
         url: "https://github.com/Heroic-Games-Launcher/HeroicGamesLauncher/releases"
+        target: "_blank" # optional html a tag target attribute
+        
+      - name: "dgVoodoo (3dfx Glide wrapper)"
+        logo: "assets/tools/dgvoodoo.png"
+        url: "http://dege.freeweb.hu/dgVoodoo2/dgVoodoo2/"
         target: "_blank" # optional html a tag target attribute
 
 
