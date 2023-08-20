@@ -211,6 +211,11 @@ services:
         logo: "assets/tools/gimp.png"
         url: "https://www.gimp.org/downloads/"
         target: "_blank" # optional html a tag target attribute
+        
+      - name: "Paint.NET"
+        logo: "assets/tools/paintnet.png"
+        url: "https://github.com/paintdotnet/release/releases/latest"
+        target: "_blank" # optional html a tag target attribute
 
   - name: "Compression"
     icon: "fa-solid fa-file-zipper"
