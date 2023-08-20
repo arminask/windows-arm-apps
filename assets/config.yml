@@ -204,6 +204,14 @@ services:
         url: "https://apps.microsoft.com/store/detail/social-page-manager/9WZDNCRFJ9N7"
         target: "_blank" # optional html a tag target attribute 
         
+  - name: "Picture Editing & Drawing"
+    icon: "fa-solid fa-paintbrush"
+    items:
+      - name: "GIMP"
+        logo: "assets/tools/gimp.png"
+        url: "https://www.gimp.org/downloads/"
+        target: "_blank" # optional html a tag target attribute
+
   - name: "Compression"
     icon: "fa-solid fa-file-zipper"
     items:
