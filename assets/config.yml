@@ -306,6 +306,11 @@ services:
         url: "https://docs.microsoft.com/en-us/java/openjdk/download"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "DevToys"
+        logo: "assets/tools/devtoys.png"
+        url: "https://devtoys.app/"
+        target: "_blank" # optional html a tag target attribute
+        
       - name: "Visual Studio Code"
         logo: "assets/tools/visualstudiocode.png"
         url: "https://apps.microsoft.com/store/detail/visual-studio-code/XP9KHM4BK9FZ7Q"
