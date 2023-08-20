@@ -268,9 +268,9 @@ services:
         url: "https://apps.microsoft.com/store/detail/speedtest-by-ookla/9NBLGGH4Z1JC"
         target: "_blank" # optional html a tag target attribute
         
-      - name: "Geekbench 5"
+      - name: "Geekbench 6"
         logo: "assets/tools/geekbench5.png"
-        url: "https://www.geekbench.com/download/"
+        url: "https://www.geekbench.com/preview/"
         target: "_blank" # optional html a tag target attribute
 
   - name: "Coding"
