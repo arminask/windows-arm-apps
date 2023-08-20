@@ -222,7 +222,7 @@ services:
     items:
       - name: "LibreOffice"
         logo: "assets/tools/libreoffice.png"
-        url: "https://downloadarchive.documentfoundation.org/libreoffice/old/7.6.0.1/win/aarch64/"
+        url: "https://downloadarchive.documentfoundation.org/libreoffice/old/latest/win/aarch64/"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Microsoft 365 (Office)"
