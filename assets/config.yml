@@ -267,6 +267,11 @@ services:
         logo: "assets/tools/speedtest.png"
         url: "https://apps.microsoft.com/store/detail/speedtest-by-ookla/9NBLGGH4Z1JC"
         target: "_blank" # optional html a tag target attribute
+      
+      - name: "WinMerge"
+        logo: "assets/tools/winmerge.png"
+        url: "https://winmerge.org/downloads/"
+        target: "_blank" # optional html a tag target attribute
         
       - name: "Geekbench 6"
         logo: "assets/tools/geekbench5.png"
