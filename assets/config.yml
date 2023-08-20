@@ -80,7 +80,7 @@ services:
 
       - name: "Brave Browser"
         logo: "assets/tools/brave.png"
-        url: "https://github.com/brave/brave-browser/releases/tag/v1.58.38"
+        url: "https://laptop-updates.brave.com/latest/winarm64"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Chromium"
