@@ -361,6 +361,11 @@ services:
         logo: "assets/tools/moonlight.png"
         url: "https://github.com/moonlight-stream/moonlight-qt/releases/latest"
         target: "_blank" # optional html a tag target attribute
+   
+      - name: "Obsidian"
+        logo: "assets/tools/obsidian.png"
+        url: "https://obsidian.md/download"
+        target: "_blank" # optional html a tag target attribute     
 
   - name: "Games"
     icon: "fa-solid fa-gamepad"
