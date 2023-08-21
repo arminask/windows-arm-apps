@@ -265,6 +265,11 @@ services:
         logo: "assets/tools/putty.png"
         url: "https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html"
         target: "_blank" # optional html a tag target attribute
+        
+      - name: "Files"
+        logo: "assets/tools/files.png"
+        url: "https://files.community/download"
+        target: "_blank" # optional html a tag target attribute
 
       - name: "Microsoft PowerToys"
         logo: "assets/tools/microsoftpowertoys.png"
