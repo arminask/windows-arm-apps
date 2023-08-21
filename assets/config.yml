@@ -310,11 +310,6 @@ services:
         logo: "assets/tools/sysinternals.png"
         url: "https://www.sysinternals.com/downloads"
         target: "_blank" # optional html a tag target attribute
-        
-      - name: "Geekbench 6"
-        logo: "assets/tools/geekbench5.png"
-        url: "https://www.geekbench.com/preview/"
-        target: "_blank" # optional html a tag target attribute
 
   - name: "Coding"
     icon: "fa-solid fa-code"
@@ -392,6 +387,19 @@ services:
         url: "https://apps.microsoft.com/store/detail/windows-subsystem-for-android%E2%84%A2-with-amazon-appstore/9P3395VX91NR"
         target: "_blank" # optional html a tag target attribute
 
+  - name: "Benchmarking & Diagnostics"
+    icon: "fa-solid fa-stopwatch"
+    items: 
+      - name: "Geekbench 6"
+        logo: "assets/tools/geekbench5.png"
+        url: "https://www.geekbench.com/preview/"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "MemTest86"
+        logo: "assets/tools/memtest86.png"
+        url: "https://www.memtest86.com/download.htm"
+        target: "_blank" # optional html a tag target attribute
+        
   - name: "Other"
     icon: "fa-solid fa-question"
     items:
