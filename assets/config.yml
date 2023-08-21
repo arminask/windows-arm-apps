@@ -300,6 +300,11 @@ services:
         logo: "assets/tools/ventoy.png"
         url: "https://www.ventoy.net/en/download.html"
         target: "_blank" # optional html a tag target attribute
+                     
+      - name: "NanaGet"
+        logo: "assets/tools/nanaget.png"
+        url: "https://apps.microsoft.com/store/detail/nanaget/9PD5F2D90LS5"
+        target: "_blank" # optional html a tag target attribute
       
       - name: "WinMerge"
         logo: "assets/tools/winmerge.png"
