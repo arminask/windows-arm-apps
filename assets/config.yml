@@ -216,7 +216,12 @@ services:
         logo: "assets/tools/paintnet.png"
         url: "https://github.com/paintdotnet/release/releases/latest"
         target: "_blank" # optional html a tag target attribute
-        
+          
+      - name: "ScreenToGif"
+        logo: "assets/tools/screentogif.png"
+        url: "https://www.screentogif.com/"
+        target: "_blank" # optional html a tag target attribute
+              
       - name: "Adobe Lightroom"
         logo: "assets/tools/lightroom.png"
         url: "https://apps.microsoft.com/store/detail/adobe-lightroom/XPDP264X2DK8NB"
