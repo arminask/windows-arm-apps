@@ -216,6 +216,16 @@ services:
         logo: "assets/tools/paintnet.png"
         url: "https://github.com/paintdotnet/release/releases/latest"
         target: "_blank" # optional html a tag target attribute
+        
+      - name: "Adobe Lightroom"
+        logo: "assets/tools/lightroom.png"
+        url: "https://apps.microsoft.com/store/detail/adobe-lightroom/XPDP264X2DK8NB"
+        target: "_blank" # optional html a tag target attribute
+                
+      - name: "Adobe Photoshop"
+        logo: "assets/tools/photoshop.png"
+        url: "https://apps.microsoft.com/store/detail/adobe-photoshop/XPFD4T9N395QN6"
+        target: "_blank" # optional html a tag target attribute
 
   - name: "Compression"
     icon: "fa-solid fa-file-zipper"
