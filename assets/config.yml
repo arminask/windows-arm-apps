@@ -276,6 +276,11 @@ services:
         url: "https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html"
         target: "_blank" # optional html a tag target attribute
         
+      - name: "VeraCrypt"
+        logo: "assets/tools/veracrypt.png"
+        url: "https://www.veracrypt.fr/en/Downloads.html"
+        target: "_blank" # optional html a tag target attribute
+        
       - name: "Files"
         logo: "assets/tools/files.png"
         url: "https://files.community/download"
