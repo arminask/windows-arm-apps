@@ -284,6 +284,11 @@ services:
       - name: "Files"
         logo: "assets/tools/files.png"
         url: "https://files.community/download"
+        target: "_blank" # optional html a tag target attribute   
+                
+      - name: "Windows File Manager (WinFile)"
+        logo: "assets/tools/winfile.png"
+        url: "https://apps.microsoft.com/store/detail/windows-file-manager/9P7VBBBC49RB"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Microsoft PowerToys"
