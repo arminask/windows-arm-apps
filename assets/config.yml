@@ -432,6 +432,11 @@ services:
         logo: "assets/tools/moonlight.png"
         url: "https://github.com/moonlight-stream/moonlight-qt/releases/latest"
         target: "_blank" # optional html a tag target attribute
+           
+      - name: "RunCat"
+        logo: "assets/tools/runcat.png"
+        url: "https://github.com/Kyome22/RunCat_for_windows/releases"
+        target: "_blank" # optional html a tag target attribute   
    
       - name: "Obsidian"
         logo: "assets/tools/obsidian.png"
