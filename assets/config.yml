@@ -80,7 +80,7 @@ services:
 
       - name: "Brave Browser"
         logo: "assets/tools/brave.png"
-        url: "https://github.com/brave/brave-browser/releases/tag/v1.58.38"
+        url: "https://laptop-updates.brave.com/latest/winarm64"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Chromium"
@@ -204,6 +204,34 @@ services:
         url: "https://apps.microsoft.com/store/detail/social-page-manager/9WZDNCRFJ9N7"
         target: "_blank" # optional html a tag target attribute 
         
+  - name: "Picture Editing & Drawing"
+    icon: "fa-solid fa-paintbrush"
+    items:
+      - name: "GIMP"
+        logo: "assets/tools/gimp.png"
+        url: "https://www.gimp.org/downloads/"
+        target: "_blank" # optional html a tag target attribute
+        
+      - name: "Paint.NET"
+        logo: "assets/tools/paintnet.png"
+        url: "https://github.com/paintdotnet/release/releases/latest"
+        target: "_blank" # optional html a tag target attribute
+          
+      - name: "ScreenToGif"
+        logo: "assets/tools/screentogif.png"
+        url: "https://www.screentogif.com/"
+        target: "_blank" # optional html a tag target attribute
+              
+      - name: "Adobe Lightroom"
+        logo: "assets/tools/lightroom.png"
+        url: "https://apps.microsoft.com/store/detail/adobe-lightroom/XPDP264X2DK8NB"
+        target: "_blank" # optional html a tag target attribute
+                
+      - name: "Adobe Photoshop"
+        logo: "assets/tools/photoshop.png"
+        url: "https://apps.microsoft.com/store/detail/adobe-photoshop/XPFD4T9N395QN6"
+        target: "_blank" # optional html a tag target attribute
+
   - name: "Compression"
     icon: "fa-solid fa-file-zipper"
     items:
@@ -222,7 +250,7 @@ services:
     items:
       - name: "LibreOffice"
         logo: "assets/tools/libreoffice.png"
-        url: "https://downloadarchive.documentfoundation.org/libreoffice/old/7.6.0.1/win/aarch64/"
+        url: "https://downloadarchive.documentfoundation.org/libreoffice/old/latest/win/aarch64/"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Microsoft 365 (Office)"
@@ -252,6 +280,21 @@ services:
         logo: "assets/tools/putty.png"
         url: "https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html"
         target: "_blank" # optional html a tag target attribute
+        
+      - name: "VeraCrypt"
+        logo: "assets/tools/veracrypt.png"
+        url: "https://www.veracrypt.fr/en/Downloads.html"
+        target: "_blank" # optional html a tag target attribute
+        
+      - name: "Files"
+        logo: "assets/tools/files.png"
+        url: "https://files.community/download"
+        target: "_blank" # optional html a tag target attribute   
+                
+      - name: "Windows File Manager (WinFile)"
+        logo: "assets/tools/winfile.png"
+        url: "https://apps.microsoft.com/store/detail/windows-file-manager/9P7VBBBC49RB"
+        target: "_blank" # optional html a tag target attribute
 
       - name: "Microsoft PowerToys"
         logo: "assets/tools/microsoftpowertoys.png"
@@ -263,14 +306,24 @@ services:
         url: "https://rufus.ie/"
         target: "_blank" # optional html a tag target attribute
      
-      - name: "Speedtest by Ookla"
-        logo: "assets/tools/speedtest.png"
-        url: "https://apps.microsoft.com/store/detail/speedtest-by-ookla/9NBLGGH4Z1JC"
+      - name: "Ventoy"
+        logo: "assets/tools/ventoy.png"
+        url: "https://www.ventoy.net/en/download.html"
         target: "_blank" # optional html a tag target attribute
-        
-      - name: "Geekbench 5"
-        logo: "assets/tools/geekbench5.png"
-        url: "https://www.geekbench.com/download/"
+                     
+      - name: "NanaGet"
+        logo: "assets/tools/nanaget.png"
+        url: "https://apps.microsoft.com/store/detail/nanaget/9PD5F2D90LS5"
+        target: "_blank" # optional html a tag target attribute
+      
+      - name: "WinMerge"
+        logo: "assets/tools/winmerge.png"
+        url: "https://winmerge.org/downloads/"
+        target: "_blank" # optional html a tag target attribute
+              
+      - name: "Sysinternals Suite"
+        logo: "assets/tools/sysinternals.png"
+        url: "https://www.sysinternals.com/downloads"
         target: "_blank" # optional html a tag target attribute
 
   - name: "Coding"
@@ -296,6 +349,11 @@ services:
         url: "https://www.python.org/downloads/windows/"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "JetBrains Rider"
+        logo: "assets/tools/jetbrainsrider.png"
+        url: "https://www.jetbrains.com/rider/download/download-thanks.html?platform=windowsARM64"
+        target: "_blank" # optional html a tag target attribute
+        
       - name: "PowerShell"
         logo: "assets/tools/powershell.png"
         url: "https://github.com/PowerShell/PowerShell/releases/"
@@ -306,6 +364,16 @@ services:
         url: "https://docs.microsoft.com/en-us/java/openjdk/download"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "Node.js"
+        logo: "assets/tools/nodejs.png"
+        url: "https://nodejs.org/en/download/current"
+        target: "_blank" # optional html a tag target attribute
+        
+      - name: "DevToys"
+        logo: "assets/tools/devtoys.png"
+        url: "https://devtoys.app/"
+        target: "_blank" # optional html a tag target attribute
+        
       - name: "Visual Studio Code"
         logo: "assets/tools/visualstudiocode.png"
         url: "https://apps.microsoft.com/store/detail/visual-studio-code/XP9KHM4BK9FZ7Q"
@@ -334,6 +402,24 @@ services:
         url: "https://apps.microsoft.com/store/detail/windows-subsystem-for-android%E2%84%A2-with-amazon-appstore/9P3395VX91NR"
         target: "_blank" # optional html a tag target attribute
 
+  - name: "Benchmarking & Diagnostics"
+    icon: "fa-solid fa-stopwatch"
+    items: 
+      - name: "Geekbench 6"
+        logo: "assets/tools/geekbench5.png"
+        url: "https://www.geekbench.com/preview/"
+        target: "_blank" # optional html a tag target attribute
+             
+      - name: "Speedtest by Ookla"
+        logo: "assets/tools/speedtest.png"
+        url: "https://apps.microsoft.com/store/detail/speedtest-by-ookla/9NBLGGH4Z1JC"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "MemTest86"
+        logo: "assets/tools/memtest86.png"
+        url: "https://www.memtest86.com/download.htm"
+        target: "_blank" # optional html a tag target attribute
+        
   - name: "Other"
     icon: "fa-solid fa-question"
     items:
@@ -351,6 +437,16 @@ services:
         logo: "assets/tools/moonlight.png"
         url: "https://github.com/moonlight-stream/moonlight-qt/releases/latest"
         target: "_blank" # optional html a tag target attribute
+           
+      - name: "RunCat"
+        logo: "assets/tools/runcat.png"
+        url: "https://github.com/Kyome22/RunCat_for_windows/releases"
+        target: "_blank" # optional html a tag target attribute   
+   
+      - name: "Obsidian"
+        logo: "assets/tools/obsidian.png"
+        url: "https://obsidian.md/download"
+        target: "_blank" # optional html a tag target attribute     
 
   - name: "Games"
     icon: "fa-solid fa-gamepad"
