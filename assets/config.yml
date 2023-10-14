@@ -405,9 +405,9 @@ services:
   - name: "Benchmarking & Diagnostics"
     icon: "fa-solid fa-stopwatch"
     items: 
-      - name: "Geekbench 6"
-        logo: "assets/tools/geekbench5.png"
-        url: "https://www.geekbench.com/preview/"
+      - name: "Geekbench"
+        logo: "assets/tools/geekbench6.png"
+        url: "https://www.geekbench.com/download/"
         target: "_blank" # optional html a tag target attribute
              
       - name: "Speedtest by Ookla"
