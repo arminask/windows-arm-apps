@@ -410,7 +410,7 @@ services:
         url: "https://www.geekbench.com/download/"
         target: "_blank" # optional html a tag target attribute
         
-        - name: "Cinebench"
+      - name: "Cinebench"
         logo: "assets/tools/cinebench.png"
         url: "https://www.maxon.net/de/downloads/cinebench-2024-downloads"
         target: "_blank" # optional html a tag target attribute   
