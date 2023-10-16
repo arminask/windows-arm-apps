@@ -405,11 +405,21 @@ services:
   - name: "Benchmarking & Diagnostics"
     icon: "fa-solid fa-stopwatch"
     items: 
-      - name: "Geekbench 6"
-        logo: "assets/tools/geekbench5.png"
-        url: "https://www.geekbench.com/preview/"
+      - name: "Geekbench"
+        logo: "assets/tools/geekbench6.png"
+        url: "https://www.geekbench.com/download/"
         target: "_blank" # optional html a tag target attribute
-             
+        
+      - name: "Cinebench"
+        logo: "assets/tools/cinebench.png"
+        url: "https://www.maxon.net/de/downloads/cinebench-2024-downloads"
+        target: "_blank" # optional html a tag target attribute   
+        
+      - name: "GFXBench"
+        logo: "assets/tools/gfxbench.png"
+        url: "https://gfxbench.com/windows-arm-download"
+        target: "_blank" # optional html a tag target attribute   
+        
       - name: "Speedtest by Ookla"
         logo: "assets/tools/speedtest.png"
         url: "https://apps.microsoft.com/store/detail/speedtest-by-ookla/9NBLGGH4Z1JC"
