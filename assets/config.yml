@@ -268,7 +268,7 @@ services:
     items:
       - name: "Filezilla"
         logo: "assets/tools/filezilla.png"
-        url: "https://github.com/driver1998/filezilla-woa/releases"
+        url: "https://github.com/minnyres/filezilla-windows-arm64/releases"
         target: "_blank" # optional html a tag target attribute
  
       - name: "Notepad++"
