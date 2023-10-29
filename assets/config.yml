@@ -253,6 +253,11 @@ services:
         url: "https://downloadarchive.documentfoundation.org/libreoffice/old/latest/win/aarch64/"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "SumatraPDF "
+        logo: "assets/tools/sumatrapdf.png"
+        url: "https://www.sumatrapdfreader.org/download-free-pdf-viewer"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "Microsoft 365 (Office)"
         logo: "assets/tools/msoffice365.png"
         url: "https://apps.microsoft.com/store/detail/microsoft-365-office/9WZDNCRD29V9"
