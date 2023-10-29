@@ -424,7 +424,17 @@ services:
         logo: "assets/tools/gfxbench.png"
         url: "https://gfxbench.com/windows-arm-download"
         target: "_blank" # optional html a tag target attribute   
-        
+                    
+      - name: "CrystalDiskInfo"
+        logo: "assets/tools/crystaldiskinfo.png"
+        url: "https://crystalmark.info/en/download/"
+        target: "_blank" # optional html a tag target attribute   
+                               
+      - name: "CrystalDiskMark"
+        logo: "assets/tools/crystaldiskmark.png"
+        url: "https://crystalmark.info/en/download/"
+        target: "_blank" # optional html a tag target attribute   
+       
       - name: "Speedtest by Ookla"
         logo: "assets/tools/speedtest.png"
         url: "https://apps.microsoft.com/store/detail/speedtest-by-ookla/9NBLGGH4Z1JC"
