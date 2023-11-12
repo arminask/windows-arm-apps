@@ -254,9 +254,15 @@ services:
         url: "https://downloadarchive.documentfoundation.org/libreoffice/old/latest/win/aarch64/"
         target: "_blank" # optional html a tag target attribute
 
-      - name: "SumatraPDF "
+      - name: "SumatraPDF"
         logo: "assets/tools/sumatrapdf.png"
         url: "https://www.sumatrapdfreader.org/download-free-pdf-viewer"
+        target: "_blank" # optional html a tag target attribute
+        
+      - name: "QZ Tray"
+        logo: "assets/tools/qztray.png"
+        tag: "Java"
+        url: "https://qz.io/download/"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Microsoft 365 (Office)"
