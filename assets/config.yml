@@ -103,6 +103,7 @@ services:
         
       - name: "foobar2000"
         logo: "assets/tools/foobar2000.png"
+        tag: "ARM64EC"
         url: "https://www.foobar2000.org/download"
         target: "_blank" # optional html a tag target attribute
         
@@ -260,6 +261,7 @@ services:
 
       - name: "Microsoft 365 (Office)"
         logo: "assets/tools/msoffice365.png"
+        tag: "ARM64EC"
         url: "https://apps.microsoft.com/store/detail/microsoft-365-office/9WZDNCRD29V9"
         target: "_blank" # optional html a tag target attribute
         
@@ -268,6 +270,7 @@ services:
     items:
       - name: "Filezilla"
         logo: "assets/tools/filezilla.png"
+        subtitle: "unofficial builds"
         url: "https://github.com/minnyres/filezilla-windows-arm64/releases"
         target: "_blank" # optional html a tag target attribute
  
@@ -278,6 +281,7 @@ services:
 
       - name: "KeePassXC"
         logo: "assets/tools/keepassxc.png"
+        subtitle: "unofficial builds"
         url: "https://github.com/minnyres/keepassxc-windows-arm64/releases"
         target: "_blank" # optional html a tag target attribute
 
@@ -389,7 +393,7 @@ services:
         url: "https://apps.microsoft.com/store/detail/visual-studio-community-2022/XPDCFJDKLZJLP8"
         target: "_blank" # optional html a tag target attribute
 
-  - name: "Emulation"
+  - name: "Emulation & Virtualisation"
     icon: "fa-solid fa-microchip"
     items:
       - name: "DOSBox-X"
@@ -437,11 +441,13 @@ services:
        
       - name: "Speedtest by Ookla"
         logo: "assets/tools/speedtest.png"
+        tag: "ARM32"
         url: "https://apps.microsoft.com/store/detail/speedtest-by-ookla/9NBLGGH4Z1JC"
         target: "_blank" # optional html a tag target attribute
 
       - name: "MemTest86"
         logo: "assets/tools/memtest86.png"
+        tag: "UEFI boot"
         url: "https://www.memtest86.com/download.htm"
         target: "_blank" # optional html a tag target attribute
         
@@ -483,6 +489,7 @@ services:
         
       - name: "RetriXGold"
         logo: "assets/tools/retrixgold.png"
+        tag: "ARM32"
         url: "https://github.com/basharast/RetrixGold/releases"
         target: "_blank" # optional html a tag target attribute
        
