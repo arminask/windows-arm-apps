@@ -92,6 +92,11 @@ services:
         logo: "assets/tools/iron.png"
         url: "https://www.srware.net/forum/viewforum.php?f=18"
         target: "_blank" # optional html a tag target attribute
+       
+      - name: "Thorium"
+        logo: "assets/tools/thorium.png"
+        url: "https://github.com/Alex313031/Thorium-WOA/releases"
+        target: "_blank" # optional html a tag target attribute
 
   - name: "Media"
     icon: "fa-solid fa-photo-film"
