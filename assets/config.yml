@@ -132,6 +132,12 @@ services:
         url: "https://community.spotify.com/t5/Live-Ideas/Desktop-Developer-Spotify-for-Windows-on-Arm-Win32-Desktop-app/idi-p/4992167/page/4#M243280"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "Audacity"
+        logo: "assets/tools/audacity.png"
+        subtitle: "unofficial builds"
+        url: "https://github.com/henricj/audacity/releases/tag/latest-arm64"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "DVDForge"
         logo: "assets/tools/dvdforge.png"
         url: "https://www.yubsoft.com/dvdforge/"
