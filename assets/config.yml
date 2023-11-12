@@ -341,7 +341,7 @@ services:
 
       - name: "Github Desktop"
         logo: "assets/tools/githubdesktop.png"
-        url: "https://github.com/desktop/desktop#beta-channel"
+        url: "https://central.github.com/deployments/desktop/desktop/latest/win32-arm64"
         target: "_blank" # optional html a tag target attribute
 
       - name: "git"
