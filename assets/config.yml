@@ -221,8 +221,13 @@ services:
       - name: "ScreenToGif"
         logo: "assets/tools/screentogif.png"
         url: "https://www.screentogif.com/"
+        target: "_blank" # optional html a tag target attribute          
+                        
+      - name: "VueScan"
+        logo: "assets/tools/vuescan.png"
+        url: "https://www.hamrick.com/alternate-versions.html"
         target: "_blank" # optional html a tag target attribute
-              
+          
       - name: "Adobe Lightroom"
         logo: "assets/tools/lightroom.png"
         url: "https://apps.microsoft.com/store/detail/adobe-lightroom/XPDP264X2DK8NB"
