@@ -295,12 +295,6 @@ services:
   - name: "Tools"
     icon: "fa-solid fa-screwdriver-wrench"
     items:
-      - name: "Filezilla"
-        logo: "assets/tools/filezilla.png"
-        subtitle: "unofficial builds"
-        url: "https://github.com/minnyres/filezilla-windows-arm64/releases"
-        target: "_blank" # optional html a tag target attribute
- 
       - name: "Notepad++"
         logo: "assets/tools/notepadplusplus.png"
         url: "https://notepad-plus-plus.org/downloads/"
@@ -312,11 +306,6 @@ services:
         url: "https://github.com/minnyres/keepassxc-windows-arm64/releases"
         target: "_blank" # optional html a tag target attribute
 
-      - name: "PuTTY"
-        logo: "assets/tools/putty.png"
-        url: "https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html"
-        target: "_blank" # optional html a tag target attribute
-        
       - name: "VeraCrypt"
         logo: "assets/tools/veracrypt.png"
         url: "https://www.veracrypt.fr/en/Downloads.html"
@@ -346,12 +335,7 @@ services:
         logo: "assets/tools/ventoy.png"
         url: "https://www.ventoy.net/en/download.html"
         target: "_blank" # optional html a tag target attribute
-                     
-      - name: "NanaGet"
-        logo: "assets/tools/nanaget.png"
-        url: "https://apps.microsoft.com/store/detail/nanaget/9PD5F2D90LS5"
-        target: "_blank" # optional html a tag target attribute
-      
+
       - name: "WinMerge"
         logo: "assets/tools/winmerge.png"
         url: "https://winmerge.org/downloads/"
@@ -361,7 +345,26 @@ services:
         logo: "assets/tools/sysinternals.png"
         url: "https://www.sysinternals.com/downloads"
         target: "_blank" # optional html a tag target attribute
-
+  
+  - name: "Network & Cloud Storage"
+    icon: "fa-solid fa-network-wired"
+    items:
+      - name: "Filezilla"
+        logo: "assets/tools/filezilla.png"
+        subtitle: "unofficial builds"
+        url: "https://github.com/minnyres/filezilla-windows-arm64/releases"
+        target: "_blank" # optional html a tag target attribute
+ 
+      - name: "PuTTY"
+        logo: "assets/tools/putty.png"
+        url: "https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html"
+        target: "_blank" # optional html a tag target attribute
+                     
+      - name: "NanaGet"
+        logo: "assets/tools/nanaget.png"
+        url: "https://apps.microsoft.com/store/detail/nanaget/9PD5F2D90LS5"
+        target: "_blank" # optional html a tag target attribute
+              
   - name: "Coding"
     icon: "fa-solid fa-code"
     items:
