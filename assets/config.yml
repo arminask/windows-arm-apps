@@ -364,7 +364,13 @@ services:
         logo: "assets/tools/nanaget.png"
         url: "https://apps.microsoft.com/store/detail/nanaget/9PD5F2D90LS5"
         target: "_blank" # optional html a tag target attribute
-              
+                     
+      - name: "curl"
+        logo: "assets/tools/curl.png"
+        subtitle: "OS-included since Windows 10 version 1803"
+        url: "https://curl.se/windows/"
+        target: "_blank" # optional html a tag target attribute
+                         
   - name: "Coding"
     icon: "fa-solid fa-code"
     items:
