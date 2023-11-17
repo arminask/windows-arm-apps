@@ -514,6 +514,11 @@ services:
         url: "https://dolphin-emu.org/download/?ref=btn"
         target: "_blank" # optional html a tag target attribute
         
+      - name: "PPSSPP"
+        logo: "assets/tools/ppspp.png"
+        url: "https://www.ppsspp.org/download/"
+        target: "_blank" # optional html a tag target attribute
+        
       - name: "RetriXGold"
         logo: "assets/tools/retrixgold.png"
         tag: "ARM32"
