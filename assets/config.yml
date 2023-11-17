@@ -405,6 +405,11 @@ services:
         url: "https://nodejs.org/en/download/current"
         target: "_blank" # optional html a tag target attribute
         
+      - name: "Electron"
+        logo: "assets/tools/electron.png"
+        url: "https://github.com/electron/electron/releases"
+        target: "_blank" # optional html a tag target attribute
+        
       - name: "DevToys"
         logo: "assets/tools/devtoys.png"
         url: "https://devtoys.app/"
