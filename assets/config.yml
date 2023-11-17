@@ -279,7 +279,13 @@ services:
         logo: "assets/tools/sumatrapdf.png"
         url: "https://www.sumatrapdfreader.org/download-free-pdf-viewer"
         target: "_blank" # optional html a tag target attribute
-        
+
+      - name: "TeXstudio"
+        logo: "assets/tools/texstudio.png"
+        subtitle: "unofficial builds"
+        url: "https://github.com/minnyres/texstudio-windows-arm64/releases"
+        target: "_blank" # optional html a tag target attribute
+                
       - name: "QZ Tray"
         logo: "assets/tools/qztray.png"
         tag: "Java"
