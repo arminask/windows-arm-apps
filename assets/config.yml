@@ -365,6 +365,12 @@ services:
         url: "https://apps.microsoft.com/store/detail/nanaget/9PD5F2D90LS5"
         target: "_blank" # optional html a tag target attribute
                      
+      - name: "aria2"
+        logo: "assets/tools/clionly.png"
+        subtitle: "unofficial builds"
+        url: "https://github.com/minnyres/aria2-windows-arm64/releases"
+        target: "_blank" # optional html a tag target attribute
+                         
       - name: "curl"
         logo: "assets/tools/curl.png"
         subtitle: "OS-included since Windows 10 version 1803"
