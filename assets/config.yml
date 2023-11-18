@@ -255,6 +255,11 @@ services:
         url: "https://apps.microsoft.com/store/detail/adobe-photoshop/XPFD4T9N395QN6"
         target: "_blank" # optional html a tag target attribute
                         
+      - name: "Concepts"
+        logo: "assets/tools/concepts.png"
+        url: "https://apps.microsoft.com/detail/concepts/9NGQM8FPH9WQ"
+        target: "_blank" # optional html a tag target attribute
+                            
       - name: "Leonardo"
         logo: "assets/tools/leonardo.png"
         url: "https://www.getleonardo.com/download/"
