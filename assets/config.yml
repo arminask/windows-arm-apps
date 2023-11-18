@@ -596,7 +596,7 @@ services:
         target: "_blank" # optional html a tag target attribute
         
       - name: "PPSSPP"
-        logo: "assets/tools/ppspp.png"
+        logo: "assets/tools/ppsspp.png"
         url: "https://www.ppsspp.org/download/"
         target: "_blank" # optional html a tag target attribute
         
