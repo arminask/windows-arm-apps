@@ -576,12 +576,7 @@ services:
         logo: "assets/tools/windowsmaps.png"
         url: "https://apps.microsoft.com/store/detail/windows-maps/9WZDNCRDTBVB"
         target: "_blank" # optional html a tag target attribute
-        
-      - name: "Moonlight Client"
-        logo: "assets/tools/moonlight.png"
-        url: "https://github.com/moonlight-stream/moonlight-qt/releases/latest"
-        target: "_blank" # optional html a tag target attribute
-           
+     
       - name: "RunCat"
         logo: "assets/tools/runcat.png"
         url: "https://github.com/Kyome22/RunCat_for_windows/releases"
@@ -631,9 +626,22 @@ services:
         logo: "assets/tools/heroic.png"
         url: "https://github.com/Heroic-Games-Launcher/HeroicGamesLauncher/releases"
         target: "_blank" # optional html a tag target attribute
-        
-      - name: "dgVoodoo (3dfx Glide wrapper)"
+
+      - name: "Xbox"
+        logo: "assets/tools/xbox.png"
+        subtitle: "cloud game streaming"
+        url: "https://apps.microsoft.com/detail/xbox/9MV0B5HZVK9Z"
+        target: "_blank" # optional html a tag target attribute
+            
+      - name: "Moonlight Client"
+        logo: "assets/tools/moonlight.png"
+        subtitle: "remote & local game streaming"
+        url: "https://github.com/moonlight-stream/moonlight-qt/releases/latest"
+        target: "_blank" # optional html a tag target attribute
+              
+      - name: "dgVoodoo"
         logo: "assets/tools/dgvoodoo.png"
+        subtitle: "3dfx Glide & DirectX wrapper"
         url: "http://dege.freeweb.hu/dgVoodoo2/dgVoodoo2/"
         target: "_blank" # optional html a tag target attribute
 
