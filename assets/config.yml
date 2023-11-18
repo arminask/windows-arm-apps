@@ -111,7 +111,13 @@ services:
         tag: "ARM64EC"
         url: "https://www.foobar2000.org/download"
         target: "_blank" # optional html a tag target attribute
-        
+         
+      - name: "mpv"
+        logo: "assets/tools/mpv.png"
+        subtitle: "unofficial builds / use 'mpv.exe --hwdec'"
+        url: "https://github.com/minnyres/mpv-windows-arm64/releases"
+        target: "_blank" # optional html a tag target attribute
+             
       - name: "Netflix"
         logo: "assets/tools/netflix.png"
         url: "https://apps.microsoft.com/store/detail/netflix/9WZDNCRFJ3TJ"
