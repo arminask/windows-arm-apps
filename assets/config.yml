@@ -387,7 +387,12 @@ services:
         logo: "assets/tools/putty.png"
         url: "https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html"
         target: "_blank" # optional html a tag target attribute
-                     
+ 
+      - name: "OneDrive"
+        logo: "assets/tools/onedrive.png"
+        url: "https://apps.microsoft.com/detail/onedrive/9WZDNCRFJ1P3"
+        target: "_blank" # optional html a tag target attribute
+                         
       - name: "NanaGet"
         logo: "assets/tools/nanaget.png"
         url: "https://apps.microsoft.com/store/detail/nanaget/9PD5F2D90LS5"
