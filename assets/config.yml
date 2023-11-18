@@ -615,7 +615,13 @@ services:
         logo: "assets/tools/openglcompat.png"
         url: "https://apps.microsoft.com/store/detail/opencl%E2%84%A2-and-opengl%C2%AE-compatibility-pack/9NQPSL29BFFF"
         target: "_blank" # optional html a tag target attribute
-        
+         
+      - name: "ScummVM"
+        logo: "assets/tools/scummvm.png"
+        subtitle: "unofficial builds"
+        url: "https://github.com/janisozaur/arm64-binaries/releases/tag/ScummVM-aarch64"
+        target: "_blank" # optional html a tag target attribute
+             
       - name: "Duolingo"
         logo: "assets/tools/duolingo.png"
         url: "https://apps.microsoft.com/store/detail/duolingo-learn-languages-for-free/9WZDNCRCV5XN"
