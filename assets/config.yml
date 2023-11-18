@@ -401,7 +401,12 @@ services:
         subtitle: "OS-included since Windows 10 version 1803"
         url: "https://curl.se/windows/"
         target: "_blank" # optional html a tag target attribute
-                         
+                     
+      - name: "Wireshark"
+        logo: "assets/tools/wireshark.png"
+        url: "https://www.wireshark.org/download.html"
+        target: "_blank" # optional html a tag target attribute
+                                
   - name: "Coding"
     icon: "fa-solid fa-code"
     items:
