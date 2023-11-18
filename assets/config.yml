@@ -478,6 +478,11 @@ services:
         url: "https://github.com/joncampbell123/dosbox-x/releases"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "Sandboxie Plus"
+        logo: "assets/tools/sandboxieplus.png"
+        url: "https://sandboxie-plus.com/downloads/"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "WinSubsystem for Linux (WSL)"
         logo: "assets/tools/wsl.png"
         url: "https://apps.microsoft.com/store/detail/windows-subsystem-for-linux/9P9TQF7MRM4R"
