@@ -364,6 +364,11 @@ services:
         url: "https://winmerge.org/downloads/"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "Notepad2"
+        logo: "assets/tools/notepad2.png"
+        url: "https://github.com/zufuliu/notepad2/releases"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "Everything"
         logo: "assets/tools/everything.png"
         url: "https://www.voidtools.com/downloads/"
