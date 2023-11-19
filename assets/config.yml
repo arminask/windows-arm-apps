@@ -429,7 +429,7 @@ services:
                                   
       - name: "curl"
         logo: "assets/tools/curl.png"
-        subtitle: "OS-included since Windows 10 version 1803"
+        subtitle: "OS-included since Win10 v1803"
         url: "https://curl.se/windows/"
         target: "_blank" # optional html a tag target attribute
                      
@@ -471,8 +471,9 @@ services:
         url: "https://github.com/PowerShell/PowerShell/releases/"
         target: "_blank" # optional html a tag target attribute
 
-      - name: "OpenJDK (MS builds)"
+      - name: "MS OpenJDK"
         logo: "assets/tools/openjdk.png"
+        subtitle: "Microsoft builds"
         url: "https://docs.microsoft.com/en-us/java/openjdk/download"
         target: "_blank" # optional html a tag target attribute
 
@@ -514,13 +515,15 @@ services:
         url: "https://sandboxie-plus.com/downloads/"
         target: "_blank" # optional html a tag target attribute
 
-      - name: "WinSubsystem for Linux (WSL)"
+      - name: "WSL"
         logo: "assets/tools/wsl.png"
+        subtitle: "Windows Subsystem for Linux"
         url: "https://apps.microsoft.com/store/detail/windows-subsystem-for-linux/9P9TQF7MRM4R"
         target: "_blank" # optional html a tag target attribute
         
-      - name: "WinSubsystem for Android (WSA)"
+      - name: "WSA"
         logo: "assets/tools/wsa.png"
+        subtitle: "Windows Subsystem for Android"
         url: "https://apps.microsoft.com/store/detail/windows-subsystem-for-android%E2%84%A2-with-amazon-appstore/9P3395VX91NR"
         target: "_blank" # optional html a tag target attribute
 
