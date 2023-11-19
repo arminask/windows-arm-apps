@@ -501,7 +501,7 @@ services:
         url: "https://apps.microsoft.com/store/detail/visual-studio-community-2022/XPDCFJDKLZJLP8"
         target: "_blank" # optional html a tag target attribute
 
-  - name: "Emulation & Virtualisation"
+  - name: "Emulation & Virtualization"
     icon: "fa-solid fa-microchip"
     items:
       - name: "DOSBox-X"
