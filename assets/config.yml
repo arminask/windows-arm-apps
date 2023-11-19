@@ -483,6 +483,12 @@ services:
         url: "https://docs.microsoft.com/en-us/java/openjdk/download"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "Liberica OpenJDK (+Java RE)"
+        logo: "assets/tools/openjdk.png"
+        subtitle: "BellSoft builds"
+        url: "https://bell-sw.com/pages/downloads/?os=windows&architecture=arm"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "Node.js"
         logo: "assets/tools/nodejs.png"
         url: "https://nodejs.org/en/download/current"
