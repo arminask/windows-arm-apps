@@ -149,6 +149,12 @@ services:
         url: "https://github.com/henricj/audacity/releases/tag/latest-arm64"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "Kodi"
+        logo: "assets/tools/kodi.png"
+        tag: "ARM32"
+        url: "https://mirrors.kodi.tv/nightlies/windows/uwp-arm/Nexus/"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "DVDForge"
         logo: "assets/tools/dvdforge.png"
         url: "https://www.yubsoft.com/dvdforge/"
