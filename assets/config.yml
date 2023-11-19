@@ -575,7 +575,13 @@ services:
         
   - name: "Other"
     icon: "fa-solid fa-question"
-    items:
+    items:          
+      - name: "DBeaver"
+        logo: "assets/tools/dbeaver.png"
+        subtitle: "unofficial builds"
+        url: "https://github.com/chirontt/dbeaver/releases"
+        target: "_blank" # optional html a tag target attribute
+    
       - name: "Phone Link"
         logo: "assets/tools/phonelink.png"
         url: "https://apps.microsoft.com/store/detail/phone-link/9NMPJ99VJBWV"
