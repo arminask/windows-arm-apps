@@ -459,7 +459,14 @@ services:
 
       - name: "git"
         logo: "assets/tools/git.png"
+        subtitle: "unofficial builds"
         url: "https://github.com/dennisameling/git/releases"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Git Extensions"
+        logo: "assets/tools/gitextensions.png"
+        subtitle: "unofficial builds"
+        url: "https://github.com/chirontt/gitextensions/releases"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Python"
