@@ -277,7 +277,12 @@ services:
         logo: "assets/tools/bandizip.png"
         url: "https://apps.microsoft.com/store/detail/bandizip/9P2W3W81SPPB"
         target: "_blank" # optional html a tag target attribute
-        
+
+      - name: "NanaZip"
+        logo: "assets/tools/nanazip.png"
+        url: "https://apps.microsoft.com/detail/nanazip/9N8G7TSCL18R"
+        target: "_blank" # optional html a tag target attribute
+
   - name: "Office"
     icon: "fa-solid fa-briefcase"
     items:
@@ -384,6 +389,11 @@ services:
         url: "https://www.sysinternals.com/downloads"
         target: "_blank" # optional html a tag target attribute
   
+      - name: "EnergyStar X"
+        logo: "assets/tools/energystarx.png"
+        url: "https://apps.microsoft.com/detail/9NF7JTB3B17P"
+        target: "_blank" # optional html a tag target attribute
+
   - name: "Network & Cloud Storage"
     icon: "fa-solid fa-network-wired"
     items:
@@ -437,7 +447,11 @@ services:
         logo: "assets/tools/wireshark.png"
         url: "https://www.wireshark.org/download.html"
         target: "_blank" # optional html a tag target attribute
-                                
+
+      - name: "OpenVPN"
+        logo: "assets/tools/openvpn.png"
+        url: "https://openvpn.net/community-downloads/"
+        target: "_blank" # optional html a tag target attribute
   - name: "Coding"
     icon: "fa-solid fa-code"
     items:
@@ -499,6 +513,11 @@ services:
       - name: "Visual Studio Community 2022"
         logo: "assets/tools/visualstudiocommunity2022.png"
         url: "https://apps.microsoft.com/store/detail/visual-studio-community-2022/XPDCFJDKLZJLP8"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Windows Terminal"
+        logo: "assets/tools/windowsterminal.png"
+        url: "https://aka.ms/terminal"
         target: "_blank" # optional html a tag target attribute
 
   - name: "Emulation & Virtualization"
