@@ -149,6 +149,12 @@ services:
         url: "https://github.com/henricj/audacity/releases/tag/latest-arm64"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "Kodi"
+        logo: "assets/tools/kodi.png"
+        tag: "ARM32"
+        url: "https://mirrors.kodi.tv/nightlies/windows/uwp-arm/Nexus/"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "DVDForge"
         logo: "assets/tools/dvdforge.png"
         url: "https://www.yubsoft.com/dvdforge/"
@@ -439,7 +445,7 @@ services:
                                   
       - name: "curl"
         logo: "assets/tools/curl.png"
-        subtitle: "OS-included since Windows 10 version 1803"
+        subtitle: "OS-included since Win10 v1803"
         url: "https://curl.se/windows/"
         target: "_blank" # optional html a tag target attribute
                      
@@ -467,7 +473,14 @@ services:
 
       - name: "git"
         logo: "assets/tools/git.png"
+        subtitle: "unofficial builds"
         url: "https://github.com/dennisameling/git/releases"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Git Extensions"
+        logo: "assets/tools/gitextensions.png"
+        subtitle: "unofficial builds"
+        url: "https://github.com/chirontt/gitextensions/releases"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Python"
@@ -485,9 +498,22 @@ services:
         url: "https://github.com/PowerShell/PowerShell/releases/"
         target: "_blank" # optional html a tag target attribute
 
-      - name: "OpenJDK (MS builds)"
+      - name: "MS OpenJDK"
         logo: "assets/tools/openjdk.png"
+        subtitle: "Microsoft builds"
         url: "https://docs.microsoft.com/en-us/java/openjdk/download"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Liberica OpenJDK (+Java RE)"
+        logo: "assets/tools/openjdk.png"
+        subtitle: "BellSoft builds"
+        url: "https://bell-sw.com/pages/downloads/?os=windows&architecture=arm"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Zulu OpenJDK (+Java RE)"
+        logo: "assets/tools/openjdk.png"
+        subtitle: "Azul builds"
+        url: "https://www.azul.com/downloads/?os=windows&architecture=arm-64-bit"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Node.js"
@@ -533,13 +559,15 @@ services:
         url: "https://sandboxie-plus.com/downloads/"
         target: "_blank" # optional html a tag target attribute
 
-      - name: "WinSubsystem for Linux (WSL)"
+      - name: "WSL"
         logo: "assets/tools/wsl.png"
+        subtitle: "Windows Subsystem for Linux"
         url: "https://apps.microsoft.com/store/detail/windows-subsystem-for-linux/9P9TQF7MRM4R"
         target: "_blank" # optional html a tag target attribute
         
-      - name: "WinSubsystem for Android (WSA)"
+      - name: "WSA"
         logo: "assets/tools/wsa.png"
+        subtitle: "Windows Subsystem for Android"
         url: "https://apps.microsoft.com/store/detail/windows-subsystem-for-android%E2%84%A2-with-amazon-appstore/9P3395VX91NR"
         target: "_blank" # optional html a tag target attribute
 
@@ -585,7 +613,13 @@ services:
         
   - name: "Other"
     icon: "fa-solid fa-question"
-    items:
+    items:          
+      - name: "DBeaver"
+        logo: "assets/tools/dbeaver.png"
+        subtitle: "unofficial builds"
+        url: "https://github.com/chirontt/dbeaver/releases"
+        target: "_blank" # optional html a tag target attribute
+    
       - name: "Phone Link"
         logo: "assets/tools/phonelink.png"
         url: "https://apps.microsoft.com/store/detail/phone-link/9NMPJ99VJBWV"
