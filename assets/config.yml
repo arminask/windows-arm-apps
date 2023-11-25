@@ -394,7 +394,12 @@ services:
         logo: "assets/tools/sysinternals.png"
         url: "https://www.sysinternals.com/downloads"
         target: "_blank" # optional html a tag target attribute
-  
+                        
+      - name: "WebView2 Runtime"
+        logo: "assets/tools/edge.png"
+        url: "https://developer.microsoft.com/en-us/microsoft-edge/webview2/#download"
+        target: "_blank" # optional html a tag target attribute
+    
       - name: "EnergyStar X"
         logo: "assets/tools/energystarx.png"
         url: "https://apps.microsoft.com/detail/9NF7JTB3B17P"
