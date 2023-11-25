@@ -240,7 +240,12 @@ services:
         logo: "assets/tools/paintnet.png"
         url: "https://github.com/paintdotnet/release/releases/latest"
         target: "_blank" # optional html a tag target attribute
-          
+        
+      - name: "ImageGlass"
+        logo: "assets/tools/imageglass.png"
+        url: "https://github.com/d2phap/ImageGlass/releases"
+        target: "_blank" # optional html a tag target attribute
+             
       - name: "ScreenToGif"
         logo: "assets/tools/screentogif.png"
         url: "https://www.screentogif.com/"
