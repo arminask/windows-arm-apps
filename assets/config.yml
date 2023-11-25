@@ -590,7 +590,13 @@ services:
         subtitle: "Windows Subsystem for Android"
         url: "https://apps.microsoft.com/store/detail/windows-subsystem-for-android%E2%84%A2-with-amazon-appstore/9P3395VX91NR"
         target: "_blank" # optional html a tag target attribute
-
+        
+      - name: "WSABuilds (pimped WSA)"
+        logo: "assets/tools/wsabuilds.png"
+        subtitle: "unofficial builds with Magisk & MindTheGapps"
+        url: "https://github.com/MustardChef/WSABuilds/releases"
+        target: "_blank" # optional html a tag target attribute
+        
   - name: "Benchmarking & Diagnostics"
     icon: "fa-solid fa-stopwatch"
     items: 
