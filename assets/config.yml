@@ -203,6 +203,12 @@ services:
         url: "https://apps.microsoft.com/store/detail/microsoft-teams/XP8BT8DW290MPQ"
         target: "_blank" # optional html a tag target attribute
         
+      - name: "Signal"
+        logo: "assets/tools/signal.png"
+        subtitle: "unofficial builds"
+        url: "https://github.com/dennisameling/Signal-Desktop/releases"
+        target: "_blank" # optional html a tag target attribute
+               
       - name: "Pinterest"
         logo: "assets/tools/pinterest.png"
         url: "https://apps.microsoft.com/store/detail/pinterest/9PFHDSF91B9R"
