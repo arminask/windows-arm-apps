@@ -415,7 +415,12 @@ services:
         logo: "assets/tools/everything.png"
         url: "https://www.voidtools.com/downloads/"
         target: "_blank" # optional html a tag target attribute
-                        
+
+      - name: "TranslucentTB"
+        logo: "assets/tools/translucenttb.png"
+        url: "https://github.com/TranslucentTB/TranslucentTB/releases"
+        target: "_blank" # optional html a tag target attribute
+                                  
       - name: "Sysinternals Suite"
         logo: "assets/tools/sysinternals.png"
         url: "https://www.sysinternals.com/downloads"
