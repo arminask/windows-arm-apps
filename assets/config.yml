@@ -450,6 +450,11 @@ services:
         url: "https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html"
         target: "_blank" # optional html a tag target attribute
  
+      - name: "Dropbox"
+        logo: "assets/tools/dropbox.png"
+        url: "https://www.dropbox.com/downloading?plat=win&type=full&arch=arm64"
+        target: "_blank" # optional html a tag target attribute
+     
       - name: "OneDrive"
         logo: "assets/tools/onedrive.png"
         url: "https://apps.microsoft.com/detail/onedrive/9WZDNCRFJ1P3"
