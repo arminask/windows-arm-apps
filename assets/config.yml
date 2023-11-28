@@ -458,6 +458,11 @@ services:
         logo: "assets/tools/openvpn.png"
         url: "https://openvpn.net/community-downloads/"
         target: "_blank" # optional html a tag target attribute
+
+      - name: "WireGuard"
+        logo: "assets/tools/wireguard.png"
+        url: "https://www.wireguard.com/install/"
+        target: "_blank" # optional html a tag target attribute
   - name: "Coding"
     icon: "fa-solid fa-code"
     items:
@@ -638,6 +643,11 @@ services:
       - name: "Obsidian"
         logo: "assets/tools/obsidian.png"
         url: "https://obsidian.md/download"
+        target: "_blank" # optional html a tag target attribute     
+   
+      - name: "Ambie"
+        logo: "assets/tools/ambie.png"
+        url: "https://apps.microsoft.com/detail/9P07XNM5CHP0"
         target: "_blank" # optional html a tag target attribute     
 
   - name: "Games"
