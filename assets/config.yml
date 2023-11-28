@@ -133,14 +133,29 @@ services:
         url: "https://apps.microsoft.com/store/detail/disney/9NXQXXLFST89"
         target: "_blank" # optional html a tag target attribute
 
-      - name: "Handbrake"
-        logo: "assets/tools/handbrake.png"
-        url: "https://handbrake.fr/downloads.php"
+      - name: "Paramount+"
+        logo: "assets/tools/paramountplus.png"
+        url: "https://apps.microsoft.com/detail/paramountplus/9WZDNCRFJ0WK"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Hulu"
+        logo: "assets/tools/hulu.png"
+        url: "https://apps.microsoft.com/detail/hulu/9WZDNCRFJ3L1"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "VUDU"
+        logo: "assets/tools/vudu.png"
+        url: "https://apps.microsoft.com/detail/vudu-movies-and-tv/9NBLGGH4V68B"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Spotify"
         logo: "assets/tools/spotify.png"
         url: "https://community.spotify.com/t5/Live-Ideas/Desktop-Developer-Spotify-for-Windows-on-Arm-Win32-Desktop-app/idi-p/4992167/page/4#M243280"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Handbrake"
+        logo: "assets/tools/handbrake.png"
+        url: "https://handbrake.fr/downloads.php"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Audacity"
