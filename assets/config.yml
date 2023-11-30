@@ -133,14 +133,29 @@ services:
         url: "https://apps.microsoft.com/store/detail/disney/9NXQXXLFST89"
         target: "_blank" # optional html a tag target attribute
 
-      - name: "Handbrake"
-        logo: "assets/tools/handbrake.png"
-        url: "https://handbrake.fr/downloads.php"
+      - name: "Paramount+"
+        logo: "assets/tools/paramountplus.png"
+        url: "https://apps.microsoft.com/detail/paramountplus/9WZDNCRFJ0WK"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Hulu"
+        logo: "assets/tools/hulu.png"
+        url: "https://apps.microsoft.com/detail/hulu/9WZDNCRFJ3L1"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "VUDU"
+        logo: "assets/tools/vudu.png"
+        url: "https://apps.microsoft.com/detail/vudu-movies-and-tv/9NBLGGH4V68B"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Spotify"
         logo: "assets/tools/spotify.png"
         url: "https://community.spotify.com/t5/Live-Ideas/Desktop-Developer-Spotify-for-Windows-on-Arm-Win32-Desktop-app/idi-p/4992167/page/4#M243280"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Handbrake"
+        logo: "assets/tools/handbrake.png"
+        url: "https://handbrake.fr/downloads.php"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Audacity"
@@ -203,6 +218,12 @@ services:
         url: "https://apps.microsoft.com/store/detail/microsoft-teams/XP8BT8DW290MPQ"
         target: "_blank" # optional html a tag target attribute
         
+      - name: "Signal"
+        logo: "assets/tools/signal.png"
+        subtitle: "unofficial builds"
+        url: "https://github.com/dennisameling/Signal-Desktop/releases"
+        target: "_blank" # optional html a tag target attribute
+               
       - name: "Pinterest"
         logo: "assets/tools/pinterest.png"
         url: "https://apps.microsoft.com/store/detail/pinterest/9PFHDSF91B9R"
@@ -240,7 +261,12 @@ services:
         logo: "assets/tools/paintnet.png"
         url: "https://github.com/paintdotnet/release/releases/latest"
         target: "_blank" # optional html a tag target attribute
-          
+        
+      - name: "ImageGlass"
+        logo: "assets/tools/imageglass.png"
+        url: "https://github.com/d2phap/ImageGlass/releases"
+        target: "_blank" # optional html a tag target attribute
+             
       - name: "ScreenToGif"
         logo: "assets/tools/screentogif.png"
         url: "https://www.screentogif.com/"
@@ -389,12 +415,22 @@ services:
         logo: "assets/tools/everything.png"
         url: "https://www.voidtools.com/downloads/"
         target: "_blank" # optional html a tag target attribute
-                        
+
+      - name: "TranslucentTB"
+        logo: "assets/tools/translucenttb.png"
+        url: "https://github.com/TranslucentTB/TranslucentTB/releases"
+        target: "_blank" # optional html a tag target attribute
+                                  
       - name: "Sysinternals Suite"
         logo: "assets/tools/sysinternals.png"
         url: "https://www.sysinternals.com/downloads"
         target: "_blank" # optional html a tag target attribute
-  
+                        
+      - name: "WebView2 Runtime"
+        logo: "assets/tools/edge.png"
+        url: "https://developer.microsoft.com/en-us/microsoft-edge/webview2/#download"
+        target: "_blank" # optional html a tag target attribute
+    
       - name: "EnergyStar X"
         logo: "assets/tools/energystarx.png"
         url: "https://apps.microsoft.com/detail/9NF7JTB3B17P"
@@ -414,11 +450,21 @@ services:
         url: "https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html"
         target: "_blank" # optional html a tag target attribute
  
+      - name: "Dropbox"
+        logo: "assets/tools/dropbox.png"
+        url: "https://www.dropbox.com/downloading?plat=win&type=full&arch=arm64"
+        target: "_blank" # optional html a tag target attribute
+     
       - name: "OneDrive"
         logo: "assets/tools/onedrive.png"
         url: "https://apps.microsoft.com/detail/onedrive/9WZDNCRFJ1P3"
         target: "_blank" # optional html a tag target attribute
-                         
+     
+      - name: "Rclone"
+        logo: "assets/tools/rclone.png"
+        url: "https://rclone.org/downloads/"
+        target: "_blank" # optional html a tag target attribute
+                                     
       - name: "NanaGet"
         logo: "assets/tools/nanaget.png"
         url: "https://apps.microsoft.com/store/detail/nanaget/9PD5F2D90LS5"
@@ -536,6 +582,11 @@ services:
         url: "https://devtoys.app/"
         target: "_blank" # optional html a tag target attribute
         
+      - name: ".NET SDK & Runtime"
+        logo: "assets/tools/dotnet.png"
+        url: "https://dotnet.microsoft.com/en-us/download/dotnet"
+        target: "_blank" # optional html a tag target attribute
+            
       - name: "Visual Studio Code"
         logo: "assets/tools/visualstudiocode.png"
         url: "https://apps.microsoft.com/store/detail/visual-studio-code/XP9KHM4BK9FZ7Q"
@@ -559,6 +610,11 @@ services:
         url: "https://github.com/joncampbell123/dosbox-x/releases"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "NanaBox"
+        logo: "assets/tools/nanabox.png"
+        url: "https://apps.microsoft.com/detail/nanabox/9NJXJSCB2JK0"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "Sandboxie Plus"
         logo: "assets/tools/sandboxieplus.png"
         url: "https://sandboxie-plus.com/downloads/"
@@ -575,7 +631,13 @@ services:
         subtitle: "Windows Subsystem for Android"
         url: "https://apps.microsoft.com/store/detail/windows-subsystem-for-android%E2%84%A2-with-amazon-appstore/9P3395VX91NR"
         target: "_blank" # optional html a tag target attribute
-
+        
+      - name: "WSABuilds (pimped WSA)"
+        logo: "assets/tools/wsabuilds.png"
+        subtitle: "unofficial builds with Magisk & MindTheGapps"
+        url: "https://github.com/MustardChef/WSABuilds/releases"
+        target: "_blank" # optional html a tag target attribute
+        
   - name: "Benchmarking & Diagnostics"
     icon: "fa-solid fa-stopwatch"
     items: 
