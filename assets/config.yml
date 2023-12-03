@@ -632,7 +632,13 @@ services:
         subtitle: "unofficial builds"
         url: "https://github.com/mijk84/win-arm64-binaries/releases/tag/86box"
         target: "_blank" # optional html a tag target attribute
-      
+               
+      - name: "Bochs"
+        logo: "assets/tools/bochs.png"
+        subtitle: "unofficial builds"
+        url: "https://github.com/mijk84/win-arm64-binaries/releases/tag/bochs"
+        target: "_blank" # optional html a tag target attribute
+           
       - name: "NanaBox"
         logo: "assets/tools/nanabox.png"
         url: "https://apps.microsoft.com/detail/nanabox/9NJXJSCB2JK0"
