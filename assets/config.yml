@@ -736,6 +736,11 @@ services:
         url: "https://www.ppsspp.org/download/"
         target: "_blank" # optional html a tag target attribute
         
+      - name: "DuckStation"
+        logo: "assets/tools/duckstation.png"
+        url: "https://github.com/stenzek/duckstation/releases/tag/latest"
+        target: "_blank" # optional html a tag target attribute
+            
       - name: "RetriXGold"
         logo: "assets/tools/retrixgold.png"
         tag: "ARM32"
