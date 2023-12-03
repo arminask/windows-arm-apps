@@ -626,7 +626,13 @@ services:
         logo: "assets/tools/dosbox.png"
         url: "https://github.com/joncampbell123/dosbox-x/releases"
         target: "_blank" # optional html a tag target attribute
-
+               
+      - name: "86Box"
+        logo: "assets/tools/86box.png"
+        subtitle: "unofficial builds"
+        url: "https://github.com/mijk84/win-arm64-binaries/releases/tag/86box"
+        target: "_blank" # optional html a tag target attribute
+      
       - name: "NanaBox"
         logo: "assets/tools/nanabox.png"
         url: "https://apps.microsoft.com/detail/nanabox/9NJXJSCB2JK0"
