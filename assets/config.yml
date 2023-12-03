@@ -266,7 +266,12 @@ services:
         logo: "assets/tools/imageglass.png"
         url: "https://github.com/d2phap/ImageGlass/releases"
         target: "_blank" # optional html a tag target attribute
-             
+        
+      - name: "PicView"
+        logo: "assets/tools/picview.png"
+        url: "https://github.com/Ruben2776/PicView/releases/"
+        target: "_blank" # optional html a tag target attribute
+                  
       - name: "ScreenToGif"
         logo: "assets/tools/screentogif.png"
         url: "https://www.screentogif.com/"
