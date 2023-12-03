@@ -480,7 +480,13 @@ services:
         subtitle: "unofficial builds"
         url: "https://github.com/minnyres/aria2-windows-arm64/releases"
         target: "_blank" # optional html a tag target attribute
-                      
+                     
+      - name: "Horizon"
+        logo: "assets/tools/clionly.png"
+        tag: "ARM32"
+        url: "https://github.com/lcomrade/horizon/releases"
+        target: "_blank" # optional html a tag target attribute
+                             
       - name: "qBittorrent"
         logo: "assets/tools/qbittorrent.png"
         subtitle: "unofficial builds"
