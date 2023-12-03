@@ -758,6 +758,12 @@ services:
         url: "https://apps.microsoft.com/store/detail/opencl%E2%84%A2-and-opengl%C2%AE-compatibility-pack/9NQPSL29BFFF"
         target: "_blank" # optional html a tag target attribute
          
+      - name: "melonDS"
+        logo: "assets/tools/melonds.png"
+        subtitle: "unofficial builds"
+        url: "https://github.com/mijk84/win-arm64-binaries/releases/tag/nelons-31072022"
+        target: "_blank" # optional html a tag target attribute
+               
       - name: "ScummVM"
         logo: "assets/tools/scummvm.png"
         subtitle: "unofficial builds"
