@@ -492,7 +492,13 @@ services:
         subtitle: "unofficial builds"
         url: "https://github.com/minnyres/qbittorrent-windows-arm64/releases"
         target: "_blank" # optional html a tag target attribute
-                          
+                             
+      - name: "Transmission"
+        logo: "assets/tools/transmission.png"
+        subtitle: "unofficial builds"
+        url: "https://github.com/minnyres/transmission-windows-arm64/releases"
+        target: "_blank" # optional html a tag target attribute
+                                                    
       - name: "aMule"
         logo: "assets/tools/amule.png"
         tag: "ARM32"
