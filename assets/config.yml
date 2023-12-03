@@ -761,7 +761,7 @@ services:
       - name: "ScummVM"
         logo: "assets/tools/scummvm.png"
         subtitle: "unofficial builds"
-        url: "https://github.com/janisozaur/arm64-binaries/releases/tag/ScummVM-aarch64"
+        url: "https://github.com/mijk84/win-arm64-binaries/releases/tag/scummvm"
         target: "_blank" # optional html a tag target attribute
              
       - name: "Duolingo"
