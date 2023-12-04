@@ -356,6 +356,16 @@ services:
         tag: "ARM64EC"
         url: "https://apps.microsoft.com/store/detail/microsoft-365-office/9WZDNCRD29V9"
         target: "_blank" # optional html a tag target attribute
+
+      - name: "Microsoft To do"
+        logo: "assets/tools/msTodo.png"
+        url: "https://apps.microsoft.com/detail/drawboard-projects/9NBLGGH5R558"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Microsoft Journal"
+        logo: "assets/tools/msJournal.png"
+        url: "https://apps.microsoft.com/detail/drawboard-projects/9N318R854RHH"
+        target: "_blank" # optional html a tag target attribute
         
   - name: "Tools"
     icon: "fa-solid fa-screwdriver-wrench"
@@ -413,6 +423,7 @@ services:
 
       - name: "Everything"
         logo: "assets/tools/everything.png"
+        subtitle: "Portable Edition"
         url: "https://www.voidtools.com/downloads/"
         target: "_blank" # optional html a tag target attribute
 
@@ -436,6 +447,36 @@ services:
         url: "https://apps.microsoft.com/detail/9NF7JTB3B17P"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "Character Map UWP"
+        logo: "assets/tools/CharacterMap.png"
+        url: "https://apps.microsoft.com/detail/9WZDNCRDXF41"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Ditto"
+        logo: "assets/tools/Ditto.png"
+        subtitle: "unofficial builds"
+        tag: "Windows Clipboard"
+        url: "https://github.com/jglathe/Ditto/tree/jg/arm64build"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Dism++"
+        logo: "assets/tools/Dism++.png"
+        subtitle: "Windows Optimization Tools"
+        url: "https://github.com/Chuyu-Team/Dism-Multi-language/releases"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Pot"
+        logo: "assets/tools/Pot.png"
+        subtitle: "text translation and recognize."
+        url: "https://github.com/pot-app/pot-desktop/releases"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Twinkle Tray"
+        logo: "assets/tools/TwinkleTray.png"
+        subtitle: "manage the brightness levels of multiple monitors."
+        url: "https://apps.microsoft.com/detail/9PLJWWSV01LK"
+        target: "_blank" # optional html a tag target attribute
+
   - name: "Network & Cloud Storage"
     icon: "fa-solid fa-network-wired"
     items:
@@ -450,6 +491,16 @@ services:
         url: "https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html"
         target: "_blank" # optional html a tag target attribute
  
+      - name: "AdGuardHome"
+        logo: "assets/tools/AdGuardHome.png"
+        url: "https://github.com/AdguardTeam/AdGuardHome/releases"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Alist"
+        logo: "assets/tools/Alist.png"
+        url: "https://github.com/alist-org/alist/releases"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "Dropbox"
         logo: "assets/tools/dropbox.png"
         url: "https://www.dropbox.com/downloading?plat=win&type=full&arch=arm64"
@@ -509,6 +560,7 @@ services:
         logo: "assets/tools/wireguard.png"
         url: "https://www.wireguard.com/install/"
         target: "_blank" # optional html a tag target attribute
+
   - name: "Coding"
     icon: "fa-solid fa-code"
     items:
@@ -712,6 +764,27 @@ services:
         url: "https://apps.microsoft.com/detail/9P07XNM5CHP0"
         target: "_blank" # optional html a tag target attribute     
 
+      - name: "Battery Tracker"
+        logo: "assets/tools/BatteryTracker.png"
+        url: "https://apps.microsoft.com/detail/9P1FBSLRNM43"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Human Anatomy Atlas"
+        logo: "assets/tools/VisibleBody.png"
+        tag: "Purchases"
+        url: "https://apps.microsoft.com/detail/9NCGKTBT3S2Q"
+        target: "_blank" # optional html a tag target attribute             
+
+      - name: "Microsoft PC Manager"
+        logo: "assets/tools/msPCManager.png"
+        url: "https://apps.microsoft.com/detail/9PM860492SZD"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Timeline Wallpaper"
+        logo: "assets/tools/Timeline.png"
+        url: "https://apps.microsoft.com/detail/9N7VHQ989BB7"
+        target: "_blank" # optional html a tag target attribute
+
   - name: "Games"
     icon: "fa-solid fa-gamepad"
     items:
@@ -770,6 +843,16 @@ services:
         url: "http://dege.freeweb.hu/dgVoodoo2/dgVoodoo2/"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "Minecraft"
+        logo: "assets/tools/Minecraft.png"
+        tag: "Purchases"
+        subtitle: "Bedrock"
+        url: "https://apps.microsoft.com/detail/9NBLGGH2JHXJ"
+        target: "_blank" # optional html a tag target attribute
 
-
+      - name: "Starward"
+        logo: "assets/tools/Starward.png"
+        subtitle: "miHoYo games launcher"
+        url: "https://apps.microsoft.com/detail/9NBLGGH2JHXJ"
+        target: "_blank" # optional html a tag target attribute
 
