@@ -695,6 +695,12 @@ services:
         url: "https://crystalmark.info/en/download/"
         target: "_blank" # optional html a tag target attribute   
        
+      - name: "AIDA64"
+        logo: "assets/tools/aida64.png"
+        tag: "ARM32"
+        url: "https://apps.microsoft.com/detail/9NBLGGH2WNWH"
+        target: "_blank" # optional html a tag target attribute
+       
       - name: "Speedtest by Ookla"
         logo: "assets/tools/speedtest.png"
         tag: "ARM32"
