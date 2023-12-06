@@ -787,33 +787,33 @@ services:
         url: "https://github.com/mijk84/win-arm64-binaries/releases/tag/scummvm"
         target: "_blank" # optional html a tag target attribute
                
-      - name: "SDLPoP (Prince of Persia 1989)"
+      - name: "SDLPoP"
         logo: "assets/tools/sdlpop.png"
-        subtitle: "original game data needed / unofficial builds"
+        subtitle: "Prince of Persia 1989 port"
         url: "https://github.com/mijk84/win-arm64-binaries/releases/tag/sdlpop"
         target: "_blank" # optional html a tag target attribute
                
-      - name: "Chocolate Doom (Doom, Heretic, Hexen & Strife)"
+      - name: "Chocolate Doom"
         logo: "assets/tools/chocolatedoom.png"
-        subtitle: "original game data needed / unofficial builds"
+        subtitle: "Doom, Heretic, Hexen & Strife ports"
         url: "https://github.com/mijk84/win-arm64-binaries/releases/tag/doom"
         target: "_blank" # optional html a tag target attribute
                        
-      - name: "OpenJazz (Jazz Jackrabbit 1994)"
+      - name: "OpenJazz"
         logo: "assets/tools/openjazz.png"
-        subtitle: "original game data needed / unofficial builds"
+        subtitle: "Jazz Jackrabbit 1994 port"
         url: "https://github.com/mijk84/win-arm64-binaries/releases/tag/openjazz"
         target: "_blank" # optional html a tag target attribute
                
-      - name: "OpenRCT2 (RollerCoaster Tycoon 2 2002)"
+      - name: "OpenRCT2"
         logo: "assets/tools/openrct2.png"
-        subtitle: "original game data needed"
+        subtitle: "RollerCoaster Tycoon 2 2002 port"
         url: "https://openrct2.org/downloads/releases/latest"
         target: "_blank" # optional html a tag target attribute
                
-      - name: "OpenTTD (Transport Tycoon Deluxe 1995)"
+      - name: "OpenTTD"
         logo: "assets/tools/openttd.png"
-        subtitle: "original game data needed"
+        subtitle: "Transport Tycoon Deluxe 1995 port"
         url: "https://www.openttd.org/downloads/openttd-releases/latest"
         target: "_blank" # optional html a tag target attribute
                                               
