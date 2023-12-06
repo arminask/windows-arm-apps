@@ -804,7 +804,13 @@ services:
         subtitle: "original game data needed"
         url: "https://openrct2.org/downloads/releases/latest"
         target: "_blank" # optional html a tag target attribute
-                                       
+               
+      - name: "OpenTTD (Transport Tycoon Deluxe 1995)"
+        logo: "assets/tools/openttd.png"
+        subtitle: "original game data needed"
+        url: "https://www.openttd.org/downloads/openttd-releases/latest"
+        target: "_blank" # optional html a tag target attribute
+                                              
       - name: "Duolingo"
         logo: "assets/tools/duolingo.png"
         url: "https://apps.microsoft.com/store/detail/duolingo-learn-languages-for-free/9WZDNCRCV5XN"
