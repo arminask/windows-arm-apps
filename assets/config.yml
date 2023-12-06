@@ -786,7 +786,13 @@ services:
         subtitle: "unofficial builds"
         url: "https://github.com/mijk84/win-arm64-binaries/releases/tag/scummvm"
         target: "_blank" # optional html a tag target attribute
-             
+               
+      - name: "SDLPoP (Prince of Persia 1989)"
+        logo: "assets/tools/sdlpop.png"
+        subtitle: "original game data needed / unofficial builds"
+        url: "https://github.com/mijk84/win-arm64-binaries/releases/tag/sdlpop"
+        target: "_blank" # optional html a tag target attribute
+                    
       - name: "Duolingo"
         logo: "assets/tools/duolingo.png"
         url: "https://apps.microsoft.com/store/detail/duolingo-learn-languages-for-free/9WZDNCRCV5XN"
