@@ -798,7 +798,13 @@ services:
         subtitle: "original game data needed / unofficial builds"
         url: "https://github.com/mijk84/win-arm64-binaries/releases/tag/openjazz"
         target: "_blank" # optional html a tag target attribute
-                                 
+               
+      - name: "OpenRCT2 (RollerCoaster Tycoon 2 2002)"
+        logo: "assets/tools/openrct2.png"
+        subtitle: "original game data needed"
+        url: "https://openrct2.org/downloads/releases/latest"
+        target: "_blank" # optional html a tag target attribute
+                                       
       - name: "Duolingo"
         logo: "assets/tools/duolingo.png"
         url: "https://apps.microsoft.com/store/detail/duolingo-learn-languages-for-free/9WZDNCRCV5XN"
