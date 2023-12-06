@@ -433,7 +433,6 @@ services:
 
       - name: "Everything"
         logo: "assets/tools/everything.png"
-        subtitle: "Portable Edition"
         url: "https://www.voidtools.com/downloads/"
         target: "_blank" # optional html a tag target attribute
 
@@ -477,7 +476,7 @@ services:
 
       - name: "Pot"
         logo: "assets/tools/Pot.png"
-        subtitle: "text translation and recognize."
+        subtitle: "text translation and recognition"
         url: "https://github.com/pot-app/pot-desktop/releases"
         target: "_blank" # optional html a tag target attribute
 
@@ -579,7 +578,6 @@ services:
 
       - name: "Clash for Windows"
         logo: "assets/tools/Clash.png"
-        subtitle: "The original repository has been deleted"
         url: "https://github.com/cfwtf/clash_for_windows/releases/tag/0.20.39"
         target: "_blank" # optional html a tag target attribute
 
