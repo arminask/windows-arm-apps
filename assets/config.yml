@@ -793,6 +793,12 @@ services:
         url: "https://github.com/mijk84/win-arm64-binaries/releases/tag/sdlpop"
         target: "_blank" # optional html a tag target attribute
                
+      - name: "Chocolate Doom (Doom, Heretic, Hexen & Strife)"
+        logo: "assets/tools/chocolatedoom.png"
+        subtitle: "original game data needed / unofficial builds"
+        url: "https://github.com/mijk84/win-arm64-binaries/releases/tag/doom"
+        target: "_blank" # optional html a tag target attribute
+                       
       - name: "OpenJazz (Jazz Jackrabbit 1994)"
         logo: "assets/tools/openjazz.png"
         subtitle: "original game data needed / unofficial builds"
