@@ -153,6 +153,11 @@ services:
         url: "https://apps.microsoft.com/detail/XPDDVC6XTQQKMM"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "iQIYI"
+        logo: "assets/tools/iqiyi.png"
+        url: "https://apps.microsoft.com/detail/9NBLGGH5WXNW"
+        target: "_blank" # optional html a tag target attribute
+        
       - name: "Spotify"
         logo: "assets/tools/spotify.png"
         url: "https://community.spotify.com/t5/Live-Ideas/Desktop-Developer-Spotify-for-Windows-on-Arm-Win32-Desktop-app/idi-p/4992167/page/4#M243280"
