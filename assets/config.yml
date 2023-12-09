@@ -159,8 +159,13 @@ services:
         target: "_blank" # optional html a tag target attribute
 
       - name: "QQ音乐UWP"
-        logo: "assets/tools/QQMuisic.png"
+        logo: "assets/tools/QQMusic.png"
         url: "https://apps.microsoft.com/detail/9WZDNCRFJ1Q1"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "FFmpeg"
+        logo: "assets/tools/FFmpeg.png"
+        url: "https://github.com/dvhh/ffmpeg-wos-arm64-build/releases"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Handbrake"
@@ -276,7 +281,12 @@ services:
         logo: "assets/tools/imageglass.png"
         url: "https://github.com/d2phap/ImageGlass/releases"
         target: "_blank" # optional html a tag target attribute
-             
+        
+      - name: "PicView"
+        logo: "assets/tools/picview.png"
+        url: "https://github.com/Ruben2776/PicView/releases/"
+        target: "_blank" # optional html a tag target attribute
+                  
       - name: "ScreenToGif"
         logo: "assets/tools/screentogif.png"
         url: "https://www.screentogif.com/"
@@ -433,7 +443,6 @@ services:
 
       - name: "Everything"
         logo: "assets/tools/everything.png"
-        subtitle: "Portable Edition"
         url: "https://www.voidtools.com/downloads/"
         target: "_blank" # optional html a tag target attribute
 
@@ -477,7 +486,7 @@ services:
 
       - name: "Pot"
         logo: "assets/tools/Pot.png"
-        subtitle: "text translation and recognize."
+        subtitle: "text translation and recognition"
         url: "https://github.com/pot-app/pot-desktop/releases"
         target: "_blank" # optional html a tag target attribute
 
@@ -511,6 +520,16 @@ services:
         url: "https://github.com/alist-org/alist/releases"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "Cloudreve"
+        logo: "assets/tools/Cloudreve.png"
+        url: "https://github.com/cloudreve/Cloudreve/releases"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Filebrowser"
+        logo: "assets/tools/filebrowser.png"
+        url: "https://github.com/filebrowser/filebrowser/releases"
+        target: "_blank" # optional html a tag target attribute        
+
       - name: "Dropbox"
         logo: "assets/tools/dropbox.png"
         url: "https://www.dropbox.com/downloading?plat=win&type=full&arch=arm64"
@@ -542,13 +561,24 @@ services:
         subtitle: "unofficial builds"
         url: "https://github.com/minnyres/aria2-windows-arm64/releases"
         target: "_blank" # optional html a tag target attribute
-                      
+                     
+      - name: "Static Web Server"
+        logo: "assets/tools/clionly.png"
+        url: "https://static-web-server.net/download-and-install/#arm64"
+        target: "_blank" # optional html a tag target attribute
+                             
       - name: "qBittorrent"
         logo: "assets/tools/qbittorrent.png"
         subtitle: "unofficial builds"
         url: "https://github.com/minnyres/qbittorrent-windows-arm64/releases"
         target: "_blank" # optional html a tag target attribute
-                          
+                             
+      - name: "Transmission"
+        logo: "assets/tools/transmission.png"
+        subtitle: "unofficial builds"
+        url: "https://github.com/minnyres/transmission-windows-arm64/releases"
+        target: "_blank" # optional html a tag target attribute
+                                                    
       - name: "aMule"
         logo: "assets/tools/amule.png"
         tag: "ARM32"
@@ -579,13 +609,22 @@ services:
 
       - name: "Clash for Windows"
         logo: "assets/tools/Clash.png"
-        subtitle: "The original repository has been deleted"
         url: "https://github.com/cfwtf/clash_for_windows/releases/tag/0.20.39"
         target: "_blank" # optional html a tag target attribute
 
       - name: "v2rayN"
         logo: "assets/tools/v2rayN.png"
         url: "https://github.com/2dust/v2rayN/releases"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Tailscale"
+        logo: "assets/tools/tailscale.png"
+        url: "https://pkgs.tailscale.com/stable/#windows"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Syncthing"
+        logo: "assets/tools/Syncthing.png"
+        url: "https://github.com/syncthing/syncthing/releases"
         target: "_blank" # optional html a tag target attribute
 
   - name: "Coding"
@@ -622,7 +661,12 @@ services:
         logo: "assets/tools/jetbrainsrider.png"
         url: "https://www.jetbrains.com/rider/download/download-thanks.html?platform=windowsARM64"
         target: "_blank" # optional html a tag target attribute
-        
+
+      - name: "GoLang"
+        logo: "assets/tools/GoLang.png"
+        url: "https://go.dev/dl/"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "PowerShell"
         logo: "assets/tools/powershell.png"
         url: "https://github.com/PowerShell/PowerShell/releases/"
@@ -688,7 +732,19 @@ services:
         logo: "assets/tools/dosbox.png"
         url: "https://github.com/joncampbell123/dosbox-x/releases"
         target: "_blank" # optional html a tag target attribute
-
+               
+      - name: "86Box"
+        logo: "assets/tools/86box.png"
+        subtitle: "unofficial builds"
+        url: "https://github.com/mijk84/win-arm64-binaries/releases/tag/86box"
+        target: "_blank" # optional html a tag target attribute
+               
+      - name: "Bochs"
+        logo: "assets/tools/bochs.png"
+        subtitle: "unofficial builds"
+        url: "https://github.com/mijk84/win-arm64-binaries/releases/tag/bochs"
+        target: "_blank" # optional html a tag target attribute
+           
       - name: "NanaBox"
         logo: "assets/tools/nanabox.png"
         url: "https://apps.microsoft.com/detail/nanabox/9NJXJSCB2JK0"
@@ -745,6 +801,12 @@ services:
         url: "https://crystalmark.info/en/download/"
         target: "_blank" # optional html a tag target attribute   
        
+      - name: "AIDA64"
+        logo: "assets/tools/aida64.png"
+        tag: "ARM32"
+        url: "https://apps.microsoft.com/detail/9NBLGGH2WNWH"
+        target: "_blank" # optional html a tag target attribute
+       
       - name: "Speedtest by Ookla"
         logo: "assets/tools/speedtest.png"
         tag: "ARM32"
@@ -769,6 +831,11 @@ services:
       - name: "Phone Link"
         logo: "assets/tools/phonelink.png"
         url: "https://apps.microsoft.com/store/detail/phone-link/9NMPJ99VJBWV"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Escrcpy"
+        logo: "assets/tools/Escrcpy.png"
+        url: "https://github.com/viarotel-org/escrcpy/releases"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Windows Maps"
@@ -825,6 +892,11 @@ services:
         url: "https://www.ppsspp.org/download/"
         target: "_blank" # optional html a tag target attribute
         
+      - name: "DuckStation"
+        logo: "assets/tools/duckstation.png"
+        url: "https://github.com/stenzek/duckstation/releases/tag/latest"
+        target: "_blank" # optional html a tag target attribute
+            
       - name: "RetriXGold"
         logo: "assets/tools/retrixgold.png"
         tag: "ARM32"
@@ -836,12 +908,48 @@ services:
         url: "https://apps.microsoft.com/store/detail/opencl%E2%84%A2-and-opengl%C2%AE-compatibility-pack/9NQPSL29BFFF"
         target: "_blank" # optional html a tag target attribute
          
+      - name: "melonDS"
+        logo: "assets/tools/melonds.png"
+        subtitle: "unofficial builds"
+        url: "https://github.com/mijk84/win-arm64-binaries/releases/tag/nelons-31072022"
+        target: "_blank" # optional html a tag target attribute
+               
       - name: "ScummVM"
         logo: "assets/tools/scummvm.png"
         subtitle: "unofficial builds"
-        url: "https://github.com/janisozaur/arm64-binaries/releases/tag/ScummVM-aarch64"
+        url: "https://github.com/mijk84/win-arm64-binaries/releases/tag/scummvm"
         target: "_blank" # optional html a tag target attribute
-             
+               
+      - name: "SDLPoP"
+        logo: "assets/tools/sdlpop.png"
+        subtitle: "Prince of Persia 1989 port"
+        url: "https://github.com/mijk84/win-arm64-binaries/releases/tag/sdlpop"
+        target: "_blank" # optional html a tag target attribute
+               
+      - name: "Chocolate Doom"
+        logo: "assets/tools/chocolatedoom.png"
+        subtitle: "Doom, Heretic, Hexen & Strife ports"
+        url: "https://github.com/mijk84/win-arm64-binaries/releases/tag/doom"
+        target: "_blank" # optional html a tag target attribute
+                       
+      - name: "OpenJazz"
+        logo: "assets/tools/openjazz.png"
+        subtitle: "Jazz Jackrabbit 1994 port"
+        url: "https://github.com/mijk84/win-arm64-binaries/releases/tag/openjazz"
+        target: "_blank" # optional html a tag target attribute
+               
+      - name: "OpenRCT2"
+        logo: "assets/tools/openrct2.png"
+        subtitle: "RollerCoaster Tycoon 2 2002 port"
+        url: "https://openrct2.org/downloads/releases/latest"
+        target: "_blank" # optional html a tag target attribute
+               
+      - name: "OpenTTD"
+        logo: "assets/tools/openttd.png"
+        subtitle: "Transport Tycoon Deluxe 1995 port"
+        url: "https://www.openttd.org/downloads/openttd-releases/latest"
+        target: "_blank" # optional html a tag target attribute
+                                              
       - name: "Duolingo"
         logo: "assets/tools/duolingo.png"
         url: "https://apps.microsoft.com/store/detail/duolingo-learn-languages-for-free/9WZDNCRCV5XN"
