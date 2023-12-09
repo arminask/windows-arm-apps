@@ -386,7 +386,7 @@ services:
         logo: "assets/tools/msJournal.png"
         url: "https://apps.microsoft.com/detail/drawboard-projects/9N318R854RHH"
         target: "_blank" # optional html a tag target attribute
-        
+
   - name: "Tools"
     icon: "fa-solid fa-screwdriver-wrench"
     items:
@@ -488,6 +488,12 @@ services:
         logo: "assets/tools/Pot.png"
         subtitle: "text translation and recognition"
         url: "https://github.com/pot-app/pot-desktop/releases"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Youdao"
+        logo: "assets/tools/Youdao.png"
+        subtitle: "more than just translations"
+        url: "https://apps.microsoft.com/detail/XPFNZLNH748XD2"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Twinkle Tray"
