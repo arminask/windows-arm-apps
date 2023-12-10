@@ -170,6 +170,7 @@ services:
 
       - name: "FFmpeg"
         logo: "assets/tools/FFmpeg.png"
+        subtitle: "unofficial builds"
         url: "https://github.com/dvhh/ffmpeg-wos-arm64-build/releases"
         target: "_blank" # optional html a tag target attribute
 
@@ -673,8 +674,8 @@ services:
         url: "https://www.jetbrains.com/rider/download/download-thanks.html?platform=windowsARM64"
         target: "_blank" # optional html a tag target attribute
 
-      - name: "GoLang"
-        logo: "assets/tools/GoLang.png"
+      - name: "Golang"
+        logo: "assets/tools/Golang.png"
         url: "https://go.dev/dl/"
         target: "_blank" # optional html a tag target attribute
 
@@ -734,6 +735,11 @@ services:
       - name: "Windows Terminal"
         logo: "assets/tools/windowsterminal.png"
         url: "https://aka.ms/terminal"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "MSYS2"
+        logo: "assets/tools/msys2.png"
+        url: "https://www.msys2.org/wiki/arm64/"
         target: "_blank" # optional html a tag target attribute
 
   - name: "Emulation & Virtualization"
