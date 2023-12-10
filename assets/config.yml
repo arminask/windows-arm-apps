@@ -117,7 +117,12 @@ services:
         subtitle: "unofficial builds / use 'mpv.exe --hwdec'"
         url: "https://github.com/minnyres/mpv-windows-arm64/releases"
         target: "_blank" # optional html a tag target attribute
-             
+         
+      - name: "HEVC Video Extensions"
+        logo: "assets/tools/HEVC.png"
+        url: "https://apps.microsoft.com/detail/9NMZLZ57R3T7"
+        target: "_blank" # optional html a tag target attribute         
+
       - name: "Netflix"
         logo: "assets/tools/netflix.png"
         url: "https://apps.microsoft.com/store/detail/netflix/9WZDNCRFJ3TJ"
