@@ -508,6 +508,12 @@ services:
         url: "https://apps.microsoft.com/detail/9PLJWWSV01LK"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "Greenshot"
+        logo: "assets/tools/Greenshot.png"
+        subtitle: "unofficial builds"
+        url: "https://github.com/jglathe/greenshot/releases"
+        target: "_blank" # optional html a tag target attribute
+
   - name: "Network & Cloud Storage"
     icon: "fa-solid fa-network-wired"
     items:
