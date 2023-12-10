@@ -519,6 +519,11 @@ services:
         url: "https://github.com/jglathe/greenshot/releases"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "WinQuickLook"
+        logo: "assets/tools/WinQuickLook.png"
+        url: "https://apps.microsoft.com/detail/9NJMTKK6JC0Q"
+        target: "_blank" # optional html a tag target attribute
+
   - name: "Network & Cloud Storage"
     icon: "fa-solid fa-network-wired"
     items:
