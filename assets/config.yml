@@ -925,6 +925,12 @@ services:
         url: "https://www.ppsspp.org/download/"
         target: "_blank" # optional html a tag target attribute
         
+      - name: "RetroArch"
+        logo: "assets/tools/RetroArch.png"
+        subtitle: "unofficial builds"     
+        url: "https://github.com/basharast/RetroArch-ARM/releases"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "DuckStation"
         logo: "assets/tools/duckstation.png"
         url: "https://github.com/stenzek/duckstation/releases/tag/latest"
