@@ -524,6 +524,12 @@ services:
         url: "https://apps.microsoft.com/detail/9NJMTKK6JC0Q"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "TrafficMonitor"
+        logo: "assets/tools/TrafficMonitor.png"
+        subtitle: "unofficial builds"
+        url: "https://github.com/ekxs0109/TrafficMonitor/actions"
+        target: "_blank" # optional html a tag target attribute
+
   - name: "Network & Cloud Storage"
     icon: "fa-solid fa-network-wired"
     items:
