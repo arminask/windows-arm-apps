@@ -358,6 +358,12 @@ services:
         url: "https://github.com/ArminiusTux/WinARM64-binaries/releases/tag/FLAC"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "WavPack"
+        logo: "assets/tools/wavpack.png"
+        subtitle: "unofficial builds / lossless PCM & DSD"
+        url: "https://github.com/ArminiusTux/WinARM64-binaries/releases/tag/WavPack"
+        target: "_blank" # optional html a tag target attribute
+
   - name: "Office"
     icon: "fa-solid fa-briefcase"
     items:
