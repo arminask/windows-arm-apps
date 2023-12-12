@@ -918,6 +918,12 @@ services:
         url: "https://apps.microsoft.com/detail/9N7VHQ989BB7"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "WinDynamicDesktop"
+        logo: "assets/tools/WinDynamicDesktop.png"
+        subtitle: "changes wallpaper based on the time of day."
+        url: "https://apps.microsoft.com/detail/9nm8n7dq3z5f"
+        target: "_blank" # optional html a tag target attribute
+
   - name: "Games"
     icon: "fa-solid fa-gamepad"
     items:
