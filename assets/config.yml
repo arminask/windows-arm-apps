@@ -352,6 +352,12 @@ services:
         url: "https://github.com/ArminiusTux/WinARM64-binaries/releases/tag/MonkeysAudio"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "FLAC"
+        logo: "assets/tools/flac.png"
+        subtitle: "unofficial builds / lossless PCM"
+        url: "https://github.com/ArminiusTux/WinARM64-binaries/releases/tag/FLAC"
+        target: "_blank" # optional html a tag target attribute
+
   - name: "Office"
     icon: "fa-solid fa-briefcase"
     items:
