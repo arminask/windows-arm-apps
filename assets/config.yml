@@ -346,6 +346,12 @@ services:
         url: "https://apps.microsoft.com/detail/nanazip/9N8G7TSCL18R"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "Monkey's Audio"
+        logo: "assets/tools/monkeysaudio.png"
+        subtitle: "unofficial builds / lossless PCM"
+        url: "https://github.com/ArminiusTux/WinARM64-binaries/releases/tag/MonkeysAudio"
+        target: "_blank" # optional html a tag target attribute
+
   - name: "Office"
     icon: "fa-solid fa-briefcase"
     items:
