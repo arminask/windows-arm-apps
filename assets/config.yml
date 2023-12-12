@@ -184,6 +184,11 @@ services:
         url: "https://handbrake.fr/downloads.php"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "fre:ac"
+        logo: "assets/tools/freac.png"
+        url: "https://www.freac.org/downloads-mainmenu-33"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "Audacity"
         logo: "assets/tools/audacity.png"
         subtitle: "unofficial builds"
