@@ -173,6 +173,11 @@ services:
         url: "https://apps.microsoft.com/detail/9WZDNCRFJ1Q1"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "KuGou"
+        logo: "assets/tools/KuGou.png"
+        url: "https://apps.microsoft.com/detail/XPFPFG7M44SKWX"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "FFmpeg"
         logo: "assets/tools/FFmpeg.png"
         subtitle: "unofficial builds"
