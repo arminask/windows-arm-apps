@@ -691,6 +691,11 @@ services:
         url: "https://central.github.com/deployments/desktop/desktop/latest/win32-arm64"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "vcpkg"
+        logo: "assets/tools/vcpkg.png"
+        url: "https://github.com/microsoft/vcpkg-tool/releases"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "git"
         logo: "assets/tools/git.png"
         subtitle: "unofficial builds"
