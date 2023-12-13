@@ -751,6 +751,11 @@ services:
         url: "https://www.azul.com/downloads/?os=windows&architecture=arm-64-bit"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "Bazel"
+        logo: "assets/tools/bazel.png"
+        url: "https://github.com/bazelbuild/bazel/releases"
+        target: "_blank" # optional html a tag target attribute
+        
       - name: "Node.js"
         logo: "assets/tools/nodejs.png"
         url: "https://nodejs.org/en/download/current"
