@@ -398,6 +398,11 @@ services:
         url: "https://apps.microsoft.com/detail/drawboard-projects/9N318R854RHH"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "Starrea ePub Reader"
+        logo: "assets/tools/Starrea.png"
+        url: "https://apps.microsoft.com/detail/9NK7HZ90B3S6"
+        target: "_blank" # optional html a tag target attribute
+
   - name: "Tools"
     icon: "fa-solid fa-screwdriver-wrench"
     items:
