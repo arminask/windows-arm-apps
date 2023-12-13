@@ -173,6 +173,11 @@ services:
         url: "https://apps.microsoft.com/detail/9WZDNCRFJ1Q1"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "KuGou"
+        logo: "assets/tools/KuGou.png"
+        url: "https://apps.microsoft.com/detail/XPFPFG7M44SKWX"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "FFmpeg"
         logo: "assets/tools/FFmpeg.png"
         subtitle: "unofficial builds"
@@ -398,6 +403,11 @@ services:
         url: "https://apps.microsoft.com/detail/drawboard-projects/9N318R854RHH"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "Starrea ePub Reader"
+        logo: "assets/tools/Starrea.png"
+        url: "https://apps.microsoft.com/detail/9NK7HZ90B3S6"
+        target: "_blank" # optional html a tag target attribute
+
   - name: "Tools"
     icon: "fa-solid fa-screwdriver-wrench"
     items:
@@ -522,6 +532,12 @@ services:
       - name: "WinQuickLook"
         logo: "assets/tools/WinQuickLook.png"
         url: "https://apps.microsoft.com/detail/9NJMTKK6JC0Q"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "TrafficMonitor"
+        logo: "assets/tools/TrafficMonitor.png"
+        subtitle: "unofficial builds"
+        url: "https://github.com/ekxs0109/TrafficMonitor/actions"
         target: "_blank" # optional html a tag target attribute
 
   - name: "Network & Cloud Storage"
@@ -912,6 +928,18 @@ services:
         url: "https://apps.microsoft.com/detail/9N7VHQ989BB7"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "WinDynamicDesktop"
+        logo: "assets/tools/WinDynamicDesktop.png"
+        subtitle: "changes wallpaper based on the time of day."
+        url: "https://apps.microsoft.com/detail/9nm8n7dq3z5f"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "DarkMode"
+        logo: "assets/tools/DarkMode.png"
+        subtitle: "automatically switch the color mode of Windows 10/11 systems"
+        url: "https://github.com/Melon-Studio/DarkMode2/releases"
+        target: "_blank" # optional html a tag target attribute
+
   - name: "Games"
     icon: "fa-solid fa-gamepad"
     items:
@@ -925,6 +953,12 @@ services:
         url: "https://www.ppsspp.org/download/"
         target: "_blank" # optional html a tag target attribute
         
+      - name: "RetroArch"
+        logo: "assets/tools/RetroArch.png"
+        subtitle: "unofficial builds"     
+        url: "https://github.com/basharast/RetroArch-ARM/releases"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "DuckStation"
         logo: "assets/tools/duckstation.png"
         url: "https://github.com/stenzek/duckstation/releases/tag/latest"
