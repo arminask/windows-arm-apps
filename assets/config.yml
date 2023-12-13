@@ -713,6 +713,11 @@ services:
         url: "https://www.python.org/downloads/windows/"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "LLVM"
+        logo: "assets/tools/llvm.png"
+        url: "https://releases.llvm.org/"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "JetBrains Rider"
         logo: "assets/tools/jetbrainsrider.png"
         url: "https://www.jetbrains.com/rider/download/download-thanks.html?platform=windowsARM64"
