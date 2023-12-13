@@ -914,6 +914,11 @@ services:
         url: "https://apps.microsoft.com/store/detail/windows-maps/9WZDNCRDTBVB"
         target: "_blank" # optional html a tag target attribute
      
+      - name: "Prometheus"
+        logo: "assets/tools/prometheus.png"
+        url: "https://prometheus.io/download/"
+        target: "_blank" # optional html a tag target attribute   
+        
       - name: "RunCat"
         logo: "assets/tools/runcat.png"
         url: "https://github.com/Kyome22/RunCat_for_windows/releases"
