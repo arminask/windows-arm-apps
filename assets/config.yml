@@ -1032,7 +1032,12 @@ services:
         tag: "Java"
         url: "https://www.freecol.org/download.html"
         target: "_blank" # optional html a tag target attribute
-                                                   
+               
+      - name: "SuperTuxKart"
+        logo: "assets/tools/supertuxkart.png"
+        url: "https://supertuxkart.net/Download"
+        target: "_blank" # optional html a tag target attribute
+                                                         
       - name: "Duolingo"
         logo: "assets/tools/duolingo.png"
         url: "https://apps.microsoft.com/store/detail/duolingo-learn-languages-for-free/9WZDNCRCV5XN"
