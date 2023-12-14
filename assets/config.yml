@@ -189,6 +189,12 @@ services:
         url: "https://handbrake.fr/downloads.php"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "Lux"
+        logo: "assets/tools/Lux.png"
+        subtitle: "video downloader"
+        url: "https://github.com/iawia002/lux/releases"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "Audacity"
         logo: "assets/tools/audacity.png"
         subtitle: "unofficial builds"
