@@ -1025,7 +1025,14 @@ services:
         subtitle: "Transport Tycoon Deluxe 1995 port"
         url: "https://www.openttd.org/downloads/openttd-releases/latest"
         target: "_blank" # optional html a tag target attribute
-                                              
+               
+      - name: "FreeCol"
+        logo: "assets/tools/freecol.png"
+        subtitle: "Colonization 1994 remake"
+        tag: "Java"
+        url: "https://www.freecol.org/download.html"
+        target: "_blank" # optional html a tag target attribute
+                                                   
       - name: "Duolingo"
         logo: "assets/tools/duolingo.png"
         url: "https://apps.microsoft.com/store/detail/duolingo-learn-languages-for-free/9WZDNCRCV5XN"
