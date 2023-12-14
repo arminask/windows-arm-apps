@@ -547,6 +547,11 @@ services:
         url: "https://apps.microsoft.com/detail/9NJMTKK6JC0Q"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "UUP Media Creator"
+        logo: "assets/tools/uupmediacreator.png"
+        url: "https://github.com/gus33000/UUPMediaCreator/releases"
+        target: "_blank" # optional html a tag target attribute
+
   - name: "Network & Cloud Storage"
     icon: "fa-solid fa-network-wired"
     items:
