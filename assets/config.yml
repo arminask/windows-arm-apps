@@ -546,6 +546,12 @@ services:
         url: "https://github.com/ekxs0109/TrafficMonitor/actions"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "Pingu"
+        logo: "assets/tools/pingu.png"
+        subtitle: "colored output of ping command"
+        url: "https://github.com/sheepla/pingu/releases"
+        target: "_blank" # optional html a tag target attribute
+
   - name: "Network & Cloud Storage"
     icon: "fa-solid fa-network-wired"
     items:
