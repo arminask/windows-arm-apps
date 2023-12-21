@@ -189,6 +189,12 @@ services:
         url: "https://handbrake.fr/downloads.php"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "Lux"
+        logo: "assets/tools/Lux.png"
+        subtitle: "video downloader"
+        url: "https://github.com/iawia002/lux/releases"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "fre:ac"
         logo: "assets/tools/freac.png"
         url: "https://www.freac.org/downloads-mainmenu-33"
@@ -337,7 +343,12 @@ services:
         logo: "assets/tools/leonardo.png"
         url: "https://www.getleonardo.com/download/"
         target: "_blank" # optional html a tag target attribute
-          
+                        
+      - name: "Luminar Neo"
+        logo: "assets/tools/LuminarNeo.png"
+        url: "https://apps.microsoft.com/detail/9P7JQGL6GC8P"
+        target: "_blank" # optional html a tag target attribute
+
   - name: "Compression"
     icon: "fa-solid fa-file-zipper"
     items:
@@ -380,6 +391,11 @@ services:
       - name: "LibreOffice"
         logo: "assets/tools/libreoffice.png"
         url: "https://downloadarchive.documentfoundation.org/libreoffice/old/latest/win/aarch64/"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Xodo"
+        logo: "assets/tools/xodo.png"
+        url: "https://apps.microsoft.com/detail/9WZDNCRDJXP4"
         target: "_blank" # optional html a tag target attribute
 
       - name: "SumatraPDF"
@@ -565,7 +581,14 @@ services:
       - name: "TrafficMonitor"
         logo: "assets/tools/TrafficMonitor.png"
         subtitle: "unofficial builds"
+        tag: "ARM64EC"
         url: "https://github.com/ekxs0109/TrafficMonitor/actions"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Pingu"
+        logo: "assets/tools/pingu.png"
+        subtitle: "colored output of ping command"
+        url: "https://github.com/sheepla/pingu/releases"
         target: "_blank" # optional html a tag target attribute
 
   - name: "Network & Cloud Storage"
@@ -612,10 +635,10 @@ services:
         url: "https://apps.microsoft.com/detail/onedrive/9WZDNCRFJ1P3"
         target: "_blank" # optional html a tag target attribute
 
-      - name: "AliyunDrive"
+      - name: "小白羊网盘"
         logo: "assets/tools/AliyunDrive.png"
         subtitle: "unofficial builds"
-        url: "https://github.com/odomu/aliyunpan/releases"
+        url: "https://github.com/gaozhangmin/aliyunpan/releases"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Rclone"
@@ -723,6 +746,12 @@ services:
         url: "https://github.com/dennisameling/git/releases"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "git-cliff"
+        logo: "assets/tools/gitcliff.png"
+        subtitle: "unofficial builds"
+        url: "https://github.com/orhun/git-cliff/releases"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "Git Extensions"
         logo: "assets/tools/gitextensions.png"
         subtitle: "unofficial builds"
@@ -815,6 +844,11 @@ services:
       - name: "MSYS2"
         logo: "assets/tools/msys2.png"
         url: "https://www.msys2.org/wiki/arm64/"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Page Spy"
+        logo: "assets/tools/PageSpy.png"
+        url: "https://github.com/HuolalaTech/page-spy-web/releases"
         target: "_blank" # optional html a tag target attribute
 
   - name: "Emulation & Virtualization"
