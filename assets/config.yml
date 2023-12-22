@@ -922,7 +922,12 @@ services:
         logo: "assets/tools/gfxbench.png"
         url: "https://gfxbench.com/windows-arm-download"
         target: "_blank" # optional html a tag target attribute   
-                    
+        
+      - name: "PassMark PerformanceTest"
+        logo: "assets/tools/performancetest.png"
+        url: "https://www.passmark.com/products/performancetest/download.php"
+        target: "_blank" # optional html a tag target attribute   
+                            
       - name: "CrystalDiskInfo"
         logo: "assets/tools/crystaldiskinfo.png"
         url: "https://crystalmark.info/en/download/"
