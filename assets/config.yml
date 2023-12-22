@@ -1186,6 +1186,12 @@ services:
         subtitle: "3dfx Glide & DirectX wrapper"
         url: "http://dege.freeweb.hu/dgVoodoo2/dgVoodoo2/"
         target: "_blank" # optional html a tag target attribute
+              
+      - name: "ClassiCube"
+        logo: "assets/tools/classicube.png"
+        subtitle: "Minecraft Classic 2009 compatible client"
+        url: "https://github.com/ArminiusTux/WinARM64-binaries/releases/tag/ClassiCube"
+        target: "_blank" # optional html a tag target attribute
 
       - name: "Minecraft"
         logo: "assets/tools/Minecraft.png"
