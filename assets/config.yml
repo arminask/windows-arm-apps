@@ -323,7 +323,13 @@ services:
         logo: "assets/tools/vuescan.png"
         url: "https://www.hamrick.com/alternate-versions.html"
         target: "_blank" # optional html a tag target attribute
-          
+                        
+      - name: "Gifsicle"
+        logo: "assets/tools/gifsicle.png"
+        subtitle: "unofficial builds"
+        url: "https://eternallybored.org/misc/gifsicle/"
+        target: "_blank" # optional html a tag target attribute
+               
       - name: "Adobe Lightroom"
         logo: "assets/tools/lightroom.png"
         url: "https://apps.microsoft.com/store/detail/adobe-lightroom/XPDP264X2DK8NB"
