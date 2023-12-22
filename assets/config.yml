@@ -1133,6 +1133,13 @@ services:
         url: "https://www.openttd.org/downloads/openttd-releases/latest"
         target: "_blank" # optional html a tag target attribute
                
+      - name: "Julius"
+        logo: "assets/tools/julius.png"
+        subtitle: "Caesar III 1998 vanilla clone"
+        tag: "original game data needed"
+        url: "https://github.com/ArminiusTux/WinARM64-binaries/releases/tag/Julius"
+        target: "_blank" # optional html a tag target attribute
+                  
       - name: "FreeCol"
         logo: "assets/tools/freecol.png"
         subtitle: "Colonization 1994 remake"
