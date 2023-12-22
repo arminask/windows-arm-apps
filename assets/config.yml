@@ -748,7 +748,7 @@ services:
 
       - name: "git-cliff"
         logo: "assets/tools/gitcliff.png"
-        subtitle: "unofficial builds"
+        subtitle: "A highly customizable Changelog Generator"
         url: "https://github.com/orhun/git-cliff/releases"
         target: "_blank" # optional html a tag target attribute
 
@@ -886,7 +886,19 @@ services:
         subtitle: "Windows Subsystem for Linux"
         url: "https://apps.microsoft.com/store/detail/windows-subsystem-for-linux/9P9TQF7MRM4R"
         target: "_blank" # optional html a tag target attribute
-        
+       
+      - name: "Arch WSL"
+        logo: "assets/tools/ArchWSL.png"
+        subtitle: "unofficial Arch WSL"
+        url: "https://apps.microsoft.com/detail/9P7JQGL6GC8P"
+        target: "_blank" # optional html a tag target attribute
+       
+      - name: "Ubuntu"
+        logo: "assets/tools/ubuntu.png"
+        subtitle: "Windows Subsystem for Linux"
+        url: "https://apps.microsoft.com/detail/9PDXGNCFSCZV"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "WSA"
         logo: "assets/tools/wsa.png"
         subtitle: "Windows Subsystem for Android"
