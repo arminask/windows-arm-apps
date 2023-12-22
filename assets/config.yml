@@ -801,6 +801,11 @@ services:
         url: "https://go.dev/dl/"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "Rust"
+        logo: "assets/tools/rust.png"
+        url: "https://forge.rust-lang.org/infra/other-installation-methods.html#standalone"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "PowerShell"
         logo: "assets/tools/powershell.png"
         url: "https://github.com/PowerShell/PowerShell/releases/"
