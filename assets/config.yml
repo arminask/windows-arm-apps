@@ -1037,7 +1037,8 @@ services:
         
       - name: "RetroArch"
         logo: "assets/tools/RetroArch.png"
-        subtitle: "unofficial builds"     
+        subtitle: "unofficial builds"
+        tag: "ARM32"        
         url: "https://github.com/basharast/RetroArch-ARM/releases"
         target: "_blank" # optional html a tag target attribute
 
@@ -1072,30 +1073,35 @@ services:
       - name: "SDLPoP"
         logo: "assets/tools/sdlpop.png"
         subtitle: "Prince of Persia 1989 port"
+        tag: "original game data needed"
         url: "https://github.com/mijk84/win-arm64-binaries/releases/tag/sdlpop"
         target: "_blank" # optional html a tag target attribute
                
       - name: "Chocolate Doom"
         logo: "assets/tools/chocolatedoom.png"
         subtitle: "Doom, Heretic, Hexen & Strife ports"
+        tag: "original game data needed"
         url: "https://github.com/mijk84/win-arm64-binaries/releases/tag/doom"
         target: "_blank" # optional html a tag target attribute
                        
       - name: "OpenJazz"
         logo: "assets/tools/openjazz.png"
         subtitle: "Jazz Jackrabbit 1994 port"
+        tag: "original game data needed"
         url: "https://github.com/mijk84/win-arm64-binaries/releases/tag/openjazz"
         target: "_blank" # optional html a tag target attribute
                
       - name: "OpenRCT2"
         logo: "assets/tools/openrct2.png"
         subtitle: "RollerCoaster Tycoon 2 2002 port"
+        tag: "original game data needed"
         url: "https://openrct2.org/downloads/releases/latest"
         target: "_blank" # optional html a tag target attribute
                
       - name: "OpenTTD"
         logo: "assets/tools/openttd.png"
         subtitle: "Transport Tycoon Deluxe 1995 port"
+        tag: "original game data needed"
         url: "https://www.openttd.org/downloads/openttd-releases/latest"
         target: "_blank" # optional html a tag target attribute
                
@@ -1118,7 +1124,7 @@ services:
 
       - name: "Heroic Games Launcher"
         logo: "assets/tools/heroic.png"
-        url: "https://github.com/Heroic-Games-Launcher/HeroicGamesLauncher/releases"
+        url: "https://github.com/Heroic-Games-Launcher/HeroicGamesLauncher/releases/tag/v2.8.0"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Xbox"
@@ -1149,6 +1155,6 @@ services:
       - name: "Starward"
         logo: "assets/tools/Starward.png"
         subtitle: "miHoYo games launcher"
-        url: "https://apps.microsoft.com/detail/9NBLGGH2JHXJ"
+        url: "https://github.com/Scighost/Starward/releases"
         target: "_blank" # optional html a tag target attribute
 
