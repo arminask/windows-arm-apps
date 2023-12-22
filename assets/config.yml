@@ -577,7 +577,12 @@ services:
         logo: "assets/tools/uupmediacreator.png"
         url: "https://github.com/gus33000/UUPMediaCreator/releases"
         target: "_blank" # optional html a tag target attribute
-        
+
+      - name: "Windows Universal Tool"
+        logo: "assets/tools/wut.png"
+        url: "https://github.com/basharast/wut/releases"
+        target: "_blank" # optional html a tag target attribute
+            
       - name: "TrafficMonitor"
         logo: "assets/tools/TrafficMonitor.png"
         subtitle: "unofficial builds"
