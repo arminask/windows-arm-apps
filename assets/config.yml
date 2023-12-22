@@ -1139,7 +1139,14 @@ services:
         tag: "original game data needed"
         url: "https://github.com/ArminiusTux/WinARM64-binaries/releases/tag/Julius"
         target: "_blank" # optional html a tag target attribute
-                  
+               
+      - name: "Augustus"
+        logo: "assets/tools/augustus.png"
+        subtitle: "Caesar III 1998 enhanced clone"
+        tag: "original game data needed"
+        url: "https://github.com/ArminiusTux/WinARM64-binaries/releases/tag/Augustus"
+        target: "_blank" # optional html a tag target attribute
+                      
       - name: "FreeCol"
         logo: "assets/tools/freecol.png"
         subtitle: "Colonization 1994 remake"
