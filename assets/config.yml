@@ -1192,6 +1192,12 @@ services:
         subtitle: "Minecraft Classic 2009 compatible client"
         url: "https://github.com/ArminiusTux/WinARM64-binaries/releases/tag/ClassiCube"
         target: "_blank" # optional html a tag target attribute
+              
+      - name: "MCGalaxy"
+        logo: "assets/tools/mcgalaxy.png"
+        subtitle: "Minecraft Classic / ClassiCube server"
+        url: "https://github.com/ArminiusTux/WinARM64-binaries/releases/tag/MCGalaxy"
+        target: "_blank" # optional html a tag target attribute
 
       - name: "Minecraft"
         logo: "assets/tools/Minecraft.png"
