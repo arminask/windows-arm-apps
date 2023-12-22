@@ -1180,6 +1180,11 @@ services:
         url: "https://apps.microsoft.com/detail/9NBLGGH2JHXJ"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "Solitaire Collection"
+        logo: "assets/tools/solitaire.png"
+        url: "https://www.microsoft.com/store/productId/9WZDNCRFHWD2/"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "Ink Ball"
         logo: "assets/tools/inkball.png"
         url: "https://www.microsoft.com/store/productId/9NBK1BJ87MCF/"
