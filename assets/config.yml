@@ -594,12 +594,18 @@ services:
   - name: "Network & Cloud Storage"
     icon: "fa-solid fa-network-wired"
     items:
-      - name: "Filezilla"
+      - name: "Filezilla Client"
         logo: "assets/tools/filezilla.png"
         subtitle: "unofficial builds"
         url: "https://github.com/minnyres/filezilla-windows-arm64/releases"
         target: "_blank" # optional html a tag target attribute
- 
+
+      - name: "Filezilla Server"
+        logo: "assets/tools/filezillaserver.png"
+        subtitle: "unofficial builds"
+        url: "https://github.com/minnyres/filezilla-server-windows-arm64/releases"
+        target: "_blank" # optional html a tag target attribute
+  
       - name: "PuTTY"
         logo: "assets/tools/putty.png"
         url: "https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html"
