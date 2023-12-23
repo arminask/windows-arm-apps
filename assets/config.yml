@@ -349,6 +349,12 @@ services:
         url: "https://apps.microsoft.com/detail/9P7JQGL6GC8P"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "Lunacy"
+        logo: "assets/tools/Lunacy.png"
+        subtitle: "a vector graphic design app"
+        url: "https://apps.microsoft.com/detail/9PNLMKKPCLJJ"
+        target: "_blank" # optional html a tag target attribute
+
   - name: "Compression"
     icon: "fa-solid fa-file-zipper"
     items:
@@ -391,6 +397,11 @@ services:
       - name: "LibreOffice"
         logo: "assets/tools/libreoffice.png"
         url: "https://downloadarchive.documentfoundation.org/libreoffice/old/latest/win/aarch64/"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "PDF-XChange Editor"
+        logo: "assets/tools/PDFXChange.png"
+        url: "https://apps.microsoft.com/detail/XPDF9VL4D5XR9W"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Xodo"
@@ -474,6 +485,11 @@ services:
       - name: "Windows File Manager (WinFile)"
         logo: "assets/tools/winfile.png"
         url: "https://apps.microsoft.com/store/detail/windows-file-manager/9P7VBBBC49RB"
+        target: "_blank" # optional html a tag target attribute
+                
+      - name: "Explorer++"
+        logo: "assets/tools/Explorer.png"
+        url: "https://explorerplusplus.com/download"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Microsoft PowerToys"
@@ -589,6 +605,12 @@ services:
         logo: "assets/tools/pingu.png"
         subtitle: "colored output of ping command"
         url: "https://github.com/sheepla/pingu/releases"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "System Informer"
+        logo: "assets/tools/SystemInformer.png"
+        subtitle: "monitor system resources, debug software and detect malware"
+        url: "https://systeminformer.sourceforge.io/nightly.php"
         target: "_blank" # optional html a tag target attribute
 
   - name: "Network & Cloud Storage"
@@ -841,14 +863,43 @@ services:
         url: "https://aka.ms/terminal"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "WinSSHTerm"
+        logo: "assets/tools/WinSSHTerm.png"
+        subtitle: "a tabbed SSH solution for Windows"
+        url: "https://apps.microsoft.com/detail/XP99F8QBDFR0H5"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "MSYS2"
         logo: "assets/tools/msys2.png"
         url: "https://www.msys2.org/wiki/arm64/"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "TortoiseSVN"
+        logo: "assets/tools/TortoiseSVN.png"
+        subtitle: "a Subversion client, implemented as a windows shell extension"
+        url: "https://tortoisesvn.net/downloads.html"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "TortoiseGit"
+        logo: "assets/tools/TortoiseGit.png"
+        subtitle: "a Windows Shell Interface to Git and based on TortoiseSVN"
+        url: "https://tortoisegit.org/download/"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "Page Spy"
         logo: "assets/tools/PageSpy.png"
         url: "https://github.com/HuolalaTech/page-spy-web/releases"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Azure Data Studio"
+        logo: "assets/tools/AzureDataStudio.png"
+        subtitle: "a data management and development tool"
+        url: "https://learn.microsoft.com/en-us/azure-data-studio/download-azure-data-studio?tabs=win-install%2Cwin-user-install%2Credhat-install%2Cwindows-uninstall%2Credhat-uninstall"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Free Hex Editor Neo"
+        logo: "assets/tools/FreeHexEditorNeo.png"
+        url: "https://www.hhdsoftware.com/free-hex-editor"
         target: "_blank" # optional html a tag target attribute
 
   - name: "Emulation & Virtualization"
@@ -1032,6 +1083,11 @@ services:
         logo: "assets/tools/DarkMode.png"
         subtitle: "automatically switch the color mode of Windows 10/11 systems"
         url: "https://github.com/Melon-Studio/DarkMode2/releases"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "ESET Smart Security Premium"
+        logo: "assets/tools/ESET.png"
+        url: "https://www.eset.com/int/home/smart-security-premium/download/"
         target: "_blank" # optional html a tag target attribute
 
   - name: "Games"
