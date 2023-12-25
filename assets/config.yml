@@ -405,11 +405,6 @@ services:
         url: "https://downloadarchive.documentfoundation.org/libreoffice/old/latest/win/aarch64/"
         target: "_blank" # optional html a tag target attribute
 
-      - name: "PDF-XChange Editor"
-        logo: "assets/tools/PDFXChange.png"
-        url: "https://apps.microsoft.com/detail/XPDF9VL4D5XR9W"
-        target: "_blank" # optional html a tag target attribute
-
       - name: "Xodo"
         logo: "assets/tools/xodo.png"
         url: "https://apps.microsoft.com/detail/9WZDNCRDJXP4"
