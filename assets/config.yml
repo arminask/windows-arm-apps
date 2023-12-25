@@ -323,7 +323,13 @@ services:
         logo: "assets/tools/vuescan.png"
         url: "https://www.hamrick.com/alternate-versions.html"
         target: "_blank" # optional html a tag target attribute
-          
+                        
+      - name: "Gifsicle"
+        logo: "assets/tools/gifsicle.png"
+        subtitle: "unofficial builds"
+        url: "https://eternallybored.org/misc/gifsicle/"
+        target: "_blank" # optional html a tag target attribute
+               
       - name: "Adobe Lightroom"
         logo: "assets/tools/lightroom.png"
         url: "https://apps.microsoft.com/store/detail/adobe-lightroom/XPDP264X2DK8NB"
@@ -418,6 +424,11 @@ services:
         logo: "assets/tools/drawboardpdf.png"
         tag: "ARM32"
         url: "https://apps.microsoft.com/detail/drawboard-pdf/9WZDNCRFHWQT"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "PDF X-Change Editor"
+        logo: "assets/tools/pdfxchange.png"
+        url: "https://pdf-xchange.eu/DL/pdf-xchange-editor.htm"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Drawboard Projects"
@@ -593,7 +604,12 @@ services:
         logo: "assets/tools/uupmediacreator.png"
         url: "https://github.com/gus33000/UUPMediaCreator/releases"
         target: "_blank" # optional html a tag target attribute
-        
+
+      - name: "Windows Universal Tool"
+        logo: "assets/tools/wut.png"
+        url: "https://github.com/basharast/wut/releases"
+        target: "_blank" # optional html a tag target attribute
+            
       - name: "TrafficMonitor"
         logo: "assets/tools/TrafficMonitor.png"
         subtitle: "unofficial builds"
@@ -616,12 +632,18 @@ services:
   - name: "Network & Cloud Storage"
     icon: "fa-solid fa-network-wired"
     items:
-      - name: "Filezilla"
+      - name: "Filezilla Client"
         logo: "assets/tools/filezilla.png"
         subtitle: "unofficial builds"
         url: "https://github.com/minnyres/filezilla-windows-arm64/releases"
         target: "_blank" # optional html a tag target attribute
- 
+
+      - name: "Filezilla Server"
+        logo: "assets/tools/filezillaserver.png"
+        subtitle: "unofficial builds"
+        url: "https://github.com/minnyres/filezilla-server-windows-arm64/releases"
+        target: "_blank" # optional html a tag target attribute
+  
       - name: "PuTTY"
         logo: "assets/tools/putty.png"
         url: "https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html"
@@ -679,6 +701,12 @@ services:
         url: "https://github.com/minnyres/aria2-windows-arm64/releases"
         target: "_blank" # optional html a tag target attribute
                      
+      - name: "GNU Wget"
+        logo: "assets/tools/clionly.png"
+        subtitle: "unofficial builds"
+        url: "https://eternallybored.org/misc/wget/"
+        target: "_blank" # optional html a tag target attribute
+                         
       - name: "Static Web Server"
         logo: "assets/tools/clionly.png"
         url: "https://static-web-server.net/download-and-install/#arm64"
@@ -798,6 +826,11 @@ services:
       - name: "Golang"
         logo: "assets/tools/Golang.png"
         url: "https://go.dev/dl/"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Rust"
+        logo: "assets/tools/rust.png"
+        url: "https://forge.rust-lang.org/infra/other-installation-methods.html#standalone"
         target: "_blank" # optional html a tag target attribute
 
       - name: "PowerShell"
@@ -979,7 +1012,12 @@ services:
         logo: "assets/tools/gfxbench.png"
         url: "https://gfxbench.com/windows-arm-download"
         target: "_blank" # optional html a tag target attribute   
-                    
+        
+      - name: "PassMark PerformanceTest"
+        logo: "assets/tools/performancetest.png"
+        url: "https://www.passmark.com/products/performancetest/download.php"
+        target: "_blank" # optional html a tag target attribute   
+                            
       - name: "CrystalDiskInfo"
         logo: "assets/tools/crystaldiskinfo.png"
         url: "https://crystalmark.info/en/download/"
@@ -1105,7 +1143,8 @@ services:
         
       - name: "RetroArch"
         logo: "assets/tools/RetroArch.png"
-        subtitle: "unofficial builds"     
+        subtitle: "unofficial builds"
+        tag: "ARM32"        
         url: "https://github.com/basharast/RetroArch-ARM/releases"
         target: "_blank" # optional html a tag target attribute
 
@@ -1140,33 +1179,52 @@ services:
       - name: "SDLPoP"
         logo: "assets/tools/sdlpop.png"
         subtitle: "Prince of Persia 1989 port"
+        tag: "original game data needed"
         url: "https://github.com/mijk84/win-arm64-binaries/releases/tag/sdlpop"
         target: "_blank" # optional html a tag target attribute
                
       - name: "Chocolate Doom"
         logo: "assets/tools/chocolatedoom.png"
         subtitle: "Doom, Heretic, Hexen & Strife ports"
+        tag: "original game data needed"
         url: "https://github.com/mijk84/win-arm64-binaries/releases/tag/doom"
         target: "_blank" # optional html a tag target attribute
                        
       - name: "OpenJazz"
         logo: "assets/tools/openjazz.png"
         subtitle: "Jazz Jackrabbit 1994 port"
+        tag: "original game data needed"
         url: "https://github.com/mijk84/win-arm64-binaries/releases/tag/openjazz"
         target: "_blank" # optional html a tag target attribute
                
       - name: "OpenRCT2"
         logo: "assets/tools/openrct2.png"
         subtitle: "RollerCoaster Tycoon 2 2002 port"
+        tag: "original game data needed"
         url: "https://openrct2.org/downloads/releases/latest"
         target: "_blank" # optional html a tag target attribute
                
       - name: "OpenTTD"
         logo: "assets/tools/openttd.png"
         subtitle: "Transport Tycoon Deluxe 1995 port"
+        tag: "original game data needed"
         url: "https://www.openttd.org/downloads/openttd-releases/latest"
         target: "_blank" # optional html a tag target attribute
                
+      - name: "Julius"
+        logo: "assets/tools/julius.png"
+        subtitle: "Caesar III 1998 vanilla clone"
+        tag: "original game data needed"
+        url: "https://github.com/ArminiusTux/WinARM64-binaries/releases/tag/Julius"
+        target: "_blank" # optional html a tag target attribute
+               
+      - name: "Augustus"
+        logo: "assets/tools/augustus.png"
+        subtitle: "Caesar III 1998 enhanced clone"
+        tag: "original game data needed"
+        url: "https://github.com/ArminiusTux/WinARM64-binaries/releases/tag/Augustus"
+        target: "_blank" # optional html a tag target attribute
+                      
       - name: "FreeCol"
         logo: "assets/tools/freecol.png"
         subtitle: "Colonization 1994 remake"
@@ -1178,7 +1236,14 @@ services:
         logo: "assets/tools/supertuxkart.png"
         url: "https://supertuxkart.net/Download"
         target: "_blank" # optional html a tag target attribute
-                                                         
+               
+      - name: "OpenTomb"
+        logo: "assets/tools/opentomb.png"
+        subtitle: "Tomb Raider 1-5 1996-2003 engine remake"
+        tag: "original game data needed"
+        url: "https://github.com/ArminiusTux/WinARM64-binaries/releases/tag/OpenTomb"
+        target: "_blank" # optional html a tag target attribute
+                                                              
       - name: "Duolingo"
         logo: "assets/tools/duolingo.png"
         url: "https://apps.microsoft.com/store/detail/duolingo-learn-languages-for-free/9WZDNCRCV5XN"
@@ -1186,7 +1251,7 @@ services:
 
       - name: "Heroic Games Launcher"
         logo: "assets/tools/heroic.png"
-        url: "https://github.com/Heroic-Games-Launcher/HeroicGamesLauncher/releases"
+        url: "https://github.com/Heroic-Games-Launcher/HeroicGamesLauncher/releases/tag/v2.8.0"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Xbox"
@@ -1206,6 +1271,18 @@ services:
         subtitle: "3dfx Glide & DirectX wrapper"
         url: "http://dege.freeweb.hu/dgVoodoo2/dgVoodoo2/"
         target: "_blank" # optional html a tag target attribute
+              
+      - name: "ClassiCube"
+        logo: "assets/tools/classicube.png"
+        subtitle: "Minecraft Classic 2009 compatible client"
+        url: "https://github.com/ArminiusTux/WinARM64-binaries/releases/tag/ClassiCube"
+        target: "_blank" # optional html a tag target attribute
+              
+      - name: "MCGalaxy"
+        logo: "assets/tools/mcgalaxy.png"
+        subtitle: "Minecraft Classic / ClassiCube server"
+        url: "https://github.com/ArminiusTux/WinARM64-binaries/releases/tag/MCGalaxy"
+        target: "_blank" # optional html a tag target attribute
 
       - name: "Minecraft"
         logo: "assets/tools/Minecraft.png"
@@ -1214,9 +1291,24 @@ services:
         url: "https://apps.microsoft.com/detail/9NBLGGH2JHXJ"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "Solitaire Collection"
+        logo: "assets/tools/solitaire.png"
+        url: "https://www.microsoft.com/store/productId/9WZDNCRFHWD2/"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Ink Ball"
+        logo: "assets/tools/inkball.png"
+        url: "https://www.microsoft.com/store/productId/9NBK1BJ87MCF/"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "poi"
+        logo: "assets/tools/poi.png"
+        url: "https://poi.moe/downloads"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "Starward"
         logo: "assets/tools/Starward.png"
         subtitle: "miHoYo games launcher"
-        url: "https://apps.microsoft.com/detail/9NBLGGH2JHXJ"
+        url: "https://github.com/Scighost/Starward/releases"
         target: "_blank" # optional html a tag target attribute
 
