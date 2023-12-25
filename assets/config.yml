@@ -409,6 +409,11 @@ services:
         url: "https://apps.microsoft.com/detail/drawboard-pdf/9WZDNCRFHWQT"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "PDF X-Change Editor"
+        logo: "assets/tools/pdfxchange.png"
+        url: "https://pdf-xchange.eu/DL/pdf-xchange-editor.htm"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "Drawboard Projects"
         logo: "assets/tools/drawboardprojects.png"
         url: "https://apps.microsoft.com/detail/drawboard-projects/9NBLGGH314V8"
