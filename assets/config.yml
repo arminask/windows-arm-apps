@@ -1107,6 +1107,11 @@ services:
         url: "https://apps.microsoft.com/detail/9PM860492SZD"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "FluentWeather"
+        logo: "assets/tools/FluentWeather.png"
+        url: "https://apps.microsoft.com/detail/9N7VHQ989BB7"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "Timeline Wallpaper"
         logo: "assets/tools/Timeline.png"
         url: "https://apps.microsoft.com/detail/9N7VHQ989BB7"
