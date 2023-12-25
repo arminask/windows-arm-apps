@@ -1109,7 +1109,7 @@ services:
 
       - name: "FluentWeather"
         logo: "assets/tools/FluentWeather.png"
-        url: "https://apps.microsoft.com/detail/9N7VHQ989BB7"
+        url: "https://apps.microsoft.com/detail/9PFD136M8457"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Timeline Wallpaper"
@@ -1181,7 +1181,22 @@ services:
         subtitle: "unofficial builds"
         url: "https://github.com/mijk84/win-arm64-binaries/releases/tag/scummvm"
         target: "_blank" # optional html a tag target attribute
-               
+                      
+      - name: "Great Conqueror"
+        logo: "assets/tools/GreatConqueror.png"
+        url: "https://www.ieasytech.com/en/Desktop/"
+        target: "_blank" # optional html a tag target attribute
+                      
+      - name: "European War"
+        logo: "assets/tools/EuropeanWar.png"
+        url: "https://www.ieasytech.com/en/Desktop/"
+        target: "_blank" # optional html a tag target attribute
+                      
+      - name: "Glory of Generals"
+        logo: "assets/tools/GloryofGenerals.png"
+        url: "https://www.ieasytech.com/en/Desktop/"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "SDLPoP"
         logo: "assets/tools/sdlpop.png"
         subtitle: "Prince of Persia 1989 port"
