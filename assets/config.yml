@@ -464,6 +464,12 @@ services:
         url: "https://apps.microsoft.com/detail/9NK7HZ90B3S6"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "Koodo-Reader"
+        logo: "assets/tools/koodo.png"
+        subtitle: "an all-in-one ebook reader"
+        url: "https://github.com/koodo-reader/koodo-reader/releases"
+        target: "_blank" # optional html a tag target attribute
+
   - name: "Tools"
     icon: "fa-solid fa-screwdriver-wrench"
     items:
