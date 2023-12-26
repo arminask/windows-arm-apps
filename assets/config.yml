@@ -763,8 +763,15 @@ services:
         url: "https://github.com/2dust/v2rayN/releases"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "Nebula"
+        logo: "assets/tools/clionly.png"
+        subtitle: "connect computers anywhere"
+        url: "https://github.com/slackhq/nebula/releases"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "Tailscale"
         logo: "assets/tools/tailscale.png"
+        subtitle: "securely connecting users, services, and devices"
         url: "https://pkgs.tailscale.com/stable/#windows"
         target: "_blank" # optional html a tag target attribute
 
@@ -895,6 +902,12 @@ services:
       - name: "Windows Terminal"
         logo: "assets/tools/windowsterminal.png"
         url: "https://aka.ms/terminal"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Starship"
+        logo: "assets/tools/Starship.png"
+        subtitle: "infinitely customizable prompt for any shell"
+        url: "https://github.com/starship/starship/releases"
         target: "_blank" # optional html a tag target attribute
 
       - name: "WinSSHTerm"
