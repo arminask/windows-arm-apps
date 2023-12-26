@@ -355,6 +355,12 @@ services:
         url: "https://apps.microsoft.com/detail/9P7JQGL6GC8P"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "Lunacy"
+        logo: "assets/tools/Lunacy.png"
+        subtitle: "a vector graphic design app"
+        url: "https://apps.microsoft.com/detail/9PNLMKKPCLJJ"
+        target: "_blank" # optional html a tag target attribute
+
   - name: "Compression"
     icon: "fa-solid fa-file-zipper"
     items:
@@ -458,6 +464,12 @@ services:
         url: "https://apps.microsoft.com/detail/9NK7HZ90B3S6"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "Koodo-Reader"
+        logo: "assets/tools/koodo.png"
+        subtitle: "an all-in-one ebook reader"
+        url: "https://github.com/koodo-reader/koodo-reader/releases"
+        target: "_blank" # optional html a tag target attribute
+
   - name: "Tools"
     icon: "fa-solid fa-screwdriver-wrench"
     items:
@@ -485,6 +497,11 @@ services:
       - name: "Windows File Manager (WinFile)"
         logo: "assets/tools/winfile.png"
         url: "https://apps.microsoft.com/store/detail/windows-file-manager/9P7VBBBC49RB"
+        target: "_blank" # optional html a tag target attribute
+                
+      - name: "Explorer++"
+        logo: "assets/tools/Explorer.png"
+        url: "https://explorerplusplus.com/download"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Microsoft PowerToys"
@@ -607,6 +624,12 @@ services:
         url: "https://github.com/sheepla/pingu/releases"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "System Informer"
+        logo: "assets/tools/SystemInformer.png"
+        subtitle: "monitor system resources, debug software and detect malware"
+        url: "https://systeminformer.sourceforge.io/nightly.php"
+        target: "_blank" # optional html a tag target attribute
+
   - name: "Network & Cloud Storage"
     icon: "fa-solid fa-network-wired"
     items:
@@ -626,7 +649,19 @@ services:
         logo: "assets/tools/putty.png"
         url: "https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html"
         target: "_blank" # optional html a tag target attribute
- 
+
+      - name: "hysteria"
+        logo: "assets/tools/hysteria.png"
+        subtitle: "a censorship resistant proxy"
+        url: "https://github.com/apernet/hysteria/releases"
+        target: "_blank" # optional html a tag target attribute
+        
+      - name: "NaïveProxy"
+        logo: "assets/tools/clionly.png"
+        subtitle: "uses Chromium's network stack to camouflage traffic"
+        url: "https://github.com/klzgrad/naiveproxy/releases"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "AdGuardHome"
         logo: "assets/tools/AdGuardHome.png"
         url: "https://github.com/AdguardTeam/AdGuardHome/releases"
@@ -740,8 +775,21 @@ services:
         url: "https://github.com/2dust/v2rayN/releases"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "wgcf"
+        logo: "assets/tools/clionly.png"
+        subtitle: "an unofficial, cross-platform CLI for Cloudflare Warp"
+        url: "https://github.com/ViRb3/wgcf/releases"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Nebula"
+        logo: "assets/tools/clionly.png"
+        subtitle: "connect computers anywhere"
+        url: "https://github.com/slackhq/nebula/releases"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "Tailscale"
         logo: "assets/tools/tailscale.png"
+        subtitle: "securely connecting users, services, and devices"
         url: "https://pkgs.tailscale.com/stable/#windows"
         target: "_blank" # optional html a tag target attribute
 
@@ -776,7 +824,7 @@ services:
 
       - name: "git-cliff"
         logo: "assets/tools/gitcliff.png"
-        subtitle: "unofficial builds"
+        subtitle: "A highly customizable Changelog Generator"
         url: "https://github.com/orhun/git-cliff/releases"
         target: "_blank" # optional html a tag target attribute
 
@@ -874,14 +922,49 @@ services:
         url: "https://aka.ms/terminal"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "Starship"
+        logo: "assets/tools/Starship.png"
+        subtitle: "infinitely customizable prompt for any shell"
+        url: "https://github.com/starship/starship/releases"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "WinSSHTerm"
+        logo: "assets/tools/WinSSHTerm.png"
+        subtitle: "a tabbed SSH solution for Windows"
+        url: "https://apps.microsoft.com/detail/XP99F8QBDFR0H5"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "MSYS2"
         logo: "assets/tools/msys2.png"
         url: "https://www.msys2.org/wiki/arm64/"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "TortoiseSVN"
+        logo: "assets/tools/TortoiseSVN.png"
+        subtitle: "a Subversion client, implemented as a windows shell extension"
+        url: "https://tortoisesvn.net/downloads.html"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "TortoiseGit"
+        logo: "assets/tools/TortoiseGit.png"
+        subtitle: "a Windows Shell Interface to Git and based on TortoiseSVN"
+        url: "https://tortoisegit.org/download/"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "Page Spy"
         logo: "assets/tools/PageSpy.png"
         url: "https://github.com/HuolalaTech/page-spy-web/releases"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Azure Data Studio"
+        logo: "assets/tools/AzureDataStudio.png"
+        subtitle: "a data management and development tool"
+        url: "https://learn.microsoft.com/en-us/azure-data-studio/download-azure-data-studio?tabs=win-install%2Cwin-user-install%2Credhat-install%2Cwindows-uninstall%2Credhat-uninstall"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Free Hex Editor Neo"
+        logo: "assets/tools/FreeHexEditorNeo.png"
+        url: "https://www.hhdsoftware.com/free-hex-editor"
         target: "_blank" # optional html a tag target attribute
 
   - name: "Emulation & Virtualization"
@@ -919,7 +1002,19 @@ services:
         subtitle: "Windows Subsystem for Linux"
         url: "https://apps.microsoft.com/store/detail/windows-subsystem-for-linux/9P9TQF7MRM4R"
         target: "_blank" # optional html a tag target attribute
-        
+       
+      - name: "Arch WSL"
+        logo: "assets/tools/ArchWSL.png"
+        subtitle: "unofficial Arch WSL"
+        url: "https://apps.microsoft.com/detail/9P7JQGL6GC8P"
+        target: "_blank" # optional html a tag target attribute
+       
+      - name: "Ubuntu"
+        logo: "assets/tools/ubuntu.png"
+        subtitle: "Windows Subsystem for Linux"
+        url: "https://apps.microsoft.com/detail/9PDXGNCFSCZV"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "WSA"
         logo: "assets/tools/wsa.png"
         subtitle: "Windows Subsystem for Android"
@@ -1043,6 +1138,11 @@ services:
         url: "https://apps.microsoft.com/detail/9PM860492SZD"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "FluentWeather"
+        logo: "assets/tools/FluentWeather.png"
+        url: "https://apps.microsoft.com/detail/9PFD136M8457"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "Timeline Wallpaper"
         logo: "assets/tools/Timeline.png"
         url: "https://apps.microsoft.com/detail/9N7VHQ989BB7"
@@ -1058,6 +1158,11 @@ services:
         logo: "assets/tools/DarkMode.png"
         subtitle: "automatically switch the color mode of Windows 10/11 systems"
         url: "https://github.com/Melon-Studio/DarkMode2/releases"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "ESET Smart Security Premium"
+        logo: "assets/tools/ESET.png"
+        url: "https://www.eset.com/int/home/smart-security-premium/download/"
         target: "_blank" # optional html a tag target attribute
 
   - name: "Games"
@@ -1107,7 +1212,22 @@ services:
         subtitle: "unofficial builds"
         url: "https://github.com/mijk84/win-arm64-binaries/releases/tag/scummvm"
         target: "_blank" # optional html a tag target attribute
-               
+                      
+      - name: "Great Conqueror"
+        logo: "assets/tools/GreatConqueror.png"
+        url: "https://www.ieasytech.com/en/Desktop/"
+        target: "_blank" # optional html a tag target attribute
+                      
+      - name: "European War"
+        logo: "assets/tools/EuropeanWar.png"
+        url: "https://www.ieasytech.com/en/Desktop/"
+        target: "_blank" # optional html a tag target attribute
+                      
+      - name: "Glory of Generals"
+        logo: "assets/tools/GloryofGenerals.png"
+        url: "https://www.ieasytech.com/en/Desktop/"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "SDLPoP"
         logo: "assets/tools/sdlpop.png"
         subtitle: "Prince of Persia 1989 port"
@@ -1221,6 +1341,18 @@ services:
         tag: "Purchases"
         subtitle: "Bedrock"
         url: "https://apps.microsoft.com/detail/9NBLGGH2JHXJ"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Prism Launcher"
+        logo: "assets/tools/Prism.png"
+        subtitle: "a custom launcher for Minecraft"
+        url: "https://prismlauncher.org/download/"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Minecraft Java Edition (with ARM Support)"
+        logo: "assets/tools/MinecraftJave.png"
+        subtitle: "This is a Prism Launcher Pack that adds ARM support to Minecraft Java Edition"
+        url: "https://github.com/Kichura/Minecraft_ARM?tab=readme-ov-file"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Solitaire Collection"
