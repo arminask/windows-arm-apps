@@ -762,6 +762,12 @@ services:
         logo: "assets/tools/v2rayN.png"
         url: "https://github.com/2dust/v2rayN/releases"
         target: "_blank" # optional html a tag target attribute
+  
+      - name: "wgcf"
+        logo: "assets/tools/clionly.png"
+        subtitle: "an unofficial, cross-platform CLI for Cloudflare Warp"
+        url: "https://github.com/ViRb3/wgcf/releases"
+        target: "_blank" # optional html a tag target attribute
 
       - name: "Nebula"
         logo: "assets/tools/clionly.png"
