@@ -1312,6 +1312,18 @@ services:
         url: "https://apps.microsoft.com/detail/9NBLGGH2JHXJ"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "Prism Launcher"
+        logo: "assets/tools/Prism.png"
+        subtitle: "a custom launcher for Minecraft"
+        url: "https://prismlauncher.org/download/"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Minecraft Java Edition (with ARM Support)"
+        logo: "assets/tools/MinecraftJave.png"
+        subtitle: "This is a Prism Launcher Pack that adds ARM support to Minecraft Java Edition"
+        url: "https://github.com/Kichura/Minecraft_ARM?tab=readme-ov-file"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "Solitaire Collection"
         logo: "assets/tools/solitaire.png"
         url: "https://www.microsoft.com/store/productId/9WZDNCRFHWD2/"
