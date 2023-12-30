@@ -1006,7 +1006,7 @@ services:
       - name: "Arch WSL"
         logo: "assets/tools/ArchWSL.png"
         subtitle: "unofficial Arch WSL"
-        url: "https://apps.microsoft.com/detail/9P7JQGL6GC8P"
+        url: "https://apps.microsoft.com/detail/9MZNMNKSM73X"
         target: "_blank" # optional html a tag target attribute
        
       - name: "Ubuntu"
