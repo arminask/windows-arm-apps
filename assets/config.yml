@@ -178,6 +178,12 @@ services:
         url: "https://apps.microsoft.com/detail/XPFPFG7M44SKWX"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "Bili Copilot"
+        logo: "assets/tools/bilicopilot.png"
+        subtitle: "3rd-party desktop app for Bilibili"
+        url: "https://www.microsoft.com/store/apps/9MVFJLPH517M"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "FFmpeg"
         logo: "assets/tools/FFmpeg.png"
         subtitle: "unofficial builds"
@@ -227,6 +233,36 @@ services:
         url: "https://www.xreveal.com/"
         target: "_blank" # optional html a tag target attribute        
         
+      - name: "BBDown"
+        logo: "assets/tools/clionly.png"
+        subtitle: "Bilibili video downloader."
+        url: "https://github.com/nilaoda/BBDown/releases"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "N_m3u8DL-RE"
+        logo: "assets/tools/clionly.png"
+        subtitle: "Cross-Platform, modern and powerful stream downloader for MPD/M3U8/ISM."
+        url: "https://github.com/nilaoda/N_m3u8DL-RE/releases"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "lx-music"
+        logo: "assets/tools/lx-music-desktop.png"
+        subtitle: "A music app based on electron"
+        url: "https://github.com/lyswhut/lx-music-desktop/releases"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Listen 1"
+        logo: "assets/tools/listen1.png"
+        subtitle: "One for all free music in china"
+        url: "https://github.com/listen1/listen1_desktop/releases"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "OBS Studio"
+        logo: "assets/tools/obs.png"
+        subtitle: "Unofficial builds"
+        url: "https://github.com/tommyvct/obs-studio/releases"
+        target: "_blank" # optional html a tag target attribute
+
   - name: "Social"
     icon: "fa-solid fa-message"
     items:
@@ -290,7 +326,13 @@ services:
         logo: "assets/tools/socialpagemanager.png"
         url: "https://apps.microsoft.com/store/detail/social-page-manager/9WZDNCRFJ9N7"
         target: "_blank" # optional html a tag target attribute 
-        
+
+      - name: "Icalingua++"
+        logo: "assets/tools/Icalingua-plus-plus.png"
+        subtitle: "Unofficial client for QQ based on Electron"
+        url: "https://github.com/Icalingua-plus-plus/Icalingua-plus-plus/releases"
+        target: "_blank" # optional html a tag target attribute 
+
   - name: "Picture Editing & Drawing"
     icon: "fa-solid fa-paintbrush"
     items:
@@ -367,6 +409,12 @@ services:
       - name: "7-Zip"
         logo: "assets/tools/7zip.png"
         url: "https://www.7-zip.org/download.html"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "7-Zip-zstd"
+        logo: "assets/tools/7zip.png"
+        subtitle: "Unofficial build of 7-Zip with zstd support"
+        url: "https://github.com/mcmilk/7-Zip-zstd/releases"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Bandizip"
@@ -630,6 +678,18 @@ services:
         url: "https://systeminformer.sourceforge.io/nightly.php"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "Process Explorer"
+        logo: "assets/tools/ProcessExplorer.png"
+        subtitle: "Advanced process manager"
+        url: "https://learn.microsoft.com/en-us/sysinternals/downloads/process-explorer"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Process Monitor"
+        logo: "assets/tools/ProcessMonitor.png"
+        subtitle: "Advanced monitoring tool"
+        url: "https://learn.microsoft.com/en-us/sysinternals/downloads/procmon"
+        target: "_blank" # optional html a tag target attribute
+
   - name: "Network & Cloud Storage"
     icon: "fa-solid fa-network-wired"
     items:
@@ -798,6 +858,18 @@ services:
         url: "https://github.com/syncthing/syncthing/releases"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "Caddy"
+        logo: "assets/tools/caddy.png"
+        subtitle: "Fast and extensible web server with automatic HTTPS"
+        url: "https://github.com/caddyserver/caddy/releases"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Nginx"
+        logo: "assets/tools/nginx.png"
+        subtitle: "Unofficial builds"
+        url: "https://github.com/Aliebc/nginx-windows-arm/releases"
+        target: "_blank" # optional html a tag target attribute
+
   - name: "Coding"
     icon: "fa-solid fa-code"
     items:
@@ -844,9 +916,59 @@ services:
         url: "https://releases.llvm.org/"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "JetBrains IntelliJ IDEA"
+        logo: "assets/tools/jetbrainsintellij-idea.png"
+        url: "https://www.jetbrains.com/idea/download/"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "JetBrains PyCharm"
+        logo: "assets/tools/jetbrainspycharm.png"
+        url: "https://www.jetbrains.com/pycharm/download/?section=windows"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "JetBrains PhpStorm"
+        logo: "assets/tools/jetbrainsphpstorm.png"
+        url: "https://www.jetbrains.com/phpstorm/download/download-thanks.html?platform=windowsARM64"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "JetBrains GoLand"
+        logo: "assets/tools/jetbrainsgoland.png"
+        url: "https://www.jetbrains.com/go/download/download-thanks.html?platform=windowsARM64"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "JetBrains Rider"
         logo: "assets/tools/jetbrainsrider.png"
         url: "https://www.jetbrains.com/rider/download/download-thanks.html?platform=windowsARM64"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "JetBrains CLion"
+        logo: "assets/tools/jetbrainsclion.png"
+        url: "https://www.jetbrains.com/clion/download/download-thanks.html?platform=windowsARM64"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "JetBrains RustRover"
+        logo: "assets/tools/jetbrainsrustover.png"
+        url: "https://www.jetbrains.com/rust/nextversion/"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "JetBrains WebStorm"
+        logo: "assets/tools/jetbrainswebstorm.png"
+        url: "https://www.jetbrains.com/webstorm/download/download-thanks.html?platform=windowsARM64"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "JetBrains RubyMine"
+        logo: "assets/tools/jetbrainsrubymine.png"
+        url: "https://www.jetbrains.com/ruby/download/download-thanks.html?platform=windowsARM64"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "JetBrains DataGrip"
+        logo: "assets/tools/jetbrainsdatagrip.png"
+        url: "https://www.jetbrains.com/datagrip/download/download-thanks.html?platform=windowsARM64"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "JetBrains DataSpell"
+        logo: "assets/tools/jetbrainsdataspell.png"
+        url: "https://www.jetbrains.com/dataspell/download/download-thanks.html?platform=windowsARM64"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Golang"
@@ -880,6 +1002,12 @@ services:
         logo: "assets/tools/openjdk.png"
         subtitle: "Azul builds"
         url: "https://www.azul.com/downloads/?os=windows&architecture=arm-64-bit"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Eclipse Temurin"
+        logo: "assets/tools/openjdk.png"
+        subtitle: "Adoptium builds of OpenJDK (+Java RE)"
+        url: "https://adoptium.net/temurin/nightly/"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Bazel"
@@ -967,6 +1095,36 @@ services:
         url: "https://www.hhdsoftware.com/free-hex-editor"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "VSCodium"
+        logo: "assets/tools/vscodium.png"
+        subtitle: "binary releases of VS Code without MS branding/telemetry/licensing"
+        url: "https://github.com/VSCodium/vscodium/releases"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "rust-analyzer"
+        logo: "assets/tools/rust.png"
+        subtitle: "A Rust compiler front-end for IDEs"
+        url: "https://github.com/rust-lang/rust-analyzer/releases"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Hyper"
+        logo: "assets/tools/hyper.png"
+        subtitle: "A terminal built on web technologies"
+        url: "https://github.com/vercel/hyper/releases"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Tabby"
+        logo: "assets/tools/tabby.png"
+        subtitle: "A terminal for a more modern age"
+        url: "https://github.com/Eugeny/tabby/releases"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "GitHub CLI"
+        logo: "assets/tools/clionly.png"
+        subtitle: "GitHub’s official command line tool"
+        url: "https://github.com/cli/cli/releases"
+        target: "_blank" # optional html a tag target attribute
+
   - name: "Emulation & Virtualization"
     icon: "fa-solid fa-microchip"
     items:
@@ -1015,6 +1173,24 @@ services:
         url: "https://apps.microsoft.com/detail/9PDXGNCFSCZV"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "Debian"
+        logo: "assets/tools/debian.png"
+        subtitle: "Windows Subsystem for Linux"
+        url: "https://apps.microsoft.com/detail/9MSVKQC78PK6"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Kali Linux"
+        logo: "assets/tools/kali.png"
+        subtitle: "Windows Subsystem for Linux"
+        url: "https://apps.microsoft.com/detail/9PKR34TNCV07"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Fedora WSL"
+        logo: "assets/tools/fedora.png"
+        subtitle: "Unofficial Fedora WSL"
+        url: "https://apps.microsoft.com/detail/9NPCP8DRCHSN"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "WSA"
         logo: "assets/tools/wsa.png"
         subtitle: "Windows Subsystem for Android"
@@ -1025,6 +1201,18 @@ services:
         logo: "assets/tools/wsabuilds.png"
         subtitle: "unofficial builds with Magisk & MindTheGapps"
         url: "https://github.com/MustardChef/WSABuilds/releases"
+        target: "_blank" # optional html a tag target attribute
+        
+      - name: "windows95"
+        logo: "assets/tools/windows95.png"
+        subtitle: "Windows 95 in Electron"
+        url: "https://github.com/felixrieseberg/windows95/releases"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "macintosh.js"
+        logo: "assets/tools/macintoshjs.png"
+        subtitle: "A virtual Apple Macintosh with System 8"
+        url: "https://github.com/felixrieseberg/macintosh.js/releases/tag/v1.1.0"
         target: "_blank" # optional html a tag target attribute
         
   - name: "Benchmarking & Diagnostics"
@@ -1163,6 +1351,17 @@ services:
       - name: "ESET Smart Security Premium"
         logo: "assets/tools/ESET.png"
         url: "https://www.eset.com/int/home/smart-security-premium/download/"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Huorong"
+        logo: "assets/tools/huorong.png"
+        url: "https://www.huorong.cn/downloadARM.html"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Stellarium"
+        logo: "assets/tools/stellarium.png"
+        subtitle: "A free open source planetarium for your computer"
+        url: "https://github.com/Stellarium/stellarium/releases"
         target: "_blank" # optional html a tag target attribute
 
   - name: "Games"
