@@ -257,6 +257,12 @@ services:
         url: "https://github.com/listen1/listen1_desktop/releases"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "OBS Studio"
+        logo: "assets/tools/obs.png"
+        subtitle: "Unofficial builds"
+        url: "https://github.com/tommyvct/obs-studio/releases"
+        target: "_blank" # optional html a tag target attribute
+
   - name: "Social"
     icon: "fa-solid fa-message"
     items:
