@@ -1358,6 +1358,12 @@ services:
         url: "https://www.huorong.cn/downloadARM.html"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "Stellarium"
+        logo: "assets/tools/stellarium.png"
+        subtitle: "A free open source planetarium for your computer"
+        url: "https://github.com/Stellarium/stellarium/releases"
+        target: "_blank" # optional html a tag target attribute
+
   - name: "Games"
     icon: "fa-solid fa-gamepad"
     items:
