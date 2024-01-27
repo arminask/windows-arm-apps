@@ -1063,6 +1063,12 @@ services:
         url: "https://apps.microsoft.com/store/detail/visual-studio-community-2022/XPDCFJDKLZJLP8"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "Zig"
+        logo: "assets/tools/zip.png"
+        subtitle: "a general-purpose programming language and toolchain"
+        url: "https://ziglang.org/download/"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "Windows Terminal"
         logo: "assets/tools/windowsterminal.png"
         url: "https://aka.ms/terminal"
