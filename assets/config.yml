@@ -1262,6 +1262,16 @@ services:
         url: "https://www.memtest86.com/download.htm"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "CPU-Z"
+        logo: "assets/tools/cpuz.png"
+        url: "https://www.cpuid.com/softwares/cpu-z-arm64.html"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "HWMonitor"
+        logo: "assets/tools/hwmonitor.png"
+        url: "https://www.cpuid.com/softwares/hwmonitor-arm64.html"
+        target: "_blank" # optional html a tag target attribute
+
   - name: "Other"
     icon: "fa-solid fa-question"
     items:          
