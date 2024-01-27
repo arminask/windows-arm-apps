@@ -204,6 +204,7 @@ services:
 
       - name: "Handbrake"
         logo: "assets/tools/handbrake.png"
+        subtitle: "an open-source video transcoder"
         url: "https://handbrake.fr/downloads.php"
         target: "_blank" # optional html a tag target attribute
 
@@ -394,6 +395,7 @@ services:
                         
       - name: "Luminar Neo"
         logo: "assets/tools/LuminarNeo.png"
+        subtitle: "AI Photo Editor"
         url: "https://apps.microsoft.com/detail/9P7JQGL6GC8P"
         target: "_blank" # optional html a tag target attribute
 
@@ -457,7 +459,7 @@ services:
         logo: "assets/tools/pdfxchange.png"
         url: "https://pdf-xchange.eu/DL/pdf-xchange-editor.htm"
         target: "_blank" # optional html a tag target attribute
-        
+
       - name: "Xodo"
         logo: "assets/tools/xodo.png"
         url: "https://apps.microsoft.com/detail/9WZDNCRDJXP4"
@@ -569,6 +571,7 @@ services:
 
       - name: "WinMerge"
         logo: "assets/tools/winmerge.png"
+        subtitle: "compare both folders and files, presenting differences"
         url: "https://winmerge.org/downloads/"
         target: "_blank" # optional html a tag target attribute
 
@@ -584,6 +587,7 @@ services:
 
       - name: "TranslucentTB"
         logo: "assets/tools/translucenttb.png"
+        subtitle: "makes the Windows taskbar translucent/transparent"
         url: "https://github.com/TranslucentTB/TranslucentTB/releases"
         target: "_blank" # optional html a tag target attribute
                                   
@@ -609,8 +613,7 @@ services:
 
       - name: "Ditto"
         logo: "assets/tools/Ditto.png"
-        subtitle: "unofficial builds"
-        tag: "Windows Clipboard"
+        subtitle: "unofficial builds / windows clipboard"
         url: "https://github.com/jglathe/Ditto/tree/jg/arm64build"
         target: "_blank" # optional html a tag target attribute
 
@@ -640,7 +643,7 @@ services:
 
       - name: "Greenshot"
         logo: "assets/tools/Greenshot.png"
-        subtitle: "unofficial builds"
+        subtitle: "unofficial builds / a screenshot software tool"
         url: "https://github.com/jglathe/greenshot/releases"
         target: "_blank" # optional html a tag target attribute
 
@@ -742,7 +745,7 @@ services:
 
       - name: "小白羊网盘"
         logo: "assets/tools/AliyunDrive.png"
-        subtitle: "unofficial builds"
+        subtitle: "unofficial builds / 第三方阿里云盘"
         url: "https://github.com/gaozhangmin/aliyunpan/releases"
         target: "_blank" # optional html a tag target attribute
 
@@ -1270,6 +1273,7 @@ services:
 
       - name: "Escrcpy"
         logo: "assets/tools/Escrcpy.png"
+        subtitle: "display and control Android"
         url: "https://github.com/viarotel-org/escrcpy/releases"
         target: "_blank" # optional html a tag target attribute
 
@@ -1285,6 +1289,7 @@ services:
         
       - name: "RunCat"
         logo: "assets/tools/runcat.png"
+        subtitle: "a cute running cat animation reflects CPU Utilization"
         url: "https://github.com/Kyome22/RunCat_for_windows/releases"
         target: "_blank" # optional html a tag target attribute   
    
@@ -1295,6 +1300,7 @@ services:
    
       - name: "Ambie"
         logo: "assets/tools/ambie.png"
+        subtitle: "play white noise and natural sounds"
         url: "https://apps.microsoft.com/detail/9P07XNM5CHP0"
         target: "_blank" # optional html a tag target attribute     
 
