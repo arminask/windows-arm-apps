@@ -1549,7 +1549,7 @@ services:
         target: "_blank" # optional html a tag target attribute
 
       - name: "Minecraft Java Edition (with ARM Support)"
-        logo: "assets/tools/MinecraftJave.png"
+        logo: "assets/tools/MinecraftJavaEdition.png"
         subtitle: "This is a Prism Launcher Pack that adds ARM support to Minecraft Java Edition"
         url: "https://github.com/Kichura/Minecraft_ARM?tab=readme-ov-file"
         target: "_blank" # optional html a tag target attribute
