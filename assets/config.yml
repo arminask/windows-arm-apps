@@ -616,6 +616,12 @@ services:
         url: "https://apps.microsoft.com/detail/9WZDNCRDXF41"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "WindSend"
+        logo: "assets/tools/windsend.png"
+        subtitle: "sync clipboard, transfer files and directories between"
+        url: "https://github.com/doraemonkeys/WindSend/releases"
+        target: "_blank" # optional html a tag target attribute
+        
       - name: "Ditto"
         logo: "assets/tools/Ditto.png"
         subtitle: "unofficial builds / windows clipboard"
