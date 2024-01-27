@@ -678,18 +678,6 @@ services:
         url: "https://systeminformer.sourceforge.io/nightly.php"
         target: "_blank" # optional html a tag target attribute
 
-      - name: "Process Explorer"
-        logo: "assets/tools/ProcessExplorer.png"
-        subtitle: "Advanced process manager"
-        url: "https://learn.microsoft.com/en-us/sysinternals/downloads/process-explorer"
-        target: "_blank" # optional html a tag target attribute
-
-      - name: "Process Monitor"
-        logo: "assets/tools/ProcessMonitor.png"
-        subtitle: "Advanced monitoring tool"
-        url: "https://learn.microsoft.com/en-us/sysinternals/downloads/procmon"
-        target: "_blank" # optional html a tag target attribute
-
   - name: "Network & Cloud Storage"
     icon: "fa-solid fa-network-wired"
     items:
@@ -1351,11 +1339,6 @@ services:
       - name: "ESET Smart Security Premium"
         logo: "assets/tools/ESET.png"
         url: "https://www.eset.com/int/home/smart-security-premium/download/"
-        target: "_blank" # optional html a tag target attribute
-
-      - name: "Huorong"
-        logo: "assets/tools/huorong.png"
-        url: "https://www.huorong.cn/downloadARM.html"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Stellarium"
