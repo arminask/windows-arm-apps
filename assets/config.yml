@@ -821,6 +821,11 @@ services:
         url: "https://www.wireguard.com/install/"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "Clash Verge Rev"
+        logo: "assets/tools/clashvergerev.png"
+        url: "https://github.com/clash-verge-rev/clash-verge-rev/releases"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "Clash for Windows"
         logo: "assets/tools/Clash.png"
         url: "https://github.com/cfwtf/clash_for_windows/releases/tag/0.20.39"
