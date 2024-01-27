@@ -68,6 +68,11 @@ services:
   - name: "Web Browsers"
     icon: "fa-brands fa-internet-explorer"
     items:
+      - name: "Chrome"
+        logo: "assets/tools/chrome.png"
+        url: "https://www.google.com/chrome/canary/"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "Mozilla Firefox"
         logo: "assets/tools/firefox.png"
         url: "https://www.mozilla.org/en-GB/firefox/all/#product-desktop-release"
@@ -1256,7 +1261,7 @@ services:
         tag: "UEFI boot"
         url: "https://www.memtest86.com/download.htm"
         target: "_blank" # optional html a tag target attribute
-        
+
   - name: "Other"
     icon: "fa-solid fa-question"
     items:          
