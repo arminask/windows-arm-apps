@@ -621,7 +621,7 @@ services:
         subtitle: "sync clipboard, transfer files and directories between"
         url: "https://github.com/doraemonkeys/WindSend/releases"
         target: "_blank" # optional html a tag target attribute
-        
+
       - name: "Ditto"
         logo: "assets/tools/Ditto.png"
         subtitle: "unofficial builds / windows clipboard"
@@ -1166,6 +1166,12 @@ services:
       - name: "Sandboxie Plus"
         logo: "assets/tools/sandboxieplus.png"
         url: "https://sandboxie-plus.com/downloads/"
+        target: "_blank" # optional html a tag target attribute
+        
+      - name: "Podman Desktop"
+        logo: "assets/tools/podman.png"
+        subtitle: "A graphical tool for developing on containers and Kubernetes"
+        url: "https://podman-desktop.io/downloads"
         target: "_blank" # optional html a tag target attribute
 
       - name: "WSL"
