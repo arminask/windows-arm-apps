@@ -882,6 +882,12 @@ services:
         subtitle: "an intranet comprehensive scanning tool"
         url: "https://github.com/shadow1ng/fscan/releases"
         target: "_blank" # optional html a tag target attribute
+ 
+      - name: "Static Web Server"
+        logo: "assets/tools/staticwebserver.png"
+        subtitle: "A cross-platform, high-performance and asynchronous web server for static files-serving."
+        url: "https://static-web-server.net/download-and-install/#arm64"
+        target: "_blank" # optional html a tag target attribute       
 
   - name: "Coding"
     icon: "fa-solid fa-code"
