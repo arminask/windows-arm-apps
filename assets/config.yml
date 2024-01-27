@@ -994,6 +994,11 @@ services:
         url: "https://forge.rust-lang.org/infra/other-installation-methods.html#standalone"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "Dart"
+        logo: "assets/tools/dart.png"
+        url: "https://dart.dev/get-dart/archive#beta-channel"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "PowerShell"
         logo: "assets/tools/powershell.png"
         url: "https://github.com/PowerShell/PowerShell/releases/"
