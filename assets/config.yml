@@ -68,6 +68,11 @@ services:
   - name: "Web Browsers"
     icon: "fa-brands fa-internet-explorer"
     items:
+      - name: "Chrome"
+        logo: "assets/tools/chrome.png"
+        url: "https://www.google.com/chrome/canary/"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "Mozilla Firefox"
         logo: "assets/tools/firefox.png"
         url: "https://www.mozilla.org/en-GB/firefox/all/#product-desktop-release"
@@ -158,6 +163,12 @@ services:
         url: "https://apps.microsoft.com/detail/XPDDVC6XTQQKMM"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "Bili Copilot"
+        logo: "assets/tools/bilicopilot.png"
+        subtitle: "3rd-party desktop app for Bilibili"
+        url: "https://www.microsoft.com/store/apps/9MVFJLPH517M"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "iQIYI"
         logo: "assets/tools/iqiyi.png"
         url: "https://apps.microsoft.com/detail/9NBLGGH5WXNW"
@@ -178,10 +189,16 @@ services:
         url: "https://apps.microsoft.com/detail/XPFPFG7M44SKWX"
         target: "_blank" # optional html a tag target attribute
 
-      - name: "Bili Copilot"
-        logo: "assets/tools/bilicopilot.png"
-        subtitle: "3rd-party desktop app for Bilibili"
-        url: "https://www.microsoft.com/store/apps/9MVFJLPH517M"
+      - name: "lx-music"
+        logo: "assets/tools/lx-music-desktop.png"
+        subtitle: "A music app based on electron"
+        url: "https://github.com/lyswhut/lx-music-desktop/releases"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Listen 1"
+        logo: "assets/tools/listen1.png"
+        subtitle: "One for all free music in china"
+        url: "https://github.com/listen1/listen1_desktop/releases"
         target: "_blank" # optional html a tag target attribute
 
       - name: "FFmpeg"
@@ -192,6 +209,7 @@ services:
 
       - name: "Handbrake"
         logo: "assets/tools/handbrake.png"
+        subtitle: "an open-source video transcoder"
         url: "https://handbrake.fr/downloads.php"
         target: "_blank" # optional html a tag target attribute
 
@@ -199,6 +217,18 @@ services:
         logo: "assets/tools/Lux.png"
         subtitle: "video downloader"
         url: "https://github.com/iawia002/lux/releases"
+        target: "_blank" # optional html a tag target attribute
+        
+      - name: "BBDown"
+        logo: "assets/tools/clionly.png"
+        subtitle: "Bilibili video downloader."
+        url: "https://github.com/nilaoda/BBDown/releases"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "N_m3u8DL-RE"
+        logo: "assets/tools/clionly.png"
+        subtitle: "Cross-Platform, modern and powerful stream downloader for MPD/M3U8/ISM."
+        url: "https://github.com/nilaoda/N_m3u8DL-RE/releases"
         target: "_blank" # optional html a tag target attribute
 
       - name: "fre:ac"
@@ -232,30 +262,6 @@ services:
         logo: "assets/tools/xreveal.png"
         url: "https://www.xreveal.com/"
         target: "_blank" # optional html a tag target attribute        
-        
-      - name: "BBDown"
-        logo: "assets/tools/clionly.png"
-        subtitle: "Bilibili video downloader."
-        url: "https://github.com/nilaoda/BBDown/releases"
-        target: "_blank" # optional html a tag target attribute
-
-      - name: "N_m3u8DL-RE"
-        logo: "assets/tools/clionly.png"
-        subtitle: "Cross-Platform, modern and powerful stream downloader for MPD/M3U8/ISM."
-        url: "https://github.com/nilaoda/N_m3u8DL-RE/releases"
-        target: "_blank" # optional html a tag target attribute
-
-      - name: "lx-music"
-        logo: "assets/tools/lx-music-desktop.png"
-        subtitle: "A music app based on electron"
-        url: "https://github.com/lyswhut/lx-music-desktop/releases"
-        target: "_blank" # optional html a tag target attribute
-
-      - name: "Listen 1"
-        logo: "assets/tools/listen1.png"
-        subtitle: "One for all free music in china"
-        url: "https://github.com/listen1/listen1_desktop/releases"
-        target: "_blank" # optional html a tag target attribute
 
       - name: "OBS Studio"
         logo: "assets/tools/obs.png"
@@ -394,6 +400,7 @@ services:
                         
       - name: "Luminar Neo"
         logo: "assets/tools/LuminarNeo.png"
+        subtitle: "AI Photo Editor"
         url: "https://apps.microsoft.com/detail/9P7JQGL6GC8P"
         target: "_blank" # optional html a tag target attribute
 
@@ -401,6 +408,12 @@ services:
         logo: "assets/tools/Lunacy.png"
         subtitle: "a vector graphic design app"
         url: "https://apps.microsoft.com/detail/9PNLMKKPCLJJ"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Final2x"
+        logo: "assets/tools/Final2x.png"
+        subtitle: "Image Super-Resolution"
+        url: "https://github.com/Tohrusky/Final2x/releases"
         target: "_blank" # optional html a tag target attribute
 
   - name: "Compression"
@@ -453,6 +466,11 @@ services:
         url: "https://downloadarchive.documentfoundation.org/libreoffice/old/latest/win/aarch64/"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "PDF X-Change Editor"
+        logo: "assets/tools/pdfxchange.png"
+        url: "https://pdf-xchange.eu/DL/pdf-xchange-editor.htm"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "Xodo"
         logo: "assets/tools/xodo.png"
         url: "https://apps.microsoft.com/detail/9WZDNCRDJXP4"
@@ -467,11 +485,6 @@ services:
         logo: "assets/tools/drawboardpdf.png"
         tag: "ARM32"
         url: "https://apps.microsoft.com/detail/drawboard-pdf/9WZDNCRFHWQT"
-        target: "_blank" # optional html a tag target attribute
-
-      - name: "PDF X-Change Editor"
-        logo: "assets/tools/pdfxchange.png"
-        url: "https://pdf-xchange.eu/DL/pdf-xchange-editor.htm"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Drawboard Projects"
@@ -569,6 +582,7 @@ services:
 
       - name: "WinMerge"
         logo: "assets/tools/winmerge.png"
+        subtitle: "compare both folders and files, presenting differences"
         url: "https://winmerge.org/downloads/"
         target: "_blank" # optional html a tag target attribute
 
@@ -584,6 +598,7 @@ services:
 
       - name: "TranslucentTB"
         logo: "assets/tools/translucenttb.png"
+        subtitle: "makes the Windows taskbar translucent/transparent"
         url: "https://github.com/TranslucentTB/TranslucentTB/releases"
         target: "_blank" # optional html a tag target attribute
                                   
@@ -607,10 +622,15 @@ services:
         url: "https://apps.microsoft.com/detail/9WZDNCRDXF41"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "WindSend"
+        logo: "assets/tools/windsend.png"
+        subtitle: "sync clipboard, transfer files and directories between"
+        url: "https://github.com/doraemonkeys/WindSend/releases"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "Ditto"
         logo: "assets/tools/Ditto.png"
-        subtitle: "unofficial builds"
-        tag: "Windows Clipboard"
+        subtitle: "unofficial builds / windows clipboard"
         url: "https://github.com/jglathe/Ditto/tree/jg/arm64build"
         target: "_blank" # optional html a tag target attribute
 
@@ -640,7 +660,7 @@ services:
 
       - name: "Greenshot"
         logo: "assets/tools/Greenshot.png"
-        subtitle: "unofficial builds"
+        subtitle: "unofficial builds / a screenshot software tool"
         url: "https://github.com/jglathe/greenshot/releases"
         target: "_blank" # optional html a tag target attribute
 
@@ -676,18 +696,6 @@ services:
         logo: "assets/tools/SystemInformer.png"
         subtitle: "monitor system resources, debug software and detect malware"
         url: "https://systeminformer.sourceforge.io/nightly.php"
-        target: "_blank" # optional html a tag target attribute
-
-      - name: "Process Explorer"
-        logo: "assets/tools/ProcessExplorer.png"
-        subtitle: "Advanced process manager"
-        url: "https://learn.microsoft.com/en-us/sysinternals/downloads/process-explorer"
-        target: "_blank" # optional html a tag target attribute
-
-      - name: "Process Monitor"
-        logo: "assets/tools/ProcessMonitor.png"
-        subtitle: "Advanced monitoring tool"
-        url: "https://learn.microsoft.com/en-us/sysinternals/downloads/procmon"
         target: "_blank" # optional html a tag target attribute
 
   - name: "Network & Cloud Storage"
@@ -754,7 +762,7 @@ services:
 
       - name: "小白羊网盘"
         logo: "assets/tools/AliyunDrive.png"
-        subtitle: "unofficial builds"
+        subtitle: "unofficial builds / 第三方阿里云盘"
         url: "https://github.com/gaozhangmin/aliyunpan/releases"
         target: "_blank" # optional html a tag target attribute
 
@@ -825,6 +833,11 @@ services:
         url: "https://www.wireguard.com/install/"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "Clash Verge Rev"
+        logo: "assets/tools/clashvergerev.png"
+        url: "https://github.com/clash-verge-rev/clash-verge-rev/releases"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "Clash for Windows"
         logo: "assets/tools/Clash.png"
         url: "https://github.com/cfwtf/clash_for_windows/releases/tag/0.20.39"
@@ -869,6 +882,18 @@ services:
         subtitle: "Unofficial builds"
         url: "https://github.com/Aliebc/nginx-windows-arm/releases"
         target: "_blank" # optional html a tag target attribute
+
+      - name: "fscan"
+        logo: "assets/tools/clionly.png"
+        subtitle: "an intranet comprehensive scanning tool"
+        url: "https://github.com/shadow1ng/fscan/releases"
+        target: "_blank" # optional html a tag target attribute
+ 
+      - name: "Static Web Server"
+        logo: "assets/tools/staticwebserver.png"
+        subtitle: "A cross-platform, high-performance and asynchronous web server for static files-serving."
+        url: "https://static-web-server.net/download-and-install/#arm64"
+        target: "_blank" # optional html a tag target attribute       
 
   - name: "Coding"
     icon: "fa-solid fa-code"
@@ -981,6 +1006,11 @@ services:
         url: "https://forge.rust-lang.org/infra/other-installation-methods.html#standalone"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "Dart"
+        logo: "assets/tools/dart.png"
+        url: "https://dart.dev/get-dart/archive#beta-channel"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "PowerShell"
         logo: "assets/tools/powershell.png"
         url: "https://github.com/PowerShell/PowerShell/releases/"
@@ -1043,6 +1073,12 @@ services:
       - name: "Visual Studio Community 2022"
         logo: "assets/tools/visualstudiocommunity2022.png"
         url: "https://apps.microsoft.com/store/detail/visual-studio-community-2022/XPDCFJDKLZJLP8"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Zig"
+        logo: "assets/tools/zip.png"
+        subtitle: "a general-purpose programming language and toolchain"
+        url: "https://ziglang.org/download/"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Windows Terminal"
@@ -1153,6 +1189,12 @@ services:
       - name: "Sandboxie Plus"
         logo: "assets/tools/sandboxieplus.png"
         url: "https://sandboxie-plus.com/downloads/"
+        target: "_blank" # optional html a tag target attribute
+        
+      - name: "Podman Desktop"
+        logo: "assets/tools/podman.png"
+        subtitle: "A graphical tool for developing on containers and Kubernetes"
+        url: "https://podman-desktop.io/downloads"
         target: "_blank" # optional html a tag target attribute
 
       - name: "WSL"
@@ -1265,7 +1307,17 @@ services:
         tag: "UEFI boot"
         url: "https://www.memtest86.com/download.htm"
         target: "_blank" # optional html a tag target attribute
-        
+
+      - name: "CPU-Z"
+        logo: "assets/tools/cpuz.png"
+        url: "https://www.cpuid.com/softwares/cpu-z-arm64.html"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "HWMonitor"
+        logo: "assets/tools/hwmonitor.png"
+        url: "https://www.cpuid.com/softwares/hwmonitor-arm64.html"
+        target: "_blank" # optional html a tag target attribute
+
   - name: "Other"
     icon: "fa-solid fa-question"
     items:          
@@ -1282,6 +1334,7 @@ services:
 
       - name: "Escrcpy"
         logo: "assets/tools/Escrcpy.png"
+        subtitle: "display and control Android"
         url: "https://github.com/viarotel-org/escrcpy/releases"
         target: "_blank" # optional html a tag target attribute
 
@@ -1297,6 +1350,7 @@ services:
         
       - name: "RunCat"
         logo: "assets/tools/runcat.png"
+        subtitle: "a cute running cat animation reflects CPU Utilization"
         url: "https://github.com/Kyome22/RunCat_for_windows/releases"
         target: "_blank" # optional html a tag target attribute   
    
@@ -1307,6 +1361,7 @@ services:
    
       - name: "Ambie"
         logo: "assets/tools/ambie.png"
+        subtitle: "play white noise and natural sounds"
         url: "https://apps.microsoft.com/detail/9P07XNM5CHP0"
         target: "_blank" # optional html a tag target attribute     
 
@@ -1342,6 +1397,12 @@ services:
         url: "https://apps.microsoft.com/detail/9nm8n7dq3z5f"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "Auto Dark Mode"
+        logo: "assets/tools/autodarkmode.png"
+        subtitle: "unofficial builds / Switches between the dark and light theme at scheduled times."
+        url: "https://github.com/xgdgsc/Windows-Auto-Night-Mode/releases"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "DarkMode"
         logo: "assets/tools/DarkMode.png"
         subtitle: "automatically switch the color mode of Windows 10/11 systems"
@@ -1351,11 +1412,6 @@ services:
       - name: "ESET Smart Security Premium"
         logo: "assets/tools/ESET.png"
         url: "https://www.eset.com/int/home/smart-security-premium/download/"
-        target: "_blank" # optional html a tag target attribute
-
-      - name: "Huorong"
-        logo: "assets/tools/huorong.png"
-        url: "https://www.huorong.cn/downloadARM.html"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Stellarium"
@@ -1549,7 +1605,7 @@ services:
         target: "_blank" # optional html a tag target attribute
 
       - name: "Minecraft Java Edition (with ARM Support)"
-        logo: "assets/tools/MinecraftJave.png"
+        logo: "assets/tools/MinecraftJavaEdition.png"
         subtitle: "This is a Prism Launcher Pack that adds ARM support to Minecraft Java Edition"
         url: "https://github.com/Kichura/Minecraft_ARM?tab=readme-ov-file"
         target: "_blank" # optional html a tag target attribute
