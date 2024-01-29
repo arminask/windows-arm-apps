@@ -410,6 +410,12 @@ services:
         url: "https://apps.microsoft.com/detail/9PNLMKKPCLJJ"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "Final2x"
+        logo: "assets/tools/Final2x.png"
+        subtitle: "Image Super-Resolution"
+        url: "https://github.com/Tohrusky/Final2x/releases"
+        target: "_blank" # optional html a tag target attribute
+
   - name: "Compression"
     icon: "fa-solid fa-file-zipper"
     items:
