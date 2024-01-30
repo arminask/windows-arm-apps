@@ -1076,7 +1076,7 @@ services:
         target: "_blank" # optional html a tag target attribute
 
       - name: "Zig"
-        logo: "assets/tools/zip.png"
+        logo: "assets/tools/zig.png"
         subtitle: "a general-purpose programming language and toolchain"
         url: "https://ziglang.org/download/"
         target: "_blank" # optional html a tag target attribute
