@@ -520,6 +520,11 @@ services:
         url: "https://apps.microsoft.com/detail/drawboard-projects/9N318R854RHH"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "Aquile Reader"
+        logo: "assets/tools/aquile.png"
+        url: "https://apps.microsoft.com/detail/9P08T4JLTQNK"
+        target: "_blank" # optional html a tag target attribute
+        
       - name: "Starrea ePub Reader"
         logo: "assets/tools/Starrea.png"
         url: "https://apps.microsoft.com/detail/9NK7HZ90B3S6"
