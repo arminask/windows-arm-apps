@@ -1615,6 +1615,12 @@ services:
         url: "https://apps.microsoft.com/detail/9NBLGGH2JHXJ"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "HMCL"
+        logo: "assets/tools/HMCL.png"
+        subtitle: "A Minecraft Launcher"
+        url: "https://github.com/HMCL-dev/HMCL/releases"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "Prism Launcher"
         logo: "assets/tools/Prism.png"
         subtitle: "a custom launcher for Minecraft"
