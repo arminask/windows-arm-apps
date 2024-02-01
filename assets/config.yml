@@ -1335,6 +1335,12 @@ services:
         url: "https://www.cpuid.com/softwares/hwmonitor-arm64.html"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "Glow"
+        logo: "assets/tools/glow.png"
+        subtitle: "System Analysis Software"
+        url: "https://github.com/roines45/glow/releases"
+        target: "_blank" # optional html a tag target attribute
+
   - name: "Other"
     icon: "fa-solid fa-question"
     items:          
