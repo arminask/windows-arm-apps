@@ -1423,8 +1423,8 @@ services:
 
       - name: "Auto Dark Mode"
         logo: "assets/tools/autodarkmode.png"
-        subtitle: "unofficial builds / Switches between the dark and light theme at scheduled times."
-        url: "https://github.com/xgdgsc/Windows-Auto-Night-Mode/releases"
+        subtitle: "Switches between the dark and light theme at scheduled times."
+        url: "https://github.com/AutoDarkMode/AutoDarkModeVersion/releases"
         target: "_blank" # optional html a tag target attribute
 
       - name: "DarkMode"
