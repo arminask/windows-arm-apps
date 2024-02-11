@@ -700,7 +700,7 @@ services:
         logo: "assets/tools/TrafficMonitor.png"
         subtitle: "unofficial builds"
         tag: "ARM64EC"
-        url: "https://github.com/ekxs0109/TrafficMonitor/actions"
+        url: "https://github.com/xgdgsc/TrafficMonitor/releases"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Pingu"
