@@ -548,6 +548,12 @@ services:
         url: "https://github.com/koodo-reader/koodo-reader/releases"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "Cover - Comic reader"
+        logo: "assets/tools/cover.png"
+        subtitle: "the best app to read and manage your comic books."
+        url: "https://apps.microsoft.com/store/detail/9WZDNCRFJ9W7"
+        target: "_blank" # optional html a tag target attribute
+
   - name: "Tools"
     icon: "fa-solid fa-screwdriver-wrench"
     items:
