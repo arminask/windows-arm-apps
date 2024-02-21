@@ -216,7 +216,7 @@ services:
       - name: "Aegisub"
         logo: "assets/tools/aegisub.png"
         subtitle: "unofficial builds / advanced subtitle editor"
-        url: "https://github.com/driver1998/Aegisub"
+        url: "https://github.com/driver1998/Aegisub/releases"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Lux"
@@ -880,7 +880,7 @@ services:
       - name: "Zen"
         logo: "assets/tools/zen.png"
         subtitle: "ad-blocker and privacy guard"
-        url: "https://github.com/anfragment/zen"
+        url: "https://github.com/anfragment/zen/releases"
         target: "_blank" # optional html a tag target attribute
 
       - name: "wgcf"
@@ -923,12 +923,18 @@ services:
         subtitle: "A cross-platform, high-performance and asynchronous web server for static files-serving."
         url: "https://static-web-server.net/download-and-install/#arm64"
         target: "_blank" # optional html a tag target attribute
-        
+
       - name: "fscan"
         logo: "assets/tools/clionly.png"
         subtitle: "an intranet comprehensive scanning tool"
         url: "https://github.com/shadow1ng/fscan/releases"
-        target: "_blank" # optional html a tag target attribute       
+        target: "_blank" # optional html a tag target attribute      
+
+      - name: "MQTTX"
+        logo: "assets/tools/mqttx.png"
+        subtitle: "MQTT 5.0 client tool, MQTT is an OASIS standard for IoT connectivity."
+        url: "https://github.com/emqx/MQTTX/releases"
+        target: "_blank" # optional html a tag target attribute      
 
   - name: "Coding"
     icon: "fa-solid fa-code"
