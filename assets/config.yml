@@ -102,6 +102,11 @@ services:
         logo: "assets/tools/thorium.png"
         url: "https://github.com/Alex313031/Thorium-WOA/releases"
         target: "_blank" # optional html a tag target attribute
+       
+      - name: "Bluebird"
+        logo: "assets/tools/bluebird.png"
+        url: "https://apps.microsoft.com/detail/9pnxw61t4t0v"
+        target: "_blank" # optional html a tag target attribute
 
   - name: "Media"
     icon: "fa-solid fa-photo-film"
