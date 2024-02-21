@@ -1173,6 +1173,11 @@ services:
         url: "https://www.msys2.org/wiki/arm64/"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "Red Panda C++"
+        logo: "assets/tools/redpanda.png"
+        url: "https://github.com/redpanda-cpp/woa/releases"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "TortoiseSVN"
         logo: "assets/tools/TortoiseSVN.png"
         subtitle: "a Subversion client, implemented as a windows shell extension"
