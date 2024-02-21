@@ -1515,7 +1515,13 @@ services:
         logo: "assets/tools/duckstation.png"
         url: "https://github.com/stenzek/duckstation/releases/tag/latest"
         target: "_blank" # optional html a tag target attribute
-            
+
+      - name: "DREAMM"
+        logo: "assets/tools/dreamm.png"
+        subtitle: "emulator for LucasArts & LucasFilm games"
+        url: "https://aarongiles.com/dreamm/"
+        target: "_blank" # optional html a tag target attribute
+                 
       - name: "RetriXGold"
         logo: "assets/tools/retrixgold.png"
         tag: "ARM32"
