@@ -213,6 +213,12 @@ services:
         url: "https://handbrake.fr/downloads.php"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "Aegisub"
+        logo: "assets/tools/aegisub.png"
+        subtitle: "unofficial builds / advanced subtitle editor"
+        url: "https://github.com/driver1998/Aegisub"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "Lux"
         logo: "assets/tools/Lux.png"
         subtitle: "video downloader"
