@@ -554,6 +554,12 @@ services:
         url: "https://apps.microsoft.com/store/detail/9WZDNCRFJ9W7"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "Rulia - Manga Reader"
+        logo: "assets/tools/rulia.png"
+        subtitle: "an offline manga reader. It will give you different feeling."
+        url: "https://apps.microsoft.com/detail/9MVVLRZWRXX8"
+        target: "_blank" # optional html a tag target attribute
+
   - name: "Tools"
     icon: "fa-solid fa-screwdriver-wrench"
     items:
