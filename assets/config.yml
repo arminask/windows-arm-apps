@@ -213,6 +213,12 @@ services:
         url: "https://handbrake.fr/downloads.php"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "Aegisub"
+        logo: "assets/tools/aegisub.png"
+        subtitle: "unofficial builds / advanced subtitle editor"
+        url: "https://github.com/driver1998/Aegisub/releases"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "Lux"
         logo: "assets/tools/Lux.png"
         subtitle: "video downloader"
@@ -540,6 +546,18 @@ services:
         logo: "assets/tools/koodo.png"
         subtitle: "an all-in-one ebook reader"
         url: "https://github.com/koodo-reader/koodo-reader/releases"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Cover - Comic reader"
+        logo: "assets/tools/cover.png"
+        subtitle: "the best app to read and manage your comic books."
+        url: "https://apps.microsoft.com/store/detail/9WZDNCRFJ9W7"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Rulia - Manga Reader"
+        logo: "assets/tools/rulia.png"
+        subtitle: "an offline manga reader. It will give you different feeling."
+        url: "https://apps.microsoft.com/detail/9MVVLRZWRXX8"
         target: "_blank" # optional html a tag target attribute
 
   - name: "Tools"
@@ -871,6 +889,18 @@ services:
         url: "https://github.com/2dust/v2rayN/releases"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "Zen"
+        logo: "assets/tools/zen.png"
+        subtitle: "ad-blocker and privacy guard"
+        url: "https://github.com/anfragment/zen/releases"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Windscribe"
+        logo: "assets/tools/windscribe.png"
+        subtitle: "a vpn, encrypts your browsing activity, blocks ads, and unblocks entertainment content"
+        url: "https://windscribe.com/download/"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "wgcf"
         logo: "assets/tools/clionly.png"
         subtitle: "an unofficial, cross-platform CLI for Cloudflare Warp"
@@ -911,12 +941,24 @@ services:
         subtitle: "A cross-platform, high-performance and asynchronous web server for static files-serving."
         url: "https://static-web-server.net/download-and-install/#arm64"
         target: "_blank" # optional html a tag target attribute
-        
+
       - name: "fscan"
         logo: "assets/tools/clionly.png"
         subtitle: "an intranet comprehensive scanning tool"
         url: "https://github.com/shadow1ng/fscan/releases"
-        target: "_blank" # optional html a tag target attribute       
+        target: "_blank" # optional html a tag target attribute      
+
+      - name: "MQTTX"
+        logo: "assets/tools/mqttx.png"
+        subtitle: "MQTT 5.0 client tool, MQTT is an OASIS standard for IoT connectivity."
+        url: "https://github.com/emqx/MQTTX/releases"
+        target: "_blank" # optional html a tag target attribute      
+
+      - name: "Mattermost"
+        logo: "assets/tools/mattermost.png"
+        subtitle: "secure collaboration across the entire software development lifecycle."
+        url: "https://github.com/mattermost/desktop/releases"
+        target: "_blank" # optional html a tag target attribute    
 
   - name: "Coding"
     icon: "fa-solid fa-code"
@@ -1608,6 +1650,11 @@ services:
         url: "http://dege.freeweb.hu/dgVoodoo2/dgVoodoo2/"
         target: "_blank" # optional html a tag target attribute
               
+      - name: "Plague Inc."
+        logo: "assets/tools/plagueinc.png"
+        url: "https://apps.microsoft.com/detail/9NBLGGH0DNM7"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "ClassiCube"
         logo: "assets/tools/classicube.png"
         subtitle: "Minecraft Classic 2009 compatible client"
