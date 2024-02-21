@@ -1589,6 +1589,13 @@ services:
         url: "https://www.openttd.org/downloads/openttd-releases/latest"
         target: "_blank" # optional html a tag target attribute
                
+      - name: "fheroes2"
+        logo: "assets/tools/fheroes2.png"
+        subtitle: "Heroes of Might and Magic II 1996 remake"
+        tag: "original game data needed"
+        url: "https://github.com/ArminiusTux/WinARM64-binaries/releases/tag/fheroes2"
+        target: "_blank" # optional html a tag target attribute
+                      
       - name: "Julius"
         logo: "assets/tools/julius.png"
         subtitle: "Caesar III 1998 vanilla clone"
