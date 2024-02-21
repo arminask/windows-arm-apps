@@ -1621,7 +1621,21 @@ services:
         tag: "original game data needed"
         url: "https://github.com/ArminiusTux/WinARM64-binaries/releases/tag/OpenTomb"
         target: "_blank" # optional html a tag target attribute
-                                                              
+               
+      - name: "OpenJK - Jedi Outcast"
+        logo: "assets/tools/openjk.png"
+        subtitle: "Star Wars: Jedi Knight II - JO 2002 clone"
+        tag: "original game data needed"
+        url: "https://github.com/ArminiusTux/WinARM64-binaries/releases/tag/OpenJK"
+        target: "_blank" # optional html a tag target attribute
+               
+      - name: "OpenJK - Jedi Academy"
+        logo: "assets/tools/openjk.png"
+        subtitle: "Star Wars: Jedi Knight - JA 2003 clone"
+        tag: "original game data needed"
+        url: "https://github.com/ArminiusTux/WinARM64-binaries/releases/tag/OpenJK"
+        target: "_blank" # optional html a tag target attribute
+                                                                           
       - name: "Duolingo"
         logo: "assets/tools/duolingo.png"
         url: "https://apps.microsoft.com/store/detail/duolingo-learn-languages-for-free/9WZDNCRCV5XN"
