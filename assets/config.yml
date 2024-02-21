@@ -1262,6 +1262,11 @@ services:
         url: "https://podman-desktop.io/downloads"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "Disk Jockey"
+        logo: "assets/tools/diskjockey.png"
+        url: "https://diskjockey.onegeekarmy.eu/#windows"
+        target: "_blank" # optional html a tag target attribute
+        
       - name: "WSL"
         logo: "assets/tools/wsl.png"
         subtitle: "Windows Subsystem for Linux"
