@@ -1620,6 +1620,11 @@ services:
         url: "http://dege.freeweb.hu/dgVoodoo2/dgVoodoo2/"
         target: "_blank" # optional html a tag target attribute
               
+      - name: "Plague Inc."
+        logo: "assets/tools/plagueinc.png"
+        url: "https://apps.microsoft.com/detail/9NBLGGH0DNM7"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "ClassiCube"
         logo: "assets/tools/classicube.png"
         subtitle: "Minecraft Classic 2009 compatible client"
