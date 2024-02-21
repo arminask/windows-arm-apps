@@ -953,6 +953,12 @@ services:
         url: "https://github.com/shadow1ng/fscan/releases"
         target: "_blank" # optional html a tag target attribute      
 
+      - name: "pinger"
+        logo: "assets/tools/clionly.png"
+        subtitle: "alternative ping utility"
+        url: "https://github.com/teivarodiere/pinger/releases"
+        target: "_blank" # optional html a tag target attribute      
+
       - name: "MQTTX"
         logo: "assets/tools/mqttx.png"
         subtitle: "MQTT 5.0 client tool, MQTT is an OASIS standard for IoT connectivity."
