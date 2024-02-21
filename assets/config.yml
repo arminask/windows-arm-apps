@@ -942,6 +942,12 @@ services:
         url: "https://github.com/emqx/MQTTX/releases"
         target: "_blank" # optional html a tag target attribute      
 
+      - name: "Mattermost"
+        logo: "assets/tools/mattermost.png"
+        subtitle: "secure collaboration across the entire software development lifecycle."
+        url: "https://github.com/mattermost/desktop/releases"
+        target: "_blank" # optional html a tag target attribute    
+
   - name: "Coding"
     icon: "fa-solid fa-code"
     items:
