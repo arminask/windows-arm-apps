@@ -741,12 +741,7 @@ services:
       - name: "Start 11"
         logo: "assets/tools/Start11.png"
         url: "https://www.stardock.com/products/start11/"
-        target: "_blank" # optional html a tag target attribute
-
-      - name: "Company Portal"
-        logo: "assets/tools/CompanyPortal.png"
-        url: "https://apps.microsoft.com/detail/9wzdncrfj3pz"
-        target: "_blank" # optional html a tag target attribute 
+        target: "_blank" # optional html a tag target attribute  
 
   - name: "Network & Cloud Storage"
     icon: "fa-solid fa-network-wired"
@@ -974,13 +969,7 @@ services:
         logo: "assets/tools/mattermost.png"
         subtitle: "secure collaboration across the entire software development lifecycle."
         url: "https://github.com/mattermost/desktop/releases"
-        target: "_blank" # optional html a tag target attribute
-
- 		  - name: "Palo Alto Global Protect"
-        logo: "assets/tools/GlobalProtect.png"
-        subtitle: "Enterprise VPN"
-        url: "https://docs.paloaltonetworks.com/globalprotect/5-1/globalprotect-app-user-guide/globalprotect-app-for-windows/download-and-install-the-globalprotect-app-for-windows"
-        target: "_blank" # optional html a tag target attribute   
+        target: "_blank" # optional html a tag target attribute    
 
   - name: "Coding"
     icon: "fa-solid fa-code"
@@ -1421,19 +1410,6 @@ services:
         url: "https://github.com/roines45/glow/releases"
         target: "_blank" # optional html a tag target attribute
 
-  - name: "Security & Protection"
-    icon: "fa-solid fa-shield"
-    items:          
-      - name: "CrowdStrike Falcon"
-        logo: "assets/tools/Crowdstrike.png"
-        url: "https://www.crowdstrike.com/products/faq/"
-        target: "_blank" # optional html a tag target attribute
-
-      - name: "ESET Smart Security Premium"
-        logo: "assets/tools/ESET.png"
-        url: "https://www.eset.com/int/home/smart-security-premium/download/"
-        target: "_blank" # optional html a tag target attribute
-
   - name: "Other"
     icon: "fa-solid fa-question"
     items:          
@@ -1523,6 +1499,11 @@ services:
         logo: "assets/tools/DarkMode.png"
         subtitle: "automatically switch the color mode of Windows 10/11 systems"
         url: "https://github.com/Melon-Studio/DarkMode2/releases"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "ESET Smart Security Premium"
+        logo: "assets/tools/ESET.png"
+        url: "https://www.eset.com/int/home/smart-security-premium/download/"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Stellarium"
