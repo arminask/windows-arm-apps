@@ -741,8 +741,14 @@ services:
       - name: "Start 11"
         logo: "assets/tools/Start11.png"
         url: "https://www.stardock.com/products/start11/"
-        target: "_blank" # optional html a tag target attribute  
-
+        target: "_blank" # optional html a tag target attribute
+        
+      - name: "WGestures" # App name
+        logo: "assets/tools/WGestures.png" # App icon
+        subtitle: "unofficial builds"
+        url: "https://github.com/TonyHuang6666/WGestures-arm64-/releases/tag/1.8.3.0" # URL to download the app
+        target: "_blank"
+        
   - name: "Network & Cloud Storage"
     icon: "fa-solid fa-network-wired"
     items:
