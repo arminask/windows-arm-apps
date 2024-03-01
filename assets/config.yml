@@ -747,7 +747,13 @@ services:
         logo: "assets/tools/CompanyPortal.png"
         url: "https://apps.microsoft.com/detail/9wzdncrfj3pz"
         target: "_blank" # optional html a tag target attribute        
-
+        
+      - name: "WGestures" # App name
+        logo: "assets/tools/WGestures.png" # App icon
+        subtitle: "unofficial builds"
+        url: "https://github.com/TonyHuang6666/WGestures-arm64-/releases/tag/1.8.3.0" # URL to download the app
+        target: "_blank"
+        
   - name: "Network & Cloud Storage"
     icon: "fa-solid fa-network-wired"
     items:
