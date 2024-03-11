@@ -565,7 +565,7 @@ services:
         url: "https://apps.microsoft.com/detail/9MVVLRZWRXX8"
         target: "_blank" # optional html a tag target attribute
 
-        - name: "Nebo"
+      - name: "Nebo"
         logo: "assets/tools/Nebo.png"
         subtitle: "Create beautiful notes and professional documents by hand"
         url: "https://apps.microsoft.com/detail/9nblggh4nlb0?hl=en-US&gl=US"
@@ -756,7 +756,7 @@ services:
         
       - name: "WGestures" # App name
         logo: "assets/tools/WGestures.png" # App icon
-        subtitle: "unofficial builds/a mouse gesture software"
+        subtitle: "unofficial builds"
         url: "https://github.com/TonyHuang6666/WGestures-arm64-/releases/tag/1.8.3.0" # URL to download the app
         target: "_blank"
         
@@ -765,8 +765,7 @@ services:
         url: "https://github.com/YerongAI/Office-Tool/releases/" # URL to download the app
         subtitle: "A powerful and useful tool for Office deployments"
         target: "_blank"
-        
-        
+
   - name: "Network & Cloud Storage"
     icon: "fa-solid fa-network-wired"
     items:
