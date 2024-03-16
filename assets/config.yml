@@ -571,6 +571,11 @@ services:
         url: "https://apps.microsoft.com/detail/9nblggh4nlb0?hl=en-US&gl=US"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "Obsidian"
+        logo: "assets/tools/obsidian.png"
+        url: "https://obsidian.md/download"
+        target: "_blank" # optional html a tag target attribute    
+        
   - name: "Tools"
     icon: "fa-solid fa-screwdriver-wrench"
     items:
@@ -1486,12 +1491,7 @@ services:
         logo: "assets/tools/runcat.png"
         subtitle: "a cute running cat animation reflects CPU Utilization"
         url: "https://github.com/Kyome22/RunCat_for_windows/releases"
-        target: "_blank" # optional html a tag target attribute   
-   
-      - name: "Obsidian"
-        logo: "assets/tools/obsidian.png"
-        url: "https://obsidian.md/download"
-        target: "_blank" # optional html a tag target attribute     
+        target: "_blank" # optional html a tag target attribute    
    
       - name: "Ambie"
         logo: "assets/tools/ambie.png"
