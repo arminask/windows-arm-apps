@@ -242,6 +242,12 @@ services:
         url: "https://github.com/nilaoda/N_m3u8DL-RE/releases"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "MilkyTracker"
+        logo: "assets/tools/milkytracker.png"
+        subtitle: "unofficial builds"
+        url: "https://github.com/carlo-bramini/MilkyTracker/releases"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "fre:ac"
         logo: "assets/tools/freac.png"
         url: "https://www.freac.org/downloads-mainmenu-33"
