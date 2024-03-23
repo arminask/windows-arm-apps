@@ -242,6 +242,17 @@ services:
         url: "https://github.com/nilaoda/N_m3u8DL-RE/releases"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "MilkyTracker"
+        logo: "assets/tools/milkytracker.png"
+        subtitle: "unofficial builds"
+        url: "https://github.com/carlo-bramini/MilkyTracker/releases"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "OpenMPT"
+        logo: "assets/tools/openmpt.png"
+        url: "https://openmpt.org/download"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "fre:ac"
         logo: "assets/tools/freac.png"
         url: "https://www.freac.org/downloads-mainmenu-33"
@@ -251,6 +262,12 @@ services:
         logo: "assets/tools/audacity.png"
         subtitle: "unofficial builds"
         url: "https://github.com/henricj/audacity/releases/tag/latest-arm64"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "tsMuxeR"
+        logo: "assets/tools/tsmuxer.png"
+        subtitle: "unofficial builds"
+        url: "https://github.com/ArminiusTux/WinARM64-binaries/releases/tag/tsMuxeR"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Kodi"
@@ -318,7 +335,12 @@ services:
         subtitle: "unofficial builds"
         url: "https://github.com/dennisameling/Signal-Desktop/releases"
         target: "_blank" # optional html a tag target attribute
-               
+         
+      - name: "Ferdium"
+        logo: "assets/tools/ferdium.png"
+        url: "https://ferdium.org/download"
+        target: "_blank" # optional html a tag target attribute
+                      
       - name: "Pinterest"
         logo: "assets/tools/pinterest.png"
         url: "https://apps.microsoft.com/store/detail/pinterest/9PFHDSF91B9R"
@@ -383,6 +405,11 @@ services:
         url: "https://www.hamrick.com/alternate-versions.html"
         target: "_blank" # optional html a tag target attribute
                         
+      - name: "ImageMagick"
+        logo: "assets/tools/imagemagick.png"
+        url: "https://imagemagick.org/script/download.php#windows"
+        target: "_blank" # optional html a tag target attribute
+                           
       - name: "Gifsicle"
         logo: "assets/tools/gifsicle.png"
         subtitle: "unofficial builds"
@@ -866,7 +893,12 @@ services:
         subtitle: "unofficial builds"
         url: "https://eternallybored.org/misc/wget/"
         target: "_blank" # optional html a tag target attribute
-                             
+                     
+      - name: "croc"
+        logo: "assets/tools/clionly.png"
+        url: "https://github.com/schollz/croc/releases"
+        target: "_blank" # optional html a tag target attribute
+                                      
       - name: "qBittorrent"
         logo: "assets/tools/qbittorrent.png"
         subtitle: "unofficial builds"
@@ -1457,6 +1489,11 @@ services:
         url: "https://www.eset.com/int/home/smart-security-premium/download/"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "Bitdefender Antivirus Free"
+        logo: "assets/tools/bitdefender.png"
+        url: "https://www.bitdefender.com/solutions/free.html"
+        target: "_blank" # optional html a tag target attribute
+
   - name: "Other"
     icon: "fa-solid fa-question"
     items:          
@@ -1659,7 +1696,14 @@ services:
         tag: "original game data needed"
         url: "https://github.com/ArminiusTux/WinARM64-binaries/releases/tag/fheroes2"
         target: "_blank" # optional html a tag target attribute
-                      
+               
+      - name: "DevilutionX"
+        logo: "assets/tools/devilutionx.png"
+        subtitle: "Diablo & Hellfire 1997 port"
+        tag: "original game data needed"
+        url: "https://github.com/ArminiusTux/WinARM64-binaries/releases/tag/DevilutionX"
+        target: "_blank" # optional html a tag target attribute
+                          
       - name: "Julius"
         logo: "assets/tools/julius.png"
         subtitle: "Caesar III 1998 vanilla clone"
@@ -1796,5 +1840,10 @@ services:
         logo: "assets/tools/Starward.png"
         subtitle: "miHoYo games launcher"
         url: "https://github.com/Scighost/Starward/releases"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "World of Warcraft"
+        logo: "assets/tools/worldofwarcraft.png"
+        url: "https://worldofwarcraft.blizzard.com/"
         target: "_blank" # optional html a tag target attribute
 
