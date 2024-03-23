@@ -330,7 +330,12 @@ services:
         subtitle: "unofficial builds"
         url: "https://github.com/dennisameling/Signal-Desktop/releases"
         target: "_blank" # optional html a tag target attribute
-               
+         
+      - name: "Ferdium"
+        logo: "assets/tools/ferdium.png"
+        url: "https://ferdium.org/download"
+        target: "_blank" # optional html a tag target attribute
+                      
       - name: "Pinterest"
         logo: "assets/tools/pinterest.png"
         url: "https://apps.microsoft.com/store/detail/pinterest/9PFHDSF91B9R"
