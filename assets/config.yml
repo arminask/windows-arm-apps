@@ -253,6 +253,12 @@ services:
         url: "https://github.com/henricj/audacity/releases/tag/latest-arm64"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "tsMuxeR"
+        logo: "assets/tools/tsmuxer.png"
+        subtitle: "unofficial builds"
+        url: "https://github.com/ArminiusTux/WinARM64-binaries/releases/tag/tsMuxeR"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "Kodi"
         logo: "assets/tools/kodi.png"
         tag: "ARM32"
