@@ -1659,7 +1659,14 @@ services:
         tag: "original game data needed"
         url: "https://github.com/ArminiusTux/WinARM64-binaries/releases/tag/fheroes2"
         target: "_blank" # optional html a tag target attribute
-                      
+               
+      - name: "DevilutionX"
+        logo: "assets/tools/devilutionx.png"
+        subtitle: "Diablo & Hellfire 1997 port"
+        tag: "original game data needed"
+        url: "https://github.com/ArminiusTux/WinARM64-binaries/releases/tag/DevilutionX"
+        target: "_blank" # optional html a tag target attribute
+                          
       - name: "Julius"
         logo: "assets/tools/julius.png"
         subtitle: "Caesar III 1998 vanilla clone"
