@@ -878,7 +878,12 @@ services:
         subtitle: "unofficial builds"
         url: "https://eternallybored.org/misc/wget/"
         target: "_blank" # optional html a tag target attribute
-                             
+                     
+      - name: "croc"
+        logo: "assets/tools/clionly.png"
+        url: "https://github.com/schollz/croc/releases"
+        target: "_blank" # optional html a tag target attribute
+                                      
       - name: "qBittorrent"
         logo: "assets/tools/qbittorrent.png"
         subtitle: "unofficial builds"
