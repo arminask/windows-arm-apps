@@ -248,6 +248,11 @@ services:
         url: "https://github.com/carlo-bramini/MilkyTracker/releases"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "OpenMPT"
+        logo: "assets/tools/openmpt.png"
+        url: "https://openmpt.org/download"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "fre:ac"
         logo: "assets/tools/freac.png"
         url: "https://www.freac.org/downloads-mainmenu-33"
