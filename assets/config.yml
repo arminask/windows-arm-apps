@@ -1463,6 +1463,11 @@ services:
         url: "https://www.eset.com/int/home/smart-security-premium/download/"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "Bitdefender Antivirus Free"
+        logo: "assets/tools/bitdefender.png"
+        url: "https://www.bitdefender.com/solutions/free.html"
+        target: "_blank" # optional html a tag target attribute
+
   - name: "Other"
     icon: "fa-solid fa-question"
     items:          
