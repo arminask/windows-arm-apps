@@ -1848,6 +1848,12 @@ services:
         url: "https://github.com/Scighost/Starward/releases"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "Warzone 2100"
+        logo: "assets/tools/warzone2100.png"
+        tag: "full game"       
+        url: "https://github.com/Warzone2100/warzone2100/releases"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "World of Warcraft"
         logo: "assets/tools/worldofwarcraft.png"
         url: "https://worldofwarcraft.blizzard.com/"
