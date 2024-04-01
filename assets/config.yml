@@ -68,19 +68,19 @@ services:
   - name: "Web Browsers"
     icon: "fa-brands fa-internet-explorer"
     items:
-      - name: "Chrome"
+      - name: "Google Chrome"
         logo: "assets/tools/chrome.png"
-        url: "https://www.google.com/chrome/canary/"
+        url: "https://www.google.com/chrome/?platform=win_arm64"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Mozilla Firefox"
         logo: "assets/tools/firefox.png"
-        url: "https://www.mozilla.org/en-GB/firefox/all/#product-desktop-release"
+        url: "https://www.mozilla.org/firefox/all/#product-desktop-release"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Microsoft Edge"
         logo: "assets/tools/edge.png"
-        url: "https://apps.microsoft.com/store/detail/microsoft-edge-browser/XPFFTQ037JWMHS"
+        url: "https://apps.microsoft.com/detail/xpfftq037jwmhs"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Brave Browser"
