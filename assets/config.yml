@@ -1703,7 +1703,14 @@ services:
         tag: "original game data needed"
         url: "https://github.com/ArminiusTux/WinARM64-binaries/releases/tag/DevilutionX"
         target: "_blank" # optional html a tag target attribute
-                          
+               
+      - name: "Fallout Community Edition"
+        logo: "assets/tools/fallout1ce.png"
+        subtitle: "Fallout 1997 re-implementation"
+        tag: "original game data needed"
+        url: "https://github.com/ArminiusTux/WinARM64-binaries/releases/tag/fallout1-ce"
+        target: "_blank" # optional html a tag target attribute
+                             
       - name: "Julius"
         logo: "assets/tools/julius.png"
         subtitle: "Caesar III 1998 vanilla clone"
