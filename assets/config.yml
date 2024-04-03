@@ -1784,7 +1784,14 @@ services:
         tag: "original game data needed"
         url: "https://github.com/ArminiusTux/WinARM64-binaries/releases/tag/OpenJK"
         target: "_blank" # optional html a tag target attribute
-                                                                           
+               
+      - name: "dhewm3"
+        logo: "assets/tools/dhewm3.png"
+        subtitle: "Doom³ 2004 & Resurrection of Evil 2005 port"
+        tag: "original game data needed"
+        url: "https://github.com/ArminiusTux/WinARM64-binaries/releases/tag/dhewm3"
+        target: "_blank" # optional html a tag target attribute
+                                                                               
       - name: "Duolingo"
         logo: "assets/tools/duolingo.png"
         url: "https://apps.microsoft.com/store/detail/duolingo-learn-languages-for-free/9WZDNCRCV5XN"
