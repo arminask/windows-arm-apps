@@ -1710,7 +1710,14 @@ services:
         tag: "original game data needed"
         url: "https://github.com/ArminiusTux/WinARM64-binaries/releases/tag/fallout1-ce"
         target: "_blank" # optional html a tag target attribute
-                             
+               
+      - name: "Fallout 2 Community Edition"
+        logo: "assets/tools/fallout2ce.png"
+        subtitle: "Fallout 2 1998 re-implementation"
+        tag: "original game data needed"
+        url: "https://github.com/ArminiusTux/WinARM64-binaries/releases/tag/fallout2-ce"
+        target: "_blank" # optional html a tag target attribute
+                                     
       - name: "Julius"
         logo: "assets/tools/julius.png"
         subtitle: "Caesar III 1998 vanilla clone"
