@@ -1764,6 +1764,13 @@ services:
         url: "https://github.com/ArminiusTux/WinARM64-binaries/releases/tag/OpenTomb"
         target: "_blank" # optional html a tag target attribute
                
+      - name: "Quake3e"
+        logo: "assets/tools/quake3e.png"
+        subtitle: "Quake III: Arena 1999 re-engine-ered"
+        tag: "original game data needed"
+        url: "https://github.com/ec-/Quake3e/releases"
+        target: "_blank" # optional html a tag target attribute
+                    
       - name: "OpenJK - Jedi Outcast"
         logo: "assets/tools/openjk.png"
         subtitle: "Star Wars: Jedi Knight II - JO 2002 clone"
