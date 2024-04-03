@@ -1523,7 +1523,13 @@ services:
         logo: "assets/tools/prometheus.png"
         url: "https://prometheus.io/download/"
         target: "_blank" # optional html a tag target attribute   
-        
+     
+      - name: "Foxglove Studio"
+        logo: "assets/tools/foxglovestudio.png"
+        subtitle: "robotics development solution"        
+        url: "https://foxglove.dev/download"
+        target: "_blank" # optional html a tag target attribute   
+          
       - name: "RunCat"
         logo: "assets/tools/runcat.png"
         subtitle: "a cute running cat animation reflects CPU Utilization"
