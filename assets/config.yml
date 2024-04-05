@@ -1853,3 +1853,14 @@ services:
         url: "https://worldofwarcraft.blizzard.com/"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "Nintendulator"
+        logo: "assets/tools/nintendulator.png"
+        subtitle: "unofficial builds"
+        url: "https://github.com/tordona/nintendulator/releases"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Snes9x"
+        logo: "assets/tools/snes9x.png"
+        subtitle: "unofficial builds"
+        url: "https://github.com/tordona/snes9x/releases"
+        target: "_blank" # optional html a tag target attribute
