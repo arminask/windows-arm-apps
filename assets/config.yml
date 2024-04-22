@@ -607,6 +607,12 @@ services:
         logo: "assets/tools/todoist.png"
         url: "https://appsource.microsoft.com/de-de/product/office/wa200001974?tab=overview"
         target: "_blank"
+
+      - name: "Notesnook" # App name
+        subtitle: "Secure Private Notes"
+        logo: "assets/tools/notesnook.png" # App icon
+        url: "https://notesnook.com/releases/windows/notesnook_win_arm64.exe" # URL to download the app
+        target: "_blank"
         
   - name: "Tools"
     icon: "fa-solid fa-screwdriver-wrench"
