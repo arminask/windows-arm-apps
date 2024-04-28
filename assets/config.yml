@@ -460,6 +460,11 @@ services:
         url: "https://apps.microsoft.com/detail/9NK8T1KSHFFR"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "Pixeval"
+        logo: "assets/tools/pixeval.png"
+        url: "https://apps.microsoft.com/detail/9p1rzl9z8454"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "Final2x"
         logo: "assets/tools/Final2x.png"
         subtitle: "Image Super-Resolution"
@@ -747,6 +752,12 @@ services:
         url: "https://apps.microsoft.com/detail/XPFNZLNH748XD2"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "燧石"
+        logo: "assets/tools/suishi.png"
+        subtitle: "Look up words anytime, anywhere"
+        url: "https://apps.microsoft.com/detail/9p8735fcs5s9"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "Twinkle Tray"
         logo: "assets/tools/TwinkleTray.png"
         subtitle: "manage the brightness levels of multiple monitors."
@@ -814,6 +825,18 @@ services:
         url: "https://github.com/YerongAI/Office-Tool/releases/" # URL to download the app
         subtitle: "A powerful and useful tool for Office deployments"
         target: "_blank"
+        
+      - name: "HashTool" # App name
+        logo: "assets/tools/hashtool.png" # App icon
+        subtitle: "calculate the hash values of files or folders."
+        url: "https://github.com/KiyanYang/DotVast.HashTool.WinUI/releases" # URL to download the app
+        target: "_blank"
+        
+      - name: "Window Switcher" # App name
+        logo: "assets/tools/windowswitcher.png" # App icon
+        subtitle: "switch between windows of the same app."
+        url: "https://github.com/sigoden/window-switcher/releases" # URL to download the app
+        target: "_blank"
 
   - name: "Network & Cloud Storage"
     icon: "fa-solid fa-network-wired"
@@ -873,6 +896,12 @@ services:
         url: "https://github.com/filebrowser/filebrowser/releases"
         target: "_blank" # optional html a tag target attribute        
 
+      - name: "ArozOS"
+        logo: "assets/tools/arozos.png"
+        tag: "Experimental"
+        url: "https://github.com/tobychui/arozos/releases"
+        target: "_blank" # optional html a tag target attribute    
+
       - name: "Dropbox"
         logo: "assets/tools/dropbox.png"
         url: "https://www.dropbox.com/downloading?plat=win&type=full&arch=arm64"
@@ -927,7 +956,13 @@ services:
         subtitle: "unofficial builds"
         url: "https://github.com/minnyres/transmission-windows-arm64/releases"
         target: "_blank" # optional html a tag target attribute
-                                                    
+                                         
+      - name: "Gopeed"
+        logo: "assets/tools/gopeed.png"
+        subtitle: "a high-speed downloader developed"
+        url: "https://github.com/GopeedLab/gopeed/releases"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "aMule"
         logo: "assets/tools/amule.png"
         tag: "ARM32"
@@ -1495,7 +1530,12 @@ services:
 
   - name: "Security & Protection"
     icon: "fa-solid fa-shield"
-    items:          
+    items:
+      - name: "Huorong"
+        logo: "assets/tools/huorong.png"
+        url: "https://www.huorong.cn/person6.html"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "CrowdStrike Falcon"
         logo: "assets/tools/Crowdstrike.png"
         url: "https://www.crowdstrike.com/products/faq/"
@@ -1509,6 +1549,11 @@ services:
       - name: "Bitdefender Antivirus Free"
         logo: "assets/tools/bitdefender.png"
         url: "https://www.bitdefender.com/solutions/free.html"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Fort Firewall"
+        logo: "assets/tools/fortfirewall.png"
+        url: "https://github.com/tnodir/fort/releases"
         target: "_blank" # optional html a tag target attribute
 
   - name: "Other"
@@ -1632,6 +1677,12 @@ services:
       - name: "DuckStation"
         logo: "assets/tools/duckstation.png"
         url: "https://github.com/stenzek/duckstation/releases/tag/latest"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "ruffle"
+        logo: "assets/tools/ruffle.png"
+        subtitle: "unofficial builds - A Flash Player emulator"
+        url: "https://github.com/iKineticate/ruffle-windows-arm64/releases"
         target: "_blank" # optional html a tag target attribute
 
       - name: "DREAMM"
