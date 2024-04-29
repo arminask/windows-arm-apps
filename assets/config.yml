@@ -185,6 +185,12 @@ services:
         url: "https://apps.microsoft.com/detail/9NBLGGH5WXNW"
         target: "_blank" # optional html a tag target attribute
         
+      - name: "ruffle"
+        logo: "assets/tools/ruffle.png"
+        subtitle: "unofficial builds - A Flash Player emulator"
+        url: "https://github.com/iKineticate/ruffle-windows-arm64/releases"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "Spotify"
         logo: "assets/tools/spotify.png"
         url: "https://community.spotify.com/t5/Live-Ideas/Desktop-Developer-Spotify-for-Windows-on-Arm-Win32-Desktop-app/idi-p/4992167/page/4#M243280"
@@ -1677,12 +1683,6 @@ services:
       - name: "DuckStation"
         logo: "assets/tools/duckstation.png"
         url: "https://github.com/stenzek/duckstation/releases/tag/latest"
-        target: "_blank" # optional html a tag target attribute
-
-      - name: "ruffle"
-        logo: "assets/tools/ruffle.png"
-        subtitle: "unofficial builds - A Flash Player emulator"
-        url: "https://github.com/iKineticate/ruffle-windows-arm64/releases"
         target: "_blank" # optional html a tag target attribute
 
       - name: "DREAMM"
