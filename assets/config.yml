@@ -1331,6 +1331,12 @@ services:
         url: "https://github.com/HuolalaTech/page-spy-web/releases"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "SWC"
+        logo: "assets/tools/swc.png"
+        subtitle: "Speedy Web Compiler"
+        url: "https://github.com/swc-project/swc/releases"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "Azure Data Studio"
         logo: "assets/tools/AzureDataStudio.png"
         subtitle: "a data management and development tool"
