@@ -1404,7 +1404,7 @@ services:
 
       - name: "Disk Jockey"
         logo: "assets/tools/diskjockey.png"
-        url: "https://diskjockey.onegeekarmy.eu/#windows"
+        url: "https://diskjockey.onegeekarmy.eu/windows/"
         target: "_blank" # optional html a tag target attribute
         
       - name: "WSL"
