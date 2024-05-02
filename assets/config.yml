@@ -1697,9 +1697,9 @@ services:
         url: "https://github.com/basharast/RetrixGold/releases"
         target: "_blank" # optional html a tag target attribute
        
-      - name: "OpenGL Compatibility Pack"
+      - name: "OpenCL & OpenGL Compatibility Pack"
         logo: "assets/tools/openglcompat.png"
-        url: "https://apps.microsoft.com/store/detail/opencl%E2%84%A2-and-opengl%C2%AE-compatibility-pack/9NQPSL29BFFF"
+        url: "https://apps.microsoft.com/detail/9nqpsl29bfff"
         target: "_blank" # optional html a tag target attribute
          
       - name: "melonDS"
