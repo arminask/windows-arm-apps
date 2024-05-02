@@ -1714,19 +1714,37 @@ services:
         logo: "assets/tools/openglcompat.png"
         url: "https://apps.microsoft.com/detail/9nqpsl29bfff"
         target: "_blank" # optional html a tag target attribute
+            
+      - name: "ScummVM"
+        logo: "assets/tools/scummvm.png"
+        subtitle: "unofficial builds"
+        url: "https://github.com/mijk84/win-arm64-binaries/releases/tag/scummvm"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "ares"
+        logo: "assets/tools/ares.png"
+        subtitle: "a simplified multi-system emulator"
+        url: "https://ares-emu.net/download"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Nintendulator"
+        logo: "assets/tools/nintendulator.png"
+        subtitle: "unofficial builds"
+        url: "https://github.com/tordona/nintendulator/releases"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Snes9x"
+        logo: "assets/tools/snes9x.png"
+        subtitle: "unofficial builds"
+        url: "https://github.com/tordona/snes9x/releases"
+        target: "_blank" # optional html a tag target attribute
          
       - name: "melonDS"
         logo: "assets/tools/melonds.png"
         subtitle: "unofficial builds"
         url: "https://github.com/mijk84/win-arm64-binaries/releases/tag/nelons-31072022"
         target: "_blank" # optional html a tag target attribute
-               
-      - name: "ScummVM"
-        logo: "assets/tools/scummvm.png"
-        subtitle: "unofficial builds"
-        url: "https://github.com/mijk84/win-arm64-binaries/releases/tag/scummvm"
-        target: "_blank" # optional html a tag target attribute
-                      
+           
       - name: "Great Conqueror"
         logo: "assets/tools/GreatConqueror.png"
         url: "https://www.ieasytech.com/en/Desktop/"
@@ -1987,14 +2005,3 @@ services:
         url: "https://worldofwarcraft.blizzard.com/"
         target: "_blank" # optional html a tag target attribute
 
-      - name: "Nintendulator"
-        logo: "assets/tools/nintendulator.png"
-        subtitle: "unofficial builds"
-        url: "https://github.com/tordona/nintendulator/releases"
-        target: "_blank" # optional html a tag target attribute
-
-      - name: "Snes9x"
-        logo: "assets/tools/snes9x.png"
-        subtitle: "unofficial builds"
-        url: "https://github.com/tordona/snes9x/releases"
-        target: "_blank" # optional html a tag target attribute
