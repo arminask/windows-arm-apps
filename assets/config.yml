@@ -2001,6 +2001,13 @@ services:
         url: "https://github.com/Scighost/Starward/releases"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "Vassal"
+        logo: "assets/tools/vassal.png"
+        subtitle: "a boardgame engine offering 2600 titles"        
+        tag: "Java"       
+        url: "https://vassalengine.org/download.html"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "Warzone 2100"
         logo: "assets/tools/warzone2100.png"
         tag: "full game"       
