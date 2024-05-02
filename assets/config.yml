@@ -1861,7 +1861,14 @@ services:
         tag: "original game data needed"
         url: "https://github.com/ArminiusTux/WinARM64-binaries/releases/tag/wipEout"
         target: "_blank" # optional html a tag target attribute
-                   
+               
+      - name: "Vanilla Conquer RA"
+        logo: "assets/tools/vanillaconquerra.png"
+        subtitle: "Command & Conquer: Red Alert 1996 re-loaded"
+        tag: "original game data needed"
+        url: "https://github.com/ArminiusTux/WinARM64-binaries/releases/tag/VanillaConquerRA"
+        target: "_blank" # optional html a tag target attribute
+                      
       - name: "OpenTomb"
         logo: "assets/tools/opentomb.png"
         subtitle: "Tomb Raider 1-5 1996-2003 engine remake"
