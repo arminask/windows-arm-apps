@@ -285,7 +285,7 @@ services:
       - name: "Kodi"
         logo: "assets/tools/kodi.png"
         tag: "ARM32"
-        url: "https://mirrors.kodi.tv/nightlies/windows/uwp-arm/Nexus/"
+        url: "https://mirrors.kodi.tv/nightlies/windows/uwp-arm/Omega/"
         target: "_blank" # optional html a tag target attribute
 
       - name: "DVDForge"
