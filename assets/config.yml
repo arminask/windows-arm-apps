@@ -1141,6 +1141,12 @@ services:
         url: "https://releases.llvm.org/"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "Ninja"
+        logo: "assets/tools/clionly.png"
+        subtitle: "small build system focused on speed"        
+        url: "https://github.com/ninja-build/ninja/releases"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "JetBrains IntelliJ IDEA"
         logo: "assets/tools/jetbrainsintellij-idea.png"
         url: "https://www.jetbrains.com/idea/download/"
