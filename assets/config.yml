@@ -1380,6 +1380,13 @@ services:
         url: "https://github.com/joncampbell123/dosbox-x/releases"
         target: "_blank" # optional html a tag target attribute
                
+      - name: "ntvdm64.dll + winevdm"
+        logo: "assets/tools/win16bit.png"
+        tag: "Windows 1.x, 2.x & 3.x"        
+        subtitle: "run old 16-bit Windows apps seamlessly"
+        url: "https://github.com/otya128/ntvdm64.dll"
+        target: "_blank" # optional html a tag target attribute
+                 
       - name: "86Box"
         logo: "assets/tools/86box.png"
         subtitle: "unofficial builds"
