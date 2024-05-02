@@ -924,6 +924,11 @@ services:
         url: "https://github.com/gaozhangmin/aliyunpan/releases"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "RaiDrive"
+        logo: "assets/tools/raidrive.png"
+        url: "https://www.raidrive.com/download"
+        target: "_blank" # optional html a tag target attribute
+     
       - name: "Rclone"
         logo: "assets/tools/rclone.png"
         url: "https://rclone.org/downloads/"
