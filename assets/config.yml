@@ -1382,17 +1382,7 @@ services:
         subtitle: "GitHub’s official command line tool"
         url: "https://github.com/cli/cli/releases"
         target: "_blank" # optional html a tag target attribute
-
-  - name: "Artificial Intelligence"
-    icon: "fa-solid fa-brain-circuit"
-    items:
-      - name: "Qualcomm Neural Processing SDK"
-        logo: "assets/tools/qualcommdev.png"
-        tag: "ARM64X"        
-        subtitle: "deep neural network accelerated runtime for Snapdragon SoCs"        
-        url: "https://docs.qualcomm.com/bundle/publicresource/topics/80-63442-2/revision_history_windows.html"
-        target: "_blank" # optional html a tag target attribute
-               
+           
   - name: "Emulation & Virtualization"
     icon: "fa-solid fa-microchip"
     items:
@@ -2040,3 +2030,13 @@ services:
         url: "https://worldofwarcraft.blizzard.com/"
         target: "_blank" # optional html a tag target attribute
 
+  - name: "Artificial Intelligence"
+    icon: "fa-solid fa-brain"
+    items:
+      - name: "Qualcomm Neural Processing SDK"
+        logo: "assets/tools/qualcommdev.png"
+        tag: "ARM64X"        
+        subtitle: "deep neural network runtime for Snapdragon SoCs"        
+        url: "https://docs.qualcomm.com/bundle/publicresource/topics/80-63442-2/revision_history_windows.html"
+        target: "_blank" # optional html a tag target attribute
+    
