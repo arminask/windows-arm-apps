@@ -285,7 +285,7 @@ services:
       - name: "Kodi"
         logo: "assets/tools/kodi.png"
         tag: "ARM32"
-        url: "https://mirrors.kodi.tv/nightlies/windows/uwp-arm/Nexus/"
+        url: "https://mirrors.kodi.tv/nightlies/windows/uwp-arm/Omega/"
         target: "_blank" # optional html a tag target attribute
 
       - name: "DVDForge"
@@ -924,6 +924,11 @@ services:
         url: "https://github.com/gaozhangmin/aliyunpan/releases"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "RaiDrive"
+        logo: "assets/tools/raidrive.png"
+        url: "https://www.raidrive.com/download"
+        target: "_blank" # optional html a tag target attribute
+     
       - name: "Rclone"
         logo: "assets/tools/rclone.png"
         url: "https://rclone.org/downloads/"
@@ -1141,6 +1146,12 @@ services:
         url: "https://releases.llvm.org/"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "Ninja"
+        logo: "assets/tools/clionly.png"
+        subtitle: "small build system focused on speed"        
+        url: "https://github.com/ninja-build/ninja/releases"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "JetBrains IntelliJ IDEA"
         logo: "assets/tools/jetbrainsintellij-idea.png"
         url: "https://www.jetbrains.com/idea/download/"
@@ -1325,6 +1336,12 @@ services:
         url: "https://github.com/HuolalaTech/page-spy-web/releases"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "SWC"
+        logo: "assets/tools/swc.png"
+        subtitle: "Speedy Web Compiler"
+        url: "https://github.com/swc-project/swc/releases"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "Azure Data Studio"
         logo: "assets/tools/AzureDataStudio.png"
         subtitle: "a data management and development tool"
@@ -1365,7 +1382,7 @@ services:
         subtitle: "GitHub’s official command line tool"
         url: "https://github.com/cli/cli/releases"
         target: "_blank" # optional html a tag target attribute
-
+           
   - name: "Emulation & Virtualization"
     icon: "fa-solid fa-microchip"
     items:
@@ -1374,6 +1391,13 @@ services:
         url: "https://github.com/joncampbell123/dosbox-x/releases"
         target: "_blank" # optional html a tag target attribute
                
+      - name: "ntvdm64.dll + winevdm"
+        logo: "assets/tools/win16bit.png"
+        tag: "Windows 1.x, 2.x & 3.x"        
+        subtitle: "run old 16-bit Windows apps seamlessly"
+        url: "https://github.com/otya128/ntvdm64.dll"
+        target: "_blank" # optional html a tag target attribute
+                 
       - name: "86Box"
         logo: "assets/tools/86box.png"
         subtitle: "unofficial builds"
@@ -1404,7 +1428,7 @@ services:
 
       - name: "Disk Jockey"
         logo: "assets/tools/diskjockey.png"
-        url: "https://diskjockey.onegeekarmy.eu/#windows"
+        url: "https://diskjockey.onegeekarmy.eu/windows/"
         target: "_blank" # optional html a tag target attribute
         
       - name: "WSL"
@@ -1697,9 +1721,33 @@ services:
         url: "https://github.com/basharast/RetrixGold/releases"
         target: "_blank" # optional html a tag target attribute
        
-      - name: "OpenGL Compatibility Pack"
+      - name: "OpenCL & OpenGL Compatibility Pack"
         logo: "assets/tools/openglcompat.png"
-        url: "https://apps.microsoft.com/store/detail/opencl%E2%84%A2-and-opengl%C2%AE-compatibility-pack/9NQPSL29BFFF"
+        url: "https://apps.microsoft.com/detail/9nqpsl29bfff"
+        target: "_blank" # optional html a tag target attribute
+            
+      - name: "ScummVM"
+        logo: "assets/tools/scummvm.png"
+        subtitle: "unofficial builds"
+        url: "https://github.com/ArminiusTux/WinARM64-binaries/releases/tag/ScummVM"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "ares"
+        logo: "assets/tools/ares.png"
+        subtitle: "a simplified multi-system emulator"
+        url: "https://ares-emu.net/download"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Nintendulator"
+        logo: "assets/tools/nintendulator.png"
+        subtitle: "unofficial builds"
+        url: "https://github.com/tordona/nintendulator/releases"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Snes9x"
+        logo: "assets/tools/snes9x.png"
+        subtitle: "unofficial builds"
+        url: "https://github.com/tordona/snes9x/releases"
         target: "_blank" # optional html a tag target attribute
          
       - name: "melonDS"
@@ -1707,13 +1755,7 @@ services:
         subtitle: "unofficial builds"
         url: "https://github.com/mijk84/win-arm64-binaries/releases/tag/nelons-31072022"
         target: "_blank" # optional html a tag target attribute
-               
-      - name: "ScummVM"
-        logo: "assets/tools/scummvm.png"
-        subtitle: "unofficial builds"
-        url: "https://github.com/mijk84/win-arm64-binaries/releases/tag/scummvm"
-        target: "_blank" # optional html a tag target attribute
-                      
+           
       - name: "Great Conqueror"
         logo: "assets/tools/GreatConqueror.png"
         url: "https://www.ieasytech.com/en/Desktop/"
@@ -1830,7 +1872,14 @@ services:
         tag: "original game data needed"
         url: "https://github.com/ArminiusTux/WinARM64-binaries/releases/tag/wipEout"
         target: "_blank" # optional html a tag target attribute
-                   
+               
+      - name: "Vanilla Conquer RA"
+        logo: "assets/tools/vanillaconquerra.png"
+        subtitle: "Command & Conquer: Red Alert 1996 re-loaded"
+        tag: "original game data needed"
+        url: "https://github.com/ArminiusTux/WinARM64-binaries/releases/tag/VanillaConquerRA"
+        target: "_blank" # optional html a tag target attribute
+                      
       - name: "OpenTomb"
         logo: "assets/tools/opentomb.png"
         subtitle: "Tomb Raider 1-5 1996-2003 engine remake"
@@ -1936,6 +1985,12 @@ services:
         url: "https://github.com/Kichura/Minecraft_ARM?tab=readme-ov-file"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "RuneLite"
+        logo: "assets/tools/runelite.png"
+        subtitle: "an OldSchool RuneScape client"
+        url: "https://runelite.net/"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "Solitaire Collection"
         logo: "assets/tools/solitaire.png"
         url: "https://www.microsoft.com/store/productId/9WZDNCRFHWD2/"
@@ -1957,6 +2012,13 @@ services:
         url: "https://github.com/Scighost/Starward/releases"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "Vassal"
+        logo: "assets/tools/vassal.png"
+        subtitle: "a boardgame engine offering 2600 titles"        
+        tag: "Java"       
+        url: "https://vassalengine.org/download.html"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "Warzone 2100"
         logo: "assets/tools/warzone2100.png"
         tag: "full game"       
@@ -1968,14 +2030,13 @@ services:
         url: "https://worldofwarcraft.blizzard.com/"
         target: "_blank" # optional html a tag target attribute
 
-      - name: "Nintendulator"
-        logo: "assets/tools/nintendulator.png"
-        subtitle: "unofficial builds"
-        url: "https://github.com/tordona/nintendulator/releases"
+  - name: "Artificial Intelligence"
+    icon: "fa-solid fa-brain"
+    items:
+      - name: "Qualcomm Neural Processing SDK"
+        logo: "assets/tools/qualcommdev.png"
+        tag: "ARM64X"        
+        subtitle: "deep neural network runtime for Snapdragon SoCs"        
+        url: "https://docs.qualcomm.com/bundle/publicresource/topics/80-63442-2/revision_history_windows.html"
         target: "_blank" # optional html a tag target attribute
-
-      - name: "Snes9x"
-        logo: "assets/tools/snes9x.png"
-        subtitle: "unofficial builds"
-        url: "https://github.com/tordona/snes9x/releases"
-        target: "_blank" # optional html a tag target attribute
+    
