@@ -825,6 +825,11 @@ services:
         url: "https://www.stardock.com/products/start11/"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "StartAllBack"
+        logo: "assets/tools/StartAllBack.png"
+        url: "https://www.startisback.com/#download-tab"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "Company Portal"
         logo: "assets/tools/CompanyPortal.png"
         url: "https://apps.microsoft.com/detail/9wzdncrfj3pz"
