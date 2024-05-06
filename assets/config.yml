@@ -573,14 +573,19 @@ services:
 
       - name: "Microsoft To do"
         logo: "assets/tools/msTodo.png"
-        url: "https://apps.microsoft.com/detail/drawboard-projects/9NBLGGH5R558"
+        url: "https://apps.microsoft.com/detail/9NBLGGH5R558"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "uyou To do"
+        logo: "assets/tools/uyoutodo.png"
+        url: "https://github.com/tonylu110/uyou-todo-electron/releases"
+        target: "_blank" # optional html a tag target attribute
+        
       - name: "Microsoft Journal"
         logo: "assets/tools/msJournal.png"
-        url: "https://apps.microsoft.com/detail/drawboard-projects/9N318R854RHH"
+        url: "https://apps.microsoft.com/detail/9N318R854RHH"
         target: "_blank" # optional html a tag target attribute
-
+        
       - name: "Aquile Reader"
         logo: "assets/tools/aquile.png"
         url: "https://apps.microsoft.com/detail/9P08T4JLTQNK"
