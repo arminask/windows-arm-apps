@@ -659,11 +659,6 @@ services:
         logo: "assets/tools/veracrypt.png"
         url: "https://www.veracrypt.fr/en/Downloads.html"
         target: "_blank" # optional html a tag target attribute
-        
-      - name: "Files"
-        logo: "assets/tools/files.png"
-        url: "https://files.community/download"
-        target: "_blank" # optional html a tag target attribute   
                 
       - name: "Windows File Manager (WinFile)"
         logo: "assets/tools/winfile.png"
@@ -818,16 +813,6 @@ services:
         logo: "assets/tools/SystemInformer.png"
         subtitle: "monitor system resources, debug software and detect malware"
         url: "https://systeminformer.sourceforge.io/nightly.php"
-        target: "_blank" # optional html a tag target attribute
-
-      - name: "Start 11"
-        logo: "assets/tools/Start11.png"
-        url: "https://www.stardock.com/products/start11/"
-        target: "_blank" # optional html a tag target attribute
-
-      - name: "StartAllBack"
-        logo: "assets/tools/StartAllBack.png"
-        url: "https://www.startisback.com/#download-tab"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Company Portal"
@@ -1606,6 +1591,47 @@ services:
         url: "https://github.com/tnodir/fort/releases"
         target: "_blank" # optional html a tag target attribute
 
+  - name: "Theme & Styles"
+    icon: "fa-solid fa-brush"
+    items:
+      - name: "Timeline Wallpaper"
+        logo: "assets/tools/Timeline.png"
+        url: "https://apps.microsoft.com/detail/9N7VHQ989BB7"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "WinDynamicDesktop"
+        logo: "assets/tools/WinDynamicDesktop.png"
+        subtitle: "changes wallpaper based on the time of day."
+        url: "https://apps.microsoft.com/detail/9nm8n7dq3z5f"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Auto Dark Mode"
+        logo: "assets/tools/autodarkmode.png"
+        subtitle: "Switches between the dark and light theme at scheduled times."
+        url: "https://github.com/AutoDarkMode/AutoDarkModeVersion/releases"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "DarkMode"
+        logo: "assets/tools/DarkMode.png"
+        subtitle: "automatically switch the color mode of Windows 10/11 systems"
+        url: "https://github.com/Melon-Studio/DarkMode2/releases"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Start 11"
+        logo: "assets/tools/Start11.png"
+        url: "https://www.stardock.com/products/start11/"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "StartAllBack"
+        logo: "assets/tools/StartAllBack.png"
+        url: "https://www.startisback.com/#download-tab"
+        target: "_blank" # optional html a tag target attribute
+        
+      - name: "Files"
+        logo: "assets/tools/files.png"
+        url: "https://files.community/download"
+        target: "_blank" # optional html a tag target attribute
+
   - name: "Other"
     icon: "fa-solid fa-question"
     items:          
@@ -1673,29 +1699,6 @@ services:
       - name: "FluentWeather"
         logo: "assets/tools/FluentWeather.png"
         url: "https://apps.microsoft.com/detail/9PFD136M8457"
-        target: "_blank" # optional html a tag target attribute
-
-      - name: "Timeline Wallpaper"
-        logo: "assets/tools/Timeline.png"
-        url: "https://apps.microsoft.com/detail/9N7VHQ989BB7"
-        target: "_blank" # optional html a tag target attribute
-
-      - name: "WinDynamicDesktop"
-        logo: "assets/tools/WinDynamicDesktop.png"
-        subtitle: "changes wallpaper based on the time of day."
-        url: "https://apps.microsoft.com/detail/9nm8n7dq3z5f"
-        target: "_blank" # optional html a tag target attribute
-
-      - name: "Auto Dark Mode"
-        logo: "assets/tools/autodarkmode.png"
-        subtitle: "Switches between the dark and light theme at scheduled times."
-        url: "https://github.com/AutoDarkMode/AutoDarkModeVersion/releases"
-        target: "_blank" # optional html a tag target attribute
-
-      - name: "DarkMode"
-        logo: "assets/tools/DarkMode.png"
-        subtitle: "automatically switch the color mode of Windows 10/11 systems"
-        url: "https://github.com/Melon-Studio/DarkMode2/releases"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Stellarium"
