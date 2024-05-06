@@ -1237,6 +1237,11 @@ services:
         url: "https://github.com/PowerShell/PowerShell/releases/"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "nushell"
+        logo: "assets/tools/nushell.png"
+        url: "https://github.com/nushell/nushell/releases"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "MS OpenJDK"
         logo: "assets/tools/openjdk.png"
         subtitle: "Microsoft builds"
