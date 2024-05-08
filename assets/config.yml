@@ -543,8 +543,7 @@ services:
         target: "_blank" # optional html a tag target attribute
 
       - name: "Drawboard PDF"
-        logo: "assets/tools/drawboardpdf.png"
-        tag: "ARM32"
+        logo: "assets/tools/drawboardpdf.png"  # delete the tag as drawboard pdf has already support arm64
         url: "https://apps.microsoft.com/detail/drawboard-pdf/9WZDNCRFHWQT"
         target: "_blank" # optional html a tag target attribute
 
