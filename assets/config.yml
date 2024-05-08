@@ -1962,6 +1962,12 @@ services:
 
       - name: "Minecraft"
         logo: "assets/tools/Minecraft.png"
+        subtitle: "Java Edition"
+        url: "https://www.minecraft.net/download"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Minecraft"
+        logo: "assets/tools/Minecraft.png"
         tag: "Purchases"
         subtitle: "Bedrock"
         url: "https://apps.microsoft.com/detail/9NBLGGH2JHXJ"
