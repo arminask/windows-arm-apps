@@ -482,6 +482,15 @@ services:
         url: "https://github.com/Tohrusky/Final2x/releases"
         target: "_blank" # optional html a tag target attribute
 
+  - name: "3D Modeling"
+    icon: "fa-solid fa-cube"
+    items:
+      - name: "Blender"
+        logo: "assets/tools/blender.png"
+        subtitle: "experimental builds / OpenGL 4.3 driver required"
+        url: "https://builder.blender.org/download/experimental/"
+        target: "_blank" # optional html a tag target attribute
+
   - name: "Compression"
     icon: "fa-solid fa-file-zipper"
     items:
