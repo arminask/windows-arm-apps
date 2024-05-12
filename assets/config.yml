@@ -491,6 +491,11 @@ services:
         url: "https://builder.blender.org/download/experimental/"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "Shapr3D"
+        logo: "assets/tools/shapr3d.png"
+        url: "https://apps.microsoft.com/detail/9n4k9qfv4xfc"
+        target: "_blank" # optional html a tag target attribute
+
   - name: "Compression"
     icon: "fa-solid fa-file-zipper"
     items:
