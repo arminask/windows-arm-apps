@@ -2103,6 +2103,13 @@ services:
         url: "https://github.com/Warzone2100/warzone2100/releases"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "Widelands"
+        logo: "assets/tools/widelands.png"
+        subtitle: "Settlers II 1996 remake"        
+        tag: "full game"       
+        url: "https://github.com/ArminiusTux/WinARM64-binaries/releases/tag/Widelands"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "World of Warcraft"
         logo: "assets/tools/worldofwarcraft.png"
         url: "https://worldofwarcraft.blizzard.com/"
