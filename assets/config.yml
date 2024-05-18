@@ -1669,6 +1669,12 @@ services:
         logo: "assets/tools/StartAllBack.png"
         url: "https://www.startisback.com/#download-tab"
         target: "_blank" # optional html a tag target attribute
+
+      - name: "WindowPet"
+        logo: "assets/tools/windowpet.png"
+        subtitle: "unofficial builds"
+        url: "https://github.com/ArminiusTux/WinARM64-binaries/releases/tag/WindowPet"
+        target: "_blank" # optional html a tag target attribute
         
       - name: "Files"
         logo: "assets/tools/files.png"
