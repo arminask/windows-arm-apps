@@ -482,6 +482,12 @@ services:
         url: "https://apps.microsoft.com/detail/9p1rzl9z8454"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "Pointless"
+        logo: "assets/tools/pointless.png"
+        subtitle: "unofficial builds"
+        url: "https://github.com/ArminiusTux/WinARM64-binaries/releases/tag/Pointless"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "Final2x"
         logo: "assets/tools/Final2x.png"
         subtitle: "Image Super-Resolution"
