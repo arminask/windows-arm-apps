@@ -482,7 +482,7 @@ services:
         url: "https://github.com/Tohrusky/Final2x/releases"
         target: "_blank" # optional html a tag target attribute
 
-  - name: "3D Modeling"
+  - name: "3D Modeling & CAD"
     icon: "fa-solid fa-cube"
     items:
       - name: "Blender"
@@ -495,6 +495,12 @@ services:
       - name: "Shapr3D"
         logo: "assets/tools/shapr3d.png"
         url: "https://apps.microsoft.com/detail/9n4k9qfv4xfc"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "KiCad"
+        logo: "assets/tools/kicad.png"
+        subtitle: "PCB designer"        
+        url: "https://www.kicad.org/download/windows/#mirrors-arm64"
         target: "_blank" # optional html a tag target attribute
 
   - name: "Compression"
