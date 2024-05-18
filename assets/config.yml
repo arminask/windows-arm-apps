@@ -1006,6 +1006,12 @@ services:
         subtitle: "unofficial builds"
         url: "https://github.com/minnyres/amule-win32/releases"
         target: "_blank" # optional html a tag target attribute
+                                         
+      - name: "Flying Carpet"
+        logo: "assets/tools/flyingcarpet.png"
+        subtitle: "unofficial builds"
+        url: "https://github.com/ArminiusTux/WinARM64-binaries/releases/tag/FlyingCarpet"
+        target: "_blank" # optional html a tag target attribute
                                   
       - name: "curl"
         logo: "assets/tools/curl.png"
