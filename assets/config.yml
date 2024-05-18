@@ -308,6 +308,12 @@ services:
         url: "https://www.xreveal.com/"
         target: "_blank" # optional html a tag target attribute        
 
+      - name: "go2rtc"
+        logo: "assets/tools/go2rtc.png"
+        subtitle: "camera streaming solution"
+        url: "https://github.com/AlexxIT/go2rtc/releases"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "OBS Studio"
         logo: "assets/tools/obs.png"
         subtitle: "Unofficial builds"
