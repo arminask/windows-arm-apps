@@ -504,9 +504,15 @@ services:
         url: "https://github.com/Tohrusky/Final2x/releases"
         target: "_blank" # optional html a tag target attribute
 
-  - name: "3D Modeling & CAD"
+  - name: "Design"
     icon: "fa-solid fa-cube"
     items:
+      - name: "Unity"
+        logo: "assets/tools/unity.png"
+        tag: "beta"  
+        url: "https://unity.com/releases/editor/beta"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "Blender"
         logo: "assets/tools/blender.png"
         subtitle: "experimental builds"
@@ -623,6 +629,11 @@ services:
         url: "https://apps.microsoft.com/detail/9NBLGGH5R558"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "Todoist" 
+        logo: "assets/tools/todoist.png"
+        url: "https://appsource.microsoft.com/de-de/product/office/wa200001974?tab=overview"
+        target: "_blank"
+
       - name: "uyou To do"
         logo: "assets/tools/uyoutodo.png"
         url: "https://github.com/tonylu110/uyou-todo-electron/releases"
@@ -672,11 +683,6 @@ services:
         url: "https://obsidian.md/download"
         target: "_blank" # optional html a tag target attribute 
 
-      - name: "Todoist" 
-        logo: "assets/tools/todoist.png"
-        url: "https://appsource.microsoft.com/de-de/product/office/wa200001974?tab=overview"
-        target: "_blank"
-
       - name: "Notesnook" # App name
         subtitle: "Secure Private Notes"
         logo: "assets/tools/notesnook.png" # App icon
@@ -690,6 +696,17 @@ services:
         logo: "assets/tools/notepadplusplus.png"
         url: "https://notepad-plus-plus.org/downloads/"
         target: "_blank" # optional html a tag target attribute
+
+      - name: "Notepad2"
+        logo: "assets/tools/notepad2.png"
+        url: "https://github.com/zufuliu/notepad2/releases"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Typora" # App name
+        logo: "assets/tools/typora.png" # App icon
+        subtitle: "minimal markdown editor and reader"
+        url: "https://typora.io/#download" # URL to download the app
+        target: "_blank"
 
       - name: "KeePassXC"
         logo: "assets/tools/keepassxc.png"
@@ -739,27 +756,22 @@ services:
         url: "https://winmerge.org/downloads/"
         target: "_blank" # optional html a tag target attribute
 
-      - name: "Notepad2"
-        logo: "assets/tools/notepad2.png"
-        url: "https://github.com/zufuliu/notepad2/releases"
-        target: "_blank" # optional html a tag target attribute
-
       - name: "Everything"
         logo: "assets/tools/everything.png"
         url: "https://www.voidtools.com/downloads/"
         target: "_blank" # optional html a tag target attribute
 
-      - name: "TranslucentTB"
-        logo: "assets/tools/translucenttb.png"
-        subtitle: "makes the Windows taskbar translucent/transparent"
-        url: "https://github.com/TranslucentTB/TranslucentTB/releases"
-        target: "_blank" # optional html a tag target attribute
-                                  
       - name: "Sysinternals Suite"
         logo: "assets/tools/sysinternals.png"
         url: "https://www.sysinternals.com/downloads"
         target: "_blank" # optional html a tag target attribute
-                        
+
+      - name: "Dism++"
+        logo: "assets/tools/Dism++.png"
+        subtitle: "Windows Optimization Tools"
+        url: "https://github.com/Chuyu-Team/Dism-Multi-language/releases"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "WebView2 Runtime"
         logo: "assets/tools/edge.png"
         url: "https://developer.microsoft.com/en-us/microsoft-edge/webview2/#download"
@@ -785,12 +797,6 @@ services:
         logo: "assets/tools/Ditto.png"
         subtitle: "unofficial builds / windows clipboard"
         url: "https://github.com/jglathe/Ditto/tree/jg/arm64build"
-        target: "_blank" # optional html a tag target attribute
-
-      - name: "Dism++"
-        logo: "assets/tools/Dism++.png"
-        subtitle: "Windows Optimization Tools"
-        url: "https://github.com/Chuyu-Team/Dism-Multi-language/releases"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Pot"
@@ -884,12 +890,6 @@ services:
         logo: "assets/tools/windowswitcher.png" # App icon
         subtitle: "switch between windows of the same app."
         url: "https://github.com/sigoden/window-switcher/releases" # URL to download the app
-        target: "_blank"
-
-      - name: "Typora" # App name
-        logo: "assets/tools/typora.png" # App icon
-        subtitle: "minimal markdown editor and reader"
-        url: "https://typora.io/#download" # URL to download the app
         target: "_blank"
 
   - name: "Network & Cloud Storage"
@@ -1190,11 +1190,6 @@ services:
         url: "https://github.com/chirontt/gitextensions/releases"
         target: "_blank" # optional html a tag target attribute
 
-      - name: "Unity"
-        logo: "assets/tools/unity.png"
-        url: "https://unity.com/releases/editor/whats-new/6000.0.0"
-        target: "_blank" # optional html a tag target attribute
-
       - name: "Python"
         logo: "assets/tools/python.png"
         url: "https://www.python.org/downloads/windows/"
@@ -1281,16 +1276,6 @@ services:
         url: "https://dart.dev/get-dart/archive#beta-channel"
         target: "_blank" # optional html a tag target attribute
 
-      - name: "PowerShell"
-        logo: "assets/tools/powershell.png"
-        url: "https://github.com/PowerShell/PowerShell/releases/"
-        target: "_blank" # optional html a tag target attribute
-
-      - name: "nushell"
-        logo: "assets/tools/nushell.png"
-        url: "https://github.com/nushell/nushell/releases"
-        target: "_blank" # optional html a tag target attribute
-
       - name: "MS OpenJDK"
         logo: "assets/tools/openjdk.png"
         subtitle: "Microsoft builds"
@@ -1356,9 +1341,31 @@ services:
         url: "https://ziglang.org/download/"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "PowerShell"
+        logo: "assets/tools/powershell.png"
+        url: "https://github.com/PowerShell/PowerShell/releases/"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "nushell"
+        logo: "assets/tools/nushell.png"
+        url: "https://github.com/nushell/nushell/releases"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "Windows Terminal"
         logo: "assets/tools/windowsterminal.png"
         url: "https://aka.ms/terminal"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Hyper"
+        logo: "assets/tools/hyper.png"
+        subtitle: "A terminal built on web technologies"
+        url: "https://github.com/vercel/hyper/releases"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Tabby"
+        logo: "assets/tools/tabby.png"
+        subtitle: "A terminal for a more modern age"
+        url: "https://github.com/Eugeny/tabby/releases"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Starship"
@@ -1427,18 +1434,6 @@ services:
         logo: "assets/tools/rust.png"
         subtitle: "A Rust compiler front-end for IDEs"
         url: "https://github.com/rust-lang/rust-analyzer/releases"
-        target: "_blank" # optional html a tag target attribute
-
-      - name: "Hyper"
-        logo: "assets/tools/hyper.png"
-        subtitle: "A terminal built on web technologies"
-        url: "https://github.com/vercel/hyper/releases"
-        target: "_blank" # optional html a tag target attribute
-
-      - name: "Tabby"
-        logo: "assets/tools/tabby.png"
-        subtitle: "A terminal for a more modern age"
-        url: "https://github.com/Eugeny/tabby/releases"
         target: "_blank" # optional html a tag target attribute
 
       - name: "GitHub CLI"
@@ -1684,6 +1679,12 @@ services:
       - name: "StartAllBack"
         logo: "assets/tools/StartAllBack.png"
         url: "https://www.startisback.com/#download-tab"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "TranslucentTB"
+        logo: "assets/tools/translucenttb.png"
+        subtitle: "makes the Windows taskbar translucent/transparent"
+        url: "https://github.com/TranslucentTB/TranslucentTB/releases"
         target: "_blank" # optional html a tag target attribute
 
       - name: "WindowPet"
