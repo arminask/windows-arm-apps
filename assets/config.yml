@@ -2088,7 +2088,7 @@ services:
 
       - name: "Stockfish"
         logo: "assets/tools/stockfish.png"
-        subtitle: "unofficial builds / promiment chess engine"
+        subtitle: "unofficial builds / prominent chess engine"
         url: "https://github.com/ArminiusTux/WinARM64-binaries/releases/tag/Stockfish"
         target: "_blank" # optional html a tag target attribute
 
