@@ -150,6 +150,11 @@ services:
         url: "https://www.foobar2000.org/download"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "PlanetMusicPlayer"
+        logo: "assets/tools/planetmusicplayer.png"
+        url: "https://github.com/Pigeon-Ming/CorePlanetMusicPlayer/releases"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "HEVC Video Extensions"
         logo: "assets/tools/HEVC.png"
         url: "https://apps.microsoft.com/detail/9NMZLZ57R3T7"
