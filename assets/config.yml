@@ -728,7 +728,13 @@ services:
         logo: "assets/tools/Explorer.png"
         url: "https://explorerplusplus.com/download"
         target: "_blank" # optional html a tag target attribute
-                
+                            
+      - name: "yazi"
+        logo: "assets/tools/yazi.png"
+        subtitle: "blazing fast terminal file manager"
+        url: "https://explorerplusplus.com/download"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "APK Installers"
         logo: "assets/tools/apkinstallers.png"
         subtitle: "Android™ App Installer for Windows 10/11"
