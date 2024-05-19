@@ -131,12 +131,6 @@ services:
         logo: "assets/tools/vlc.png"
         url: "https://artifacts.videolan.org/vlc/nightly-win64-arm-llvm/"
         target: "_blank" # optional html a tag target attribute
-        
-      - name: "foobar2000"
-        logo: "assets/tools/foobar2000.png"
-        tag: "ARM64EC"
-        url: "https://www.foobar2000.org/download"
-        target: "_blank" # optional html a tag target attribute
          
       - name: "mpv"
         logo: "assets/tools/mpv.png"
@@ -144,6 +138,18 @@ services:
         url: "https://github.com/minnyres/mpv-windows-arm64/releases"
         target: "_blank" # optional html a tag target attribute
          
+      - name: "Screenbox"
+        logo: "assets/tools/screenbox.png"
+        subtitle: "LibVLC-based media player for the Universal Windows Platform"
+        url: "https://apps.microsoft.com/detail/9ntsnmsvcb5l"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "foobar2000"
+        logo: "assets/tools/foobar2000.png"
+        tag: "ARM64EC"
+        url: "https://www.foobar2000.org/download"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "HEVC Video Extensions"
         logo: "assets/tools/HEVC.png"
         url: "https://apps.microsoft.com/detail/9NMZLZ57R3T7"
