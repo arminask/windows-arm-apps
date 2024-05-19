@@ -236,8 +236,14 @@ services:
 
       - name: "FFmpeg"
         logo: "assets/tools/FFmpeg.png"
-        subtitle: "unofficial builds"
+        subtitle: "unofficial builds by dvhh"
         url: "https://github.com/dvhh/ffmpeg-wos-arm64-build/releases"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "FFmpeg"
+        logo: "assets/tools/FFmpeg.png"
+        subtitle: "unofficial builds by System233"
+        url: "https://github.com/System233/ffmpeg-msvc-prebuilt/releases"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Handbrake"
