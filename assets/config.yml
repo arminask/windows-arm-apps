@@ -384,6 +384,11 @@ services:
         url: "https://apps.microsoft.com/store/detail/reddit/9NS3RBQ5HV5F"
         target: "_blank" # optional html a tag target attribute 
         
+      - name: "RingCentral"
+        logo: "assets/tools/ringcentral.png"
+        url: "https://support.ringcentral.com/download.html"
+        target: "_blank" # optional html a tag target attribute 
+            
       - name: "Social Page Manager"
         logo: "assets/tools/socialpagemanager.png"
         url: "https://apps.microsoft.com/store/detail/social-page-manager/9WZDNCRFJ9N7"
