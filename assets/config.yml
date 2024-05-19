@@ -42,7 +42,7 @@ message:
   style: "is-dark" # See https://bulma.io/documentation/components/message/#colors for styling options.
   title: "Note"
   icon: "fa fa-house"
-  content: "This website is a collection of native programs for Windows on ARM architecture. <br /> The list is not full, contribute on Github by adding more apps to the list. <br /> Run Windows natively on your ARM android device! <a href='https://github.com/edk2-porting/edk2-msm'>edk2-msm</a>"
+  content: "This website is a collection of native programs for Windows on ARM architecture. <br /> The list is not full, contribute on Github by adding more apps to the list."
 
 links:
   - name: "Home"
@@ -58,10 +58,9 @@ links:
     url: "https://github.com/arminask/windows-arm-apps"
     target: "_blank" # optional html a tag target attribute 
 
-  - name: "edk2-msm"
-    icon: "fab fa-github"
-    url: "https://github.com/edk2-porting/edk2-msm"
-    target: "_blank" # optional html a tag target attribute 
+  - name: "Resources"
+    icon: "fab fa-gears"
+    url: "#resources"
 
 # Services
 services:
