@@ -681,7 +681,7 @@ services:
       - name: "Nebo"
         logo: "assets/tools/Nebo.png"
         subtitle: "Create beautiful notes and professional documents by hand"
-        url: "https://apps.microsoft.com/detail/9nblggh4nlb0?hl=en-US&gl=US"
+        url: "https://apps.microsoft.com/detail/9nblggh4nlb0"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Obsidian"
@@ -694,7 +694,13 @@ services:
         logo: "assets/tools/notesnook.png" # App icon
         url: "https://notesnook.com/releases/windows/notesnook_win_arm64.exe" # URL to download the app
         target: "_blank"
-        
+
+      - name: "LiquidText" # App name
+        subtitle: "review, gather, and organize information across all your documents: th"
+        logo: "assets/tools/liquidtext.png" # App icon
+        url: "https://apps.microsoft.com/detail/9n9z9nsv47fl" # URL to download the app
+        target: "_blank"
+
   - name: "Tools"
     icon: "fa-solid fa-screwdriver-wrench"
     items:
