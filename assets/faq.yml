@@ -24,7 +24,7 @@ links:
     target: "_blank" # optional html a tag target attribute 
 
   - name: "Resources"
-    icon: "fab fa-gears"
+    icon: "fab fa-gear"
     url: "#resources"
 
 message:
