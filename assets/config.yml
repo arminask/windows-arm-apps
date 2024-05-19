@@ -848,6 +848,12 @@ services:
         url: "https://github.com/sigoden/window-switcher/releases" # URL to download the app
         target: "_blank"
 
+      - name: "Typora" # App name
+        logo: "assets/tools/typora.png" # App icon
+        subtitle: "minimal markdown editor and reader"
+        url: "https://typora.io/#download" # URL to download the app
+        target: "_blank"
+
   - name: "Network & Cloud Storage"
     icon: "fa-solid fa-network-wired"
     items:
