@@ -313,6 +313,12 @@ services:
         url: "https://www.xreveal.com/"
         target: "_blank" # optional html a tag target attribute        
 
+      - name: "go2rtc"
+        logo: "assets/tools/go2rtc.png"
+        subtitle: "camera streaming solution"
+        url: "https://github.com/AlexxIT/go2rtc/releases"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "OBS Studio"
         logo: "assets/tools/obs.png"
         subtitle: "Unofficial builds"
@@ -383,6 +389,11 @@ services:
         url: "https://apps.microsoft.com/store/detail/reddit/9NS3RBQ5HV5F"
         target: "_blank" # optional html a tag target attribute 
         
+      - name: "RingCentral"
+        logo: "assets/tools/ringcentral.png"
+        url: "https://support.ringcentral.com/download.html"
+        target: "_blank" # optional html a tag target attribute 
+            
       - name: "Social Page Manager"
         logo: "assets/tools/socialpagemanager.png"
         url: "https://apps.microsoft.com/store/detail/social-page-manager/9WZDNCRFJ9N7"
@@ -481,10 +492,37 @@ services:
         url: "https://apps.microsoft.com/detail/9p1rzl9z8454"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "Pointless"
+        logo: "assets/tools/pointless.png"
+        subtitle: "unofficial builds"
+        url: "https://github.com/ArminiusTux/WinARM64-binaries/releases/tag/Pointless"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "Final2x"
         logo: "assets/tools/Final2x.png"
         subtitle: "Image Super-Resolution"
         url: "https://github.com/Tohrusky/Final2x/releases"
+        target: "_blank" # optional html a tag target attribute
+
+  - name: "3D Modeling & CAD"
+    icon: "fa-solid fa-cube"
+    items:
+      - name: "Blender"
+        logo: "assets/tools/blender.png"
+        subtitle: "experimental builds"
+        tag: "OpenGL 4.3 driver required"        
+        url: "https://builder.blender.org/download/experimental/"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Shapr3D"
+        logo: "assets/tools/shapr3d.png"
+        url: "https://apps.microsoft.com/detail/9n4k9qfv4xfc"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "KiCad"
+        logo: "assets/tools/kicad.png"
+        subtitle: "PCB designer"        
+        url: "https://www.kicad.org/download/windows/#mirrors-arm64"
         target: "_blank" # optional html a tag target attribute
 
   - name: "Compression"
@@ -989,6 +1027,12 @@ services:
         tag: "ARM32"
         subtitle: "unofficial builds"
         url: "https://github.com/minnyres/amule-win32/releases"
+        target: "_blank" # optional html a tag target attribute
+                                         
+      - name: "Flying Carpet"
+        logo: "assets/tools/flyingcarpet.png"
+        subtitle: "unofficial builds"
+        url: "https://github.com/ArminiusTux/WinARM64-binaries/releases/tag/FlyingCarpet"
         target: "_blank" # optional html a tag target attribute
                                   
       - name: "curl"
@@ -1641,6 +1685,12 @@ services:
         logo: "assets/tools/StartAllBack.png"
         url: "https://www.startisback.com/#download-tab"
         target: "_blank" # optional html a tag target attribute
+
+      - name: "WindowPet"
+        logo: "assets/tools/windowpet.png"
+        subtitle: "unofficial builds"
+        url: "https://github.com/ArminiusTux/WinARM64-binaries/releases/tag/WindowPet"
+        target: "_blank" # optional html a tag target attribute
         
       - name: "Files"
         logo: "assets/tools/files.png"
@@ -1815,7 +1865,14 @@ services:
         tag: "original game data needed"
         url: "https://github.com/mijk84/win-arm64-binaries/releases/tag/sdlpop"
         target: "_blank" # optional html a tag target attribute
-               
+
+      - name: "Ambermoon.net"
+        logo: "assets/tools/ambermoon.png"
+        subtitle: "Ambermoon 1993 port"
+        tag: "original game data needed & provided"
+        url: "https://github.com/ArminiusTux/WinARM64-binaries/releases/tag/Ambermoon"
+        target: "_blank" # optional html a tag target attribute
+                
       - name: "Chocolate Doom"
         logo: "assets/tools/chocolatedoom.png"
         subtitle: "Doom, Heretic, Hexen & Strife ports"
@@ -2040,6 +2097,18 @@ services:
         url: "https://www.microsoft.com/store/productId/9WZDNCRFHWD2/"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "Stockfish"
+        logo: "assets/tools/stockfish.png"
+        subtitle: "unofficial builds / prominent chess engine"
+        url: "https://github.com/ArminiusTux/WinARM64-binaries/releases/tag/Stockfish"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "En Croissant"
+        logo: "assets/tools/encroissant.png"
+        subtitle: "unofficial builds / chess toolkit & engine GUI"
+        url: "https://github.com/ArminiusTux/WinARM64-binaries/releases/tag/Stockfish"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "Ink Ball"
         logo: "assets/tools/inkball.png"
         url: "https://www.microsoft.com/store/productId/9NBK1BJ87MCF/"
@@ -2067,6 +2136,13 @@ services:
         logo: "assets/tools/warzone2100.png"
         tag: "full game"       
         url: "https://github.com/Warzone2100/warzone2100/releases"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Widelands"
+        logo: "assets/tools/widelands.png"
+        subtitle: "Settlers II 1996 remake"        
+        tag: "full game"       
+        url: "https://github.com/ArminiusTux/WinARM64-binaries/releases/tag/Widelands"
         target: "_blank" # optional html a tag target attribute
 
       - name: "World of Warcraft"
