@@ -321,7 +321,7 @@ services:
 
       - name: "OBS Studio"
         logo: "assets/tools/obs.png"
-        subtitle: "Unofficial builds"
+        subtitle: "unofficial builds"
         url: "https://github.com/tommyvct/obs-studio/releases"
         target: "_blank" # optional html a tag target attribute
 
@@ -763,6 +763,7 @@ services:
 
       - name: "Sysinternals Suite"
         logo: "assets/tools/sysinternals.png"
+        subtitle: "includes tools like Autoruns, ZoomIt, and Process Explorer."
         url: "https://www.sysinternals.com/downloads"
         target: "_blank" # optional html a tag target attribute
 
@@ -779,6 +780,7 @@ services:
     
       - name: "EnergyStar X"
         logo: "assets/tools/energystarx.png"
+        subtitle: "improve battery life by throttle background applications"
         url: "https://apps.microsoft.com/detail/9NF7JTB3B17P"
         target: "_blank" # optional html a tag target attribute
 
