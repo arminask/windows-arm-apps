@@ -541,6 +541,7 @@ services:
         
       - name: "CapCut"
         logo: "assets/tools/capcut.png"
+        subtitle: "linear video editor"
         url: "https://apps.microsoft.com/detail/xp9kn75rrb9nhs?hl=en-us&gl=FI"
         target: "ARM64EC" # optional html a tag target attribute
 
