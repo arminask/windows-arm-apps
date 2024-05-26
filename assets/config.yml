@@ -422,7 +422,7 @@ services:
         url: "https://github.com/Icalingua-plus-plus/Icalingua-plus-plus/releases"
         target: "_blank" # optional html a tag target attribute 
 
-  - name: "Picture Editing & Drawing"
+  - name: "Photo/Video Editing & Design Tools"
     icon: "fa-solid fa-paintbrush"
     items:
       - name: "GIMP"
@@ -538,10 +538,7 @@ services:
         subtitle: "page layout & design"
         url: "https://affinity.serif.com/en-us/publisher/"
         target: "_blank" # optional html a tag target attribute
-
-  - name: "Video Editing"
-    icon: "fa-solid fa-video"
-    items:
+        
       - name: "CapCut"
         logo: "assets/tools/capcut.png"
         url: "https://apps.microsoft.com/detail/xp9kn75rrb9nhs?hl=en-us&gl=FI"
