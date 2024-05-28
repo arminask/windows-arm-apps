@@ -1763,11 +1763,6 @@ services:
         url: "https://github.com/tnodir/fort/releases"
         target: "_blank" # optional html a tag target attribute
 
-      - name: "BeyondTrust"
-        logo: "assets/tools/beyondtrust.png"
-        url: "https://www.beyondtrust.com/"
-        target: "_blank" # optional html a tag target attribute
-
       - name: "Cisco Endpoint Protection"
         logo: "assets/tools/ciscoendpoint.png"
         url: "https://www.cisco.com/site/us/en/products/security/endpoint-security/secure-endpoint/index.html"
