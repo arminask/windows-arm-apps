@@ -991,6 +991,11 @@ services:
         url: "https://www.ivanti.com/company/history/mobileiron"
         target: "_blank"
 
+      - name: "Docker Desktop"
+        logo: "assets/tools/docker.png"
+        url: "https://www.docker.com/blog/announcing-docker-desktop-support-for-windows-on-arm/"
+        target: "_blank"
+
   - name: "Network & Cloud Storage"
     icon: "fa-solid fa-network-wired"
     items:
