@@ -1570,6 +1570,12 @@ services:
         subtitle: "GitHub’s official command line tool"
         url: "https://github.com/cli/cli/releases"
         target: "_blank" # optional html a tag target attribute
+
+      - name: "Microsoft Dev Home (Preview)"
+        logo: "assets/tools/devhome.png"
+        subtitle: "Dev Home is a new experience from Microsoft aiming to give developers more power on Windows."
+        url: "https://github.com/microsoft/devhome"
+        target: "_blank" # optional html a tag target attribute
            
   - name: "Emulation & Virtualization"
     icon: "fa-solid fa-microchip"
@@ -1819,9 +1825,15 @@ services:
         target: "_blank" # optional html a tag target attribute
 
       - name: "zScaler"
-        logo: "assets/tools/xscaler.png"
+        logo: "assets/tools/zscaler.png"
         subtitle: "Cybersecurity protection suite."
         url: "https://www.zscaler.com/"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Microsoft Family Safety"
+        logo: "assets/tools/familysafety.png"
+        subtitle: "Create a safe and healthy environment for your family with digital content filtering and screen time limits."
+        url: "https://www.microsoft.com/en-us/microsoft-365/family-safety"
         target: "_blank" # optional html a tag target attribute
 
   - name: "Theme & Styles"
