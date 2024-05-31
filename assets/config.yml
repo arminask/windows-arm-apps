@@ -342,6 +342,11 @@ services:
         url: "https://github.com/tommyvct/obs-studio/releases"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "djay Pro"
+        logo: "assets/tools/djaypro.png"
+        url: "https://www.algoriddim.com/djay-pro-windows"
+        target: "_blank" # optional html a tag target attribute
+
   - name: "Social"
     icon: "fa-solid fa-message"
     items:
@@ -420,7 +425,17 @@ services:
         logo: "assets/tools/Icalingua-plus-plus.png"
         subtitle: "Unofficial client for QQ based on Electron"
         url: "https://github.com/Icalingua-plus-plus/Icalingua-plus-plus/releases"
-        target: "_blank" # optional html a tag target attribute 
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Cisco Webex"
+        logo: "assets/tools/webex.png"
+        url: "https://www.webex.com/downloads.html"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Whatsapp (Beta)"
+        logo: "assets/tools/whatsapp.png"
+        url: "https://apps.microsoft.com/detail/9nbdxk71nk08"
+        target: "_blank" # optional html a tag target attribute
 
   - name: "Photo/Video Editing & Drawing Tools"
     icon: "fa-solid fa-paintbrush"
@@ -543,7 +558,12 @@ services:
         logo: "assets/tools/capcut.png"
         subtitle: "linear video editor"
         url: "https://apps.microsoft.com/detail/xp9kn75rrb9nhs?hl=en-us&gl=FI"
-        target: "ARM64EC" # optional html a tag target attribute
+        target: "ARM64EC" # optional html a tag target attribute'
+
+      - name: "Davinci Resolve"
+        logo: "assets/tools/davinci.png"
+        url: "https://www.blackmagicdesign.com/products/davinciresolve"
+        target: "_blank" # optional html a tag target attribute'
 
   - name: "Design"
     icon: "fa-solid fa-cube"
@@ -947,6 +967,35 @@ services:
         url: "https://github.com/sigoden/window-switcher/releases" # URL to download the app
         target: "_blank"
 
+      - name: "BeyondTrust Remote Support"
+        logo: "assets/tools/beyondtrustremote.png"
+        subtitle: "Enterprise remote support from anywhere."
+        url: "https://www.beyondtrust.com/products/remote-support"
+        target: "_blank"
+
+      - name: "Teamviewer"
+        logo: "assets/tools/teamviewer.png"
+        subtitle: "Remote support and desktop tools."
+        url: "https://www.teamviewer.com/"
+        target: "_blank"
+
+      - name: "Configuration Manager"
+        logo: "assets/tools/configmanager.png"
+        subtitle: "Enterprise system management."
+        url: "https://learn.microsoft.com/en-us/mem/configmgr/core/understand/introduction"
+        target: "_blank"
+
+      - name: "Ivanti MobileIron"
+        logo: "assets/tools/mobileiron.png"
+        subtitle: "Enterprise device management."
+        url: "https://www.ivanti.com/company/history/mobileiron"
+        target: "_blank"
+
+      - name: "Docker Desktop"
+        logo: "assets/tools/docker.png"
+        url: "https://www.docker.com/blog/announcing-docker-desktop-support-for-windows-on-arm/"
+        target: "_blank"
+
   - name: "Network & Cloud Storage"
     icon: "fa-solid fa-network-wired"
     items:
@@ -1207,7 +1256,26 @@ services:
         logo: "assets/tools/GlobalProtect.png"
         subtitle: "Enterprise VPN"
         url: "https://docs.paloaltonetworks.com/globalprotect/5-1/globalprotect-app-user-guide/globalprotect-app-for-windows/download-and-install-the-globalprotect-app-for-windows"
-        target: "_blank" # optional html a tag target attribute    
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Checkpoint VPN"
+        logo: "assets/tools/checkpointvpn.png"
+        subtitle: "Provide users with secure, seamless remote access to corporate networks and resources when traveling or working remotely."
+        url: "https://www.checkpoint.com/quantum/remote-access-vpn/"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Cisco Anyconnect VPN"
+        logo: "assets/tools/ciscoanyconnect.png"
+        subtitle: "AnyConnect simplifies secure endpoint access and provides the security necessary to help keep your organisation safe and protected."
+        url: "https://www.cisco.com/c/en_uk/products/security/anyconnect-secure-mobility-client/index.html"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Ivanti Pulse Secure"
+        logo: "assets/tools/pulsesecure.png"
+        subtitle: "Secure Access solutions that enterprises rely on to help make their workforce more productive."
+        url: "https://www.ivanti.com/company/history/pulse-secure"
+        target: "_blank" # optional html a tag target attribute
+
 
   - name: "Coding"
     icon: "fa-solid fa-code"
@@ -1604,6 +1672,11 @@ services:
         subtitle: "A virtual Apple Macintosh with System 8"
         url: "https://github.com/felixrieseberg/macintosh.js/releases/tag/v1.1.0"
         target: "_blank" # optional html a tag target attribute
+
+      - name: "VMWare Horizon"
+        logo: "assets/tools/vmwarehorizon.png"
+        url: "https://myhorizon.vmware.com/"
+        target: "_blank" # optional html a tag target attribute
         
   - name: "Benchmarking & Diagnostics"
     icon: "fa-solid fa-stopwatch"
@@ -1698,6 +1771,51 @@ services:
       - name: "Fort Firewall"
         logo: "assets/tools/fortfirewall.png"
         url: "https://github.com/tnodir/fort/releases"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Cisco Endpoint Protection"
+        logo: "assets/tools/ciscoendpoint.png"
+        url: "https://www.cisco.com/site/us/en/products/security/endpoint-security/secure-endpoint/index.html"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Microsoft Defender"
+        logo: "assets/tools/defender.png"
+        url: "https://www.microsoft.com/en-us/security/business/microsoft-defender"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "RSA NetWitness"
+        logo: "assets/tools/rsanetwitness.png"
+        url: "https://www.netwitness.com/"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "SentinelOne"
+        logo: "assets/tools/sentinelone.png"
+        subtitle: "Protect your organization from any threat with the worlds most advanced AI-powered cybersecurity platform."
+        url: "https://www.sentinelone.com/"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Sophos Intercept X"
+        logo: "assets/tools/sophosintercept.png"
+        subtitle: "Endpoint protection for enterprise."
+        url: "https://www.sophos.com/en-us/products/endpoint-antivirus"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "TrendMicro"
+        logo: "assets/tools/trendmicro.png"
+        subtitle: "Antivirus solutions."
+        url: "https://www.trendmicro.com/"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "VMWare Carbon Black"
+        logo: "assets/tools/vmwarecarbonblack.png"
+        subtitle: "Enterprise endpoint protection client."
+        url: "https://www.vmware.com/products/whats-new/carbon-black.html"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "zScaler"
+        logo: "assets/tools/xscaler.png"
+        subtitle: "Cybersecurity protection suite."
+        url: "https://www.zscaler.com/"
         target: "_blank" # optional html a tag target attribute
 
   - name: "Theme & Styles"
