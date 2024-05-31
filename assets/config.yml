@@ -565,6 +565,12 @@ services:
         url: "https://www.blackmagicdesign.com/products/davinciresolve"
         target: "_blank" # optional html a tag target attribute'
 
+      - name: "Microsoft Clipchamp"
+        logo: "assets/tools/Microsoft Clipchamp.png"
+        subtitle: "Video editor"
+        url: "https://apps.microsoft.com/detail/9p1j8s7ccwwt?hl=en-gb&gl=CN"
+        target: "_blank" # optional html a tag target attribute
+
   - name: "Design"
     icon: "fa-solid fa-cube"
     items:
