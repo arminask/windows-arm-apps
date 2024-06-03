@@ -436,6 +436,11 @@ services:
         logo: "assets/tools/whatsapp.png"
         url: "https://apps.microsoft.com/detail/9nbdxk71nk08"
         target: "_blank" # optional html a tag target attribute
+        
+      - name: "QQ(NT)"
+        logo: "assets/tools/QQ(NT).png"
+        url: "https://dldir1.qq.com/qqfile/qq/QQNT/8e2f44d8/QQ9.9.11.24402_arm64.exe"
+        target: "_blank" # optional html a tag target attribute
 
   - name: "Photo/Video Editing & Drawing Tools"
     icon: "fa-solid fa-paintbrush"
