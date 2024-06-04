@@ -1007,6 +1007,12 @@ services:
         url: "https://www.docker.com/blog/announcing-docker-desktop-support-for-windows-on-arm/"
         target: "_blank"
 
+      - name: "Rich Box"
+        logo: "assets/tools/Richbox.png"
+        subtitle: "The collection of the toolkits."
+        url: "https://apps.microsoft.com/detail/9N5TQ90W2GBD"
+        target: "_blank"
+
   - name: "Network & Cloud Storage"
     icon: "fa-solid fa-network-wired"
     items:
