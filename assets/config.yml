@@ -436,6 +436,17 @@ services:
         logo: "assets/tools/whatsapp.png"
         url: "https://apps.microsoft.com/detail/9nbdxk71nk08"
         target: "_blank" # optional html a tag target attribute
+    
+      - name: "QQ(NT)"
+        logo: "assets/tools/QQ(NT).png"
+        url: "https://dldir1.qq.com/qqfile/qq/QQNT/8e2f44d8/QQ9.9.11.24402_arm64.exe"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "ArmCord"
+        logo: "assets/tools/Armcord.png"
+        subtitle: "Third-Party Discord"
+        url: "https://github.com/ArmCord/ArmCord/releases"
+        target: "_blank" # optional html a tag target attribute
 
   - name: "Photo/Video Editing & Drawing Tools"
     icon: "fa-solid fa-paintbrush"
@@ -762,6 +773,12 @@ services:
         url: "https://apps.microsoft.com/detail/9n9z9nsv47fl" # URL to download the app
         target: "_blank"
 
+      - name: "Reader Assistant"
+        logo: "assets/tools/ReaderAssistant.png"
+        tag: "Purchases"
+        url: "https://apps.microsoft.com/detail/9PFZCKRHW0BC"
+        target: "_blank" # optional html a tag target attribute
+
   - name: "Tools"
     icon: "fa-solid fa-screwdriver-wrench"
     items:
@@ -1000,6 +1017,12 @@ services:
       - name: "Docker Desktop"
         logo: "assets/tools/docker.png"
         url: "https://www.docker.com/blog/announcing-docker-desktop-support-for-windows-on-arm/"
+        target: "_blank"
+
+      - name: "Rich Box"
+        logo: "assets/tools/Richbox.png"
+        subtitle: "The collection of the toolkits."
+        url: "https://apps.microsoft.com/detail/9N5TQ90W2GBD"
         target: "_blank"
 
   - name: "Network & Cloud Storage"
@@ -1958,6 +1981,11 @@ services:
         url: "https://apps.microsoft.com/detail/9PFD136M8457"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "SkylineWeather"
+        logo: "assets/tools/SkylineWeather.png"
+        url: "https://apps.microsoft.com/detail/9N33PK9646X9"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "Stellarium"
         logo: "assets/tools/stellarium.png"
         subtitle: "A free open source planetarium for your computer"
@@ -2255,7 +2283,7 @@ services:
 
       - name: "Minecraft"
         logo: "assets/tools/Minecraft.png"
-        tag: "Purchases"
+        tag: "Purchases,ARM32"
         subtitle: "Bedrock"
         url: "https://apps.microsoft.com/detail/9NBLGGH2JHXJ"
         target: "_blank" # optional html a tag target attribute
