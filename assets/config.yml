@@ -442,6 +442,12 @@ services:
         url: "https://dldir1.qq.com/qqfile/qq/QQNT/8e2f44d8/QQ9.9.11.24402_arm64.exe"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "ArmCord"
+        logo: "assets/tools/Armcord.png"
+        subtitle: "Third-Party Discord"
+        url: "https://github.com/ArmCord/ArmCord/releases"
+        target: "_blank" # optional html a tag target attribute
+
   - name: "Photo/Video Editing & Drawing Tools"
     icon: "fa-solid fa-paintbrush"
     items:
