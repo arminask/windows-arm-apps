@@ -1958,6 +1958,11 @@ services:
         url: "https://apps.microsoft.com/detail/9PFD136M8457"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "SkylineWeather"
+        logo: "assets/tools/SkylineWeather.png"
+        url: "https://apps.microsoft.com/detail/9N33PK9646X9"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "Stellarium"
         logo: "assets/tools/stellarium.png"
         subtitle: "A free open source planetarium for your computer"
