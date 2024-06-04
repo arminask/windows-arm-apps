@@ -2265,7 +2265,7 @@ services:
 
       - name: "Minecraft"
         logo: "assets/tools/Minecraft.png"
-        tag: "Purchases"
+        tag: "Purchases,ARM32"
         subtitle: "Bedrock"
         url: "https://apps.microsoft.com/detail/9NBLGGH2JHXJ"
         target: "_blank" # optional html a tag target attribute
