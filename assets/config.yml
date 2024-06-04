@@ -767,12 +767,6 @@ services:
         url: "https://apps.microsoft.com/detail/9n9z9nsv47fl" # URL to download the app
         target: "_blank"
 
-      - name: "Typora"
-        logo: "assets/tools/Typora.png"
-        tag: "Purchases"
-        url: "https://typora.io/#download"
-        target: "_blank" # optional html a tag target attribute 
-
   - name: "Tools"
     icon: "fa-solid fa-screwdriver-wrench"
     items:
