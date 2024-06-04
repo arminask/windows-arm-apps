@@ -767,6 +767,12 @@ services:
         url: "https://apps.microsoft.com/detail/9n9z9nsv47fl" # URL to download the app
         target: "_blank"
 
+      - name: "Reader Assistant"
+        logo: "assets/tools/ReaderAssistant.png"
+        tag: "Purchases"
+        url: "https://apps.microsoft.com/detail/9PFZCKRHW0BC"
+        target: "_blank" # optional html a tag target attribute
+
   - name: "Tools"
     icon: "fa-solid fa-screwdriver-wrench"
     items:
