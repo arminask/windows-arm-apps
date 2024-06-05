@@ -609,6 +609,11 @@ services:
         url: "https://www.kicad.org/download/windows/#mirrors-arm64"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "Microsoft 3D Builder"
+        logo: "assets/tools/3dbuilder.png"   
+        url: "https://apps.microsoft.com/detail/9wzdncrfj3t6"
+        target: "_blank" # optional html a tag target attribute
+
   - name: "Compression"
     icon: "fa-solid fa-file-zipper"
     items:
@@ -777,6 +782,12 @@ services:
         logo: "assets/tools/ReaderAssistant.png"
         tag: "Purchases"
         url: "https://apps.microsoft.com/detail/9PFZCKRHW0BC"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Microsoft Whiteboard"
+        logo: "assets/tools/mswhiteboard.png"
+        tag: "Purchases"
+        url: "https://apps.microsoft.com/detail/9mspc6mp8fm4"
         target: "_blank" # optional html a tag target attribute
 
   - name: "Tools"
@@ -1910,6 +1921,11 @@ services:
       - name: "Files"
         logo: "assets/tools/files.png"
         url: "https://files.community/download"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Dynamic Theme"
+        logo: "assets/tools/dynamictheme.png"
+        url: "https://apps.microsoft.com/detail/9nblggh1zbkw"
         target: "_blank" # optional html a tag target attribute
 
   - name: "Other"
