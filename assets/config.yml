@@ -698,7 +698,7 @@ services:
       - name: "QZ Tray"
         logo: "assets/tools/qztray.png"
         tag: "Java"
-        url: "https://qz.io/download/"
+        url: "https://qz.io/download/?arch=aarch64#"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Microsoft 365 (Office)"
