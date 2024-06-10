@@ -2418,7 +2418,12 @@ services:
         subtitle: "official builds"
         url: "https://github.com/Matthies/RubiChess/releases"
         target: "_blank" # optional html a tag target attribute
-        
+
+      - name: "Caissa"
+        logo: "assets/tools/caissa.png"
+        url: "https://github.com/ArminiusTux/WinARM64-binaries/releases/tag/ChessEngines"
+        target: "_blank" # optional html a tag target attribute
+
   - name: "Artificial Intelligence"
     icon: "fa-solid fa-brain"
     items:
