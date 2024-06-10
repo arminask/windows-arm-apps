@@ -2398,7 +2398,7 @@ services:
         url: "https://worldofwarcraft.blizzard.com/"
         target: "_blank" # optional html a tag target attribute
 
-  - name: "Chess / Шахматы / शतरंज / 國際象棋 / チェス"
+  - name: "Chess / شطرنج"
     icon: "fa-solid fa-chess-knight"
     items:
       - name: "Stockfish"
@@ -2412,7 +2412,13 @@ services:
         subtitle: "chess toolkit & engine GUI"
         url: "https://github.com/ArminiusTux/WinARM64-binaries/releases/tag/Stockfish"
         target: "_blank" # optional html a tag target attribute
-    
+
+      - name: "RubiChess"
+        logo: "assets/tools/rubichess.png"
+        subtitle: "official builds"
+        url: "https://github.com/Matthies/RubiChess/releases"
+        target: "_blank" # optional html a tag target attribute
+        
   - name: "Artificial Intelligence"
     icon: "fa-solid fa-brain"
     items:
