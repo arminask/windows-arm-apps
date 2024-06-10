@@ -132,6 +132,12 @@ services:
         url: "https://artifacts.videolan.org/vlc/nightly-win64-arm-llvm/"
         target: "_blank" # optional html a tag target attribute
          
+      - name: "SMPlayer"
+        logo: "assets/tools/smplayer.png"
+        subtitle: "unofficial builds / enable HW decoding"
+        url: "https://github.com/minnyres/smplayer-windows-arm64/releases"
+        target: "_blank" # optional html a tag target attribute
+               
       - name: "mpv"
         logo: "assets/tools/mpv.png"
         subtitle: "unofficial builds / use 'mpv.exe --hwdec'"
