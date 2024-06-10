@@ -448,6 +448,12 @@ services:
         url: "https://github.com/ArmCord/ArmCord/releases"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "Slack"
+        logo: "assets/tools/slack.png"
+        subtitle: "With the Slack app, your team is never more than a click away."
+        url: "https://slack.com/downloads/windows"
+        target: "_blank" # optional html a tag target attribute
+
   - name: "Photo/Video Editing & Drawing Tools"
     icon: "fa-solid fa-paintbrush"
     items:
@@ -786,7 +792,6 @@ services:
 
       - name: "Microsoft Whiteboard"
         logo: "assets/tools/mswhiteboard.png"
-        tag: "Purchases"
         url: "https://apps.microsoft.com/detail/9mspc6mp8fm4"
         target: "_blank" # optional html a tag target attribute
 
