@@ -2357,18 +2357,6 @@ services:
         url: "https://www.microsoft.com/store/productId/9WZDNCRFHWD2/"
         target: "_blank" # optional html a tag target attribute
 
-      - name: "Stockfish"
-        logo: "assets/tools/stockfish.png"
-        subtitle: "unofficial builds / prominent chess engine"
-        url: "https://github.com/ArminiusTux/WinARM64-binaries/releases/tag/Stockfish"
-        target: "_blank" # optional html a tag target attribute
-
-      - name: "En Croissant"
-        logo: "assets/tools/encroissant.png"
-        subtitle: "unofficial builds / chess toolkit & engine GUI"
-        url: "https://github.com/ArminiusTux/WinARM64-binaries/releases/tag/Stockfish"
-        target: "_blank" # optional html a tag target attribute
-
       - name: "Ink Ball"
         logo: "assets/tools/inkball.png"
         url: "https://www.microsoft.com/store/productId/9NBK1BJ87MCF/"
@@ -2410,6 +2398,21 @@ services:
         url: "https://worldofwarcraft.blizzard.com/"
         target: "_blank" # optional html a tag target attribute
 
+  - name: "Chess / Шахматы / शतरंज / 國際象棋 / チェス"
+    icon: "fa-solid fa-chess-knight"
+    items:
+      - name: "Stockfish"
+        logo: "assets/tools/stockfish.png"
+        subtitle: "prominent chess engine"
+        url: "https://github.com/ArminiusTux/WinARM64-binaries/releases/tag/Stockfish"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "En Croissant"
+        logo: "assets/tools/encroissant.png"
+        subtitle: "chess toolkit & engine GUI"
+        url: "https://github.com/ArminiusTux/WinARM64-binaries/releases/tag/Stockfish"
+        target: "_blank" # optional html a tag target attribute
+    
   - name: "Artificial Intelligence"
     icon: "fa-solid fa-brain"
     items:
