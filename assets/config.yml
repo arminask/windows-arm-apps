@@ -1080,6 +1080,12 @@ services:
         url: "https://github.com/klzgrad/naiveproxy/releases"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "Privoxy"
+        logo: "assets/tools/privoxy.png"
+        subtitle: "unofficial builds"
+        url: "https://github.com/minnyres/privoxy-windows-arm64/releases"
+        target: "_blank" # optional html a tag target attribute
+  
       - name: "AdGuardHome"
         logo: "assets/tools/AdGuardHome.png"
         url: "https://github.com/AdguardTeam/AdGuardHome/releases"
