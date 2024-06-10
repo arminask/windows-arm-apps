@@ -1747,7 +1747,13 @@ services:
         logo: "assets/tools/gfxbench.png"
         url: "https://gfxbench.com/windows-arm-download"
         target: "_blank" # optional html a tag target attribute   
-        
+       
+      - name: "3DMark"
+        logo: "assets/tools/3dmark.png"
+        subtitle: "only Night Raid, Wild Life & Steel Nomad"
+        url: "https://benchmarks.ul.com/3dmark/download"
+        target: "_blank" # optional html a tag target attribute
+            
       - name: "PassMark PerformanceTest"
         logo: "assets/tools/performancetest.png"
         url: "https://www.passmark.com/products/performancetest/download.php"
