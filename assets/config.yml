@@ -439,7 +439,7 @@ services:
     
       - name: "QQ(NT)"
         logo: "assets/tools/QQ(NT).png"
-        url: "https://dldir1.qq.com/qqfile/qq/QQNT/8e2f44d8/QQ9.9.11.24402_arm64.exe"
+        url: "https://im.qq.com/pcqq/index.shtml"
         target: "_blank" # optional html a tag target attribute
 
       - name: "ArmCord"
