@@ -467,6 +467,11 @@ services:
         url: "https://github.com/paintdotnet/release/releases/latest"
         target: "_blank" # optional html a tag target attribute
         
+      - name: "BandiView"
+        logo: "assets/tools/bandiview.png"
+        url: "https://www.bandisoft.com/bandiview/"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "ImageGlass"
         logo: "assets/tools/imageglass.png"
         url: "https://github.com/d2phap/ImageGlass/releases"
