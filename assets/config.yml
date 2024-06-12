@@ -790,6 +790,12 @@ services:
         url: "https://apps.microsoft.com/detail/9mspc6mp8fm4"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "Zotero"
+        logo: "assets/tools/zotero.png"
+        tag: "Purchases"
+        url: "https://www.zotero.org/support/beta_builds"
+        target: "_blank" # optional html a tag target attribute
+
   - name: "Tools"
     icon: "fa-solid fa-screwdriver-wrench"
     items:
