@@ -848,6 +848,12 @@ services:
         url: "https://explorerplusplus.com/download"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "Shell"
+        logo: "assets/tools/Shell.png"
+        subtitle: "Powerful context menu manager for Windows File Explorer"
+        url: "https://nilesoft.org/download"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "APK Installers"
         logo: "assets/tools/apkinstallers.png"
         subtitle: "Android™ App Installer for Windows 10/11"
