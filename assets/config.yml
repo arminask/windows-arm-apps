@@ -1283,6 +1283,12 @@ services:
         url: "https://pkgs.tailscale.com/stable/#windows"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "frp"
+        logo: "assets/tools/clionly.png"
+        subtitle: "a fast reverse proxy"
+        url: "https://github.com/fatedier/frp/releases"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "Syncthing"
         logo: "assets/tools/Syncthing.png"
         url: "https://github.com/syncthing/syncthing/releases"
