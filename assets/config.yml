@@ -1238,6 +1238,11 @@ services:
         url: "https://github.com/2dust/v2rayN/releases"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "sing-box"
+        logo: "assets/tools/singbox.png"
+        url: "https://github.com/SagerNet/sing-box/releases"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "Zen"
         logo: "assets/tools/zen.png"
         subtitle: "ad-blocker and privacy guard"
