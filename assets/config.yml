@@ -1223,6 +1223,11 @@ services:
         url: "https://github.com/clash-verge-rev/clash-verge-rev/releases"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "GUI for Clash"
+        logo: "assets/tools/guiforclash.png"
+        url: "https://github.com/GUI-for-Cores/GUI.for.Clash/releases"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "Clash for Windows"
         logo: "assets/tools/Clash.png"
         url: "https://github.com/cfwtf/clash_for_windows/releases/tag/0.20.39"
