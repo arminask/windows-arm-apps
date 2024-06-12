@@ -239,6 +239,12 @@ services:
         url: "https://github.com/listen1/listen1_desktop/releases"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "Lyricify"
+        logo: "assets/tools/lyricify.png"
+        subtitle: "provide scroll lyrics"
+        url: "https://github.com/WXRIW/Lyricify-App"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "FFmpeg"
         logo: "assets/tools/FFmpeg.png"
         subtitle: "unofficial builds by dvhh"
