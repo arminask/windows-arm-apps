@@ -432,7 +432,12 @@ services:
         url: "https://www.webex.com/downloads.html"
         target: "_blank" # optional html a tag target attribute
 
-      - name: "Whatsapp (Beta)"
+      - name: "WhatsApp"
+        logo: "assets/tools/whatsapp.png"
+        url: "https://apps.microsoft.com/detail/9nksqgp7f2nh"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "WhatsApp (Beta)"
         logo: "assets/tools/whatsapp.png"
         url: "https://apps.microsoft.com/detail/9nbdxk71nk08"
         target: "_blank" # optional html a tag target attribute
