@@ -120,8 +120,7 @@ services:
 
       - name: "Opera"
         logo: "assets/tools/opera.png"
-        subtitle: "Developer builds"
-        url: "https://www.opera.com/browsers/opera/developer"
+        url: "https://www.opera.com/download"
         target: "_blank" # optional html a tag target attribute
 
   - name: "Media"
