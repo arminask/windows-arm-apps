@@ -1971,6 +1971,11 @@ services:
         logo: "assets/tools/dynamictheme.png"
         url: "https://apps.microsoft.com/detail/9nblggh1zbkw"
         target: "_blank" # optional html a tag target attribute
+        
+      - name: "Cairo"
+        logo: "assets/tools/cairo.png"
+        url: "https://github.com/cairoshell/cairoshell/releases"
+        target: "_blank" # optional html a tag target attribute
 
   - name: "Other"
     icon: "fa-solid fa-question"
