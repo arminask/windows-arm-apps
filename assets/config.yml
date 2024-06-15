@@ -863,7 +863,13 @@ services:
         logo: "assets/tools/rufus.png"
         url: "https://rufus.ie/"
         target: "_blank" # optional html a tag target attribute
-     
+
+      - name: "Zadig (libwdi)"
+        logo: "assets/tools/zadig.png"
+        subtitle: "create & autosign USB drivers"        
+        url: "https://github.com/pbatard/libwdi/releases"
+        target: "_blank" # optional html a tag target attribute
+        
       - name: "Ventoy"
         logo: "assets/tools/ventoy.png"
         url: "https://www.ventoy.net/en/download.html"
