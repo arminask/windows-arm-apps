@@ -110,7 +110,7 @@ services:
       - name: "Vivaldi"
         logo: "assets/tools/Vivaldi.png"
         subtitle: "Experimental builds"
-        url: "https://vivaldi.com/blog/desktop/memory-saver-and-compact-menus-vivaldi-browser-snapshot-3329-7/#win_arm64"
+        url: "https://vivaldi.com/?p=682929"
         target: "_blank" # optional html a tag target attribute
        
       - name: "Midori"
