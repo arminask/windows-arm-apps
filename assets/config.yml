@@ -1761,6 +1761,11 @@ services:
         url: "https://github.com/felixrieseberg/macintosh.js/releases/tag/v1.1.0"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "Parallels RAS client"
+        logo: "assets/tools/parallelsrasclient.png"
+        url: "https://www.parallels.com/products/ras/download/client/#ras-19-windows"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "VMWare Horizon"
         logo: "assets/tools/vmwarehorizon.png"
         url: "https://myhorizon.vmware.com/"
