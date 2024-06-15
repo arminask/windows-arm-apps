@@ -358,6 +358,12 @@ services:
         url: "https://www.algoriddim.com/djay-pro-windows"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "Shotcut"
+        logo: "assets/tools/shotcut.png"
+        subtitle: "unofficial builds"
+        url: "https://github.com/tordona/shotcut/releases"
+        target: "_blank" # optional html a tag target attribute
+
   - name: "Social"
     icon: "fa-solid fa-message"
     items:
