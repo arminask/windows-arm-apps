@@ -358,12 +358,6 @@ services:
         url: "https://www.algoriddim.com/djay-pro-windows"
         target: "_blank" # optional html a tag target attribute
 
-      - name: "Shotcut"
-        logo: "assets/tools/shotcut.png"
-        subtitle: "unofficial builds"
-        url: "https://github.com/tordona/shotcut/releases"
-        target: "_blank" # optional html a tag target attribute
-
   - name: "Social"
     icon: "fa-solid fa-message"
     items:
@@ -597,6 +591,12 @@ services:
         logo: "assets/tools/Microsoft Clipchamp.png"
         subtitle: "Video editor"
         url: "https://apps.microsoft.com/detail/9p1j8s7ccwwt?hl=en-gb&gl=CN"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Shotcut"
+        logo: "assets/tools/shotcut.png"
+        subtitle: "unofficial builds"
+        url: "https://github.com/tordona/shotcut/releases"
         target: "_blank" # optional html a tag target attribute
 
   - name: "Design"
