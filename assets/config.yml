@@ -256,6 +256,12 @@ services:
         url: "https://github.com/System233/ffmpeg-msvc-prebuilt/releases"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "FFmpeg"
+        logo: "assets/tools/FFmpeg.png"
+        subtitle: "unofficial builds by tordona"
+        url: "https://github.com/tordona/ffmpeg-win-arm64/releases"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "Handbrake"
         logo: "assets/tools/handbrake.png"
         subtitle: "an open-source video transcoder"
