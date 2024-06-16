@@ -110,7 +110,7 @@ services:
       - name: "Vivaldi"
         logo: "assets/tools/Vivaldi.png"
         subtitle: "Experimental builds"
-        url: "https://vivaldi.com/blog/desktop/memory-saver-and-compact-menus-vivaldi-browser-snapshot-3329-7/#win_arm64"
+        url: "https://vivaldi.com/?p=682929"
         target: "_blank" # optional html a tag target attribute
        
       - name: "Midori"
@@ -120,8 +120,7 @@ services:
 
       - name: "Opera"
         logo: "assets/tools/opera.png"
-        subtitle: "Developer builds"
-        url: "https://www.opera.com/browsers/opera/developer"
+        url: "https://www.opera.com/download"
         target: "_blank" # optional html a tag target attribute
 
   - name: "Media"
@@ -132,6 +131,12 @@ services:
         url: "https://artifacts.videolan.org/vlc/nightly-win64-arm-llvm/"
         target: "_blank" # optional html a tag target attribute
          
+      - name: "SMPlayer"
+        logo: "assets/tools/smplayer.png"
+        subtitle: "unofficial builds / enable HW decoding"
+        url: "https://github.com/minnyres/smplayer-windows-arm64/releases"
+        target: "_blank" # optional html a tag target attribute
+               
       - name: "mpv"
         logo: "assets/tools/mpv.png"
         subtitle: "unofficial builds / use 'mpv.exe --hwdec'"
@@ -249,6 +254,12 @@ services:
         logo: "assets/tools/FFmpeg.png"
         subtitle: "unofficial builds by System233"
         url: "https://github.com/System233/ffmpeg-msvc-prebuilt/releases"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "FFmpeg"
+        logo: "assets/tools/FFmpeg.png"
+        subtitle: "unofficial builds by tordona"
+        url: "https://github.com/tordona/ffmpeg-win-arm64/releases"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Handbrake"
@@ -582,6 +593,12 @@ services:
         url: "https://apps.microsoft.com/detail/9p1j8s7ccwwt?hl=en-gb&gl=CN"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "Shotcut"
+        logo: "assets/tools/shotcut.png"
+        subtitle: "unofficial builds"
+        url: "https://github.com/tordona/shotcut/releases"
+        target: "_blank" # optional html a tag target attribute
+
   - name: "Design"
     icon: "fa-solid fa-cube"
     items:
@@ -857,7 +874,20 @@ services:
         logo: "assets/tools/rufus.png"
         url: "https://rufus.ie/"
         target: "_blank" # optional html a tag target attribute
-     
+
+      - name: "Zadig (libwdi)"
+        logo: "assets/tools/zadig.png"
+        subtitle: "create & autosign USB drivers"        
+        url: "https://github.com/pbatard/libwdi/releases"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Ext4Fsd"
+        logo: "assets/tools/ext4fsd.png"
+        subtitle: "ext2/3/4 file system driver"
+        tag: "read from & write onto Linux partitions"        
+        url: "https://www.accum.se/~bosse/ext2fsd/0.71/signed/arm64/"
+        target: "_blank" # optional html a tag target attribute
+           
       - name: "Ventoy"
         logo: "assets/tools/ventoy.png"
         url: "https://www.ventoy.net/en/download.html"
@@ -1080,6 +1110,12 @@ services:
         url: "https://github.com/klzgrad/naiveproxy/releases"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "Privoxy"
+        logo: "assets/tools/privoxy.png"
+        subtitle: "unofficial builds"
+        url: "https://github.com/minnyres/privoxy-windows-arm64/releases"
+        target: "_blank" # optional html a tag target attribute
+  
       - name: "AdGuardHome"
         logo: "assets/tools/AdGuardHome.png"
         url: "https://github.com/AdguardTeam/AdGuardHome/releases"
@@ -1725,6 +1761,11 @@ services:
         url: "https://github.com/felixrieseberg/macintosh.js/releases/tag/v1.1.0"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "Parallels RAS client"
+        logo: "assets/tools/parallelsrasclient.png"
+        url: "https://www.parallels.com/products/ras/download/client/#ras-19-windows"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "VMWare Horizon"
         logo: "assets/tools/vmwarehorizon.png"
         url: "https://myhorizon.vmware.com/"
@@ -1747,7 +1788,13 @@ services:
         logo: "assets/tools/gfxbench.png"
         url: "https://gfxbench.com/windows-arm-download"
         target: "_blank" # optional html a tag target attribute   
-        
+       
+      - name: "3DMark"
+        logo: "assets/tools/3dmark.png"
+        subtitle: "only Night Raid, Wild Life & Steel Nomad"
+        url: "https://benchmarks.ul.com/3dmark/download"
+        target: "_blank" # optional html a tag target attribute
+            
       - name: "PassMark PerformanceTest"
         logo: "assets/tools/performancetest.png"
         url: "https://www.passmark.com/products/performancetest/download.php"
@@ -2339,18 +2386,6 @@ services:
         url: "https://www.microsoft.com/store/productId/9WZDNCRFHWD2/"
         target: "_blank" # optional html a tag target attribute
 
-      - name: "Stockfish"
-        logo: "assets/tools/stockfish.png"
-        subtitle: "unofficial builds / prominent chess engine"
-        url: "https://github.com/ArminiusTux/WinARM64-binaries/releases/tag/Stockfish"
-        target: "_blank" # optional html a tag target attribute
-
-      - name: "En Croissant"
-        logo: "assets/tools/encroissant.png"
-        subtitle: "unofficial builds / chess toolkit & engine GUI"
-        url: "https://github.com/ArminiusTux/WinARM64-binaries/releases/tag/Stockfish"
-        target: "_blank" # optional html a tag target attribute
-
       - name: "Ink Ball"
         logo: "assets/tools/inkball.png"
         url: "https://www.microsoft.com/store/productId/9NBK1BJ87MCF/"
@@ -2390,6 +2425,92 @@ services:
       - name: "World of Warcraft"
         logo: "assets/tools/worldofwarcraft.png"
         url: "https://worldofwarcraft.blizzard.com/"
+        target: "_blank" # optional html a tag target attribute
+
+  - name: "Chess / شطرنج"
+    icon: "fa-solid fa-chess-knight"
+    items:
+      - name: "Stockfish"
+        logo: "assets/tools/stockfish.png"
+        subtitle: "prominent chess engine"
+        url: "https://github.com/ArminiusTux/WinARM64-binaries/releases/tag/Stockfish"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "En Croissant"
+        logo: "assets/tools/encroissant.png"
+        subtitle: "chess toolkit & engine GUI"
+        url: "https://github.com/ArminiusTux/WinARM64-binaries/releases/tag/Stockfish"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "RubiChess"
+        logo: "assets/tools/rubichess.png"
+        subtitle: "official builds"
+        url: "https://github.com/Matthies/RubiChess/releases"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Caissa"
+        logo: "assets/tools/caissa.png"
+        url: "https://github.com/ArminiusTux/WinARM64-binaries/releases/tag/ChessEngines"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Koivisto"
+        logo: "assets/tools/koivisto.png"
+        url: "https://github.com/ArminiusTux/WinARM64-binaries/releases/tag/ChessEngines"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Velvet"
+        logo: "assets/tools/velvet.png"
+        url: "https://github.com/ArminiusTux/WinARM64-binaries/releases/tag/ChessEngines"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Black Marlin"
+        logo: "assets/tools/blackmarlin.png"
+        url: "https://github.com/ArminiusTux/WinARM64-binaries/releases/tag/ChessEngines"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "akimbo"
+        logo: "assets/tools/akimbo.png"
+        url: "https://github.com/ArminiusTux/WinARM64-binaries/releases/tag/ChessEngines"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Frozenight"
+        logo: "assets/tools/frozenight.png"
+        url: "https://github.com/ArminiusTux/WinARM64-binaries/releases/tag/ChessEngines"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Svart"
+        logo: "assets/tools/svart.png"
+        url: "https://github.com/ArminiusTux/WinARM64-binaries/releases/tag/ChessEngines"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Simbelmyne"
+        logo: "assets/tools/simbelmyne.png"
+        url: "https://github.com/ArminiusTux/WinARM64-binaries/releases/tag/ChessEngines"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "FabChess"
+        logo: "assets/tools/clionly.png"
+        url: "https://github.com/ArminiusTux/WinARM64-binaries/releases/tag/ChessEngines"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Odonata"
+        logo: "assets/tools/odonata.png"
+        url: "https://github.com/ArminiusTux/WinARM64-binaries/releases/tag/ChessEngines"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Weiawaga"
+        logo: "assets/tools/weiawaga.png"
+        url: "https://github.com/ArminiusTux/WinARM64-binaries/releases/tag/ChessEngines"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Inanis"
+        logo: "assets/tools/inanis.png"
+        url: "https://github.com/ArminiusTux/WinARM64-binaries/releases/tag/ChessEngines"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Camel"
+        logo: "assets/tools/camel.png"
+        url: "https://github.com/ArminiusTux/WinARM64-binaries/releases/tag/ChessEngines"
         target: "_blank" # optional html a tag target attribute
 
   - name: "Artificial Intelligence"
