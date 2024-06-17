@@ -2003,6 +2003,11 @@ services:
         url: "https://apps.microsoft.com/detail/9N7VHQ989BB7"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "Dynamic Theme"
+        logo: "assets/tools/dynamictheme.png"
+        url: "https://apps.microsoft.com/detail/9nblggh1zbkw"
+        target: "_blank" # optional html a tag target attribute
+        
       - name: "WinDynamicDesktop"
         logo: "assets/tools/WinDynamicDesktop.png"
         subtitle: "changes wallpaper based on the time of day."
@@ -2046,11 +2051,6 @@ services:
       - name: "Files"
         logo: "assets/tools/files.png"
         url: "https://files.community/download"
-        target: "_blank" # optional html a tag target attribute
-
-      - name: "Dynamic Theme"
-        logo: "assets/tools/dynamictheme.png"
-        url: "https://apps.microsoft.com/detail/9nblggh1zbkw"
         target: "_blank" # optional html a tag target attribute
         
       - name: "Cairo"
