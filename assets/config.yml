@@ -438,6 +438,11 @@ services:
         url: "https://apps.microsoft.com/store/detail/social-page-manager/9WZDNCRFJ9N7"
         target: "_blank" # optional html a tag target attribute 
 
+      - name: "QQ (NT)"
+        logo: "assets/tools/QQ(NT).png"
+        url: "https://im.qq.com/pcqq/index.shtml"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "Icalingua++"
         logo: "assets/tools/Icalingua-plus-plus.png"
         subtitle: "Unofficial client for QQ based on Electron"
@@ -457,11 +462,6 @@ services:
       - name: "WhatsApp (Beta)"
         logo: "assets/tools/whatsapp.png"
         url: "https://apps.microsoft.com/detail/9nbdxk71nk08"
-        target: "_blank" # optional html a tag target attribute
-    
-      - name: "QQ(NT)"
-        logo: "assets/tools/QQ(NT).png"
-        url: "https://im.qq.com/pcqq/index.shtml"
         target: "_blank" # optional html a tag target attribute
 
       - name: "ArmCord"
