@@ -1106,11 +1106,6 @@ services:
         url: "https://www.ivanti.com/company/history/mobileiron"
         target: "_blank"
 
-      - name: "Docker Desktop"
-        logo: "assets/tools/docker.png"
-        url: "https://www.docker.com/blog/announcing-docker-desktop-support-for-windows-on-arm/"
-        target: "_blank"
-
       - name: "Rich Box"
         logo: "assets/tools/Richbox.png"
         subtitle: "The collection of the toolkits."
@@ -1728,6 +1723,11 @@ services:
   - name: "Emulation & Virtualization"
     icon: "fa-solid fa-microchip"
     items:
+      - name: "Docker Desktop"
+        logo: "assets/tools/docker.png"
+        url: "https://www.docker.com/blog/announcing-docker-desktop-support-for-windows-on-arm/"
+        target: "_blank"
+
       - name: "DOSBox-X"
         logo: "assets/tools/dosbox.png"
         url: "https://github.com/joncampbell123/dosbox-x/releases"
