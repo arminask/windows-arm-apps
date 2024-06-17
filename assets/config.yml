@@ -782,6 +782,12 @@ services:
         url: "https://github.com/koodo-reader/koodo-reader/releases"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "Reader Assistant"
+        logo: "assets/tools/ReaderAssistant.png"
+        tag: "Purchases"
+        url: "https://apps.microsoft.com/detail/9PFZCKRHW0BC"
+        target: "_blank" # optional html a tag target attribute
+        
       - name: "Cover - Comic reader"
         logo: "assets/tools/cover.png"
         subtitle: "the best app to read and manage your comic books."
@@ -822,12 +828,6 @@ services:
         logo: "assets/tools/liquidtext.png" # App icon
         url: "https://apps.microsoft.com/detail/9n9z9nsv47fl" # URL to download the app
         target: "_blank"
-
-      - name: "Reader Assistant"
-        logo: "assets/tools/ReaderAssistant.png"
-        tag: "Purchases"
-        url: "https://apps.microsoft.com/detail/9PFZCKRHW0BC"
-        target: "_blank" # optional html a tag target attribute
 
       - name: "Microsoft Whiteboard"
         logo: "assets/tools/mswhiteboard.png"
