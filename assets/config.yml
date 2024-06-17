@@ -805,6 +805,12 @@ services:
         url: "https://obsidian.md/download"
         target: "_blank" # optional html a tag target attribute 
 
+      - name: "SiYuan"
+        logo: "assets/tools/siyuan.png"
+        subtitle: "a privacy-first personal knowledge management system"
+        url: "https://b3log.org/siyuan/download.html"
+        target: "_blank" # optional html a tag target attribute 
+
       - name: "Notesnook" # App name
         subtitle: "Secure Private Notes"
         logo: "assets/tools/notesnook.png" # App icon
