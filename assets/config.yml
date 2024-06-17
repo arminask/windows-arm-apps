@@ -1329,6 +1329,12 @@ services:
         url: "https://windscribe.com/download/"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "Oblivion Desktop"
+        logo: "assets/tools/oblivion.png"
+        subtitle: "Unofficial Warp Client"
+        url: "https://github.com/bepass-org/oblivion-desktop/releases"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "wgcf"
         logo: "assets/tools/clionly.png"
         subtitle: "an unofficial, cross-platform CLI for Cloudflare Warp"
