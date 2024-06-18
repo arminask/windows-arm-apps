@@ -244,6 +244,12 @@ services:
         url: "https://github.com/listen1/listen1_desktop/releases"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "Lyricify"
+        logo: "assets/tools/lyricify.png"
+        subtitle: "provide scroll lyrics"
+        url: "https://github.com/WXRIW/Lyricify-App"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "FFmpeg"
         logo: "assets/tools/FFmpeg.png"
         subtitle: "unofficial builds by dvhh"
@@ -432,6 +438,11 @@ services:
         url: "https://apps.microsoft.com/store/detail/social-page-manager/9WZDNCRFJ9N7"
         target: "_blank" # optional html a tag target attribute 
 
+      - name: "QQ (NT)"
+        logo: "assets/tools/QQ(NT).png"
+        url: "https://im.qq.com/pcqq/index.shtml"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "Icalingua++"
         logo: "assets/tools/Icalingua-plus-plus.png"
         subtitle: "Unofficial client for QQ based on Electron"
@@ -451,11 +462,6 @@ services:
       - name: "WhatsApp (Beta)"
         logo: "assets/tools/whatsapp.png"
         url: "https://apps.microsoft.com/detail/9nbdxk71nk08"
-        target: "_blank" # optional html a tag target attribute
-    
-      - name: "QQ(NT)"
-        logo: "assets/tools/QQ(NT).png"
-        url: "https://im.qq.com/pcqq/index.shtml"
         target: "_blank" # optional html a tag target attribute
 
       - name: "ArmCord"
@@ -483,6 +489,11 @@ services:
         url: "https://github.com/paintdotnet/release/releases/latest"
         target: "_blank" # optional html a tag target attribute
         
+      - name: "BandiView"
+        logo: "assets/tools/bandiview.png"
+        url: "https://www.bandisoft.com/bandiview/"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "ImageGlass"
         logo: "assets/tools/imageglass.png"
         url: "https://github.com/d2phap/ImageGlass/releases"
@@ -726,7 +737,7 @@ services:
       - name: "QZ Tray"
         logo: "assets/tools/qztray.png"
         tag: "Java"
-        url: "https://qz.io/download/"
+        url: "https://qz.io/download/?arch=aarch64#"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Microsoft 365 (Office)"
@@ -771,6 +782,12 @@ services:
         url: "https://github.com/koodo-reader/koodo-reader/releases"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "Reader Assistant"
+        logo: "assets/tools/ReaderAssistant.png"
+        tag: "Purchases"
+        url: "https://apps.microsoft.com/detail/9PFZCKRHW0BC"
+        target: "_blank" # optional html a tag target attribute
+        
       - name: "Cover - Comic reader"
         logo: "assets/tools/cover.png"
         subtitle: "the best app to read and manage your comic books."
@@ -794,6 +811,12 @@ services:
         url: "https://obsidian.md/download"
         target: "_blank" # optional html a tag target attribute 
 
+      - name: "SiYuan"
+        logo: "assets/tools/siyuan.png"
+        subtitle: "a privacy-first personal knowledge management system"
+        url: "https://b3log.org/siyuan/download.html"
+        target: "_blank" # optional html a tag target attribute 
+
       - name: "Notesnook" # App name
         subtitle: "Secure Private Notes"
         logo: "assets/tools/notesnook.png" # App icon
@@ -805,12 +828,6 @@ services:
         logo: "assets/tools/liquidtext.png" # App icon
         url: "https://apps.microsoft.com/detail/9n9z9nsv47fl" # URL to download the app
         target: "_blank"
-
-      - name: "Reader Assistant"
-        logo: "assets/tools/ReaderAssistant.png"
-        tag: "Purchases"
-        url: "https://apps.microsoft.com/detail/9PFZCKRHW0BC"
-        target: "_blank" # optional html a tag target attribute
 
       - name: "Microsoft Whiteboard"
         logo: "assets/tools/mswhiteboard.png"
@@ -862,11 +879,29 @@ services:
         logo: "assets/tools/Explorer.png"
         url: "https://explorerplusplus.com/download"
         target: "_blank" # optional html a tag target attribute
-                            
+
       - name: "yazi"
         logo: "assets/tools/yazi.png"
         subtitle: "blazing fast terminal file manager"
         url: "https://explorerplusplus.com/download"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "diskonaut"
+        logo: "assets/tools/clionly.png"
+        subtitle: "unofficial builds / terminal disk space navigator"
+        url: "https://github.com/iKineticate/diskonaut-windows-arm64/releases"
+        target: "_blank" # optional html a tag target attribute
+        
+      - name: "gncdu"
+        logo: "assets/tools/clionly.png"
+        subtitle: "Implements NCurses Disk Usage"
+        url: "https://github.com/bastengao/gncdu/releases"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Shell"
+        logo: "assets/tools/Shell.png"
+        subtitle: "Powerful context menu manager for Windows File Explorer"
+        url: "https://nilesoft.org/download"
         target: "_blank" # optional html a tag target attribute
 
       - name: "APK Installers"
@@ -1071,11 +1106,6 @@ services:
         url: "https://www.ivanti.com/company/history/mobileiron"
         target: "_blank"
 
-      - name: "Docker Desktop"
-        logo: "assets/tools/docker.png"
-        url: "https://www.docker.com/blog/announcing-docker-desktop-support-for-windows-on-arm/"
-        target: "_blank"
-
       - name: "Rich Box"
         logo: "assets/tools/Richbox.png"
         subtitle: "The collection of the toolkits."
@@ -1257,6 +1287,11 @@ services:
         url: "https://github.com/clash-verge-rev/clash-verge-rev/releases"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "GUI for Clash"
+        logo: "assets/tools/guiforclash.png"
+        url: "https://github.com/GUI-for-Cores/GUI.for.Clash/releases"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "Clash for Windows"
         logo: "assets/tools/Clash.png"
         url: "https://github.com/cfwtf/clash_for_windows/releases/tag/0.20.39"
@@ -1265,6 +1300,16 @@ services:
       - name: "v2rayN"
         logo: "assets/tools/v2rayN.png"
         url: "https://github.com/2dust/v2rayN/releases"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "sing-box"
+        logo: "assets/tools/singbox.png"
+        url: "https://github.com/SagerNet/sing-box/releases"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "GUI for SingBox"
+        logo: "assets/tools/singbox.png"
+        url: "https://github.com/GUI-for-Cores/GUI.for.SingBox/releases"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Zen"
@@ -1277,6 +1322,12 @@ services:
         logo: "assets/tools/windscribe.png"
         subtitle: "a vpn, encrypts your browsing activity, blocks ads, and unblocks entertainment content"
         url: "https://windscribe.com/download/"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Oblivion Desktop"
+        logo: "assets/tools/oblivion.png"
+        subtitle: "Unofficial Warp Client"
+        url: "https://github.com/bepass-org/oblivion-desktop/releases"
         target: "_blank" # optional html a tag target attribute
 
       - name: "wgcf"
@@ -1295,6 +1346,12 @@ services:
         logo: "assets/tools/tailscale.png"
         subtitle: "securely connecting users, services, and devices"
         url: "https://pkgs.tailscale.com/stable/#windows"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "frp"
+        logo: "assets/tools/clionly.png"
+        subtitle: "a fast reverse proxy"
+        url: "https://github.com/fatedier/frp/releases"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Syncthing"
@@ -1666,6 +1723,11 @@ services:
   - name: "Emulation & Virtualization"
     icon: "fa-solid fa-microchip"
     items:
+      - name: "Docker Desktop"
+        logo: "assets/tools/docker.png"
+        url: "https://www.docker.com/blog/announcing-docker-desktop-support-for-windows-on-arm/"
+        target: "_blank"
+
       - name: "DOSBox-X"
         logo: "assets/tools/dosbox.png"
         url: "https://github.com/joncampbell123/dosbox-x/releases"
@@ -1941,6 +2003,11 @@ services:
         url: "https://apps.microsoft.com/detail/9N7VHQ989BB7"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "Dynamic Theme"
+        logo: "assets/tools/dynamictheme.png"
+        url: "https://apps.microsoft.com/detail/9nblggh1zbkw"
+        target: "_blank" # optional html a tag target attribute
+        
       - name: "WinDynamicDesktop"
         logo: "assets/tools/WinDynamicDesktop.png"
         subtitle: "changes wallpaper based on the time of day."
@@ -1985,10 +2052,10 @@ services:
         logo: "assets/tools/files.png"
         url: "https://files.community/download"
         target: "_blank" # optional html a tag target attribute
-
-      - name: "Dynamic Theme"
-        logo: "assets/tools/dynamictheme.png"
-        url: "https://apps.microsoft.com/detail/9nblggh1zbkw"
+        
+      - name: "Cairo"
+        logo: "assets/tools/cairo.png"
+        url: "https://github.com/cairoshell/cairoshell/releases"
         target: "_blank" # optional html a tag target attribute
 
   - name: "Other"
