@@ -1111,6 +1111,18 @@ services:
         subtitle: "The collection of the toolkits."
         url: "https://apps.microsoft.com/detail/9N5TQ90W2GBD"
         target: "_blank"
+      
+      - name: "WSA Sideloader"
+        logo: "assets/tools/wsasideloader.png"
+        subtitle: "Easily sideload Android apps on Windows Subsystem for Android"
+        url: "https://github.com/infinitepower18/WSA-Sideloader"
+        target: "_blank"
+
+      - name: "WSA System Control"
+        logo: "assets/tools/wsasystemcontrol.png"
+        subtitle: "Monitor WSA status and turn WSA on/off from the system tray"
+        url: "https://github.com/infinitepower18/WSA-SystemControl"
+        target: "_blank"
 
   - name: "Network & Cloud Storage"
     icon: "fa-solid fa-network-wired"
