@@ -382,11 +382,6 @@ services:
         url: "https://apps.microsoft.com/store/detail/instagram/9NBLGGH5L9XT"
         target: "_blank" # optional html a tag target attribute
 
-      - name: "Unigram (Telegram)"
-        logo: "assets/tools/telegram.png"
-        url: "https://apps.microsoft.com/store/detail/unigram%E2%80%94telegram-for-windows/9N97ZCKPD60Q"
-        target: "_blank" # optional html a tag target attribute
-
       - name: "Tiktok"
         logo: "assets/tools/tiktok.png"
         url: "https://apps.microsoft.com/store/detail/tiktok/9NH2GPH4JZS4"
@@ -1086,12 +1081,6 @@ services:
         logo: "assets/tools/beyondtrustremote.png"
         subtitle: "Enterprise remote support from anywhere."
         url: "https://www.beyondtrust.com/products/remote-support"
-        target: "_blank"
-
-      - name: "Teamviewer"
-        logo: "assets/tools/teamviewer.png"
-        subtitle: "Remote support and desktop tools."
-        url: "https://www.teamviewer.com/"
         target: "_blank"
 
       - name: "Configuration Manager"
@@ -2005,6 +1994,12 @@ services:
         logo: "assets/tools/familysafety.png"
         subtitle: "Create a safe and healthy environment for your family with digital content filtering and screen time limits."
         url: "https://www.microsoft.com/en-us/microsoft-365/family-safety"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "1Password"
+        logo: "assets/tools/1password.png"
+        subtitle: "Preview version - Desktop password storage."
+        url: "https://1password.community/discussion/145886/1password-for-windows-on-arm-preview"
         target: "_blank" # optional html a tag target attribute
 
   - name: "Theme & Styles"
