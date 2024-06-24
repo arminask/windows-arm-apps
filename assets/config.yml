@@ -364,6 +364,18 @@ services:
         url: "https://www.algoriddim.com/djay-pro-windows"
         target: "_blank" # optional html a tag target attribute
 
+        - name: "FamiStudio"
+        logo: "assets/tools/famistudio.png"
+        subtitle: "unofficial builds"
+        url: "https://github.com/tordona/famistudio/releases"
+        target: "_blank" # optional html a tag target attribute
+
+        - name: "Furnace"
+        logo: "assets/tools/furnace.png"
+        subtitle: "unofficial builds"
+        url: "https://github.com/tordona/furnace/releases"
+        target: "_blank" # optional html a tag target attribute
+
   - name: "Social"
     icon: "fa-solid fa-message"
     items:
@@ -614,6 +626,48 @@ services:
         logo: "assets/tools/shotcut.png"
         subtitle: "unofficial builds"
         url: "https://github.com/tordona/shotcut/releases"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Glaxnimate"
+        logo: "assets/tools/glaxnimate.png"
+        subtitle: "unofficial builds"
+        url: "https://github.com/tordona/glaxnimate/releases"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "LibreSprite"
+        logo: "assets/tools/libresprite.png"
+        subtitle: "unofficial builds"
+        url: "https://github.com/tordona/libresprite/releases"
+        target: "_blank" # optional html a tag target attribute
+
+       - name: "Pinta"
+        logo: "assets/tools/pinta.png"
+        subtitle: "unofficial builds"
+        url: "https://github.com/tordona/pinta/releases"
+        target: "_blank" # optional html a tag target attribute
+
+        - name: "PixelViewer"
+        logo: "assets/tools/pixelviewer.png"
+        subtitle: "cross-platform image viewer"
+        url: "https://github.com/carina-studio/PixelViewer/releases"
+        target: "_blank" # optional html a tag target attribute
+
+        - name: "PixiEditor"
+        logo: "assets/tools/pixieditor.png"
+        subtitle: "unofficial builds"
+        url: "https://github.com/tordona/pixieditor/releases"
+        target: "_blank" # optional html a tag target attribute
+
+        - name: "darktable"
+        logo: "assets/tools/darktable.png"
+        subtitle: "unofficial builds"
+        url: "https://github.com/tordona/darktable/releases"
+        target: "_blank" # optional html a tag target attribute
+
+        - name: "RawTherapee"
+        logo: "assets/tools/rawtherapee.png"
+        subtitle: "unofficial builds"
+        url: "https://github.com/tordona/rawtherapee/releases"
         target: "_blank" # optional html a tag target attribute
 
   - name: "Design"
@@ -1414,7 +1468,6 @@ services:
         url: "https://www.ivanti.com/company/history/pulse-secure"
         target: "_blank" # optional html a tag target attribute
 
-
   - name: "Coding"
     icon: "fa-solid fa-code"
     items:
@@ -1843,6 +1896,12 @@ services:
         logo: "assets/tools/vmwarehorizon.png"
         url: "https://myhorizon.vmware.com/"
         target: "_blank" # optional html a tag target attribute
+
+        - name: "WinFellow"
+        logo: "assets/tools/winfellow.png"
+        subtitle: "Amiga Emulator"
+        url: "https://github.com/petschau/WinFellow/releases"
+        target: "_blank" # optional html a tag target attribute
         
   - name: "Benchmarking & Diagnostics"
     icon: "fa-solid fa-stopwatch"
@@ -2197,6 +2256,12 @@ services:
         logo: "assets/tools/ares.png"
         subtitle: "a simplified multi-system emulator"
         url: "https://ares-emu.net/download"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Visual Boy Advance"
+        logo: "assets/tools/visualboyadvance-m.png"
+        subtitle: "Game Boy Advance (GBA) emulator"
+        url: "https://visualboyadvance.org/download"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Nintendulator"
