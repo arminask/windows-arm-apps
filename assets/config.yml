@@ -2261,7 +2261,7 @@ services:
       - name: "Visual Boy Advance"
         logo: "assets/tools/visualboyadvance-m.png"
         subtitle: "Game Boy Advance (GBA) emulator"
-        url: "https://visualboyadvance.org/download"
+        url: "https://github.com/visualboyadvance-m/visualboyadvance-m/releases"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Nintendulator"
