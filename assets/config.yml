@@ -1820,6 +1820,18 @@ services:
         subtitle: "unofficial builds with Magisk & MindTheGapps"
         url: "https://github.com/MustardChef/WSABuilds/releases"
         target: "_blank" # optional html a tag target attribute
+
+      - name: "WSA Sideloader"
+        logo: "assets/tools/wsasideloader.png"
+        subtitle: "Easily sideload Android apps on Windows Subsystem for Android"
+        url: "https://github.com/infinitepower18/WSA-Sideloader"
+        target: "_blank"
+
+      - name: "WSA System Control"
+        logo: "assets/tools/wsasystemcontrol.png"
+        subtitle: "Monitor WSA status and turn WSA on/off from the system tray"
+        url: "https://github.com/infinitepower18/WSA-SystemControl"
+        target: "_blank"
         
       - name: "windows95"
         logo: "assets/tools/windows95.png"
