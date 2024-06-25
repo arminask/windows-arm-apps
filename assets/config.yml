@@ -2002,6 +2002,12 @@ services:
         url: "https://1password.community/discussion/145886/1password-for-windows-on-arm-preview"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "Bitwarden (Desktop)"
+        logo: "assets/tools/bitwarden.png"
+        subtitle: "Desktop version of the Bitwarden client."
+        url: "https://github.com/bitwarden/clients/releases"
+        target: "_blank" # optional html a tag target attribute
+
   - name: "Theme & Styles"
     icon: "fa-solid fa-brush"
     items:
