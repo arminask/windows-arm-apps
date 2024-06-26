@@ -640,31 +640,31 @@ services:
         url: "https://github.com/tordona/libresprite/releases"
         target: "_blank" # optional html a tag target attribute
 
-       - name: "Pinta"
+      - name: "Pinta"
         logo: "assets/tools/pinta.png"
         subtitle: "unofficial builds"
         url: "https://github.com/tordona/pinta/releases"
         target: "_blank" # optional html a tag target attribute
 
-        - name: "PixelViewer"
+      - name: "PixelViewer"
         logo: "assets/tools/pixelviewer.png"
         subtitle: "cross-platform image viewer"
         url: "https://github.com/carina-studio/PixelViewer/releases"
         target: "_blank" # optional html a tag target attribute
 
-        - name: "PixiEditor"
+      - name: "PixiEditor"
         logo: "assets/tools/pixieditor.png"
         subtitle: "unofficial builds"
         url: "https://github.com/tordona/pixieditor/releases"
         target: "_blank" # optional html a tag target attribute
 
-        - name: "darktable"
+      - name: "darktable"
         logo: "assets/tools/darktable.png"
         subtitle: "unofficial builds"
         url: "https://github.com/tordona/darktable/releases"
         target: "_blank" # optional html a tag target attribute
 
-        - name: "RawTherapee"
+      - name: "RawTherapee"
         logo: "assets/tools/rawtherapee.png"
         subtitle: "unofficial builds"
         url: "https://github.com/tordona/rawtherapee/releases"
@@ -1897,7 +1897,7 @@ services:
         url: "https://myhorizon.vmware.com/"
         target: "_blank" # optional html a tag target attribute
 
-        - name: "WinFellow"
+      - name: "WinFellow"
         logo: "assets/tools/winfellow.png"
         subtitle: "Amiga Emulator"
         url: "https://github.com/petschau/WinFellow/releases"
