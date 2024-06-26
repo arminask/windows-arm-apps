@@ -364,13 +364,13 @@ services:
         url: "https://www.algoriddim.com/djay-pro-windows"
         target: "_blank" # optional html a tag target attribute
 
-        - name: "FamiStudio"
+      - name: "FamiStudio"
         logo: "assets/tools/famistudio.png"
         subtitle: "unofficial builds"
         url: "https://github.com/tordona/famistudio/releases"
         target: "_blank" # optional html a tag target attribute
 
-        - name: "Furnace"
+      - name: "Furnace"
         logo: "assets/tools/furnace.png"
         subtitle: "unofficial builds"
         url: "https://github.com/tordona/furnace/releases"
