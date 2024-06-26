@@ -1,0 +1,48 @@
+name: Update Homer
+
+on:
+  push:
+    branches:
+      - homer-test
+  pull_request:
+    branches:
+      - homer-test
+
+jobs:
+  update-homer:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v2
+
+    - name: Clone Homer repository
+      run: git clone https://github.com/bastienwirtz/homer.git homer-latest
+
+    - name: Set up Node.js
+      uses: actions/setup-node@v2
+      with:
+        node-version: '14' # Node.js version
+
+    - name: Install pnpm
+      run: npm install -g pnpm
+
+    - name: Install dependencies and build Homer
+      working-directory: ./homer-latest
+      run: |
+        pnpm install
+        pnpm build
+
+    - name: Copy built Homer files to repository
+      run: |
+        rsync -av --exclude='logo.png' --exclude='assets/icons/' --exclude='assets/tools/' --exclude='assets/manifest.json' homer-latest/public/ ./
+
+    - name: Commit and push changes
+      run: |
+        git config --global user.name 'github-actions[bot]'
+        git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+        git add .
+        git commit -m "Homer base update"
+        git push
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
