@@ -2707,4 +2707,10 @@ services:
         subtitle: "deep neural network runtime for Snapdragon SoCs"        
         url: "https://docs.qualcomm.com/bundle/publicresource/topics/80-63442-2/revision_history_windows.html"
         target: "_blank" # optional html a tag target attribute
+
+      - name: "LM Studio"
+        logo: "assets/tools/lmstudio.png"     
+        subtitle: "Run local AI workloads with Llama 3, Phi-3, and other open-weights LLMs on your Snapdragon X Elite PC."        
+        url: "https://lmstudio.ai/snapdragon"
+        target: "_blank" # optional html a tag target attribute
     
