@@ -211,6 +211,12 @@ services:
         url: "https://apps.microsoft.com/detail/9NBLGGH5WXNW"
         target: "_blank" # optional html a tag target attribute
         
+      - name: "聚合直播"
+        logo: "assets/tools/alllive.png"
+        subtitle: "聚合多个直播网站"
+        url: "https://apps.microsoft.com/detail/9n1twg2g84vd"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "ruffle"
         logo: "assets/tools/ruffle.png"
         subtitle: "unofficial builds - A Flash Player emulator"
