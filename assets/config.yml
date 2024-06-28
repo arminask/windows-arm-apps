@@ -1161,6 +1161,12 @@ services:
         url: "https://www.royalapps.com/"
         target: "_blank"       
 
+      - name: "Magpie"
+        logo: "assets/tools/magpie.png"
+        subtitle: "An all-purpose window upscaler for Windows 10/11."
+        url: "https://github.com/Blinue/Magpie/releases"
+        target: "_blank"       
+
   - name: "Network & Cloud Storage"
     icon: "fa-solid fa-network-wired"
     items:
