@@ -1155,6 +1155,12 @@ services:
         url: "https://apps.microsoft.com/detail/9N5TQ90W2GBD"
         target: "_blank"
 
+      - name: "Royal Apps"
+        logo: "assets/tools/royalapps.png"
+        subtitle: "From the largest data centers, to test labs, to your home network, our products help you manage any kind of IT-infrastructure."
+        url: "https://www.royalapps.com/"
+        target: "_blank"       
+
   - name: "Network & Cloud Storage"
     icon: "fa-solid fa-network-wired"
     items:
@@ -1462,10 +1468,16 @@ services:
         url: "https://www.cisco.com/c/en_uk/products/security/anyconnect-secure-mobility-client/index.html"
         target: "_blank" # optional html a tag target attribute
 
-      - name: "Ivanti Pulse Secure"
-        logo: "assets/tools/pulsesecure.png"
-        subtitle: "Secure Access solutions that enterprises rely on to help make their workforce more productive."
-        url: "https://www.ivanti.com/company/history/pulse-secure"
+      - name: "F5 Big IP"
+        logo: "assets/tools/f5bigip.png"
+        subtitle: "Corporate VPN Client."
+        url: "https://my.f5.com/manage/s/"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Surfshark"
+        logo: "assets/tools/surfshark.png"
+        subtitle: "VPN Client."
+        url: "https://surfshark.com/download/windows"
         target: "_blank" # optional html a tag target attribute
 
   - name: "Coding"
@@ -2065,6 +2077,24 @@ services:
         logo: "assets/tools/bitwarden.png"
         subtitle: "Desktop version of the Bitwarden client."
         url: "https://github.com/bitwarden/clients/releases"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Absolute Secure Endpoint"
+        logo: "assets/tools/absolute.png"
+        subtitle: "Cloud security suite."
+        url: "https://www.absolute.com/platform/requirements/"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Prisma Cloud"
+        logo: "assets/tools/prismacloud.png"
+        subtitle: "Cloud security suite by Palo Alto."
+        url: "https://www.paloaltonetworks.com/prisma/cloud"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Ivanti Pulse Secure"
+        logo: "assets/tools/pulsesecure.png"
+        subtitle: "Secure Access solutions that enterprises rely on to help make their workforce more productive."
+        url: "https://www.ivanti.com/company/history/pulse-secure"
         target: "_blank" # optional html a tag target attribute
 
   - name: "Theme & Styles"
@@ -2676,5 +2706,11 @@ services:
         tag: "ARM64X"        
         subtitle: "deep neural network runtime for Snapdragon SoCs"        
         url: "https://docs.qualcomm.com/bundle/publicresource/topics/80-63442-2/revision_history_windows.html"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "LM Studio"
+        logo: "assets/tools/lmstudio.png"     
+        subtitle: "Run local AI workloads with Llama 3, Phi-3, and other open-weights LLMs on your Snapdragon X Elite PC."        
+        url: "https://lmstudio.ai/snapdragon"
         target: "_blank" # optional html a tag target attribute
     
