@@ -2029,6 +2029,12 @@ services:
         url: "https://github.com/roines45/glow/releases"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "fastfetch"
+        logo: "assets/tools/clionly.png"
+        subtitle: "fetching system information and displaying them in a pretty way."
+        url: "https://github.com/fastfetch-cli/fastfetch/releases"
+        target: "_blank" # optional html a tag target attribute
+
   - name: "Security & Protection"
     icon: "fa-solid fa-shield"
     items:
