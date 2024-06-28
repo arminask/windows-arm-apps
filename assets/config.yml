@@ -262,6 +262,12 @@ services:
         url: "https://apps.microsoft.com/detail/9pm46jrsdqqr"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "Podcasted"
+        logo: "assets/tools/podcasted.png"
+        subtitle: "the most immersive podcast app"
+        url: "https://apps.microsoft.com/detail/9nxwgr2b1p26"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "FFmpeg"
         logo: "assets/tools/FFmpeg.png"
         subtitle: "unofficial builds by dvhh"
