@@ -359,6 +359,11 @@ services:
         url: "https://github.com/AlexxIT/go2rtc/releases"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "Fluent Screen Recorder"
+        logo: "assets/tools/fluentscreenrecorder.png"
+        url: "https://apps.microsoft.com/detail/9mwv79xlfqh7"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "OBS Studio"
         logo: "assets/tools/obs.png"
         subtitle: "unofficial builds"
