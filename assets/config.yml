@@ -932,7 +932,7 @@ services:
       - name: "yazi"
         logo: "assets/tools/yazi.png"
         subtitle: "blazing fast terminal file manager"
-        url: "https://explorerplusplus.com/download"
+        url: "https://github.com/sxyazi/yazi/releases"
         target: "_blank" # optional html a tag target attribute
 
       - name: "diskonaut"
