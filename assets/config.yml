@@ -912,6 +912,12 @@ services:
         url: "https://apps.microsoft.com/detail/9mspc6mp8fm4"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "Inkodo"
+        logo: "assets/tools/inkodo.png"
+        subtitle: "Take notes, annotate PDF or photos, create documents, sketch ideas, keep a journal."
+        url: "https://apps.microsoft.com/detail/9nblggh4s50q"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "Zotero"
         logo: "assets/tools/zotero.png"
         tag: "Purchases"
