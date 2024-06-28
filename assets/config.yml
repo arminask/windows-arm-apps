@@ -250,6 +250,12 @@ services:
         url: "https://github.com/WXRIW/Lyricify-App"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "Grover Podcast"
+        logo: "assets/tools/groverpodcast.png"
+        subtitle: "Podcast Management Software"
+        url: "https://apps.microsoft.com/detail/9nblggh6c4bc"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "FluentCast"
         logo: "assets/tools/fluentcast.png"
         subtitle: "free and Ad-free podcast app"
