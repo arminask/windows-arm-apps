@@ -250,6 +250,12 @@ services:
         url: "https://github.com/WXRIW/Lyricify-App"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "FluentCast"
+        logo: "assets/tools/fluentcast.png"
+        subtitle: "free and Ad-free podcast app"
+        url: "https://apps.microsoft.com/detail/9pm46jrsdqqr"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "FFmpeg"
         logo: "assets/tools/FFmpeg.png"
         subtitle: "unofficial builds by dvhh"
