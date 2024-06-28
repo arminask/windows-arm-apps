@@ -942,17 +942,6 @@ services:
         subtitle: "minimal markdown editor and reader"
         url: "https://typora.io/#download" # URL to download the app
         target: "_blank"
-
-      - name: "KeePassXC"
-        logo: "assets/tools/keepassxc.png"
-        subtitle: "unofficial builds"
-        url: "https://github.com/minnyres/keepassxc-windows-arm64/releases"
-        target: "_blank" # optional html a tag target attribute
-
-      - name: "VeraCrypt"
-        logo: "assets/tools/veracrypt.png"
-        url: "https://www.veracrypt.fr/en/Downloads.html"
-        target: "_blank" # optional html a tag target attribute
                 
       - name: "Windows File Manager (WinFile)"
         logo: "assets/tools/winfile.png"
@@ -2114,6 +2103,12 @@ services:
         url: "https://www.microsoft.com/en-us/microsoft-365/family-safety"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "KeePassXC"
+        logo: "assets/tools/keepassxc.png"
+        subtitle: "unofficial builds"
+        url: "https://github.com/minnyres/keepassxc-windows-arm64/releases"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "1Password"
         logo: "assets/tools/1password.png"
         subtitle: "Preview version - Desktop password storage."
@@ -2142,6 +2137,12 @@ services:
         logo: "assets/tools/pulsesecure.png"
         subtitle: "Secure Access solutions that enterprises rely on to help make their workforce more productive."
         url: "https://www.ivanti.com/company/history/pulse-secure"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "VeraCrypt"
+        logo: "assets/tools/veracrypt.png"
+        subtitle: "a free open source disk encryption software"
+        url: "https://www.veracrypt.fr/en/Downloads.html"
         target: "_blank" # optional html a tag target attribute
 
   - name: "Theme & Styles"
