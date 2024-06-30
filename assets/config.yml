@@ -211,6 +211,12 @@ services:
         url: "https://apps.microsoft.com/detail/9NBLGGH5WXNW"
         target: "_blank" # optional html a tag target attribute
         
+      - name: "聚合直播"
+        logo: "assets/tools/alllive.png"
+        subtitle: "聚合多个直播网站"
+        url: "https://apps.microsoft.com/detail/9n1twg2g84vd"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "ruffle"
         logo: "assets/tools/ruffle.png"
         subtitle: "unofficial builds - A Flash Player emulator"
@@ -248,6 +254,24 @@ services:
         logo: "assets/tools/lyricify.png"
         subtitle: "provide scroll lyrics"
         url: "https://github.com/WXRIW/Lyricify-App"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Grover Podcast"
+        logo: "assets/tools/groverpodcast.png"
+        subtitle: "Podcast Management Software"
+        url: "https://apps.microsoft.com/detail/9nblggh6c4bc"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "FluentCast"
+        logo: "assets/tools/fluentcast.png"
+        subtitle: "free and Ad-free podcast app"
+        url: "https://apps.microsoft.com/detail/9pm46jrsdqqr"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Podcasted"
+        logo: "assets/tools/podcasted.png"
+        subtitle: "the most immersive podcast app"
+        url: "https://apps.microsoft.com/detail/9nxwgr2b1p26"
         target: "_blank" # optional html a tag target attribute
 
       - name: "FFmpeg"
@@ -351,6 +375,11 @@ services:
         logo: "assets/tools/go2rtc.png"
         subtitle: "camera streaming solution"
         url: "https://github.com/AlexxIT/go2rtc/releases"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Fluent Screen Recorder"
+        logo: "assets/tools/fluentscreenrecorder.png"
+        url: "https://apps.microsoft.com/detail/9mwv79xlfqh7"
         target: "_blank" # optional html a tag target attribute
 
       - name: "OBS Studio"
@@ -883,6 +912,12 @@ services:
         url: "https://apps.microsoft.com/detail/9mspc6mp8fm4"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "Inkodo"
+        logo: "assets/tools/inkodo.png"
+        subtitle: "Take notes, annotate PDF or photos, create documents, sketch ideas, keep a journal."
+        url: "https://apps.microsoft.com/detail/9nblggh4s50q"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "Zotero"
         logo: "assets/tools/zotero.png"
         tag: "Purchases"
@@ -907,17 +942,6 @@ services:
         subtitle: "minimal markdown editor and reader"
         url: "https://typora.io/#download" # URL to download the app
         target: "_blank"
-
-      - name: "KeePassXC"
-        logo: "assets/tools/keepassxc.png"
-        subtitle: "unofficial builds"
-        url: "https://github.com/minnyres/keepassxc-windows-arm64/releases"
-        target: "_blank" # optional html a tag target attribute
-
-      - name: "VeraCrypt"
-        logo: "assets/tools/veracrypt.png"
-        url: "https://www.veracrypt.fr/en/Downloads.html"
-        target: "_blank" # optional html a tag target attribute
                 
       - name: "Windows File Manager (WinFile)"
         logo: "assets/tools/winfile.png"
@@ -932,7 +956,7 @@ services:
       - name: "yazi"
         logo: "assets/tools/yazi.png"
         subtitle: "blazing fast terminal file manager"
-        url: "https://explorerplusplus.com/download"
+        url: "https://github.com/sxyazi/yazi/releases"
         target: "_blank" # optional html a tag target attribute
 
       - name: "diskonaut"
@@ -1159,6 +1183,12 @@ services:
         logo: "assets/tools/royalapps.png"
         subtitle: "From the largest data centers, to test labs, to your home network, our products help you manage any kind of IT-infrastructure."
         url: "https://www.royalapps.com/"
+        target: "_blank"       
+
+      - name: "Magpie"
+        logo: "assets/tools/magpie.png"
+        subtitle: "An all-purpose window upscaler for Windows 10/11."
+        url: "https://github.com/Blinue/Magpie/releases"
         target: "_blank"       
 
   - name: "Network & Cloud Storage"
@@ -1988,6 +2018,12 @@ services:
         url: "https://github.com/roines45/glow/releases"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "fastfetch"
+        logo: "assets/tools/clionly.png"
+        subtitle: "fetching system information and displaying them in a pretty way."
+        url: "https://github.com/fastfetch-cli/fastfetch/releases"
+        target: "_blank" # optional html a tag target attribute
+
   - name: "Security & Protection"
     icon: "fa-solid fa-shield"
     items:
@@ -2067,6 +2103,12 @@ services:
         url: "https://www.microsoft.com/en-us/microsoft-365/family-safety"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "KeePassXC"
+        logo: "assets/tools/keepassxc.png"
+        subtitle: "unofficial builds"
+        url: "https://github.com/minnyres/keepassxc-windows-arm64/releases"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "1Password"
         logo: "assets/tools/1password.png"
         subtitle: "Preview version - Desktop password storage."
@@ -2095,6 +2137,12 @@ services:
         logo: "assets/tools/pulsesecure.png"
         subtitle: "Secure Access solutions that enterprises rely on to help make their workforce more productive."
         url: "https://www.ivanti.com/company/history/pulse-secure"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "VeraCrypt"
+        logo: "assets/tools/veracrypt.png"
+        subtitle: "a free open source disk encryption software"
+        url: "https://www.veracrypt.fr/en/Downloads.html"
         target: "_blank" # optional html a tag target attribute
 
   - name: "Theme & Styles"
