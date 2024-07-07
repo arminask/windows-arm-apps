@@ -1241,6 +1241,12 @@ services:
         url: "https://github.com/minnyres/privoxy-windows-arm64/releases"
         target: "_blank" # optional html a tag target attribute
   
+      - name: "traefik"
+        logo: "assets/tools/traefik.png"
+        subtitle: "The Cloud Native Application Proxy"
+        url: "https://github.com/traefik/traefik/releases"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "AdGuardHome"
         logo: "assets/tools/AdGuardHome.png"
         url: "https://github.com/AdguardTeam/AdGuardHome/releases"
