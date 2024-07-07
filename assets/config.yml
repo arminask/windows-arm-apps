@@ -997,13 +997,6 @@ services:
         logo: "assets/tools/rufus.png"
         url: "https://rufus.ie/"
         target: "_blank" # optional html a tag target attribute
-
-      - name: "Ext4Fsd"
-        logo: "assets/tools/ext4fsd.png"
-        subtitle: "ext2/3/4 file system driver"
-        tag: "read from & write onto Linux partitions"        
-        url: "https://www.accum.se/~bosse/ext2fsd/0.71/signed/arm64/"
-        target: "_blank" # optional html a tag target attribute
            
       - name: "Ventoy"
         logo: "assets/tools/ventoy.png"
@@ -2804,4 +2797,11 @@ services:
         logo: "assets/tools/zadig.png"
         subtitle: "create & autosign USB drivers"        
         url: "https://github.com/pbatard/libwdi/releases"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Ext4Fsd"
+        logo: "assets/tools/ext4fsd.png"
+        subtitle: "ext2/3/4 file system driver"
+        tag: "read from & write onto Linux partitions"        
+        url: "https://www.accum.se/~bosse/ext2fsd/0.71/signed/"
         target: "_blank" # optional html a tag target attribute
