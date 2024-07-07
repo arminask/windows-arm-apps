@@ -998,12 +998,6 @@ services:
         url: "https://rufus.ie/"
         target: "_blank" # optional html a tag target attribute
 
-      - name: "Zadig (libwdi)"
-        logo: "assets/tools/zadig.png"
-        subtitle: "create & autosign USB drivers"        
-        url: "https://github.com/pbatard/libwdi/releases"
-        target: "_blank" # optional html a tag target attribute
-
       - name: "Ext4Fsd"
         logo: "assets/tools/ext4fsd.png"
         subtitle: "ext2/3/4 file system driver"
@@ -2806,3 +2800,8 @@ services:
   - name: "Driver"
     icon: "fa-solid fa-hard-drive"
     items:
+      - name: "Zadig (libwdi)"
+        logo: "assets/tools/zadig.png"
+        subtitle: "create & autosign USB drivers"        
+        url: "https://github.com/pbatard/libwdi/releases"
+        target: "_blank" # optional html a tag target attribute
