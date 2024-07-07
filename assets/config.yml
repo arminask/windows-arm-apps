@@ -1183,13 +1183,19 @@ services:
         logo: "assets/tools/royalapps.png"
         subtitle: "From the largest data centers, to test labs, to your home network, our products help you manage any kind of IT-infrastructure."
         url: "https://www.royalapps.com/"
-        target: "_blank"       
+        target: "_blank"
 
       - name: "Magpie"
         logo: "assets/tools/magpie.png"
         subtitle: "An all-purpose window upscaler for Windows 10/11."
         url: "https://github.com/Blinue/Magpie/releases"
-        target: "_blank"       
+        target: "_blank"
+
+      - name: "Three Finger Drag"
+        logo: "assets/tools/threefingerdrag.png"
+        subtitle: "embrace the seamless three-finger drag."
+        url: "https://apps.microsoft.com/detail/9msx91wqcm2v"
+        target: "_blank"
 
   - name: "Network & Cloud Storage"
     icon: "fa-solid fa-network-wired"
