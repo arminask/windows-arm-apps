@@ -2647,6 +2647,12 @@ services:
         url: "https://github.com/Scighost/Starward/releases"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "PotatoVN"
+        logo: "assets/tools/potatovn.png"
+        subtitle: "manage visual novels in your computer."
+        url: "https://apps.microsoft.com/detail/9p9cbkd5hr3w"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "Vassal"
         logo: "assets/tools/vassal.png"
         subtitle: "a boardgame engine offering 2600 titles"        
