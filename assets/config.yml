@@ -784,7 +784,14 @@ services:
     items:
       - name: "LibreOffice"
         logo: "assets/tools/libreoffice.png"
+        subtitle: "stable (🤞) builds"        
         url: "https://downloadarchive.documentfoundation.org/libreoffice/old/latest/win/aarch64/"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "LibreOffice Dev"
+        logo: "assets/tools/libreoffice.png"
+        subtitle: "pre-release builds for testing"            
+        url: "https://dev-builds.libreoffice.org/pre-releases/win/aarch64/?C=M&O=D"
         target: "_blank" # optional html a tag target attribute
 
       - name: "PDF X-Change Editor"
