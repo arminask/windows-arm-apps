@@ -2538,7 +2538,14 @@ services:
         tag: "original game data needed"
         url: "https://github.com/ArminiusTux/WinARM64-binaries/releases/tag/VanillaConquerRA"
         target: "_blank" # optional html a tag target attribute
-                      
+
+      - name: "Open-IG"
+        logo: "assets/tools/openig.png"
+        subtitle: "Imperium Galactica 1997 reimplementation"        
+        tag: "Java / full game"       
+        url: "https://github.com/akarnokd/open-ig"
+        target: "_blank" # optional html a tag target attribute
+                        
       - name: "OpenTomb"
         logo: "assets/tools/opentomb.png"
         subtitle: "Tomb Raider 1-5 1996-2003 engine remake"
