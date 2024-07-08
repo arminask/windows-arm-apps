@@ -2506,6 +2506,13 @@ services:
         tag: "Java"
         url: "https://www.freecol.org/download.html"
         target: "_blank" # optional html a tag target attribute
+
+      - name: "Super Mario Bros. X (TheXTech)"
+        logo: "assets/tools/thextech.png"
+        subtitle: "Super Mario Bros. 1-3 1985-1988 remake"        
+        tag: "full game"       
+        url: "https://wohlsoft.ru/projects/TheXTech/"
+        target: "_blank" # optional html a tag target attribute
                
       - name: "SuperTuxKart"
         logo: "assets/tools/supertuxkart.png"
