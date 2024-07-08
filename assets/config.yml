@@ -2814,6 +2814,12 @@ services:
 
       - name: "FTDI Drivers"
         logo: "assets/tools/ftdi.png"
-        subtitle: "VCP、D2XX and D3XX."
+        subtitle: "USB-to-Serial with VCP, D2XX, and D3XX support"
         url: "https://ftdichip.com/drivers/"
+        target: "_blank" # optional html a tag target attribute
+        
+      - name: "SEGGER J-Link"
+        logo: "assets/tools/seggerjlink.png"
+        subtitle: "line of debug probes available"
+        url: "https://www.segger.com/downloads/jlink/"
         target: "_blank" # optional html a tag target attribute
