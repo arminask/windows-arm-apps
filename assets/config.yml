@@ -59,7 +59,7 @@ links:
     target: "_blank" # optional html a tag target attribute 
 
   - name: "Resources"
-    icon: "fa-solid fa-gear"
+    icon: "fa-solid fa-folder"
     url: "#resources"
 
 # Services
@@ -932,6 +932,11 @@ services:
         url: "https://notepad-plus-plus.org/downloads/"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "Notepads App"
+        logo: "assets/tools/notepadsapp.png"
+        url: "https://apps.microsoft.com/detail/9nhl4nsc67wm"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "Notepad2"
         logo: "assets/tools/notepad2.png"
         url: "https://github.com/zufuliu/notepad2/releases"
@@ -991,19 +996,6 @@ services:
       - name: "Rufus"
         logo: "assets/tools/rufus.png"
         url: "https://rufus.ie/"
-        target: "_blank" # optional html a tag target attribute
-
-      - name: "Zadig (libwdi)"
-        logo: "assets/tools/zadig.png"
-        subtitle: "create & autosign USB drivers"        
-        url: "https://github.com/pbatard/libwdi/releases"
-        target: "_blank" # optional html a tag target attribute
-
-      - name: "Ext4Fsd"
-        logo: "assets/tools/ext4fsd.png"
-        subtitle: "ext2/3/4 file system driver"
-        tag: "read from & write onto Linux partitions"        
-        url: "https://www.accum.se/~bosse/ext2fsd/0.71/signed/arm64/"
         target: "_blank" # optional html a tag target attribute
            
       - name: "Ventoy"
@@ -1183,13 +1175,19 @@ services:
         logo: "assets/tools/royalapps.png"
         subtitle: "From the largest data centers, to test labs, to your home network, our products help you manage any kind of IT-infrastructure."
         url: "https://www.royalapps.com/"
-        target: "_blank"       
+        target: "_blank"
 
       - name: "Magpie"
         logo: "assets/tools/magpie.png"
         subtitle: "An all-purpose window upscaler for Windows 10/11."
         url: "https://github.com/Blinue/Magpie/releases"
-        target: "_blank"       
+        target: "_blank"
+
+      - name: "Three Finger Drag"
+        logo: "assets/tools/threefingerdrag.png"
+        subtitle: "embrace the seamless three-finger drag."
+        url: "https://apps.microsoft.com/detail/9msx91wqcm2v"
+        target: "_blank"
 
   - name: "Network & Cloud Storage"
     icon: "fa-solid fa-network-wired"
@@ -1235,6 +1233,12 @@ services:
         url: "https://github.com/minnyres/privoxy-windows-arm64/releases"
         target: "_blank" # optional html a tag target attribute
   
+      - name: "traefik"
+        logo: "assets/tools/traefik.png"
+        subtitle: "The Cloud Native Application Proxy"
+        url: "https://github.com/traefik/traefik/releases"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "AdGuardHome"
         logo: "assets/tools/AdGuardHome.png"
         url: "https://github.com/AdguardTeam/AdGuardHome/releases"
@@ -2018,6 +2022,12 @@ services:
         url: "https://github.com/roines45/glow/releases"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "precord"
+        logo: "assets/tools/clionly.png"
+        subtitle: "unofficial builds - recording process or system performance data."
+        url: "https://github.com/iKineticate/precord/releases"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "fastfetch"
         logo: "assets/tools/clionly.png"
         subtitle: "fetching system information and displaying them in a pretty way."
@@ -2286,6 +2296,18 @@ services:
         logo: "assets/tools/stellarium.png"
         subtitle: "A free open source planetarium for your computer"
         url: "https://github.com/Stellarium/stellarium/releases"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "KeyEcho"
+        logo: "assets/tools/keyccho.png"
+        subtitle: "Listen to Mechanical Keyboard Sounds with Every Keystroke"
+        url: "https://github.com/ZacharyL2/KeyEcho/releases"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "genact"
+        logo: "assets/tools/clionly.png"
+        subtitle: "A nonsense activity generator"
+        url: "https://github.com/svenstaro/genact/releases"
         target: "_blank" # optional html a tag target attribute
 
   - name: "Games"
@@ -2635,6 +2657,12 @@ services:
         url: "https://github.com/Scighost/Starward/releases"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "PotatoVN"
+        logo: "assets/tools/potatovn.png"
+        subtitle: "manage visual novels in your computer."
+        url: "https://apps.microsoft.com/detail/9p9cbkd5hr3w"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "Vassal"
         logo: "assets/tools/vassal.png"
         subtitle: "a boardgame engine offering 2600 titles"        
@@ -2761,4 +2789,37 @@ services:
         subtitle: "Run local AI workloads with Llama 3, Phi-3, and other open-weights LLMs on your Snapdragon X Elite PC."        
         url: "https://lmstudio.ai/snapdragon"
         target: "_blank" # optional html a tag target attribute
-    
+
+  - name: "Driver"
+    icon: "fa-solid fa-hard-drive"
+    items:
+      - name: "Zadig (libwdi)"
+        logo: "assets/tools/zadig.png"
+        subtitle: "create & autosign USB drivers"        
+        url: "https://github.com/pbatard/libwdi/releases"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Ext4Fsd"
+        logo: "assets/tools/ext4fsd.png"
+        subtitle: "ext2/3/4 file system driver"
+        tag: "read from & write onto Linux partitions"        
+        url: "https://www.accum.se/~bosse/ext2fsd/0.71/signed/"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Rockchip"
+        logo: "assets/tools/rockchip.png"
+        subtitle: "RK35xx-based platforms"
+        url: "https://github.com/worproject/Rockchip-Windows-Drivers/releases"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "FTDI Drivers"
+        logo: "assets/tools/ftdi.png"
+        subtitle: "USB-to-Serial with VCP, D2XX, and D3XX support"
+        url: "https://ftdichip.com/drivers/"
+        target: "_blank" # optional html a tag target attribute
+        
+      - name: "SEGGER J-Link"
+        logo: "assets/tools/seggerjlink.png"
+        subtitle: "line of debug probes available"
+        url: "https://www.segger.com/downloads/jlink/"
+        target: "_blank" # optional html a tag target attribute
