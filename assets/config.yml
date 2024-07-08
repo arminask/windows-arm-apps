@@ -2534,7 +2534,7 @@ services:
                
       - name: "Vanilla Conquer TD"
         logo: "assets/tools/vanillaconquertd.png"
-        subtitle: "Command & Conquer: Tiberian Dawn 1995 re-ignited"
+        subtitle: "Command & Conquer 1995 re-ignited"
         tag: "original game data needed"
         url: "https://github.com/ArminiusTux/WinARM64-binaries/releases/tag/VanillaConquerTD"
         target: "_blank" # optional html a tag target attribute
