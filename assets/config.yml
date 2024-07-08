@@ -506,6 +506,12 @@ services:
         url: "https://github.com/ArmCord/ArmCord/releases"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "Vesktop"
+        logo: "assets/tools/Vesktop.png"
+        subtitle: "Custom Discord App aiming to provide better performance"
+        url: "https://github.com/Vencord/Vesktop/releases/latest"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "Slack"
         logo: "assets/tools/slack.png"
         subtitle: "With the Slack app, your team is never more than a click away."
