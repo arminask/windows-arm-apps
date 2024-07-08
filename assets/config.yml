@@ -2805,9 +2805,15 @@ services:
         tag: "read from & write onto Linux partitions"        
         url: "https://www.accum.se/~bosse/ext2fsd/0.71/signed/"
         target: "_blank" # optional html a tag target attribute
-        
+
       - name: "Rockchip"
         logo: "assets/tools/rockchip.png"
         subtitle: "RK35xx-based platforms"
         url: "https://github.com/worproject/Rockchip-Windows-Drivers/releases"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "FTDI Drivers"
+        logo: "assets/tools/ftdi.png"
+        subtitle: "VCP、D2XX and D3XX."
+        url: "https://ftdichip.com/drivers/"
         target: "_blank" # optional html a tag target attribute
