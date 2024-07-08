@@ -59,7 +59,7 @@ links:
     target: "_blank" # optional html a tag target attribute 
 
   - name: "Resources"
-    icon: "fa-solid fa-gear"
+    icon: "fa-solid fa-folder"
     url: "#resources"
 
 # Services
