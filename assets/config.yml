@@ -704,6 +704,12 @@ services:
         subtitle: "unofficial builds"
         url: "https://github.com/tordona/rawtherapee/releases"
         target: "_blank" # optional html a tag target attribute
+        
+      - name: "PTGui"
+        logo: "assets/tools/ptgui.png"
+        subtitle: "Beta build, Panorama Image Stitcher"
+        url: "https://ptgui.com/beta.html"
+        target: "_blank" # optional html a tag target attribute
 
   - name: "Design"
     icon: "fa-solid fa-cube"
