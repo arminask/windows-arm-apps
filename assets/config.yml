@@ -1530,6 +1530,18 @@ services:
         subtitle: "VPN Client."
         url: "https://surfshark.com/download/windows"
         target: "_blank" # optional html a tag target attribute
+        
+      - name: "Viscosity"
+        logo: "assets/tools/viscosity.png"
+        subtitle: "OpenVPN Client."
+        url: "https://www.sparklabs.com/viscosity/"
+        target: "_blank" # optional html a tag target attribute
+        
+      - name: "RealVNC"
+        logo: "assets/tools/realvnc.png"
+        subtitle: "unofficial builds, Remote control tool"
+        url: "https://github.com/medav/realvnc-arm64/releases/tag/final"
+        target: "_blank" # optional html a tag target attribute
 
   - name: "Coding"
     icon: "fa-solid fa-code"
