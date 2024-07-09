@@ -2783,6 +2783,11 @@ services:
         url: "https://github.com/ArminiusTux/WinARM64-binaries/releases/tag/ChessEngines"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "Altair"
+        logo: "assets/tools/altair.png"
+        url: "https://github.com/ArminiusTux/WinARM64-binaries/releases/tag/ChessEngines"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "Frozenight"
         logo: "assets/tools/frozenight.png"
         url: "https://github.com/ArminiusTux/WinARM64-binaries/releases/tag/ChessEngines"
