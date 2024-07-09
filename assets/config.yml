@@ -2807,7 +2807,7 @@ services:
         url: "https://lmstudio.ai/snapdragon"
         target: "_blank" # optional html a tag target attribute
 
-  - name: "Driver"
+  - name: "Drivers"
     icon: "fa-solid fa-hard-drive"
     items:
       - name: "Zadig (libwdi)"
