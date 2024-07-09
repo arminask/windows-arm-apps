@@ -2798,8 +2798,13 @@ services:
         url: "https://github.com/ArminiusTux/WinARM64-binaries/releases/tag/ChessEngines"
         target: "_blank" # optional html a tag target attribute
 
-      - name: "Simbelmyne"
-        logo: "assets/tools/simbelmyne.png"
+      - name: "Princhess"
+        logo: "assets/tools/princhess.png"
+        url: "https://github.com/ArminiusTux/WinARM64-binaries/releases/tag/ChessEngines"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Odonata"
+        logo: "assets/tools/odonata.png"
         url: "https://github.com/ArminiusTux/WinARM64-binaries/releases/tag/ChessEngines"
         target: "_blank" # optional html a tag target attribute
 
@@ -2808,8 +2813,8 @@ services:
         url: "https://github.com/ArminiusTux/WinARM64-binaries/releases/tag/ChessEngines"
         target: "_blank" # optional html a tag target attribute
 
-      - name: "Odonata"
-        logo: "assets/tools/odonata.png"
+      - name: "Simbelmyne"
+        logo: "assets/tools/simbelmyne.png"
         url: "https://github.com/ArminiusTux/WinARM64-binaries/releases/tag/ChessEngines"
         target: "_blank" # optional html a tag target attribute
 
