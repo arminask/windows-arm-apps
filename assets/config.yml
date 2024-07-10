@@ -830,6 +830,12 @@ services:
         url: "https://apps.microsoft.com/detail/drawboard-projects/9NBLGGH314V8"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "PDF24 Creator"
+        logo: "assets/tools/pdf24creator.png"
+        subtitle: "assemble, create and modify PDF files"
+        url: "https://creator.pdf24.org/listVersions.php"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "TeXstudio"
         logo: "assets/tools/texstudio.png"
         subtitle: "unofficial builds"
@@ -1111,6 +1117,12 @@ services:
       - name: "WinQuickLook"
         logo: "assets/tools/WinQuickLook.png"
         url: "https://apps.microsoft.com/detail/9NJMTKK6JC0Q"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "GetStoreApp"
+        logo: "assets/tools/getstoreapp.png"
+        subtitle: "download the required app installation packages offline"
+        url: "https://github.com/Gaoyifei1011/GetStoreApp/releases"
         target: "_blank" # optional html a tag target attribute
 
       - name: "UUP Media Creator"
@@ -2248,7 +2260,14 @@ services:
         logo: "assets/tools/files.png"
         url: "https://files.community/download"
         target: "_blank" # optional html a tag target attribute
-        
+
+      - name: "Coodesker"
+        logo: "assets/tools/coodesker.png"
+        subtitle: "Automatically organize your desktop shortcuts icons and running tasks"
+        tag: "Purchases"
+        url: "https://www.coodesker.com/"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "Cairo"
         logo: "assets/tools/cairo.png"
         url: "https://github.com/cairoshell/cairoshell/releases"
@@ -2944,4 +2963,15 @@ services:
         logo: "assets/tools/seggerjlink.png"
         subtitle: "line of debug probes available"
         url: "https://www.segger.com/downloads/jlink/"
+        target: "_blank" # optional html a tag target attribute
+        
+      - name: "CP210x USB to UART Bridge"
+        logo: "assets/tools/siliconlabs.png"
+        url: "https://www.silabs.com/developers/usb-to-uart-bridge-vcp-drivers?tab=downloads"
+        target: "_blank" # optional html a tag target attribute
+                
+      - name: "CH343SER"
+        logo: "assets/tools/wch.png"
+        subtitle: "supports CH342/CH343/CH344/CH347/CH9101/CH9102/CH9103/CH9104/CH9143"
+        url: "https://www.wch-ic.com/downloads/CH343SER_ZIP.html"
         target: "_blank" # optional html a tag target attribute
