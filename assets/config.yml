@@ -2239,6 +2239,7 @@ services:
       - name: "Coodesker"
         logo: "assets/tools/coodesker.png"
         subtitle: "Automatically organize your desktop shortcuts icons and running tasks"
+        tag: "Purchases"
         url: "https://www.coodesker.com/"
         target: "_blank" # optional html a tag target attribute
 
@@ -2851,4 +2852,9 @@ services:
         logo: "assets/tools/seggerjlink.png"
         subtitle: "line of debug probes available"
         url: "https://www.segger.com/downloads/jlink/"
+        target: "_blank" # optional html a tag target attribute
+        
+      - name: "CP210x USB to UART Bridge"
+        logo: "assets/tools/siliconlabs.png"
+        url: "https://www.silabs.com/developers/usb-to-uart-bridge-vcp-drivers?tab=downloads"
         target: "_blank" # optional html a tag target attribute
