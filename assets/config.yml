@@ -795,7 +795,14 @@ services:
     items:
       - name: "LibreOffice"
         logo: "assets/tools/libreoffice.png"
+        subtitle: "stable (🤞) builds"        
         url: "https://downloadarchive.documentfoundation.org/libreoffice/old/latest/win/aarch64/"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "LibreOffice Dev"
+        logo: "assets/tools/libreoffice.png"
+        subtitle: "pre-release builds for testing"            
+        url: "https://dev-builds.libreoffice.org/pre-releases/win/aarch64/?C=M&O=D"
         target: "_blank" # optional html a tag target attribute
 
       - name: "PDF X-Change Editor"
@@ -2523,6 +2530,13 @@ services:
         tag: "Java"
         url: "https://www.freecol.org/download.html"
         target: "_blank" # optional html a tag target attribute
+
+      - name: "Super Mario Bros. X (TheXTech)"
+        logo: "assets/tools/thextech.png"
+        subtitle: "Super Mario Bros. 1-3 1985-1988 remake"        
+        tag: "full game"       
+        url: "https://wohlsoft.ru/projects/TheXTech/"
+        target: "_blank" # optional html a tag target attribute
                
       - name: "SuperTuxKart"
         logo: "assets/tools/supertuxkart.png"
@@ -2542,13 +2556,27 @@ services:
         url: "https://github.com/ArminiusTux/WinARM64-binaries/releases/tag/wipEout"
         target: "_blank" # optional html a tag target attribute
                
+      - name: "Vanilla Conquer TD"
+        logo: "assets/tools/vanillaconquertd.png"
+        subtitle: "Command & Conquer 1995 re-ignited"
+        tag: "original game data needed"
+        url: "https://github.com/ArminiusTux/WinARM64-binaries/releases/tag/VanillaConquerTD"
+        target: "_blank" # optional html a tag target attribute
+               
       - name: "Vanilla Conquer RA"
         logo: "assets/tools/vanillaconquerra.png"
         subtitle: "Command & Conquer: Red Alert 1996 re-loaded"
         tag: "original game data needed"
         url: "https://github.com/ArminiusTux/WinARM64-binaries/releases/tag/VanillaConquerRA"
         target: "_blank" # optional html a tag target attribute
-                      
+
+      - name: "Open-IG"
+        logo: "assets/tools/openig.png"
+        subtitle: "Imperium Galactica 1997 reimplementation"        
+        tag: "Java / full game"       
+        url: "https://github.com/akarnokd/open-ig"
+        target: "_blank" # optional html a tag target attribute
+                        
       - name: "OpenTomb"
         logo: "assets/tools/opentomb.png"
         subtitle: "Tomb Raider 1-5 1996-2003 engine remake"
@@ -2733,19 +2761,34 @@ services:
         url: "https://github.com/ArminiusTux/WinARM64-binaries/releases/tag/Stockfish"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "Caissa"
+        logo: "assets/tools/caissa.png"
+        url: "https://github.com/ArminiusTux/WinARM64-binaries/releases/tag/ChessEngines"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Alexandria"
+        logo: "assets/tools/alexandria.png"
+        url: "https://github.com/ArminiusTux/WinARM64-binaries/releases/tag/ChessEngines"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "RubiChess"
         logo: "assets/tools/rubichess.png"
         subtitle: "official builds"
         url: "https://github.com/Matthies/RubiChess/releases"
         target: "_blank" # optional html a tag target attribute
 
-      - name: "Caissa"
-        logo: "assets/tools/caissa.png"
+      - name: "Lizard"
+        logo: "assets/tools/lizard.png"
         url: "https://github.com/ArminiusTux/WinARM64-binaries/releases/tag/ChessEngines"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Koivisto"
         logo: "assets/tools/koivisto.png"
+        url: "https://github.com/ArminiusTux/WinARM64-binaries/releases/tag/ChessEngines"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Peacekeeper"
+        logo: "assets/tools/peacekeeper.png"
         url: "https://github.com/ArminiusTux/WinARM64-binaries/releases/tag/ChessEngines"
         target: "_blank" # optional html a tag target attribute
 
@@ -2764,6 +2807,11 @@ services:
         url: "https://github.com/ArminiusTux/WinARM64-binaries/releases/tag/ChessEngines"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "Altair"
+        logo: "assets/tools/altair.png"
+        url: "https://github.com/ArminiusTux/WinARM64-binaries/releases/tag/ChessEngines"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "Frozenight"
         logo: "assets/tools/frozenight.png"
         url: "https://github.com/ArminiusTux/WinARM64-binaries/releases/tag/ChessEngines"
@@ -2774,13 +2822,8 @@ services:
         url: "https://github.com/ArminiusTux/WinARM64-binaries/releases/tag/ChessEngines"
         target: "_blank" # optional html a tag target attribute
 
-      - name: "Simbelmyne"
-        logo: "assets/tools/simbelmyne.png"
-        url: "https://github.com/ArminiusTux/WinARM64-binaries/releases/tag/ChessEngines"
-        target: "_blank" # optional html a tag target attribute
-
-      - name: "FabChess"
-        logo: "assets/tools/clionly.png"
+      - name: "Princhess"
+        logo: "assets/tools/princhess.png"
         url: "https://github.com/ArminiusTux/WinARM64-binaries/releases/tag/ChessEngines"
         target: "_blank" # optional html a tag target attribute
 
@@ -2789,8 +2832,13 @@ services:
         url: "https://github.com/ArminiusTux/WinARM64-binaries/releases/tag/ChessEngines"
         target: "_blank" # optional html a tag target attribute
 
-      - name: "Weiawaga"
-        logo: "assets/tools/weiawaga.png"
+      - name: "FabChess"
+        logo: "assets/tools/clionly.png"
+        url: "https://github.com/ArminiusTux/WinARM64-binaries/releases/tag/ChessEngines"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Simbelmyne"
+        logo: "assets/tools/simbelmyne.png"
         url: "https://github.com/ArminiusTux/WinARM64-binaries/releases/tag/ChessEngines"
         target: "_blank" # optional html a tag target attribute
 
@@ -2799,8 +2847,53 @@ services:
         url: "https://github.com/ArminiusTux/WinARM64-binaries/releases/tag/ChessEngines"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "Weiawaga"
+        logo: "assets/tools/weiawaga.png"
+        url: "https://github.com/ArminiusTux/WinARM64-binaries/releases/tag/ChessEngines"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Oxidation"
+        logo: "assets/tools/oxidation.png"
+        url: "https://github.com/ArminiusTux/WinARM64-binaries/releases/tag/ChessEngines"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Fatalii"
+        logo: "assets/tools/fatalii.png"
+        url: "https://github.com/ArminiusTux/WinARM64-binaries/releases/tag/ChessEngines"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "Camel"
         logo: "assets/tools/camel.png"
+        url: "https://github.com/ArminiusTux/WinARM64-binaries/releases/tag/ChessEngines"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Peripheral"
+        logo: "assets/tools/peripheral.png"
+        url: "https://github.com/ArminiusTux/WinARM64-binaries/releases/tag/ChessEngines"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Rustic"
+        logo: "assets/tools/rustic.png"
+        url: "https://github.com/ArminiusTux/WinARM64-binaries/releases/tag/ChessEngines"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Cadabra"
+        logo: "assets/tools/cadabra.png"
+        url: "https://github.com/ArminiusTux/WinARM64-binaries/releases/tag/ChessEngines"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Pulse"
+        logo: "assets/tools/pulse.png"
+        url: "https://github.com/ArminiusTux/WinARM64-binaries/releases/tag/ChessEngines"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Cicada"
+        logo: "assets/tools/cicada.png"
+        url: "https://github.com/ArminiusTux/WinARM64-binaries/releases/tag/ChessEngines"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Walleye"
+        logo: "assets/tools/walleye.png"
         url: "https://github.com/ArminiusTux/WinARM64-binaries/releases/tag/ChessEngines"
         target: "_blank" # optional html a tag target attribute
 
