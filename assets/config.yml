@@ -1119,6 +1119,12 @@ services:
         url: "https://apps.microsoft.com/detail/9NJMTKK6JC0Q"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "GetStoreApp"
+        logo: "assets/tools/getstoreapp.png"
+        subtitle: "download the required app installation packages offline"
+        url: "https://github.com/Gaoyifei1011/GetStoreApp/releases"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "UUP Media Creator"
         logo: "assets/tools/uupmediacreator.png"
         url: "https://github.com/gus33000/UUPMediaCreator/releases"
