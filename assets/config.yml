@@ -2229,7 +2229,13 @@ services:
         logo: "assets/tools/files.png"
         url: "https://files.community/download"
         target: "_blank" # optional html a tag target attribute
-        
+
+      - name: "Coodesker"
+        logo: "assets/tools/coodesker.png"
+        subtitle: "Automatically organize your desktop shortcuts icons and running tasks"
+        url: "https://www.coodesker.com/"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "Cairo"
         logo: "assets/tools/cairo.png"
         url: "https://github.com/cairoshell/cairoshell/releases"
