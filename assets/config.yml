@@ -2095,9 +2095,29 @@ services:
         url: "https://www.crowdstrike.com/products/faq/"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "ESET NOD32 Antivirus"
+        logo: "assets/tools/ESET.png"
+        url: "https://www.eset.com/int/home/antivirus/download/"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "ESET Internet Security"
+        logo: "assets/tools/ESET.png"
+        url: "https://www.eset.com/us/home/internet-security/download/"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "ESET Smart Security Premium"
         logo: "assets/tools/ESET.png"
         url: "https://www.eset.com/int/home/smart-security-premium/download/"
+        target: "_blank" # optional html a tag target attribute
+        
+      - name: "ESET Security Ultimate"
+        logo: "assets/tools/ESET.png"
+        url: "https://www.eset.com/us/home/free-trial/"
+        target: "_blank" # optional html a tag target attribute
+        
+      - name: "ESET Small Business Security"
+        logo: "assets/tools/ESET.png"
+        url: "https://www.eset.com/us/home/free-trial/#small-office-protection"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Bitdefender Antivirus Free"
