@@ -2858,3 +2858,9 @@ services:
         logo: "assets/tools/siliconlabs.png"
         url: "https://www.silabs.com/developers/usb-to-uart-bridge-vcp-drivers?tab=downloads"
         target: "_blank" # optional html a tag target attribute
+                
+      - name: "CH343SER"
+        logo: "assets/tools/wch.png"
+        subtitle: "supports CH342/CH343/CH344/CH347/CH9101/CH9102/CH9103/CH9104/CH9143"
+        url: "https://www.wch-ic.com/downloads/CH343SER_ZIP.html"
+        target: "_blank" # optional html a tag target attribute
