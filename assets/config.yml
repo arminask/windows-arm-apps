@@ -2963,6 +2963,12 @@ services:
         url: "https://lmstudio.ai/snapdragon"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "Netron"
+        logo: "assets/tools/netron.png"     
+        subtitle: "Visualizer for neural network, deep learning and machine learning models"        
+        url: "https://github.com/lutzroeder/netron/releases"
+        target: "_blank" # optional html a tag target attribute
+
   - name: "Drivers"
     icon: "fa-solid fa-hard-drive"
     items:
