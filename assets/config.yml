@@ -1720,6 +1720,12 @@ services:
         url: "https://adoptium.net/temurin/nightly/"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "INSTALL4J"
+        logo: "assets/tools/INSTALL4J.png"
+        subtitle: "The versatile multi-platform Java installer builder."
+        url: "https://www.ej-technologies.com/download/install4j/files"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "Bazel"
         logo: "assets/tools/bazel.png"
         url: "https://github.com/bazelbuild/bazel/releases"
@@ -1750,7 +1756,7 @@ services:
         subtitle: ".NET assembly browser and decompiler"
         url: "https://github.com/icsharpcode/ILSpy/releases"
         target: "_blank" # optional html a tag target attribute
-        
+
       - name: "Visual Studio Code"
         logo: "assets/tools/visualstudiocode.png"
         url: "https://apps.microsoft.com/store/detail/visual-studio-code/XP9KHM4BK9FZ7Q"
