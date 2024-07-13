@@ -1738,9 +1738,9 @@ services:
         url: "https://apps.microsoft.com/store/detail/visual-studio-code/XP9KHM4BK9FZ7Q"
         target: "_blank" # optional html a tag target attribute
         
-      - name: "Visual Studio Community 2022"
+      - name: "Visual Studio Community/Professional/Enterprise 2022"
         logo: "assets/tools/visualstudiocommunity2022.png"
-        url: "https://apps.microsoft.com/store/detail/visual-studio-community-2022/XPDCFJDKLZJLP8"
+        url: "https://visualstudio.microsoft.com/vs/"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Zig"
