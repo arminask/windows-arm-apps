@@ -1615,6 +1615,12 @@ services:
         url: "https://www.python.org/downloads/windows/"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "ruff"
+        logo: "assets/tools/ruff.png"
+        subtitle: "an extremely fast Python linter and code formatter"
+        url: "https://github.com/astral-sh/ruff/releases"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "LLVM"
         logo: "assets/tools/llvm.png"
         url: "https://releases.llvm.org/"
