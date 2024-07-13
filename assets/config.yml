@@ -1739,12 +1739,18 @@ services:
         logo: "assets/tools/devtoys.png"
         url: "https://devtoys.app/"
         target: "_blank" # optional html a tag target attribute
-        
+            
       - name: ".NET SDK & Runtime"
         logo: "assets/tools/dotnet.png"
         url: "https://dotnet.microsoft.com/en-us/download/dotnet"
         target: "_blank" # optional html a tag target attribute
-            
+
+      - name: "ILSpy"
+        logo: "assets/tools/ilspy.png"
+        subtitle: ".NET assembly browser and decompiler"
+        url: "https://github.com/icsharpcode/ILSpy/releases"
+        target: "_blank" # optional html a tag target attribute
+        
       - name: "Visual Studio Code"
         logo: "assets/tools/visualstudiocode.png"
         url: "https://apps.microsoft.com/store/detail/visual-studio-code/XP9KHM4BK9FZ7Q"
