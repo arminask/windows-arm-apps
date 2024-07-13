@@ -1855,6 +1855,12 @@ services:
         subtitle: "Dev Home is a new experience from Microsoft aiming to give developers more power on Windows."
         url: "https://github.com/microsoft/devhome"
         target: "_blank" # optional html a tag target attribute
+        
+      - name: "LINQPad"
+        logo: "assets/tools/linqpad.png"
+        subtitle: "The .NET Programmer’s Playground"
+        url: "https://www.linqpad.net/Download.aspx"
+        target: "_blank" # optional html a tag target attribute        
            
   - name: "Emulation & Virtualization"
     icon: "fa-solid fa-microchip"
