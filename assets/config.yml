@@ -998,9 +998,16 @@ services:
       - name: "Typora" # App name
         logo: "assets/tools/typora.png" # App icon
         subtitle: "minimal markdown editor and reader"
+        tag: "Purchases"
         url: "https://typora.io/#download" # URL to download the app
         target: "_blank"
                 
+      - name: "MarkText" # App name
+        logo: "assets/tools/marktext.png" # App icon
+        subtitle: "unofficial builds - markdown editor"
+        url: "https://github.com/RockLakeGrass/Windows-ARM64-marktext/releases" # URL to download the app
+        target: "_blank"
+
       - name: "Windows File Manager (WinFile)"
         logo: "assets/tools/winfile.png"
         url: "https://apps.microsoft.com/store/detail/windows-file-manager/9P7VBBBC49RB"
