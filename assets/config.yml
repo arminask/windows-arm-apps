@@ -931,6 +931,12 @@ services:
         url: "https://github.com/Beaver-Notes/Beaver-Notes"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "妙笔 / WonderPen"
+        logo: "assets/tools/wonderpen.png"
+        subtitle: "a professional writing app with a focused and fluid writing experience."
+        url: "https://www.tominlab.com/wonderpen/downloads"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "Notesnook" # App name
         subtitle: "Secure Private Notes"
         logo: "assets/tools/notesnook.png" # App icon
