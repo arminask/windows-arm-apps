@@ -710,6 +710,12 @@ services:
         subtitle: "Beta build, Panorama Image Stitcher"
         url: "https://ptgui.com/beta.html"
         target: "_blank" # optional html a tag target attribute
+        
+      - name: "Adobe DNG Converter"
+        logo: "assets/tools/adobedngconverter.png"
+        subtitle: "convert to a more universal DNG raw file"
+        url: "https://helpx.adobe.com/ee/camera-raw/using/adobe-dng-converter.html"
+        target: "_blank" # optional html a tag target attribute
 
   - name: "Design"
     icon: "fa-solid fa-cube"
