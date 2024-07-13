@@ -211,6 +211,11 @@ services:
         url: "https://apps.microsoft.com/detail/9NBLGGH5WXNW"
         target: "_blank" # optional html a tag target attribute
         
+      - name: "FreeTube"
+        logo: "assets/tools/freetube.png"
+        url: "https://freetubeapp.io/#download"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "聚合直播"
         logo: "assets/tools/alllive.png"
         subtitle: "聚合多个直播网站"
