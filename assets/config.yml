@@ -2223,6 +2223,12 @@ services:
         url: "https://www.veracrypt.fr/en/Downloads.html"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "UFS Explorer"
+        logo: "assets/tools/ufsexplorer.png"
+        subtitle: "date recovery and access software"
+        url: "https://www.ufsexplorer.com/download/"
+        target: "_blank" # optional html a tag target attribute
+
   - name: "Theme & Styles"
     icon: "fa-solid fa-brush"
     items:
