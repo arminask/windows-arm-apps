@@ -1598,6 +1598,12 @@ services:
         url: "https://github.com/medav/realvnc-arm64/releases/tag/final"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "NatTypeTester"
+        logo: "assets/tools/nattypetester.png"
+        subtitle: "Test the NAT type of the current network"
+        url: "https://github.com/HMBSbige/NatTypeTester/releases"
+        target: "_blank" # optional html a tag target attribute
+
   - name: "Coding"
     icon: "fa-solid fa-code"
     items:
