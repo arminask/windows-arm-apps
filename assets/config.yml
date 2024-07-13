@@ -1001,7 +1001,13 @@ services:
         tag: "Purchases"
         url: "https://typora.io/#download" # URL to download the app
         target: "_blank"
-                
+
+      - name: "Markdown Lite" # App name
+        logo: "assets/tools/markdownlite.png" # App icon
+        subtitle: "supports LaTeX formulas and UML drawings."
+        url: "https://apps.microsoft.com/detail/9nnsddp6nvkd" # URL to download the app
+        target: "_blank"
+
       - name: "MarkText" # App name
         logo: "assets/tools/marktext.png" # App icon
         subtitle: "unofficial builds - markdown editor"
