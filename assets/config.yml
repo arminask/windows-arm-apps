@@ -1923,6 +1923,12 @@ services:
         url: "https://github.com/microsoft/devhome"
         target: "_blank" # optional html a tag target attribute
            
+      - name: "Tiny RDM"
+        logo: "assets/tools/tinyrdm.png"
+        subtitle: "A Modern Redis GUI Client"
+        url: "https://github.com/tiny-craft/tiny-rdm/releases"
+        target: "_blank" # optional html a tag target attribute
+
   - name: "Emulation & Virtualization"
     icon: "fa-solid fa-microchip"
     items:
