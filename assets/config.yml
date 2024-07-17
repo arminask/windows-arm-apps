@@ -211,6 +211,11 @@ services:
         url: "https://apps.microsoft.com/detail/9NBLGGH5WXNW"
         target: "_blank" # optional html a tag target attribute
         
+      - name: "FreeTube"
+        logo: "assets/tools/freetube.png"
+        url: "https://freetubeapp.io/#download"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "聚合直播"
         logo: "assets/tools/alllive.png"
         subtitle: "聚合多个直播网站"
@@ -710,6 +715,12 @@ services:
         subtitle: "Beta build, Panorama Image Stitcher"
         url: "https://ptgui.com/beta.html"
         target: "_blank" # optional html a tag target attribute
+        
+      - name: "Adobe DNG Converter"
+        logo: "assets/tools/adobedngconverter.png"
+        subtitle: "convert to a more universal DNG raw file"
+        url: "https://helpx.adobe.com/ee/camera-raw/using/adobe-dng-converter.html"
+        target: "_blank" # optional html a tag target attribute
 
   - name: "Design"
     icon: "fa-solid fa-cube"
@@ -917,13 +928,25 @@ services:
       - name: "Obsidian"
         logo: "assets/tools/obsidian.png"
         url: "https://obsidian.md/download"
-        target: "_blank" # optional html a tag target attribute 
+        target: "_blank" # optional html a tag target attribute
 
       - name: "SiYuan"
         logo: "assets/tools/siyuan.png"
         subtitle: "a privacy-first personal knowledge management system"
         url: "https://b3log.org/siyuan/download.html"
-        target: "_blank" # optional html a tag target attribute 
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Beaver Notes"
+        logo: "assets/tools/beavernotes.png"
+        subtitle: "Build your knowledge one log at a time"
+        url: "https://github.com/Beaver-Notes/Beaver-Notes"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "妙笔 / WonderPen"
+        logo: "assets/tools/wonderpen.png"
+        subtitle: "a professional writing app with a focused and fluid writing experience."
+        url: "https://www.tominlab.com/wonderpen/downloads"
+        target: "_blank" # optional html a tag target attribute
 
       - name: "Notesnook" # App name
         subtitle: "Secure Private Notes"
@@ -975,9 +998,22 @@ services:
       - name: "Typora" # App name
         logo: "assets/tools/typora.png" # App icon
         subtitle: "minimal markdown editor and reader"
+        tag: "Purchases"
         url: "https://typora.io/#download" # URL to download the app
         target: "_blank"
-                
+
+      - name: "Markdown Lite" # App name
+        logo: "assets/tools/markdownlite.png" # App icon
+        subtitle: "supports LaTeX formulas and UML drawings."
+        url: "https://apps.microsoft.com/detail/9nnsddp6nvkd" # URL to download the app
+        target: "_blank"
+
+      - name: "MarkText" # App name
+        logo: "assets/tools/marktext.png" # App icon
+        subtitle: "unofficial builds - markdown editor"
+        url: "https://github.com/RockLakeGrass/Windows-ARM64-marktext/releases" # URL to download the app
+        target: "_blank"
+
       - name: "Windows File Manager (WinFile)"
         logo: "assets/tools/winfile.png"
         url: "https://apps.microsoft.com/store/detail/windows-file-manager/9P7VBBBC49RB"
@@ -1257,6 +1293,13 @@ services:
         url: "https://github.com/apernet/hysteria/releases"
         target: "_blank" # optional html a tag target attribute
         
+      - name: "Charles"
+        logo: "assets/tools/charles.png"
+        subtitle: "an HTTP proxy / HTTP monitor / Reverse Proxy"
+        tag: "Beta"
+        url: "https://www.charlesproxy.com/download/beta/"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "NaïveProxy"
         logo: "assets/tools/clionly.png"
         subtitle: "uses Chromium's network stack to camouflage traffic"
@@ -1562,6 +1605,12 @@ services:
         url: "https://github.com/medav/realvnc-arm64/releases/tag/final"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "NatTypeTester"
+        logo: "assets/tools/nattypetester.png"
+        subtitle: "Test the NAT type of the current network"
+        url: "https://github.com/HMBSbige/NatTypeTester/releases"
+        target: "_blank" # optional html a tag target attribute
+
   - name: "Coding"
     icon: "fa-solid fa-code"
     items:
@@ -1601,6 +1650,12 @@ services:
       - name: "Python"
         logo: "assets/tools/python.png"
         url: "https://www.python.org/downloads/windows/"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "ruff"
+        logo: "assets/tools/ruff.png"
+        subtitle: "an extremely fast Python linter and code formatter"
+        url: "https://github.com/astral-sh/ruff/releases"
         target: "_blank" # optional html a tag target attribute
 
       - name: "LLVM"
@@ -1708,6 +1763,12 @@ services:
         url: "https://adoptium.net/temurin/nightly/"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "INSTALL4J"
+        logo: "assets/tools/INSTALL4J.png"
+        subtitle: "The versatile multi-platform Java installer builder."
+        url: "https://www.ej-technologies.com/download/install4j/files"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "Bazel"
         logo: "assets/tools/bazel.png"
         url: "https://github.com/bazelbuild/bazel/releases"
@@ -1727,12 +1788,18 @@ services:
         logo: "assets/tools/devtoys.png"
         url: "https://devtoys.app/"
         target: "_blank" # optional html a tag target attribute
-        
+            
       - name: ".NET SDK & Runtime"
         logo: "assets/tools/dotnet.png"
         url: "https://dotnet.microsoft.com/en-us/download/dotnet"
         target: "_blank" # optional html a tag target attribute
-            
+
+      - name: "ILSpy"
+        logo: "assets/tools/ilspy.png"
+        subtitle: ".NET assembly browser and decompiler"
+        url: "https://github.com/icsharpcode/ILSpy/releases"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "Visual Studio Code"
         logo: "assets/tools/visualstudiocode.png"
         url: "https://apps.microsoft.com/store/detail/visual-studio-code/XP9KHM4BK9FZ7Q"
@@ -1856,6 +1923,12 @@ services:
         url: "https://github.com/microsoft/devhome"
         target: "_blank" # optional html a tag target attribute
            
+      - name: "Tiny RDM"
+        logo: "assets/tools/tinyrdm.png"
+        subtitle: "A Modern Redis GUI Client"
+        url: "https://github.com/tiny-craft/tiny-rdm/releases"
+        target: "_blank" # optional html a tag target attribute
+
   - name: "Emulation & Virtualization"
     icon: "fa-solid fa-microchip"
     items:
@@ -2221,6 +2294,12 @@ services:
         logo: "assets/tools/veracrypt.png"
         subtitle: "a free open source disk encryption software"
         url: "https://www.veracrypt.fr/en/Downloads.html"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "UFS Explorer"
+        logo: "assets/tools/ufsexplorer.png"
+        subtitle: "date recovery and access software"
+        url: "https://www.ufsexplorer.com/download/"
         target: "_blank" # optional html a tag target attribute
 
   - name: "Theme & Styles"
@@ -2949,6 +3028,12 @@ services:
         logo: "assets/tools/lmstudio.png"     
         subtitle: "Run local AI workloads with Llama 3, Phi-3, and other open-weights LLMs on your Snapdragon X Elite PC."        
         url: "https://lmstudio.ai/snapdragon"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Netron"
+        logo: "assets/tools/netron.png"     
+        subtitle: "Visualizer for neural network, deep learning and machine learning models"        
+        url: "https://github.com/lutzroeder/netron/releases"
         target: "_blank" # optional html a tag target attribute
 
   - name: "Drivers"
