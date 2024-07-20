@@ -990,9 +990,9 @@ services:
         url: "https://apps.microsoft.com/detail/9nhl4nsc67wm"
         target: "_blank" # optional html a tag target attribute
 
-      - name: "Notepad2"
-        logo: "assets/tools/notepad2.png"
-        url: "https://github.com/zufuliu/notepad2/releases"
+      - name: "Notepad4"
+        logo: "assets/tools/notepad4.png"
+        url: "https://github.com/zufuliu/notepad4/releases"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Typora" # App name
@@ -1810,6 +1810,18 @@ services:
         url: "https://visualstudio.microsoft.com/vs/"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "Tabs Studio for Visual Studio 2022"
+        logo: "assets/tools/tabsstudio.png"
+        subtitle: "Add-In for multi row, color coded tabs, and more"
+        url: "https://tabsstudio.com/download.html"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Typewriter for Visual Studio 2022"
+        logo: "assets/tools/typewriteraddin.png"
+        subtitle: "Supported fork, add-in for Visual Studio that generates TypeScript files from c# code files using TypeScript templates."
+        url: "https://github.com/AdaskoTheBeAsT/Typewriter/releases"
+        target: "_blank" # optional html a tag target attribute        
+        
       - name: "Zig"
         logo: "assets/tools/zig.png"
         subtitle: "a general-purpose programming language and toolchain"
@@ -1954,6 +1966,12 @@ services:
         subtitle: "run old 16-bit Windows apps seamlessly"
         url: "https://github.com/otya128/ntvdm64.dll"
         target: "_blank" # optional html a tag target attribute
+        
+      - name: "ntvdm"
+        logo: "assets/tools/clionly.png"
+        subtitle: "An NT Virtual DOS Machine"
+        url: "https://github.com/davidly/ntvdm"
+        target: "_blank" # optional html a tag target attribute       
                  
       - name: "86Box"
         logo: "assets/tools/86box.png"
@@ -2470,28 +2488,38 @@ services:
         url: "https://github.com/svenstaro/genact/releases"
         target: "_blank" # optional html a tag target attribute
 
-  - name: "Games"
+  - name: "Game Console Emulation"
     icon: "fa-solid fa-gamepad"
     items:
       - name: "Dolphin"
         logo: "assets/tools/dolphin.png"
+        subtitle: "Wii and Gamecube emulator"
         url: "https://dolphin-emu.org/download/?ref=btn"
         target: "_blank" # optional html a tag target attribute
         
       - name: "PPSSPP"
         logo: "assets/tools/ppsspp.png"
+        subtitle: "PSP Emulator"
         url: "https://www.ppsspp.org/download/"
         target: "_blank" # optional html a tag target attribute
         
       - name: "RetroArch"
         logo: "assets/tools/RetroArch.png"
-        subtitle: "unofficial builds"
+        subtitle: "unofficial builds, multi console emulator"       
         tag: "ARM32"        
         url: "https://github.com/basharast/RetroArch-ARM/releases"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "RetriXGold"
+        logo: "assets/tools/retrixgold.png"
+        subtitle: "Universal Libretro Frontend"  
+        tag: "ARM32"
+        url: "https://github.com/basharast/RetrixGold/releases"
+        target: "_blank" # optional html a tag target attribute
+        
       - name: "DuckStation"
         logo: "assets/tools/duckstation.png"
+        subtitle: "PlayStation 1, aka. PSX Emulator"
         url: "https://github.com/stenzek/duckstation/releases/tag/latest"
         target: "_blank" # optional html a tag target attribute
 
@@ -2500,21 +2528,10 @@ services:
         subtitle: "emulator for LucasArts & LucasFilm games"
         url: "https://aarongiles.com/dreamm/"
         target: "_blank" # optional html a tag target attribute
-                 
-      - name: "RetriXGold"
-        logo: "assets/tools/retrixgold.png"
-        tag: "ARM32"
-        url: "https://github.com/basharast/RetrixGold/releases"
-        target: "_blank" # optional html a tag target attribute
-       
-      - name: "OpenCL & OpenGL Compatibility Pack"
-        logo: "assets/tools/openglcompat.png"
-        url: "https://apps.microsoft.com/detail/9nqpsl29bfff"
-        target: "_blank" # optional html a tag target attribute
-            
+        
       - name: "ScummVM"
         logo: "assets/tools/scummvm.png"
-        subtitle: "unofficial builds"
+        subtitle: "unofficial builds, adventure game emualtor, over 325 games supported"
         url: "https://github.com/ArminiusTux/WinARM64-binaries/releases/tag/ScummVM"
         target: "_blank" # optional html a tag target attribute
 
@@ -2532,21 +2549,29 @@ services:
 
       - name: "Nintendulator"
         logo: "assets/tools/nintendulator.png"
-        subtitle: "unofficial builds"
+        subtitle: "unofficial builds, NES (Nintendo) emulator"
         url: "https://github.com/tordona/nintendulator/releases"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Snes9x"
         logo: "assets/tools/snes9x.png"
-        subtitle: "unofficial builds"
+        subtitle: "unofficial builds, SNES (Super Nintendo) emulator"
         url: "https://github.com/tordona/snes9x/releases"
         target: "_blank" # optional html a tag target attribute
          
       - name: "melonDS"
         logo: "assets/tools/melonds.png"
-        subtitle: "unofficial builds"
+        subtitle: "unofficial builds, Nintendo DS emulator"
         url: "https://github.com/mijk84/win-arm64-binaries/releases/tag/nelons-31072022"
         target: "_blank" # optional html a tag target attribute
+        
+  - name: "Games"
+    icon: "fa-solid fa-gamepad"
+    items:                     
+      - name: "OpenCL & OpenGL Compatibility Pack"
+        logo: "assets/tools/openglcompat.png"
+        url: "https://apps.microsoft.com/detail/9nqpsl29bfff"
+        target: "_blank" # optional html a tag target attribute         
            
       - name: "Great Conqueror"
         logo: "assets/tools/GreatConqueror.png"
