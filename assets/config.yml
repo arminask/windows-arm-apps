@@ -382,6 +382,12 @@ services:
         url: "https://www.xreveal.com/"
         target: "_blank" # optional html a tag target attribute        
 
+      - name: "ACDR"
+        logo: "assets/tools/acdr.png"
+        subtitle: "Audio Compact Disc Reader"
+        url: "https://www.fmjsoft.com/acdr.html#download"
+        target: "_blank" # optional html a tag target attribute        
+
       - name: "go2rtc"
         logo: "assets/tools/go2rtc.png"
         subtitle: "camera streaming solution"
