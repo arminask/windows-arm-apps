@@ -1001,6 +1001,12 @@ services:
         url: "https://github.com/zufuliu/notepad4/releases"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "EditPlus"
+        logo: "assets/tools/editplus.png"
+        tag: "Purchases"
+        url: "https://www.editplus.com/download.html"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "Typora" # App name
         logo: "assets/tools/typora.png" # App icon
         subtitle: "minimal markdown editor and reader"
