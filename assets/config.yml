@@ -2470,6 +2470,12 @@ services:
         url: "https://apps.microsoft.com/detail/9N33PK9646X9"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "Lively Weather"
+        logo: "assets/tools/livelyweather.png"
+        subtitle: "Experience live weather effects powered by DirectX."
+        url: "https://apps.microsoft.com/detail/9pp0mfqfvsc5"
+        target: "_blank" # optional html a tag target attribute
+        
       - name: "Stellarium"
         logo: "assets/tools/stellarium.png"
         subtitle: "A free open source planetarium for your computer"
