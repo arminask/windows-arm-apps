@@ -1261,6 +1261,12 @@ services:
         url: "https://apps.microsoft.com/detail/9msx91wqcm2v"
         target: "_blank"
 
+      - name: "Nightingale"
+        logo: "assets/tools/nightingale.png"
+        subtitle: "resource-efficient REST API client for Windows"
+        url: "https://github.com/jenius-apps/nightingale-rest-api-client/releases"
+        target: "_blank"
+
   - name: "Network & Cloud Storage"
     icon: "fa-solid fa-network-wired"
     items:
@@ -2475,7 +2481,7 @@ services:
         subtitle: "Experience live weather effects powered by DirectX."
         url: "https://apps.microsoft.com/detail/9pp0mfqfvsc5"
         target: "_blank" # optional html a tag target attribute
-        
+
       - name: "Stellarium"
         logo: "assets/tools/stellarium.png"
         subtitle: "A free open source planetarium for your computer"
