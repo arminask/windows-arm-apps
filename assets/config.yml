@@ -847,6 +847,12 @@ services:
         url: "https://creator.pdf24.org/listVersions.php"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "Scanner"
+        logo: "assets/tools/scanner.png"
+        subtitle: "Quick and Easy Document Scanning"
+        url: "https://apps.microsoft.com/detail/9n438mzhd3zf"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "TeXstudio"
         logo: "assets/tools/texstudio.png"
         subtitle: "unofficial builds"
