@@ -1203,10 +1203,16 @@ services:
         
       - name: "Office Tool Plus" # App name
         logo: "assets/tools/Office Tool Plus.png" # App icon
-        url: "https://github.com/YerongAI/Office-Tool/releases/" # URL to download the app
         subtitle: "A powerful and useful tool for Office deployments"
+        url: "https://github.com/YerongAI/Office-Tool/releases/" # URL to download the app
         target: "_blank"
         
+      - name: "OFGB" # App name
+        logo: "assets/tools/ofgb.png" # App icon
+        subtitle: "Removes Ads From Various Places Around Windows 11"
+        url: "https://github.com/xM4ddy/OFGB/releases" # URL to download the app
+        target: "_blank"
+
       - name: "HashTool" # App name
         logo: "assets/tools/hashtool.png" # App icon
         subtitle: "calculate the hash values of files or folders."
