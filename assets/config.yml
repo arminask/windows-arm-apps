@@ -1031,6 +1031,12 @@ services:
         url: "https://www.editplus.com/download.html"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "BowPad"
+        logo: "assets/tools/bowpad.png"
+        subtitle: "text editor with a ribbon UI"
+        url: "https://github.com/stefankueng/BowPad/releases"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "Typora" # App name
         logo: "assets/tools/typora.png" # App icon
         subtitle: "minimal markdown editor and reader"
