@@ -566,12 +566,18 @@ services:
         logo: "assets/tools/vuescan.png"
         url: "https://www.hamrick.com/alternate-versions.html"
         target: "_blank" # optional html a tag target attribute
-                        
+
       - name: "ImageMagick"
         logo: "assets/tools/imagemagick.png"
         url: "https://imagemagick.org/script/download.php#windows"
         target: "_blank" # optional html a tag target attribute
-                           
+
+      - name: "Any Image"
+        logo: "assets/tools/anyimage.png"
+        subtitle: "high quality image file conversions."
+        url: "https://www.fmjsoft.com/anyimage.html#download"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "Gifsicle"
         logo: "assets/tools/gifsicle.png"
         subtitle: "unofficial builds"
