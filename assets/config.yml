@@ -545,17 +545,23 @@ services:
         logo: "assets/tools/imageglass.png"
         url: "https://github.com/d2phap/ImageGlass/releases"
         target: "_blank" # optional html a tag target attribute
-        
+
       - name: "PicView"
         logo: "assets/tools/picview.png"
         url: "https://github.com/Ruben2776/PicView/releases/"
         target: "_blank" # optional html a tag target attribute
-                  
+
+      - name: "Image Eye"
+        logo: "assets/tools/imageeye.png"
+        subtitle: "viewing images as quickly — nothing else"
+        url: "https://www.fmjsoft.com/imageeye.html#download"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "ScreenToGif"
         logo: "assets/tools/screentogif.png"
         url: "https://www.screentogif.com/"
         target: "_blank" # optional html a tag target attribute          
-                        
+
       - name: "VueScan"
         logo: "assets/tools/vuescan.png"
         url: "https://www.hamrick.com/alternate-versions.html"
