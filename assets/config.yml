@@ -349,6 +349,12 @@ services:
         url: "https://github.com/henricj/audacity/releases/tag/latest-arm64"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "Awave Studio"
+        logo: "assets/tools/awavestudio.png"
+        subtitle: "a multi-purpose audio tool"
+        url: "https://www.fmjsoft.com/awavestudio.html#download"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "tsMuxeR"
         logo: "assets/tools/tsmuxer.png"
         subtitle: "unofficial builds"
