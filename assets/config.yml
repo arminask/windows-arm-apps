@@ -1305,6 +1305,12 @@ services:
         url: "https://meshcentral.com/downloads.html"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "Natpass"
+        logo: "assets/tools/natpass.png"
+        subtitle: "supports shell management and remote desktop management"
+        url: "https://github.com/lwch/natpass/releases"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "hysteria"
         logo: "assets/tools/hysteria.png"
         subtitle: "a censorship resistant proxy"
