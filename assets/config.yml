@@ -1267,6 +1267,12 @@ services:
         url: "https://github.com/KiyanYang/DotVast.HashTool.WinUI/releases" # URL to download the app
         target: "_blank"
         
+      - name: "fHash" # App name
+        logo: "assets/tools/fhash.png" # App icon
+        subtitle: "files hash calculator"
+        url: "https://apps.microsoft.com/detail/9p4clcrv93dq" # URL to download the app
+        target: "_blank"
+
       - name: "Window Switcher" # App name
         logo: "assets/tools/windowswitcher.png" # App icon
         subtitle: "switch between windows of the same app."
