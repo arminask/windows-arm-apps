@@ -769,13 +769,19 @@ services:
 
       - name: "KiCad"
         logo: "assets/tools/kicad.png"
-        subtitle: "PCB designer"        
+        subtitle: "PCB designer"
         url: "https://www.kicad.org/download/windows/#mirrors-arm64"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Microsoft 3D Builder"
-        logo: "assets/tools/3dbuilder.png"   
+        logo: "assets/tools/3dbuilder.png"
         url: "https://apps.microsoft.com/detail/9wzdncrfj3t6"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Live Home 3D - House Design"
+        logo: "assets/tools/livehome3dlder.png"
+        subtitle: "Build a home, renovate an apartment or plan your garden with Live Home 3D"
+        url: "https://apps.microsoft.com/detail/9pg2cxwtkvb1"
         target: "_blank" # optional html a tag target attribute
 
   - name: "Compression"
