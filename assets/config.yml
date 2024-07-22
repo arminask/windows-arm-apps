@@ -349,6 +349,12 @@ services:
         url: "https://github.com/henricj/audacity/releases/tag/latest-arm64"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "Awave Studio"
+        logo: "assets/tools/awavestudio.png"
+        subtitle: "a multi-purpose audio tool"
+        url: "https://www.fmjsoft.com/awavestudio.html#download"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "tsMuxeR"
         logo: "assets/tools/tsmuxer.png"
         subtitle: "unofficial builds"
@@ -374,6 +380,12 @@ services:
       - name: "Xreveal"
         logo: "assets/tools/xreveal.png"
         url: "https://www.xreveal.com/"
+        target: "_blank" # optional html a tag target attribute        
+
+      - name: "ACDR"
+        logo: "assets/tools/acdr.png"
+        subtitle: "Audio Compact Disc Reader"
+        url: "https://www.fmjsoft.com/acdr.html#download"
         target: "_blank" # optional html a tag target attribute        
 
       - name: "go2rtc"
@@ -545,27 +557,39 @@ services:
         logo: "assets/tools/imageglass.png"
         url: "https://github.com/d2phap/ImageGlass/releases"
         target: "_blank" # optional html a tag target attribute
-        
+
       - name: "PicView"
         logo: "assets/tools/picview.png"
         url: "https://github.com/Ruben2776/PicView/releases/"
         target: "_blank" # optional html a tag target attribute
-                  
+
+      - name: "Image Eye"
+        logo: "assets/tools/imageeye.png"
+        subtitle: "viewing images as quickly — nothing else"
+        url: "https://www.fmjsoft.com/imageeye.html#download"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "ScreenToGif"
         logo: "assets/tools/screentogif.png"
         url: "https://www.screentogif.com/"
         target: "_blank" # optional html a tag target attribute          
-                        
+
       - name: "VueScan"
         logo: "assets/tools/vuescan.png"
         url: "https://www.hamrick.com/alternate-versions.html"
         target: "_blank" # optional html a tag target attribute
-                        
+
       - name: "ImageMagick"
         logo: "assets/tools/imagemagick.png"
         url: "https://imagemagick.org/script/download.php#windows"
         target: "_blank" # optional html a tag target attribute
-                           
+
+      - name: "Any Image"
+        logo: "assets/tools/anyimage.png"
+        subtitle: "high quality image file conversions."
+        url: "https://www.fmjsoft.com/anyimage.html#download"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "Gifsicle"
         logo: "assets/tools/gifsicle.png"
         subtitle: "unofficial builds"
@@ -745,13 +769,19 @@ services:
 
       - name: "KiCad"
         logo: "assets/tools/kicad.png"
-        subtitle: "PCB designer"        
+        subtitle: "PCB designer"
         url: "https://www.kicad.org/download/windows/#mirrors-arm64"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Microsoft 3D Builder"
-        logo: "assets/tools/3dbuilder.png"   
+        logo: "assets/tools/3dbuilder.png"
         url: "https://apps.microsoft.com/detail/9wzdncrfj3t6"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Live Home 3D - House Design"
+        logo: "assets/tools/livehome3dlder.png"
+        subtitle: "Build a home, renovate an apartment or plan your garden with Live Home 3D"
+        url: "https://apps.microsoft.com/detail/9pg2cxwtkvb1"
         target: "_blank" # optional html a tag target attribute
 
   - name: "Compression"
@@ -845,6 +875,12 @@ services:
         logo: "assets/tools/pdf24creator.png"
         subtitle: "assemble, create and modify PDF files"
         url: "https://creator.pdf24.org/listVersions.php"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Scanner"
+        logo: "assets/tools/scanner.png"
+        subtitle: "Quick and Easy Document Scanning"
+        url: "https://apps.microsoft.com/detail/9n438mzhd3zf"
         target: "_blank" # optional html a tag target attribute
 
       - name: "TeXstudio"
@@ -995,6 +1031,18 @@ services:
         url: "https://github.com/zufuliu/notepad4/releases"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "EditPlus"
+        logo: "assets/tools/editplus.png"
+        tag: "Purchases"
+        url: "https://www.editplus.com/download.html"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "BowPad"
+        logo: "assets/tools/bowpad.png"
+        subtitle: "text editor with a ribbon UI"
+        url: "https://github.com/stefankueng/BowPad/releases"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "Typora" # App name
         logo: "assets/tools/typora.png" # App icon
         subtitle: "minimal markdown editor and reader"
@@ -1028,6 +1076,12 @@ services:
         logo: "assets/tools/yazi.png"
         subtitle: "blazing fast terminal file manager"
         url: "https://github.com/sxyazi/yazi/releases"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "TreeMap"
+        logo: "assets/tools/treemap.png"
+        subtitle: "display of hard disk space usage through list and graphical views"
+        url: "https://apps.microsoft.com/detail/9n7wbsl9l8s8"
         target: "_blank" # optional html a tag target attribute
 
       - name: "diskonaut"
@@ -1203,16 +1257,28 @@ services:
         
       - name: "Office Tool Plus" # App name
         logo: "assets/tools/Office Tool Plus.png" # App icon
-        url: "https://github.com/YerongAI/Office-Tool/releases/" # URL to download the app
         subtitle: "A powerful and useful tool for Office deployments"
+        url: "https://github.com/YerongAI/Office-Tool/releases/" # URL to download the app
         target: "_blank"
         
+      - name: "OFGB" # App name
+        logo: "assets/tools/ofgb.png" # App icon
+        subtitle: "Removes Ads From Various Places Around Windows 11"
+        url: "https://github.com/xM4ddy/OFGB/releases" # URL to download the app
+        target: "_blank"
+
       - name: "HashTool" # App name
         logo: "assets/tools/hashtool.png" # App icon
         subtitle: "calculate the hash values of files or folders."
         url: "https://github.com/KiyanYang/DotVast.HashTool.WinUI/releases" # URL to download the app
         target: "_blank"
         
+      - name: "fHash" # App name
+        logo: "assets/tools/fhash.png" # App icon
+        subtitle: "files hash calculator"
+        url: "https://apps.microsoft.com/detail/9p4clcrv93dq" # URL to download the app
+        target: "_blank"
+
       - name: "Window Switcher" # App name
         logo: "assets/tools/windowswitcher.png" # App icon
         subtitle: "switch between windows of the same app."
@@ -1261,6 +1327,12 @@ services:
         url: "https://apps.microsoft.com/detail/9msx91wqcm2v"
         target: "_blank"
 
+      - name: "Nightingale"
+        logo: "assets/tools/nightingale.png"
+        subtitle: "resource-efficient REST API client for Windows"
+        url: "https://github.com/jenius-apps/nightingale-rest-api-client/releases"
+        target: "_blank"
+
   - name: "Network & Cloud Storage"
     icon: "fa-solid fa-network-wired"
     items:
@@ -1285,6 +1357,12 @@ services:
         logo: "assets/tools/meshcentral.png"
         subtitle: "web site for remote device management"
         url: "https://meshcentral.com/downloads.html"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Natpass"
+        logo: "assets/tools/natpass.png"
+        subtitle: "supports shell management and remote desktop management"
+        url: "https://github.com/lwch/natpass/releases"
         target: "_blank" # optional html a tag target attribute
 
       - name: "hysteria"
@@ -2468,6 +2546,12 @@ services:
       - name: "SkylineWeather"
         logo: "assets/tools/SkylineWeather.png"
         url: "https://apps.microsoft.com/detail/9N33PK9646X9"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Lively Weather"
+        logo: "assets/tools/livelyweather.png"
+        subtitle: "Experience live weather effects powered by DirectX."
+        url: "https://apps.microsoft.com/detail/9pp0mfqfvsc5"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Stellarium"
