@@ -1347,7 +1347,12 @@ services:
         subtitle: "unofficial builds"
         url: "https://github.com/minnyres/filezilla-server-windows-arm64/releases"
         target: "_blank" # optional html a tag target attribute
-  
+
+      - name: "MyFTP"
+        logo: "assets/tools/myftp.png"
+        url: "https://apps.microsoft.com/detail/9nwzsp0xcmhc"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "PuTTY"
         logo: "assets/tools/putty.png"
         url: "https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html"
