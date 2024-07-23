@@ -553,6 +553,11 @@ services:
         url: "https://www.bandisoft.com/bandiview/"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "Visum Photo Viewer"
+        logo: "assets/tools/visum.png"
+        url: "https://apps.microsoft.com/detail/9n1x3z50blm8"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "ImageGlass"
         logo: "assets/tools/imageglass.png"
         url: "https://github.com/d2phap/ImageGlass/releases"
