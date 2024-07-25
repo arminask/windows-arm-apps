@@ -225,7 +225,7 @@ services:
       - name: "ruffle"
         logo: "assets/tools/ruffle.png"
         subtitle: "unofficial builds - A Flash Player emulator"
-        url: "https://github.com/iKineticate/ruffle-windows-arm64/releases"
+        url: "https://github.com/iKineticate/Windows-ARM64-Binaries/releases/tag/ruffle"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Spotify"
@@ -1098,7 +1098,7 @@ services:
       - name: "diskonaut"
         logo: "assets/tools/clionly.png"
         subtitle: "unofficial builds / terminal disk space navigator"
-        url: "https://github.com/iKineticate/diskonaut-windows-arm64/releases"
+        url: "https://github.com/iKineticate/Windows-ARM64-Binaries/releases/tag/diskonaut"
         target: "_blank" # optional html a tag target attribute
         
       - name: "gncdu"
@@ -2264,7 +2264,7 @@ services:
       - name: "precord"
         logo: "assets/tools/clionly.png"
         subtitle: "unofficial builds - recording process or system performance data."
-        url: "https://github.com/iKineticate/precord/releases"
+        url: "https://github.com/iKineticate/Windows-ARM64-Binaries/releases/tag/precord"
         target: "_blank" # optional html a tag target attribute
 
       - name: "fastfetch"
