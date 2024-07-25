@@ -1818,6 +1818,12 @@ services:
         url: "https://www.jetbrains.com/dataspell/download/download-thanks.html?platform=windowsARM64"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "helix"
+        logo: "assets/tools/helix.png"
+        subtitle: "unofficial builds - A post-modern modal text editor"
+        url: "https://github.com/iKineticate/Windows-ARM64-Binaries/releases/tag/helix"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "Golang"
         logo: "assets/tools/Golang.png"
         url: "https://go.dev/dl/"
