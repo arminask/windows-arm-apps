@@ -1824,6 +1824,12 @@ services:
         url: "https://github.com/iKineticate/Windows-ARM64-Binaries/releases/tag/helix"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "lapce"
+        logo: "assets/tools/lapce.png"
+        subtitle: "unofficial builds - Lightning-fast and Powerful Code Editor"
+        url: "https://github.com/iKineticate/Windows-ARM64-Binaries/releases/tag/lapce"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "Golang"
         logo: "assets/tools/Golang.png"
         url: "https://go.dev/dl/"
