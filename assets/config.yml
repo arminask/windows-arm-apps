@@ -893,7 +893,13 @@ services:
         subtitle: "unofficial builds"
         url: "https://github.com/minnyres/texstudio-windows-arm64/releases"
         target: "_blank" # optional html a tag target attribute
-                
+
+      - name: "Typst"
+        logo: "assets/tools/typst.png"
+        subtitle: "unofficial builds - a new markup-based typesetting system that is powerful and easy to learn."
+        url: "https://github.com/iKineticate/Windows-ARM64-Binaries/releases/tag/Typst"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "QZ Tray"
         logo: "assets/tools/qztray.png"
         tag: "Java"
