@@ -1113,12 +1113,6 @@ services:
         url: "https://nilesoft.org/download"
         target: "_blank" # optional html a tag target attribute
 
-      - name: "APK Installers"
-        logo: "assets/tools/apkinstallers.png"
-        subtitle: "Android™ App Installer for Windows 10/11"
-        url: "https://apps.microsoft.com/detail/9P2JFQ43FPPG"
-        target: "_blank" # optional html a tag target attribute
-
       - name: "Microsoft PowerToys"
         logo: "assets/tools/microsoftpowertoys.png"
         url: "https://apps.microsoft.com/store/detail/microsoft-powertoys/XP89DCGQ3K6VLD"
@@ -2166,6 +2160,12 @@ services:
         url: "https://github.com/MustardChef/WSABuilds/releases"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "APK Installers"
+        logo: "assets/tools/apkinstallers.png"
+        subtitle: "Android™ App Installer for Windows 10/11"
+        url: "https://apps.microsoft.com/detail/9P2JFQ43FPPG"
+        target: "_blank" # optional html a tag target attribute
+        
       - name: "WSA Sideloader"
         logo: "assets/tools/wsasideloader.png"
         subtitle: "Easily sideload Android apps on Windows Subsystem for Android"
