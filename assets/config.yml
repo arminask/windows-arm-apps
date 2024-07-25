@@ -688,8 +688,8 @@ services:
 
       - name: "Shotcut"
         logo: "assets/tools/shotcut.png"
-        subtitle: "unofficial builds"
-        url: "https://github.com/tordona/shotcut/releases"
+        subtitle: "Free, open source, cross-platform video editor"
+        url: "https://www.shotcut.org/download/"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Glaxnimate"
