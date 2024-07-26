@@ -10,7 +10,7 @@ footer: '<p>Created with <span class="has-text-danger">❤️</span> with <a hre
 
 # Optional theme customization
 theme: default
-colorsBenchmarking & Diagnostics
+colors:
   light:
     highlight-primary: "#3367d6"
     highlight-secondary: "#4285f4"
