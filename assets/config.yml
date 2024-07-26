@@ -10,7 +10,7 @@ footer: '<p>Created with <span class="has-text-danger">❤️</span> with <a hre
 
 # Optional theme customization
 theme: default
-colors:
+colorsBenchmarking & Diagnostics
   light:
     highlight-primary: "#3367d6"
     highlight-secondary: "#4285f4"
@@ -2290,6 +2290,12 @@ services:
         subtitle: "fetching system information and displaying them in a pretty way."
         url: "https://github.com/fastfetch-cli/fastfetch/releases"
         target: "_blank" # optional html a tag target attribute
+        
+      - name: "HWiNFO"
+        logo: "assets/tools/hwinfo.png"
+        subtitle: "ARM version in beta portable download, System Information"
+        url: "https://www.hwinfo.com/download/"
+        target: "_blank" # optional html a tag target attribute        
 
   - name: "Security & Protection"
     icon: "fa-solid fa-shield"
