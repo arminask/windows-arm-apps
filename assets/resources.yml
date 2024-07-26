@@ -17,14 +17,14 @@ links:
   - name: "FAQ"
     icon: "fa fa-question"
     url: "#faq"
-    
+
   - name: "Contribute"
     icon: "fab fa-github"
     url: "https://github.com/arminask/windows-arm-apps"
-    target: "_blank" # optional html a tag target attribute 
+    target: "_blank" # optional html a tag target attribute
 
   - name: "Resources"
-    icon: "fa-solid fa-gear"
+    icon: "fa-solid fa-folder"
     url: "#resources"
 
 message:
