@@ -2052,6 +2052,12 @@ services:
         subtitle: "A Modern Redis GUI Client"
         url: "https://github.com/tiny-craft/tiny-rdm/releases"
         target: "_blank" # optional html a tag target attribute
+        
+      - name: "Godot"
+        logo: "assets/tools/godot.png"
+        subtitle: "Beta build, free, open‑source game engine."
+        url: "https://godotengine.org/article/release-candidate-godot-4-3-rc-1/"
+        target: "_blank" # optional html a tag target attribute        
 
   - name: "Emulation & Virtualization"
     icon: "fa-solid fa-microchip"
