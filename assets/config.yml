@@ -2052,6 +2052,12 @@ services:
         subtitle: "A Modern Redis GUI Client"
         url: "https://github.com/tiny-craft/tiny-rdm/releases"
         target: "_blank" # optional html a tag target attribute
+        
+      - name: "Godot"
+        logo: "assets/tools/godot.png"
+        subtitle: "Beta build, free, open‑source game engine."
+        url: "https://godotengine.org/article/release-candidate-godot-4-3-rc-1/"
+        target: "_blank" # optional html a tag target attribute        
 
   - name: "Emulation & Virtualization"
     icon: "fa-solid fa-microchip"
@@ -2290,6 +2296,12 @@ services:
         subtitle: "fetching system information and displaying them in a pretty way."
         url: "https://github.com/fastfetch-cli/fastfetch/releases"
         target: "_blank" # optional html a tag target attribute
+        
+      - name: "HWiNFO"
+        logo: "assets/tools/hwinfo.png"
+        subtitle: "ARM version in beta portable download, System Information"
+        url: "https://www.hwinfo.com/download/"
+        target: "_blank" # optional html a tag target attribute        
 
   - name: "Security & Protection"
     icon: "fa-solid fa-shield"
@@ -2609,6 +2621,18 @@ services:
   - name: "Game Console Emulation"
     icon: "fa-solid fa-gamepad"
     items:
+      - name: "Aethersx2"
+        logo: "assets/tools/aethersx2.png"
+        subtitle: "unofficial build, PS2 emulator"
+        url: "https://github.com/Otozinclus/AetherSX2WindowsArm64/"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Ryujinx"
+        logo: "assets/tools/ryujinx.png"
+        subtitle: "unofficial build, Switch emulator"
+        url: "http://mikahintz.de/fileDownload.php"
+        target: "_blank" # optional html a tag target attribute
+        
       - name: "Dolphin"
         logo: "assets/tools/dolphin.png"
         subtitle: "Wii and Gamecube emulator"
