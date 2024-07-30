@@ -1350,6 +1350,12 @@ services:
         url: "https://github.com/iKineticate/Windows-ARM64-Binaries/releases/tag/monolith"
         target: "_blank"
 
+      - name: "ROM Properties"
+        logo: "assets/tools/clionly.png"
+        subtitle: "Shell extension adds exe, ROM, and more info tab, can identity if exe is ARM"
+        url: "https://github.com/GerbilSoft/rom-properties"
+        target: "_blank"
+        
   - name: "Network & Cloud Storage"
     icon: "fa-solid fa-network-wired"
     items:
@@ -2093,10 +2099,16 @@ services:
                  
       - name: "86Box"
         logo: "assets/tools/86box.png"
-        subtitle: "unofficial builds"
+        subtitle: "unofficial builds, based on version 3.7"
         url: "https://github.com/mijk84/win-arm64-binaries/releases/tag/86box"
         target: "_blank" # optional html a tag target attribute
-               
+                 
+      - name: "86Box"
+        logo: "assets/tools/86box.png"
+        subtitle: "unofficial builds, based on version 4.2"
+        url: "https://github.com/ArminiusTux/WinARM64-binaries/releases/tag/86Box"
+        target: "_blank" # optional html a tag target attribute
+        
       - name: "Bochs"
         logo: "assets/tools/bochs.png"
         subtitle: "unofficial builds"
