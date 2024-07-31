@@ -610,12 +610,6 @@ services:
         logo: "assets/tools/photoshop.png"
         url: "https://apps.microsoft.com/store/detail/adobe-photoshop/XPFD4T9N395QN6"
         target: "_blank" # optional html a tag target attribute
-
-      - name: "Adobe Illustrator (Beta)"
-        logo: "assets/tools/adobeillustrator.png"
-        subtitle: "Beta version available in the Creative Cloud Desktop app"
-        url: "https://www.adobe.com/products/illustrator.html"
-        target: "_blank" # optional html a tag target attribute
                         
       - name: "Concepts"
         logo: "assets/tools/concepts.png"
