@@ -2885,7 +2885,14 @@ services:
         tag: "original game data needed"
         url: "https://github.com/ArminiusTux/WinARM64-binaries/releases/tag/OpenTomb"
         target: "_blank" # optional html a tag target attribute
-               
+
+      - name: "Yamagi Quake II"
+        logo: "assets/tools/quake2.png"
+        subtitle: "Enhanced client for ID Software's first-person shooter Quake II."
+        tag: "original game data needed"
+        url: "https://github.com/ArminiusTux/WinARM64-binaries/releases/tag/yquake2"
+        target: "_blank" # optional html a tag target attribute
+        
       - name: "Quake3e"
         logo: "assets/tools/quake3e.png"
         subtitle: "Quake III: Arena 1999 re-engine-ered"
