@@ -279,6 +279,13 @@ services:
         url: "https://apps.microsoft.com/detail/9nxwgr2b1p26"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "JellyFin Server"
+        logo: "assets/tools/jellyfin.png"
+        tag: "Needs ARM64 ffmpeg for transcoding, tested with System233 7.0 unofficial build."
+        subtitle: "Free Media Server (like Plex)"
+        url: "https://repo.jellyfin.org/?path=/server/windows/latest-stable/arm64"
+        target: "_blank" # optional html a tag target attribute
+        
       - name: "FFmpeg"
         logo: "assets/tools/FFmpeg.png"
         subtitle: "unofficial builds by dvhh"
