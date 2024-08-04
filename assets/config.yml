@@ -2893,6 +2893,13 @@ services:
         url: "https://github.com/ArminiusTux/WinARM64-binaries/releases/tag/OpenTomb"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "QuakeSpasm"
+        logo: "assets/tools/quake1.png"
+        subtitle: "Modern cross-platform Quake 1 engine based on FitzQuake."
+        tag: "original game data needed"
+        url: "https://github.com/ArminiusTux/WinARM64-binaries/releases/tag/QuakeSpasm"
+        target: "_blank" # optional html a tag target attribute
+        
       - name: "Yamagi Quake II"
         logo: "assets/tools/quake2.png"
         subtitle: "Enhanced client for ID Software's first-person shooter Quake II."
