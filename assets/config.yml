@@ -2065,6 +2065,18 @@ services:
         subtitle: "A Modern Redis GUI Client"
         url: "https://github.com/tiny-craft/tiny-rdm/releases"
         target: "_blank" # optional html a tag target attribute
+
+      - name: "AutoHotKey v1.1.33.12"
+        logo: "assets/tools/autohotkey.png"
+        subtitle: "unofficial builds, automation scripting language"
+        url: "https://github.com/fobrs/AutoHotkey_L/releases"
+        target: "_blank" # optional html a tag target attribute        
+
+      - name: "AutoHotKey v1.1.37.01"
+        logo: "assets/tools/autohotkey.png"
+        subtitle: "unofficial builds, automation scripting language"
+        url: "https://www.autohotkey.com/boards/viewtopic.php?style=2&p=535036#p535036"
+        target: "_blank" # optional html a tag target attribute        
         
       - name: "Godot"
         logo: "assets/tools/godot.png"
