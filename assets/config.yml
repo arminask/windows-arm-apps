@@ -2084,6 +2084,12 @@ services:
         url: "https://godotengine.org/article/release-candidate-godot-4-3-rc-1/"
         target: "_blank" # optional html a tag target attribute        
 
+      - name: "WinDbg"
+        logo: "assets/tools/windbg.png"
+        subtitle: "Debugging tool from Microsoft, helps analyze dump (DMP) files, including memory dumps from blue screen errors."
+        url: "https://www.microsoft.com/store/productId/9PGJGD53TN86?ocid=pdpshare"
+        target: "_blank" # optional html a tag target attribute         
+
   - name: "Emulation & Virtualization"
     icon: "fa-solid fa-microchip"
     items:
