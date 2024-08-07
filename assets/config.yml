@@ -1356,6 +1356,67 @@ services:
         subtitle: "Shell extension adds exe, ROM, and more info tab, can identity if exe is ARM"
         url: "https://github.com/GerbilSoft/rom-properties"
         target: "_blank"
+
+  - name: "VPN"
+    icon: "fa-solid fa-network-wired"
+    items:
+      - name: "OpenVPN"
+        logo: "assets/tools/openvpn.png"
+        url: "https://openvpn.net/community-downloads/"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "WireGuard"
+        logo: "assets/tools/wireguard.png"
+        url: "https://www.wireguard.com/install/"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Private Internet Access (PIA)"
+        logo: "assets/tools/pia.png"
+        subtitle: "beta version, VPN"
+        url: "https://www.privateinternetaccess.com/download/windows-vpn"
+        target: "_blank" # optional html a tag target attribute
+        
+      - name: "Windscribe"
+        logo: "assets/tools/windscribe.png"
+        subtitle: "a vpn, encrypts your browsing activity, blocks ads, and unblocks entertainment content"
+        url: "https://windscribe.com/download/"
+        target: "_blank" # optional html a tag target attribute
+        
+      - name: "Palo Alto Global Protect"
+        logo: "assets/tools/GlobalProtect.png"
+        subtitle: "Enterprise VPN"
+        url: "https://docs.paloaltonetworks.com/globalprotect/5-1/globalprotect-app-user-guide/globalprotect-app-for-windows/download-and-install-the-globalprotect-app-for-windows"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Checkpoint VPN"
+        logo: "assets/tools/checkpointvpn.png"
+        subtitle: "Provide users with secure, seamless remote access to corporate networks and resources when traveling or working remotely."
+        url: "https://www.checkpoint.com/quantum/remote-access-vpn/"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Cisco Anyconnect VPN"
+        logo: "assets/tools/ciscoanyconnect.png"
+        subtitle: "AnyConnect simplifies secure endpoint access and provides the security necessary to help keep your organisation safe and protected."
+        url: "https://www.cisco.com/c/en_uk/products/security/anyconnect-secure-mobility-client/index.html"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "F5 Big IP"
+        logo: "assets/tools/f5bigip.png"
+        subtitle: "Corporate VPN Client."
+        url: "https://my.f5.com/manage/s/"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Surfshark"
+        logo: "assets/tools/surfshark.png"
+        subtitle: "VPN Client."
+        url: "https://surfshark.com/download/windows"
+        target: "_blank" # optional html a tag target attribute
+        
+      - name: "Viscosity"
+        logo: "assets/tools/viscosity.png"
+        subtitle: "OpenVPN Client."
+        url: "https://www.sparklabs.com/viscosity/"
+        target: "_blank" # optional html a tag target attribute
         
   - name: "Network & Cloud Storage"
     icon: "fa-solid fa-network-wired"
@@ -1541,16 +1602,6 @@ services:
         url: "https://www.wireshark.org/download.html"
         target: "_blank" # optional html a tag target attribute
 
-      - name: "OpenVPN"
-        logo: "assets/tools/openvpn.png"
-        url: "https://openvpn.net/community-downloads/"
-        target: "_blank" # optional html a tag target attribute
-
-      - name: "WireGuard"
-        logo: "assets/tools/wireguard.png"
-        url: "https://www.wireguard.com/install/"
-        target: "_blank" # optional html a tag target attribute
-
       - name: "Clash Verge Rev"
         logo: "assets/tools/clashvergerev.png"
         url: "https://github.com/clash-verge-rev/clash-verge-rev/releases"
@@ -1585,12 +1636,6 @@ services:
         logo: "assets/tools/zen.png"
         subtitle: "ad-blocker and privacy guard"
         url: "https://github.com/anfragment/zen/releases"
-        target: "_blank" # optional html a tag target attribute
-
-      - name: "Windscribe"
-        logo: "assets/tools/windscribe.png"
-        subtitle: "a vpn, encrypts your browsing activity, blocks ads, and unblocks entertainment content"
-        url: "https://windscribe.com/download/"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Oblivion Desktop"
@@ -1668,42 +1713,6 @@ services:
         logo: "assets/tools/mattermost.png"
         subtitle: "secure collaboration across the entire software development lifecycle."
         url: "https://github.com/mattermost/desktop/releases"
-        target: "_blank" # optional html a tag target attribute
-
-      - name: "Palo Alto Global Protect"
-        logo: "assets/tools/GlobalProtect.png"
-        subtitle: "Enterprise VPN"
-        url: "https://docs.paloaltonetworks.com/globalprotect/5-1/globalprotect-app-user-guide/globalprotect-app-for-windows/download-and-install-the-globalprotect-app-for-windows"
-        target: "_blank" # optional html a tag target attribute
-
-      - name: "Checkpoint VPN"
-        logo: "assets/tools/checkpointvpn.png"
-        subtitle: "Provide users with secure, seamless remote access to corporate networks and resources when traveling or working remotely."
-        url: "https://www.checkpoint.com/quantum/remote-access-vpn/"
-        target: "_blank" # optional html a tag target attribute
-
-      - name: "Cisco Anyconnect VPN"
-        logo: "assets/tools/ciscoanyconnect.png"
-        subtitle: "AnyConnect simplifies secure endpoint access and provides the security necessary to help keep your organisation safe and protected."
-        url: "https://www.cisco.com/c/en_uk/products/security/anyconnect-secure-mobility-client/index.html"
-        target: "_blank" # optional html a tag target attribute
-
-      - name: "F5 Big IP"
-        logo: "assets/tools/f5bigip.png"
-        subtitle: "Corporate VPN Client."
-        url: "https://my.f5.com/manage/s/"
-        target: "_blank" # optional html a tag target attribute
-
-      - name: "Surfshark"
-        logo: "assets/tools/surfshark.png"
-        subtitle: "VPN Client."
-        url: "https://surfshark.com/download/windows"
-        target: "_blank" # optional html a tag target attribute
-        
-      - name: "Viscosity"
-        logo: "assets/tools/viscosity.png"
-        subtitle: "OpenVPN Client."
-        url: "https://www.sparklabs.com/viscosity/"
         target: "_blank" # optional html a tag target attribute
         
       - name: "RealVNC"
