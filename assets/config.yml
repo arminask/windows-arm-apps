@@ -1034,6 +1034,12 @@ services:
   - name: "Tools"
     icon: "fa-solid fa-screwdriver-wrench"
     items:
+      - name: "PasteBar"
+        logo: "assets/tools/pastebar-app.png"
+        subtitle: "Limitless, Free Clipboard Manager"
+        url: "https://www.pastebar.app"
+        target: "_blank"
+
       - name: "Notepad++"
         logo: "assets/tools/notepadplusplus.png"
         url: "https://notepad-plus-plus.org/downloads/"
