@@ -56,7 +56,7 @@ links:
   - name: "Contribute"
     icon: "fab fa-github"
     url: "https://github.com/arminask/windows-arm-apps"
-    target: "_blank" # optional html a tag target attribute 
+    target: "_blank" # optional html a tag target attribute
 
   - name: "Resources"
     icon: "fa-solid fa-folder"
@@ -91,17 +91,17 @@ services:
         logo: "assets/tools/chromium.png"
         url: "https://chromium.woolyss.com/#windows-on-arm"
         target: "_blank" # optional html a tag target attribute
-        
+
       - name: "SRWare Iron"
         logo: "assets/tools/iron.png"
         url: "https://www.srware.net/forum/viewforum.php?f=18"
         target: "_blank" # optional html a tag target attribute
-       
+
       - name: "Thorium"
         logo: "assets/tools/thorium.png"
         url: "https://github.com/Alex313031/Thorium-WOA/releases"
         target: "_blank" # optional html a tag target attribute
-       
+
       - name: "Bluebird"
         logo: "assets/tools/bluebird.png"
         url: "https://apps.microsoft.com/detail/9pnxw61t4t0v"
@@ -112,7 +112,7 @@ services:
         subtitle: "Experimental builds"
         url: "https://vivaldi.com/?p=682929"
         target: "_blank" # optional html a tag target attribute
-       
+
       - name: "Midori"
         logo: "assets/tools/midori.png"
         url: "https://astian.org/midori-browser/download/windows/"
@@ -130,19 +130,19 @@ services:
         logo: "assets/tools/vlc.png"
         url: "https://artifacts.videolan.org/vlc/nightly-win64-arm-llvm/"
         target: "_blank" # optional html a tag target attribute
-         
+
       - name: "SMPlayer"
         logo: "assets/tools/smplayer.png"
         subtitle: "unofficial builds / enable HW decoding"
         url: "https://github.com/minnyres/smplayer-windows-arm64/releases"
         target: "_blank" # optional html a tag target attribute
-               
+
       - name: "mpv"
         logo: "assets/tools/mpv.png"
         subtitle: "unofficial builds / use 'mpv.exe --hwdec'"
         url: "https://github.com/minnyres/mpv-windows-arm64/releases"
         target: "_blank" # optional html a tag target attribute
-         
+
       - name: "Screenbox"
         logo: "assets/tools/screenbox.png"
         subtitle: "LibVLC-based media player for the Universal Windows Platform"
@@ -163,18 +163,18 @@ services:
       - name: "HEVC Video Extensions"
         logo: "assets/tools/HEVC.png"
         url: "https://apps.microsoft.com/detail/9NMZLZ57R3T7"
-        target: "_blank" # optional html a tag target attribute         
+        target: "_blank" # optional html a tag target attribute
 
       - name: "Netflix"
         logo: "assets/tools/netflix.png"
         url: "https://apps.microsoft.com/store/detail/netflix/9WZDNCRFJ3TJ"
         target: "_blank" # optional html a tag target attribute
-        
+
       - name: "Prime Video"
         logo: "assets/tools/primevideo.png"
         url: "https://apps.microsoft.com/store/detail/prime-video-for-windows/9P6RC76MSMMJ"
         target: "_blank" # optional html a tag target attribute
-        
+
       - name: "Disney+"
         logo: "assets/tools/disneyplus.png"
         url: "https://apps.microsoft.com/store/detail/disney/9NXQXXLFST89"
@@ -210,7 +210,7 @@ services:
         logo: "assets/tools/iqiyi.png"
         url: "https://apps.microsoft.com/detail/9NBLGGH5WXNW"
         target: "_blank" # optional html a tag target attribute
-        
+
       - name: "FreeTube"
         logo: "assets/tools/freetube.png"
         url: "https://freetubeapp.io/#download"
@@ -285,7 +285,7 @@ services:
         subtitle: "Free Media Server (like Plex)"
         url: "https://repo.jellyfin.org/?path=/server/windows/latest-stable/arm64"
         target: "_blank" # optional html a tag target attribute
-        
+
       - name: "FFmpeg"
         logo: "assets/tools/FFmpeg.png"
         subtitle: "unofficial builds by dvhh"
@@ -321,7 +321,7 @@ services:
         subtitle: "video downloader"
         url: "https://github.com/iawia002/lux/releases"
         target: "_blank" # optional html a tag target attribute
-        
+
       - name: "BBDown"
         logo: "assets/tools/clionly.png"
         subtitle: "Bilibili video downloader."
@@ -383,17 +383,17 @@ services:
         logo: "assets/tools/imgdrive.png"
         url: "https://www.yubsoft.com/imgdrive/"
         target: "_blank" # optional html a tag target attribute
-              
+
       - name: "Xreveal"
         logo: "assets/tools/xreveal.png"
         url: "https://www.xreveal.com/"
-        target: "_blank" # optional html a tag target attribute        
+        target: "_blank" # optional html a tag target attribute
 
       - name: "ACDR"
         logo: "assets/tools/acdr.png"
         subtitle: "Audio Compact Disc Reader"
         url: "https://www.fmjsoft.com/acdr.html#download"
-        target: "_blank" # optional html a tag target attribute        
+        target: "_blank" # optional html a tag target attribute
 
       - name: "go2rtc"
         logo: "assets/tools/go2rtc.png"
@@ -450,24 +450,24 @@ services:
       - name: "Tiktok"
         logo: "assets/tools/tiktok.png"
         url: "https://apps.microsoft.com/store/detail/tiktok/9NH2GPH4JZS4"
-        target: "_blank" # optional html a tag target attribute 
-        
+        target: "_blank" # optional html a tag target attribute
+
       - name: "Microsoft Teams"
         logo: "assets/tools/teams.png"
         url: "https://apps.microsoft.com/store/detail/microsoft-teams/XP8BT8DW290MPQ"
         target: "_blank" # optional html a tag target attribute
-        
+
       - name: "Signal"
         logo: "assets/tools/signal.png"
         subtitle: "unofficial builds"
         url: "https://github.com/dennisameling/Signal-Desktop/releases"
         target: "_blank" # optional html a tag target attribute
-         
+
       - name: "Ferdium"
         logo: "assets/tools/ferdium.png"
         url: "https://ferdium.org/download"
         target: "_blank" # optional html a tag target attribute
-                      
+
       - name: "Pinterest"
         logo: "assets/tools/pinterest.png"
         url: "https://apps.microsoft.com/store/detail/pinterest/9PFHDSF91B9R"
@@ -476,27 +476,27 @@ services:
       - name: "GroupMe"
         logo: "assets/tools/groupme.png"
         url: "https://apps.microsoft.com/store/detail/groupme/9NBLGGH5Z4F2"
-        target: "_blank" # optional html a tag target attribute  
-        
+        target: "_blank" # optional html a tag target attribute
+
       - name: "Piny"
         logo: "assets/tools/piny.png"
         url: "https://apps.microsoft.com/store/detail/piny/9NBLGGH441NQ"
-        target: "_blank" # optional html a tag target attribute  
-        
+        target: "_blank" # optional html a tag target attribute
+
       - name: "Reddit"
         logo: "assets/tools/reddit.png"
         url: "https://apps.microsoft.com/store/detail/reddit/9NS3RBQ5HV5F"
-        target: "_blank" # optional html a tag target attribute 
-        
+        target: "_blank" # optional html a tag target attribute
+
       - name: "RingCentral"
         logo: "assets/tools/ringcentral.png"
         url: "https://support.ringcentral.com/download.html"
-        target: "_blank" # optional html a tag target attribute 
-            
+        target: "_blank" # optional html a tag target attribute
+
       - name: "Social Page Manager"
         logo: "assets/tools/socialpagemanager.png"
         url: "https://apps.microsoft.com/store/detail/social-page-manager/9WZDNCRFJ9N7"
-        target: "_blank" # optional html a tag target attribute 
+        target: "_blank" # optional html a tag target attribute
 
       - name: "QQ (NT)"
         logo: "assets/tools/QQ(NT).png"
@@ -549,12 +549,12 @@ services:
         logo: "assets/tools/gimp.png"
         url: "https://www.gimp.org/downloads/"
         target: "_blank" # optional html a tag target attribute
-        
+
       - name: "Paint.NET"
         logo: "assets/tools/paintnet.png"
         url: "https://github.com/paintdotnet/release/releases/latest"
         target: "_blank" # optional html a tag target attribute
-        
+
       - name: "BandiView"
         logo: "assets/tools/bandiview.png"
         url: "https://www.bandisoft.com/bandiview/"
@@ -584,7 +584,7 @@ services:
       - name: "ScreenToGif"
         logo: "assets/tools/screentogif.png"
         url: "https://www.screentogif.com/"
-        target: "_blank" # optional html a tag target attribute          
+        target: "_blank" # optional html a tag target attribute
 
       - name: "VueScan"
         logo: "assets/tools/vuescan.png"
@@ -607,27 +607,27 @@ services:
         subtitle: "unofficial builds"
         url: "https://eternallybored.org/misc/gifsicle/"
         target: "_blank" # optional html a tag target attribute
-               
+
       - name: "Adobe Lightroom"
         logo: "assets/tools/lightroom.png"
         url: "https://apps.microsoft.com/store/detail/adobe-lightroom/XPDP264X2DK8NB"
         target: "_blank" # optional html a tag target attribute
-                
+
       - name: "Adobe Photoshop"
         logo: "assets/tools/photoshop.png"
         url: "https://apps.microsoft.com/store/detail/adobe-photoshop/XPFD4T9N395QN6"
         target: "_blank" # optional html a tag target attribute
-                        
+
       - name: "Concepts"
         logo: "assets/tools/concepts.png"
         url: "https://apps.microsoft.com/detail/concepts/9NGQM8FPH9WQ"
         target: "_blank" # optional html a tag target attribute
-                            
+
       - name: "Leonardo"
         logo: "assets/tools/leonardo.png"
         url: "https://www.getleonardo.com/download/"
         target: "_blank" # optional html a tag target attribute
-                        
+
       - name: "Luminar Neo"
         logo: "assets/tools/LuminarNeo.png"
         subtitle: "AI Photo Editor"
@@ -680,7 +680,7 @@ services:
         subtitle: "page layout & design"
         url: "https://affinity.serif.com/en-us/publisher/"
         target: "_blank" # optional html a tag target attribute
-        
+
       - name: "CapCut"
         logo: "assets/tools/capcut.png"
         subtitle: "linear video editor"
@@ -745,17 +745,23 @@ services:
         subtitle: "unofficial builds"
         url: "https://github.com/tordona/rawtherapee/releases"
         target: "_blank" # optional html a tag target attribute
-        
+
       - name: "PTGui"
         logo: "assets/tools/ptgui.png"
         subtitle: "Beta build, Panorama Image Stitcher"
         url: "https://ptgui.com/beta.html"
         target: "_blank" # optional html a tag target attribute
-        
+
       - name: "Adobe DNG Converter"
         logo: "assets/tools/adobedngconverter.png"
         subtitle: "convert to a more universal DNG raw file"
         url: "https://helpx.adobe.com/ee/camera-raw/using/adobe-dng-converter.html"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Figma Desktop app"
+        logo: "assets/tools/figma.png"
+        subtitle: "design collaboration tool for creating and exporting digital assets"
+        url: "https://www.figma.com/downloads/"
         target: "_blank" # optional html a tag target attribute
 
   - name: "Design"
@@ -763,14 +769,14 @@ services:
     items:
       - name: "Unity"
         logo: "assets/tools/unity.png"
-        tag: "beta"  
+        tag: "beta"
         url: "https://unity.com/releases/editor/beta"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Blender"
         logo: "assets/tools/blender.png"
         subtitle: "experimental builds"
-        tag: "OpenGL 4.3 driver required"        
+        tag: "OpenGL 4.3 driver required"
         url: "https://builder.blender.org/download/experimental/"
         target: "_blank" # optional html a tag target attribute
 
@@ -848,13 +854,13 @@ services:
     items:
       - name: "LibreOffice"
         logo: "assets/tools/libreoffice.png"
-        subtitle: "stable (🤞) builds"        
+        subtitle: "stable (🤞) builds"
         url: "https://downloadarchive.documentfoundation.org/libreoffice/old/latest/win/aarch64/"
         target: "_blank" # optional html a tag target attribute
 
       - name: "LibreOffice Dev"
         logo: "assets/tools/libreoffice.png"
-        subtitle: "pre-release builds for testing"            
+        subtitle: "pre-release builds for testing"
         url: "https://dev-builds.libreoffice.org/pre-releases/win/aarch64/?C=M&O=D"
         target: "_blank" # optional html a tag target attribute
 
@@ -924,7 +930,7 @@ services:
         url: "https://apps.microsoft.com/detail/9NBLGGH5R558"
         target: "_blank" # optional html a tag target attribute
 
-      - name: "Todoist" 
+      - name: "Todoist"
         logo: "assets/tools/todoist.png"
         url: "https://appsource.microsoft.com/de-de/product/office/wa200001974?tab=overview"
         target: "_blank"
@@ -938,12 +944,12 @@ services:
         logo: "assets/tools/msJournal.png"
         url: "https://apps.microsoft.com/detail/9N318R854RHH"
         target: "_blank" # optional html a tag target attribute
-        
+
       - name: "Aquile Reader"
         logo: "assets/tools/aquile.png"
         url: "https://apps.microsoft.com/detail/9P08T4JLTQNK"
         target: "_blank" # optional html a tag target attribute
-        
+
       - name: "Starrea ePub Reader"
         logo: "assets/tools/Starrea.png"
         url: "https://apps.microsoft.com/detail/9NK7HZ90B3S6"
@@ -960,7 +966,7 @@ services:
         tag: "Purchases"
         url: "https://apps.microsoft.com/detail/9PFZCKRHW0BC"
         target: "_blank" # optional html a tag target attribute
-        
+
       - name: "Cover - Comic reader"
         logo: "assets/tools/cover.png"
         subtitle: "the best app to read and manage your comic books."
@@ -1090,7 +1096,7 @@ services:
         logo: "assets/tools/winfile.png"
         url: "https://apps.microsoft.com/store/detail/windows-file-manager/9P7VBBBC49RB"
         target: "_blank" # optional html a tag target attribute
-                
+
       - name: "Explorer++"
         logo: "assets/tools/Explorer.png"
         url: "https://explorerplusplus.com/download"
@@ -1113,7 +1119,7 @@ services:
         subtitle: "unofficial builds / terminal disk space navigator"
         url: "https://github.com/iKineticate/Windows-ARM64-Binaries/releases/tag/diskonaut"
         target: "_blank" # optional html a tag target attribute
-        
+
       - name: "gncdu"
         logo: "assets/tools/clionly.png"
         subtitle: "Implements NCurses Disk Usage"
@@ -1135,7 +1141,7 @@ services:
         logo: "assets/tools/rufus.png"
         url: "https://rufus.ie/"
         target: "_blank" # optional html a tag target attribute
-           
+
       - name: "Ventoy"
         logo: "assets/tools/ventoy.png"
         url: "https://www.ventoy.net/en/download.html"
@@ -1168,7 +1174,7 @@ services:
         logo: "assets/tools/edge.png"
         url: "https://developer.microsoft.com/en-us/microsoft-edge/webview2/#download"
         target: "_blank" # optional html a tag target attribute
-    
+
       - name: "EnergyStar X"
         logo: "assets/tools/energystarx.png"
         subtitle: "improve battery life by throttle background applications"
@@ -1242,7 +1248,7 @@ services:
         logo: "assets/tools/wut.png"
         url: "https://github.com/basharast/wut/releases"
         target: "_blank" # optional html a tag target attribute
-            
+
       - name: "TrafficMonitor"
         logo: "assets/tools/TrafficMonitor.png"
         subtitle: "unofficial builds"
@@ -1265,20 +1271,20 @@ services:
       - name: "Company Portal"
         logo: "assets/tools/CompanyPortal.png"
         url: "https://apps.microsoft.com/detail/9wzdncrfj3pz"
-        target: "_blank" # optional html a tag target attribute        
-        
+        target: "_blank" # optional html a tag target attribute
+
       - name: "WGestures" # App name
         logo: "assets/tools/WGestures.png" # App icon
         subtitle: "unofficial builds"
         url: "https://github.com/TonyHuang6666/WGestures-arm64-/releases/tag/1.8.3.0" # URL to download the app
         target: "_blank"
-        
+
       - name: "Office Tool Plus" # App name
         logo: "assets/tools/Office Tool Plus.png" # App icon
         subtitle: "A powerful and useful tool for Office deployments"
         url: "https://github.com/YerongAI/Office-Tool/releases/" # URL to download the app
         target: "_blank"
-        
+
       - name: "OFGB" # App name
         logo: "assets/tools/ofgb.png" # App icon
         subtitle: "Removes Ads From Various Places Around Windows 11"
@@ -1290,7 +1296,7 @@ services:
         subtitle: "calculate the hash values of files or folders."
         url: "https://github.com/KiyanYang/DotVast.HashTool.WinUI/releases" # URL to download the app
         target: "_blank"
-        
+
       - name: "fHash" # App name
         logo: "assets/tools/fhash.png" # App icon
         subtitle: "files hash calculator"
@@ -1381,13 +1387,13 @@ services:
         subtitle: "beta version, VPN"
         url: "https://www.privateinternetaccess.com/download/windows-vpn"
         target: "_blank" # optional html a tag target attribute
-        
+
       - name: "Windscribe"
         logo: "assets/tools/windscribe.png"
         subtitle: "a vpn, encrypts your browsing activity, blocks ads, and unblocks entertainment content"
         url: "https://windscribe.com/download/"
         target: "_blank" # optional html a tag target attribute
-        
+
       - name: "Palo Alto Global Protect"
         logo: "assets/tools/GlobalProtect.png"
         subtitle: "Enterprise VPN"
@@ -1417,13 +1423,13 @@ services:
         subtitle: "VPN Client."
         url: "https://surfshark.com/download/windows"
         target: "_blank" # optional html a tag target attribute
-        
+
       - name: "Viscosity"
         logo: "assets/tools/viscosity.png"
         subtitle: "OpenVPN Client."
         url: "https://www.sparklabs.com/viscosity/"
         target: "_blank" # optional html a tag target attribute
-        
+
   - name: "Network & Cloud Storage"
     icon: "fa-solid fa-network-wired"
     items:
@@ -1466,7 +1472,7 @@ services:
         subtitle: "a censorship resistant proxy"
         url: "https://github.com/apernet/hysteria/releases"
         target: "_blank" # optional html a tag target attribute
-        
+
       - name: "Charles"
         logo: "assets/tools/charles.png"
         subtitle: "an HTTP proxy / HTTP monitor / Reverse Proxy"
@@ -1485,7 +1491,7 @@ services:
         subtitle: "unofficial builds"
         url: "https://github.com/minnyres/privoxy-windows-arm64/releases"
         target: "_blank" # optional html a tag target attribute
-  
+
       - name: "traefik"
         logo: "assets/tools/traefik.png"
         subtitle: "The Cloud Native Application Proxy"
@@ -1510,19 +1516,19 @@ services:
       - name: "Filebrowser"
         logo: "assets/tools/filebrowser.png"
         url: "https://github.com/filebrowser/filebrowser/releases"
-        target: "_blank" # optional html a tag target attribute        
+        target: "_blank" # optional html a tag target attribute
 
       - name: "ArozOS"
         logo: "assets/tools/arozos.png"
         tag: "Experimental"
         url: "https://github.com/tobychui/arozos/releases"
-        target: "_blank" # optional html a tag target attribute    
+        target: "_blank" # optional html a tag target attribute
 
       - name: "Dropbox"
         logo: "assets/tools/dropbox.png"
         url: "https://www.dropbox.com/downloading?plat=win&type=full&arch=arm64"
         target: "_blank" # optional html a tag target attribute
-     
+
       - name: "OneDrive"
         logo: "assets/tools/onedrive.png"
         url: "https://apps.microsoft.com/detail/onedrive/9WZDNCRFJ1P3"
@@ -1538,46 +1544,46 @@ services:
         logo: "assets/tools/raidrive.png"
         url: "https://www.raidrive.com/download"
         target: "_blank" # optional html a tag target attribute
-     
+
       - name: "Rclone"
         logo: "assets/tools/rclone.png"
         url: "https://rclone.org/downloads/"
         target: "_blank" # optional html a tag target attribute
-                                     
+
       - name: "NanaGet"
         logo: "assets/tools/nanaget.png"
         url: "https://apps.microsoft.com/store/detail/nanaget/9PD5F2D90LS5"
         target: "_blank" # optional html a tag target attribute
-                     
+
       - name: "aria2"
         logo: "assets/tools/clionly.png"
         subtitle: "unofficial builds"
         url: "https://github.com/minnyres/aria2-windows-arm64/releases"
         target: "_blank" # optional html a tag target attribute
-                     
+
       - name: "GNU Wget"
         logo: "assets/tools/clionly.png"
         subtitle: "unofficial builds"
         url: "https://eternallybored.org/misc/wget/"
         target: "_blank" # optional html a tag target attribute
-                     
+
       - name: "croc"
         logo: "assets/tools/clionly.png"
         url: "https://github.com/schollz/croc/releases"
         target: "_blank" # optional html a tag target attribute
-                                      
+
       - name: "qBittorrent"
         logo: "assets/tools/qbittorrent.png"
         subtitle: "unofficial builds"
         url: "https://github.com/minnyres/qbittorrent-windows-arm64/releases"
         target: "_blank" # optional html a tag target attribute
-                             
+
       - name: "Transmission"
         logo: "assets/tools/transmission.png"
         subtitle: "unofficial builds"
         url: "https://github.com/minnyres/transmission-windows-arm64/releases"
         target: "_blank" # optional html a tag target attribute
-                                         
+
       - name: "Gopeed"
         logo: "assets/tools/gopeed.png"
         subtitle: "a high-speed downloader developed"
@@ -1590,19 +1596,19 @@ services:
         subtitle: "unofficial builds"
         url: "https://github.com/minnyres/amule-win32/releases"
         target: "_blank" # optional html a tag target attribute
-                                         
+
       - name: "Flying Carpet"
         logo: "assets/tools/flyingcarpet.png"
         subtitle: "unofficial builds"
         url: "https://github.com/ArminiusTux/WinARM64-binaries/releases/tag/FlyingCarpet"
         target: "_blank" # optional html a tag target attribute
-                                  
+
       - name: "curl"
         logo: "assets/tools/curl.png"
         subtitle: "OS-included since Win10 v1803"
         url: "https://curl.se/windows/"
         target: "_blank" # optional html a tag target attribute
-                     
+
       - name: "Wireshark"
         logo: "assets/tools/wireshark.png"
         url: "https://www.wireshark.org/download.html"
@@ -1701,26 +1707,26 @@ services:
         logo: "assets/tools/clionly.png"
         subtitle: "an intranet comprehensive scanning tool"
         url: "https://github.com/shadow1ng/fscan/releases"
-        target: "_blank" # optional html a tag target attribute      
+        target: "_blank" # optional html a tag target attribute
 
       - name: "pinger"
         logo: "assets/tools/clionly.png"
         subtitle: "alternative ping utility"
         url: "https://github.com/teivarodiere/pinger/releases"
-        target: "_blank" # optional html a tag target attribute      
+        target: "_blank" # optional html a tag target attribute
 
       - name: "MQTTX"
         logo: "assets/tools/mqttx.png"
         subtitle: "MQTT 5.0 client tool, MQTT is an OASIS standard for IoT connectivity."
         url: "https://github.com/emqx/MQTTX/releases"
-        target: "_blank" # optional html a tag target attribute      
+        target: "_blank" # optional html a tag target attribute
 
       - name: "Mattermost"
         logo: "assets/tools/mattermost.png"
         subtitle: "secure collaboration across the entire software development lifecycle."
         url: "https://github.com/mattermost/desktop/releases"
         target: "_blank" # optional html a tag target attribute
-        
+
       - name: "RealVNC"
         logo: "assets/tools/realvnc.png"
         subtitle: "unofficial builds, Remote control tool"
@@ -1787,7 +1793,7 @@ services:
 
       - name: "Ninja"
         logo: "assets/tools/clionly.png"
-        subtitle: "small build system focused on speed"        
+        subtitle: "small build system focused on speed"
         url: "https://github.com/ninja-build/ninja/releases"
         target: "_blank" # optional html a tag target attribute
 
@@ -1907,22 +1913,22 @@ services:
         logo: "assets/tools/bazel.png"
         url: "https://github.com/bazelbuild/bazel/releases"
         target: "_blank" # optional html a tag target attribute
-        
+
       - name: "Node.js"
         logo: "assets/tools/nodejs.png"
         url: "https://nodejs.org/en/download/current"
         target: "_blank" # optional html a tag target attribute
-        
+
       - name: "Electron"
         logo: "assets/tools/electron.png"
         url: "https://github.com/electron/electron/releases"
         target: "_blank" # optional html a tag target attribute
-        
+
       - name: "DevToys"
         logo: "assets/tools/devtoys.png"
         url: "https://devtoys.app/"
         target: "_blank" # optional html a tag target attribute
-            
+
       - name: ".NET SDK & Runtime"
         logo: "assets/tools/dotnet.png"
         url: "https://dotnet.microsoft.com/en-us/download/dotnet"
@@ -1938,7 +1944,7 @@ services:
         logo: "assets/tools/visualstudiocode.png"
         url: "https://apps.microsoft.com/store/detail/visual-studio-code/XP9KHM4BK9FZ7Q"
         target: "_blank" # optional html a tag target attribute
-        
+
       - name: "Visual Studio Community/Professional/Enterprise 2022"
         logo: "assets/tools/visualstudiocommunity2022.png"
         url: "https://visualstudio.microsoft.com/vs/"
@@ -1954,8 +1960,8 @@ services:
         logo: "assets/tools/typewriteraddin.png"
         subtitle: "Supported fork, add-in for Visual Studio that generates TypeScript files from c# code files using TypeScript templates."
         url: "https://github.com/AdaskoTheBeAsT/Typewriter/releases"
-        target: "_blank" # optional html a tag target attribute        
-        
+        target: "_blank" # optional html a tag target attribute
+
       - name: "Zig"
         logo: "assets/tools/zig.png"
         subtitle: "a general-purpose programming language and toolchain"
@@ -2068,13 +2074,13 @@ services:
         subtitle: "Dev Home is a new experience from Microsoft aiming to give developers more power on Windows."
         url: "https://github.com/microsoft/devhome"
         target: "_blank" # optional html a tag target attribute
-        
+
       - name: "LINQPad"
         logo: "assets/tools/linqpad.png"
         subtitle: "The .NET Programmer’s Playground"
         url: "https://www.linqpad.net/Download.aspx"
-        target: "_blank" # optional html a tag target attribute        
-           
+        target: "_blank" # optional html a tag target attribute
+
       - name: "Tiny RDM"
         logo: "assets/tools/tinyrdm.png"
         subtitle: "A Modern Redis GUI Client"
@@ -2085,25 +2091,25 @@ services:
         logo: "assets/tools/autohotkey.png"
         subtitle: "unofficial builds, automation scripting language"
         url: "https://github.com/fobrs/AutoHotkey_L/releases"
-        target: "_blank" # optional html a tag target attribute        
+        target: "_blank" # optional html a tag target attribute
 
       - name: "AutoHotKey v1.1.37.01"
         logo: "assets/tools/autohotkey.png"
         subtitle: "unofficial builds, automation scripting language"
         url: "https://www.autohotkey.com/boards/viewtopic.php?style=2&p=535036#p535036"
-        target: "_blank" # optional html a tag target attribute        
-        
+        target: "_blank" # optional html a tag target attribute
+
       - name: "Godot"
         logo: "assets/tools/godot.png"
         subtitle: "Beta build, free, open‑source game engine."
         url: "https://godotengine.org/article/release-candidate-godot-4-3-rc-1/"
-        target: "_blank" # optional html a tag target attribute        
+        target: "_blank" # optional html a tag target attribute
 
       - name: "WinDbg"
         logo: "assets/tools/windbg.png"
         subtitle: "Debugging tool from Microsoft, helps analyze dump (DMP) files, including memory dumps from blue screen errors."
         url: "https://www.microsoft.com/store/productId/9PGJGD53TN86?ocid=pdpshare"
-        target: "_blank" # optional html a tag target attribute         
+        target: "_blank" # optional html a tag target attribute
 
   - name: "Emulation & Virtualization"
     icon: "fa-solid fa-microchip"
@@ -2117,38 +2123,38 @@ services:
         logo: "assets/tools/dosbox.png"
         url: "https://github.com/joncampbell123/dosbox-x/releases"
         target: "_blank" # optional html a tag target attribute
-               
+
       - name: "ntvdm64.dll + winevdm"
         logo: "assets/tools/win16bit.png"
-        tag: "Windows 1.x, 2.x & 3.x"        
+        tag: "Windows 1.x, 2.x & 3.x"
         subtitle: "run old 16-bit Windows apps seamlessly"
         url: "https://github.com/otya128/ntvdm64.dll"
         target: "_blank" # optional html a tag target attribute
-        
+
       - name: "ntvdm"
         logo: "assets/tools/clionly.png"
         subtitle: "An NT Virtual DOS Machine"
         url: "https://github.com/davidly/ntvdm"
-        target: "_blank" # optional html a tag target attribute       
-                 
+        target: "_blank" # optional html a tag target attribute
+
       - name: "86Box"
         logo: "assets/tools/86box.png"
         subtitle: "unofficial builds, based on version 3.7"
         url: "https://github.com/mijk84/win-arm64-binaries/releases/tag/86box"
         target: "_blank" # optional html a tag target attribute
-                 
+
       - name: "86Box"
         logo: "assets/tools/86box.png"
         subtitle: "unofficial builds, based on version 4.2"
         url: "https://github.com/ArminiusTux/WinARM64-binaries/releases/tag/86Box"
         target: "_blank" # optional html a tag target attribute
-        
+
       - name: "Bochs"
         logo: "assets/tools/bochs.png"
         subtitle: "unofficial builds"
         url: "https://github.com/mijk84/win-arm64-binaries/releases/tag/bochs"
         target: "_blank" # optional html a tag target attribute
-           
+
       - name: "NanaBox"
         logo: "assets/tools/nanabox.png"
         url: "https://apps.microsoft.com/detail/nanabox/9NJXJSCB2JK0"
@@ -2158,7 +2164,7 @@ services:
         logo: "assets/tools/sandboxieplus.png"
         url: "https://sandboxie-plus.com/downloads/"
         target: "_blank" # optional html a tag target attribute
-        
+
       - name: "Podman Desktop"
         logo: "assets/tools/podman.png"
         subtitle: "A graphical tool for developing on containers and Kubernetes"
@@ -2169,19 +2175,19 @@ services:
         logo: "assets/tools/diskjockey.png"
         url: "https://diskjockey.onegeekarmy.eu/windows/"
         target: "_blank" # optional html a tag target attribute
-        
+
       - name: "WSL"
         logo: "assets/tools/wsl.png"
         subtitle: "Windows Subsystem for Linux"
         url: "https://apps.microsoft.com/store/detail/windows-subsystem-for-linux/9P9TQF7MRM4R"
         target: "_blank" # optional html a tag target attribute
-       
+
       - name: "Arch WSL"
         logo: "assets/tools/ArchWSL.png"
         subtitle: "unofficial Arch WSL"
         url: "https://apps.microsoft.com/detail/9MZNMNKSM73X"
         target: "_blank" # optional html a tag target attribute
-       
+
       - name: "Ubuntu"
         logo: "assets/tools/ubuntu.png"
         subtitle: "Windows Subsystem for Linux"
@@ -2211,7 +2217,7 @@ services:
         subtitle: "Windows Subsystem for Android"
         url: "https://apps.microsoft.com/store/detail/windows-subsystem-for-android%E2%84%A2-with-amazon-appstore/9P3395VX91NR"
         target: "_blank" # optional html a tag target attribute
-        
+
       - name: "WSABuilds (pimped WSA)"
         logo: "assets/tools/wsabuilds.png"
         subtitle: "unofficial builds with Magisk & MindTheGapps"
@@ -2223,7 +2229,7 @@ services:
         subtitle: "Android™ App Installer for Windows 10/11"
         url: "https://apps.microsoft.com/detail/9P2JFQ43FPPG"
         target: "_blank" # optional html a tag target attribute
-        
+
       - name: "WSA Sideloader"
         logo: "assets/tools/wsasideloader.png"
         subtitle: "Easily sideload Android apps on Windows Subsystem for Android"
@@ -2235,7 +2241,7 @@ services:
         subtitle: "Monitor WSA status and turn WSA on/off from the system tray"
         url: "https://github.com/infinitepower18/WSA-SystemControl"
         target: "_blank"
-        
+
       - name: "windows95"
         logo: "assets/tools/windows95.png"
         subtitle: "Windows 95 in Electron"
@@ -2263,52 +2269,52 @@ services:
         subtitle: "Amiga Emulator"
         url: "https://github.com/petschau/WinFellow/releases"
         target: "_blank" # optional html a tag target attribute
-        
+
   - name: "Benchmarking & Diagnostics"
     icon: "fa-solid fa-stopwatch"
-    items: 
+    items:
       - name: "Geekbench"
         logo: "assets/tools/geekbench6.png"
         url: "https://www.geekbench.com/download/"
         target: "_blank" # optional html a tag target attribute
-        
+
       - name: "Cinebench"
         logo: "assets/tools/cinebench.png"
         url: "https://www.maxon.net/de/downloads/cinebench-2024-downloads"
-        target: "_blank" # optional html a tag target attribute   
-        
+        target: "_blank" # optional html a tag target attribute
+
       - name: "GFXBench"
         logo: "assets/tools/gfxbench.png"
         url: "https://gfxbench.com/windows-arm-download"
-        target: "_blank" # optional html a tag target attribute   
-       
+        target: "_blank" # optional html a tag target attribute
+
       - name: "3DMark"
         logo: "assets/tools/3dmark.png"
         subtitle: "only Night Raid, Wild Life & Steel Nomad"
         url: "https://benchmarks.ul.com/3dmark/download"
         target: "_blank" # optional html a tag target attribute
-            
+
       - name: "PassMark PerformanceTest"
         logo: "assets/tools/performancetest.png"
         url: "https://www.passmark.com/products/performancetest/download.php"
-        target: "_blank" # optional html a tag target attribute   
-                            
+        target: "_blank" # optional html a tag target attribute
+
       - name: "CrystalDiskInfo"
         logo: "assets/tools/crystaldiskinfo.png"
         url: "https://crystalmark.info/en/download/"
-        target: "_blank" # optional html a tag target attribute   
-                               
+        target: "_blank" # optional html a tag target attribute
+
       - name: "CrystalDiskMark"
         logo: "assets/tools/crystaldiskmark.png"
         url: "https://crystalmark.info/en/download/"
-        target: "_blank" # optional html a tag target attribute   
-       
+        target: "_blank" # optional html a tag target attribute
+
       - name: "AIDA64"
         logo: "assets/tools/aida64.png"
         tag: "ARM32"
         url: "https://apps.microsoft.com/detail/9NBLGGH2WNWH"
         target: "_blank" # optional html a tag target attribute
-       
+
       - name: "Speedtest by Ookla"
         logo: "assets/tools/speedtest.png"
         tag: "ARM32"
@@ -2348,12 +2354,12 @@ services:
         subtitle: "fetching system information and displaying them in a pretty way."
         url: "https://github.com/fastfetch-cli/fastfetch/releases"
         target: "_blank" # optional html a tag target attribute
-        
+
       - name: "HWiNFO"
         logo: "assets/tools/hwinfo.png"
         subtitle: "ARM version in beta portable download, System Information"
         url: "https://www.hwinfo.com/download/"
-        target: "_blank" # optional html a tag target attribute        
+        target: "_blank" # optional html a tag target attribute
 
   - name: "Security & Protection"
     icon: "fa-solid fa-shield"
@@ -2382,12 +2388,12 @@ services:
         logo: "assets/tools/ESET.png"
         url: "https://www.eset.com/int/home/smart-security-premium/download/"
         target: "_blank" # optional html a tag target attribute
-        
+
       - name: "ESET Security Ultimate"
         logo: "assets/tools/ESET.png"
         url: "https://www.eset.com/us/home/free-trial/"
         target: "_blank" # optional html a tag target attribute
-        
+
       - name: "ESET Small Business Security"
         logo: "assets/tools/ESET.png"
         url: "https://www.eset.com/us/home/free-trial/#small-office-protection"
@@ -2514,7 +2520,7 @@ services:
         logo: "assets/tools/dynamictheme.png"
         url: "https://apps.microsoft.com/detail/9nblggh1zbkw"
         target: "_blank" # optional html a tag target attribute
-        
+
       - name: "WinDynamicDesktop"
         logo: "assets/tools/WinDynamicDesktop.png"
         subtitle: "changes wallpaper based on the time of day."
@@ -2554,7 +2560,7 @@ services:
         subtitle: "unofficial builds"
         url: "https://github.com/ArminiusTux/WinARM64-binaries/releases/tag/WindowPet"
         target: "_blank" # optional html a tag target attribute
-        
+
       - name: "Files"
         logo: "assets/tools/files.png"
         url: "https://files.community/download"
@@ -2574,13 +2580,13 @@ services:
 
   - name: "Other"
     icon: "fa-solid fa-question"
-    items:          
+    items:
       - name: "DBeaver"
         logo: "assets/tools/dbeaver.png"
         subtitle: "unofficial builds"
         url: "https://github.com/chirontt/dbeaver/releases"
         target: "_blank" # optional html a tag target attribute
-    
+
       - name: "Phone Link"
         logo: "assets/tools/phonelink.png"
         url: "https://apps.microsoft.com/store/detail/phone-link/9NMPJ99VJBWV"
@@ -2596,29 +2602,29 @@ services:
         logo: "assets/tools/windowsmaps.png"
         url: "https://apps.microsoft.com/store/detail/windows-maps/9WZDNCRDTBVB"
         target: "_blank" # optional html a tag target attribute
-     
+
       - name: "Prometheus"
         logo: "assets/tools/prometheus.png"
         url: "https://prometheus.io/download/"
-        target: "_blank" # optional html a tag target attribute   
-     
+        target: "_blank" # optional html a tag target attribute
+
       - name: "Foxglove Studio"
         logo: "assets/tools/foxglovestudio.png"
-        subtitle: "robotics development solution"        
+        subtitle: "robotics development solution"
         url: "https://foxglove.dev/download"
-        target: "_blank" # optional html a tag target attribute   
-          
+        target: "_blank" # optional html a tag target attribute
+
       - name: "RunCat"
         logo: "assets/tools/runcat.png"
         subtitle: "a cute running cat animation reflects CPU Utilization"
         url: "https://github.com/Kyome22/RunCat_for_windows/releases"
-        target: "_blank" # optional html a tag target attribute    
-   
+        target: "_blank" # optional html a tag target attribute
+
       - name: "Ambie"
         logo: "assets/tools/ambie.png"
         subtitle: "play white noise and natural sounds"
         url: "https://apps.microsoft.com/detail/9P07XNM5CHP0"
-        target: "_blank" # optional html a tag target attribute     
+        target: "_blank" # optional html a tag target attribute
 
       - name: "Battery Tracker"
         logo: "assets/tools/BatteryTracker.png"
@@ -2629,7 +2635,7 @@ services:
         logo: "assets/tools/VisibleBody.png"
         tag: "Purchases"
         url: "https://apps.microsoft.com/detail/9NCGKTBT3S2Q"
-        target: "_blank" # optional html a tag target attribute             
+        target: "_blank" # optional html a tag target attribute
 
       - name: "Microsoft PC Manager"
         logo: "assets/tools/msPCManager.png"
@@ -2684,33 +2690,33 @@ services:
         subtitle: "unofficial build, Switch emulator"
         url: "http://mikahintz.de/fileDownload.php"
         target: "_blank" # optional html a tag target attribute
-        
+
       - name: "Dolphin"
         logo: "assets/tools/dolphin.png"
         subtitle: "Wii and Gamecube emulator"
         url: "https://dolphin-emu.org/download/?ref=btn"
         target: "_blank" # optional html a tag target attribute
-        
+
       - name: "PPSSPP"
         logo: "assets/tools/ppsspp.png"
         subtitle: "PSP Emulator"
         url: "https://www.ppsspp.org/download/"
         target: "_blank" # optional html a tag target attribute
-        
+
       - name: "RetroArch"
         logo: "assets/tools/RetroArch.png"
-        subtitle: "unofficial builds, multi console emulator"       
-        tag: "ARM32"        
+        subtitle: "unofficial builds, multi console emulator"
+        tag: "ARM32"
         url: "https://github.com/basharast/RetroArch-ARM/releases"
         target: "_blank" # optional html a tag target attribute
 
       - name: "RetriXGold"
         logo: "assets/tools/retrixgold.png"
-        subtitle: "Universal Libretro Frontend"  
+        subtitle: "Universal Libretro Frontend"
         tag: "ARM32"
         url: "https://github.com/basharast/RetrixGold/releases"
         target: "_blank" # optional html a tag target attribute
-        
+
       - name: "DuckStation"
         logo: "assets/tools/duckstation.png"
         subtitle: "PlayStation 1, aka. PSX Emulator"
@@ -2722,7 +2728,7 @@ services:
         subtitle: "emulator for LucasArts & LucasFilm games"
         url: "https://aarongiles.com/dreamm/"
         target: "_blank" # optional html a tag target attribute
-        
+
       - name: "ScummVM"
         logo: "assets/tools/scummvm.png"
         subtitle: "unofficial builds, adventure game emualtor, over 325 games supported"
@@ -2752,31 +2758,31 @@ services:
         subtitle: "unofficial builds, SNES (Super Nintendo) emulator"
         url: "https://github.com/tordona/snes9x/releases"
         target: "_blank" # optional html a tag target attribute
-         
+
       - name: "melonDS"
         logo: "assets/tools/melonds.png"
         subtitle: "unofficial builds, Nintendo DS emulator"
         url: "https://github.com/mijk84/win-arm64-binaries/releases/tag/nelons-31072022"
         target: "_blank" # optional html a tag target attribute
-        
+
   - name: "Games"
     icon: "fa-solid fa-gamepad"
-    items:                     
+    items:
       - name: "OpenCL & OpenGL Compatibility Pack"
         logo: "assets/tools/openglcompat.png"
         url: "https://apps.microsoft.com/detail/9nqpsl29bfff"
-        target: "_blank" # optional html a tag target attribute         
-           
+        target: "_blank" # optional html a tag target attribute
+
       - name: "Great Conqueror"
         logo: "assets/tools/GreatConqueror.png"
         url: "https://www.ieasytech.com/en/Desktop/"
         target: "_blank" # optional html a tag target attribute
-                      
+
       - name: "European War"
         logo: "assets/tools/EuropeanWar.png"
         url: "https://www.ieasytech.com/en/Desktop/"
         target: "_blank" # optional html a tag target attribute
-                      
+
       - name: "Glory of Generals"
         logo: "assets/tools/GloryofGenerals.png"
         url: "https://www.ieasytech.com/en/Desktop/"
@@ -2795,77 +2801,77 @@ services:
         tag: "original game data needed & provided"
         url: "https://github.com/ArminiusTux/WinARM64-binaries/releases/tag/Ambermoon"
         target: "_blank" # optional html a tag target attribute
-                
+
       - name: "Chocolate Doom"
         logo: "assets/tools/chocolatedoom.png"
         subtitle: "Doom, Heretic, Hexen & Strife ports"
         tag: "original game data needed"
         url: "https://github.com/mijk84/win-arm64-binaries/releases/tag/doom"
         target: "_blank" # optional html a tag target attribute
-                       
+
       - name: "OpenJazz"
         logo: "assets/tools/openjazz.png"
         subtitle: "Jazz Jackrabbit 1994 port"
         tag: "original game data needed"
         url: "https://github.com/mijk84/win-arm64-binaries/releases/tag/openjazz"
         target: "_blank" # optional html a tag target attribute
-               
+
       - name: "OpenRCT2"
         logo: "assets/tools/openrct2.png"
         subtitle: "RollerCoaster Tycoon 2 2002 port"
         tag: "original game data needed"
         url: "https://openrct2.org/downloads/releases/latest"
         target: "_blank" # optional html a tag target attribute
-               
+
       - name: "OpenTTD"
         logo: "assets/tools/openttd.png"
         subtitle: "Transport Tycoon Deluxe 1995 port"
         tag: "original game data needed"
         url: "https://www.openttd.org/downloads/openttd-releases/latest"
         target: "_blank" # optional html a tag target attribute
-               
+
       - name: "fheroes2"
         logo: "assets/tools/fheroes2.png"
         subtitle: "Heroes of Might and Magic II 1996 remake"
         tag: "original game data needed"
         url: "https://github.com/ArminiusTux/WinARM64-binaries/releases/tag/fheroes2"
         target: "_blank" # optional html a tag target attribute
-               
+
       - name: "DevilutionX"
         logo: "assets/tools/devilutionx.png"
         subtitle: "Diablo & Hellfire 1997 port"
         tag: "original game data needed"
         url: "https://github.com/ArminiusTux/WinARM64-binaries/releases/tag/DevilutionX"
         target: "_blank" # optional html a tag target attribute
-               
+
       - name: "Fallout Community Edition"
         logo: "assets/tools/fallout1ce.png"
         subtitle: "Fallout 1997 re-implementation"
         tag: "original game data needed"
         url: "https://github.com/ArminiusTux/WinARM64-binaries/releases/tag/fallout1-ce"
         target: "_blank" # optional html a tag target attribute
-               
+
       - name: "Fallout 2 Community Edition"
         logo: "assets/tools/fallout2ce.png"
         subtitle: "Fallout 2 1998 re-implementation"
         tag: "original game data needed"
         url: "https://github.com/ArminiusTux/WinARM64-binaries/releases/tag/fallout2-ce"
         target: "_blank" # optional html a tag target attribute
-                                     
+
       - name: "Julius"
         logo: "assets/tools/julius.png"
         subtitle: "Caesar III 1998 vanilla clone"
         tag: "original game data needed"
         url: "https://github.com/ArminiusTux/WinARM64-binaries/releases/tag/Julius"
         target: "_blank" # optional html a tag target attribute
-               
+
       - name: "Augustus"
         logo: "assets/tools/augustus.png"
         subtitle: "Caesar III 1998 enhanced clone"
         tag: "original game data needed"
         url: "https://github.com/ArminiusTux/WinARM64-binaries/releases/tag/Augustus"
         target: "_blank" # optional html a tag target attribute
-                      
+
       - name: "FreeCol"
         logo: "assets/tools/freecol.png"
         subtitle: "Colonization 1994 remake"
@@ -2875,36 +2881,36 @@ services:
 
       - name: "Super Mario Bros. X (TheXTech)"
         logo: "assets/tools/thextech.png"
-        subtitle: "Super Mario Bros. 1-3 1985-1988 remake"        
-        tag: "full game"       
+        subtitle: "Super Mario Bros. 1-3 1985-1988 remake"
+        tag: "full game"
         url: "https://wohlsoft.ru/projects/TheXTech/"
         target: "_blank" # optional html a tag target attribute
-               
+
       - name: "SuperTuxKart"
         logo: "assets/tools/supertuxkart.png"
         url: "https://supertuxkart.net/Download"
         target: "_blank" # optional html a tag target attribute
-               
+
       - name: "SRB2Kart"
         logo: "assets/tools/SRB2Kart.png"
         subtitle: "A skill-based kart racing game with unique mechanics and intense multiplayer action."
         url: "https://github.com/Wapitiii/Kart-Public/releases"
         target: "_blank" # optional html a tag target attribute
-               
+
       - name: "wipEout Rewrite"
         logo: "assets/tools/wipeout.png"
         subtitle: "WipEout 1995 re-implementation"
         tag: "original game data needed"
         url: "https://github.com/ArminiusTux/WinARM64-binaries/releases/tag/wipEout"
         target: "_blank" # optional html a tag target attribute
-               
+
       - name: "Vanilla Conquer TD"
         logo: "assets/tools/vanillaconquertd.png"
         subtitle: "Command & Conquer 1995 re-ignited"
         tag: "original game data needed"
         url: "https://github.com/ArminiusTux/WinARM64-binaries/releases/tag/VanillaConquerTD"
         target: "_blank" # optional html a tag target attribute
-               
+
       - name: "Vanilla Conquer RA"
         logo: "assets/tools/vanillaconquerra.png"
         subtitle: "Command & Conquer: Red Alert 1996 re-loaded"
@@ -2914,11 +2920,11 @@ services:
 
       - name: "Open-IG"
         logo: "assets/tools/openig.png"
-        subtitle: "Imperium Galactica 1997 reimplementation"        
-        tag: "Java / full game"       
+        subtitle: "Imperium Galactica 1997 reimplementation"
+        tag: "Java / full game"
         url: "https://github.com/akarnokd/open-ig"
         target: "_blank" # optional html a tag target attribute
-                        
+
       - name: "OpenTomb"
         logo: "assets/tools/opentomb.png"
         subtitle: "Tomb Raider 1-5 1996-2003 engine remake"
@@ -2932,42 +2938,42 @@ services:
         tag: "original game data needed"
         url: "https://github.com/ArminiusTux/WinARM64-binaries/releases/tag/QuakeSpasm"
         target: "_blank" # optional html a tag target attribute
-        
+
       - name: "Yamagi Quake II"
         logo: "assets/tools/quake2.png"
         subtitle: "Enhanced client for ID Software's first-person shooter Quake II."
         tag: "original game data needed"
         url: "https://github.com/ArminiusTux/WinARM64-binaries/releases/tag/yquake2"
         target: "_blank" # optional html a tag target attribute
-        
+
       - name: "Quake3e"
         logo: "assets/tools/quake3e.png"
         subtitle: "Quake III: Arena 1999 re-engine-ered"
         tag: "original game data needed"
         url: "https://github.com/ec-/Quake3e/releases"
         target: "_blank" # optional html a tag target attribute
-                    
+
       - name: "OpenJK - Jedi Outcast"
         logo: "assets/tools/openjk.png"
         subtitle: "Star Wars: Jedi Knight II - JO 2002 clone"
         tag: "original game data needed"
         url: "https://github.com/ArminiusTux/WinARM64-binaries/releases/tag/OpenJK"
         target: "_blank" # optional html a tag target attribute
-               
+
       - name: "OpenJK - Jedi Academy"
         logo: "assets/tools/openjk.png"
         subtitle: "Star Wars: Jedi Knight - JA 2003 clone"
         tag: "original game data needed"
         url: "https://github.com/ArminiusTux/WinARM64-binaries/releases/tag/OpenJK"
         target: "_blank" # optional html a tag target attribute
-               
+
       - name: "dhewm3"
         logo: "assets/tools/dhewm3.png"
         subtitle: "Doom³ 2004 & Resurrection of Evil 2005 port"
         tag: "original game data needed"
         url: "https://github.com/ArminiusTux/WinARM64-binaries/releases/tag/dhewm3"
         target: "_blank" # optional html a tag target attribute
-                                                                               
+
       - name: "Duolingo"
         logo: "assets/tools/duolingo.png"
         url: "https://apps.microsoft.com/store/detail/duolingo-learn-languages-for-free/9WZDNCRCV5XN"
@@ -2983,19 +2989,19 @@ services:
         subtitle: "cloud game streaming"
         url: "https://apps.microsoft.com/detail/xbox/9MV0B5HZVK9Z"
         target: "_blank" # optional html a tag target attribute
-            
+
       - name: "Moonlight Client"
         logo: "assets/tools/moonlight.png"
         subtitle: "remote & local game streaming"
         url: "https://github.com/moonlight-stream/moonlight-qt/releases/latest"
         target: "_blank" # optional html a tag target attribute
-              
+
       - name: "dgVoodoo"
         logo: "assets/tools/dgvoodoo.png"
         subtitle: "3dfx Glide & DirectX wrapper"
         url: "http://dege.freeweb.hu/dgVoodoo2/dgVoodoo2/"
         target: "_blank" # optional html a tag target attribute
-              
+
       - name: "Plague Inc."
         logo: "assets/tools/plagueinc.png"
         url: "https://apps.microsoft.com/detail/9NBLGGH0DNM7"
@@ -3006,7 +3012,7 @@ services:
         subtitle: "Minecraft Classic 2009 compatible client"
         url: "https://github.com/ArminiusTux/WinARM64-binaries/releases/tag/ClassiCube"
         target: "_blank" # optional html a tag target attribute
-              
+
       - name: "MCGalaxy"
         logo: "assets/tools/mcgalaxy.png"
         subtitle: "Minecraft Classic / ClassiCube server"
@@ -3079,21 +3085,21 @@ services:
 
       - name: "Vassal"
         logo: "assets/tools/vassal.png"
-        subtitle: "a boardgame engine offering 2600 titles"        
-        tag: "Java"       
+        subtitle: "a boardgame engine offering 2600 titles"
+        tag: "Java"
         url: "https://vassalengine.org/download.html"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Warzone 2100"
         logo: "assets/tools/warzone2100.png"
-        tag: "full game"       
+        tag: "full game"
         url: "https://github.com/Warzone2100/warzone2100/releases"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Widelands"
         logo: "assets/tools/widelands.png"
-        subtitle: "Settlers II 1996 remake"        
-        tag: "full game"       
+        subtitle: "Settlers II 1996 remake"
+        tag: "full game"
         url: "https://github.com/ArminiusTux/WinARM64-binaries/releases/tag/Widelands"
         target: "_blank" # optional html a tag target attribute
 
@@ -3258,20 +3264,20 @@ services:
     items:
       - name: "Qualcomm Neural Processing SDK"
         logo: "assets/tools/qualcommdev.png"
-        tag: "ARM64X"        
-        subtitle: "deep neural network runtime for Snapdragon SoCs"        
+        tag: "ARM64X"
+        subtitle: "deep neural network runtime for Snapdragon SoCs"
         url: "https://docs.qualcomm.com/bundle/publicresource/topics/80-63442-2/revision_history_windows.html"
         target: "_blank" # optional html a tag target attribute
 
       - name: "LM Studio"
-        logo: "assets/tools/lmstudio.png"     
-        subtitle: "Run local AI workloads with Llama 3, Phi-3, and other open-weights LLMs on your Snapdragon X Elite PC."        
+        logo: "assets/tools/lmstudio.png"
+        subtitle: "Run local AI workloads with Llama 3, Phi-3, and other open-weights LLMs on your Snapdragon X Elite PC."
         url: "https://lmstudio.ai/snapdragon"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Netron"
-        logo: "assets/tools/netron.png"     
-        subtitle: "Visualizer for neural network, deep learning and machine learning models"        
+        logo: "assets/tools/netron.png"
+        subtitle: "Visualizer for neural network, deep learning and machine learning models"
         url: "https://github.com/lutzroeder/netron/releases"
         target: "_blank" # optional html a tag target attribute
 
@@ -3280,14 +3286,14 @@ services:
     items:
       - name: "Zadig (libwdi)"
         logo: "assets/tools/zadig.png"
-        subtitle: "create & autosign USB drivers"        
+        subtitle: "create & autosign USB drivers"
         url: "https://github.com/pbatard/libwdi/releases"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Ext4Fsd"
         logo: "assets/tools/ext4fsd.png"
         subtitle: "ext2/3/4 file system driver"
-        tag: "read from & write onto Linux partitions"        
+        tag: "read from & write onto Linux partitions"
         url: "https://www.accum.se/~bosse/ext2fsd/0.71/signed/"
         target: "_blank" # optional html a tag target attribute
 
@@ -3302,18 +3308,18 @@ services:
         subtitle: "USB-to-Serial with VCP, D2XX, and D3XX support"
         url: "https://ftdichip.com/drivers/"
         target: "_blank" # optional html a tag target attribute
-        
+
       - name: "SEGGER J-Link"
         logo: "assets/tools/seggerjlink.png"
         subtitle: "line of debug probes available"
         url: "https://www.segger.com/downloads/jlink/"
         target: "_blank" # optional html a tag target attribute
-        
+
       - name: "CP210x USB to UART Bridge"
         logo: "assets/tools/siliconlabs.png"
         url: "https://www.silabs.com/developers/usb-to-uart-bridge-vcp-drivers?tab=downloads"
         target: "_blank" # optional html a tag target attribute
-                
+
       - name: "CH343SER"
         logo: "assets/tools/wch.png"
         subtitle: "supports CH342/CH343/CH344/CH347/CH9101/CH9102/CH9103/CH9104/CH9143"
