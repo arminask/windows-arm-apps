@@ -1430,6 +1430,12 @@ services:
         url: "https://www.sparklabs.com/viscosity/"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "AdguardVPN Beta Version"
+        logo: "assets/tools/adguardvpn.png"
+        subtitle: "ARM64 Support available since Version 2.4 Beta 1."
+        url: "https://adguard-vpn.com/en/versions/windows/beta.html#version-2414230"
+        target: "_blank" # optional html a tag target attribute
+
   - name: "Network & Cloud Storage"
     icon: "fa-solid fa-network-wired"
     items:
