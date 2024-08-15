@@ -1315,12 +1315,6 @@ services:
         url: "https://www.beyondtrust.com/products/remote-support"
         target: "_blank"
 
-      - name: "Configuration Manager"
-        logo: "assets/tools/configmanager.png"
-        subtitle: "Enterprise system management."
-        url: "https://learn.microsoft.com/en-us/mem/configmgr/core/understand/introduction"
-        target: "_blank"
-
       - name: "Ivanti MobileIron"
         logo: "assets/tools/mobileiron.png"
         subtitle: "Enterprise device management."
