@@ -2306,6 +2306,11 @@ services:
         url: "https://www.passmark.com/products/performancetest/download.php"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "Geekbench AI"
+        logo: "assets/tools/geekbenchai.png"
+        url: "https://www.geekbench.com/ai/download/"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "CrystalDiskInfo"
         logo: "assets/tools/crystaldiskinfo.png"
         url: "https://crystalmark.info/en/download/"
