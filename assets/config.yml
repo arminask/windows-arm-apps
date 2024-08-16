@@ -2828,6 +2828,13 @@ services:
         url: "https://github.com/mijk84/win-arm64-binaries/releases/tag/openjazz"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "Jazz² Resurrection"
+        logo: "assets/tools/jazz2.png"
+        subtitle: "Jazz Jackrabbit 2 1998 reimplementation"
+        tag: "ARM64EC / original game data needed"
+        url: "https://deat.tk/jazz2/#downloads"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "OpenRCT2"
         logo: "assets/tools/openrct2.png"
         subtitle: "RollerCoaster Tycoon 2 2002 port"
