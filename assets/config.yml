@@ -895,6 +895,13 @@ services:
         url: "https://creator.pdf24.org/listVersions.php"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "CubePDF"
+        logo: "assets/tools/cubepdf.png"
+        subtitle: "virtual PDF printer"
+        tag: "only partially native"        
+        url: "https://www.cube-soft.com/cubepdf/"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "Scanner"
         logo: "assets/tools/scanner.png"
         subtitle: "Quick and Easy Document Scanning"
