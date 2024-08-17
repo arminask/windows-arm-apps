@@ -2783,6 +2783,12 @@ services:
         url: "https://github.com/drhelius/Gearcoleco/releases"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "Altirra"
+        logo: "assets/tools/altirra.png"
+        subtitle: "an Atari 400, 800, XL, XE, XEGS & Atari 5200 emulator"
+        url: "https://www.virtualdub.org/altirra.html"
+        target: "_blank" # optional html a tag target attribute
+
   - name: "Games"
     icon: "fa-solid fa-gamepad"
     items:
