@@ -2759,6 +2759,12 @@ services:
         url: "https://github.com/tordona/nintendulator/releases"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "GoNES"
+        logo: "assets/tools/gones.png"
+        subtitle: "another NES emulator"
+        url: "https://github.com/gabe565/gones/releases"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "Snes9x"
         logo: "assets/tools/snes9x.png"
         subtitle: "unofficial builds, SNES (Super Nintendo) emulator"
