@@ -2789,6 +2789,12 @@ services:
         url: "https://www.virtualdub.org/altirra.html"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "BigPEmu"
+        logo: "assets/tools/bigpemu.png"
+        subtitle: "an Atari Jaguar emulator"
+        url: "https://www.richwhitehouse.com/jaguar/index.php?content=download"
+        target: "_blank" # optional html a tag target attribute
+
   - name: "Games"
     icon: "fa-solid fa-gamepad"
     items:
