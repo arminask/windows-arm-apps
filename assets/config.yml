@@ -345,6 +345,12 @@ services:
         url: "https://openmpt.org/download"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "ZXTune"
+        logo: "assets/tools/zxtune.png"
+        subtitle: "a chiptunes player"
+        url: "https://zxtune.bitbucket.io"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "fre:ac"
         logo: "assets/tools/freac.png"
         url: "https://www.freac.org/downloads-mainmenu-33"
