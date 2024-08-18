@@ -2828,7 +2828,7 @@ services:
 
       - name: "ScummVM"
         logo: "assets/tools/scummvm.png"
-        subtitle: "unofficial builds of THE multi-game engine re-creator"
+        subtitle: "unofficial builds of THE game engine re-creator"
         tag: "over 325 games supported"        
         url: "https://github.com/ArminiusTux/WinARM64-binaries/releases/tag/ScummVM"
         target: "_blank" # optional html a tag target attribute
