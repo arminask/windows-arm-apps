@@ -2312,6 +2312,11 @@ services:
         url: "https://benchmarks.ul.com/3dmark/download"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "GravityMark"
+        logo: "assets/tools/gravitymark.png"
+        url: "https://gravitymark.tellusim.com/"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "PassMark PerformanceTest"
         logo: "assets/tools/performancetest.png"
         url: "https://www.passmark.com/products/performancetest/download.php"
