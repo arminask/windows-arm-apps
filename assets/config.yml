@@ -2819,6 +2819,13 @@ services:
         url: "https://apps.microsoft.com/detail/9nqpsl29bfff"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "*retro-elitist* Vulkan drivers"
+        logo: "assets/tools/vulkandrivers.png"
+        subtitle: "unofficial + unstable = USE AT OWN RISK"
+        tag: "only works on a few Snapdragon pre-Elite SoC models"
+        url: "https://driver1998.github.io/en/posts/vulkan-on-qualcomm-snapdragon-8cx/"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "ScummVM"
         logo: "assets/tools/scummvm.png"
         subtitle: "unofficial builds of THE multi-game engine re-creator"
