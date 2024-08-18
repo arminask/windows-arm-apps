@@ -110,7 +110,7 @@ services:
       - name: "Vivaldi"
         logo: "assets/tools/Vivaldi.png"
         subtitle: "Experimental builds"
-        url: "https://vivaldi.com/?p=682929"
+        url: "https://vivaldi.com/?p=696867"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Midori"
