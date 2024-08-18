@@ -1377,7 +1377,7 @@ services:
         target: "_blank"
 
   - name: "VPN"
-    icon: "fa-solid fa-network-wired"
+    icon: "fa-solid fa-globe"
     items:
       - name: "OpenVPN"
         logo: "assets/tools/openvpn.png"
@@ -2705,7 +2705,7 @@ services:
         target: "_blank" # optional html a tag target attribute
 
   - name: "Game Console Emulation"
-    icon: "fa-solid fa-gamepad"
+    icon: "fa-brands fa-playstation"
     items:
       - name: "Aethersx2"
         logo: "assets/tools/aethersx2.png"
@@ -3349,7 +3349,7 @@ services:
         target: "_blank" # optional html a tag target attribute
 
   - name: "Drivers"
-    icon: "fa-solid fa-hard-drive"
+    icon: "fa-solid fa-gears"
     items:
       - name: "Zadig (libwdi)"
         logo: "assets/tools/zadig.png"
