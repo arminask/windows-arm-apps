@@ -1780,6 +1780,12 @@ services:
         url: "https://www.python.org/downloads/windows/"
         target: "_blank" # optional html a tag target attribute
 
+        - name: "Python Wheels"
+        logo: "assets/tools/python.png"
+        subtitle: "unofficial builds"
+        url: "https://github.com/cgohlke/win_arm64-wheels/releases"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "ruff"
         logo: "assets/tools/ruff.png"
         subtitle: "an extremely fast Python linter and code formatter"
