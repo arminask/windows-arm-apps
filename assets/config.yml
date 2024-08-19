@@ -110,7 +110,7 @@ services:
       - name: "Vivaldi"
         logo: "assets/tools/Vivaldi.png"
         subtitle: "Experimental builds"
-        url: "https://vivaldi.com/?p=682929"
+        url: "https://vivaldi.com/?p=696867"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Midori"
@@ -343,6 +343,12 @@ services:
       - name: "OpenMPT"
         logo: "assets/tools/openmpt.png"
         url: "https://openmpt.org/download"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "ZXTune"
+        logo: "assets/tools/zxtune.png"
+        subtitle: "a chiptunes player"
+        url: "https://zxtune.bitbucket.io"
         target: "_blank" # optional html a tag target attribute
 
       - name: "fre:ac"
@@ -895,6 +901,13 @@ services:
         url: "https://creator.pdf24.org/listVersions.php"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "CubePDF"
+        logo: "assets/tools/cubepdf.png"
+        subtitle: "virtual PDF printer"
+        tag: "only partially native"        
+        url: "https://www.cube-soft.com/cubepdf/"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "Scanner"
         logo: "assets/tools/scanner.png"
         subtitle: "Quick and Easy Document Scanning"
@@ -1364,7 +1377,7 @@ services:
         target: "_blank"
 
   - name: "VPN"
-    icon: "fa-solid fa-network-wired"
+    icon: "fa-solid fa-globe"
     items:
       - name: "OpenVPN"
         logo: "assets/tools/openvpn.png"
@@ -2111,6 +2124,11 @@ services:
         url: "https://www.microsoft.com/store/productId/9PGJGD53TN86?ocid=pdpshare"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "Vulkan SDK & Runtime"
+        logo: "assets/tools/vulkansdk.png"
+        url: "https://vulkan.lunarg.com/sdk/home#windows"
+        target: "_blank" # optional html a tag target attribute
+
   - name: "Emulation & Virtualization"
     icon: "fa-solid fa-microchip"
     items:
@@ -2294,9 +2312,19 @@ services:
         url: "https://benchmarks.ul.com/3dmark/download"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "GravityMark"
+        logo: "assets/tools/gravitymark.png"
+        url: "https://gravitymark.tellusim.com/"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "PassMark PerformanceTest"
         logo: "assets/tools/performancetest.png"
         url: "https://www.passmark.com/products/performancetest/download.php"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Geekbench AI"
+        logo: "assets/tools/geekbenchai.png"
+        url: "https://www.geekbench.com/ai/download/"
         target: "_blank" # optional html a tag target attribute
 
       - name: "CrystalDiskInfo"
@@ -2677,7 +2705,7 @@ services:
         target: "_blank" # optional html a tag target attribute
 
   - name: "Game Console Emulation"
-    icon: "fa-solid fa-gamepad"
+    icon: "fa-brands fa-playstation"
     items:
       - name: "Aethersx2"
         logo: "assets/tools/aethersx2.png"
@@ -2729,12 +2757,6 @@ services:
         url: "https://aarongiles.com/dreamm/"
         target: "_blank" # optional html a tag target attribute
 
-      - name: "ScummVM"
-        logo: "assets/tools/scummvm.png"
-        subtitle: "unofficial builds, adventure game emualtor, over 325 games supported"
-        url: "https://github.com/ArminiusTux/WinARM64-binaries/releases/tag/ScummVM"
-        target: "_blank" # optional html a tag target attribute
-
       - name: "ares"
         logo: "assets/tools/ares.png"
         subtitle: "a simplified multi-system emulator"
@@ -2753,6 +2775,12 @@ services:
         url: "https://github.com/tordona/nintendulator/releases"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "GoNES"
+        logo: "assets/tools/gones.png"
+        subtitle: "another NES emulator"
+        url: "https://github.com/gabe565/gones/releases"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "Snes9x"
         logo: "assets/tools/snes9x.png"
         subtitle: "unofficial builds, SNES (Super Nintendo) emulator"
@@ -2765,12 +2793,44 @@ services:
         url: "https://github.com/mijk84/win-arm64-binaries/releases/tag/nelons-31072022"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "Gearcoleco"
+        logo: "assets/tools/clionly.png"
+        subtitle: "a very accurate ColecoVision emulator"
+        url: "https://github.com/drhelius/Gearcoleco/releases"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Altirra"
+        logo: "assets/tools/altirra.png"
+        subtitle: "an Atari 400, 800, XL, XE, XEGS & Atari 5200 emulator"
+        url: "https://www.virtualdub.org/altirra.html"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "BigPEmu"
+        logo: "assets/tools/bigpemu.png"
+        subtitle: "an Atari Jaguar emulator"
+        url: "https://www.richwhitehouse.com/jaguar/index.php?content=download"
+        target: "_blank" # optional html a tag target attribute
+
   - name: "Games"
     icon: "fa-solid fa-gamepad"
     items:
       - name: "OpenCL & OpenGL Compatibility Pack"
         logo: "assets/tools/openglcompat.png"
         url: "https://apps.microsoft.com/detail/9nqpsl29bfff"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "*retro-elitist* Vulkan drivers"
+        logo: "assets/tools/vulkandrivers.png"
+        subtitle: "unofficial + unstable = USE AT OWN RISK"
+        tag: "only works on a few Snapdragon pre-Elite SoC models"
+        url: "https://driver1998.github.io/en/posts/vulkan-on-qualcomm-snapdragon-8cx/"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "ScummVM"
+        logo: "assets/tools/scummvm.png"
+        subtitle: "unofficial builds of THE game engine re-creator"
+        tag: "over 325 games supported"        
+        url: "https://github.com/ArminiusTux/WinARM64-binaries/releases/tag/ScummVM"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Great Conqueror"
@@ -2814,6 +2874,13 @@ services:
         subtitle: "Jazz Jackrabbit 1994 port"
         tag: "original game data needed"
         url: "https://github.com/mijk84/win-arm64-binaries/releases/tag/openjazz"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Jazz² Resurrection"
+        logo: "assets/tools/jazz2.png"
+        subtitle: "Jazz Jackrabbit 2 1998 reimplementation"
+        tag: "ARM64EC / original game data needed"
+        url: "https://deat.tk/jazz2/#downloads"
         target: "_blank" # optional html a tag target attribute
 
       - name: "OpenRCT2"
@@ -3282,7 +3349,7 @@ services:
         target: "_blank" # optional html a tag target attribute
 
   - name: "Drivers"
-    icon: "fa-solid fa-hard-drive"
+    icon: "fa-solid fa-gears"
     items:
       - name: "Zadig (libwdi)"
         logo: "assets/tools/zadig.png"
