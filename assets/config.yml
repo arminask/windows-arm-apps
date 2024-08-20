@@ -1381,11 +1381,13 @@ services:
     items:
       - name: "OpenVPN"
         logo: "assets/tools/openvpn.png"
+        subtitle: "Open-source VPN."
         url: "https://openvpn.net/community-downloads/"
         target: "_blank" # optional html a tag target attribute
 
       - name: "WireGuard"
         logo: "assets/tools/wireguard.png"
+        subtitle: "Fast Open-source VPN that utilizes state-of-the-art cryptography."
         url: "https://www.wireguard.com/install/"
         target: "_blank" # optional html a tag target attribute
 
@@ -1443,6 +1445,12 @@ services:
         url: "https://adguard-vpn.com/en/versions/windows/beta.html#version-2414230"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "Tailscale"
+        logo: "assets/tools/tailscale.png"
+        subtitle: "Works with Wireguard to securely connect users, services, and devices"
+        url: "https://pkgs.tailscale.com/stable/#windows"
+        target: "_blank" # optional html a tag target attribute
+        
   - name: "Network & Cloud Storage"
     icon: "fa-solid fa-network-wired"
     items:
@@ -1474,6 +1482,12 @@ services:
         url: "https://meshcentral.com/downloads.html"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "Devolutions Remote Desktop Manager"
+        logo: "assets/tools/devolutionsrdm.png"
+        subtitle: "Centralizes all remote connections on a single platform"
+        url: "https://devolutions.net/remote-desktop-manager/"
+        target: "_blank" # optional html a tag target attribute
+        
       - name: "Natpass"
         logo: "assets/tools/natpass.png"
         subtitle: "supports shell management and remote desktop management"
@@ -1679,12 +1693,6 @@ services:
         logo: "assets/tools/clionly.png"
         subtitle: "connect computers anywhere"
         url: "https://github.com/slackhq/nebula/releases"
-        target: "_blank" # optional html a tag target attribute
-
-      - name: "Tailscale"
-        logo: "assets/tools/tailscale.png"
-        subtitle: "securely connecting users, services, and devices"
-        url: "https://pkgs.tailscale.com/stable/#windows"
         target: "_blank" # optional html a tag target attribute
 
       - name: "frp"
@@ -2238,15 +2246,23 @@ services:
 
       - name: "WSA"
         logo: "assets/tools/wsa.png"
+        tag: "ARM32"
         subtitle: "Windows Subsystem for Android"
         url: "https://apps.microsoft.com/store/detail/windows-subsystem-for-android%E2%84%A2-with-amazon-appstore/9P3395VX91NR"
         target: "_blank" # optional html a tag target attribute
 
       - name: "WSABuilds (pimped WSA)"
         logo: "assets/tools/wsabuilds.png"
+        tag: "ARM32"
         subtitle: "unofficial builds with Magisk & MindTheGapps"
         url: "https://github.com/MustardChef/WSABuilds/releases"
         target: "_blank" # optional html a tag target attribute
+        
+      - name: "WSA fix for ARM64 (Snapdragon Elite)"
+        logo: "assets/tools/wsabuilds.png"
+        subtitle: "Windows Subsystem for Android fix for ARM64 (Snapdragon Elite)"
+        url: "https://github.com/snickler/WSA-Patched/releases"
+        target: "_blank" # optional html a tag target attribute        
 
       - name: "APK Installers"
         logo: "assets/tools/apkinstallers.png"
@@ -2859,6 +2875,13 @@ services:
         subtitle: "Prince of Persia 1989 port"
         tag: "original game data needed"
         url: "https://github.com/mijk84/win-arm64-binaries/releases/tag/sdlpop"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "OpenOMF"
+        logo: "assets/tools/omf2097.png"
+        subtitle: "One Must Fall 2097 Remake port"
+        tag: "original game data needed"
+        url: "https://github.com/mijk84/win-arm64-binaries/releases/tag/openomf"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Ambermoon.net"
