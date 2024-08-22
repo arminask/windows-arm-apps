@@ -1471,6 +1471,12 @@ services:
         url: "https://apps.microsoft.com/detail/9nwzsp0xcmhc"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "SFTPGo"
+        logo: "assets/tools/sftpgo.png"
+        subtitle: "Open source, server protocols: SFTP, HTTP/S, FTP/S, WebDAV"
+        url: "https://github.com/drakkan/sftpgo/releases"
+        target: "_blank" # optional html a tag target attribute
+        
       - name: "PuTTY"
         logo: "assets/tools/putty.png"
         url: "https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html"
