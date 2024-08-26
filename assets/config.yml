@@ -2149,6 +2149,12 @@ services:
         url: "https://vulkan.lunarg.com/sdk/home#windows"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "Racket"
+        logo: "assets/tools/racket.png"
+        subtitle: "Racket, cross-platform graphical programming"
+        url: "https://download.racket-lang.org/"
+        target: "_blank" # optional html a tag target attribute
+
   - name: "Emulation & Virtualization"
     icon: "fa-solid fa-microchip"
     items:
@@ -2730,6 +2736,12 @@ services:
         logo: "assets/tools/clionly.png"
         subtitle: "A nonsense activity generator"
         url: "https://github.com/svenstaro/genact/releases"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Praat"
+        logo: "assets/tools/praat.png"
+        subtitle: "Tool for linguistic research"
+        url: "https://www.fon.hum.uva.nl/praat/download_win.html"
         target: "_blank" # optional html a tag target attribute
 
   - name: "Game Console Emulation"
