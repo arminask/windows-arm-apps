@@ -2149,6 +2149,12 @@ services:
         url: "https://vulkan.lunarg.com/sdk/home#windows"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "Racket"
+        logo: "assets/tools/racket.png"
+        subtitle: "Racket, cross-platform graphical programming"
+        url: "https://download.racket-lang.org/"
+        target: "_blank" # optional html a tag target attribute
+
   - name: "Emulation & Virtualization"
     icon: "fa-solid fa-microchip"
     items:
