@@ -2732,6 +2732,12 @@ services:
         url: "https://github.com/svenstaro/genact/releases"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "Praat"
+        logo: "assets/tools/praat.png"
+        subtitle: "Tool for linguistic research"
+        url: "https://www.fon.hum.uva.nl/praat/download_win.html"
+        target: "_blank" # optional html a tag target attribute
+
   - name: "Game Console Emulation"
     icon: "fa-brands fa-playstation"
     items:
