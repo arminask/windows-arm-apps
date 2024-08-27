@@ -2426,6 +2426,12 @@ services:
   - name: "Security & Protection"
     icon: "fa-solid fa-shield"
     items:
+
+        - name: "SpyShelter Antispyware"
+        logo: "assets/tools/spyshelter.png"
+        url: "https://www.spyshelter.com"
+        target: "_blank" # optional html a tag target attribute
+        
       - name: "Huorong"
         logo: "assets/tools/huorong.png"
         url: "https://www.huorong.cn/person6.html"
