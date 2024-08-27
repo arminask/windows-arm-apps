@@ -434,6 +434,12 @@ services:
         subtitle: "unofficial builds"
         url: "https://github.com/tordona/furnace/releases"
         target: "_blank" # optional html a tag target attribute
+        
+      - name: "Tropy"
+        logo: "assets/tools/tropy.png"
+        subtitle: "Reserarch Photo Management Software"
+        url: "https://tropy.org/"
+        target: "_blank" # optional html a tag target attribute
 
   - name: "Social"
     icon: "fa-solid fa-message"
