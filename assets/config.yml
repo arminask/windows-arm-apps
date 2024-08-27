@@ -1382,6 +1382,12 @@ services:
         url: "https://github.com/GerbilSoft/rom-properties"
         target: "_blank"
 
+      - name: "WebCatalog Desktop"
+        logo: "assets/tools/webcatalog.png"
+        subtitle: "App store for web apps, universal installer"
+        url: "https://webcatalog.io/en/desktop/"
+        target: "_blank"
+
   - name: "VPN"
     icon: "fa-solid fa-globe"
     items:
