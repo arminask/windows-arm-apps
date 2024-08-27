@@ -2762,6 +2762,12 @@ services:
         url: "https://www.fon.hum.uva.nl/praat/download_win.html"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "Windows Exporter"
+        logo: "assets/tools/windowsexporter.png"
+        subtitle: "A Prometheus exporter for Windows machines"
+        url: "https://github.com/prometheus-community/windows_exporter/releases/latest"
+        target: "_blank" # optional html a tag target attribute
+
   - name: "Game Console Emulation"
     icon: "fa-brands fa-playstation"
     items:
