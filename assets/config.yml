@@ -434,6 +434,12 @@ services:
         subtitle: "unofficial builds"
         url: "https://github.com/tordona/furnace/releases"
         target: "_blank" # optional html a tag target attribute
+        
+      - name: "Tropy"
+        logo: "assets/tools/tropy.png"
+        subtitle: "Reserarch Photo Management Software"
+        url: "https://tropy.org/"
+        target: "_blank" # optional html a tag target attribute
 
   - name: "Social"
     icon: "fa-solid fa-message"
@@ -1374,6 +1380,12 @@ services:
         logo: "assets/tools/clionly.png"
         subtitle: "Shell extension adds exe, ROM, and more info tab, can identity if exe is ARM"
         url: "https://github.com/GerbilSoft/rom-properties"
+        target: "_blank"
+
+      - name: "WebCatalog Desktop"
+        logo: "assets/tools/webcatalog.png"
+        subtitle: "App store for web apps, universal installer"
+        url: "https://webcatalog.io/en/desktop/"
         target: "_blank"
 
   - name: "VPN"
@@ -2748,6 +2760,12 @@ services:
         logo: "assets/tools/praat.png"
         subtitle: "Tool for linguistic research"
         url: "https://www.fon.hum.uva.nl/praat/download_win.html"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Windows Exporter"
+        logo: "assets/tools/windowsexporter.png"
+        subtitle: "A Prometheus exporter for Windows machines"
+        url: "https://github.com/prometheus-community/windows_exporter/releases/latest"
         target: "_blank" # optional html a tag target attribute
 
   - name: "Game Console Emulation"
