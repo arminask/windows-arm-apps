@@ -2427,7 +2427,7 @@ services:
     icon: "fa-solid fa-shield"
     items:
 
-        - name: "SpyShelter Antispyware"
+      - name: "SpyShelter Antispyware"
         logo: "assets/tools/spyshelter.png"
         url: "https://www.spyshelter.com"
         target: "_blank" # optional html a tag target attribute
