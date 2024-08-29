@@ -109,8 +109,7 @@ services:
 
       - name: "Vivaldi"
         logo: "assets/tools/Vivaldi.png"
-        subtitle: "Experimental builds"
-        url: "https://vivaldi.com/?p=696867"
+        url: "https://vivaldi.com/download/?platform=windows"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Midori"
