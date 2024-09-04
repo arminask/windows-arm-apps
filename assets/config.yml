@@ -1408,6 +1408,12 @@ services:
         url: "https://www.privateinternetaccess.com/download/windows-vpn"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "ExpressVPN"
+        logo: "assets/tools/expressvpn.png"
+        subtitle: "beta version, click CoPilot PC beta link"
+        url: "https://www.expressvpn.com/vpn-download/vpn-windows"
+        target: "_blank" # optional html a tag target attribute
+        
       - name: "Windscribe"
         logo: "assets/tools/windscribe.png"
         subtitle: "a vpn, encrypts your browsing activity, blocks ads, and unblocks entertainment content"
