@@ -520,11 +520,6 @@ services:
         url: "https://github.com/Icalingua-plus-plus/Icalingua-plus-plus/releases"
         target: "_blank" # optional html a tag target attribute
 
-      - name: "Cisco Webex"
-        logo: "assets/tools/webex.png"
-        url: "https://www.webex.com/downloads.html"
-        target: "_blank" # optional html a tag target attribute
-
       - name: "WhatsApp"
         logo: "assets/tools/whatsapp.png"
         url: "https://apps.microsoft.com/detail/9nksqgp7f2nh"
@@ -1049,6 +1044,12 @@ services:
         url: "https://apps.microsoft.com/detail/9nblggh4s50q"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "Wino Mail"
+        logo: "assets/tools/winomail.png"
+        subtitle: "Native mail client for Windows device families."
+        url: "https://apps.microsoft.com/detail/Wino%20Mail/9NCRCVJC50WL?launch=true&mode=full"
+        target: "_blank" # optional html a tag target attribute
+        
       - name: "Zotero"
         logo: "assets/tools/zotero.png"
         tag: "Purchases"
@@ -1456,17 +1457,23 @@ services:
         url: "https://www.sparklabs.com/viscosity/"
         target: "_blank" # optional html a tag target attribute
 
-      - name: "AdguardVPN Beta Version"
+      - name: "AdguardVPN"
         logo: "assets/tools/adguardvpn.png"
-        subtitle: "ARM64 Support available since Version 2.4 Beta 1."
-        url: "https://adguard-vpn.com/en/versions/windows/beta.html#version-2414230"
+        subtitle: "ARM64 Support available since Version 2.4"
+        url: "https://adguard-vpn.com/en/versions/windows/release.html"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Tailscale"
         logo: "assets/tools/tailscale.png"
-        subtitle: "Works with Wireguard to securely connect users, services, and devices"
+        subtitle: "WireGuard based VPN for creating networks without the need for port forwarding."
         url: "https://pkgs.tailscale.com/stable/#windows"
         target: "_blank" # optional html a tag target attribute
+        
+      - name: "ZeroTier"
+        logo: "assets/tools/zerotier.png"
+        subtitle: "VPN, hybrid installer has ARM network driver, app is x64, for creating networks without the need for port forwarding."
+        url: "https://www.zerotier.com/download/"
+        target: "_blank" # optional html a tag target attribute        
         
   - name: "Network & Cloud Storage"
     icon: "fa-solid fa-network-wired"
@@ -2778,6 +2785,12 @@ services:
         subtitle: "A Prometheus exporter for Windows machines"
         url: "https://github.com/prometheus-community/windows_exporter/releases/latest"
         target: "_blank" # optional html a tag target attribute
+        
+      - name: "uWidgets"
+        logo: "assets/tools/uwidgets.png"
+        subtitle: "Standalone .NET application with a variety of customizable widgets."
+        url: "https://github.com/creewick/uWidgets/releases"
+        target: "_blank" # optional html a tag target attribute        
 
   - name: "Game Console Emulation"
     icon: "fa-brands fa-playstation"
