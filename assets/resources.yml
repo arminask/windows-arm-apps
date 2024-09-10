@@ -5,10 +5,10 @@
 # `config.yml` is still used as a base configuration, and all values here will overwrite it, so you don't have to re-defined everything
 
 
-subtitle: "Resouces"
+subtitle: "Resources"
 
 # This overwrites message config. Setting it to empty to remove message from this page and keep it only in the main one:
-# as we want to include a differente link here (so we can get back to home page), we need to replicate all links or they will be revome when overwriting the links field:
+# as we want to include a different link here (so we can get back to home page), we need to replicate all links or they will be revome when overwriting the links field:
 links:
   - name: "Home"
     icon: "fa-sharp fa-solid fa-house"
