@@ -2643,6 +2643,12 @@ services:
         url: "https://github.com/Melon-Studio/DarkMode2/releases"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "ExplorerPatcher"
+        logo: "assets/tools/Explorer.png"
+        subtitle: "Customize Windows 10/11 Start Menu/Taskbar/Explorer behavior"
+        url: "https://github.com/valinet/ExplorerPatcher/releases"
+        target: "_blank" # optional html a tag target attribute
+        
       - name: "Start 11"
         logo: "assets/tools/Start11.png"
         url: "https://www.stardock.com/products/start11/"
