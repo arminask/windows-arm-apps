@@ -434,11 +434,17 @@ services:
         url: "https://github.com/tordona/furnace/releases"
         target: "_blank" # optional html a tag target attribute
         
+      - name: "Virtual Audio Cable (VAC)"
+        logo: "assets/tools/virtualaudiocable.png"
+        subtitle: "Creates a set of virtual audio devices"
+        url: "https://vac.muzychenko.net"
+        target: "_blank" # optional html a tag target attribute
+        
       - name: "Tropy"
         logo: "assets/tools/tropy.png"
         subtitle: "Reserarch Photo Management Software"
         url: "https://tropy.org/"
-        target: "_blank" # optional html a tag target attribute
+        target: "_blank" # optional html a tag target attribute        
 
   - name: "Social"
     icon: "fa-solid fa-message"
