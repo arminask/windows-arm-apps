@@ -122,6 +122,12 @@ services:
         url: "https://www.opera.com/download"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "Arc"
+        logo: "assets/tools/arcbrowser.png"
+        subtitle: "Test build (1.18.0), Chrome based"
+        url: "https://releases.arc.net/windows/prod/1.18.0.48077/Arc.arm64.msix"
+        target: "_blank" # optional html a tag target attribute        
+
   - name: "Media"
     icon: "fa-solid fa-photo-film"
     items:
