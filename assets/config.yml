@@ -3224,6 +3224,12 @@ services:
         url: "https://prismlauncher.org/download/"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "Morpheus Launcher"
+        logo: "assets/tools/Morpheus.png"
+        subtitle: "The nexgen launcher for Minecraft Java"
+        url: "https://morpheuslauncher.it"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "Minecraft Java Edition (with ARM Support)"
         logo: "assets/tools/MinecraftJavaEdition.png"
         subtitle: "This is a Prism Launcher Pack that adds ARM support to Minecraft Java Edition"
