@@ -1139,6 +1139,12 @@ services:
         url: "https://github.com/sxyazi/yazi/releases"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "cs"
+        logo: "assets/tools/clionly.png"
+        subtitle: "codespelunker or code search"
+        url: "https://github.com/boyter/cs/releases"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "TreeMap"
         logo: "assets/tools/treemap.png"
         subtitle: "display of hard disk space usage through list and graphical views"
