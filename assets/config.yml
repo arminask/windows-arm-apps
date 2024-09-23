@@ -1826,6 +1826,12 @@ services:
         url: "https://github.com/dennisameling/git/releases"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "SourceGit"
+        logo: "assets/tools/sourcegit.png"
+        subtitle: "Opensource Git GUI client."
+        url: "https://github.com/sourcegit-scm/sourcegit/releases"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "git-cliff"
         logo: "assets/tools/gitcliff.png"
         subtitle: "A highly customizable Changelog Generator"
