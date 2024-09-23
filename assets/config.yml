@@ -2694,6 +2694,12 @@ services:
         url: "https://github.com/starship/starship/releases"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "Oh My Posh"
+        logo: "assets/tools/ohmyposh.png"
+        subtitle: "platform/shell prompt renderer"
+        url: "https://github.com/JanDeDobbeleer/oh-my-posh/releases"
+        target: "_blank" # optional html a tag target attribute
+
   - name: "Other"
     icon: "fa-solid fa-question"
     items:
