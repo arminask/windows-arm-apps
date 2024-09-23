@@ -2064,12 +2064,6 @@ services:
         url: "https://github.com/Eugeny/tabby/releases"
         target: "_blank" # optional html a tag target attribute
 
-      - name: "Starship"
-        logo: "assets/tools/Starship.png"
-        subtitle: "infinitely customizable prompt for any shell"
-        url: "https://github.com/starship/starship/releases"
-        target: "_blank" # optional html a tag target attribute
-
       - name: "WinSSHTerm"
         logo: "assets/tools/WinSSHTerm.png"
         subtitle: "a tabbed SSH solution for Windows"
@@ -2692,6 +2686,12 @@ services:
       - name: "Cairo"
         logo: "assets/tools/cairo.png"
         url: "https://github.com/cairoshell/cairoshell/releases"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Starship"
+        logo: "assets/tools/Starship.png"
+        subtitle: "infinitely customizable prompt for any shell"
+        url: "https://github.com/starship/starship/releases"
         target: "_blank" # optional html a tag target attribute
 
   - name: "Other"
