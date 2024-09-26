@@ -3461,6 +3461,12 @@ services:
         url: "https://lmstudio.ai/snapdragon"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "Ollama"
+        logo: "assets/tools/ollama.png"
+        subtitle: "Run Llama 3.2, Phi 3, Mistral, Gemma 2, and other models. Customize and create your own."
+        url: "https://ollama.com/"
+        target: "_blank" # optional html a tag target attribute
+        
       - name: "Netron"
         logo: "assets/tools/netron.png"
         subtitle: "Visualizer for neural network, deep learning and machine learning models"
