@@ -3541,3 +3541,24 @@ services:
         subtitle: "supports CH342/CH343/CH344/CH347/CH9101/CH9102/CH9103/CH9104/CH9143"
         url: "https://www.wch-ic.com/downloads/CH343SER_ZIP.html"
         target: "_blank" # optional html a tag target attribute
+
+  - name: "Printers"
+    icon: "fa-solid fa-print"
+    items:
+      - name: "Xerox Global Print Driver"
+        logo: "assets/tools/xerox.png"
+        subtitle: "For list of supported models, check the support documentation"
+        url: "https://www.support.xerox.com/en-us/product/global-printer-driver/downloads?language=en&platform=win11arm64"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "HP Smart UPD"
+        logo: "assets/tools/hp.png"
+        subtitle: "For list of supported models, check the support documentation"
+        url: "https://support.hp.com/us-en/help/smartupd"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Brother Printer Drivers"
+        logo: "assets/tools/brother.png"
+        subtitle: "List of supported models on main page. Drivers are built into Windows Update."
+        url: "https://help.brother-usa.com/app/answers/detail/a_id/170667/~/windows-10-or-windows-11-on-arm-processor---support"
+        target: "_blank" # optional html a tag target attribute
