@@ -1287,6 +1287,12 @@ services:
         url: "https://github.com/xgdgsc/TrafficMonitor/releases"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "CapsLockIndicator"
+        logo: "assets/tools/CapsLockIndicator.png"
+        subtitle: "unofficial builds"
+        url: "https://github.com/xgdgsc/CapsLockIndicator/releases"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "Pingu"
         logo: "assets/tools/pingu.png"
         subtitle: "colored output of ping command"
