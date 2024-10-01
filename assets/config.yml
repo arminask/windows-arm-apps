@@ -1432,6 +1432,12 @@ services:
         subtitle: "beta version, click CoPilot PC beta link"
         url: "https://www.expressvpn.com/vpn-download/vpn-windows"
         target: "_blank" # optional html a tag target attribute
+
+      - name: "Mullvad VPN"
+        logo: "assets/tools/mullvad.png"
+        subtitle: "beta version"
+        url: "https://github.com/mullvad/mullvadvpn-app/issues/6102#issuecomment-2382666946"
+        target: "_blank" # optional html a tag target attribute
         
       - name: "Windscribe"
         logo: "assets/tools/windscribe.png"
