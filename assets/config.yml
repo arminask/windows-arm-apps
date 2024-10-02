@@ -2479,7 +2479,7 @@ services:
 
       - name: "Iperf"
         logo: "assets/tools/iperf.png"
-        subtitle: "ARM64 version of iperf 2.2.n"
+        subtitle: "ARM64 version of iperf 2.2.n, unofficial build"
         url: "https://github.com/fobrs/iperf2/releases"
         target: "_blank" # optional html a tag target attribute
 
@@ -2590,7 +2590,7 @@ services:
 
       - name: "KeePassXC"
         logo: "assets/tools/keepassxc.png"
-        subtitle: "unofficial builds"
+        subtitle: "ifficial builds"
         url: "https://github.com/minnyres/keepassxc-windows-arm64/releases"
         target: "_blank" # optional html a tag target attribute
 
