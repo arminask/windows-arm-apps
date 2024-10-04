@@ -2406,6 +2406,12 @@ services:
         url: "https://benchmarks.ul.com/3dmark/download"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "ANTUTU"
+        logo: "assets/tools/antutu.png"
+        subtitle: "Professional Benchmark Tests"
+        url: "https://www.antutu.com/en/download.htm"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "GravityMark"
         logo: "assets/tools/gravitymark.png"
         url: "https://gravitymark.tellusim.com/"
