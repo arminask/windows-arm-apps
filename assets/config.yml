@@ -934,8 +934,8 @@ services:
 
       - name: "Typst"
         logo: "assets/tools/typst.png"
-        subtitle: "unofficial builds - a new markup-based typesetting system that is powerful and easy to learn."
-        url: "https://github.com/iKineticate/Windows-ARM64-Binaries/releases/tag/Typst"
+        subtitle: "a new markup-based typesetting system that is designed to be as powerful as LaTeX while being much easier to learn and use"
+        url: "https://github.com/typst/typst/releases"
         target: "_blank" # optional html a tag target attribute
 
       - name: "QZ Tray"
