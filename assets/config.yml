@@ -2877,13 +2877,7 @@ services:
         logo: "assets/tools/yabause.png"
         subtitle: "Unofficial Build, Sega Saturn emulator"
         url: "https://github.com/mijk84/win-arm64-binaries/releases/tag/yabause"
-        target: "_blank" # optional html a tag target attribute        
-        
-      - name: "VBA-M"
-        logo: "assets/tools/vba-m.png"
-        subtitle: "Unofficial Build, Visual Boy Advance M or VBA-M for short, is an improved fork of the original Game Boy Advance emulator"
-        url: "https://github.com/mijk84/win-arm64-binaries/releases/tag/vbam"
-        target: "_blank" # optional html a tag target attribute   
+        target: "_blank" # optional html a tag target attribute                
 
       - name: "Citra"
         logo: "assets/tools/citra.png"
@@ -2923,7 +2917,7 @@ services:
         url: "https://ares-emu.net/download"
         target: "_blank" # optional html a tag target attribute
 
-      - name: "Visual Boy Advance"
+      - name: "Visual Boy Advance (VBA-M)"
         logo: "assets/tools/visualboyadvance-m.png"
         subtitle: "Game Boy Advance (GBA) emulator"
         url: "https://github.com/visualboyadvance-m/visualboyadvance-m/releases"
