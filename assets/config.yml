@@ -2887,7 +2887,7 @@ services:
 
       - name: "Citra"
         logo: "assets/tools/citra.png"
-        subtitle: "Unofficial Build, open-source 3DS emulator"
+        subtitle: "Unofficial Build, 3DS emulator, use Vulkan renderer"
         url: "https://github.com/mijk84/win-arm64-binaries/releases/tag/citra"
         target: "_blank" # optional html a tag target attribute  
         
