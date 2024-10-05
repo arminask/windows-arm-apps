@@ -3162,6 +3162,7 @@ services:
       - name: "Space Cadet Pinball"
         logo: "assets/tools/spacecadetpinball.png"
         subtitle: "Unofficial Build, Reverse engineering of 3D Pinball for Windows - Space Cadet, a game bundled with Windows."
+        tag: "original game data needed"
         url: "https://github.com/mijk84/win-arm64-binaries/releases/tag/spacecadet"
         target: "_blank" # optional html a tag target attribute
         
