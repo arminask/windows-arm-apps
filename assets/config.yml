@@ -124,8 +124,8 @@ services:
 
       - name: "Arc"
         logo: "assets/tools/arcbrowser.png"
-        subtitle: "Test build (1.20.2), Chrome based"
-        url: "https://releases.arc.net/windows/prod/1.20.2.52013/Arc.arm64.msix"
+        subtitle: "Test build (1.22.0), Chrome based"
+        url: "https://releases.arc.net/windows/prod/1.22.0.53689/Arc.arm64.msix"
         target: "_blank" # optional html a tag target attribute        
 
   - name: "Media"
