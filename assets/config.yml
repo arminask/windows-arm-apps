@@ -2590,7 +2590,7 @@ services:
 
       - name: "KeePassXC"
         logo: "assets/tools/keepassxc.png"
-        subtitle: "ifficial builds"
+        subtitle: "unofficial builds"
         url: "https://github.com/minnyres/keepassxc-windows-arm64/releases"
         target: "_blank" # optional html a tag target attribute
 
