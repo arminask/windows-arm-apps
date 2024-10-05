@@ -2477,6 +2477,12 @@ services:
         url: "https://www.hwinfo.com/download/"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "Iperf"
+        logo: "assets/tools/iperf.png"
+        subtitle: "ARM64 version of iperf 2.2.n, unofficial build"
+        url: "https://github.com/fobrs/iperf2/releases"
+        target: "_blank" # optional html a tag target attribute
+
   - name: "Security & Protection"
     icon: "fa-solid fa-shield"
     items:
