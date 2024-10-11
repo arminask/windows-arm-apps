@@ -124,8 +124,8 @@ services:
 
       - name: "Arc"
         logo: "assets/tools/arcbrowser.png"
-        subtitle: "Test build (1.20.2), Chrome based"
-        url: "https://releases.arc.net/windows/prod/1.20.2.52013/Arc.arm64.msix"
+        subtitle: "Chrome based"
+        url: "https://arc.net/download"
         target: "_blank" # optional html a tag target attribute        
 
   - name: "Media"
@@ -2186,6 +2186,12 @@ services:
         url: "https://godotengine.org/article/release-candidate-godot-4-3-rc-1/"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "TIC-80"
+        logo: "assets/tools/tic80.png"
+        subtitle: "Unofficial Build, Open source fantasy computer for making, playing and sharing tiny games."
+        url: "https://github.com/mijk84/win-arm64-binaries/releases/tag/tic80"
+        target: "_blank" # optional html a tag target attribute
+        
       - name: "WinDbg"
         logo: "assets/tools/windbg.png"
         subtitle: "Debugging tool from Microsoft, helps analyze dump (DMP) files, including memory dumps from blue screen errors."
@@ -2229,6 +2235,24 @@ services:
         url: "https://github.com/otya128/ntvdm64.dll"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "QEMU"
+        logo: "assets/tools/qemu.png"
+        subtitle: "Unofficial Build, generic and open source machine emulator and virtualizer"
+        url: "https://github.com/mijk84/win-arm64-binaries/releases/tag/qemu-9.0.2"
+        target: "_blank" # optional html a tag target attribute
+        
+      - name: "VICE"
+        logo: "assets/tools/vice.png"
+        subtitle: "Unofficial Build, emulates the C64, the C64DTV, the C128, the VIC20, practically all PET models, the PLUS4 and the CBM-II (aka C610/C510)."
+        url: "https://github.com/mijk84/win-arm64-binaries/releases/tag/vice3.8"
+        target: "_blank" # optional html a tag target attribute
+        
+      - name: "Open SIMH"
+        logo: "assets/tools/opensimh.png"
+        subtitle: "Unofficial Build, Framework and family of computer simulators"
+        url: "https://github.com/mijk84/win-arm64-binaries/releases/tag/opensimh"
+        target: "_blank" # optional html a tag target attribute
+        
       - name: "ntvdm"
         logo: "assets/tools/clionly.png"
         subtitle: "An NT Virtual DOS Machine"
@@ -2854,10 +2878,22 @@ services:
         subtitle: "PSP Emulator"
         url: "https://www.ppsspp.org/download/"
         target: "_blank" # optional html a tag target attribute
+        
+      - name: "Yabause"
+        logo: "assets/tools/yabause.png"
+        subtitle: "Unofficial Build, Sega Saturn emulator"
+        url: "https://github.com/mijk84/win-arm64-binaries/releases/tag/yabause"
+        target: "_blank" # optional html a tag target attribute                
 
+      - name: "Citra"
+        logo: "assets/tools/citra.png"
+        subtitle: "Unofficial Build, 3DS emulator, use Vulkan renderer"
+        url: "https://github.com/mijk84/win-arm64-binaries/releases/tag/citra"
+        target: "_blank" # optional html a tag target attribute  
+        
       - name: "RetroArch"
         logo: "assets/tools/RetroArch.png"
-        subtitle: "unofficial builds, multi console emulator"
+        subtitle: "Unofficial builds, multi console emulator"
         tag: "ARM32"
         url: "https://github.com/basharast/RetroArch-ARM/releases"
         target: "_blank" # optional html a tag target attribute
@@ -2887,7 +2923,7 @@ services:
         url: "https://ares-emu.net/download"
         target: "_blank" # optional html a tag target attribute
 
-      - name: "Visual Boy Advance"
+      - name: "Visual Boy Advance (VBA-M)"
         logo: "assets/tools/visualboyadvance-m.png"
         subtitle: "Game Boy Advance (GBA) emulator"
         url: "https://github.com/visualboyadvance-m/visualboyadvance-m/releases"
@@ -3122,7 +3158,40 @@ services:
         tag: "Java / full game"
         url: "https://github.com/akarnokd/open-ig"
         target: "_blank" # optional html a tag target attribute
-
+        
+      - name: "Space Cadet Pinball"
+        logo: "assets/tools/spacecadetpinball.png"
+        subtitle: "Unofficial Build, Reverse engineering of 3D Pinball for Windows - Space Cadet, a game bundled with Windows."
+        tag: "original game data needed"
+        url: "https://github.com/mijk84/win-arm64-binaries/releases/tag/spacecadet"
+        target: "_blank" # optional html a tag target attribute
+        
+      - name: "Angband"
+        logo: "assets/tools/angband.png"
+        subtitle: "Unofficial Build, Single-player dungeon exploration game."
+        url: "https://github.com/mijk84/win-arm64-binaries/releases/tag/angband"
+        target: "_blank" # optional html a tag target attribute
+        
+      - name: "Freeciv"
+        logo: "assets/tools/freeciv.png"
+        subtitle: "Unofficial Build, Open Source empire-building strategy game inspired by the history of human civilization"
+        url: "https://github.com/mijk84/win-arm64-binaries/releases/tag/freeciv"
+        target: "_blank" # optional html a tag target attribute
+        
+      - name: "CGenius"
+        logo: "assets/tools/cgenius.png"
+        subtitle: "Unofficial Build, open-source interpreter for the Commander Keen (1-6, Dreams) and Cosmos Cosmic series"
+        tag: "original game data needed"
+        url: "https://github.com/mijk84/win-arm64-binaries/releases/tag/cgenius"
+        target: "_blank" # optional html a tag target attribute
+        
+      - name: "OpenLara"
+        logo: "assets/tools/openlara.png"
+        subtitle: "Unofficial Build, Classic Tomb Raider open-source engine"
+        tag: "original game data needed"
+        url: "https://github.com/mijk84/win-arm64-binaries/releases/tag/openlara"
+        target: "_blank" # optional html a tag target attribute
+        
       - name: "OpenTomb"
         logo: "assets/tools/opentomb.png"
         subtitle: "Tomb Raider 1-5 1996-2003 engine remake"
