@@ -1490,7 +1490,7 @@ services:
       - name: "NordVPN"
         logo: "assets/tools/nordvpn.png"
         subtitle: "The most advanced VPN. And much more."
-        url: "https://nordvpn.com/blog/windows-arm-release/"
+        url: "https://nordvpn.com/download/windows/"
         target: "_blank" # optional html a tag target attribute       
         
   - name: "Network & Cloud Storage"
