@@ -1406,6 +1406,24 @@ services:
         url: "https://webcatalog.io/en/desktop/"
         target: "_blank"
 
+      - name: "Far Manager"
+        logo: "assets/tools/farmanager.png"
+        subtitle: "File and archive manager"
+        url: "https://www.farmanager.com/download.php"
+        target: "_blank"
+
+      - name: "AntiMicroX"
+        logo: "assets/tools/antimicrox.png"
+        subtitle: "unofficial builds. GUI to map gamepad keys to keyboard, mouse, scripts and macros"
+        url: "https://github.com/tordona/antimicrox/releases"
+        target: "_blank"
+
+      - name: "reWASD"
+        logo: "assets/tools/rewasd.png"
+        subtitle: "Gamepad mapper. Download autodetects architecture."
+        url: "https://www.rewasd.com/"
+        target: "_blank"
+
   - name: "VPN"
     icon: "fa-solid fa-globe"
     items:
@@ -2735,6 +2753,12 @@ services:
         logo: "assets/tools/cairo.png"
         url: "https://github.com/cairoshell/cairoshell/releases"
         target: "_blank" # optional html a tag target attribute
+
+      - name: "FlipIt"
+        logo: "assets/tools/flipit.png"
+        subtitle: "Flip Clock Screensaver"
+        url: "https://github.com/tordona/FlipIt/releases"
+        target: "_blank"
 
   - name: "Other"
     icon: "fa-solid fa-question"
