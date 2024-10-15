@@ -1485,7 +1485,13 @@ services:
         logo: "assets/tools/zerotier.png"
         subtitle: "VPN, hybrid installer has ARM network driver, app is x64, for creating networks without the need for port forwarding."
         url: "https://www.zerotier.com/download/"
-        target: "_blank" # optional html a tag target attribute        
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "NordVPN"
+        logo: "assets/tools/nordvpn.png"
+        subtitle: "The most advanced VPN. And much more."
+        url: "https://nordvpn.com/blog/windows-arm-release/"
+        target: "_blank" # optional html a tag target attribute       
         
   - name: "Network & Cloud Storage"
     icon: "fa-solid fa-network-wired"
