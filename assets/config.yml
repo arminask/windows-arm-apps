@@ -2208,6 +2208,12 @@ services:
         subtitle: "Racket, cross-platform graphical programming"
         url: "https://download.racket-lang.org/"
         target: "_blank" # optional html a tag target attribute
+        
+      - name: "Wix Toolset Votive2022"
+        logo: "assets/tools/votive2022.png"
+        subtitle: "ARM64 Visual Studio 2022 Extension, unofficial build"
+        url: "https://github.com/fobrs/VisualStudioExtension/releases"
+        target: "_blank" # optional html a tag target attribute
 
   - name: "Emulation & Virtualization"
     icon: "fa-solid fa-microchip"
