@@ -3098,6 +3098,13 @@ services:
         url: "https://deat.tk/jazz2/#downloads"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "CorsixTH"
+        logo: "assets/tools/corsixth.png"
+        subtitle: "Theme Hospital 1997 clone"
+        tag: "original game data needed"
+        url: "https://github.com/ArminiusTux/WinARM64-binaries/releases/tag/CorsixTH"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "OpenRCT2"
         logo: "assets/tools/openrct2.png"
         subtitle: "RollerCoaster Tycoon 2 2002 port"
@@ -3189,6 +3196,7 @@ services:
       - name: "Dethrace"
         logo: "assets/tools/dethrace.png"
         subtitle: "Carmageddon 1997 reverse-engineered"
+        tag: "original game data needed"        
         url: "https://github.com/ArminiusTux/WinARM64-binaries/releases/tag/dethrace"
         target: "_blank" # optional html a tag target attribute
 
