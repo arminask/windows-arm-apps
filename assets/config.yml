@@ -2256,7 +2256,7 @@ services:
     items:
       - name: "Docker Desktop"
         logo: "assets/tools/docker.png"
-        url: "https://www.docker.com/blog/announcing-docker-desktop-support-for-windows-on-arm/"
+        url: "https://www.docker.com/products/docker-desktop/"
         target: "_blank"
 
       - name: "DOSBox-X"
