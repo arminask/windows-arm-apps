@@ -873,7 +873,7 @@ services:
       - name: "LibreOffice"
         logo: "assets/tools/libreoffice.png"
         subtitle: "stable (🤞) builds"
-        url: "https://downloadarchive.documentfoundation.org/libreoffice/old/latest/win/aarch64/"
+        url: "https://www.libreoffice.org/download/download-libreoffice/?type=win-aarch64"
         target: "_blank" # optional html a tag target attribute
 
       - name: "LibreOffice Dev"
