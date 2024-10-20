@@ -3186,6 +3186,12 @@ services:
         url: "https://github.com/ArminiusTux/WinARM64-binaries/releases/tag/wipEout"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "Dethrace"
+        logo: "assets/tools/dethrace.png"
+        subtitle: "Carmageddon 1997 reverse-engineered"
+        url: "https://github.com/ArminiusTux/WinARM64-binaries/releases/tag/dethrace"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "Vanilla Conquer TD"
         logo: "assets/tools/vanillaconquertd.png"
         subtitle: "Command & Conquer 1995 re-ignited"
