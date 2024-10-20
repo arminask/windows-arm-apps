@@ -2971,6 +2971,12 @@ services:
         url: "https://github.com/visualboyadvance-m/visualboyadvance-m/releases"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "Flycast"
+        logo: "assets/tools/flycast.png"
+        subtitle: "unofficial builds, Sega Dreamcast emulator"
+        url: "https://github.com/ArminiusTux/WinARM64-binaries/releases/tag/flycast"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "Nintendulator"
         logo: "assets/tools/nintendulator.png"
         subtitle: "unofficial builds, NES (Nintendo) emulator"
