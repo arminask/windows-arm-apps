@@ -442,7 +442,7 @@ services:
 
       - name: "REAPER"
         logo: "assets/tools/reaper.png"
-        subtitle: "digital audio recording, editing, mixing and mastering toolset"
+        subtitle: "rec, edit, mix & master digital audio"
         tag: "ARM64EC"
         url: "https://www.reaper.fm/download.php"
         target: "_blank" # optional html a tag target attribute
