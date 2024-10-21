@@ -800,9 +800,9 @@ services:
 
       - name: "Blender"
         logo: "assets/tools/blender.png"
-        subtitle: "experimental builds"
+        subtitle: "beta builds"
         tag: "OpenGL 4.3 driver required"
-        url: "https://builder.blender.org/download/experimental/"
+        url: "https://builder.blender.org/download/daily/"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Shapr3D"
