@@ -2323,7 +2323,7 @@ services:
       - name: "Bochs"
         logo: "assets/tools/bochs.png"
         subtitle: "unofficial builds"
-        url: "https://github.com/mijk84/win-arm64-binaries/releases/tag/bochs"
+        url: "https://github.com/mijk84/win-arm64-binaries/releases/tag/bochs2.8"
         target: "_blank" # optional html a tag target attribute
 
       - name: "NanaBox"
