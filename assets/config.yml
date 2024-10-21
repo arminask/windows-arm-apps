@@ -795,7 +795,7 @@ services:
       - name: "Unity"
         logo: "assets/tools/unity.png"
         tag: "beta"
-        url: "https://unity.com/releases/editor/beta"
+        url: "https://unity.com/releases/editor/"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Blender"
