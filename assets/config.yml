@@ -2827,6 +2827,12 @@ services:
         url: "https://foxglove.dev/download"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "SystemView"
+        logo: "assets/tools/systemview.png"
+        subtitle: "real-time recording and visualization tool for embedded systems"
+        url: "https://www.segger.com/downloads/systemview/"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "RunCat"
         logo: "assets/tools/runcat.png"
         subtitle: "a cute running cat animation reflects CPU Utilization"
