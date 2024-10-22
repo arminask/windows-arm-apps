@@ -446,6 +446,12 @@ services:
         url: "https://vac.muzychenko.net"
         target: "_blank" # optional html a tag target attribute
         
+      - name: "Reaper"
+        logo: "assets/tools/reaper.png"
+        subtitle: "Beta version, complete digital audio production application"
+        url: "https://www.reaper.fm/download.php"
+        target: "_blank" # optional html a tag target attribute 
+        
       - name: "Tropy"
         logo: "assets/tools/tropy.png"
         subtitle: "Reserarch Photo Management Software"
