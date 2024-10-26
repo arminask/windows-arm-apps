@@ -446,6 +446,12 @@ services:
         url: "https://vac.muzychenko.net"
         target: "_blank" # optional html a tag target attribute
         
+      - name: "Reaper"
+        logo: "assets/tools/reaper.png"
+        subtitle: "Beta version, complete digital audio production application"
+        url: "https://www.reaper.fm/download.php"
+        target: "_blank" # optional html a tag target attribute 
+        
       - name: "Tropy"
         logo: "assets/tools/tropy.png"
         subtitle: "Reserarch Photo Management Software"
@@ -1433,6 +1439,18 @@ services:
         logo: "assets/tools/rewasd.png"
         subtitle: "Gamepad mapper. Download autodetects architecture."
         url: "https://www.rewasd.com/"
+        target: "_blank"
+
+      - name: "Microsoft Mouse & Keyboard Center"
+        logo: "assets/tools/microsoft.png"
+        subtitle: "Advanced settings for MS peripherals"
+        url: "https://support.microsoft.com/en-us/topic/mouse-and-keyboard-center-download-f5b10905-7887-eedb-2f1c-d0737a36a3b2"
+        target: "_blank"
+
+      - name: "ULogViewer"
+        logo: "assets/tools/ulogviewer.png"
+        subtitle: "Cross-platform universal log viewer"
+        url: "https://carinastudio.azurewebsites.net/ULogViewer/"
         target: "_blank"
 
   - name: "VPN"
@@ -2781,6 +2799,12 @@ services:
         logo: "assets/tools/flipit.png"
         subtitle: "Flip Clock Screensaver"
         url: "https://github.com/tordona/FlipIt/releases"
+        target: "_blank"
+
+      - name: "RetroBar"
+        logo: "assets/tools/retrobar.png"
+        subtitle: "Classic Windows taskbar replacement"
+        url: "https://github.com/dremin/RetroBar/releases"
         target: "_blank"
 
   - name: "Other"
