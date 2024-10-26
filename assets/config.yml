@@ -439,7 +439,7 @@ services:
         subtitle: "unofficial builds"
         url: "https://github.com/tordona/furnace/releases"
         target: "_blank" # optional html a tag target attribute
-        
+  
       - name: "Virtual Audio Cable (VAC)"
         logo: "assets/tools/virtualaudiocable.png"
         subtitle: "Creates a set of virtual audio devices"
@@ -793,15 +793,14 @@ services:
     items:
       - name: "Unity"
         logo: "assets/tools/unity.png"
-        tag: "beta"
-        url: "https://unity.com/releases/editor/beta"
+        url: "https://unity.com/releases/editor/"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Blender"
         logo: "assets/tools/blender.png"
-        subtitle: "experimental builds"
+        subtitle: "beta builds"
         tag: "OpenGL 4.3 driver required"
-        url: "https://builder.blender.org/download/experimental/"
+        url: "https://builder.blender.org/download/daily/"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Shapr3D"
@@ -879,7 +878,7 @@ services:
       - name: "LibreOffice"
         logo: "assets/tools/libreoffice.png"
         subtitle: "stable (🤞) builds"
-        url: "https://downloadarchive.documentfoundation.org/libreoffice/old/latest/win/aarch64/"
+        url: "https://www.libreoffice.org/download/download-libreoffice/?type=win-aarch64"
         target: "_blank" # optional html a tag target attribute
 
       - name: "LibreOffice Dev"
@@ -1290,6 +1289,12 @@ services:
       - name: "Windows Universal Tool"
         logo: "assets/tools/wut.png"
         url: "https://github.com/basharast/wut/releases"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "WinDirStat"
+        logo: "assets/tools/windirstat.png"
+        subtitle: "disk usage statistics viewer and cleanup tool"
+        url: "https://windirstat.net/download.html"
         target: "_blank" # optional html a tag target attribute
 
       - name: "TrafficMonitor"
@@ -2045,7 +2050,7 @@ services:
 
       - name: "Node.js"
         logo: "assets/tools/nodejs.png"
-        url: "https://nodejs.org/en/download/current"
+        url: "https://nodejs.org/en/download/prebuilt-installer/current"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Electron"
@@ -2274,7 +2279,7 @@ services:
     items:
       - name: "Docker Desktop"
         logo: "assets/tools/docker.png"
-        url: "https://www.docker.com/blog/announcing-docker-desktop-support-for-windows-on-arm/"
+        url: "https://www.docker.com/products/docker-desktop/"
         target: "_blank"
 
       - name: "DOSBox-X"
@@ -2328,7 +2333,7 @@ services:
       - name: "Bochs"
         logo: "assets/tools/bochs.png"
         subtitle: "unofficial builds"
-        url: "https://github.com/mijk84/win-arm64-binaries/releases/tag/bochs"
+        url: "https://github.com/mijk84/win-arm64-binaries/releases/tag/bochs2.8"
         target: "_blank" # optional html a tag target attribute
 
       - name: "NanaBox"
@@ -2838,6 +2843,12 @@ services:
         url: "https://foxglove.dev/download"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "SystemView"
+        logo: "assets/tools/systemview.png"
+        subtitle: "real-time recording and visualization tool for embedded systems"
+        url: "https://www.segger.com/downloads/systemview/"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "RunCat"
         logo: "assets/tools/runcat.png"
         subtitle: "a cute running cat animation reflects CPU Utilization"
@@ -2995,6 +3006,12 @@ services:
         url: "https://github.com/visualboyadvance-m/visualboyadvance-m/releases"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "Flycast"
+        logo: "assets/tools/flycast.png"
+        subtitle: "unofficial builds, Sega Dreamcast emulator"
+        url: "https://github.com/ArminiusTux/WinARM64-binaries/releases/tag/flycast"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "Nintendulator"
         logo: "assets/tools/nintendulator.png"
         subtitle: "unofficial builds, NES (Nintendo) emulator"
@@ -3099,7 +3116,7 @@ services:
         logo: "assets/tools/chocolatedoom.png"
         subtitle: "Doom, Heretic, Hexen & Strife ports"
         tag: "original game data needed"
-        url: "https://github.com/mijk84/win-arm64-binaries/releases/tag/doom"
+        url: "https://github.com/mijk84/win-arm64-binaries/releases/tag/chocolatedoom"
         target: "_blank" # optional html a tag target attribute
 
       - name: "OpenJazz"
@@ -3114,6 +3131,13 @@ services:
         subtitle: "Jazz Jackrabbit 2 1998 reimplementation"
         tag: "ARM64EC / original game data needed"
         url: "https://deat.tk/jazz2/#downloads"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "CorsixTH"
+        logo: "assets/tools/corsixth.png"
+        subtitle: "Theme Hospital 1997 clone"
+        tag: "original game data needed"
+        url: "https://github.com/ArminiusTux/WinARM64-binaries/releases/tag/CorsixTH"
         target: "_blank" # optional html a tag target attribute
 
       - name: "OpenRCT2"
@@ -3202,6 +3226,13 @@ services:
         subtitle: "WipEout 1995 re-implementation"
         tag: "original game data needed"
         url: "https://github.com/ArminiusTux/WinARM64-binaries/releases/tag/wipEout"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Dethrace"
+        logo: "assets/tools/dethrace.png"
+        subtitle: "Carmageddon 1997 reverse-engineered"
+        tag: "original game data needed"        
+        url: "https://github.com/ArminiusTux/WinARM64-binaries/releases/tag/dethrace"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Vanilla Conquer TD"
