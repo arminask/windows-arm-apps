@@ -439,14 +439,7 @@ services:
         subtitle: "unofficial builds"
         url: "https://github.com/tordona/furnace/releases"
         target: "_blank" # optional html a tag target attribute
-
-      - name: "REAPER"
-        logo: "assets/tools/reaper.png"
-        subtitle: "rec, edit, mix & master digital audio"
-        tag: "ARM64EC"
-        url: "https://www.reaper.fm/download.php"
-        target: "_blank" # optional html a tag target attribute
-        
+  
       - name: "Virtual Audio Cable (VAC)"
         logo: "assets/tools/virtualaudiocable.png"
         subtitle: "Creates a set of virtual audio devices"
