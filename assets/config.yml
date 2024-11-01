@@ -2942,7 +2942,7 @@ services:
       - name: "Aethersx2"
         logo: "assets/tools/aethersx2.png"
         subtitle: "unofficial build, PS2 emulator"
-        url: "https://github.com/Otozinclus/AetherSX2WindowsArm64/"
+        url: "https://store.kde.org/p/2148094/"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Ryujinx"
