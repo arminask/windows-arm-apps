@@ -3663,6 +3663,12 @@ services:
         url: "https://apps.microsoft.com/detail/9nt1r1c2hh7j"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "Claude"
+        logo: "assets/tools/anthropic-claude.png"
+        subtitle: "The AI assistant by Anthropic"
+        url: "https://claude.ai/download"
+        target: "_blank" # optional html a tag target attribute
+
   - name: "Drivers"
     icon: "fa-solid fa-gears"
     items:
