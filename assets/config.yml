@@ -449,6 +449,7 @@ services:
       - name: "Reaper"
         logo: "assets/tools/reaper.png"
         subtitle: "Beta version, complete digital audio production application"
+        tag: "ARM64EC"
         url: "https://www.reaper.fm/download.php"
         target: "_blank" # optional html a tag target attribute 
         
@@ -548,10 +549,10 @@ services:
         url: "https://apps.microsoft.com/detail/9nbdxk71nk08"
         target: "_blank" # optional html a tag target attribute
 
-      - name: "ArmCord"
-        logo: "assets/tools/Armcord.png"
+      - name: "LegCord"
+        logo: "assets/tools/legcord.png"
         subtitle: "Third-Party Discord"
-        url: "https://github.com/ArmCord/ArmCord/releases"
+        url: "https://github.com/Legcord/Legcord/releases"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Vesktop"
@@ -2297,7 +2298,7 @@ services:
       - name: "QEMU"
         logo: "assets/tools/qemu.png"
         subtitle: "Unofficial Build, generic and open source machine emulator and virtualizer"
-        url: "https://github.com/mijk84/win-arm64-binaries/releases/tag/qemu-9.0.2"
+        url: "https://github.com/mijk84/win-arm64-binaries/releases/tag/qemu"
         target: "_blank" # optional html a tag target attribute
         
       - name: "VICE"
@@ -2333,7 +2334,7 @@ services:
       - name: "Bochs"
         logo: "assets/tools/bochs.png"
         subtitle: "unofficial builds"
-        url: "https://github.com/mijk84/win-arm64-binaries/releases/tag/bochs2.8"
+        url: "https://github.com/mijk84/win-arm64-binaries/releases/tag/bochs"
         target: "_blank" # optional html a tag target attribute
 
       - name: "NanaBox"
@@ -2453,6 +2454,12 @@ services:
         url: "https://myhorizon.vmware.com/"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "TamaTool"
+        logo: "assets/tools/tamatool.png"
+        subtitle: "A cross-platform Tamagotchi P1 explorer"
+        url: "https://github.com/mijk84/win-arm64-binaries/releases/tag/tamatool"
+        target: "_blank" # optional html a tag target attribute
+        
       - name: "WinFellow"
         logo: "assets/tools/winfellow.png"
         subtitle: "Amiga Emulator"
@@ -2935,7 +2942,7 @@ services:
       - name: "Aethersx2"
         logo: "assets/tools/aethersx2.png"
         subtitle: "unofficial build, PS2 emulator"
-        url: "https://github.com/Otozinclus/AetherSX2WindowsArm64/"
+        url: "https://store.kde.org/p/2148094/"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Ryujinx"
