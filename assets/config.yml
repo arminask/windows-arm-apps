@@ -1469,6 +1469,18 @@ services:
         url: "https://www.wireguard.com/install/"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "WireSock VPN Client"
+        logo: "assets/tools/wiresock.png"
+        subtitle: "Enhanced WireGuard for Windows"
+        url: "https://www.wiresock.net/wiresock-vpn-client/download"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "WireSock VPN Gateway"
+        logo: "assets/tools/wiresock.png"
+        subtitle: "Transform Your WireGuard Client into a Powerful VPN Server"
+        url: "https://www.wiresock.net/wiresock-vpn-gateway/download"
+        target: "_blank" # optional html a tag target attribute
+        
       - name: "Private Internet Access (PIA)"
         logo: "assets/tools/pia.png"
         subtitle: "beta version, VPN"
