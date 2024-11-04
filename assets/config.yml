@@ -1448,6 +1448,12 @@ services:
         url: "https://github.com/Blinue/Magpie/releases"
         target: "_blank"
 
+      - name: "Whim"
+        logo: "assets/tools/whim.png"
+        subtitle: "Pluggable dynamic window manager for Windows"
+        url: "https://github.com/dalyIsaac/Whim/releases"
+        target: "_blank"
+
       - name: "Three Finger Drag"
         logo: "assets/tools/threefingerdrag.png"
         subtitle: "embrace the seamless three-finger drag."
