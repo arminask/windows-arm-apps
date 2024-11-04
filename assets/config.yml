@@ -2815,6 +2815,12 @@ services:
         url: "https://github.com/TranslucentTB/TranslucentTB/releases"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "RetroBar"
+        logo: "assets/tools/retrobar.png"
+        subtitle: "Classic Windows taskbar replacement"
+        url: "https://github.com/dremin/RetroBar/releases"
+        target: "_blank"
+
       - name: "WindowPet"
         logo: "assets/tools/windowpet.png"
         subtitle: "unofficial builds"
@@ -2842,12 +2848,6 @@ services:
         logo: "assets/tools/flipit.png"
         subtitle: "Flip Clock Screensaver"
         url: "https://github.com/tordona/FlipIt/releases"
-        target: "_blank"
-
-      - name: "RetroBar"
-        logo: "assets/tools/retrobar.png"
-        subtitle: "Classic Windows taskbar replacement"
-        url: "https://github.com/dremin/RetroBar/releases"
         target: "_blank"
 
   - name: "Other"
