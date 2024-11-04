@@ -1243,6 +1243,12 @@ services:
         url: "https://www.voidtools.com/downloads/"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "Fluent Search"
+        logo: "assets/tools/fluentsearch.png"
+        subtitle: "Nightly version"
+        url: "https://github.com/adirh3/Fluent-Search#gem-downloads"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "Sysinternals Suite"
         logo: "assets/tools/sysinternals.png"
         subtitle: "includes tools like Autoruns, ZoomIt, and Process Explorer."
