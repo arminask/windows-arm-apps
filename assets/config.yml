@@ -1311,6 +1311,12 @@ services:
         url: "https://github.com/xgdgsc/CapsLockIndicator/releases"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "EarTrumpet"
+        logo: "assets/tools/eartrumpet.png"
+        subtitle: "unofficial builds"
+        url: "https://github.com/xgdgsc/EarTrumpet/releases"
+        target: "_blank" # optional html a tag target attribute
+        
       - name: "Pingu"
         logo: "assets/tools/pingu.png"
         subtitle: "colored output of ping command"
@@ -1452,6 +1458,12 @@ services:
         logo: "assets/tools/ulogviewer.png"
         subtitle: "Cross-platform universal log viewer"
         url: "https://carinastudio.azurewebsites.net/ULogViewer/"
+        target: "_blank"
+
+      - name: "Custom Context Menu"
+        logo: "assets/tools/CustomContextMenu.png"
+        subtitle: "Add Custom Context Menu For Windows11"
+        url: "https://github.com/ikas-mc/ContextMenuForWindows11/actions/workflows/build.yml"
         target: "_blank"
 
   - name: "VPN"
@@ -2934,7 +2946,13 @@ services:
         logo: "assets/tools/uwidgets.png"
         subtitle: "Standalone .NET application with a variety of customizable widgets."
         url: "https://github.com/creewick/uWidgets/releases"
-        target: "_blank" # optional html a tag target attribute        
+        target: "_blank" # optional html a tag target attribute    
+
+      - name: "同花顺远航版"
+        logo: "assets/tools/thsyhb.png"
+        subtitle: "同花顺远航版股票软件"
+        url: "https://apps.microsoft.com/detail/xp99vsxh2mlsvc?hl=ml-IN&gl=CN"
+        target: "_blank" # optional html a tag target attribute     
 
   - name: "Game Console Emulation"
     icon: "fa-brands fa-playstation"
