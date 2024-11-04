@@ -2783,6 +2783,12 @@ services:
   - name: "Theme & Styles"
     icon: "fa-solid fa-brush"
     items:
+      - name: "Sucrose Wallpaper Engine"
+        logo: "assets/tools/sucrose.png"
+        subtitle: "a versatile wallpaper engine"
+        url: "https://apps.microsoft.com/detail/xp8jgpbhtjglcq"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "Timeline Wallpaper"
         logo: "assets/tools/Timeline.png"
         url: "https://apps.microsoft.com/detail/9N7VHQ989BB7"
