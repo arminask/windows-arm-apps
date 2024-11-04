@@ -820,6 +820,12 @@ services:
         url: "https://apps.microsoft.com/detail/9wzdncrfj3t6"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "Blockbench"
+        logo: "assets/tools/blockbench.png"
+        subtitle: "a low-poly 3D model editor"
+        url: "https://www.blockbench.net/downloads"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "Live Home 3D - House Design"
         logo: "assets/tools/livehome3dlder.png"
         subtitle: "Build a home, renovate an apartment or plan your garden with Live Home 3D"
