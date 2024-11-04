@@ -211,6 +211,12 @@ services:
         url: "https://www.microsoft.com/store/apps/9MVFJLPH517M"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "WiliWili"
+        logo: "assets/tools/wiliwili.png"
+        subtitle: "3rd-party desktop app for Bilibili"
+        url: "https://github.com/xfangfang/wiliwili/releases"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "iQIYI"
         logo: "assets/tools/iqiyi.png"
         url: "https://apps.microsoft.com/detail/9NBLGGH5WXNW"
