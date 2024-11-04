@@ -1625,11 +1625,17 @@ services:
         subtitle: "Centralizes all remote connections on a single platform"
         url: "https://devolutions.net/remote-desktop-manager/"
         target: "_blank" # optional html a tag target attribute
-        
+
       - name: "Natpass"
         logo: "assets/tools/natpass.png"
         subtitle: "supports shell management and remote desktop management"
         url: "https://github.com/lwch/natpass/releases"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "贝锐蒲公英"
+        logo: "assets/tools/pgyvisitor.png"
+        subtitle: "make off-site networking easier"
+        url: "https://pgy.oray.com/download/"
         target: "_blank" # optional html a tag target attribute
 
       - name: "hysteria"
