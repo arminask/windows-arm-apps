@@ -1163,6 +1163,12 @@ services:
         url: "https://github.com/boyter/cs/releases"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "WinDirStat"
+        logo: "assets/tools/windirstat.png"
+        subtitle: "disk usage statistics viewer and cleanup tool"
+        url: "https://windirstat.net/download.html"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "TreeMap"
         logo: "assets/tools/treemap.png"
         subtitle: "display of hard disk space usage through list and graphical views"
@@ -1308,12 +1314,6 @@ services:
       - name: "Windows Universal Tool"
         logo: "assets/tools/wut.png"
         url: "https://github.com/basharast/wut/releases"
-        target: "_blank" # optional html a tag target attribute
-
-      - name: "WinDirStat"
-        logo: "assets/tools/windirstat.png"
-        subtitle: "disk usage statistics viewer and cleanup tool"
-        url: "https://windirstat.net/download.html"
         target: "_blank" # optional html a tag target attribute
 
       - name: "TrafficMonitor"
