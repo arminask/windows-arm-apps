@@ -2698,8 +2698,8 @@ services:
 
       - name: "1Password"
         logo: "assets/tools/1password.png"
-        subtitle: "Preview version - Desktop password storage."
-        url: "https://1password.community/discussion/145886/1password-for-windows-on-arm-preview"
+        subtitle: "Desktop password storage."
+        url: "https://1password.community/discussion/148614/1password-for-windows-arm"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Bitwarden (Desktop)"
