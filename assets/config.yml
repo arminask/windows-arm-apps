@@ -2835,6 +2835,12 @@ services:
         url: "https://github.com/Melon-Studio/DarkMode2/releases"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "SecureUxTheme"
+        logo: "assets/tools/secureuxtheme.png"
+        subtitle: "A secure boot compatible in-memory UxTheme patcher"
+        url: "https://github.com/namazso/SecureUxTheme/releases"
+        target: "_blank"
+
       - name: "ExplorerPatcher"
         logo: "assets/tools/Explorer.png"
         subtitle: "Customize Windows 10/11 Start Menu/Taskbar/Explorer behavior"
