@@ -1277,6 +1277,12 @@ services:
         url: "https://www.pastebar.app"
         target: "_blank"
 
+      - name: "EcoPaste"
+        logo: "assets/tools/ecopaste.png"
+        subtitle: "clipboard management tool"
+        url: "https://github.com/EcoPasteHub/EcoPaste/releases"
+        target: "_blank"
+
       - name: "Pot"
         logo: "assets/tools/Pot.png"
         subtitle: "text translation and recognition"
