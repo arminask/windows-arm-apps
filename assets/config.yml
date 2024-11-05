@@ -1462,7 +1462,7 @@ services:
 
       - name: "Custom Context Menu"
         logo: "assets/tools/CustomContextMenu.png"
-        subtitle: "Add Custom Context Menu For Windows11"
+        subtitle: "Add Custom Context Menu For Windows 11"
         url: "https://github.com/ikas-mc/ContextMenuForWindows11/actions/workflows/build.yml"
         target: "_blank"
 
