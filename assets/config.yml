@@ -211,6 +211,12 @@ services:
         url: "https://www.microsoft.com/store/apps/9MVFJLPH517M"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "WiliWili"
+        logo: "assets/tools/wiliwili.png"
+        subtitle: "3rd-party desktop app for Bilibili"
+        url: "https://github.com/xfangfang/wiliwili/releases"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "iQIYI"
         logo: "assets/tools/iqiyi.png"
         url: "https://apps.microsoft.com/detail/9NBLGGH5WXNW"
@@ -820,6 +826,12 @@ services:
         url: "https://apps.microsoft.com/detail/9wzdncrfj3t6"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "Blockbench"
+        logo: "assets/tools/blockbench.png"
+        subtitle: "a low-poly 3D model editor"
+        url: "https://www.blockbench.net/downloads"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "Live Home 3D - House Design"
         logo: "assets/tools/livehome3dlder.png"
         subtitle: "Build a home, renovate an apartment or plan your garden with Live Home 3D"
@@ -940,8 +952,8 @@ services:
 
       - name: "Typst"
         logo: "assets/tools/typst.png"
-        subtitle: "unofficial builds - a new markup-based typesetting system that is powerful and easy to learn."
-        url: "https://github.com/iKineticate/Windows-ARM64-Binaries/releases/tag/Typst"
+        subtitle: "a new markup-based typesetting system that is designed to be as powerful as LaTeX while being much easier to learn and use"
+        url: "https://github.com/typst/typst/releases"
         target: "_blank" # optional html a tag target attribute
 
       - name: "QZ Tray"
@@ -1056,6 +1068,12 @@ services:
         url: "https://apps.microsoft.com/detail/9mspc6mp8fm4"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "draw.io"
+        logo: "assets/tools/drawio.png"
+        subtitle: "a diagramming and whiteboarding desktop app"
+        url: "https://github.com/jgraph/drawio-desktop/releases"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "Inkodo"
         logo: "assets/tools/inkodo.png"
         subtitle: "Take notes, annotate PDF or photos, create documents, sketch ideas, keep a journal."
@@ -1083,12 +1101,6 @@ services:
   - name: "Tools"
     icon: "fa-solid fa-screwdriver-wrench"
     items:
-      - name: "PasteBar"
-        logo: "assets/tools/pastebar-app.png"
-        subtitle: "Limitless, Free Clipboard Manager"
-        url: "https://www.pastebar.app"
-        target: "_blank"
-
       - name: "Notepad++"
         logo: "assets/tools/notepadplusplus.png"
         url: "https://notepad-plus-plus.org/downloads/"
@@ -1151,6 +1163,36 @@ services:
         url: "https://github.com/sxyazi/yazi/releases"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "Far Manager"
+        logo: "assets/tools/farmanager.png"
+        subtitle: "File and archive manager"
+        url: "https://www.farmanager.com/download.php"
+        target: "_blank"
+
+      - name: "bat"
+        logo: "assets/tools/clionly.png"
+        subtitle: "unofficial builds / display a single file on the terminal"
+        url: "https://github.com/iKineticate/Windows-ARM64-Binaries/releases/tag/bat"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "ripgrep"
+        logo: "assets/tools/clionly.png"
+        subtitle: "unofficial builds / searches directories for a regex pattern"
+        url: "https://github.com/iKineticate/Windows-ARM64-Binaries/releases/tag/ripgrep"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "cs"
+        logo: "assets/tools/clionly.png"
+        subtitle: "codespelunker or code search"
+        url: "https://github.com/boyter/cs/releases"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "WinDirStat"
+        logo: "assets/tools/windirstat.png"
+        subtitle: "disk usage statistics viewer and cleanup tool"
+        url: "https://windirstat.net/download.html"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "TreeMap"
         logo: "assets/tools/treemap.png"
         subtitle: "display of hard disk space usage through list and graphical views"
@@ -1201,6 +1243,12 @@ services:
         url: "https://www.voidtools.com/downloads/"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "Fluent Search"
+        logo: "assets/tools/fluentsearch.png"
+        subtitle: "Nightly version"
+        url: "https://github.com/adirh3/Fluent-Search#gem-downloads"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "Sysinternals Suite"
         logo: "assets/tools/sysinternals.png"
         subtitle: "includes tools like Autoruns, ZoomIt, and Process Explorer."
@@ -1240,6 +1288,18 @@ services:
         subtitle: "unofficial builds / windows clipboard"
         url: "https://github.com/jglathe/Ditto/tree/jg/arm64build"
         target: "_blank" # optional html a tag target attribute
+
+      - name: "PasteBar"
+        logo: "assets/tools/pastebar-app.png"
+        subtitle: "Limitless, Free Clipboard Manager"
+        url: "https://www.pastebar.app"
+        target: "_blank"
+
+      - name: "EcoPaste"
+        logo: "assets/tools/ecopaste.png"
+        subtitle: "clipboard management tool"
+        url: "https://github.com/EcoPasteHub/EcoPaste/releases"
+        target: "_blank"
 
       - name: "Pot"
         logo: "assets/tools/Pot.png"
@@ -1290,12 +1350,6 @@ services:
       - name: "Windows Universal Tool"
         logo: "assets/tools/wut.png"
         url: "https://github.com/basharast/wut/releases"
-        target: "_blank" # optional html a tag target attribute
-
-      - name: "WinDirStat"
-        logo: "assets/tools/windirstat.png"
-        subtitle: "disk usage statistics viewer and cleanup tool"
-        url: "https://windirstat.net/download.html"
         target: "_blank" # optional html a tag target attribute
 
       - name: "TrafficMonitor"
@@ -1400,6 +1454,12 @@ services:
         url: "https://github.com/Blinue/Magpie/releases"
         target: "_blank"
 
+      - name: "Whim"
+        logo: "assets/tools/whim.png"
+        subtitle: "Pluggable dynamic window manager for Windows"
+        url: "https://github.com/dalyIsaac/Whim/releases"
+        target: "_blank"
+
       - name: "Three Finger Drag"
         logo: "assets/tools/threefingerdrag.png"
         subtitle: "embrace the seamless three-finger drag."
@@ -1428,12 +1488,6 @@ services:
         logo: "assets/tools/webcatalog.png"
         subtitle: "App store for web apps, universal installer"
         url: "https://webcatalog.io/en/desktop/"
-        target: "_blank"
-
-      - name: "Far Manager"
-        logo: "assets/tools/farmanager.png"
-        subtitle: "File and archive manager"
-        url: "https://www.farmanager.com/download.php"
         target: "_blank"
 
       - name: "AntiMicroX"
@@ -1619,11 +1673,17 @@ services:
         subtitle: "Centralizes all remote connections on a single platform"
         url: "https://devolutions.net/remote-desktop-manager/"
         target: "_blank" # optional html a tag target attribute
-        
+
       - name: "Natpass"
         logo: "assets/tools/natpass.png"
         subtitle: "supports shell management and remote desktop management"
         url: "https://github.com/lwch/natpass/releases"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "贝锐蒲公英"
+        logo: "assets/tools/pgyvisitor.png"
+        subtitle: "make off-site networking easier"
+        url: "https://pgy.oray.com/download/"
         target: "_blank" # optional html a tag target attribute
 
       - name: "hysteria"
@@ -1916,6 +1976,12 @@ services:
         url: "https://github.com/dennisameling/git/releases"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "SourceGit"
+        logo: "assets/tools/sourcegit.png"
+        subtitle: "Opensource Git GUI client."
+        url: "https://github.com/sourcegit-scm/sourcegit/releases"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "git-cliff"
         logo: "assets/tools/gitcliff.png"
         subtitle: "A highly customizable Changelog Generator"
@@ -2152,12 +2218,6 @@ services:
         logo: "assets/tools/tabby.png"
         subtitle: "A terminal for a more modern age"
         url: "https://github.com/Eugeny/tabby/releases"
-        target: "_blank" # optional html a tag target attribute
-
-      - name: "Starship"
-        logo: "assets/tools/Starship.png"
-        subtitle: "infinitely customizable prompt for any shell"
-        url: "https://github.com/starship/starship/releases"
         target: "_blank" # optional html a tag target attribute
 
       - name: "WinSSHTerm"
@@ -2514,6 +2574,12 @@ services:
         url: "https://benchmarks.ul.com/3dmark/download"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "ANTUTU"
+        logo: "assets/tools/antutu.png"
+        subtitle: "Professional Benchmark Tests"
+        url: "https://www.antutu.com/en/download.htm"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "GravityMark"
         logo: "assets/tools/gravitymark.png"
         url: "https://gravitymark.tellusim.com/"
@@ -2753,6 +2819,12 @@ services:
   - name: "Theme & Styles"
     icon: "fa-solid fa-brush"
     items:
+      - name: "Sucrose Wallpaper Engine"
+        logo: "assets/tools/sucrose.png"
+        subtitle: "a versatile wallpaper engine"
+        url: "https://apps.microsoft.com/detail/xp8jgpbhtjglcq"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "Timeline Wallpaper"
         logo: "assets/tools/Timeline.png"
         url: "https://apps.microsoft.com/detail/9N7VHQ989BB7"
@@ -2781,6 +2853,12 @@ services:
         url: "https://github.com/Melon-Studio/DarkMode2/releases"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "SecureUxTheme"
+        logo: "assets/tools/secureuxtheme.png"
+        subtitle: "A secure boot compatible in-memory UxTheme patcher"
+        url: "https://github.com/namazso/SecureUxTheme/releases"
+        target: "_blank"
+
       - name: "ExplorerPatcher"
         logo: "assets/tools/Explorer.png"
         subtitle: "Customize Windows 10/11 Start Menu/Taskbar/Explorer behavior"
@@ -2802,6 +2880,12 @@ services:
         subtitle: "makes the Windows taskbar translucent/transparent"
         url: "https://github.com/TranslucentTB/TranslucentTB/releases"
         target: "_blank" # optional html a tag target attribute
+
+      - name: "RetroBar"
+        logo: "assets/tools/retrobar.png"
+        subtitle: "Classic Windows taskbar replacement"
+        url: "https://github.com/dremin/RetroBar/releases"
+        target: "_blank"
 
       - name: "WindowPet"
         logo: "assets/tools/windowpet.png"
@@ -2832,11 +2916,17 @@ services:
         url: "https://github.com/tordona/FlipIt/releases"
         target: "_blank"
 
-      - name: "RetroBar"
-        logo: "assets/tools/retrobar.png"
-        subtitle: "Classic Windows taskbar replacement"
-        url: "https://github.com/dremin/RetroBar/releases"
-        target: "_blank"
+      - name: "Starship"
+        logo: "assets/tools/Starship.png"
+        subtitle: "infinitely customizable prompt for any shell"
+        url: "https://github.com/starship/starship/releases"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Oh My Posh"
+        logo: "assets/tools/ohmyposh.png"
+        subtitle: "platform/shell prompt renderer"
+        url: "https://github.com/JanDeDobbeleer/oh-my-posh/releases"
+        target: "_blank" # optional html a tag target attribute
 
   - name: "Other"
     icon: "fa-solid fa-question"
