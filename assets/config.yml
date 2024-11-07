@@ -573,6 +573,12 @@ services:
         url: "https://slack.com/downloads/windows"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "Telegram"
+        logo: "assets/tools/telegram.png"
+        subtitle: "Fast and secure desktop app, perfectly synced with your mobile phone."
+        url: "https://github.com/telegramdesktop/tdesktop/releases"
+        target: "_blank" # optional html a tag target attribute
+
   - name: "Photo/Video Editing & Drawing Tools"
     icon: "fa-solid fa-paintbrush"
     items:
