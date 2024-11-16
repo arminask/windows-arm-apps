@@ -2023,6 +2023,12 @@ services:
         url: "https://github.com/cgohlke/win_arm64-wheels/releases"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "Jupyterlab Desktop"
+        logo: "assets/tools/jupyterlabdesktop.png"
+        subtitle: "unofficial builds"
+        url: "https://github.com/xgdgsc/jupyterlab-desktop/releases"
+        target: "_blank" # optional html a tag target attribute
+  
       - name: "ruff"
         logo: "assets/tools/ruff.png"
         subtitle: "an extremely fast Python linter and code formatter"
