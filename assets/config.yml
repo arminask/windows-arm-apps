@@ -3184,7 +3184,7 @@ services:
       - name: "melonDS"
         logo: "assets/tools/melonds.png"
         subtitle: "unofficial builds, Nintendo DS emulator"
-        url: "https://github.com/mijk84/win-arm64-binaries/releases/tag/nelons-31072022"
+        url: "https://github.com/mijk84/win-arm64-binaries/releases/tag/melonds"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Gearcoleco"
