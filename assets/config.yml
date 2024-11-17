@@ -3023,6 +3023,12 @@ services:
         url: "https://www.segger.com/downloads/systemview/"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "Rocrail Basic"
+        logo: "assets/tools/rocrail.png"
+        subtitle: "free software for controlling model trains"
+        url: "https://wiki.rocrail.net/rocrail-snapshot/"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "RunCat"
         logo: "assets/tools/runcat.png"
         subtitle: "a cute running cat animation reflects CPU Utilization"
