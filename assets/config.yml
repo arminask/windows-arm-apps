@@ -2396,6 +2396,12 @@ services:
         url: "https://github.com/joncampbell123/dosbox-x/releases"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "DOSBox Staging"
+        logo: "assets/tools/dosbox-staging.png"
+        subtitle: "experimental builds / GitHub login required"        
+        url: "https://www.dosbox-staging.org/releases/development-builds/"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "ntvdm64.dll + winevdm"
         logo: "assets/tools/win16bit.png"
         tag: "Windows 1.x, 2.x & 3.x"
