@@ -2046,6 +2046,12 @@ services:
         url: "https://github.com/ninja-build/ninja/releases"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "Qt"
+        logo: "assets/tools/qt.png"
+        subtitle: "a GUI development framework"
+        url: "https://www.qt.io/download-qt-installer-oss"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "JetBrains IntelliJ IDEA"
         logo: "assets/tools/jetbrainsintellij-idea.png"
         url: "https://www.jetbrains.com/idea/download/"
