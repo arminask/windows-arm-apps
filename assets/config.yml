@@ -483,6 +483,12 @@ services:
         url: "https://apps.microsoft.com/store/detail/instagram/9NBLGGH5L9XT"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "Unigram"
+        logo: "assets/tools/unigram.png"
+        subtitle: "alternative access to Telegram"
+        url: "https://apps.microsoft.com/detail/9n97zckpd60q"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "Tiktok"
         logo: "assets/tools/tiktok.png"
         url: "https://apps.microsoft.com/store/detail/tiktok/9NH2GPH4JZS4"
