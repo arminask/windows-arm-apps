@@ -2574,6 +2574,12 @@ services:
         url: "https://github.com/petschau/WinFellow/releases"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "Altirra"
+        logo: "assets/tools/altirra.png"
+        subtitle: "an Atari 400, 800, XL, XE, XEGS & 5200 emulator"
+        url: "https://www.virtualdub.org/altirra.html"
+        target: "_blank" # optional html a tag target attribute
+
   - name: "Benchmarking & Diagnostics"
     icon: "fa-solid fa-stopwatch"
     items:
@@ -3191,12 +3197,6 @@ services:
         logo: "assets/tools/clionly.png"
         subtitle: "a very accurate ColecoVision emulator"
         url: "https://github.com/drhelius/Gearcoleco/releases"
-        target: "_blank" # optional html a tag target attribute
-
-      - name: "Altirra"
-        logo: "assets/tools/altirra.png"
-        subtitle: "an Atari 400, 800, XL, XE, XEGS & Atari 5200 emulator"
-        url: "https://www.virtualdub.org/altirra.html"
         target: "_blank" # optional html a tag target attribute
 
       - name: "BigPEmu"
