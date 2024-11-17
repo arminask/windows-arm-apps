@@ -3266,6 +3266,13 @@ services:
         url: "https://github.com/mijk84/win-arm64-binaries/releases/tag/sdlpop"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "Exult"
+        logo: "assets/tools/exult.png"
+        subtitle: "Ultima VII (Part 1&2) 1992 recreation"
+        tag: "original game data needed"
+        url: "https://github.com/ArminiusTux/WinARM64-binaries/releases/tag/Exult"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "OpenOMF"
         logo: "assets/tools/omf2097.png"
         subtitle: "One Must Fall 2097 Remake port"
