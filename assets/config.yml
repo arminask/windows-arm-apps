@@ -3273,6 +3273,13 @@ services:
         url: "https://github.com/ArminiusTux/WinARM64-binaries/releases/tag/Exult"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "Race into Space"
+        logo: "assets/tools/baris.png"
+        subtitle: "BARIS 1993 improvement"
+        tag: "full game"
+        url: "https://github.com/ArminiusTux/WinARM64-binaries/releases/tag/RaceintoSpace"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "OpenOMF"
         logo: "assets/tools/omf2097.png"
         subtitle: "One Must Fall 2097 Remake port"
