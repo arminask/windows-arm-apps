@@ -2429,13 +2429,7 @@ services:
 
       - name: "86Box"
         logo: "assets/tools/86box.png"
-        subtitle: "unofficial builds, based on version 3.7"
-        url: "https://github.com/mijk84/win-arm64-binaries/releases/tag/86box"
-        target: "_blank" # optional html a tag target attribute
-
-      - name: "86Box"
-        logo: "assets/tools/86box.png"
-        subtitle: "unofficial builds, based on version 4.2"
+        subtitle: "unofficial builds"
         url: "https://github.com/ArminiusTux/WinARM64-binaries/releases/tag/86Box"
         target: "_blank" # optional html a tag target attribute
 
