@@ -2552,6 +2552,12 @@ services:
         url: "https://github.com/felixrieseberg/macintosh.js/releases/tag/v1.1.0"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "AppleWin"
+        logo: "assets/tools/applewin.png"
+        subtitle: "unofficial builds of an Apple II emulator"
+        url: "https://github.com/tordona/AppleWin/releases"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "Parallels RAS client"
         logo: "assets/tools/parallelsrasclient.png"
         url: "https://www.parallels.com/products/ras/download/client/#ras-19-windows"
