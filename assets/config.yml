@@ -833,8 +833,9 @@ services:
         url: "https://www.kicad.org/download/windows/#mirrors-arm64"
         target: "_blank" # optional html a tag target attribute
 
-      - name: "Zoo Modeling App (fmr. KittyCAD)"
+      - name: "Zoo Modeling App"
         logo: "assets/tools/zoomodel.png"
+        subtitle: "formerly known as KittyCAD"        
         url: "https://zoo.dev/modeling-app/download"
         target: "_blank" # optional html a tag target attribute
 
@@ -3280,7 +3281,7 @@ services:
 
       - name: "Exult"
         logo: "assets/tools/exult.png"
-        subtitle: "Ultima VII (Part 1&2) 1992 recreation"
+        subtitle: "Ultima VII (Part 1 & 2) 1992 recreation"
         tag: "original game data needed"
         url: "https://github.com/ArminiusTux/WinARM64-binaries/releases/tag/Exult"
         target: "_blank" # optional html a tag target attribute
