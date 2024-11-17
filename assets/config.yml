@@ -827,6 +827,11 @@ services:
         url: "https://www.kicad.org/download/windows/#mirrors-arm64"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "Zoo Modeling App (fmr. KittyCAD)"
+        logo: "assets/tools/zoomodel.png"
+        url: "https://zoo.dev/modeling-app/download"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "Microsoft 3D Builder"
         logo: "assets/tools/3dbuilder.png"
         url: "https://apps.microsoft.com/detail/9wzdncrfj3t6"
