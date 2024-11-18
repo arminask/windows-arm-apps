@@ -483,6 +483,12 @@ services:
         url: "https://apps.microsoft.com/store/detail/instagram/9NBLGGH5L9XT"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "Unigram"
+        logo: "assets/tools/unigram.png"
+        subtitle: "alternative access to Telegram"
+        url: "https://apps.microsoft.com/detail/9n97zckpd60q"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "Tiktok"
         logo: "assets/tools/tiktok.png"
         url: "https://apps.microsoft.com/store/detail/tiktok/9NH2GPH4JZS4"
@@ -825,6 +831,12 @@ services:
         logo: "assets/tools/kicad.png"
         subtitle: "PCB designer"
         url: "https://www.kicad.org/download/windows/#mirrors-arm64"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Zoo Modeling App"
+        logo: "assets/tools/zoomodel.png"
+        subtitle: "formerly known as KittyCAD"        
+        url: "https://zoo.dev/modeling-app/download"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Microsoft 3D Builder"
@@ -2046,6 +2058,12 @@ services:
         url: "https://github.com/ninja-build/ninja/releases"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "Qt"
+        logo: "assets/tools/qt.png"
+        subtitle: "a GUI development framework"
+        url: "https://www.qt.io/download-qt-installer-oss"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "JetBrains IntelliJ IDEA"
         logo: "assets/tools/jetbrainsintellij-idea.png"
         url: "https://www.jetbrains.com/idea/download/"
@@ -2396,6 +2414,12 @@ services:
         url: "https://github.com/joncampbell123/dosbox-x/releases"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "DOSBox Staging"
+        logo: "assets/tools/dosbox-staging.png"
+        subtitle: "experimental builds / GitHub login required"        
+        url: "https://www.dosbox-staging.org/releases/development-builds/"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "ntvdm64.dll + winevdm"
         logo: "assets/tools/win16bit.png"
         tag: "Windows 1.x, 2.x & 3.x"
@@ -2429,13 +2453,7 @@ services:
 
       - name: "86Box"
         logo: "assets/tools/86box.png"
-        subtitle: "unofficial builds, based on version 3.7"
-        url: "https://github.com/mijk84/win-arm64-binaries/releases/tag/86box"
-        target: "_blank" # optional html a tag target attribute
-
-      - name: "86Box"
-        logo: "assets/tools/86box.png"
-        subtitle: "unofficial builds, based on version 4.2"
+        subtitle: "unofficial builds"
         url: "https://github.com/ArminiusTux/WinARM64-binaries/releases/tag/86Box"
         target: "_blank" # optional html a tag target attribute
 
@@ -2552,6 +2570,12 @@ services:
         url: "https://github.com/felixrieseberg/macintosh.js/releases/tag/v1.1.0"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "AppleWin"
+        logo: "assets/tools/applewin.png"
+        subtitle: "unofficial builds of an Apple II emulator"
+        url: "https://github.com/tordona/AppleWin/releases"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "Parallels RAS client"
         logo: "assets/tools/parallelsrasclient.png"
         url: "https://www.parallels.com/products/ras/download/client/#ras-19-windows"
@@ -2572,6 +2596,12 @@ services:
         logo: "assets/tools/winfellow.png"
         subtitle: "Amiga Emulator"
         url: "https://github.com/petschau/WinFellow/releases"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Altirra"
+        logo: "assets/tools/altirra.png"
+        subtitle: "an Atari 400, 800, XL, XE, XEGS & 5200 emulator"
+        url: "https://www.virtualdub.org/altirra.html"
         target: "_blank" # optional html a tag target attribute
 
   - name: "Benchmarking & Diagnostics"
@@ -2994,6 +3024,12 @@ services:
         url: "https://www.segger.com/downloads/systemview/"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "Rocrail Basic"
+        logo: "assets/tools/rocrail.png"
+        subtitle: "free software for controlling model trains"
+        url: "https://wiki.rocrail.net/rocrail-snapshot/"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "RunCat"
         logo: "assets/tools/runcat.png"
         subtitle: "a cute running cat animation reflects CPU Utilization"
@@ -3184,19 +3220,13 @@ services:
       - name: "melonDS"
         logo: "assets/tools/melonds.png"
         subtitle: "unofficial builds, Nintendo DS emulator"
-        url: "https://github.com/mijk84/win-arm64-binaries/releases/tag/nelons-31072022"
+        url: "https://github.com/mijk84/win-arm64-binaries/releases/tag/melonds"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Gearcoleco"
         logo: "assets/tools/clionly.png"
         subtitle: "a very accurate ColecoVision emulator"
         url: "https://github.com/drhelius/Gearcoleco/releases"
-        target: "_blank" # optional html a tag target attribute
-
-      - name: "Altirra"
-        logo: "assets/tools/altirra.png"
-        subtitle: "an Atari 400, 800, XL, XE, XEGS & Atari 5200 emulator"
-        url: "https://www.virtualdub.org/altirra.html"
         target: "_blank" # optional html a tag target attribute
 
       - name: "BigPEmu"
@@ -3247,6 +3277,20 @@ services:
         subtitle: "Prince of Persia 1989 port"
         tag: "original game data needed"
         url: "https://github.com/mijk84/win-arm64-binaries/releases/tag/sdlpop"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Exult"
+        logo: "assets/tools/exult.png"
+        subtitle: "Ultima VII (Part 1 & 2) 1992 recreation"
+        tag: "original game data needed"
+        url: "https://github.com/ArminiusTux/WinARM64-binaries/releases/tag/Exult"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Race into Space"
+        logo: "assets/tools/baris.png"
+        subtitle: "BARIS 1993 improvement"
+        tag: "full game"
+        url: "https://github.com/ArminiusTux/WinARM64-binaries/releases/tag/RaceintoSpace"
         target: "_blank" # optional html a tag target attribute
 
       - name: "OpenOMF"
