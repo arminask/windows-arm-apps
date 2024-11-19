@@ -1664,6 +1664,12 @@ services:
   - name: "Network & Cloud Storage"
     icon: "fa-solid fa-network-wired"
     items:
+      - name: "Google Drive"
+        logo: "assets/tools/googledrive.png"
+        subtitle: "beta build"
+        url: "https://support.google.com/drive/thread/308624582/drive-for-desktop-arm64-support?hl=en&sjid=10892867771861133968-NC"
+        target: "_blank" # optional html a tag target attribute
+        
       - name: "Filezilla Client"
         logo: "assets/tools/filezilla.png"
         subtitle: "unofficial builds"
