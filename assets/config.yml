@@ -464,7 +464,13 @@ services:
         subtitle: "Reserarch Photo Management Software"
         url: "https://tropy.org/"
         target: "_blank" # optional html a tag target attribute        
-
+        
+      - name: "Steinberg Cubase Pro 13"
+        logo: "assets/tools/cubase.png"
+        subtitle: "Preview version, Digital audio workstation (DAW) that allows users to record, arrange, and edit music and MIDI"
+        url: "https://helpcenter.steinberg.de/hc/en-us/articles/21829527504530-Preview-versions-for-Windows-on-Arm-WoA"
+        target: "_blank" # optional html a tag target attribute  
+        
   - name: "Social"
     icon: "fa-solid fa-message"
     items:
