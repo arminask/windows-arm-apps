@@ -2412,6 +2412,12 @@ services:
         subtitle: "ARM64 Visual Studio 2022 Extension, unofficial build"
         url: "https://github.com/fobrs/VisualStudioExtension/releases"
         target: "_blank" # optional html a tag target attribute
+        
+      - name: "ArcGIS Maps SDK"
+        logo: "assets/tools/arcgismapssdk.png"
+        subtitle: "ARM64 .NET Mapping SDK by Esri"
+        url: "https://developers.arcgis.com/net/"
+        target: "_blank" # optional html a tag target attribute
 
   - name: "Emulation & Virtualization"
     icon: "fa-solid fa-microchip"
