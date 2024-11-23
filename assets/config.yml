@@ -2749,7 +2749,7 @@ services:
 
       - name: "HWiNFO"
         logo: "assets/tools/hwinfo.png"
-        subtitle: "ARM version in beta portable download, System Information"
+        subtitle: "System Information"
         url: "https://www.hwinfo.com/download/"
         target: "_blank" # optional html a tag target attribute
 
