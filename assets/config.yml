@@ -3933,6 +3933,12 @@ services:
         url: "https://www.wch-ic.com/downloads/CH343SER_ZIP.html"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "ViGEm Bus Driver"
+        logo: "assets/tools/vigem.png"
+        subtitle: "Retired project, Windows kernel-mode driver emulating well-known USB game controllers."
+        url: "https://github.com/nefarius/ViGEmBus/releases"
+        target: "_blank" # optional html a tag target attribute
+        
   - name: "Printers"
     icon: "fa-solid fa-print"
     items:
