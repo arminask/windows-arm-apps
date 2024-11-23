@@ -2481,6 +2481,12 @@ services:
         url: "https://github.com/ArminiusTux/WinARM64-binaries/releases/tag/86Box"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "PCem"
+        logo: "assets/tools/pcem.png"
+        subtitle: "unofficial builds, emulator that allows users to emulate PC hardware, including processors, sound cards, and GPUs"
+        url: "https://github.com/mijk84/win-arm64-binaries/releases/tag/pcem"
+        target: "_blank" # optional html a tag target attribute
+        
       - name: "Bochs"
         logo: "assets/tools/bochs.png"
         subtitle: "unofficial builds"
@@ -2628,6 +2634,18 @@ services:
         url: "https://www.virtualdub.org/altirra.html"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "RunCPM"
+        logo: "assets/tools/runcpm.png"
+        subtitle: "Multi-platform, portable, Z80 CP/M 2.2 emulator."
+        url: "https://github.com/mijk84/win-arm64-binaries/releases/tag/runcpm"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "CHIP-8"
+        logo: "assets/tools/chip8.png"
+        subtitle: "Assembler, debugger, and emulator for COSMAC ELF CHIP-8 interpreter and its derivative: the Super CHIP-8"
+        url: "https://github.com/mijk84/win-arm64-binaries/releases/tag/chip8"
+        target: "_blank" # optional html a tag target attribute
+        
   - name: "Benchmarking & Diagnostics"
     icon: "fa-solid fa-stopwatch"
     items:
@@ -3259,6 +3277,30 @@ services:
         url: "https://www.richwhitehouse.com/jaguar/index.php?content=download"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "TileWorld"
+        logo: "assets/tools/tileworld.png"
+        subtitle: "A port of Tile World to 320x240 handheld consoles including GP2X, Wiz, and GCW Zero/Dingux"
+        url: "https://github.com/mijk84/win-arm64-binaries/releases/tag/tileworld"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Pokemini"
+        logo: "assets/tools/pokemonmini.png"
+        subtitle: "Obscure nintendo handheld emulator"
+        url: "https://github.com/mijk84/win-arm64-binaries/releases/tag/pokemini"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Gamate"
+        logo: "assets/tools/gamate.png"
+        subtitle: "Gamate handheld console by Bit corp. Emulator for Windows"
+        url: "https://github.com/mijk84/win-arm64-binaries/releases/tag/gamate"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "ARAnyM"
+        logo: "assets/tools/aranym.png"
+        subtitle: "Atari ST emulator"
+        url: "https://github.com/mijk84/win-arm64-binaries/releases/tag/aranym"
+        target: "_blank" # optional html a tag target attribute
+        
   - name: "Games"
     icon: "fa-solid fa-gamepad"
     items:
@@ -3508,6 +3550,34 @@ services:
         url: "https://github.com/mijk84/win-arm64-binaries/releases/tag/openlara"
         target: "_blank" # optional html a tag target attribute
         
+      - name: "reone"
+        logo: "assets/tools/reone.png"
+        subtitle: "Knights of the Old Republic (and The Sith Lords) open source engine"
+        tag: "original game data needed"
+        url: "https://github.com/mijk84/win-arm64-binaries/releases/tag/reone"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "OpenTESArena"
+        logo: "assets/tools/opentesarena.png"
+        subtitle: "Open-source engine for the 1994 DOS game The Elder Scrolls: Arena by Bethesda Softworks."
+        tag: "original game data needed"
+        url: "https://github.com/mijk84/win-arm64-binaries/releases/tag/opentesarena"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Mr Boom"
+        logo: "assets/tools/mrboom.png"
+        subtitle: "8 player Bomberman clone"
+        tag: "original game data needed"
+        url: "https://github.com/mijk84/win-arm64-binaries/releases/tag/mrboom"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Chasm: The Rift"
+        logo: "assets/tools/chasmtherift.png"
+        subtitle: "First-person shooter video game"
+        tag: "original game data needed"
+        url: "https://github.com/mijk84/win-arm64-binaries/releases/tag/chasm"
+        target: "_blank" # optional html a tag target attribute
+        
       - name: "OpenTomb"
         logo: "assets/tools/opentomb.png"
         subtitle: "Tomb Raider 1-5 1996-2003 engine remake"
@@ -3697,6 +3767,25 @@ services:
         url: "https://worldofwarcraft.blizzard.com/"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "OpenBOR"
+        logo: "assets/tools/openbor.png"
+        subtitle: "Ultimate 2D side scrolling engine for beat em' ups, shooters, and more!"
+        url: "https://github.com/mijk84/win-arm64-binaries/releases/tag/openbor"
+        target: "_blank" # optional html a tag target attribute  
+
+      - name: "BStone"
+        logo: "assets/tools/clionly.png"
+        subtitle: "Unofficial source port of Blake Stone: Aliens of Gold and Blake Stone: Planet Strike"
+        tag: "original game data needed"
+        url: "https://github.com/mijk84/win-arm64-binaries/releases/tag/bstone"
+        target: "_blank" # optional html a tag target attribute        
+
+      - name: "SimpleSok"
+        logo: "assets/tools/simplesok.png"
+        subtitle: "Simple Sokoban game aimed at playability and portability across systems."
+        url: "https://github.com/mijk84/win-arm64-binaries/releases/tag/simplesok"
+        target: "_blank" # optional html a tag target attribute
+        
   - name: "Chess / شطرنج"
     icon: "fa-solid fa-chess-knight"
     items:
