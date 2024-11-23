@@ -133,6 +133,7 @@ services:
     items:
       - name: "VLC media player"
         logo: "assets/tools/vlc.png"
+        subtitle: "Nightly build, very unstable, may crash"
         url: "https://artifacts.videolan.org/vlc/nightly-win64-arm-llvm/"
         target: "_blank" # optional html a tag target attribute
 
