@@ -471,6 +471,12 @@ services:
         url: "https://helpcenter.steinberg.de/hc/en-us/articles/21829527504530-Preview-versions-for-Windows-on-Arm-WoA"
         target: "_blank" # optional html a tag target attribute  
         
+      - name: "Bitwig Studio"
+        logo: "assets/tools/bitwigstudio.png"
+        subtitle: "Beta version, Digital audio workstation (DAW) and music production software."
+        url: "https://downloads.bitwig.com/5.3%20Beta%201/Release-Notes-5.3-Beta-1.html"
+        target: "_blank" # optional html a tag target attribute  
+        
   - name: "Social"
     icon: "fa-solid fa-message"
     items:
