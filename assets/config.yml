@@ -515,13 +515,7 @@ services:
         logo: "assets/tools/signal2.png"
         subtitle: "Official build, a free, secure messaging app that uses end-to-end encryption to keep conversations private"
         url: "https://signal.org/download/"
-        target: "_blank" # optional html a tag target attribute
-        
-      - name: "Signal"
-        logo: "assets/tools/signal.png"
-        subtitle: "unofficial builds"
-        url: "https://github.com/dennisameling/Signal-Desktop/releases"
-        target: "_blank" # optional html a tag target attribute
+        target: "_blank" # optional html a tag target attribute      
 
       - name: "Ferdium"
         logo: "assets/tools/ferdium.png"
