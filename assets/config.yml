@@ -1553,7 +1553,7 @@ services:
 
       - name: "Macrium Reflect X"
         logo: "assets/tools/macriumreflect.png"
-        subtitle: "Tool to Backup and Restore Drives"
+        subtitle: "Clone, Image, Backup and Restore Drives"
         url: "https://www.macrium.com/reflect-x"
         target: "_blank"
         
