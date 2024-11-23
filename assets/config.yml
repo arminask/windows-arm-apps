@@ -4027,6 +4027,12 @@ services:
         subtitle: "Retired project, Windows kernel-mode driver emulating well-known USB game controllers."
         url: "https://github.com/nefarius/ViGEmBus/releases"
         target: "_blank" # optional html a tag target attribute
+
+      - name: "Microsoft Surface Snapdragon X Elite Graphic Drivers"
+        logo: "assets/tools/qualcommdev.png"
+        subtitle: "Latest graphics drivers for Microsoft Surface Snapdragon X Elite laptops"
+        url: "https://www.qualcomm.com/developer/blog/2024/11/upgrade-latest-graphics-driver-for-snapdragon-x-elite-devices"
+        target: "_blank" # optional html a tag target attribute
         
   - name: "Printers"
     icon: "fa-solid fa-print"
