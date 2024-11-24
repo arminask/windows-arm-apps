@@ -3272,6 +3272,12 @@ services:
         url: "https://www.richwhitehouse.com/jaguar/index.php?content=download"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "Supermodel"
+        logo: "assets/tools/supermodel.png"
+        subtitle: "SEGA Model 3 emulator"
+        url: "https://github.com/mijk84/win-arm64-binaries/releases/tag/supermodel"
+        target: "_blank" # optional html a tag target attribute
+        
       - name: "TileWorld"
         logo: "assets/tools/tileworld.png"
         subtitle: "A port of Tile World to 320x240 handheld consoles including GP2X, Wiz, and GCW Zero/Dingux"
