@@ -2446,10 +2446,28 @@ services:
         url: "https://github.com/otya128/ntvdm64.dll"
         target: "_blank" # optional html a tag target attribute
 
-      - name: "QEMU"
+      - name: "QtEmu"
+        logo: "assets/tools/qtemu.png"
+        subtitle: "Unofficial Build, graphical user interface for QEMU written in Qt4"
+        url: "https://github.com/mijk84/win-arm64-binaries/releases/tag/qtemu"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "QEMU v9"
         logo: "assets/tools/qemu.png"
         subtitle: "Unofficial Build, generic and open source machine emulator and virtualizer"
         url: "https://github.com/mijk84/win-arm64-binaries/releases/tag/qemu"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "QEMU v8"
+        logo: "assets/tools/qemu.png"
+        subtitle: "Unofficial Build, generic and open source machine emulator and virtualizer"
+        url: "https://github.com/mijk84/win-arm64-binaries/releases/tag/qemu-8.2.8"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "QEMU v7"
+        logo: "assets/tools/qemu.png"
+        subtitle: "Unofficial Build, generic and open source machine emulator and virtualizer"
+        url: "https://github.com/mijk84/win-arm64-binaries/releases/tag/qemu-7.2.15"
         target: "_blank" # optional html a tag target attribute
         
       - name: "VICE"
