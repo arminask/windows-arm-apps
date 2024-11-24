@@ -3276,13 +3276,7 @@ services:
         logo: "assets/tools/supermodel.png"
         subtitle: "SEGA Model 3 emulator"
         url: "https://github.com/mijk84/win-arm64-binaries/releases/tag/supermodel"
-        target: "_blank" # optional html a tag target attribute
-        
-      - name: "TileWorld"
-        logo: "assets/tools/tileworld.png"
-        subtitle: "A port of Tile World to 320x240 handheld consoles including GP2X, Wiz, and GCW Zero/Dingux"
-        url: "https://github.com/mijk84/win-arm64-binaries/releases/tag/tileworld"
-        target: "_blank" # optional html a tag target attribute
+        target: "_blank" # optional html a tag target attribute      
 
       - name: "Pokemini"
         logo: "assets/tools/pokemonmini.png"
@@ -3586,6 +3580,12 @@ services:
         url: "https://github.com/ArminiusTux/WinARM64-binaries/releases/tag/OpenTomb"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "TileWorld"
+        logo: "assets/tools/tileworld.png"
+        subtitle: "Tile World is an emulation of the game "Chip's Challenge""
+        url: "https://github.com/mijk84/win-arm64-binaries/releases/tag/tileworld"
+        target: "_blank" # optional html a tag target attribute
+        
       - name: "QuakeSpasm"
         logo: "assets/tools/quake1.png"
         subtitle: "Modern cross-platform Quake 1 engine based on FitzQuake."
