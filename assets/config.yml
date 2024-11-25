@@ -3606,7 +3606,7 @@ services:
 
       - name: "TileWorld"
         logo: "assets/tools/tileworld.png"
-        subtitle: "Tile World is an emulation of the game "Chip's Challenge""
+        subtitle: "Tile World is an emulation of the game Chip's Challenge"
         url: "https://github.com/mijk84/win-arm64-binaries/releases/tag/tileworld"
         target: "_blank" # optional html a tag target attribute
         
