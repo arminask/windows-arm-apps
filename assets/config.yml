@@ -133,6 +133,7 @@ services:
     items:
       - name: "VLC media player"
         logo: "assets/tools/vlc.png"
+        subtitle: "Nightly build, very unstable, may crash"
         url: "https://artifacts.videolan.org/vlc/nightly-win64-arm-llvm/"
         target: "_blank" # optional html a tag target attribute
 
@@ -471,6 +472,12 @@ services:
         url: "https://helpcenter.steinberg.de/hc/en-us/articles/21829527504530-Preview-versions-for-Windows-on-Arm-WoA"
         target: "_blank" # optional html a tag target attribute  
         
+      - name: "Bitwig Studio"
+        logo: "assets/tools/bitwigstudio.png"
+        subtitle: "Beta version, Digital audio workstation (DAW) and music production software."
+        url: "https://downloads.bitwig.com/5.3%20Beta%201/Release-Notes-5.3-Beta-1.html"
+        target: "_blank" # optional html a tag target attribute  
+        
   - name: "Social"
     icon: "fa-solid fa-message"
     items:
@@ -507,9 +514,9 @@ services:
 
       - name: "Signal"
         logo: "assets/tools/signal.png"
-        subtitle: "unofficial builds"
-        url: "https://github.com/dennisameling/Signal-Desktop/releases"
-        target: "_blank" # optional html a tag target attribute
+        subtitle: "Official build, a free, secure messaging app that uses end-to-end encryption to keep conversations private"
+        url: "https://signal.org/download/"
+        target: "_blank" # optional html a tag target attribute      
 
       - name: "Ferdium"
         logo: "assets/tools/ferdium.png"
@@ -1546,7 +1553,7 @@ services:
 
       - name: "Macrium Reflect X"
         logo: "assets/tools/macriumreflect.png"
-        subtitle: "Tool to Backup and Restore Drives"
+        subtitle: "Clone, Image, Backup and Restore Drives"
         url: "https://www.macrium.com/reflect-x"
         target: "_blank"
         
@@ -2439,10 +2446,28 @@ services:
         url: "https://github.com/otya128/ntvdm64.dll"
         target: "_blank" # optional html a tag target attribute
 
-      - name: "QEMU"
+      - name: "QtEmu"
+        logo: "assets/tools/qtemu.png"
+        subtitle: "Unofficial Build, graphical user interface for QEMU written in Qt4"
+        url: "https://github.com/mijk84/win-arm64-binaries/releases/tag/qtemu"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "QEMU v9"
         logo: "assets/tools/qemu.png"
         subtitle: "Unofficial Build, generic and open source machine emulator and virtualizer"
         url: "https://github.com/mijk84/win-arm64-binaries/releases/tag/qemu"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "QEMU v8"
+        logo: "assets/tools/qemu.png"
+        subtitle: "Unofficial Build, generic and open source machine emulator and virtualizer"
+        url: "https://github.com/mijk84/win-arm64-binaries/releases/tag/qemu-8.2.8"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "QEMU v7"
+        logo: "assets/tools/qemu.png"
+        subtitle: "Unofficial Build, generic and open source machine emulator and virtualizer"
+        url: "https://github.com/mijk84/win-arm64-binaries/releases/tag/qemu-7.2.15"
         target: "_blank" # optional html a tag target attribute
         
       - name: "VICE"
@@ -2469,6 +2494,12 @@ services:
         url: "https://github.com/ArminiusTux/WinARM64-binaries/releases/tag/86Box"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "PCem"
+        logo: "assets/tools/pcem.png"
+        subtitle: "unofficial builds, emulator that allows users to emulate PC hardware, including processors, sound cards, and GPUs"
+        url: "https://github.com/mijk84/win-arm64-binaries/releases/tag/pcem"
+        target: "_blank" # optional html a tag target attribute
+        
       - name: "Bochs"
         logo: "assets/tools/bochs.png"
         subtitle: "unofficial builds"
@@ -2616,6 +2647,18 @@ services:
         url: "https://www.virtualdub.org/altirra.html"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "RunCPM"
+        logo: "assets/tools/runcpm.png"
+        subtitle: "Multi-platform, portable, Z80 CP/M 2.2 emulator."
+        url: "https://github.com/mijk84/win-arm64-binaries/releases/tag/runcpm"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "CHIP-8"
+        logo: "assets/tools/chip8.png"
+        subtitle: "Assembler, debugger, and emulator for COSMAC ELF CHIP-8 interpreter and its derivative: the Super CHIP-8"
+        url: "https://github.com/mijk84/win-arm64-binaries/releases/tag/chip8"
+        target: "_blank" # optional html a tag target attribute
+        
   - name: "Benchmarking & Diagnostics"
     icon: "fa-solid fa-stopwatch"
     items:
@@ -2719,7 +2762,7 @@ services:
 
       - name: "HWiNFO"
         logo: "assets/tools/hwinfo.png"
-        subtitle: "ARM version in beta portable download, System Information"
+        subtitle: "System Information"
         url: "https://www.hwinfo.com/download/"
         target: "_blank" # optional html a tag target attribute
 
@@ -3247,6 +3290,30 @@ services:
         url: "https://www.richwhitehouse.com/jaguar/index.php?content=download"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "Supermodel"
+        logo: "assets/tools/supermodel.png"
+        subtitle: "SEGA Model 3 emulator"
+        url: "https://github.com/mijk84/win-arm64-binaries/releases/tag/supermodel"
+        target: "_blank" # optional html a tag target attribute      
+
+      - name: "Pokemini"
+        logo: "assets/tools/pokemonmini.png"
+        subtitle: "Obscure nintendo handheld emulator"
+        url: "https://github.com/mijk84/win-arm64-binaries/releases/tag/pokemini"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Gamate"
+        logo: "assets/tools/gamate.png"
+        subtitle: "Gamate handheld console by Bit corp. Emulator for Windows"
+        url: "https://github.com/mijk84/win-arm64-binaries/releases/tag/gamate"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "ARAnyM"
+        logo: "assets/tools/aranym.png"
+        subtitle: "Atari ST emulator"
+        url: "https://github.com/mijk84/win-arm64-binaries/releases/tag/aranym"
+        target: "_blank" # optional html a tag target attribute
+        
   - name: "Games"
     icon: "fa-solid fa-gamepad"
     items:
@@ -3496,6 +3563,34 @@ services:
         url: "https://github.com/mijk84/win-arm64-binaries/releases/tag/openlara"
         target: "_blank" # optional html a tag target attribute
         
+      - name: "reone"
+        logo: "assets/tools/reone.png"
+        subtitle: "Knights of the Old Republic (and The Sith Lords) open source engine"
+        tag: "original game data needed"
+        url: "https://github.com/mijk84/win-arm64-binaries/releases/tag/reone"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "OpenTESArena"
+        logo: "assets/tools/opentesarena.png"
+        subtitle: "Open-source engine for the 1994 DOS game The Elder Scrolls: Arena by Bethesda Softworks."
+        tag: "original game data needed"
+        url: "https://github.com/mijk84/win-arm64-binaries/releases/tag/opentesarena"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Mr Boom"
+        logo: "assets/tools/mrboom.png"
+        subtitle: "8 player Bomberman clone"
+        tag: "original game data needed"
+        url: "https://github.com/mijk84/win-arm64-binaries/releases/tag/mrboom"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Chasm: The Rift"
+        logo: "assets/tools/chasmtherift.png"
+        subtitle: "First-person shooter video game"
+        tag: "original game data needed"
+        url: "https://github.com/mijk84/win-arm64-binaries/releases/tag/chasm"
+        target: "_blank" # optional html a tag target attribute
+        
       - name: "OpenTomb"
         logo: "assets/tools/opentomb.png"
         subtitle: "Tomb Raider 1-5 1996-2003 engine remake"
@@ -3503,6 +3598,12 @@ services:
         url: "https://github.com/ArminiusTux/WinARM64-binaries/releases/tag/OpenTomb"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "TileWorld"
+        logo: "assets/tools/tileworld.png"
+        subtitle: "Tile World is an emulation of the game "Chip's Challenge""
+        url: "https://github.com/mijk84/win-arm64-binaries/releases/tag/tileworld"
+        target: "_blank" # optional html a tag target attribute
+        
       - name: "QuakeSpasm"
         logo: "assets/tools/quake1.png"
         subtitle: "Modern cross-platform Quake 1 engine based on FitzQuake."
@@ -3685,6 +3786,25 @@ services:
         url: "https://worldofwarcraft.blizzard.com/"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "OpenBOR"
+        logo: "assets/tools/openbor.png"
+        subtitle: "Ultimate 2D side scrolling engine for beat em' ups, shooters, and more!"
+        url: "https://github.com/mijk84/win-arm64-binaries/releases/tag/openbor"
+        target: "_blank" # optional html a tag target attribute  
+
+      - name: "BStone"
+        logo: "assets/tools/clionly.png"
+        subtitle: "Unofficial source port of Blake Stone: Aliens of Gold and Blake Stone: Planet Strike"
+        tag: "original game data needed"
+        url: "https://github.com/mijk84/win-arm64-binaries/releases/tag/bstone"
+        target: "_blank" # optional html a tag target attribute        
+
+      - name: "SimpleSok"
+        logo: "assets/tools/simplesok.png"
+        subtitle: "Simple Sokoban game aimed at playability and portability across systems."
+        url: "https://github.com/mijk84/win-arm64-binaries/releases/tag/simplesok"
+        target: "_blank" # optional html a tag target attribute
+        
   - name: "Chess / شطرنج"
     icon: "fa-solid fa-chess-knight"
     items:
@@ -3921,6 +4041,18 @@ services:
         url: "https://www.wch-ic.com/downloads/CH343SER_ZIP.html"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "ViGEm Bus Driver"
+        logo: "assets/tools/vigem.png"
+        subtitle: "Retired project, Windows kernel-mode driver emulating well-known USB game controllers."
+        url: "https://github.com/nefarius/ViGEmBus/releases"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Microsoft Surface Snapdragon X Elite Graphic Drivers"
+        logo: "assets/tools/qualcommdev.png"
+        subtitle: "Latest graphics drivers for Microsoft Surface Snapdragon X Elite laptops"
+        url: "https://www.qualcomm.com/developer/blog/2024/11/upgrade-latest-graphics-driver-for-snapdragon-x-elite-devices"
+        target: "_blank" # optional html a tag target attribute
+        
   - name: "Printers"
     icon: "fa-solid fa-print"
     items:
