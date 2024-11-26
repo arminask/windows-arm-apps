@@ -2021,8 +2021,8 @@ services:
 
       - name: "git"
         logo: "assets/tools/git.png"
-        subtitle: "unofficial builds"
-        url: "https://github.com/dennisameling/git/releases"
+        subtitle: "ARM64 builds available since 2.47.1"
+        url: "https://github.com/git-for-windows/git/releases"
         target: "_blank" # optional html a tag target attribute
 
       - name: "SourceGit"
