@@ -1947,6 +1947,12 @@ services:
         url: "https://github.com/syncthing/syncthing/releases"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "SyncthingTray"
+        logo: "assets/tools/Syncthing.png"
+        subtitle: "beta version"
+        url: "https://github.com/Martchus/syncthingtray/issues/218#issuecomment-2501543368"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "Caddy"
         logo: "assets/tools/caddy.png"
         subtitle: "Fast and extensible web server with automatic HTTPS"
