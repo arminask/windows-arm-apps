@@ -3386,9 +3386,8 @@ services:
 
       - name: "OpenOMF"
         logo: "assets/tools/omf2097.png"
-        subtitle: "One Must Fall 2097 Remake port"
-        tag: "original game data needed"
-        url: "https://github.com/mijk84/win-arm64-binaries/releases/tag/openomf"
+        subtitle: "One Must Fall 2097 Remake port"        
+        url: "https://github.com/omf2097/openomf/releases/tag/latest"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Ambermoon.net"
