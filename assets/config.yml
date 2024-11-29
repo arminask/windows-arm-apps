@@ -2006,6 +2006,12 @@ services:
         subtitle: "Test the NAT type of the current network"
         url: "https://github.com/HMBSbige/NatTypeTester/releases"
         target: "_blank" # optional html a tag target attribute
+      
+      - name: "向日葵远程控制 Sunlogin remotecontrol"
+        logo: "assets/tools/sunlogin.png"
+        subtitle: "向日葵远程控制 Sunlogin remote control app"
+        url: "https://sunlogin.oray.com/download"
+        target: "_blank" # optional html a tag target attribute
 
   - name: "Coding"
     icon: "fa-solid fa-code"
