@@ -1842,16 +1842,22 @@ services:
 
       - name: "qBittorrent"
         logo: "assets/tools/qbittorrent.png"
-        subtitle: "unofficial builds"
+        subtitle: "unofficial builds, Torrent client"
         url: "https://github.com/minnyres/qbittorrent-windows-arm64/releases"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Transmission"
         logo: "assets/tools/transmission.png"
-        subtitle: "unofficial builds"
+        subtitle: "unofficial builds, Torrent client"
         url: "https://github.com/minnyres/transmission-windows-arm64/releases"
         target: "_blank" # optional html a tag target attribute
-
+        
+      - name: "ByteStream"
+        logo: "assets/tools/bytestream.png"
+        subtitle: "Torrent client"
+        url: "https://www.microsoft.com/store/productId/9PJT9PBVG7K8?ocid=pdpshare"
+        target: "_blank" # optional html a tag target attribute
+        
       - name: "Gopeed"
         logo: "assets/tools/gopeed.png"
         subtitle: "a high-speed downloader developed"
