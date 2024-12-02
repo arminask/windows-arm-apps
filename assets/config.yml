@@ -1842,16 +1842,22 @@ services:
 
       - name: "qBittorrent"
         logo: "assets/tools/qbittorrent.png"
-        subtitle: "unofficial builds"
+        subtitle: "unofficial builds, Torrent client"
         url: "https://github.com/minnyres/qbittorrent-windows-arm64/releases"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Transmission"
         logo: "assets/tools/transmission.png"
-        subtitle: "unofficial builds"
+        subtitle: "unofficial builds, Torrent client"
         url: "https://github.com/minnyres/transmission-windows-arm64/releases"
         target: "_blank" # optional html a tag target attribute
-
+        
+      - name: "ByteStream"
+        logo: "assets/tools/bytestream.png"
+        subtitle: "Torrent client"
+        url: "https://www.microsoft.com/store/productId/9PJT9PBVG7K8?ocid=pdpshare"
+        target: "_blank" # optional html a tag target attribute
+        
       - name: "Gopeed"
         logo: "assets/tools/gopeed.png"
         subtitle: "a high-speed downloader developed"
@@ -3386,9 +3392,8 @@ services:
 
       - name: "OpenOMF"
         logo: "assets/tools/omf2097.png"
-        subtitle: "One Must Fall 2097 Remake port"
-        tag: "original game data needed"
-        url: "https://github.com/mijk84/win-arm64-binaries/releases/tag/openomf"
+        subtitle: "One Must Fall 2097 Remake port"        
+        url: "https://github.com/omf2097/openomf/releases/tag/latest"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Ambermoon.net"
