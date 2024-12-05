@@ -1955,8 +1955,7 @@ services:
 
       - name: "SyncthingTray"
         logo: "assets/tools/Syncthing.png"
-        subtitle: "beta version"
-        url: "https://github.com/Martchus/syncthingtray/issues/218#issuecomment-2501543368"
+        url: "https://github.com/Martchus/syncthingtray/releases"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Caddy"
