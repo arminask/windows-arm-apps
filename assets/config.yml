@@ -1557,6 +1557,12 @@ services:
         url: "https://www.macrium.com/reflect-x"
         target: "_blank"
         
+      - name: "Hasleo Backup Suite"
+        logo: "assets/tools/hasleo.png"
+        subtitle: "Beta version, Clone, Image, Backup and Restore Drives"
+        url: "https://www.easyuefi.com/forums/showthread.php?tid=2204"
+        target: "_blank"
+        
   - name: "VPN"
     icon: "fa-solid fa-globe"
     items:
@@ -2402,6 +2408,12 @@ services:
         url: "https://godotengine.org/article/release-candidate-godot-4-3-rc-1/"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "Lunati"
+        logo: "assets/tools/lunati.png"
+        subtitle: "unofficial build, Open source voxel game engine."
+        url: "https://github.com/mijk84/win-arm64-binaries/releases/tag/luanti"
+        target: "_blank" # optional html a tag target attribute
+        
       - name: "TIC-80"
         logo: "assets/tools/tic80.png"
         subtitle: "Unofficial Build, Open source fantasy computer for making, playing and sharing tiny games."
