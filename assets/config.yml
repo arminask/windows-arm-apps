@@ -2705,6 +2705,12 @@ services:
         subtitle: "Assembler, debugger, and emulator for COSMAC ELF CHIP-8 interpreter and its derivative: the Super CHIP-8"
         url: "https://github.com/mijk84/win-arm64-binaries/releases/tag/chip8"
         target: "_blank" # optional html a tag target attribute
+
+      - name: "B-Em"
+        logo: "assets/tools/b-em.png"
+        subtitle: "Unofficial build, opensource BBC Micro emulator"
+        url: "https://github.com/mijk84/win-arm64-binaries/releases/tag/b-em"
+        target: "_blank" # optional html a tag target attribute
         
   - name: "Benchmarking & Diagnostics"
     icon: "fa-solid fa-stopwatch"
