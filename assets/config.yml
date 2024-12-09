@@ -1129,6 +1129,12 @@ services:
         url: "https://www.notion.so/download"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "AFFiNE"
+        logo: "assets/tools/affine.png"
+        subtitle: "One note like whiteboard application."
+        url: "https://affine.pro/"
+        target: "_blank" # optional html a tag target attribute
+        
   - name: "Tools"
     icon: "fa-solid fa-screwdriver-wrench"
     items:
@@ -1555,6 +1561,12 @@ services:
         logo: "assets/tools/macriumreflect.png"
         subtitle: "Clone, Image, Backup and Restore Drives"
         url: "https://www.macrium.com/reflect-x"
+        target: "_blank"
+        
+      - name: "Hasleo Backup Suite"
+        logo: "assets/tools/hasleo.png"
+        subtitle: "Beta version, Clone, Image, Backup and Restore Drives"
+        url: "https://www.easyuefi.com/forums/showthread.php?tid=2204"
         target: "_blank"
         
   - name: "VPN"
@@ -2100,6 +2112,12 @@ services:
         url: "https://www.qt.io/download-qt-installer-oss"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "Qt Creator"
+        logo: "assets/tools/qt.png"
+        subtitle: "GUI development environment"
+        url: "https://www.qt.io/blog/qt-creator-15-released"
+        target: "_blank" # optional html a tag target attribute
+        
       - name: "JetBrains IntelliJ IDEA"
         logo: "assets/tools/jetbrainsintellij-idea.png"
         url: "https://www.jetbrains.com/idea/download/"
@@ -2402,6 +2420,12 @@ services:
         url: "https://godotengine.org/article/release-candidate-godot-4-3-rc-1/"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "Lunati"
+        logo: "assets/tools/lunati.png"
+        subtitle: "unofficial build, Open source voxel game engine."
+        url: "https://github.com/mijk84/win-arm64-binaries/releases/tag/luanti"
+        target: "_blank" # optional html a tag target attribute
+        
       - name: "TIC-80"
         logo: "assets/tools/tic80.png"
         subtitle: "Unofficial Build, Open source fantasy computer for making, playing and sharing tiny games."
@@ -2680,6 +2704,12 @@ services:
         logo: "assets/tools/chip8.png"
         subtitle: "Assembler, debugger, and emulator for COSMAC ELF CHIP-8 interpreter and its derivative: the Super CHIP-8"
         url: "https://github.com/mijk84/win-arm64-binaries/releases/tag/chip8"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "B-Em"
+        logo: "assets/tools/b-em.png"
+        subtitle: "Unofficial build, opensource BBC Micro emulator"
+        url: "https://github.com/mijk84/win-arm64-binaries/releases/tag/b-em"
         target: "_blank" # optional html a tag target attribute
         
   - name: "Benchmarking & Diagnostics"
