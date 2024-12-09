@@ -1129,6 +1129,12 @@ services:
         url: "https://www.notion.so/download"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "AFFiNE"
+        logo: "assets/tools/affine.png"
+        subtitle: "One note like whiteboard application."
+        url: "https://affine.pro/"
+        target: "_blank" # optional html a tag target attribute
+        
   - name: "Tools"
     icon: "fa-solid fa-screwdriver-wrench"
     items:
@@ -2106,6 +2112,12 @@ services:
         url: "https://www.qt.io/download-qt-installer-oss"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "Qt Creator"
+        logo: "assets/tools/qt.png"
+        subtitle: "GUI development environment"
+        url: "https://www.qt.io/blog/qt-creator-15-released"
+        target: "_blank" # optional html a tag target attribute
+        
       - name: "JetBrains IntelliJ IDEA"
         logo: "assets/tools/jetbrainsintellij-idea.png"
         url: "https://www.jetbrains.com/idea/download/"
