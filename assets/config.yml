@@ -2430,12 +2430,14 @@ services:
       - name: "Lunati"
         logo: "assets/tools/lunati.png"
         subtitle: "unofficial build, Open source voxel game engine."
+        tag: "original port files needed"
         url: "https://github.com/mijk84/win-arm64-binaries/releases/tag/luanti"
         target: "_blank" # optional html a tag target attribute
         
       - name: "TIC-80"
         logo: "assets/tools/tic80.png"
         subtitle: "Unofficial Build, Open source fantasy computer for making, playing and sharing tiny games."
+        tag: "original port files needed"
         url: "https://github.com/mijk84/win-arm64-binaries/releases/tag/tic80"
         target: "_blank" # optional html a tag target attribute
         
@@ -2503,36 +2505,42 @@ services:
       - name: "QtEmu"
         logo: "assets/tools/qtemu.png"
         subtitle: "Unofficial Build, graphical user interface for QEMU written in Qt4"
+        tag: "original app files needed"
         url: "https://github.com/mijk84/win-arm64-binaries/releases/tag/qtemu"
         target: "_blank" # optional html a tag target attribute
 
       - name: "QEMU v9"
         logo: "assets/tools/qemu.png"
         subtitle: "Unofficial Build, generic and open source machine emulator and virtualizer"
+        tag: "original emulator data needed"
         url: "https://github.com/mijk84/win-arm64-binaries/releases/tag/qemu"
         target: "_blank" # optional html a tag target attribute
 
       - name: "QEMU v8"
         logo: "assets/tools/qemu.png"
         subtitle: "Unofficial Build, generic and open source machine emulator and virtualizer"
+        tag: "original emulator data needed"
         url: "https://github.com/mijk84/win-arm64-binaries/releases/tag/qemu-8.2.8"
         target: "_blank" # optional html a tag target attribute
 
       - name: "QEMU v7"
         logo: "assets/tools/qemu.png"
         subtitle: "Unofficial Build, generic and open source machine emulator and virtualizer"
+        tag: "original emulator data needed"
         url: "https://github.com/mijk84/win-arm64-binaries/releases/tag/qemu-7.2.15"
         target: "_blank" # optional html a tag target attribute
         
       - name: "VICE"
         logo: "assets/tools/vice.png"
         subtitle: "Unofficial Build, emulates the C64, the C64DTV, the C128, the VIC20, practically all PET models, the PLUS4 and the CBM-II (aka C610/C510)."
+        tag: "original emulator data needed"
         url: "https://github.com/mijk84/win-arm64-binaries/releases/tag/vice3.8"
         target: "_blank" # optional html a tag target attribute
         
       - name: "Open SIMH"
         logo: "assets/tools/opensimh.png"
         subtitle: "Unofficial Build, Framework and family of computer simulators"
+        tag: "original build data needed"
         url: "https://github.com/mijk84/win-arm64-binaries/releases/tag/opensimh"
         target: "_blank" # optional html a tag target attribute
         
@@ -2551,12 +2559,14 @@ services:
       - name: "PCem"
         logo: "assets/tools/pcem.png"
         subtitle: "unofficial builds, emulator that allows users to emulate PC hardware, including processors, sound cards, and GPUs"
+        tag: "original emulator data needed"
         url: "https://github.com/mijk84/win-arm64-binaries/releases/tag/pcem"
         target: "_blank" # optional html a tag target attribute
         
       - name: "Bochs"
         logo: "assets/tools/bochs.png"
         subtitle: "unofficial builds"
+        tag: "original emulator data needed"
         url: "https://github.com/mijk84/win-arm64-binaries/releases/tag/bochs"
         target: "_blank" # optional html a tag target attribute
 
@@ -2685,7 +2695,8 @@ services:
 
       - name: "TamaTool"
         logo: "assets/tools/tamatool.png"
-        subtitle: "A cross-platform Tamagotchi P1 explorer"
+        subtitle: "unofficial build, a cross-platform Tamagotchi P1 explorer"
+        tag: "original port data needed"
         url: "https://github.com/mijk84/win-arm64-binaries/releases/tag/tamatool"
         target: "_blank" # optional html a tag target attribute
         
@@ -2701,21 +2712,31 @@ services:
         url: "https://www.virtualdub.org/altirra.html"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "Atari800"
+        logo: "assets/tools/atari800.png"
+        subtitle: "unofficial build, Atari 8-bit computer systems and 5200 game console"
+        tag: "original emulator data needed"
+        url: "https://github.com/mijk84/win-arm64-binaries/releases/tag/atari800"
+        target: "_blank" # optional html a tag target attribute
+        
       - name: "RunCPM"
         logo: "assets/tools/runcpm.png"
-        subtitle: "Multi-platform, portable, Z80 CP/M 2.2 emulator."
+        subtitle: "unofficial build, multi-platform, portable, Z80 CP/M 2.2 emulator."
+        tag: "original emulator data needed"
         url: "https://github.com/mijk84/win-arm64-binaries/releases/tag/runcpm"
         target: "_blank" # optional html a tag target attribute
 
       - name: "CHIP-8"
         logo: "assets/tools/chip8.png"
-        subtitle: "Assembler, debugger, and emulator for COSMAC ELF CHIP-8 interpreter and its derivative: the Super CHIP-8"
+        subtitle: "unofficial build, assembler, debugger, and emulator for COSMAC ELF CHIP-8 interpreter and its derivative: the Super CHIP-8"
+        tag: "original emulator data needed"
         url: "https://github.com/mijk84/win-arm64-binaries/releases/tag/chip8"
         target: "_blank" # optional html a tag target attribute
 
       - name: "B-Em"
         logo: "assets/tools/b-em.png"
         subtitle: "Unofficial build, opensource BBC Micro emulator"
+        tag: "original emulator data needed"
         url: "https://github.com/mijk84/win-arm64-binaries/releases/tag/b-em"
         target: "_blank" # optional html a tag target attribute
         
@@ -3261,12 +3282,14 @@ services:
       - name: "Yabause"
         logo: "assets/tools/yabause.png"
         subtitle: "Unofficial Build, Sega Saturn emulator"
+        tag: "original emulator data needed"
         url: "https://github.com/mijk84/win-arm64-binaries/releases/tag/yabause"
         target: "_blank" # optional html a tag target attribute                
 
       - name: "Citra"
         logo: "assets/tools/citra.png"
         subtitle: "Unofficial Build, 3DS emulator, use Vulkan renderer"
+        tag: "original emulator data needed"
         url: "https://github.com/mijk84/win-arm64-binaries/releases/tag/citra"
         target: "_blank" # optional html a tag target attribute  
         
@@ -3335,6 +3358,7 @@ services:
       - name: "melonDS"
         logo: "assets/tools/melonds.png"
         subtitle: "unofficial builds, Nintendo DS emulator"
+        tag: "original emulator data needed"
         url: "https://github.com/mijk84/win-arm64-binaries/releases/tag/melonds"
         target: "_blank" # optional html a tag target attribute
 
@@ -3352,25 +3376,29 @@ services:
 
       - name: "Supermodel"
         logo: "assets/tools/supermodel.png"
-        subtitle: "SEGA Model 3 emulator"
+        subtitle: "Unofficial build, SEGA Model 3 emulator"
+        tag: "original emulator data needed"
         url: "https://github.com/mijk84/win-arm64-binaries/releases/tag/supermodel"
         target: "_blank" # optional html a tag target attribute      
 
       - name: "Pokemini"
         logo: "assets/tools/pokemonmini.png"
-        subtitle: "Obscure nintendo handheld emulator"
+        subtitle: "Unofficial build, obscure Nintendo handheld emulator"
+        tag: "original emulator data needed"
         url: "https://github.com/mijk84/win-arm64-binaries/releases/tag/pokemini"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Gamate"
         logo: "assets/tools/gamate.png"
-        subtitle: "Gamate handheld console by Bit corp. Emulator for Windows"
+        subtitle: "unofficial build, Gamate handheld console by Bit corp. Emulator for Windows"
+        tag: "original emulator data needed"
         url: "https://github.com/mijk84/win-arm64-binaries/releases/tag/gamate"
         target: "_blank" # optional html a tag target attribute
 
       - name: "ARAnyM"
         logo: "assets/tools/aranym.png"
-        subtitle: "Atari ST emulator"
+        subtitle: "Unofficial build, Atari ST emulator"
+        tag: "original emulator data needed"
         url: "https://github.com/mijk84/win-arm64-binaries/releases/tag/aranym"
         target: "_blank" # optional html a tag target attribute
         
@@ -3413,7 +3441,7 @@ services:
 
       - name: "SDLPoP"
         logo: "assets/tools/sdlpop.png"
-        subtitle: "Prince of Persia 1989 port"
+        subtitle: "Unofficial build, Prince of Persia 1989 port"
         tag: "original game data needed"
         url: "https://github.com/mijk84/win-arm64-binaries/releases/tag/sdlpop"
         target: "_blank" # optional html a tag target attribute
@@ -3447,14 +3475,14 @@ services:
 
       - name: "Chocolate Doom"
         logo: "assets/tools/chocolatedoom.png"
-        subtitle: "Doom, Heretic, Hexen & Strife ports"
+        subtitle: "Unofficial build, Doom, Heretic, Hexen & Strife ports"
         tag: "original game data needed"
         url: "https://github.com/mijk84/win-arm64-binaries/releases/tag/chocolatedoom"
         target: "_blank" # optional html a tag target attribute
 
       - name: "OpenJazz"
         logo: "assets/tools/openjazz.png"
-        subtitle: "Jazz Jackrabbit 1994 port"
+        subtitle: "Unofficial build, Jazz Jackrabbit 1994 port"
         tag: "original game data needed"
         url: "https://github.com/mijk84/win-arm64-binaries/releases/tag/openjazz"
         target: "_blank" # optional html a tag target attribute
@@ -3599,12 +3627,14 @@ services:
       - name: "Angband"
         logo: "assets/tools/angband.png"
         subtitle: "Unofficial Build, Single-player dungeon exploration game."
+        tag: "original game data needed"
         url: "https://github.com/mijk84/win-arm64-binaries/releases/tag/angband"
         target: "_blank" # optional html a tag target attribute
         
       - name: "Freeciv"
         logo: "assets/tools/freeciv.png"
         subtitle: "Unofficial Build, Open Source empire-building strategy game inspired by the history of human civilization"
+        tag: "original game data needed"
         url: "https://github.com/mijk84/win-arm64-binaries/releases/tag/freeciv"
         target: "_blank" # optional html a tag target attribute
         
@@ -3631,21 +3661,21 @@ services:
 
       - name: "OpenTESArena"
         logo: "assets/tools/opentesarena.png"
-        subtitle: "Open-source engine for the 1994 DOS game The Elder Scrolls: Arena by Bethesda Softworks."
+        subtitle: "Unofficial build, open-source engine for the 1994 DOS game The Elder Scrolls: Arena by Bethesda Softworks."
         tag: "original game data needed"
         url: "https://github.com/mijk84/win-arm64-binaries/releases/tag/opentesarena"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Mr Boom"
         logo: "assets/tools/mrboom.png"
-        subtitle: "8 player Bomberman clone"
+        subtitle: "Unofficial build, 8 player Bomberman clone"
         tag: "original game data needed"
         url: "https://github.com/mijk84/win-arm64-binaries/releases/tag/mrboom"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Chasm: The Rift"
         logo: "assets/tools/chasmtherift.png"
-        subtitle: "First-person shooter video game"
+        subtitle: "Unofficial build, First-person shooter video game"
         tag: "original game data needed"
         url: "https://github.com/mijk84/win-arm64-binaries/releases/tag/chasm"
         target: "_blank" # optional html a tag target attribute
@@ -3659,7 +3689,8 @@ services:
 
       - name: "TileWorld"
         logo: "assets/tools/tileworld.png"
-        subtitle: "Tile World is an emulation of the game Chip's Challenge"
+        subtitle: "Unofficial build, emulation of the game Chip's Challenge"
+        tag: "original game data needed"
         url: "https://github.com/mijk84/win-arm64-binaries/releases/tag/tileworld"
         target: "_blank" # optional html a tag target attribute
         
@@ -3847,7 +3878,8 @@ services:
 
       - name: "OpenBOR"
         logo: "assets/tools/openbor.png"
-        subtitle: "Ultimate 2D side scrolling engine for beat em' ups, shooters, and more!"
+        subtitle: "Unofficial build, ultimate 2D side scrolling engine for beat em' ups, shooters, and more!"
+        tag: "original game engine data needed"
         url: "https://github.com/mijk84/win-arm64-binaries/releases/tag/openbor"
         target: "_blank" # optional html a tag target attribute  
 
@@ -3860,7 +3892,8 @@ services:
 
       - name: "SimpleSok"
         logo: "assets/tools/simplesok.png"
-        subtitle: "Simple Sokoban game aimed at playability and portability across systems."
+        subtitle: "Unofficial build, Simple Sokoban game aimed at playability and portability across systems."
+        tag: "original game data needed"
         url: "https://github.com/mijk84/win-arm64-binaries/releases/tag/simplesok"
         target: "_blank" # optional html a tag target attribute
         
