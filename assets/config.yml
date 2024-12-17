@@ -128,6 +128,11 @@ services:
         url: "https://arc.net/download"
         target: "_blank" # optional html a tag target attribute        
 
+      - name: "Zen Browser"
+        logo: "assets/tools/zenbrowser.png"
+        url: "https://zen-browser.app/download/"
+        target: "_blank" # optional html a tag target attribute
+
   - name: "Media"
     icon: "fa-solid fa-photo-film"
     items:
@@ -477,7 +482,13 @@ services:
         subtitle: "Beta version, Digital audio workstation (DAW) and music production software."
         url: "https://downloads.bitwig.com/5.3%20Beta%201/Release-Notes-5.3-Beta-1.html"
         target: "_blank" # optional html a tag target attribute  
-        
+
+      - name: "Schism Tracker"
+        logo: "assets/tools/schismtracker.png"
+        subtitle: "Reimplementation of Impulse Tracker"
+        url: "https://github.com/schismtracker/schismtracker/releases"
+        target: "_blank" # optional html a tag target attribute
+
   - name: "Social"
     icon: "fa-solid fa-message"
     items:
@@ -2125,6 +2136,12 @@ services:
         url: "https://www.qt.io/blog/qt-creator-15-released"
         target: "_blank" # optional html a tag target attribute
         
+      - name: "Qt Visual Studio Tools"
+        logo: "assets/tools/qt.png"
+        subtitle: "Official Qt Group extension"
+        url: "https://marketplace.visualstudio.com/items?itemName=TheQtCompany.QtVisualStudioTools2022ARM"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "JetBrains IntelliJ IDEA"
         logo: "assets/tools/jetbrainsintellij-idea.png"
         url: "https://www.jetbrains.com/idea/download/"
@@ -2537,6 +2554,12 @@ services:
         url: "https://github.com/mijk84/win-arm64-binaries/releases/tag/vice3.8"
         target: "_blank" # optional html a tag target attribute
         
+      - name: "Frodo"
+        logo: "assets/tools/frodo.png"
+        subtitle: "unofficial builds, free portable C64 emulator."
+        url: "https://github.com/tordona/frodo4/releases"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "Open SIMH"
         logo: "assets/tools/opensimh.png"
         subtitle: "Unofficial Build, Framework and family of computer simulators"
@@ -3252,6 +3275,18 @@ services:
         url: "https://apps.microsoft.com/detail/xp99vsxh2mlsvc?hl=ml-IN&gl=CN"
         target: "_blank" # optional html a tag target attribute     
 
+      - name: "MediaInfo"
+        logo: "assets/tools/mediainfo.png"
+        subtitle: "Technical and tag data for video and audio files."
+        url: "https://mediaarea.net/en/MediaInfo/Download/Windows"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "USB Device Tree Viewer"
+        logo: "assets/tools/usbdevicetree.png"
+        subtitle: "Shows the USB devices and their properties on Windows"
+        url: "https://www.uwe-sieber.de/usbtreeview_e.html"
+        target: "_blank" # optional html a tag target attribute
+
   - name: "Game Console Emulation"
     icon: "fa-brands fa-playstation"
     items:
@@ -3366,6 +3401,12 @@ services:
         logo: "assets/tools/clionly.png"
         subtitle: "a very accurate ColecoVision emulator"
         url: "https://github.com/drhelius/Gearcoleco/releases"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Gearboy"
+        logo: "assets/tools/clionly.png"
+        subtitle: "Game Boy / Gameboy Color emulator and debugger"
+        url: "https://github.com/drhelius/Gearboy/releases"
         target: "_blank" # optional html a tag target attribute
 
       - name: "BigPEmu"
