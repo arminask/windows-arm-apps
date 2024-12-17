@@ -1703,6 +1703,12 @@ services:
         subtitle: "The best VPN for speed and security."
         url: "https://protonvpn.com/download-windows"
         target: "_blank" # optional html a tag target attribute       
+
+      - name: "IPVanish"
+        logo: "assets/tools/ipvanish.png"
+        subtitle: "beta, VPN client."
+        url: "https://www.ipvanish.com/blog/windows-arm64-vpn/"
+        target: "_blank" # optional html a tag target attribute
         
   - name: "Network & Cloud Storage"
     icon: "fa-solid fa-network-wired"
