@@ -1709,6 +1709,12 @@ services:
         subtitle: "beta, VPN client."
         url: "https://www.ipvanish.com/blog/windows-arm64-vpn/"
         target: "_blank" # optional html a tag target attribute
+
+      - name: "ESET VPN"
+        logo: "assets/tools/esetvpn.png"
+        subtitle: "VPN client."
+        url: "https://www.eset.com/us/home/eset-vpn/"
+        target: "_blank" # optional html a tag target attribute
         
   - name: "Network & Cloud Storage"
     icon: "fa-solid fa-network-wired"
@@ -3492,7 +3498,7 @@ services:
         tag: "original game data needed"
         url: "https://github.com/mijk84/win-arm64-binaries/releases/tag/sdlpop"
         target: "_blank" # optional html a tag target attribute
-
+        
       - name: "Exult"
         logo: "assets/tools/exult.png"
         subtitle: "Ultima VII (Part 1 & 2) 1992 recreation"
