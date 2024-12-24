@@ -1150,7 +1150,7 @@ services:
     icon: "fa-solid fa-screwdriver-wrench"
     items:
       - name: "TextPad"
-        logo: "assets/tools/textpad.png"
+        logo: "assets/tools/TextPad.png"
         subtitle: "ARM64 build. Editor for plain text files of any size."
         tag: "Purchases"
         url: "https://www.textpad.com/download/"
