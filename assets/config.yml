@@ -4008,6 +4008,11 @@ services:
         url: "https://github.com/ArminiusTux/WinARM64-binaries/releases/tag/ChessEngines"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "PlentyChess"
+        logo: "assets/tools/plentychess.png"
+        url: "https://github.com/ArminiusTux/WinARM64-binaries/releases/tag/ChessEngines"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "RubiChess"
         logo: "assets/tools/rubichess.png"
         subtitle: "official builds"
