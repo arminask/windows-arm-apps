@@ -2332,6 +2332,13 @@ services:
         url: "https://ziglang.org/download/"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "Free Pascal Compiler (FPC)"
+        logo: "assets/tools/fpc.png"
+        tag: "use of Lazarus IDE limits to console projects"        
+        subtitle: "Development snapshots - unfinished & unstable"
+        url: "https://downloads.freepascal.org/fpc/snapshot/trunk/aarch64-win64/"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "PowerShell"
         logo: "assets/tools/powershell.png"
         url: "https://github.com/PowerShell/PowerShell/releases/"
