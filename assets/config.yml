@@ -3993,6 +3993,11 @@ services:
         url: "https://github.com/ArminiusTux/WinARM64-binaries/releases/tag/Stockfish"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "Obsidian"
+        logo: "assets/tools/obsidian_chess.png"
+        url: "https://github.com/ArminiusTux/WinARM64-binaries/releases/tag/ChessEngines"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "Alexandria"
         logo: "assets/tools/alexandria.png"
         url: "https://github.com/ArminiusTux/WinARM64-binaries/releases/tag/ChessEngines"
