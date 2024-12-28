@@ -139,14 +139,14 @@ services:
       - name: "VLC media player"
         logo: "assets/tools/vlc.png"
         tag: "somewhat stable"        
-        subtitle: "Nightly builds of v3.0 "Vetinari""
+        subtitle: "Nightly builds of v3.0 'Vetinari'"
         url: "https://artifacts.videolan.org/vlc-3.0/nightly-win64-arm-llvm/"
         target: "_blank" # optional html a tag target attribute
 
       - name: "VLC media player Dev"
         logo: "assets/tools/vlc.png"
         tag: "very unstable, may crash"            
-        subtitle: "Nightly dev-builds of v4.0 "Otto Chriek""
+        subtitle: "Nightly dev-builds of v4.0 'Otto Chriek'"
         url: "https://artifacts.videolan.org/vlc/nightly-win64-arm-llvm/"
         target: "_blank" # optional html a tag target attribute
 
@@ -3999,7 +3999,7 @@ services:
         target: "_blank" # optional html a tag target attribute
 
       - name: "Alexandria"
-        logo: "assets/tools/alexandria.png"
+        logo: "assets/tools/alexandria_chess.png"
         url: "https://github.com/ArminiusTux/WinARM64-binaries/releases/tag/ChessEngines"
         target: "_blank" # optional html a tag target attribute
 
