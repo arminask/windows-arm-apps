@@ -3993,13 +3993,13 @@ services:
         url: "https://github.com/ArminiusTux/WinARM64-binaries/releases/tag/Stockfish"
         target: "_blank" # optional html a tag target attribute
 
-      - name: "Caissa"
-        logo: "assets/tools/caissa.png"
+      - name: "Alexandria"
+        logo: "assets/tools/alexandria.png"
         url: "https://github.com/ArminiusTux/WinARM64-binaries/releases/tag/ChessEngines"
         target: "_blank" # optional html a tag target attribute
 
-      - name: "Alexandria"
-        logo: "assets/tools/alexandria.png"
+      - name: "Caissa"
+        logo: "assets/tools/caissa.png"
         url: "https://github.com/ArminiusTux/WinARM64-binaries/releases/tag/ChessEngines"
         target: "_blank" # optional html a tag target attribute
 
@@ -4014,8 +4014,8 @@ services:
         url: "https://github.com/ArminiusTux/WinARM64-binaries/releases/tag/ChessEngines"
         target: "_blank" # optional html a tag target attribute
 
-      - name: "Koivisto"
-        logo: "assets/tools/koivisto.png"
+      - name: "Velvet"
+        logo: "assets/tools/velvet.png"
         url: "https://github.com/ArminiusTux/WinARM64-binaries/releases/tag/ChessEngines"
         target: "_blank" # optional html a tag target attribute
 
@@ -4024,8 +4024,8 @@ services:
         url: "https://github.com/ArminiusTux/WinARM64-binaries/releases/tag/ChessEngines"
         target: "_blank" # optional html a tag target attribute
 
-      - name: "Velvet"
-        logo: "assets/tools/velvet.png"
+      - name: "Koivisto"
+        logo: "assets/tools/koivisto.png"
         url: "https://github.com/ArminiusTux/WinARM64-binaries/releases/tag/ChessEngines"
         target: "_blank" # optional html a tag target attribute
 
@@ -4034,18 +4034,23 @@ services:
         url: "https://github.com/ArminiusTux/WinARM64-binaries/releases/tag/ChessEngines"
         target: "_blank" # optional html a tag target attribute
 
-      - name: "akimbo"
-        logo: "assets/tools/akimbo.png"
-        url: "https://github.com/ArminiusTux/WinARM64-binaries/releases/tag/ChessEngines"
-        target: "_blank" # optional html a tag target attribute
-
       - name: "Altair"
         logo: "assets/tools/altair.png"
         url: "https://github.com/ArminiusTux/WinARM64-binaries/releases/tag/ChessEngines"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "akimbo"
+        logo: "assets/tools/akimbo.png"
+        url: "https://github.com/ArminiusTux/WinARM64-binaries/releases/tag/ChessEngines"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "Frozenight"
         logo: "assets/tools/frozenight.png"
+        url: "https://github.com/ArminiusTux/WinARM64-binaries/releases/tag/ChessEngines"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Odonata"
+        logo: "assets/tools/odonata.png"
         url: "https://github.com/ArminiusTux/WinARM64-binaries/releases/tag/ChessEngines"
         target: "_blank" # optional html a tag target attribute
 
@@ -4059,18 +4064,13 @@ services:
         url: "https://github.com/ArminiusTux/WinARM64-binaries/releases/tag/ChessEngines"
         target: "_blank" # optional html a tag target attribute
 
-      - name: "Odonata"
-        logo: "assets/tools/odonata.png"
+      - name: "Simbelmyne"
+        logo: "assets/tools/simbelmyne.png"
         url: "https://github.com/ArminiusTux/WinARM64-binaries/releases/tag/ChessEngines"
         target: "_blank" # optional html a tag target attribute
 
       - name: "FabChess"
         logo: "assets/tools/clionly.png"
-        url: "https://github.com/ArminiusTux/WinARM64-binaries/releases/tag/ChessEngines"
-        target: "_blank" # optional html a tag target attribute
-
-      - name: "Simbelmyne"
-        logo: "assets/tools/simbelmyne.png"
         url: "https://github.com/ArminiusTux/WinARM64-binaries/releases/tag/ChessEngines"
         target: "_blank" # optional html a tag target attribute
 
@@ -4084,13 +4084,13 @@ services:
         url: "https://github.com/ArminiusTux/WinARM64-binaries/releases/tag/ChessEngines"
         target: "_blank" # optional html a tag target attribute
 
-      - name: "Oxidation"
-        logo: "assets/tools/oxidation.png"
+      - name: "Fatalii"
+        logo: "assets/tools/fatalii.png"
         url: "https://github.com/ArminiusTux/WinARM64-binaries/releases/tag/ChessEngines"
         target: "_blank" # optional html a tag target attribute
 
-      - name: "Fatalii"
-        logo: "assets/tools/fatalii.png"
+      - name: "Oxidation"
+        logo: "assets/tools/oxidation.png"
         url: "https://github.com/ArminiusTux/WinARM64-binaries/releases/tag/ChessEngines"
         target: "_blank" # optional html a tag target attribute
 
@@ -4104,13 +4104,18 @@ services:
         url: "https://github.com/ArminiusTux/WinARM64-binaries/releases/tag/ChessEngines"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "Cadabra"
+        logo: "assets/tools/cadabra.png"
+        url: "https://github.com/ArminiusTux/WinARM64-binaries/releases/tag/ChessEngines"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "Rustic"
         logo: "assets/tools/rustic.png"
         url: "https://github.com/ArminiusTux/WinARM64-binaries/releases/tag/ChessEngines"
         target: "_blank" # optional html a tag target attribute
 
-      - name: "Cadabra"
-        logo: "assets/tools/cadabra.png"
+      - name: "Walleye"
+        logo: "assets/tools/walleye.png"
         url: "https://github.com/ArminiusTux/WinARM64-binaries/releases/tag/ChessEngines"
         target: "_blank" # optional html a tag target attribute
 
@@ -4121,11 +4126,6 @@ services:
 
       - name: "Cicada"
         logo: "assets/tools/cicada.png"
-        url: "https://github.com/ArminiusTux/WinARM64-binaries/releases/tag/ChessEngines"
-        target: "_blank" # optional html a tag target attribute
-
-      - name: "Walleye"
-        logo: "assets/tools/walleye.png"
         url: "https://github.com/ArminiusTux/WinARM64-binaries/releases/tag/ChessEngines"
         target: "_blank" # optional html a tag target attribute
 
