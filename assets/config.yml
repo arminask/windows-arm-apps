@@ -4179,6 +4179,11 @@ services:
         url: "https://github.com/ArminiusTux/WinARM64-binaries/releases/tag/ChessEngines"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "Catto"
+        logo: "assets/tools/catto_chess.png"
+        url: "https://github.com/ArminiusTux/WinARM64-binaries/releases/tag/ChessEngines"
+        target: "_blank" # optional html a tag target attribute
+
   - name: "Artificial Intelligence"
     icon: "fa-solid fa-brain"
     items:
