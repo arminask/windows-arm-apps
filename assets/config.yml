@@ -4013,6 +4013,11 @@ services:
         url: "https://github.com/ArminiusTux/WinARM64-binaries/releases/tag/ChessEngines"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "Starzix"
+        logo: "assets/tools/starzix_chess.png"
+        url: "https://github.com/ArminiusTux/WinARM64-binaries/releases/tag/ChessEngines"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "RubiChess"
         logo: "assets/tools/rubichess.png"
         subtitle: "official builds"
