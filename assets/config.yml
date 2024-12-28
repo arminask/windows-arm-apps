@@ -3788,6 +3788,13 @@ services:
         tag: "original game data needed"
         url: "https://github.com/ec-/Quake3e/releases"
         target: "_blank" # optional html a tag target attribute
+        
+      - name: "OpenMoHAA"
+        logo: "assets/tools/openmohaa.png"
+        subtitle: "Medal of Honor: Allied Assault 2002 re-implementation"
+        tag: "original game data needed"
+        url: "https://github.com/openmoh/openmohaa/releases"
+        target: "_blank" # optional html a tag target attribute
 
       - name: "OpenJK - Jedi Outcast"
         logo: "assets/tools/openjk.png"
