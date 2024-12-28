@@ -870,6 +870,13 @@ services:
         url: "https://zoo.dev/modeling-app/download"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "GameMaker"
+        logo: "assets/tools/gamemaker.png"
+        tag: "IDE runs in x64 mode, but game output is ARM64EC"
+        subtitle: "Development tool for making 2D games"          
+        url: "https://gamemaker.io/en/download"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "Microsoft 3D Builder"
         logo: "assets/tools/3dbuilder.png"
         url: "https://apps.microsoft.com/detail/9wzdncrfj3t6"
