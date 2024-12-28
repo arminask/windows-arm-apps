@@ -4024,6 +4024,11 @@ services:
         url: "https://github.com/Matthies/RubiChess/releases"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "Motor"
+        logo: "assets/tools/motor_chess.png"
+        url: "https://github.com/ArminiusTux/WinARM64-binaries/releases/tag/ChessEngines"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "Lizard"
         logo: "assets/tools/lizard.png"
         url: "https://github.com/ArminiusTux/WinARM64-binaries/releases/tag/ChessEngines"
