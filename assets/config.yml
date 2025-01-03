@@ -2763,11 +2763,6 @@ services:
         url: "https://www.parallels.com/products/ras/download/client/#ras-19-windows"
         target: "_blank" # optional html a tag target attribute
 
-      - name: "VMWare Horizon"
-        logo: "assets/tools/vmwarehorizon.png"
-        url: "https://myhorizon.vmware.com/"
-        target: "_blank" # optional html a tag target attribute
-
       - name: "TamaTool"
         logo: "assets/tools/tamatool.png"
         subtitle: "unofficial build, a cross-platform Tamagotchi P1 explorer"
