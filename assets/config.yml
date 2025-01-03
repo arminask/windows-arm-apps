@@ -1601,6 +1601,18 @@ services:
         url: "https://www.easyuefi.com/forums/showthread.php?tid=2204"
         target: "_blank"
         
+      - name: "Lenovo Smart Connect"
+        logo: "assets/tools/smartconnect.png"
+        subtitle: "Pair Motorola / Lenovo smartphone, PC, and tablet"
+        url: "https://apps.microsoft.com/detail/xp8jrf5sxv03zm"
+        target: "_blank"
+
+      - name: "GalaxyBudsClient"
+        logo: "assets/tools/galaxybudsclient.png"
+        subtitle: "An unofficial manager for Galaxy Buds devices"
+        url: "https://github.com/tordona/GalaxyBudsClient/releases"
+        target: "_blank"
+
   - name: "VPN"
     icon: "fa-solid fa-globe"
     items:
@@ -2288,6 +2300,13 @@ services:
       - name: "Node.js"
         logo: "assets/tools/nodejs.png"
         url: "https://nodejs.org/en/download/prebuilt-installer/current"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "NVM for Windows"
+        logo: "assets/tools/clionly.png"
+        tag: "Supports ARM64 versions of Node.js"
+        subtitle: "Node.js version manager for Windows"
+        url: "https://github.com/coreybutler/nvm-windows/releases"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Electron"
@@ -3399,6 +3418,12 @@ services:
         url: "https://github.com/visualboyadvance-m/visualboyadvance-m/releases"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "NanoBoyAdvance"
+        logo: "assets/tools/nanoboyadvance.png"
+        subtitle: "unofficial builds. Game Boy Advance (GBA) emulator"
+        url: "https://github.com/tordona/NanoBoyAdvance/releases"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "Flycast"
         logo: "assets/tools/flycast.png"
         subtitle: "unofficial builds, Sega Dreamcast emulator"
@@ -3442,6 +3467,12 @@ services:
         url: "https://github.com/drhelius/Gearboy/releases"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "Gearsystem"
+        logo: "assets/tools/clionly.png"
+        subtitle: "Master System / Game Gear / SG-1000 emulator and debugger"
+        url: "https://github.com/drhelius/Gearsystem/releases"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "BigPEmu"
         logo: "assets/tools/bigpemu.png"
         subtitle: "an Atari Jaguar emulator"
@@ -3476,6 +3507,12 @@ services:
         url: "https://github.com/mijk84/win-arm64-binaries/releases/tag/aranym"
         target: "_blank" # optional html a tag target attribute
         
+      - name: "Stella"
+        logo: "assets/tools/stella.png"
+        subtitle: "unofficial builds. Atari 2600 VCS emulator"
+        url: "https://github.com/tordona/stella/releases"
+        target: "_blank" # optional html a tag target attribute
+
   - name: "Games"
     icon: "fa-solid fa-gamepad"
     items:
