@@ -1224,6 +1224,13 @@ services:
         url: "https://github.com/stefankueng/BowPad/releases"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "Quick Pad"
+        logo: "assets/tools/quickpad.png"
+        subtitle: "a modern notepad app featuring fluent design"
+        tag: "Purchases"
+        url: "https://apps.microsoft.com/detail/9pdlwqhtlsv3"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "Typora" # App name
         logo: "assets/tools/typora.png" # App icon
         subtitle: "minimal markdown editor and reader"
