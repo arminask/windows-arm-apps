@@ -894,6 +894,12 @@ services:
         url: "https://apps.microsoft.com/detail/9pg2cxwtkvb1"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "Logisim-evolution"
+        logo: "assets/tools/logisimevolution.png"
+        subtitle: "Digital logic design tool and simulator"
+        url: "https://github.com/logisim-evolution/logisim-evolution/releases"
+        target: "_blank" # optional html a tag target attribute
+
   - name: "Compression"
     icon: "fa-solid fa-file-zipper"
     items:
