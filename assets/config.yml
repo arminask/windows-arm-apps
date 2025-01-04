@@ -1272,6 +1272,12 @@ services:
         url: "https://www.farmanager.com/download.php"
         target: "_blank"
 
+      - name: "zoxide"
+        logo: "assets/tools/clionly.png"
+        subtitle: "a smarter cd command. Supports all major shells."
+        url: "https://github.com/ajeetdsouza/zoxide/releases"
+        target: "_blank"
+
       - name: "bat"
         logo: "assets/tools/clionly.png"
         subtitle: "unofficial builds / display a single file on the terminal"
