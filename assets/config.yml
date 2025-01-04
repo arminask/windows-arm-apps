@@ -3221,6 +3221,12 @@ services:
         url: "https://github.com/cairoshell/cairoshell/releases"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "Zebar"
+        logo: "assets/tools/zebar.png"
+        subtitle: "creating customizable and cross-platform taskbars, desktop widgets, and popups."
+        url: "https://github.com/glzr-io/zebar/releases"
+        target: "_blank"
+
       - name: "FlipIt"
         logo: "assets/tools/flipit.png"
         subtitle: "Flip Clock Screensaver"
