@@ -2398,6 +2398,12 @@ services:
         url: "https://github.com/Eugeny/tabby/releases"
         target: "_blank" # optional html a tag target attribute
 
+        - name: "Rio"
+        logo: "assets/tools/rio.png"
+        subtitle: "A hardware-accelerated GPU terminal emulator focusing to run in desktops and browsers."
+        url: "https://github.com/raphamorim/rio/releases"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "WinSSHTerm"
         logo: "assets/tools/WinSSHTerm.png"
         subtitle: "a tabbed SSH solution for Windows"
