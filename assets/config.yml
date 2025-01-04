@@ -1967,6 +1967,11 @@ services:
         url: "https://github.com/clash-verge-rev/clash-verge-rev/releases"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "Clash Nyanpasu"
+        logo: "assets/tools/clashnyanpasu.png"
+        url: "https://github.com/libnyanpasu/clash-nyanpasu/releases/tag/pre-release"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "GUI for Clash"
         logo: "assets/tools/guiforclash.png"
         url: "https://github.com/GUI-for-Cores/GUI.for.Clash/releases"
