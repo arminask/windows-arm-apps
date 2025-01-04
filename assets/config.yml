@@ -3231,6 +3231,12 @@ services:
         url: "https://github.com/viarotel-org/escrcpy/releases"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "Uotan Toolbox NT"
+        logo: "assets/tools/uotantoolboxnt.png"
+        subtitle: "A Modern Toolbox for Geeks"
+        url: "https://github.com/Uotan-Dev/UotanToolboxNT/releases"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "Windows Maps"
         logo: "assets/tools/windowsmaps.png"
         url: "https://apps.microsoft.com/store/detail/windows-maps/9WZDNCRDTBVB"
