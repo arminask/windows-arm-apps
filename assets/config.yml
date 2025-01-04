@@ -4330,6 +4330,12 @@ services:
         url: "https://claude.ai/download"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "Cursor"
+        logo: "assets/tools/cursor.png"
+        subtitle: "unofficial builds - the AI Code Editor"
+        url: "https://github.com/coder/cursor-arm/releases"
+        target: "_blank" # optional html a tag target attribute
+
   - name: "Drivers"
     icon: "fa-solid fa-gears"
     items:
