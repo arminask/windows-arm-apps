@@ -184,6 +184,21 @@ services:
         url: "https://apps.microsoft.com/detail/9NMZLZ57R3T7"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "Dolby Vision"
+        logo: "assets/tools/dolbyvision.png"
+        url: "https://apps.microsoft.com/detail/9MVMZ93N61T9"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Dolby Vision Extensions"
+        logo: "assets/tools/dolbyvision.png"
+        url: "https://apps.microsoft.com/detail/9PLTG1LWPHLF"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Dolby Access"
+        logo: "assets/tools/dolbyaccess.png"
+        url: "https://apps.microsoft.com/detail/9N0866FS04W8"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "Netflix"
         logo: "assets/tools/netflix.png"
         url: "https://apps.microsoft.com/store/detail/netflix/9WZDNCRFJ3TJ"
