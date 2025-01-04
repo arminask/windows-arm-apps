@@ -2484,6 +2484,12 @@ services:
         url: "https://www.linqpad.net/Download.aspx"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "Another Redis Desktop Manager"
+        logo: "assets/tools/ardm.png"
+        subtitle: "A faster, better and more stable Redis desktop manager"
+        url: "https://github.com/qishibo/AnotherRedisDesktopManager/releases"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "Tiny RDM"
         logo: "assets/tools/tinyrdm.png"
         subtitle: "A Modern Redis GUI Client"
