@@ -987,6 +987,12 @@ services:
         url: "https://creator.pdf24.org/listVersions.php"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "pdfMachine"
+        logo: "assets/tools/pdfmachine.png"
+        subtitle: "The easy way to turn your document into a PDF + loads more."
+        url: "https://broadgun.com/pdfmachine/download/"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "CubePDF"
         logo: "assets/tools/cubepdf.png"
         subtitle: "virtual PDF printer"
