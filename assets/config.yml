@@ -1002,6 +1002,16 @@ services:
         url: "https://apps.microsoft.com/detail/drawboard-projects/9NBLGGH314V8"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "Foxit PDF Reader"
+        logo: "assets/tools/foxitreader.png"
+        url: "https://www.foxitsoftware.cn/downloads/"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Foxit PDF Editor"
+        logo: "assets/tools/foxiteditor.png"
+        url: "https://www.foxitsoftware.cn/downloads/"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "PDF24 Creator"
         logo: "assets/tools/pdf24creator.png"
         subtitle: "assemble, create and modify PDF files"
