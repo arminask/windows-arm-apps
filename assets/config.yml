@@ -184,6 +184,21 @@ services:
         url: "https://apps.microsoft.com/detail/9NMZLZ57R3T7"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "Dolby Vision"
+        logo: "assets/tools/dolbyvision.png"
+        url: "https://apps.microsoft.com/detail/9MVMZ93N61T9"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Dolby Vision Extensions"
+        logo: "assets/tools/dolbyvision.png"
+        url: "https://apps.microsoft.com/detail/9PLTG1LWPHLF"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Dolby Access"
+        logo: "assets/tools/dolbyaccess.png"
+        url: "https://apps.microsoft.com/detail/9N0866FS04W8"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "Netflix"
         logo: "assets/tools/netflix.png"
         url: "https://apps.microsoft.com/store/detail/netflix/9WZDNCRFJ3TJ"
@@ -894,6 +909,12 @@ services:
         url: "https://apps.microsoft.com/detail/9pg2cxwtkvb1"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "Logisim-evolution"
+        logo: "assets/tools/logisimevolution.png"
+        subtitle: "Digital logic design tool and simulator"
+        url: "https://github.com/logisim-evolution/logisim-evolution/releases"
+        target: "_blank" # optional html a tag target attribute
+
   - name: "Compression"
     icon: "fa-solid fa-file-zipper"
     items:
@@ -981,10 +1002,26 @@ services:
         url: "https://apps.microsoft.com/detail/drawboard-projects/9NBLGGH314V8"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "Foxit PDF Reader"
+        logo: "assets/tools/foxitreader.png"
+        url: "https://www.foxitsoftware.cn/downloads/"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Foxit PDF Editor"
+        logo: "assets/tools/foxiteditor.png"
+        url: "https://www.foxitsoftware.cn/downloads/"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "PDF24 Creator"
         logo: "assets/tools/pdf24creator.png"
         subtitle: "assemble, create and modify PDF files"
         url: "https://creator.pdf24.org/listVersions.php"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "pdfMachine"
+        logo: "assets/tools/pdfmachine.png"
+        subtitle: "The easy way to turn your document into a PDF + loads more."
+        url: "https://broadgun.com/pdfmachine/download/"
         target: "_blank" # optional html a tag target attribute
 
       - name: "CubePDF"
@@ -1197,6 +1234,13 @@ services:
         url: "https://github.com/stefankueng/BowPad/releases"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "Quick Pad"
+        logo: "assets/tools/quickpad.png"
+        subtitle: "a modern notepad app featuring fluent design"
+        tag: "Purchases"
+        url: "https://apps.microsoft.com/detail/9pdlwqhtlsv3"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "Typora" # App name
         logo: "assets/tools/typora.png" # App icon
         subtitle: "minimal markdown editor and reader"
@@ -1236,6 +1280,12 @@ services:
         logo: "assets/tools/farmanager.png"
         subtitle: "File and archive manager"
         url: "https://www.farmanager.com/download.php"
+        target: "_blank"
+
+      - name: "zoxide"
+        logo: "assets/tools/clionly.png"
+        subtitle: "a smarter cd command. Supports all major shells."
+        url: "https://github.com/ajeetdsouza/zoxide/releases"
         target: "_blank"
 
       - name: "bat"
@@ -1961,6 +2011,11 @@ services:
         url: "https://github.com/clash-verge-rev/clash-verge-rev/releases"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "Clash Nyanpasu"
+        logo: "assets/tools/clashnyanpasu.png"
+        url: "https://github.com/libnyanpasu/clash-nyanpasu/releases/tag/pre-release"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "GUI for Clash"
         logo: "assets/tools/guiforclash.png"
         url: "https://github.com/GUI-for-Cores/GUI.for.Clash/releases"
@@ -2392,6 +2447,12 @@ services:
         url: "https://github.com/Eugeny/tabby/releases"
         target: "_blank" # optional html a tag target attribute
 
+        - name: "Rio"
+        logo: "assets/tools/rio.png"
+        subtitle: "A hardware-accelerated GPU terminal emulator focusing to run in desktops and browsers."
+        url: "https://github.com/raphamorim/rio/releases"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "WinSSHTerm"
         logo: "assets/tools/WinSSHTerm.png"
         subtitle: "a tabbed SSH solution for Windows"
@@ -2470,6 +2531,12 @@ services:
         logo: "assets/tools/linqpad.png"
         subtitle: "The .NET Programmer’s Playground"
         url: "https://www.linqpad.net/Download.aspx"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Another Redis Desktop Manager"
+        logo: "assets/tools/ardm.png"
+        subtitle: "A faster, better and more stable Redis desktop manager"
+        url: "https://github.com/qishibo/AnotherRedisDesktopManager/releases"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Tiny RDM"
@@ -3170,6 +3237,12 @@ services:
         url: "https://github.com/cairoshell/cairoshell/releases"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "Zebar"
+        logo: "assets/tools/zebar.png"
+        subtitle: "creating customizable and cross-platform taskbars, desktop widgets, and popups."
+        url: "https://github.com/glzr-io/zebar/releases"
+        target: "_blank"
+
       - name: "FlipIt"
         logo: "assets/tools/flipit.png"
         subtitle: "Flip Clock Screensaver"
@@ -3206,6 +3279,12 @@ services:
         logo: "assets/tools/Escrcpy.png"
         subtitle: "display and control Android"
         url: "https://github.com/viarotel-org/escrcpy/releases"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Uotan Toolbox NT"
+        logo: "assets/tools/uotantoolboxnt.png"
+        subtitle: "A Modern Toolbox for Geeks"
+        url: "https://github.com/Uotan-Dev/UotanToolboxNT/releases"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Windows Maps"
@@ -4259,6 +4338,12 @@ services:
         logo: "assets/tools/anthropic-claude.png"
         subtitle: "The AI assistant by Anthropic"
         url: "https://claude.ai/download"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Cursor"
+        logo: "assets/tools/cursor.png"
+        subtitle: "unofficial builds - the AI Code Editor"
+        url: "https://github.com/coder/cursor-arm/releases"
         target: "_blank" # optional html a tag target attribute
 
   - name: "Drivers"
