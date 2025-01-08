@@ -2453,6 +2453,13 @@ services:
         url: "https://github.com/raphamorim/rio/releases"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "Alacritty"
+        logo: "assets/tools/alacritty.png"
+        subtitle: "Unofficial build, terminal emulator"
+        tag: "original app files needed"
+        url: "https://github.com/mijk84/win-arm64-binaries/releases/tag/alacritty"
+        target: "_blank" # optional html a tag target attribute
+        
       - name: "WinSSHTerm"
         logo: "assets/tools/WinSSHTerm.png"
         subtitle: "a tabbed SSH solution for Windows"
@@ -3453,6 +3460,12 @@ services:
         tag: "original emulator data needed"
         url: "https://github.com/mijk84/win-arm64-binaries/releases/tag/citra"
         target: "_blank" # optional html a tag target attribute  
+
+      - name: "xemu"
+        logo: "assets/tools/xemu.png"
+        subtitle: "Original Xbox Emulator"       
+        url: "https://github.com/xemu-project/xemu/releases"
+        target: "_blank" # optional html a tag target attribute
         
       - name: "RetroArch"
         logo: "assets/tools/RetroArch.png"
@@ -3587,6 +3600,19 @@ services:
         url: "https://github.com/tordona/stella/releases"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "Haiyajan"
+        logo: "assets/tools/haiyajan.png"
+        subtitle: "Unofficial build, Frontend for Libretro"
+        tag: "original app data needed"
+        url: "https://github.com/mijk84/win-arm64-binaries/releases/tag/haiyajan"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Libretro Cores"
+        logo: "assets/tools/libretro.png"
+        subtitle: "Unofficial build"
+        url: "https://github.com/mijk84/win-arm64-binaries/releases/tag/libretro"
+        target: "_blank" # optional html a tag target attribute
+        
   - name: "Games"
     icon: "fa-solid fa-gamepad"
     items:
