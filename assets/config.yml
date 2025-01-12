@@ -4372,6 +4372,13 @@ services:
         url: "https://github.com/coder/cursor-arm/releases"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "AnythingLLM"
+        logo: "assets/tools/anythingllm.png"
+        subtitle: "Run local LLMs fast with powerful built-in tools and features."
+        tag: "Snapdragon NPU support"
+        url: "https://anythingllm.com/desktop"
+        target: "_blank" # optional html a tag target attribute
+        
   - name: "Drivers"
     icon: "fa-solid fa-gears"
     items:
