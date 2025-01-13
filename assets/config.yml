@@ -2141,6 +2141,12 @@ services:
         url: "https://sunlogin.oray.com/download"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "UniFi WiFiman Desktop"
+        logo: "assets/tools/unifiwifimandesktop.png"
+        subtitle: "UniFi network diagnostics and monitoring tool."
+        url: "https://ui.com/download/app/wifiman-desktop"
+        target: "_blank" # optional html a tag target attribute        
+
   - name: "Coding"
     icon: "fa-solid fa-code"
     items:
