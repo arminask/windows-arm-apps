@@ -1647,8 +1647,8 @@ services:
         
       - name: "Hasleo Backup Suite"
         logo: "assets/tools/hasleo.png"
-        subtitle: "Beta version, Clone, Image, Backup and Restore Drives"
-        url: "https://www.easyuefi.com/forums/showthread.php?tid=2204"
+        subtitle: "Clone, Image, Backup and Restore Drives"
+        url: "https://www.easyuefi.com/backup-software/backup-suite-free.html"
         target: "_blank"
         
       - name: "Lenovo Smart Connect"
