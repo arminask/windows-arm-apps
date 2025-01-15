@@ -1218,6 +1218,12 @@ services:
         url: "https://notepad-plus-plus.org/downloads/"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "Notepad++ DSpellCheck Plugin"
+        logo: "assets/tools/notepadplusplus.png"
+        subtitle: "Unofficial build. Spellcheck Notepad++ plugin."
+        url: "https://github.com/Predelnik/DSpellCheck/issues/348"
+        target: "_blank" # optional html a tag target attribute
+        
       - name: "Notepads App"
         logo: "assets/tools/notepadsapp.png"
         url: "https://apps.microsoft.com/detail/9nhl4nsc67wm"
