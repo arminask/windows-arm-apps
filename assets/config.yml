@@ -480,6 +480,12 @@ services:
         subtitle: "Creates a set of virtual audio devices"
         url: "https://vac.muzychenko.net"
         target: "_blank" # optional html a tag target attribute
+  
+      - name: "Equalizer APO"
+        logo: "assets/tools/equalizerapo.png"
+        subtitle: "System-wide equalizer"
+        url: "https://sourceforge.net/projects/equalizerapo/files/1.4.1/"
+        target: "_blank" # optional html a tag target attribute
         
       - name: "Reaper"
         logo: "assets/tools/reaper.png"
