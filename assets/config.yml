@@ -1485,9 +1485,8 @@ services:
 
       - name: "TrafficMonitor"
         logo: "assets/tools/TrafficMonitor.png"
-        subtitle: "unofficial builds"
         tag: "ARM64EC"
-        url: "https://github.com/xgdgsc/TrafficMonitor/releases"
+        url: "https://github.com/zhongyang219/TrafficMonitor/releases"
         target: "_blank" # optional html a tag target attribute
 
       - name: "CapsLockIndicator"
