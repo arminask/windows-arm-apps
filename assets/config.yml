@@ -2172,7 +2172,7 @@ services:
         target: "_blank" # optional html a tag target attribute        
       
       - name: "Trippy"
-        logo: "assets/tools/clionly.png"
+        logo: "assets/tools/trippy.png"
         subtitle: "A network diagnostic tool"
         url: "https://github.com/fujiapple852/trippy/releases"
         target: "_blank" # optional html a tag target attribute
