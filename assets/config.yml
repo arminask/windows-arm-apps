@@ -1674,6 +1674,18 @@ services:
         url: "https://github.com/tordona/GalaxyBudsClient/releases"
         target: "_blank"
 
+      - name: "Arcade Manager"
+        logo: "assets/tools/arcademanager.png"
+        subtitle: "Arcade manager for Retropie & Recalbox"
+        url: "https://github.com/cosmo0/arcade-manager/releases"
+        target: "_blank"
+
+      - name: "par2cmdline-turbo"
+        logo: "assets/tools/clionly.png"
+        subtitle: "PAR 2.0 compatible file verification and repair tool"
+        url: "https://github.com/animetosho/par2cmdline-turbo/releases"
+        target: "_blank"
+
   - name: "VPN"
     icon: "fa-solid fa-globe"
     items:
@@ -2157,6 +2169,12 @@ services:
         subtitle: "UniFi network diagnostics and monitoring tool."
         url: "https://ui.com/download/app/wifiman-desktop"
         target: "_blank" # optional html a tag target attribute        
+      
+      - name: "Trippy"
+        logo: "assets/tools/trippy.png"
+        subtitle: "A network diagnostic tool"
+        url: "https://github.com/fujiapple852/trippy/releases"
+        target: "_blank" # optional html a tag target attribute
 
   - name: "Coding"
     icon: "fa-solid fa-code"
@@ -2226,6 +2244,12 @@ services:
       - name: "LLVM"
         logo: "assets/tools/llvm.png"
         url: "https://releases.llvm.org/"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "LLVM MinGW"
+        logo: "assets/tools/clionly.png"
+        subtitle: "LLVM based MinGW toolchain"
+        url: "https://github.com/mstorsjo/llvm-mingw"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Ninja"
@@ -2900,7 +2924,14 @@ services:
         tag: "original emulator data needed"
         url: "https://github.com/mijk84/win-arm64-binaries/releases/tag/b-em"
         target: "_blank" # optional html a tag target attribute
-        
+
+      - name: "Crossrunner"
+        logo: "assets/tools/crossrunner.png"
+        subtitle: "Apple IIGS emulator and cross development environment"
+        tag: "Requires Apple IIGS ROM files"
+        url: "https://www.crossrunner.gs/"
+        target: "_blank" # optional html a tag target attribute
+
   - name: "Benchmarking & Diagnostics"
     icon: "fa-solid fa-stopwatch"
     items:
