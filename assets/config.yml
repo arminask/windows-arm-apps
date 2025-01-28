@@ -1723,6 +1723,12 @@ services:
         url: "https://github.com/animetosho/par2cmdline-turbo/releases"
         target: "_blank"
 
+      - name: "Profile Explorer"
+        logo: "assets/tools/profileexplorer.png"
+        subtitle: "Tool for viewing CPU profiling traces collected through the ETW infrastructure."
+        url: "https://github.com/microsoft/profile-explorer/releases"
+        target: "_blank"
+
   - name: "VPN"
     icon: "fa-solid fa-globe"
     items:
