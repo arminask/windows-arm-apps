@@ -502,10 +502,46 @@ services:
         
       - name: "Steinberg Cubase Pro 13"
         logo: "assets/tools/cubase.png"
+        tag: "ARM64EC"
         subtitle: "Preview version, Digital audio workstation (DAW) that allows users to record, arrange, and edit music and MIDI"
         url: "https://helpcenter.steinberg.de/hc/en-us/articles/21829527504530-Preview-versions-for-Windows-on-Arm-WoA"
         target: "_blank" # optional html a tag target attribute  
         
+      - name: "Steinberg Groove Agent 5"
+        logo: "assets/tools/steinberg-groove-agent.png"
+        tag: "ARM64EC"
+        subtitle: "Preview version. VST drum plug-in."
+        url: "https://helpcenter.steinberg.de/hc/en-us/articles/21829527504530-Preview-versions-for-Windows-on-Arm-WoA"
+        target: "_blank" # optional html a tag target attribute  
+        
+      - name: "Steinberg HALion 7 / HALion Sonic 7"
+        logo: "assets/tools/steinberg-halion.png"
+        tag: "ARM64EC"
+        subtitle: "Preview version. Multitimbral plug-in and music creation workstation that allows users to load, combine, and create sounds."
+        url: "https://helpcenter.steinberg.de/hc/en-us/articles/21829527504530-Preview-versions-for-Windows-on-Arm-WoA"
+        target: "_blank" # optional html a tag target attribute  
+        
+      - name: "Steinberg Nuendo 13"
+        logo: "assets/tools/steinberg-nuendo.png"
+        tag: "ARM64EC"
+        subtitle: "Preview version, Digital Audio Workstation (DAW) for recording, editing, arranging, and post-production of audio and video."
+        url: "https://helpcenter.steinberg.de/hc/en-us/articles/21829527504530-Preview-versions-for-Windows-on-Arm-WoA"
+        target: "_blank" # optional html a tag target attribute  
+        
+      - name: "Steinberg Padshop 2"
+        logo: "assets/tools/steinberg-padshop.png"
+        tag: "ARM64EC"
+        subtitle: "Preview version. A sophisticated granular and spectral synthesizer."
+        url: "https://helpcenter.steinberg.de/hc/en-us/articles/21829527504530-Preview-versions-for-Windows-on-Arm-WoA"
+        target: "_blank" # optional html a tag target attribute  
+        
+      - name: "Steinberg Retrologue 2"
+        logo: "assets/tools/steinberg-retrologue.png"
+        tag: "ARM64EC"
+        subtitle: "Preview version. Virtual Analog Synthesizer to brings back the sound of analog circuitry and vintage warmth, but with a modern twist."
+        url: "https://helpcenter.steinberg.de/hc/en-us/articles/21829527504530-Preview-versions-for-Windows-on-Arm-WoA"
+        target: "_blank" # optional html a tag target attribute  
+
       - name: "Bitwig Studio"
         logo: "assets/tools/bitwigstudio.png"
         subtitle: "Beta version, Digital audio workstation (DAW) and music production software."
@@ -780,8 +816,9 @@ services:
       - name: "CapCut"
         logo: "assets/tools/capcut.png"
         subtitle: "linear video editor"
+        tag: "ARM64EC"
         url: "https://apps.microsoft.com/detail/xp9kn75rrb9nhs?hl=en-us&gl=FI"
-        target: "ARM64EC" # optional html a tag target attribute'
+        target: "_blank" # optional html a tag target attribute'
 
       - name: "Davinci Resolve"
         logo: "assets/tools/davinci.png"
