@@ -3324,6 +3324,12 @@ services:
         url: "https://github.com/ArminiusTux/WinARM64-binaries/releases/tag/WindowPet"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "Desktop Pet (eSheep)"
+        logo: "assets/tools/desktoppet.png"
+        subtitle: "Unofficial build, add a pet to your desktop"
+        url: "https://github.com/tordona/win-arm64-binaries/releases/tag/desktoppet"
+        target: "_blank" # optional html a tag target attribute
+        
       - name: "Files"
         logo: "assets/tools/files.png"
         url: "https://files.community/download"
@@ -3516,12 +3522,6 @@ services:
         subtitle: "Shows the USB devices and their properties on Windows"
         url: "https://www.uwe-sieber.de/usbtreeview_e.html"
         target: "_blank" # optional html a tag target attribute
-
-      - name: "Desktop Pet (eSheep)"
-        logo: "assets/tools/desktoppet.png"
-        subtitle: "Unofficial build, add a pet to your desktop"
-        url: "https://github.com/tordona/win-arm64-binaries/releases"
-        target: "_blank" # optional html a tag target attribute
         
   - name: "Game Console Emulation"
     icon: "fa-brands fa-playstation"
@@ -3696,7 +3696,7 @@ services:
       - name: "MegaBoy"
         logo: "assets/tools/clionly.png"
         subtitle: "Unofficial build, Game Boy / Gameboy Color emulator"
-        url: "https://github.com/tordona/MegaBoy"
+        url: "https://github.com/tordona/MegaBoy/releases"
         target: "_blank" # optional html a tag target attribute
         
       - name: "Gearsystem"
@@ -3761,7 +3761,7 @@ services:
       - name: "ArcEm"
         logo: "assets/tools/arcem.png"
         subtitle: "Unofficial build, Acorn Archimedes emulator"
-        url: "https://github.com/tordona/win-arm64-binaries/releases"
+        url: "https://github.com/tordona/win-arm64-binaries/releases/tag/arcem"
         target: "_blank" # optional html a tag target attribute
         
   - name: "Games"
@@ -4018,7 +4018,7 @@ services:
         logo: "assets/tools/opendune.png"
         subtitle: "Unofficial Build, open source re-creation of the popular game Dune II"
         tag: "original game data needed"
-        url: "https://github.com/tordona/win-arm64-binaries/releases"
+        url: "https://github.com/tordona/win-arm64-binaries/releases/tag/opendune"
         target: "_blank" # optional html a tag target attribute
         
       - name: "reone"
