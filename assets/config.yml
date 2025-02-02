@@ -3644,9 +3644,10 @@ services:
         url: "https://github.com/tordona/FBNeo/releases"
         target: "_blank" # optional html a tag target attribute
         
-      - name: "Open Kaillera Client"
+      - name: "Open Kaillera Client for FinalBurn Neo"
         logo: "assets/tools/kaillera.png"
         subtitle: "Unofficial build, for networked multiplayer play for emulators, built to support FinalBurn Neo."
+        tag: "Only for unofficial build of FinalBurn Neo"
         url: "https://github.com/tordona/win-arm64-binaries/releases"
         target: "_blank" # optional html a tag target attribute
         
