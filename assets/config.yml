@@ -1776,8 +1776,8 @@ services:
 
       - name: "Mullvad VPN"
         logo: "assets/tools/mullvad.png"
-        subtitle: "beta version"
-        url: "https://github.com/mullvad/mullvadvpn-app/issues/6102#issuecomment-2382666946"
+        subtitle: "ARM64 supported as of version 2025.3"
+        url: "https://mullvad.net/en/download/vpn/windows"
         target: "_blank" # optional html a tag target attribute
         
       - name: "Windscribe"
@@ -3669,6 +3669,12 @@ services:
         url: "https://github.com/gabe565/gones/releases"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "FCEUX"
+        logo: "assets/tools/fceux.png"
+        subtitle: "Unofficial build, NES emulator"
+        url: "https://github.com/tordona/fceux/releases"
+        target: "_blank" # optional html a tag target attribute
+        
       - name: "Snes9x"
         logo: "assets/tools/snes9x.png"
         subtitle: "unofficial builds, SNES (Super Nintendo) emulator"
@@ -3682,6 +3688,12 @@ services:
         url: "https://github.com/mijk84/win-arm64-binaries/releases/tag/melonds"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "NooDS"
+        logo: "assets/tools/noods.png"
+        subtitle: "unofficial builds, Speedy Nintendo DS emulator"
+        url: "https://github.com/tordona/NooDS/releases"
+        target: "_blank" # optional html a tag target attribute
+        
       - name: "Gearcoleco"
         logo: "assets/tools/clionly.png"
         subtitle: "a very accurate ColecoVision emulator"
