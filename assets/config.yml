@@ -4606,6 +4606,12 @@ services:
         subtitle: "Latest graphics drivers for Microsoft Surface Snapdragon X Elite laptops"
         url: "https://www.qualcomm.com/developer/blog/2024/11/upgrade-latest-graphics-driver-for-snapdragon-x-elite-devices"
         target: "_blank" # optional html a tag target attribute
+
+      - name: "Wacom Drivers"
+        logo: "assets/tools/wacom.png"
+        subtitle: "ARM support added as of version 6.4.9"
+        url: "https://wacom.com/en-us/support/product-support/drivers"
+        target: "_blank" # optional html a tag target attribute
         
   - name: "Printers"
     icon: "fa-solid fa-print"
