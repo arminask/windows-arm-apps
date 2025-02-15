@@ -3778,7 +3778,7 @@ services:
         target: "_blank" # optional html a tag target attribute
 
       - name: "openMSX"
-        logo: "assets/tools/arcem.png"
+        logo: "assets/tools/openmsx.png"
         subtitle: "Unofficial build, MSX emulator that aims for perfection"
         url: "https://github.com/tordona/openMSX/releases"
         target: "_blank" # optional html a tag target attribute
