@@ -3776,6 +3776,12 @@ services:
         subtitle: "Unofficial build, Acorn Archimedes emulator"
         url: "https://github.com/tordona/win-arm64-binaries/releases/tag/arcem"
         target: "_blank" # optional html a tag target attribute
+
+      - name: "openMSX"
+        logo: "assets/tools/openmsx.png"
+        subtitle: "Unofficial build, MSX emulator that aims for perfection"
+        url: "https://github.com/tordona/openMSX/releases"
+        target: "_blank" # optional html a tag target attribute
         
   - name: "Games"
     icon: "fa-solid fa-gamepad"
@@ -4605,6 +4611,12 @@ services:
         logo: "assets/tools/qualcommdev.png"
         subtitle: "Latest graphics drivers for Microsoft Surface Snapdragon X Elite laptops"
         url: "https://www.qualcomm.com/developer/blog/2024/11/upgrade-latest-graphics-driver-for-snapdragon-x-elite-devices"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Wacom Drivers"
+        logo: "assets/tools/wacom.png"
+        subtitle: "ARM support added as of version 6.4.9"
+        url: "https://wacom.com/en-us/support/product-support/drivers"
         target: "_blank" # optional html a tag target attribute
         
   - name: "Printers"
