@@ -3017,6 +3017,18 @@ services:
         url: "https://www.crossrunner.gs/"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "ArcEm"
+        logo: "assets/tools/arcem.png"
+        subtitle: "Unofficial build, Acorn Archimedes emulator"
+        url: "https://github.com/tordona/win-arm64-binaries/releases/tag/arcem"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "openMSX"
+        logo: "assets/tools/openmsx.png"
+        subtitle: "Unofficial build, MSX emulator that aims for perfection"
+        url: "https://github.com/tordona/openMSX/releases"
+        target: "_blank" # optional html a tag target attribute
+
   - name: "Benchmarking & Diagnostics"
     icon: "fa-solid fa-stopwatch"
     items:
@@ -3817,18 +3829,6 @@ services:
         logo: "assets/tools/libretro.png"
         subtitle: "Unofficial build"
         url: "https://github.com/mijk84/win-arm64-binaries/releases/tag/libretro"
-        target: "_blank" # optional html a tag target attribute
-
-      - name: "ArcEm"
-        logo: "assets/tools/arcem.png"
-        subtitle: "Unofficial build, Acorn Archimedes emulator"
-        url: "https://github.com/tordona/win-arm64-binaries/releases/tag/arcem"
-        target: "_blank" # optional html a tag target attribute
-
-      - name: "openMSX"
-        logo: "assets/tools/openmsx.png"
-        subtitle: "Unofficial build, MSX emulator that aims for perfection"
-        url: "https://github.com/tordona/openMSX/releases"
         target: "_blank" # optional html a tag target attribute
         
   - name: "Games"
