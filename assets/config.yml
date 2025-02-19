@@ -1735,6 +1735,24 @@ services:
         url: "https://github.com/microsoft/profile-explorer/releases"
         target: "_blank"
 
+      - name: "WinImage"
+        logo: "assets/tools/winimage.png"
+        subtitle: "Fully-fledged disk-imaging suite"
+        url: "https://www.winimage.com/download.htm"
+        target: "_blank"
+
+      - name: "SpaceDesk"
+        logo: "assets/tools/spacedesk.png"
+        subtitle: "Turns mobile devices, laptops and desktops into an additional extension display monitor"
+        url: "https://www.spacedesk.net/download/#server-driver"
+        target: "_blank"
+
+      - name: "Kermit 95"
+        logo: "assets/tools/kermit.png"
+        subtitle: "Network and serial communication package for Kermit protocol"
+        url: "https://github.com/davidrg/ckwin/releases"
+        target: "_blank" # optional html a tag target attribute
+
   - name: "VPN"
     icon: "fa-solid fa-globe"
     items:
@@ -2709,6 +2727,24 @@ services:
         url: "https://developers.arcgis.com/net/"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "Npcap"
+        logo: "assets/tools/npcap.png"
+        subtitle: "Packet capture library"
+        url: "https://npcap.com/#download"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "C64Studio"
+        logo: "assets/tools/c64studio.png"
+        subtitle: "IDE specializing in game development for the C64 in assembler and BASIC"
+        url: "https://github.com/GeorgRottensteiner/C64Studio/releases"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Ruby Installer"
+        logo: "assets/tools/rubyinstaller.png"
+        subtitle: "Ruby-language execution environment"
+        url: "https://rubyinstaller.org/downloads/"
+        target: "_blank" # optional html a tag target attribute
+
   - name: "Emulation & Virtualization"
     icon: "fa-solid fa-microchip"
     items:
@@ -3522,7 +3558,19 @@ services:
         subtitle: "Shows the USB devices and their properties on Windows"
         url: "https://www.uwe-sieber.de/usbtreeview_e.html"
         target: "_blank" # optional html a tag target attribute
-        
+
+      - name: "LM-X License Manager"
+        logo: "assets/tools/lmxlicense.png"
+        subtitle: "Software licensing management solution"
+        url: "https://www.x-formation.com/lm-x-license-manager/get-trial-version/"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "JAWS Screen Reader"
+        logo: "assets/tools/jawsscreen.png"
+        subtitle: "World’s most popular screen reader software"
+        url: "https://support.freedomscientific.com/Downloads/JAWS"
+        target: "_blank" # optional html a tag target attribute
+
   - name: "Game Console Emulation"
     icon: "fa-brands fa-playstation"
     items:
@@ -4618,7 +4666,13 @@ services:
         subtitle: "ARM support added as of version 6.4.9"
         url: "https://wacom.com/en-us/support/product-support/drivers"
         target: "_blank" # optional html a tag target attribute
-        
+
+      - name: "WinFsp"
+        logo: "assets/tools/winfsp.png"
+        subtitle: "Windows File System Proxy platform for custom file systems"
+        url: "https://winfsp.dev/rel/"
+        target: "_blank" # optional html a tag target attribute
+
   - name: "Printers"
     icon: "fa-solid fa-print"
     items:
