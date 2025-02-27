@@ -3424,6 +3424,12 @@ services:
         url: "https://github.com/glzr-io/zebar/releases"
         target: "_blank"
 
+      - name: "Fluent Flyouts"
+        logo: "assets/tools/fluentflyouts.png"
+        subtitle: "a collection of modern flyouts"
+        url: "https://apps.microsoft.com/detail/9ppcm05rw87x"
+        target: "_blank"
+
       - name: "FlipIt"
         logo: "assets/tools/flipit.png"
         subtitle: "Flip Clock Screensaver"
