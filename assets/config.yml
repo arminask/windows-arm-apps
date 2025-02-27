@@ -1463,6 +1463,12 @@ services:
         url: "https://github.com/doraemonkeys/WindSend/releases"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "LocalSend(Fluent)"
+        logo: "assets/tools/localsend.png"
+        subtitle: "unofficial builds / securely share files and messages with nearby devices over your local network without needing an internet connection."
+        url: "https://github.com/Minessential/localsend_fluent/releases"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "Ditto"
         logo: "assets/tools/Ditto.png"
         subtitle: "unofficial builds / windows clipboard"
