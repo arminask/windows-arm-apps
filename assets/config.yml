@@ -2485,6 +2485,12 @@ services:
         url: "https://www.ej-technologies.com/download/install4j/files"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "exe4j"
+        logo: "assets/tools/exe4j.png"
+        subtitle: "Build native Windows launchers for Java apps."
+        url: "https://www.ej-technologies.com/exe4j/download"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "Bazel"
         logo: "assets/tools/bazel.png"
         url: "https://github.com/bazelbuild/bazel/releases"
