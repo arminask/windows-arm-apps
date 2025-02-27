@@ -1152,6 +1152,12 @@ services:
         url: "https://apps.microsoft.com/detail/9PFZCKRHW0BC"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "Thorium Reader"
+        logo: "assets/tools/thoriumreader.png"
+        subtitle: "a free, multi-format reading application"
+        url: "https://apps.microsoft.com/detail/9NFZP1G7M2SC"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "Cover - Comic reader"
         logo: "assets/tools/cover.png"
         subtitle: "the best app to read and manage your comic books."
