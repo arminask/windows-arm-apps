@@ -1627,6 +1627,12 @@ services:
         url: "https://github.com/Blinue/Magpie/releases"
         target: "_blank"
 
+      - name: "ExplorerTabUtility"
+        logo: "assets/tools/ExplorerTabUtility.png"
+        subtitle: "Auto-convert windows to tabs, duplicate tabs, reopen closed ones, and more!"
+        url: "https://github.com/w4po/ExplorerTabUtility/releases/"
+        target: "_blank"
+
       - name: "Whim"
         logo: "assets/tools/whim.png"
         subtitle: "Pluggable dynamic window manager for Windows"
