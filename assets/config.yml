@@ -2077,6 +2077,12 @@ services:
         subtitle: "unofficial builds, Torrent client"
         url: "https://github.com/minnyres/transmission-windows-arm64/releases"
         target: "_blank" # optional html a tag target attribute
+
+      - name: "PeerBanHelper"
+        logo: "assets/tools/peerbanhelper.png"
+        subtitle: "Automatically block unwanted, leeches and abnormal BT peers with support for customized and cloud rules"
+        url: "https://github.com/PBH-BTN/PeerBanHelper/releases"
+        target: "_blank" # optional html a tag target attribute
         
       - name: "ByteStream"
         logo: "assets/tools/bytestream.png"
