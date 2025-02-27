@@ -4362,7 +4362,13 @@ services:
         tag: "original game data needed"
         url: "https://github.com/mijk84/win-arm64-binaries/releases/tag/simplesok"
         target: "_blank" # optional html a tag target attribute
-        
+
+      - name: "The Powder Toy"
+        logo: "assets/tools/thepowdertoy.png"
+        subtitle: "A free physics sandbox with air pressure, velocity, heat, gravity & endless interactions."
+        url: "https://github.com/The-Powder-Toy/The-Powder-Toy/releases"
+        target: "_blank" # optional html a tag target attribute
+     
   - name: "Chess / شطرنج"
     icon: "fa-solid fa-chess-knight"
     items:
