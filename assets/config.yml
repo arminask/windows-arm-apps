@@ -2279,6 +2279,12 @@ services:
         url: "https://github.com/sourcegit-scm/sourcegit/releases"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "FluentHub"
+        logo: "assets/tools/fluenthub.png"
+        subtitle: "A stylish yet powerful GitHub client."
+        url: "https://apps.microsoft.com/detail/9nkb9hx8rjz3"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "git-cliff"
         logo: "assets/tools/gitcliff.png"
         subtitle: "A highly customizable Changelog Generator"
