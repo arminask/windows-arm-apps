@@ -1765,6 +1765,12 @@ services:
         url: "https://github.com/davidrg/ckwin/releases"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "Sound Keeper"
+        logo: "assets/tools/soundkeeper.png"
+        subtitle: "Prevents SPDIF/HDMI/Bluetooth digital audio playback devices from sleeping"
+        url: "https://veg.by/en/projects/soundkeeper/"
+        target: "_blank"
+
   - name: "VPN"
     icon: "fa-solid fa-globe"
     items:
