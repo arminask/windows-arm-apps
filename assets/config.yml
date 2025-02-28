@@ -2609,7 +2609,13 @@ services:
         tag: "original app files needed"
         url: "https://github.com/mijk84/win-arm64-binaries/releases/tag/alacritty"
         target: "_blank" # optional html a tag target attribute
-        
+
+      - name: "Warp"
+        logo: "assets/tools/warp.png"
+        subtitle: "a modern, Rust-based terminal with AI built in so you and your team can build great software, faster"
+        url: "https://www.warp.dev/download"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "WinSSHTerm"
         logo: "assets/tools/WinSSHTerm.png"
         subtitle: "a tabbed SSH solution for Windows"
