@@ -1152,6 +1152,12 @@ services:
         url: "https://apps.microsoft.com/detail/9PFZCKRHW0BC"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "Thorium Reader"
+        logo: "assets/tools/thoriumreader.png"
+        subtitle: "a free, multi-format reading application"
+        url: "https://apps.microsoft.com/detail/9NFZP1G7M2SC"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "Cover - Comic reader"
         logo: "assets/tools/cover.png"
         subtitle: "the best app to read and manage your comic books."
@@ -1457,6 +1463,12 @@ services:
         url: "https://github.com/doraemonkeys/WindSend/releases"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "LocalSend(Fluent)"
+        logo: "assets/tools/localsend.png"
+        subtitle: "unofficial builds / securely share files and messages with nearby devices over your local network without needing an internet connection."
+        url: "https://github.com/Minessential/localsend_fluent/releases"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "Ditto"
         logo: "assets/tools/Ditto.png"
         subtitle: "unofficial builds / windows clipboard"
@@ -1627,6 +1639,12 @@ services:
         url: "https://github.com/Blinue/Magpie/releases"
         target: "_blank"
 
+      - name: "ExplorerTabUtility"
+        logo: "assets/tools/ExplorerTabUtility.png"
+        subtitle: "Auto-convert windows to tabs, duplicate tabs, reopen closed ones, and more!"
+        url: "https://github.com/w4po/ExplorerTabUtility/releases/"
+        target: "_blank"
+
       - name: "Whim"
         logo: "assets/tools/whim.png"
         subtitle: "Pluggable dynamic window manager for Windows"
@@ -1752,6 +1770,12 @@ services:
         subtitle: "Network and serial communication package for Kermit protocol"
         url: "https://github.com/davidrg/ckwin/releases"
         target: "_blank" # optional html a tag target attribute
+
+      - name: "Sound Keeper"
+        logo: "assets/tools/soundkeeper.png"
+        subtitle: "Prevents SPDIF/HDMI/Bluetooth digital audio playback devices from sleeping"
+        url: "https://veg.by/en/projects/soundkeeper/"
+        target: "_blank"
 
   - name: "VPN"
     icon: "fa-solid fa-globe"
@@ -2059,6 +2083,12 @@ services:
         subtitle: "unofficial builds, Torrent client"
         url: "https://github.com/minnyres/transmission-windows-arm64/releases"
         target: "_blank" # optional html a tag target attribute
+
+      - name: "PeerBanHelper"
+        logo: "assets/tools/peerbanhelper.png"
+        subtitle: "Automatically block unwanted, leeches and abnormal BT peers with support for customized and cloud rules"
+        url: "https://github.com/PBH-BTN/PeerBanHelper/releases"
+        target: "_blank" # optional html a tag target attribute
         
       - name: "ByteStream"
         logo: "assets/tools/bytestream.png"
@@ -2273,6 +2303,12 @@ services:
         url: "https://github.com/sourcegit-scm/sourcegit/releases"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "FluentHub"
+        logo: "assets/tools/fluenthub.png"
+        subtitle: "A stylish yet powerful GitHub client."
+        url: "https://apps.microsoft.com/detail/9nkb9hx8rjz3"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "git-cliff"
         logo: "assets/tools/gitcliff.png"
         subtitle: "A highly customizable Changelog Generator"
@@ -2455,6 +2491,12 @@ services:
         url: "https://www.ej-technologies.com/download/install4j/files"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "exe4j"
+        logo: "assets/tools/exe4j.png"
+        subtitle: "Build native Windows launchers for Java apps."
+        url: "https://www.ej-technologies.com/exe4j/download"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "Bazel"
         logo: "assets/tools/bazel.png"
         url: "https://github.com/bazelbuild/bazel/releases"
@@ -2567,7 +2609,13 @@ services:
         tag: "original app files needed"
         url: "https://github.com/mijk84/win-arm64-binaries/releases/tag/alacritty"
         target: "_blank" # optional html a tag target attribute
-        
+
+      - name: "Warp"
+        logo: "assets/tools/warp.png"
+        subtitle: "a modern, Rust-based terminal with AI built in so you and your team can build great software, faster"
+        url: "https://www.warp.dev/download"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "WinSSHTerm"
         logo: "assets/tools/WinSSHTerm.png"
         subtitle: "a tabbed SSH solution for Windows"
@@ -3404,6 +3452,12 @@ services:
         logo: "assets/tools/zebar.png"
         subtitle: "creating customizable and cross-platform taskbars, desktop widgets, and popups."
         url: "https://github.com/glzr-io/zebar/releases"
+        target: "_blank"
+
+      - name: "Fluent Flyouts"
+        logo: "assets/tools/fluentflyouts.png"
+        subtitle: "a collection of modern flyouts"
+        url: "https://apps.microsoft.com/detail/9ppcm05rw87x"
         target: "_blank"
 
       - name: "FlipIt"
@@ -4344,7 +4398,13 @@ services:
         tag: "original game data needed"
         url: "https://github.com/mijk84/win-arm64-binaries/releases/tag/simplesok"
         target: "_blank" # optional html a tag target attribute
-        
+
+      - name: "The Powder Toy"
+        logo: "assets/tools/thepowdertoy.png"
+        subtitle: "A free physics sandbox with air pressure, velocity, heat, gravity & endless interactions."
+        url: "https://github.com/The-Powder-Toy/The-Powder-Toy/releases"
+        target: "_blank" # optional html a tag target attribute
+     
   - name: "Chess / شطرنج"
     icon: "fa-solid fa-chess-knight"
     items:
