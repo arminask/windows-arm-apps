@@ -69,7 +69,14 @@ services:
     items:
       - name: "Google Chrome"
         logo: "assets/tools/chrome.png"
-        url: "https://www.google.com/chrome/?platform=win_arm64"
+        tag: "Installers (web & standalone) support Win11 only"           
+        url: "https://www.google.com/chrome/?platform=win_arm64&standalone=1"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Google Chrome Enterprise"
+        logo: "assets/tools/chrome.png"
+        tag: "Use MSI package for Win10"           
+        url: "https://chromeenterprise.google/download/"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Mozilla Firefox"
