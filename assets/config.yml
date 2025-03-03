@@ -3126,6 +3126,11 @@ services:
         url: "https://gravitymark.tellusim.com/"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "Basemark GPU"
+        logo: "assets/tools/basemark.png"
+        url: "https://www.gpuscore.com/benchmarks/basemark-gpu/"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "PassMark PerformanceTest"
         logo: "assets/tools/performancetest.png"
         url: "https://www.passmark.com/products/performancetest/download.php"
