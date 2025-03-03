@@ -4289,6 +4289,13 @@ services:
         url: "https://github.com/ArminiusTux/WinARM64-binaries/releases/tag/dhewm3"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "OpenMW"
+        logo: "assets/tools/openmw.png"
+        subtitle: "The Elder Scrolls III: Morrowind 2002 rejuvenation"
+        tag: "original game data needed"
+        url: "https://github.com/ArminiusTux/WinARM64-binaries/releases/tag/OpenMW"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "Duolingo"
         logo: "assets/tools/duolingo.png"
         url: "https://apps.microsoft.com/store/detail/duolingo-learn-languages-for-free/9WZDNCRCV5XN"
