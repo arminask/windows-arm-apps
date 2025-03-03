@@ -3131,6 +3131,12 @@ services:
         url: "https://www.gpuscore.com/benchmarks/basemark-gpu/"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "GPUScore: Sacred Path"
+        logo: "assets/tools/gpuscore-sp.png"
+        tag: "ARM64EC"
+        url: "https://www.gpuscore.com/benchmarks/gpuscore/sacred-path"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "PassMark PerformanceTest"
         logo: "assets/tools/performancetest.png"
         url: "https://www.passmark.com/products/performancetest/download.php"
