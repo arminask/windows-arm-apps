@@ -3690,9 +3690,15 @@ services:
         target: "_blank" # optional html a tag target attribute
 
       - name: "Ryujinx"
-        logo: "assets/tools/ryujinx.png"
+        logo: "assets/tools/ryujinx-rainbow.png"
         subtitle: "unofficial build, Switch emulator"
         url: "http://mikahintz.de/fileDownload.php"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Ryujinx KTB"
+        logo: "assets/tools/ryujinx-ktb.png"
+        subtitle: "semi-official builds of KeatonTheBot's fork"   
+        url: "https://github.com/KeatonTheBot/Ryujinx/releases"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Dolphin"
