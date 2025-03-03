@@ -3655,6 +3655,13 @@ services:
         url: "https://mediaarea.net/en/MediaInfo/Download/Windows"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "Media Preservation Frontend (MPF)"
+        logo: "assets/tools/clionly.png"
+        subtitle: "backup tool collection for optical media"
+        tag: "only partially native"        
+        url: "https://github.com/SabreTools/MPF/releases"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "USB Device Tree Viewer"
         logo: "assets/tools/usbdevicetree.png"
         subtitle: "Shows the USB devices and their properties on Windows"
