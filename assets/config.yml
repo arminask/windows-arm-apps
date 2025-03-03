@@ -174,6 +174,13 @@ services:
         url: "https://www.foobar2000.org/download"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "foo_input_udsd"
+        logo: "assets/tools/foobar2000-dll.png"
+        subtitle: "SACD/DSD decoder plugin for foobar2000"        
+        tag: "ARM64EC"
+        url: "https://sourceforge.net/projects/sacddecoder/files/macOS%20%2BWindows/foo_input_udsd/"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "PlanetMusicPlayer"
         logo: "assets/tools/planetmusicplayer.png"
         url: "https://github.com/Pigeon-Ming/CorePlanetMusicPlayer/releases"
