@@ -2766,6 +2766,12 @@ services:
         url: "https://www.microsoft.com/en-us/download/details.aspx?id=100441"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "Dependencies"
+        logo: "assets/tools/dependencies.png"
+        subtitle: "rewrite of famous 'Dependency Walker'"
+        url: "https://github.com/lhak/Dependencies/releases"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "Vulkan SDK & Runtime"
         logo: "assets/tools/vulkansdk.png"
         url: "https://vulkan.lunarg.com/sdk/home#windows"
