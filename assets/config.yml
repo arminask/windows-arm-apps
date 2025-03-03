@@ -4054,6 +4054,13 @@ services:
         url: "https://github.com/ArminiusTux/WinARM64-binaries/releases/tag/fheroes2"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "VCMI"
+        logo: "assets/tools/vcmi.png"
+        subtitle: "Heroes of Might and Magic III 1999 recreation"
+        tag: "original game data needed"
+        url: "https://github.com/ArminiusTux/WinARM64-binaries/releases/tag/VCMI"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "DevilutionX"
         logo: "assets/tools/devilutionx.png"
         subtitle: "Diablo & Hellfire 1997 port"
