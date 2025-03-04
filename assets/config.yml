@@ -4549,6 +4549,11 @@ services:
         url: "https://github.com/ArminiusTux/WinARM64-binaries/releases/tag/ChessEngines"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "Elixir"
+        logo: "assets/tools/elixir_chess.png"
+        url: "https://github.com/ArminiusTux/WinARM64-binaries/releases/tag/ChessEngines-2025"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "Black Marlin"
         logo: "assets/tools/blackmarlin.png"
         url: "https://github.com/ArminiusTux/WinARM64-binaries/releases/tag/ChessEngines"
