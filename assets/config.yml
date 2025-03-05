@@ -69,7 +69,14 @@ services:
     items:
       - name: "Google Chrome"
         logo: "assets/tools/chrome.png"
-        url: "https://www.google.com/chrome/?platform=win_arm64"
+        tag: "Installers (web & standalone) support Win11 only"           
+        url: "https://www.google.com/chrome/?platform=win_arm64&standalone=1"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Google Chrome Enterprise"
+        logo: "assets/tools/chrome.png"
+        tag: "Use MSI package for Win10"           
+        url: "https://chromeenterprise.google/download/"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Mozilla Firefox"
@@ -172,6 +179,13 @@ services:
         logo: "assets/tools/foobar2000.png"
         tag: "ARM64EC"
         url: "https://www.foobar2000.org/download"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "foo_input_udsd"
+        logo: "assets/tools/foobar2000-dll.png"
+        subtitle: "SACD/DSD decoder plugin for foobar2000"        
+        tag: "ARM64EC"
+        url: "https://sourceforge.net/projects/sacddecoder/files/macOS%20%2BWindows/foo_input_udsd/"
         target: "_blank" # optional html a tag target attribute
 
       - name: "PlanetMusicPlayer"
@@ -2752,6 +2766,12 @@ services:
         url: "https://www.microsoft.com/en-us/download/details.aspx?id=100441"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "Dependencies"
+        logo: "assets/tools/dependencies.png"
+        subtitle: "rewrite of famous 'Dependency Walker'"
+        url: "https://github.com/lhak/Dependencies/releases"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "Vulkan SDK & Runtime"
         logo: "assets/tools/vulkansdk.png"
         url: "https://vulkan.lunarg.com/sdk/home#windows"
@@ -3110,6 +3130,17 @@ services:
       - name: "GravityMark"
         logo: "assets/tools/gravitymark.png"
         url: "https://gravitymark.tellusim.com/"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Basemark GPU"
+        logo: "assets/tools/basemark.png"
+        url: "https://www.gpuscore.com/benchmarks/basemark-gpu/"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "GPUScore: Sacred Path"
+        logo: "assets/tools/gpuscore-sp.png"
+        tag: "ARM64EC"
+        url: "https://www.gpuscore.com/benchmarks/gpuscore/sacred-path"
         target: "_blank" # optional html a tag target attribute
 
       - name: "PassMark PerformanceTest"
@@ -3624,6 +3655,13 @@ services:
         url: "https://mediaarea.net/en/MediaInfo/Download/Windows"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "Media Preservation Frontend (MPF)"
+        logo: "assets/tools/clionly.png"
+        subtitle: "backup tool collection for optical media"
+        tag: "only partially native"        
+        url: "https://github.com/SabreTools/MPF/releases"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "USB Device Tree Viewer"
         logo: "assets/tools/usbdevicetree.png"
         subtitle: "Shows the USB devices and their properties on Windows"
@@ -3652,9 +3690,15 @@ services:
         target: "_blank" # optional html a tag target attribute
 
       - name: "Ryujinx"
-        logo: "assets/tools/ryujinx.png"
+        logo: "assets/tools/ryujinx-rainbow.png"
         subtitle: "unofficial build, Switch emulator"
         url: "http://mikahintz.de/fileDownload.php"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Ryujinx KTB"
+        logo: "assets/tools/ryujinx-ktb.png"
+        subtitle: "semi-official builds of KeatonTheBot's fork"   
+        url: "https://github.com/KeatonTheBot/Ryujinx/releases"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Dolphin"
@@ -4010,6 +4054,13 @@ services:
         url: "https://github.com/ArminiusTux/WinARM64-binaries/releases/tag/fheroes2"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "VCMI"
+        logo: "assets/tools/vcmi.png"
+        subtitle: "Heroes of Might and Magic III 1999 recreation"
+        tag: "original game data needed"
+        url: "https://github.com/ArminiusTux/WinARM64-binaries/releases/tag/VCMI"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "DevilutionX"
         logo: "assets/tools/devilutionx.png"
         subtitle: "Diablo & Hellfire 1997 port"
@@ -4238,6 +4289,13 @@ services:
         url: "https://github.com/ArminiusTux/WinARM64-binaries/releases/tag/dhewm3"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "OpenMW"
+        logo: "assets/tools/openmw.png"
+        subtitle: "The Elder Scrolls III: Morrowind 2002 rejuvenation"
+        tag: "original game data needed"
+        url: "https://github.com/ArminiusTux/WinARM64-binaries/releases/tag/OpenMW"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "Duolingo"
         logo: "assets/tools/duolingo.png"
         url: "https://apps.microsoft.com/store/detail/duolingo-learn-languages-for-free/9WZDNCRCV5XN"
@@ -4425,6 +4483,11 @@ services:
         url: "https://github.com/ArminiusTux/WinARM64-binaries/releases/tag/ChessEngines"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "PlentyChess"
+        logo: "assets/tools/plentychess.png"
+        url: "https://github.com/ArminiusTux/WinARM64-binaries/releases/tag/ChessEngines-2025"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "Alexandria"
         logo: "assets/tools/alexandria_chess.png"
         url: "https://github.com/ArminiusTux/WinARM64-binaries/releases/tag/ChessEngines"
@@ -4432,11 +4495,6 @@ services:
 
       - name: "Caissa"
         logo: "assets/tools/caissa.png"
-        url: "https://github.com/ArminiusTux/WinARM64-binaries/releases/tag/ChessEngines"
-        target: "_blank" # optional html a tag target attribute
-
-      - name: "PlentyChess"
-        logo: "assets/tools/plentychess.png"
         url: "https://github.com/ArminiusTux/WinARM64-binaries/releases/tag/ChessEngines"
         target: "_blank" # optional html a tag target attribute
 
@@ -4481,9 +4539,19 @@ services:
         url: "https://github.com/ArminiusTux/WinARM64-binaries/releases/tag/ChessEngines"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "Quanticade"
+        logo: "assets/tools/quanticade_chess.png"
+        url: "https://github.com/ArminiusTux/WinARM64-binaries/releases/tag/ChessEngines-2025"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "Arasan (அரசன்)"
         logo: "assets/tools/arasan_chess.png"
         url: "https://github.com/ArminiusTux/WinARM64-binaries/releases/tag/ChessEngines"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Elixir"
+        logo: "assets/tools/elixir_chess.png"
+        url: "https://github.com/ArminiusTux/WinARM64-binaries/releases/tag/ChessEngines-2025"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Black Marlin"
@@ -4499,6 +4567,11 @@ services:
       - name: "akimbo"
         logo: "assets/tools/akimbo.png"
         url: "https://github.com/ArminiusTux/WinARM64-binaries/releases/tag/ChessEngines"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Equisetum"
+        logo: "assets/tools/equisetum_chess.png"
+        url: "https://github.com/ArminiusTux/WinARM64-binaries/releases/tag/ChessEngines-2025"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Rice"
@@ -4541,13 +4614,13 @@ services:
         url: "https://github.com/ArminiusTux/WinARM64-binaries/releases/tag/ChessEngines"
         target: "_blank" # optional html a tag target attribute
 
-      - name: "FabChess"
-        logo: "assets/tools/clionly.png"
-        url: "https://github.com/ArminiusTux/WinARM64-binaries/releases/tag/ChessEngines"
-        target: "_blank" # optional html a tag target attribute
-
       - name: "Inanis"
         logo: "assets/tools/inanis.png"
+        url: "https://github.com/ArminiusTux/WinARM64-binaries/releases/tag/ChessEngines-2025"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "FabChess"
+        logo: "assets/tools/clionly.png"
         url: "https://github.com/ArminiusTux/WinARM64-binaries/releases/tag/ChessEngines"
         target: "_blank" # optional html a tag target attribute
 
@@ -4558,7 +4631,7 @@ services:
 
       - name: "Fatalii"
         logo: "assets/tools/fatalii.png"
-        url: "https://github.com/ArminiusTux/WinARM64-binaries/releases/tag/ChessEngines"
+        url: "https://github.com/ArminiusTux/WinARM64-binaries/releases/tag/ChessEngines-2025"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Oxidation"
