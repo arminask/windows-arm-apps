@@ -323,6 +323,7 @@ services:
 
       - name: "FluentCast"
         logo: "assets/tools/fluentcast.png"
+        tag: "ARM32"
         subtitle: "free and Ad-free podcast app"
         url: "https://apps.microsoft.com/detail/9pm46jrsdqqr"
         target: "_blank" # optional html a tag target attribute
