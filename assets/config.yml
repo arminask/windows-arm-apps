@@ -62,6 +62,10 @@ links:
     icon: "fa-solid fa-folder"
     url: "#resources"
 
+#  - name: "Category Name"
+#    icon: "fa-solid fa-folder" # see https://fontawesome.com/v4/icons/ for additional icons
+#    url: "#category-name" # mapped to category-name.yml file name
+
 # Services
 services:
   - name: "Web Browsers"
