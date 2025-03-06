@@ -1,0 +1,17 @@
+---
+
+# Category template file
+
+message:
+  content: ""
+
+# Services
+services:
+  - name: "Category Name"
+    icon: "fa-brands fa-font-awesome" # see https://fontawesome.com/v4/icons/ for additional icons
+    items:
+      - name: "Item Name"
+        logo: "assets/tools/clionly.png"
+        url: "item-url"
+        subtitle: "" #optional
+        target: "_blank" # optional html a tag target attribute
