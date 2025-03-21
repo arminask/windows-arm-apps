@@ -1924,6 +1924,12 @@ services:
         subtitle: "VPN client."
         url: "https://www.eset.com/us/home/eset-vpn/"
         target: "_blank" # optional html a tag target attribute
+
+      - name: "Forticlient VPN"
+        logo: "assets/tools/forticlient_vpn.png"
+        subtitle: "VPN client."
+        url: "https://community.fortinet.com/t5/FortiClient/Technical-Tip-FortiClient-Support-for-ARM-Architecture/ta-p/248361"
+        target: "_blank" # optional html a tag target attribute
         
   - name: "Network & Cloud Storage"
     icon: "fa-solid fa-network-wired"
