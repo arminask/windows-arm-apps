@@ -1936,8 +1936,7 @@ services:
     items:
       - name: "Google Drive"
         logo: "assets/tools/googledrive.png"
-        subtitle: "beta build"
-        url: "https://support.google.com/drive/thread/308624582/drive-for-desktop-arm64-support?hl=en&sjid=10892867771861133968-NC"
+        url: "https://support.google.com/drive/answer/10838124?hl=en#d4d_install"
         target: "_blank" # optional html a tag target attribute
         
       - name: "Filezilla Client"
