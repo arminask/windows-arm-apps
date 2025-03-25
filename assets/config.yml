@@ -2686,6 +2686,18 @@ services:
         url: "https://learn.microsoft.com/en-us/azure-data-studio/download-azure-data-studio?tabs=win-install%2Cwin-user-install%2Credhat-install%2Cwindows-uninstall%2Credhat-uninstall"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "DbGate"
+        logo: "assets/tools/DbGate.png"
+        subtitle: "an open-source database manager"
+        url: "https://github.com/dbgate/dbgate/releases"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "DbVisualizer"
+        logo: "assets/tools/DbVisualizer.png"
+        subtitle: "an advanced database manager"
+        url: "https://www.dbvis.com/download/"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "Free Hex Editor Neo"
         logo: "assets/tools/FreeHexEditorNeo.png"
         url: "https://www.hhdsoftware.com/free-hex-editor"
