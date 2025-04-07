@@ -1938,6 +1938,11 @@ services:
         logo: "assets/tools/googledrive.png"
         url: "https://support.google.com/drive/answer/10838124?hl=en#d4d_install"
         target: "_blank" # optional html a tag target attribute
+
+      - name: "Proton Drive"
+        logo: "assets/tools/proton_drive.png"
+        url: "https://proton.me/drive"
+        target: "_blank" # optional html a tag target attribute
         
       - name: "Filezilla Client"
         logo: "assets/tools/filezilla.png"
