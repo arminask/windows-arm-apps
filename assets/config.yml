@@ -4768,6 +4768,12 @@ services:
         tag: "Snapdragon NPU support"
         url: "https://anythingllm.com/desktop"
         target: "_blank" # optional html a tag target attribute
+
+      - name: "Cherry Studio"
+        logo: "assets/tools/cherrystudio.png"
+        subtitle: "A desktop client that supports for multiple LLM providers."
+        url: "https://github.com/CherryHQ/cherry-studio/releases"
+        target: "_blank" # optional html a tag target attribute
         
   - name: "Drivers"
     icon: "fa-solid fa-gears"
