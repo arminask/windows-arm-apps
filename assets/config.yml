@@ -1915,8 +1915,8 @@ services:
 
       - name: "IPVanish"
         logo: "assets/tools/ipvanish.png"
-        subtitle: "beta, VPN client."
-        url: "https://www.ipvanish.com/blog/windows-arm64-vpn/"
+        subtitle: "VPN client."
+        url: "https://www.ipvanish.com/vpn-setup/windows/"
         target: "_blank" # optional html a tag target attribute
 
       - name: "ESET VPN"
