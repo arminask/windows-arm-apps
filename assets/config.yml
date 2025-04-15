@@ -3962,6 +3962,12 @@ services:
         subtitle: "Unofficial build, Sega Mega Drive (a.k.a. Sega Genesis) emulator"
         url: "https://github.com/tordona/clownmdemu-frontend/releases"
         target: "_blank" # optional html a tag target attribute  
+
+      - name: "jgenesis"
+        logo: "assets/tools/clionly.png"
+        subtitle: "Unofficial build, Sega Genesis / Sega CD / SNES / Master System / Game Gear emulator"
+        url: "https://github.com/tordona/jgenesis/releases"
+        target: "_blank" # optional html a tag target attribute  
         
       - name: "Pokemini"
         logo: "assets/tools/pokemonmini.png"
@@ -4007,6 +4013,12 @@ services:
         logo: "assets/tools/libretro.png"
         subtitle: "Unofficial build"
         url: "https://github.com/mijk84/win-arm64-binaries/releases/tag/libretro"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Genesis Plus GX Libretro Core"
+        logo: "assets/tools/libretro.png"
+        subtitle: "Unofficial build"
+        url: "https://github.com/tordona/win-arm64-libretro/releases"
         target: "_blank" # optional html a tag target attribute
         
   - name: "Games"
