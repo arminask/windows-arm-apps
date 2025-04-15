@@ -3953,7 +3953,13 @@ services:
         subtitle: "unofficial builds. Atari 2600 VCS emulator"
         url: "https://github.com/tordona/stella/releases"
         target: "_blank" # optional html a tag target attribute
-
+        
+      - name: "EMU7800"
+        logo: "assets/tools/emu7800.png"
+        subtitle: "unofficial builds. Atari 2600 and 7800 emulator"
+        url: "https://github.com/tordona/emu7800/releases"
+        target: "_blank" # optional html a tag target attribute
+        
       - name: "Haiyajan"
         logo: "assets/tools/haiyajan.png"
         subtitle: "Unofficial build, Frontend for Libretro"
