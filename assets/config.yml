@@ -1930,6 +1930,12 @@ services:
         subtitle: "VPN client."
         url: "https://community.fortinet.com/t5/FortiClient/Technical-Tip-FortiClient-Support-for-ARM-Architecture/ta-p/248361"
         target: "_blank" # optional html a tag target attribute
+
+      - name: "Azure VPN"
+        logo: "assets/tools/azurevpn.png"
+        subtitle: "VPN client."
+        url: "https://apps.microsoft.com/detail/9NP355QT2SQB?hl=en-us&gl=US&ocid=pdpshare"
+        target: "_blank" # optional html a tag target attribute
         
   - name: "Network & Cloud Storage"
     icon: "fa-solid fa-network-wired"
