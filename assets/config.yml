@@ -477,6 +477,12 @@ services:
         url: "https://github.com/tommyvct/obs-studio/releases"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "AviSynth+ (plus)"
+        logo: "assets/tools/avisynth.png"
+        subtitle: "Improved version of the AviSynth frameserver"
+        url: "https://github.com/AviSynth/AviSynthPlus/releases"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "djay Pro"
         logo: "assets/tools/djaypro.png"
         url: "https://www.algoriddim.com/djay-pro-windows"
@@ -3945,6 +3951,12 @@ services:
         url: "https://github.com/mijk84/win-arm64-binaries/releases/tag/supermodel"
         target: "_blank" # optional html a tag target attribute      
 
+      - name: "Sega Model3 UI for 20240128+"
+        logo: "assets/tools/supermodel3ui.png"
+        subtitle: "Unofficial build, a launcher for Supermodel, an emulator for Sega Model 3"
+        url: "https://github.com/tordona/Sega-Model-3-UI-for-20240128-/releases"
+        target: "_blank" # optional html a tag target attribute   
+        
       - name: "Pokemini"
         logo: "assets/tools/pokemonmini.png"
         subtitle: "Unofficial build, obscure Nintendo handheld emulator"
