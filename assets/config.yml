@@ -3766,6 +3766,18 @@ services:
         url: "https://github.com/mijk84/win-arm64-binaries/releases/tag/citra"
         target: "_blank" # optional html a tag target attribute  
 
+      - name: "Lime3DS"
+        logo: "assets/tools/lime3ds.png"
+        subtitle: "Unofficial Build, 3DS emulator, use Vulkan renderer"
+        url: "https://github.com/tordona/lime3ds-archive/releases"
+        target: "_blank" # optional html a tag target attribute 
+
+      - name: "Azahar"
+        logo: "assets/tools/azahar.png"
+        subtitle: "Unofficial Build, 3DS emulator based on Citra"
+        url: "https://github.com/tordona/azahar/releases"
+        target: "_blank" # optional html a tag target attribute 
+        
       - name: "xemu"
         logo: "assets/tools/xemu.png"
         subtitle: "Original Xbox Emulator"       
