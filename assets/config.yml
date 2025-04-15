@@ -3956,6 +3956,12 @@ services:
         subtitle: "Unofficial build, a launcher for Supermodel, an emulator for Sega Model 3"
         url: "https://github.com/tordona/Sega-Model-3-UI-for-20240128-/releases"
         target: "_blank" # optional html a tag target attribute   
+
+      - name: "ClownMDEmu"
+        logo: "assets/tools/clownmdemu.png"
+        subtitle: "Unofficial build, Sega Mega Drive (a.k.a. Sega Genesis) emulator"
+        url: "https://github.com/tordona/clownmdemu-frontend/releases"
+        target: "_blank" # optional html a tag target attribute  
         
       - name: "Pokemini"
         logo: "assets/tools/pokemonmini.png"
