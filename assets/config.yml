@@ -3730,10 +3730,16 @@ services:
 
       - name: "Ryujinx KTB"
         logo: "assets/tools/ryujinx-ktb.png"
-        subtitle: "semi-official builds of KeatonTheBot's fork"   
+        subtitle: "semi-official builds of KeatonTheBot's fork, Switch emulator"   
         url: "https://github.com/KeatonTheBot/Ryujinx/releases"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "Ryubing"
+        logo: "assets/tools/ryubing.png"
+        subtitle: "Canary Fork of Ryujinx, Switch emulator"   
+        url: "https://github.com/Ryubing/Canary-Releases/releases"
+        target: "_blank" # optional html a tag target attribute
+        
       - name: "Dolphin"
         logo: "assets/tools/dolphin.png"
         subtitle: "Wii and Gamecube emulator"
