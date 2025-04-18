@@ -4818,8 +4818,8 @@ services:
 
       - name: "Cursor"
         logo: "assets/tools/cursor.png"
-        subtitle: "unofficial builds - the AI Code Editor"
-        url: "https://github.com/coder/cursor-arm/releases"
+        subtitle: "The AI Code Editor"
+        url: "https://www.cursor.com/downloads"
         target: "_blank" # optional html a tag target attribute
 
       - name: "AnythingLLM"
