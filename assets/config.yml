@@ -698,6 +698,12 @@ services:
         subtitle: "Unofficial build, IRC client written in Rust."
         url: "https://github.com/tordona/halloy/releases"
         target: "_blank" # optional html a tag target attribute
+
+      - name: "RocketChat"
+        logo: "assets/tools/rocketchat.png"
+        subtitle: "Desktop Client for Rocket.Chat"
+        url: "https://github.com/RocketChat/Rocket.Chat.Electron/releases"
+        target: "_blank" # optional html a tag target attribute
         
   - name: "Photo/Video Editing & Drawing Tools"
     icon: "fa-solid fa-paintbrush"
