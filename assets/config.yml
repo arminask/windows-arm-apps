@@ -477,6 +477,12 @@ services:
         url: "https://github.com/tommyvct/obs-studio/releases"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "AviSynth+ (plus)"
+        logo: "assets/tools/avisynth.png"
+        subtitle: "Improved version of the AviSynth frameserver"
+        url: "https://github.com/AviSynth/AviSynthPlus/releases"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "djay Pro"
         logo: "assets/tools/djaypro.png"
         url: "https://www.algoriddim.com/djay-pro-windows"
@@ -1915,8 +1921,8 @@ services:
 
       - name: "IPVanish"
         logo: "assets/tools/ipvanish.png"
-        subtitle: "beta, VPN client."
-        url: "https://www.ipvanish.com/blog/windows-arm64-vpn/"
+        subtitle: "VPN client."
+        url: "https://www.ipvanish.com/vpn-setup/windows/"
         target: "_blank" # optional html a tag target attribute
 
       - name: "ESET VPN"
@@ -1929,6 +1935,12 @@ services:
         logo: "assets/tools/forticlient_vpn.png"
         subtitle: "VPN client."
         url: "https://community.fortinet.com/t5/FortiClient/Technical-Tip-FortiClient-Support-for-ARM-Architecture/ta-p/248361"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Azure VPN"
+        logo: "assets/tools/azurevpn.png"
+        subtitle: "VPN client."
+        url: "https://apps.microsoft.com/detail/9NP355QT2SQB?hl=en-us&gl=US&ocid=pdpshare"
         target: "_blank" # optional html a tag target attribute
         
   - name: "Network & Cloud Storage"
@@ -3724,10 +3736,16 @@ services:
 
       - name: "Ryujinx KTB"
         logo: "assets/tools/ryujinx-ktb.png"
-        subtitle: "semi-official builds of KeatonTheBot's fork"   
+        subtitle: "semi-official builds of KeatonTheBot's fork, Switch emulator"   
         url: "https://github.com/KeatonTheBot/Ryujinx/releases"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "Ryubing"
+        logo: "assets/tools/ryubing.png"
+        subtitle: "Canary Fork of Ryujinx, Switch emulator"   
+        url: "https://github.com/Ryubing/Canary-Releases/releases"
+        target: "_blank" # optional html a tag target attribute
+        
       - name: "Dolphin"
         logo: "assets/tools/dolphin.png"
         subtitle: "Wii and Gamecube emulator"
@@ -3754,6 +3772,18 @@ services:
         url: "https://github.com/mijk84/win-arm64-binaries/releases/tag/citra"
         target: "_blank" # optional html a tag target attribute  
 
+      - name: "Lime3DS"
+        logo: "assets/tools/lime3ds.png"
+        subtitle: "Unofficial Build, 3DS emulator, use Vulkan renderer"
+        url: "https://github.com/tordona/lime3ds-archive/releases"
+        target: "_blank" # optional html a tag target attribute 
+
+      - name: "Azahar"
+        logo: "assets/tools/azahar.png"
+        subtitle: "Unofficial Build, 3DS emulator based on Citra"
+        url: "https://github.com/tordona/azahar/releases"
+        target: "_blank" # optional html a tag target attribute 
+        
       - name: "xemu"
         logo: "assets/tools/xemu.png"
         subtitle: "Original Xbox Emulator"       
@@ -3921,6 +3951,24 @@ services:
         url: "https://github.com/mijk84/win-arm64-binaries/releases/tag/supermodel"
         target: "_blank" # optional html a tag target attribute      
 
+      - name: "Sega Model3 UI for 20240128+"
+        logo: "assets/tools/supermodel3ui.png"
+        subtitle: "Unofficial build, a launcher for Supermodel, an emulator for Sega Model 3"
+        url: "https://github.com/tordona/Sega-Model-3-UI-for-20240128-/releases"
+        target: "_blank" # optional html a tag target attribute   
+
+      - name: "ClownMDEmu"
+        logo: "assets/tools/clownmdemu.png"
+        subtitle: "Unofficial build, Sega Mega Drive (a.k.a. Sega Genesis) emulator"
+        url: "https://github.com/tordona/clownmdemu-frontend/releases"
+        target: "_blank" # optional html a tag target attribute  
+
+      - name: "jgenesis"
+        logo: "assets/tools/clionly.png"
+        subtitle: "Unofficial build, Sega Genesis / Sega CD / SNES / Master System / Game Gear emulator"
+        url: "https://github.com/tordona/jgenesis/releases"
+        target: "_blank" # optional html a tag target attribute  
+        
       - name: "Pokemini"
         logo: "assets/tools/pokemonmini.png"
         subtitle: "Unofficial build, obscure Nintendo handheld emulator"
@@ -3947,7 +3995,13 @@ services:
         subtitle: "unofficial builds. Atari 2600 VCS emulator"
         url: "https://github.com/tordona/stella/releases"
         target: "_blank" # optional html a tag target attribute
-
+        
+      - name: "EMU7800"
+        logo: "assets/tools/emu7800.png"
+        subtitle: "unofficial builds. Atari 2600 and 7800 emulator"
+        url: "https://github.com/tordona/emu7800/releases"
+        target: "_blank" # optional html a tag target attribute
+        
       - name: "Haiyajan"
         logo: "assets/tools/haiyajan.png"
         subtitle: "Unofficial build, Frontend for Libretro"
@@ -3959,6 +4013,12 @@ services:
         logo: "assets/tools/libretro.png"
         subtitle: "Unofficial build"
         url: "https://github.com/mijk84/win-arm64-binaries/releases/tag/libretro"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Genesis Plus GX Libretro Core"
+        logo: "assets/tools/libretro.png"
+        subtitle: "Unofficial build"
+        url: "https://github.com/tordona/win-arm64-libretro/releases"
         target: "_blank" # optional html a tag target attribute
         
   - name: "Games"
@@ -4758,8 +4818,8 @@ services:
 
       - name: "Cursor"
         logo: "assets/tools/cursor.png"
-        subtitle: "unofficial builds - the AI Code Editor"
-        url: "https://github.com/coder/cursor-arm/releases"
+        subtitle: "The AI Code Editor"
+        url: "https://www.cursor.com/downloads"
         target: "_blank" # optional html a tag target attribute
 
       - name: "AnythingLLM"
