@@ -525,6 +525,12 @@ services:
         url: "https://tropy.org/"
         target: "_blank" # optional html a tag target attribute        
         
+      - name: "n-Track Studio 10"
+        logo: "assets/tools/ntrackstudio.png"
+        subtitle: "A digital audio workstation (DAW) and multitrack recording software that allows users to record, edit, mix, and produce music"
+        url: "https://ntrack.com/download.php"
+        target: "_blank" # optional html a tag target attribute  
+        
       - name: "Steinberg Cubase Pro 13"
         logo: "assets/tools/cubase.png"
         tag: "ARM64EC"
