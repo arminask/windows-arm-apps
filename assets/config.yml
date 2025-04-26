@@ -687,12 +687,18 @@ services:
         url: "https://github.com/Legcord/Legcord/releases"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "Ventrilo"
+        logo: "assets/tools/ventrilo.png"
+        subtitle: "Group communications / voice software client for gamers"
+        url: "https://www.ventrilo.com/download.php"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "Vesktop"
         logo: "assets/tools/Vesktop.png"
         subtitle: "Custom Discord App aiming to provide better performance"
         url: "https://github.com/Vencord/Vesktop/releases/latest"
         target: "_blank" # optional html a tag target attribute
-
+        
       - name: "Slack"
         logo: "assets/tools/slack.png"
         subtitle: "With the Slack app, your team is never more than a click away."
