@@ -525,6 +525,12 @@ services:
         url: "https://tropy.org/"
         target: "_blank" # optional html a tag target attribute        
         
+      - name: "n-Track Studio 10"
+        logo: "assets/tools/ntrackstudio.png"
+        subtitle: "A digital audio workstation (DAW) and multitrack recording software that allows users to record, edit, mix, and produce music"
+        url: "https://ntrack.com/download.php"
+        target: "_blank" # optional html a tag target attribute  
+        
       - name: "Steinberg Cubase Pro 13"
         logo: "assets/tools/cubase.png"
         tag: "ARM64EC"
@@ -681,12 +687,18 @@ services:
         url: "https://github.com/Legcord/Legcord/releases"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "Ventrilo"
+        logo: "assets/tools/ventrilo.png"
+        subtitle: "Group communications / voice software client for gamers"
+        url: "https://www.ventrilo.com/download.php"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "Vesktop"
         logo: "assets/tools/Vesktop.png"
         subtitle: "Custom Discord App aiming to provide better performance"
         url: "https://github.com/Vencord/Vesktop/releases/latest"
         target: "_blank" # optional html a tag target attribute
-
+        
       - name: "Slack"
         logo: "assets/tools/slack.png"
         subtitle: "With the Slack app, your team is never more than a click away."
