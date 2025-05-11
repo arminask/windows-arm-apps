@@ -1919,6 +1919,12 @@ services:
         url: "https://pkgs.tailscale.com/stable/#windows"
         target: "_blank" # optional html a tag target attribute
         
+      - name: "EasyTier"
+        logo: "assets/tools/EasyTier.png"
+        subtitle: "A simple, decentralized mesh VPN with WireGuard support."
+        url: "https://github.com/EasyTier/EasyTier/releases"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "ZeroTier"
         logo: "assets/tools/zerotier.png"
         subtitle: "VPN, hybrid installer has ARM network driver, app is x64, for creating networks without the need for port forwarding."
