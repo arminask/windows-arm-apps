@@ -1536,6 +1536,12 @@ services:
         url: "https://github.com/EcoPasteHub/EcoPaste/releases"
         target: "_blank"
 
+      - name: "Sefirah"
+        logo: "assets/tools/Sefirah.png"
+        subtitle: "Seamlessly connect your phone and PC to boost your productivity."
+        url: "https://apps.microsoft.com/detail/9PJV6D1JPG0H"
+        target: "_blank"
+
       - name: "Pot"
         logo: "assets/tools/Pot.png"
         subtitle: "text translation and recognition"
