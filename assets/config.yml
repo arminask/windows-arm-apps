@@ -1512,6 +1512,12 @@ services:
         url: "https://github.com/Minessential/localsend_fluent/releases"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "qrcp"
+        logo: "assets/tools/qrcp.png"
+        subtitle: "Transfer files over wifi from your computer to your mobile device by scanning a QR code without leaving the terminal."
+        url: "https://github.com/claudiodangelis/qrcp/releases"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "Ditto"
         logo: "assets/tools/Ditto.png"
         subtitle: "unofficial builds / windows clipboard"
