@@ -886,6 +886,12 @@ services:
         url: "https://www.shotcut.org/download/"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "Gyroflow"
+        logo: "assets/tools/gyroflow.png"
+        subtitle: "Video stabilization using gyroscope data"
+        url: "https://github.com/gyroflow/gyroflow/releases"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "Glaxnimate"
         logo: "assets/tools/glaxnimate.png"
         subtitle: "unofficial builds"
