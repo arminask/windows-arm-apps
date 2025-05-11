@@ -1652,6 +1652,12 @@ services:
         url: "https://github.com/xM4ddy/OFGB/releases" # URL to download the app
         target: "_blank"
 
+      - name: "ViVeTool" # App name
+        logo: "assets/tools/clionly.png" # App icon
+        subtitle: "using new feature control APIs available in Windows 10 version 2004 and newer"
+        url: "https://github.com/thebookisclosed/ViVe/releases" # URL to download the app
+        target: "_blank"
+
       - name: "HashTool" # App name
         logo: "assets/tools/hashtool.png" # App icon
         subtitle: "calculate the hash values of files or folders."
