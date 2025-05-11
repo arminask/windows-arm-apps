@@ -3675,6 +3675,12 @@ services:
         url: "https://github.com/Stellarium/stellarium/releases"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "BongoCat"
+        logo: "assets/tools/BongoCat.png"
+        subtitle: "An adorable desktop mascot that mirrors your keyboard taps & mouse movements in real-time"
+        url: "https://github.com/ayangweb/BongoCat/releases"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "KeyEcho"
         logo: "assets/tools/keyccho.png"
         subtitle: "Listen to Mechanical Keyboard Sounds with Every Keystroke"
