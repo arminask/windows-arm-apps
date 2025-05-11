@@ -1506,6 +1506,11 @@ services:
         url: "https://apps.microsoft.com/detail/9WZDNCRDXF41"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "Fluent Emoji Gallery"
+        logo: "assets/tools/fluentemojigallery.png"
+        url: "https://apps.microsoft.com/detail/9N965R0G2SND"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "WindSend"
         logo: "assets/tools/windsend.png"
         subtitle: "sync clipboard, transfer files and directories between"
