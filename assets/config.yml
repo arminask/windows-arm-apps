@@ -4494,6 +4494,12 @@ services:
         url: "https://github.com/Kichura/Minecraft_ARM?tab=readme-ov-file"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "LauncherX"
+        logo: "assets/tools/LauncherX.png"
+        subtitle: "A next-generation MineCraft launcher with a powerful and beautiful interface."
+        url: "https://corona.studio/lx/download"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "RuneLite"
         logo: "assets/tools/runelite.png"
         subtitle: "an OldSchool RuneScape client"
