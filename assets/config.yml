@@ -4906,6 +4906,12 @@ services:
         url: "https://github.com/CherryHQ/cherry-studio/releases"
         target: "_blank" # optional html a tag target attribute
         
+      - name: "KrillinAI"
+        logo: "assets/tools/KrillinAI.png"
+        subtitle: "A video translation and dubbing tool powered by LLMs."
+        url: "https://github.com/krillinai/KrillinAI/releases"
+        target: "_blank" # optional html a tag target attribute
+
   - name: "Drivers"
     icon: "fa-solid fa-gears"
     items:
