@@ -886,6 +886,12 @@ services:
         url: "https://www.shotcut.org/download/"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "Gyroflow"
+        logo: "assets/tools/gyroflow.png"
+        subtitle: "Video stabilization using gyroscope data"
+        url: "https://github.com/gyroflow/gyroflow/releases"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "Glaxnimate"
         logo: "assets/tools/glaxnimate.png"
         subtitle: "unofficial builds"
@@ -1500,6 +1506,11 @@ services:
         url: "https://apps.microsoft.com/detail/9WZDNCRDXF41"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "Fluent Emoji Gallery"
+        logo: "assets/tools/fluentemojigallery.png"
+        url: "https://apps.microsoft.com/detail/9N965R0G2SND"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "WindSend"
         logo: "assets/tools/windsend.png"
         subtitle: "sync clipboard, transfer files and directories between"
@@ -1510,6 +1521,12 @@ services:
         logo: "assets/tools/localsend.png"
         subtitle: "unofficial builds / securely share files and messages with nearby devices over your local network without needing an internet connection."
         url: "https://github.com/Minessential/localsend_fluent/releases"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "qrcp"
+        logo: "assets/tools/qrcp.png"
+        subtitle: "Transfer files over wifi from your computer to your mobile device by scanning a QR code without leaving the terminal."
+        url: "https://github.com/claudiodangelis/qrcp/releases"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Ditto"
@@ -1528,6 +1545,12 @@ services:
         logo: "assets/tools/ecopaste.png"
         subtitle: "clipboard management tool"
         url: "https://github.com/EcoPasteHub/EcoPaste/releases"
+        target: "_blank"
+
+      - name: "Sefirah"
+        logo: "assets/tools/Sefirah.png"
+        subtitle: "Seamlessly connect your phone and PC to boost your productivity."
+        url: "https://apps.microsoft.com/detail/9PJV6D1JPG0H"
         target: "_blank"
 
       - name: "Pot"
@@ -1632,6 +1655,12 @@ services:
         logo: "assets/tools/ofgb.png" # App icon
         subtitle: "Removes Ads From Various Places Around Windows 11"
         url: "https://github.com/xM4ddy/OFGB/releases" # URL to download the app
+        target: "_blank"
+
+      - name: "ViVeTool" # App name
+        logo: "assets/tools/clionly.png" # App icon
+        subtitle: "using new feature control APIs available in Windows 10 version 2004 and newer"
+        url: "https://github.com/thebookisclosed/ViVe/releases" # URL to download the app
         target: "_blank"
 
       - name: "HashTool" # App name
@@ -1919,6 +1948,12 @@ services:
         url: "https://pkgs.tailscale.com/stable/#windows"
         target: "_blank" # optional html a tag target attribute
         
+      - name: "EasyTier"
+        logo: "assets/tools/EasyTier.png"
+        subtitle: "A simple, decentralized mesh VPN with WireGuard support."
+        url: "https://github.com/EasyTier/EasyTier/releases"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "ZeroTier"
         logo: "assets/tools/zerotier.png"
         subtitle: "VPN, hybrid installer has ARM network driver, app is x64, for creating networks without the need for port forwarding."
@@ -2330,6 +2365,12 @@ services:
         logo: "assets/tools/trippy.png"
         subtitle: "A network diagnostic tool"
         url: "https://github.com/fujiapple852/trippy/releases"
+        target: "_blank" # optional html a tag target attribute
+  
+      - name: "OSV-Scanner"
+        logo: "assets/tools/osvscanner.png"
+        subtitle: "Vulnerability scanner"
+        url: "https://github.com/google/osv-scanner/releases"
         target: "_blank" # optional html a tag target attribute
 
   - name: "Coding"
@@ -3675,6 +3716,12 @@ services:
         url: "https://github.com/Stellarium/stellarium/releases"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "BongoCat"
+        logo: "assets/tools/BongoCat.png"
+        subtitle: "An adorable desktop mascot that mirrors your keyboard taps & mouse movements in real-time"
+        url: "https://github.com/ayangweb/BongoCat/releases"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "KeyEcho"
         logo: "assets/tools/keyccho.png"
         subtitle: "Listen to Mechanical Keyboard Sounds with Every Keystroke"
@@ -4488,6 +4535,12 @@ services:
         url: "https://github.com/Kichura/Minecraft_ARM?tab=readme-ov-file"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "LauncherX"
+        logo: "assets/tools/LauncherX.png"
+        subtitle: "A next-generation MineCraft launcher with a powerful and beautiful interface."
+        url: "https://corona.studio/lx/download"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "RuneLite"
         logo: "assets/tools/runelite.png"
         subtitle: "an OldSchool RuneScape client"
@@ -4858,6 +4911,12 @@ services:
         url: "https://github.com/CherryHQ/cherry-studio/releases"
         target: "_blank" # optional html a tag target attribute
         
+      - name: "KrillinAI"
+        logo: "assets/tools/KrillinAI.png"
+        subtitle: "A video translation and dubbing tool powered by LLMs."
+        url: "https://github.com/krillinai/KrillinAI/releases"
+        target: "_blank" # optional html a tag target attribute
+
   - name: "Drivers"
     icon: "fa-solid fa-gears"
     items:
