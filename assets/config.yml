@@ -3865,6 +3865,12 @@ services:
         subtitle: "Original Xbox Emulator"       
         url: "https://github.com/xemu-project/xemu/releases"
         target: "_blank" # optional html a tag target attribute
+
+      - name: "MAME"
+        logo: "assets/tools/mame.png"
+        subtitle: "Multi system emulator, nightly builds (download as artifact)"
+        url: "https://github.com/mamedev/mame/actions/workflows/ci-windows.yml"
+        target: "_blank" # optional html a tag target attribute
         
       - name: "RetroArch"
         logo: "assets/tools/RetroArch.png"
