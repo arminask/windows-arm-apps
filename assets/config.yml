@@ -477,6 +477,12 @@ services:
         url: "https://github.com/tommyvct/obs-studio/releases"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "Camo Studio"
+        logo: "assets/tools/camostudio.png"
+        subtitle: "Uses cameras you already own to produce pro-quality video, for meetings, streaming, or recordings"
+        url: "https://apps.microsoft.com/detail/9PGM3QB3PDRD"
+        target: "_blank" # optional html a tag target attribute
+        
       - name: "AviSynth+ (plus)"
         logo: "assets/tools/avisynth.png"
         subtitle: "Improved version of the AviSynth frameserver"
