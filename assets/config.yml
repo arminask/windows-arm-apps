@@ -2915,6 +2915,12 @@ services:
         subtitle: "Ruby-language execution environment"
         url: "https://rubyinstaller.org/downloads/"
         target: "_blank" # optional html a tag target attribute
+        
+      - name: "OrmFactory"
+        logo: "assets/tools/ormfactory.png"
+        subtitle: "Model-first database manager"
+        url: "https://ormfactory.com/downloads/"
+        target: "_blank" # optional html a tag target attribute
 
   - name: "Emulation & Virtualization"
     icon: "fa-solid fa-microchip"
