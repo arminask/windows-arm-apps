@@ -4934,7 +4934,13 @@ services:
         subtitle: "A video translation and dubbing tool powered by LLMs."
         url: "https://github.com/krillinai/KrillinAI/releases"
         target: "_blank" # optional html a tag target attribute
-
+        
+      - name: "Perplexity AI"
+        logo: "assets/tools/perplexity.png"
+        subtitle: "Search engine that uses a large language model to process queries and synthesize responses based on web search results."
+        url: "https://www.perplexity.ai/platforms"
+        target: "_blank" # optional html a tag target attribute
+        
   - name: "Drivers"
     icon: "fa-solid fa-gears"
     items:
