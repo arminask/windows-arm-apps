@@ -948,8 +948,8 @@ services:
 
       - name: "PTGui"
         logo: "assets/tools/ptgui.png"
-        subtitle: "Beta build, Panorama Image Stitcher"
-        url: "https://ptgui.com/beta.html"
+        subtitle: "Panorama Image Stitcher"
+        url: "https://ptgui.com/download.html"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Adobe DNG Converter"
@@ -2851,8 +2851,8 @@ services:
 
       - name: "Godot"
         logo: "assets/tools/godot.png"
-        subtitle: "Beta build, free, open‑source game engine."
-        url: "https://godotengine.org/article/release-candidate-godot-4-3-rc-1/"
+        subtitle: "Free, open‑source game engine."
+        url: "https://godotengine.org/download/windows/"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Lunati"
