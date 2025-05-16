@@ -587,8 +587,8 @@ services:
 
       - name: "Bitwig Studio"
         logo: "assets/tools/bitwigstudio.png"
-        subtitle: "Beta version, Digital audio workstation (DAW) and music production software."
-        url: "https://downloads.bitwig.com/5.3%20Beta%201/Release-Notes-5.3-Beta-1.html"
+        subtitle: "Digital audio workstation (DAW) and music production software."
+        url: "https://www.bitwig.com/download/"
         target: "_blank" # optional html a tag target attribute  
 
       - name: "Schism Tracker"
