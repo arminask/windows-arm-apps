@@ -1849,6 +1849,18 @@ services:
         url: "https://veg.by/en/projects/soundkeeper/"
         target: "_blank"
 
+      - name: "Energy Star X"
+        logo: "assets/tools/energy-star-x.png"
+        subtitle: "Throttle background applications to improve battery life and system thermals."
+        url: "https://apps.microsoft.com/detail/9nf7jtb3b17p"
+        target: "_blank"
+
+      - name: "TrayToolbar"
+        logo: "assets/tools/tray-toolbar.png"
+        subtitle: "Tray menu with all your favorite shortcuts"
+        url: "https://github.com/brondavies/TrayToolbar/releases"
+        target: "_blank"
+
   - name: "VPN"
     icon: "fa-solid fa-globe"
     items:
@@ -2009,6 +2021,17 @@ services:
         url: "https://proton.me/drive"
         target: "_blank" # optional html a tag target attribute
         
+      - name: "JDownloader2"
+        logo: "assets/tools/jdownloader.png"
+        url: "https://jdownloader.org/jdownloader2"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "SmartFTP"
+        logo: "assets/tools/smartftp.png"
+        tag: "Available under All Downloads section"
+        url: "https://www.smartftp.com/en-us/download"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "Filezilla Client"
         logo: "assets/tools/filezilla.png"
         subtitle: "unofficial builds"
@@ -2914,6 +2937,12 @@ services:
         logo: "assets/tools/rubyinstaller.png"
         subtitle: "Ruby-language execution environment"
         url: "https://rubyinstaller.org/downloads/"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Segger Embedded Studio"
+        logo: "assets/tools/embedded-studio.png"
+        subtitle: "C/C++ IDE for microcontrollers"
+        url: "https://www.segger.com/downloads/embedded-studio/"
         target: "_blank" # optional html a tag target attribute
 
   - name: "Emulation & Virtualization"
