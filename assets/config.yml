@@ -1849,12 +1849,6 @@ services:
         url: "https://veg.by/en/projects/soundkeeper/"
         target: "_blank"
 
-      - name: "Energy Star X"
-        logo: "assets/tools/energy-star-x.png"
-        subtitle: "Throttle background applications to improve battery life and system thermals."
-        url: "https://apps.microsoft.com/detail/9nf7jtb3b17p"
-        target: "_blank"
-
       - name: "TrayToolbar"
         logo: "assets/tools/tray-toolbar.png"
         subtitle: "Tray menu with all your favorite shortcuts"
