@@ -471,12 +471,24 @@ services:
         url: "https://apps.microsoft.com/detail/9mwv79xlfqh7"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "OBS Studio Nightly Builds"
+        logo: "assets/tools/obs.png"
+        subtitle: "Nightly builds (download artifacts)"
+        url: "https://github.com/obsproject/obs-studio/actions"
+        target: "_blank" # optional html a tag target attribute
+        
       - name: "OBS Studio"
         logo: "assets/tools/obs.png"
         subtitle: "unofficial builds"
         url: "https://github.com/tommyvct/obs-studio/releases"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "Camo Studio"
+        logo: "assets/tools/camostudio.png"
+        subtitle: "Uses cameras you already own to produce pro-quality video, for meetings, streaming, or recordings"
+        url: "https://apps.microsoft.com/detail/9PGM3QB3PDRD"
+        target: "_blank" # optional html a tag target attribute
+        
       - name: "AviSynth+ (plus)"
         logo: "assets/tools/avisynth.png"
         subtitle: "Improved version of the AviSynth frameserver"
@@ -575,8 +587,8 @@ services:
 
       - name: "Bitwig Studio"
         logo: "assets/tools/bitwigstudio.png"
-        subtitle: "Beta version, Digital audio workstation (DAW) and music production software."
-        url: "https://downloads.bitwig.com/5.3%20Beta%201/Release-Notes-5.3-Beta-1.html"
+        subtitle: "Digital audio workstation (DAW) and music production software."
+        url: "https://www.bitwig.com/download/"
         target: "_blank" # optional html a tag target attribute  
 
       - name: "Schism Tracker"
@@ -936,8 +948,8 @@ services:
 
       - name: "PTGui"
         logo: "assets/tools/ptgui.png"
-        subtitle: "Beta build, Panorama Image Stitcher"
-        url: "https://ptgui.com/beta.html"
+        subtitle: "Panorama Image Stitcher"
+        url: "https://ptgui.com/download.html"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Adobe DNG Converter"
@@ -2839,8 +2851,8 @@ services:
 
       - name: "Godot"
         logo: "assets/tools/godot.png"
-        subtitle: "Beta build, free, open‑source game engine."
-        url: "https://godotengine.org/article/release-candidate-godot-4-3-rc-1/"
+        subtitle: "Free, open‑source game engine."
+        url: "https://godotengine.org/download/windows/"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Lunati"
@@ -3858,6 +3870,12 @@ services:
         logo: "assets/tools/xemu.png"
         subtitle: "Original Xbox Emulator"       
         url: "https://github.com/xemu-project/xemu/releases"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "MAME"
+        logo: "assets/tools/mame.png"
+        subtitle: "Multi system emulator, nightly builds (download as artifact)"
+        url: "https://github.com/mamedev/mame/actions/workflows/ci-windows.yml"
         target: "_blank" # optional html a tag target attribute
         
       - name: "RetroArch"
@@ -4916,7 +4934,13 @@ services:
         subtitle: "A video translation and dubbing tool powered by LLMs."
         url: "https://github.com/krillinai/KrillinAI/releases"
         target: "_blank" # optional html a tag target attribute
-
+        
+      - name: "Perplexity AI"
+        logo: "assets/tools/perplexity.png"
+        subtitle: "Search engine that uses a large language model to process queries and synthesize responses based on web search results."
+        url: "https://www.perplexity.ai/platforms"
+        target: "_blank" # optional html a tag target attribute
+        
   - name: "Drivers"
     icon: "fa-solid fa-gears"
     items:
