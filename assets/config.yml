@@ -2401,12 +2401,6 @@ services:
         subtitle: "A network diagnostic tool"
         url: "https://github.com/fujiapple852/trippy/releases"
         target: "_blank" # optional html a tag target attribute
-  
-      - name: "OSV-Scanner"
-        logo: "assets/tools/osvscanner.png"
-        subtitle: "Vulnerability scanner"
-        url: "https://github.com/google/osv-scanner/releases"
-        target: "_blank" # optional html a tag target attribute
 
   - name: "Coding"
     icon: "fa-solid fa-code"
@@ -2961,6 +2955,12 @@ services:
         logo: "assets/tools/embedded-studio.png"
         subtitle: "C/C++ IDE for microcontrollers"
         url: "https://www.segger.com/downloads/embedded-studio/"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "OSV-Scanner"
+        logo: "assets/tools/osvscanner.png"
+        subtitle: "Vulnerability scanner"
+        url: "https://github.com/google/osv-scanner/releases"
         target: "_blank" # optional html a tag target attribute
 
   - name: "Emulation & Virtualization"
