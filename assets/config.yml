@@ -1191,6 +1191,11 @@ services:
         url: "https://apps.microsoft.com/detail/9N318R854RHH"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "Readest"
+        logo: "assets/tools/readest.png"
+        url: "https://github.com/readest/readest/releases/"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "Aquile Reader"
         logo: "assets/tools/aquile.png"
         url: "https://apps.microsoft.com/detail/9P08T4JLTQNK"
