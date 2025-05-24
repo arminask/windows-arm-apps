@@ -1884,6 +1884,12 @@ services:
         url: "https://github.com/brondavies/TrayToolbar/releases"
         target: "_blank"
 
+      - name: "Text Grab"
+        logo: "assets/tools/textgrab.png"
+        subtitle: "Use OCR in Windows quickly and easily with Text Grab."
+        url: "https://apps.microsoft.com/detail/9mznkqj7sl0b"
+        target: "_blank"
+
   - name: "VPN"
     icon: "fa-solid fa-globe"
     items:
