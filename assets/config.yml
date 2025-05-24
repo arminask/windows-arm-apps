@@ -1518,6 +1518,12 @@ services:
         url: "https://apps.microsoft.com/detail/9NF7JTB3B17P"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "RustyStar"
+        logo: "assets/tools/rustystar.png"
+        subtitle: "EnergyStar alernative in Rust"
+        url: "https://github.com/RustyStarX/RustyStar/releases"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "Character Map UWP"
         logo: "assets/tools/CharacterMap.png"
         url: "https://apps.microsoft.com/detail/9WZDNCRDXF41"
