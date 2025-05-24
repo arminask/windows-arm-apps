@@ -1403,6 +1403,12 @@ services:
         url: "https://github.com/sxyazi/yazi/releases"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "superfile"
+        logo: "assets/tools/superfile.png"
+        subtitle: "Pretty fancy and modern terminal file manager"
+        url: "https://github.com/yorukot/superfile/releases"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "Far Manager"
         logo: "assets/tools/farmanager.png"
         subtitle: "File and archive manager"
