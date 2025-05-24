@@ -3652,6 +3652,12 @@ services:
         url: "https://github.com/glzr-io/zebar/releases"
         target: "_blank"
 
+      - name: "MicaForEveryone"
+        logo: "assets/tools/MicaForEveryone.png"
+        subtitle: "enable backdrop effects on the title bars of Win32 apps on Windows 11."
+        url: "https://github.com/MicaForEveryone/MicaForEveryone/releases"
+        target: "_blank"
+
       - name: "Fluent Flyouts"
         logo: "assets/tools/fluentflyouts.png"
         subtitle: "a collection of modern flyouts"
