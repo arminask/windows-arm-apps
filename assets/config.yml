@@ -83,9 +83,22 @@ services:
         url: "https://chromeenterprise.google/download/"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "Google Chrome Canary"
+        logo: "assets/tools/google-chrome-canary.png"
+        subtitle: "Nightly build for developers"
+        url: "https://www.google.com/chrome/canary/?platform=win_arm64&standalone=1"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "Mozilla Firefox"
         logo: "assets/tools/firefox.png"
         url: "https://www.mozilla.org/firefox/all/#product-desktop-release"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Mozilla Firefox Developer Edition"
+        logo: "assets/tools/firefox-developer-edition.png"
+        tag: "Web installer detects architecture"
+        subtitle: "Latest features and development tools"
+        url: "https://www.mozilla.org/en-US/firefox/developer/"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Microsoft Edge"
@@ -597,6 +610,12 @@ services:
         url: "https://github.com/schismtracker/schismtracker/releases"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "Switchfin"
+        logo: "assets/tools/switchfin.png"
+        subtitle: "Third-party native Jellyfin client"
+        url: "https://github.com/dragonflylee/switchfin/releases/latest"
+        target: "_blank" # optional html a tag target attribute
+
   - name: "Social"
     icon: "fa-solid fa-message"
     items:
@@ -809,6 +828,11 @@ services:
       - name: "Adobe Photoshop"
         logo: "assets/tools/photoshop.png"
         url: "https://apps.microsoft.com/store/detail/adobe-photoshop/XPFD4T9N395QN6"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Adobe Camera Raw"
+        logo: "assets/tools/adobe-camera-raw.png"
+        url: "https://helpx.adobe.com/camera-raw/kb/camera-raw-plug-in-installer.html"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Concepts"
@@ -1312,7 +1336,13 @@ services:
         subtitle: "One note like whiteboard application."
         url: "https://affine.pro/"
         target: "_blank" # optional html a tag target attribute
-        
+
+      - name: "Portfolio Performance"
+        logo: "assets/tools/portfolio-performance.png"
+        subtitle: "Open source tool for performance of an investment portfolio"
+        url: "https://www.portfolio-performance.info/en/download.html#win"
+        target: "_blank" # optional html a tag target attribute
+
   - name: "Tools"
     icon: "fa-solid fa-screwdriver-wrench"
     items:
@@ -1867,6 +1897,12 @@ services:
         url: "https://github.com/brondavies/TrayToolbar/releases"
         target: "_blank"
 
+      - name: "PowerISO"
+        logo: "assets/tools/poweriso.png"
+        subtitle: "CD / DVD / BD image file processing tool"
+        url: "https://www.poweriso.com/download.htm"
+        target: "_blank"
+
   - name: "VPN"
     icon: "fa-solid fa-globe"
     items:
@@ -2400,6 +2436,12 @@ services:
         logo: "assets/tools/osvscanner.png"
         subtitle: "Vulnerability scanner"
         url: "https://github.com/google/osv-scanner/releases"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "LocaltoNet"
+        logo: "assets/tools/localtonet.png"
+        subtitle: "Reverse proxy for exposing localhost services"
+        url: "https://localtonet.com/download"
         target: "_blank" # optional html a tag target attribute
 
   - name: "Coding"
@@ -2955,6 +2997,18 @@ services:
         logo: "assets/tools/embedded-studio.png"
         subtitle: "C/C++ IDE for microcontrollers"
         url: "https://www.segger.com/downloads/embedded-studio/"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Volta"
+        logo: "assets/tools/volta.png"
+        subtitle: "JS Toolchains as Code"
+        url: "https://github.com/volta-cli/volta/releases"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Eclipse IDE"
+        logo: "assets/tools/eclipse.png"
+        subtitle: "IDE with extensible plug-in system"
+        url: "https://www.eclipse.org/downloads/packages/installer"
         target: "_blank" # optional html a tag target attribute
 
   - name: "Emulation & Virtualization"
