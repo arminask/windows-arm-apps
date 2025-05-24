@@ -1890,6 +1890,12 @@ services:
         url: "https://apps.microsoft.com/detail/9mznkqj7sl0b"
         target: "_blank"
 
+      - name: "ShareX"
+        logo: "assets/tools/sharex.png"
+        subtitle: "unofficial builds - Screen capture, file sharing and productivity tool"
+        url: "https://github.com/ahossny/ShareX/releases"
+        target: "_blank"
+
   - name: "VPN"
     icon: "fa-solid fa-globe"
     items:
