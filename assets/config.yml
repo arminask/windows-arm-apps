@@ -2173,6 +2173,12 @@ services:
         url: "https://rclone.org/downloads/"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "Duplicati"
+        logo: "assets/tools/duplicati.png"
+        subtitle: "Store securely encrypted backups in the cloud"
+        url: "https://github.com/duplicati/duplicati/releases"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "NanaGet"
         logo: "assets/tools/nanaget.png"
         url: "https://apps.microsoft.com/store/detail/nanaget/9PD5F2D90LS5"
