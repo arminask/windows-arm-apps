@@ -1902,6 +1902,13 @@ services:
         url: "https://github.com/ahossny/ShareX/releases"
         target: "_blank"
 
+      - name: "Kando"
+        logo: "assets/tools/kando.png"
+        subtitle: "a pie menu for doing things with utmost efficiency."
+        tag: "Alpha"
+        url: "https://github.com/kando-menu/kando/releases"
+        target: "_blank"
+
   - name: "VPN"
     icon: "fa-solid fa-globe"
     items:
