@@ -5021,6 +5021,12 @@ services:
         url: "https://github.com/nefarius/ViGEmBus/releases"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "Adreno Control Panel for devices with Snapdragon X"
+        logo: "assets/tools/snapdragon.png"
+        subtitle: "Beta"
+        url: "https://www.qualcomm.com/developer/blog/2025/05/introducing-adreno-control-panel-snapdragon-x-elite-2025-1-beta"
+        target: "_blank" # optional html a tag target attribute
+        
       - name: "Microsoft Surface Snapdragon X Elite Graphic Drivers"
         logo: "assets/tools/qualcommdev.png"
         subtitle: "Latest graphics drivers for Microsoft Surface Snapdragon X Elite laptops"
