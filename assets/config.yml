@@ -3298,6 +3298,12 @@ services:
         url: "https://www.passmark.com/products/performancetest/download.php"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "Novabench"
+        logo: "assets/tools/novabench.png"
+        subtitle: "Test, monitor, and understand computer performance"
+        url: "https://novabench.com/download"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "Geekbench AI"
         logo: "assets/tools/geekbenchai.png"
         url: "https://www.geekbench.com/ai/download/"
