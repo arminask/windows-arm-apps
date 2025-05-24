@@ -1215,6 +1215,11 @@ services:
         url: "https://apps.microsoft.com/detail/9N318R854RHH"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "Readest"
+        logo: "assets/tools/readest.png"
+        url: "https://github.com/readest/readest/releases/"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "Aquile Reader"
         logo: "assets/tools/aquile.png"
         url: "https://apps.microsoft.com/detail/9P08T4JLTQNK"
@@ -1428,6 +1433,12 @@ services:
         url: "https://github.com/sxyazi/yazi/releases"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "superfile"
+        logo: "assets/tools/superfile.png"
+        subtitle: "Pretty fancy and modern terminal file manager"
+        url: "https://github.com/yorukot/superfile/releases"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "Far Manager"
         logo: "assets/tools/farmanager.png"
         subtitle: "File and archive manager"
@@ -1541,6 +1552,12 @@ services:
         logo: "assets/tools/energystarx.png"
         subtitle: "improve battery life by throttle background applications"
         url: "https://apps.microsoft.com/detail/9NF7JTB3B17P"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "RustyStar"
+        logo: "assets/tools/rustystar.png"
+        subtitle: "EnergyStar alernative in Rust"
+        url: "https://github.com/RustyStarX/RustyStar/releases"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Character Map UWP"
@@ -1759,6 +1776,12 @@ services:
         url: "https://github.com/w4po/ExplorerTabUtility/releases/"
         target: "_blank"
 
+      - name: "komorebi"
+        logo: "assets/tools/clionly.png"
+        subtitle: "A tiling window manager for Windows"
+        url: "https://github.com/LGUG2Z/komorebi/releases"
+        target: "_blank"
+
       - name: "Whim"
         logo: "assets/tools/whim.png"
         subtitle: "Pluggable dynamic window manager for Windows"
@@ -1775,6 +1798,12 @@ services:
         logo: "assets/tools/nightingale.png"
         subtitle: "resource-efficient REST API client for Windows"
         url: "https://github.com/jenius-apps/nightingale-rest-api-client/releases"
+        target: "_blank"
+
+      - name: "PakePlus"
+        logo: "assets/tools/PakePlus.png"
+        subtitle: "Turn any webpage/Vue/React and so on into desktop and mobile app under 5M with easy in few minutes"
+        url: "https://github.com/Sjj1024/PakePlus/releases"
         target: "_blank"
 
       - name: "monolith"
@@ -1902,6 +1931,24 @@ services:
         subtitle: "CD / DVD / BD image file processing tool"
         url: "https://www.poweriso.com/download.htm"
         target: "_blank"
+
+      - name: "Text Grab"
+        logo: "assets/tools/textgrab.png"
+        subtitle: "Use OCR in Windows quickly and easily with Text Grab."
+        url: "https://apps.microsoft.com/detail/9mznkqj7sl0b"
+        target: "_blank"
+
+      - name: "ShareX"
+        logo: "assets/tools/sharex.png"
+        subtitle: "unofficial builds - Screen capture, file sharing and productivity tool"
+        url: "https://github.com/ahossny/ShareX/releases"
+        target: "_blank"
+
+      - name: "Kando"
+        logo: "assets/tools/kando.png"
+        subtitle: "a pie menu for doing things with utmost efficiency."
+        tag: "Alpha"
+        url: "https://github.com/kando-menu/kando/releases"
 
   - name: "VPN"
     icon: "fa-solid fa-globe"
@@ -2209,6 +2256,12 @@ services:
         url: "https://rclone.org/downloads/"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "Duplicati"
+        logo: "assets/tools/duplicati.png"
+        subtitle: "Store securely encrypted backups in the cloud"
+        url: "https://github.com/duplicati/duplicati/releases"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "NanaGet"
         logo: "assets/tools/nanaget.png"
         url: "https://apps.microsoft.com/store/detail/nanaget/9PD5F2D90LS5"
@@ -2430,12 +2483,6 @@ services:
         logo: "assets/tools/trippy.png"
         subtitle: "A network diagnostic tool"
         url: "https://github.com/fujiapple852/trippy/releases"
-        target: "_blank" # optional html a tag target attribute
-  
-      - name: "OSV-Scanner"
-        logo: "assets/tools/osvscanner.png"
-        subtitle: "Vulnerability scanner"
-        url: "https://github.com/google/osv-scanner/releases"
         target: "_blank" # optional html a tag target attribute
 
       - name: "LocaltoNet"
@@ -3011,6 +3058,11 @@ services:
         url: "https://www.eclipse.org/downloads/packages/installer"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "OSV-Scanner"
+        logo: "assets/tools/osvscanner.png"
+        subtitle: "Vulnerability scanner"
+        url: "https://github.com/google/osv-scanner/releases"
+
   - name: "Emulation & Virtualization"
     icon: "fa-solid fa-microchip"
     items:
@@ -3344,6 +3396,12 @@ services:
       - name: "PassMark PerformanceTest"
         logo: "assets/tools/performancetest.png"
         url: "https://www.passmark.com/products/performancetest/download.php"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Novabench"
+        logo: "assets/tools/novabench.png"
+        subtitle: "Test, monitor, and understand computer performance"
+        url: "https://novabench.com/download"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Geekbench AI"
@@ -3683,6 +3741,12 @@ services:
         url: "https://github.com/glzr-io/zebar/releases"
         target: "_blank"
 
+      - name: "MicaForEveryone"
+        logo: "assets/tools/MicaForEveryone.png"
+        subtitle: "enable backdrop effects on the title bars of Win32 apps on Windows 11."
+        url: "https://github.com/MicaForEveryone/MicaForEveryone/releases"
+        target: "_blank"
+
       - name: "Fluent Flyouts"
         logo: "assets/tools/fluentflyouts.png"
         subtitle: "a collection of modern flyouts"
@@ -3882,6 +3946,12 @@ services:
         logo: "assets/tools/jawsscreen.png"
         subtitle: "World’s most popular screen reader software"
         url: "https://support.freedomscientific.com/Downloads/JAWS"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Glance"
+        logo: "assets/tools/glance.png"
+        subtitle: "A self-hosted dashboard that puts all your feeds in one place"
+        url: "https://github.com/glanceapp/glance/releases"
         target: "_blank" # optional html a tag target attribute
 
   - name: "Game Console Emulation"
@@ -5017,13 +5087,19 @@ services:
         subtitle: "A video translation and dubbing tool powered by LLMs."
         url: "https://github.com/krillinai/KrillinAI/releases"
         target: "_blank" # optional html a tag target attribute
-        
+
       - name: "Perplexity AI"
         logo: "assets/tools/perplexity.png"
         subtitle: "Search engine that uses a large language model to process queries and synthesize responses based on web search results."
         url: "https://www.perplexity.ai/platforms"
         target: "_blank" # optional html a tag target attribute
-        
+
+      - name: "AI Dev Gallery (Preview)"
+        logo: "assets/tools/AiDevGallery.png"
+        subtitle: "integrate AI capabilities within their own apps and projects."
+        url: "https://apps.microsoft.com/detail/9N9PN1MM3BD5"
+        target: "_blank" # optional html a tag target attribute
+
   - name: "Drivers"
     icon: "fa-solid fa-gears"
     items:
