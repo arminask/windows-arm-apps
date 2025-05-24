@@ -3896,6 +3896,12 @@ services:
         url: "https://support.freedomscientific.com/Downloads/JAWS"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "Glance"
+        logo: "assets/tools/glance.png"
+        subtitle: "A self-hosted dashboard that puts all your feeds in one place"
+        url: "https://github.com/glanceapp/glance/releases"
+        target: "_blank" # optional html a tag target attribute
+
   - name: "Game Console Emulation"
     icon: "fa-brands fa-playstation"
     items:
