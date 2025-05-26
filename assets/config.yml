@@ -3634,6 +3634,12 @@ services:
         subtitle: "date recovery and access software"
         url: "https://www.ufsexplorer.com/download/"
         target: "_blank" # optional html a tag target attribute
+      
+      - name: "F-Secure"
+        logo: "assets/tools/F-Secure.png"
+        subtitle: "Excluding VPN"
+        url: "https://www.f-secure.com/en/total"
+        target: "_blank" # optional html a tag target attribute
 
   - name: "Theme & Styles"
     icon: "fa-solid fa-brush"
