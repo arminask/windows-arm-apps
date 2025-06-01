@@ -261,6 +261,12 @@ services:
         url: "https://apps.microsoft.com/detail/hulu/9WZDNCRFJ3L1"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "MediaOnTauri"
+        logo: "assets/tools/mediaontauri.png"
+        subtitle: "Plex web client, web wrapper written in Tauri"
+        url: "https://github.com/Snazzie/MediaOnTauri/releases"
+        target: "_blank" # optional html a tag target attribute
+        
       - name: "VUDU"
         logo: "assets/tools/vudu.png"
         url: "https://apps.microsoft.com/detail/vudu-movies-and-tv/9NBLGGH4V68B"
@@ -490,16 +496,16 @@ services:
         url: "https://apps.microsoft.com/detail/9mwv79xlfqh7"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "OBS Studio"
+        logo: "assets/tools/obs.png"
+        subtitle: "Beta build, starting with 13.1.0 Beta 1"
+        url: "https://github.com/obsproject/obs-studio/releases"
+        target: "_blank" # optional html a tag target attribute
+        
       - name: "OBS Studio Nightly Builds"
         logo: "assets/tools/obs.png"
         subtitle: "Nightly builds (download artifacts)"
         url: "https://github.com/obsproject/obs-studio/actions"
-        target: "_blank" # optional html a tag target attribute
-        
-      - name: "OBS Studio"
-        logo: "assets/tools/obs.png"
-        subtitle: "unofficial builds"
-        url: "https://github.com/tommyvct/obs-studio/releases"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Camo Studio"
@@ -718,6 +724,12 @@ services:
         url: "https://apps.microsoft.com/detail/9nbdxk71nk08"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "Discord Canary Build"
+        logo: "assets/tools/discord.png"
+        subtitle: "Voice and text chat with friends"
+        url: "https://canary.discord.com/api/downloads/distributions/app/installers/latest?channel=development&platform=win&arch=arm64"
+        target: "_blank" # optional html a tag target attribute
+        
       - name: "LegCord"
         logo: "assets/tools/legcord.png"
         subtitle: "Third-Party Discord"
