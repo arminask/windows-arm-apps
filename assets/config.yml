@@ -3088,7 +3088,13 @@ services:
         logo: "assets/tools/docker.png"
         url: "https://www.docker.com/products/docker-desktop/"
         target: "_blank"
-
+        
+      - name: "VirtualBox 7.2.0 BETA1"
+        logo: "assets/tools/virtualbox.png"
+        subtitle: "Beta version"
+        url: "https://download.virtualbox.org/virtualbox/7.2.0_BETA1/VirtualBox-7.2.0_BETA1-169020-Win.exe"
+        target: "_blank"
+        
       - name: "DOSBox-X"
         logo: "assets/tools/dosbox.png"
         url: "https://github.com/joncampbell123/dosbox-x/releases"
