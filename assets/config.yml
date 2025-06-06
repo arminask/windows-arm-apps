@@ -727,6 +727,13 @@ services:
       - name: "Discord Canary Build"
         logo: "assets/tools/discord.png"
         subtitle: "Voice and text chat with friends"
+        tag: "More stable than Development"
+        url: "https://canary.discord.com/api/downloads/distributions/app/installers/latest?channel=canary&platform=win&arch=arm64"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Discord Development Build"
+        logo: "assets/tools/discord.png"
+        subtitle: "Voice and text chat with friends"
         url: "https://canary.discord.com/api/downloads/distributions/app/installers/latest?channel=development&platform=win&arch=arm64"
         target: "_blank" # optional html a tag target attribute
         
