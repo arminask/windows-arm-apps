@@ -725,14 +725,14 @@ services:
         target: "_blank" # optional html a tag target attribute
 
       - name: "Discord Canary Build"
-        logo: "assets/tools/discord.png"
+        logo: "assets/tools/discordcanary.png"
         subtitle: "Voice and text chat with friends"
         tag: "More stable than Development"
         url: "https://canary.discord.com/api/downloads/distributions/app/installers/latest?channel=canary&platform=win&arch=arm64"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Discord Development Build"
-        logo: "assets/tools/discord.png"
+        logo: "assets/tools/discorddevelopment.png"
         subtitle: "Voice and text chat with friends"
         url: "https://canary.discord.com/api/downloads/distributions/app/installers/latest?channel=development&platform=win&arch=arm64"
         target: "_blank" # optional html a tag target attribute
@@ -828,6 +828,11 @@ services:
         url: "https://www.hamrick.com/alternate-versions.html"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "NAPS2 - Not Another PDF Scanner"
+        logo: "assets/tools/naps.png"
+        url: "https://github.com/cyanfish/naps2/releases"
+        target: "_blank" # optional html a tag target attribute
+        
       - name: "ImageMagick"
         logo: "assets/tools/imagemagick.png"
         url: "https://imagemagick.org/script/download.php#windows"
