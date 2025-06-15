@@ -3111,6 +3111,12 @@ services:
         subtitle: "Vulnerability scanner"
         url: "https://github.com/google/osv-scanner/releases"
 
+      - name: "ecode"
+        logo: "assets/tools/ecode.png"
+        subtitle: "Lightweight multi-platform code editor with a focus on responsiveness and performance."
+        url: "https://github.com/SpartanJ/ecode/releases"
+        target: "_blank" # optional html a tag target attribute
+
   - name: "Emulation & Virtualization"
     icon: "fa-solid fa-microchip"
     items:
