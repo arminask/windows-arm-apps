@@ -628,6 +628,13 @@ services:
         url: "https://github.com/dragonflylee/switchfin/releases/latest"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "FxSound"
+        logo: "assets/tools/fxsound.png"
+        subtitle: "Free open-source software to boost sound quality, volume, and bass."
+        tag: "Beta"
+        url: "https://www.fxsound.com"
+        target: "_blank"
+
   - name: "Social"
     icon: "fa-solid fa-message"
     items:
@@ -3128,13 +3135,6 @@ services:
         subtitle: "Firebird is a relational database offering many ANSI SQL standard features that runs on Linux, Windows, and a variety of Unix platforms."
         tag: "6.0 Alpha Build"
         url: "https://github.com/FirebirdSQL/snapshots/releases/tag/snapshot-master"
-        target: "_blank"
-
-      - name: "FxSound"
-        logo: "assets/tools/fxsound.png"
-        subtitle: "Free open-source software to boost sound quality, volume, and bass."
-        tag: "Beta"
-        url: "https://www.fxsound.com"
         target: "_blank"
 
   - name: "Emulation & Virtualization"
