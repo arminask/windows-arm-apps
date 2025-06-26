@@ -1353,7 +1353,13 @@ services:
         subtitle: "Native mail client for Windows device families."
         url: "https://apps.microsoft.com/detail/Wino%20Mail/9NCRCVJC50WL?launch=true&mode=full"
         target: "_blank" # optional html a tag target attribute
-        
+
+      - name: "Mozilla Thunderbird"
+        logo: "assets/tools/thunderbird.png"
+        subtitle: "Unofficial Build. Email client, PIM, calendar, and contactbook"
+        url: "https://zebra.ddscentral.org/pub/downloads/thunderbird-arm64/"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "Zotero"
         logo: "assets/tools/zotero.png"
         tag: "Purchases"
@@ -2531,12 +2537,6 @@ services:
         logo: "assets/tools/localtonet.png"
         subtitle: "Reverse proxy for exposing localhost services"
         url: "https://localtonet.com/download"
-        target: "_blank" # optional html a tag target attribute
-
-      - name: "Mozilla Thunderbird"
-        logo: "assets/tools/thunderbird.png"
-        subtitle: "Unofficial Build. Email client, PIM, calendar, and contactbook"
-        url: "https://zebra.ddscentral.org/pub/downloads/thunderbird-arm64/"
         target: "_blank" # optional html a tag target attribute
 
   - name: "Coding"
