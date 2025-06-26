@@ -2545,6 +2545,12 @@ services:
         url: "https://localtonet.com/download"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "Sniffnet"
+        logo: "assets/tools/sniffnet.png"
+        subtitle: "unofficial builds - RComfortably monitor your Internet traffic"
+        url: "https://github.com/iKineticate/Windows-ARM64-Binaries/releases/tag/Sniffnet"
+        target: "_blank" # optional html a tag target attribute
+
   - name: "Coding"
     icon: "fa-solid fa-code"
     items:
