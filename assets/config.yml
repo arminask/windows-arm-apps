@@ -1336,6 +1336,12 @@ services:
         url: "https://apps.microsoft.com/detail/9mspc6mp8fm4"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "Xmind"
+        logo: "assets/tools/xmind.png"
+        subtitle: "the full-featured mind mapping and brainstorming app."
+        url: "https://apps.microsoft.com/detail/XPFFBJ2C6B1JGR"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "draw.io"
         logo: "assets/tools/drawio.png"
         subtitle: "a diagramming and whiteboarding desktop app"
