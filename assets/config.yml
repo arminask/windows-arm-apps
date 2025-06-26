@@ -1018,6 +1018,12 @@ services:
         url: "https://www.figma.com/downloads/"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "Gowall"
+        logo: "assets/tools/gowall.png"
+        subtitle: "convert an image to any color-scheme / palette you like"
+        url: "https://github.com/Achno/gowall/releases"
+        target: "_blank" # optional html a tag target attribute
+
   - name: "Design"
     icon: "fa-solid fa-cube"
     items:
@@ -1336,6 +1342,12 @@ services:
         url: "https://apps.microsoft.com/detail/9mspc6mp8fm4"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "Xmind"
+        logo: "assets/tools/xmind.png"
+        subtitle: "the full-featured mind mapping and brainstorming app."
+        url: "https://apps.microsoft.com/detail/XPFFBJ2C6B1JGR"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "draw.io"
         logo: "assets/tools/drawio.png"
         subtitle: "a diagramming and whiteboarding desktop app"
@@ -1353,7 +1365,13 @@ services:
         subtitle: "Native mail client for Windows device families."
         url: "https://apps.microsoft.com/detail/Wino%20Mail/9NCRCVJC50WL?launch=true&mode=full"
         target: "_blank" # optional html a tag target attribute
-        
+
+      - name: "Mozilla Thunderbird"
+        logo: "assets/tools/thunderbird.png"
+        subtitle: "Unofficial Build. Email client, PIM, calendar, and contactbook"
+        url: "https://zebra.ddscentral.org/pub/downloads/thunderbird-arm64/"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "Zotero"
         logo: "assets/tools/zotero.png"
         tag: "Purchases"
@@ -2533,10 +2551,10 @@ services:
         url: "https://localtonet.com/download"
         target: "_blank" # optional html a tag target attribute
 
-      - name: "Mozilla Thunderbird"
-        logo: "assets/tools/thunderbird.png"
-        subtitle: "Unofficial Build. Email client, PIM, calendar, and contactbook"
-        url: "https://zebra.ddscentral.org/pub/downloads/thunderbird-arm64/"
+      - name: "Sniffnet"
+        logo: "assets/tools/sniffnet.png"
+        subtitle: "unofficial builds - RComfortably monitor your Internet traffic"
+        url: "https://github.com/iKineticate/Windows-ARM64-Binaries/releases/tag/Sniffnet"
         target: "_blank" # optional html a tag target attribute
 
   - name: "Coding"
@@ -5158,6 +5176,12 @@ services:
         logo: "assets/tools/anthropic-claude.png"
         subtitle: "The AI assistant by Anthropic"
         url: "https://claude.ai/download"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "豆包"
+        logo: "assets/tools/doubao.png"
+        subtitle: "Desktop AI Assistant"
+        url: "https://www.doubao.com/download/desktop"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Cursor"
