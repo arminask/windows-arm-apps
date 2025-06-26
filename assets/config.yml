@@ -1018,6 +1018,12 @@ services:
         url: "https://www.figma.com/downloads/"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "Gowall"
+        logo: "assets/tools/gowall.png"
+        subtitle: "convert an image to any color-scheme / palette you like"
+        url: "https://github.com/Achno/gowall/releases"
+        target: "_blank" # optional html a tag target attribute
+
   - name: "Design"
     icon: "fa-solid fa-cube"
     items:
