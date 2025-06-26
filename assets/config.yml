@@ -5166,6 +5166,12 @@ services:
         url: "https://claude.ai/download"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "豆包"
+        logo: "assets/tools/doubao.png"
+        subtitle: "Desktop AI Assistant"
+        url: "https://www.doubao.com/download/desktop"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "Cursor"
         logo: "assets/tools/cursor.png"
         subtitle: "The AI Code Editor"
