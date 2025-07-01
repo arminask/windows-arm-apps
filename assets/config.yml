@@ -4282,16 +4282,22 @@ services:
         url: "https://github.com/drhelius/Gearboy/releases"
         target: "_blank" # optional html a tag target attribute
 
-      - name: "MegaBoy"
-        logo: "assets/tools/clionly.png"
-        subtitle: "Unofficial build, Game Boy / Gameboy Color emulator"
-        url: "https://github.com/tordona/MegaBoy/releases"
-        target: "_blank" # optional html a tag target attribute
-        
       - name: "Gearsystem"
         logo: "assets/tools/clionly.png"
         subtitle: "Master System / Game Gear / SG-1000 emulator and debugger"
         url: "https://github.com/drhelius/Gearsystem/releases"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Geargrafx"
+        logo: "assets/tools/clionly.png"
+        subtitle: "PC Engine / TurboGrafx-16 / SuperGrafx / PCE CD-ROM² emulator and debugger"
+        url: "https://github.com/drhelius/Geargrafx/releases"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "MegaBoy"
+        logo: "assets/tools/clionly.png"
+        subtitle: "Unofficial build, Game Boy / Gameboy Color emulator"
+        url: "https://github.com/tordona/MegaBoy/releases"
         target: "_blank" # optional html a tag target attribute
 
       - name: "BigPEmu"
