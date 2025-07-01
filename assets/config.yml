@@ -3155,6 +3155,12 @@ services:
         url: "https://github.com/FirebirdSQL/snapshots/releases/tag/snapshot-master"
         target: "_blank"
 
+      - name: "Fluent Bit"
+        logo: "assets/tools/fluentbit.png"
+        subtitle: "Fluent Bit is a fast and lightweight telemetry agent for logs, metrics, and traces."
+        url: "https://docs.fluentbit.io/manual/installation/windows"
+        target: "_blank"
+
   - name: "Emulation & Virtualization"
     icon: "fa-solid fa-microchip"
     items:
