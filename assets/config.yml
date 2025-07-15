@@ -2381,6 +2381,12 @@ services:
         url: "https://github.com/GopeedLab/gopeed/releases"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "Gopeed(Fluent)"
+        logo: "assets/tools/gopeed.png"
+        subtitle: "unofficial builds /a high-speed downloader developed"
+        url: "https://github.com/Minessential/gopeed-fluent/releases"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "aMule"
         logo: "assets/tools/amule.png"
         tag: "ARM32"
