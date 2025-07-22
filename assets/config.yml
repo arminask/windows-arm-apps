@@ -1031,6 +1031,12 @@ services:
         url: "https://github.com/Achno/gowall/releases"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "Inkeys"
+        logo: "assets/tools/Inkeys.png"
+        subtitle: "excellent open-source screen annotation"
+        url: "https://github.com/Alan-CRL/Inkeys/releases"
+        target: "_blank" # optional html a tag target attribute
+
   - name: "Design"
     icon: "fa-solid fa-cube"
     items:
