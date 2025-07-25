@@ -2049,6 +2049,12 @@ services:
         url: "https://github.com/moonlight-stream/moonlight-qt/releases/latest"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "deskflow"
+        logo: "assets/tools/deskflow.png"
+        subtitle: "Share a single keyboard and mouse between multiple computers."
+        url: "https://github.com/deskflow/deskflow/releases"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "LocalSend(Fluent)"
         logo: "assets/tools/localsend.png"
         subtitle: "unofficial builds / securely share files and messages with nearby devices over your local network without needing an internet connection."
