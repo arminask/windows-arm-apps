@@ -1631,24 +1631,6 @@ services:
         url: "https://apps.microsoft.com/detail/9N965R0G2SND"
         target: "_blank" # optional html a tag target attribute
 
-      - name: "WindSend"
-        logo: "assets/tools/windsend.png"
-        subtitle: "sync clipboard, transfer files and directories between"
-        url: "https://github.com/doraemonkeys/WindSend/releases"
-        target: "_blank" # optional html a tag target attribute
-
-      - name: "LocalSend(Fluent)"
-        logo: "assets/tools/localsend.png"
-        subtitle: "unofficial builds / securely share files and messages with nearby devices over your local network without needing an internet connection."
-        url: "https://github.com/Minessential/localsend_fluent/releases"
-        target: "_blank" # optional html a tag target attribute
-
-      - name: "qrcp"
-        logo: "assets/tools/qrcp.png"
-        subtitle: "Transfer files over wifi from your computer to your mobile device by scanning a QR code without leaving the terminal."
-        url: "https://github.com/claudiodangelis/qrcp/releases"
-        target: "_blank" # optional html a tag target attribute
-
       - name: "Ditto"
         logo: "assets/tools/Ditto.png"
         subtitle: "unofficial builds / windows clipboard"
@@ -1665,12 +1647,6 @@ services:
         logo: "assets/tools/ecopaste.png"
         subtitle: "clipboard management tool"
         url: "https://github.com/EcoPasteHub/EcoPaste/releases"
-        target: "_blank"
-
-      - name: "Sefirah"
-        logo: "assets/tools/Sefirah.png"
-        subtitle: "Seamlessly connect your phone and PC to boost your productivity."
-        url: "https://apps.microsoft.com/detail/9PJV6D1JPG0H"
         target: "_blank"
 
       - name: "Pot"
@@ -1926,12 +1902,6 @@ services:
         subtitle: "Clone, Image, Backup and Restore Drives"
         url: "https://www.easyuefi.com/backup-software/backup-suite-free.html"
         target: "_blank"
-        
-      - name: "Lenovo Smart Connect"
-        logo: "assets/tools/smartconnect.png"
-        subtitle: "Pair Motorola / Lenovo smartphone, PC, and tablet"
-        url: "https://apps.microsoft.com/detail/xp8jrf5sxv03zm"
-        target: "_blank"
 
       - name: "GalaxyBudsClient"
         logo: "assets/tools/galaxybudsclient.png"
@@ -1961,12 +1931,6 @@ services:
         logo: "assets/tools/winimage.png"
         subtitle: "Fully-fledged disk-imaging suite"
         url: "https://www.winimage.com/download.htm"
-        target: "_blank"
-
-      - name: "SpaceDesk"
-        logo: "assets/tools/spacedesk.png"
-        subtitle: "Turns mobile devices, laptops and desktops into an additional extension display monitor"
-        url: "https://www.spacedesk.net/download/#server-driver"
         target: "_blank"
 
       - name: "Kermit 95"
@@ -2021,6 +1985,86 @@ services:
         logo: "assets/tools/clionly.png"
         subtitle: "A simple editor for simple needs"
         url: "https://github.com/microsoft/edit/releases"
+        target: "_blank" # optional html a tag target attribute
+
+  - name: "Cross-Device Integration"
+    icon: "fa-solid fa-circle-nodes"
+    items:
+      - name: "Phone Link"
+        logo: "assets/tools/phonelink.png"
+        url: "https://apps.microsoft.com/store/detail/phone-link/9NMPJ99VJBWV"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Lenovo Smart Connect"
+        logo: "assets/tools/smartconnect.png"
+        subtitle: "Pair Motorola / Lenovo smartphone, PC, and tablet"
+        url: "https://apps.microsoft.com/detail/xp8jrf5sxv03zm"
+        target: "_blank"
+
+      - name: "Sefirah"
+        logo: "assets/tools/Sefirah.png"
+        subtitle: "Seamlessly connect your phone and PC to boost your productivity."
+        url: "https://apps.microsoft.com/detail/9PJV6D1JPG0H"
+        target: "_blank"
+
+      - name: "Escrcpy"
+        logo: "assets/tools/Escrcpy.png"
+        subtitle: "display and control Android"
+        url: "https://github.com/viarotel-org/escrcpy/releases"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "SpaceDesk"
+        logo: "assets/tools/spacedesk.png"
+        subtitle: "Turns mobile devices, laptops and desktops into an additional extension display monitor"
+        url: "https://www.spacedesk.net/download/#server-driver"
+        target: "_blank"
+
+      - name: "Devolutions Remote Desktop Manager"
+        logo: "assets/tools/devolutionsrdm.png"
+        subtitle: "Centralizes all remote connections on a single platform"
+        url: "https://devolutions.net/remote-desktop-manager/"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "MeshCentral"
+        logo: "assets/tools/meshcentral.png"
+        subtitle: "web site for remote device management"
+        url: "https://meshcentral.com/downloads.html"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "RealVNC"
+        logo: "assets/tools/realvnc.png"
+        subtitle: "unofficial builds, Remote control tool"
+        url: "https://github.com/medav/realvnc-arm64/releases/tag/final"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "向日葵远程控制 Sunlogin remotecontrol"
+        logo: "assets/tools/sunlogin.png"
+        subtitle: "向日葵远程控制 Sunlogin remote control app"
+        url: "https://sunlogin.oray.com/download"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Moonlight Client"
+        logo: "assets/tools/moonlight.png"
+        subtitle: "remote & local game streaming"
+        url: "https://github.com/moonlight-stream/moonlight-qt/releases/latest"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "LocalSend(Fluent)"
+        logo: "assets/tools/localsend.png"
+        subtitle: "unofficial builds / securely share files and messages with nearby devices over your local network without needing an internet connection."
+        url: "https://github.com/Minessential/localsend_fluent/releases"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "WindSend"
+        logo: "assets/tools/windsend.png"
+        subtitle: "sync clipboard, transfer files and directories between"
+        url: "https://github.com/doraemonkeys/WindSend/releases"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "qrcp"
+        logo: "assets/tools/qrcp.png"
+        subtitle: "Transfer files over wifi from your computer to your mobile device by scanning a QR code without leaving the terminal."
+        url: "https://github.com/claudiodangelis/qrcp/releases"
         target: "_blank" # optional html a tag target attribute
 
   - name: "VPN"
@@ -2220,18 +2264,6 @@ services:
       - name: "PuTTY"
         logo: "assets/tools/putty.png"
         url: "https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html"
-        target: "_blank" # optional html a tag target attribute
-
-      - name: "MeshCentral"
-        logo: "assets/tools/meshcentral.png"
-        subtitle: "web site for remote device management"
-        url: "https://meshcentral.com/downloads.html"
-        target: "_blank" # optional html a tag target attribute
-
-      - name: "Devolutions Remote Desktop Manager"
-        logo: "assets/tools/devolutionsrdm.png"
-        subtitle: "Centralizes all remote connections on a single platform"
-        url: "https://devolutions.net/remote-desktop-manager/"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Natpass"
@@ -2534,22 +2566,10 @@ services:
         url: "https://github.com/mattermost/desktop/releases"
         target: "_blank" # optional html a tag target attribute
 
-      - name: "RealVNC"
-        logo: "assets/tools/realvnc.png"
-        subtitle: "unofficial builds, Remote control tool"
-        url: "https://github.com/medav/realvnc-arm64/releases/tag/final"
-        target: "_blank" # optional html a tag target attribute
-
       - name: "NatTypeTester"
         logo: "assets/tools/nattypetester.png"
         subtitle: "Test the NAT type of the current network"
         url: "https://github.com/HMBSbige/NatTypeTester/releases"
-        target: "_blank" # optional html a tag target attribute
-      
-      - name: "向日葵远程控制 Sunlogin remotecontrol"
-        logo: "assets/tools/sunlogin.png"
-        subtitle: "向日葵远程控制 Sunlogin remote control app"
-        url: "https://sunlogin.oray.com/download"
         target: "_blank" # optional html a tag target attribute
 
       - name: "UniFi WiFiman Desktop"
@@ -3908,17 +3928,6 @@ services:
         url: "https://github.com/chirontt/dbeaver/releases"
         target: "_blank" # optional html a tag target attribute
 
-      - name: "Phone Link"
-        logo: "assets/tools/phonelink.png"
-        url: "https://apps.microsoft.com/store/detail/phone-link/9NMPJ99VJBWV"
-        target: "_blank" # optional html a tag target attribute
-
-      - name: "Escrcpy"
-        logo: "assets/tools/Escrcpy.png"
-        subtitle: "display and control Android"
-        url: "https://github.com/viarotel-org/escrcpy/releases"
-        target: "_blank" # optional html a tag target attribute
-
       - name: "Uotan Toolbox NT"
         logo: "assets/tools/uotantoolboxnt.png"
         subtitle: "A Modern Toolbox for Geeks"
@@ -4777,12 +4786,6 @@ services:
         logo: "assets/tools/xbox.png"
         subtitle: "cloud game streaming"
         url: "https://apps.microsoft.com/detail/xbox/9MV0B5HZVK9Z"
-        target: "_blank" # optional html a tag target attribute
-
-      - name: "Moonlight Client"
-        logo: "assets/tools/moonlight.png"
-        subtitle: "remote & local game streaming"
-        url: "https://github.com/moonlight-stream/moonlight-qt/releases/latest"
         target: "_blank" # optional html a tag target attribute
 
       - name: "dgVoodoo"
