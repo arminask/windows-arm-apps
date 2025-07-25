@@ -388,6 +388,12 @@ services:
         url: "https://github.com/tordona/ffmpeg-win-arm64/releases"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "FFmpegFreeUI"
+        logo: "assets/tools/ffmpegfreeui.png"
+        subtitle: "Professional interactive UI for FFmpeg on Windows"
+        url: "https://github.com/Lake1059/FFmpegFreeUI/releases"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "Handbrake"
         logo: "assets/tools/handbrake.png"
         subtitle: "an open-source video transcoder"
