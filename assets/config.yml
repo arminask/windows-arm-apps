@@ -504,14 +504,8 @@ services:
 
       - name: "OBS Studio"
         logo: "assets/tools/obs.png"
-        subtitle: "Beta build, starting with 13.1.0 Beta 1"
+        subtitle: "Experimental"
         url: "https://github.com/obsproject/obs-studio/releases"
-        target: "_blank" # optional html a tag target attribute
-        
-      - name: "OBS Studio Nightly Builds"
-        logo: "assets/tools/obs.png"
-        subtitle: "Nightly builds (download artifacts)"
-        url: "https://github.com/obsproject/obs-studio/actions"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Camo Studio"
