@@ -1999,6 +1999,12 @@ services:
         url: "https://github.com/microsoft/edit/releases"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "Dell OS Recovery Tool"
+        logo: "assets/tools/dell-os-recovery.png"
+        subtitle: "Reinstall Windows on your Dell PC"
+        url: "https://www.dell.com/support/home/en-us/drivers/osiso/recoverytool"
+        target: "_blank" # optional html a tag target attribute
+
   - name: "Cross-Device Integration"
     icon: "fa-solid fa-circle-nodes"
     items:
@@ -3741,6 +3747,12 @@ services:
         url: "https://www.microsoft.com/en-us/microsoft-365/family-safety"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "KeePass"
+        logo: "assets/tools/keepass.png"
+        subtitle: "Free, open source, light-weight and easy-to-use password manager"
+        url: "https://keepass.info/download.html"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "KeePassXC"
         logo: "assets/tools/keepassxc.png"
         subtitle: "unofficial builds"
@@ -4159,6 +4171,13 @@ services:
         tag: "original emulator data needed"
         url: "https://github.com/mijk84/win-arm64-binaries/releases/tag/yabause"
         target: "_blank" # optional html a tag target attribute                
+
+      - name: "Ymir"
+        logo: "assets/tools/ymir.png"
+        subtitle: "Unofficial Build, Sega Saturn emulator"
+        tag: "original emulator data needed"
+        url: "https://github.com/tordona/Ymir/releases"
+        target: "_blank" # optional html a tag target attribute
 
       - name: "Citra"
         logo: "assets/tools/citra.png"
