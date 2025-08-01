@@ -3225,10 +3225,10 @@ services:
         url: "https://www.docker.com/products/docker-desktop/"
         target: "_blank"
         
-      - name: "VirtualBox 7.2.0 BETA2"
+      - name: "VirtualBox 7.2.0 RC1"
         logo: "assets/tools/virtualbox.png"
-        subtitle: "Beta version"
-        url: "https://download.virtualbox.org/virtualbox/7.2.0_BETA2/VirtualBox-7.2.0_BETA2-169371-Win.exe"
+        subtitle: "Release candidate"
+        url: "https://download.virtualbox.org/virtualbox/7.2.0_RC1/VirtualBox-7.2.0_RC1-169963-Win.exe"
         target: "_blank"
         
       - name: "DOSBox-X"
