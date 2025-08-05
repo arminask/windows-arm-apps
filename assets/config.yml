@@ -448,8 +448,8 @@ services:
 
       - name: "Audacity"
         logo: "assets/tools/audacity.png"
-        subtitle: "unofficial builds"
-        url: "https://github.com/henricj/audacity/releases/tag/latest-arm64"
+        subtitle: "Official beta builds"
+        url: "https://github.com/audacity/audacity/releases"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Awave Studio"
