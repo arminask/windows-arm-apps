@@ -449,7 +449,7 @@ services:
       - name: "Audacity"
         logo: "assets/tools/audacity.png"
         subtitle: "Official beta builds"
-        url: "https://github.com/audacity/audacity/releases"
+        url: "https://www.audacityteam.org/download/windows/"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Awave Studio"
@@ -3225,10 +3225,11 @@ services:
         url: "https://www.docker.com/products/docker-desktop/"
         target: "_blank"
         
-      - name: "VirtualBox 7.2.0 RC1"
+      - name: "VirtualBox"
         logo: "assets/tools/virtualbox.png"
-        subtitle: "Release candidate"
-        url: "https://download.virtualbox.org/virtualbox/7.2.0_RC1/VirtualBox-7.2.0_RC1-169963-Win.exe"
+        subtitle: "Open source general-purpose full virtualization software"
+        tag: "Installer detects architecture"
+        url: "https://www.virtualbox.org/wiki/Downloads"
         target: "_blank"
         
       - name: "DOSBox-X"
