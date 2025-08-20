@@ -2102,6 +2102,12 @@ services:
         url: "https://github.com/claudiodangelis/qrcp/releases"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "Sync Clipboard"
+        logo: "assets/tools/SyncClipboard.png"
+        subtitle: "Cross-Platform Cipboard Syncing Solution"
+        url: "https://github.com/Jeric-X/SyncClipboard/releases"
+        target: "_blank" # optional html a tag target attribute
+  
   - name: "VPN"
     icon: "fa-solid fa-globe"
     items:
