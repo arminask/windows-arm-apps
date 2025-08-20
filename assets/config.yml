@@ -2010,6 +2010,12 @@ services:
         url: "https://www.dell.com/support/home/en-us/drivers/osiso/recoverytool"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "LiveCaptions Translator"
+        logo: "assets/tools/LiveCaptionsTranslator.png"
+        subtitle: "real-time audio/speech translation tool based on Windows LiveCaptions."
+        url: "https://github.com/SakiRinn/LiveCaptions-Translator/releases"
+        target: "_blank" # optional html a tag target attribute
+
   - name: "Cross-Device Integration"
     icon: "fa-solid fa-circle-nodes"
     items:
