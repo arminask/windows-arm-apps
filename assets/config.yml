@@ -1549,12 +1549,6 @@ services:
         url: "https://github.com/bastengao/gncdu/releases"
         target: "_blank" # optional html a tag target attribute
 
-      - name: "Shell"
-        logo: "assets/tools/Shell.png"
-        subtitle: "Powerful context menu manager for Windows File Explorer"
-        url: "https://nilesoft.org/download"
-        target: "_blank" # optional html a tag target attribute
-
       - name: "Microsoft PowerToys"
         logo: "assets/tools/microsoftpowertoys.png"
         url: "https://apps.microsoft.com/store/detail/microsoft-powertoys/XP89DCGQ3K6VLD"
@@ -1890,6 +1884,12 @@ services:
         logo: "assets/tools/ulogviewer.png"
         subtitle: "Cross-platform universal log viewer"
         url: "https://carinastudio.azurewebsites.net/ULogViewer/"
+        target: "_blank"
+
+      - name: "Shell"
+        logo: "assets/tools/Shell.png"
+        subtitle: "Powerful context menu manager for Windows File Explorer"
+        url: "https://nilesoft.org/download"
         target: "_blank"
 
       - name: "Custom Context Menu"
