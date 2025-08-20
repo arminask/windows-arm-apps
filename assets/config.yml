@@ -1895,7 +1895,7 @@ services:
       - name: "Custom Context Menu"
         logo: "assets/tools/CustomContextMenu.png"
         subtitle: "Add Custom Context Menu For Windows 11"
-        url: "https://github.com/ikas-mc/ContextMenuForWindows11/releases"
+        url: "https://apps.microsoft.com/detail/9PC7BZZ28G0X"
         target: "_blank"
 
       - name: "Macrium Reflect X"
