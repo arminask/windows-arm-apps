@@ -5285,6 +5285,12 @@ services:
         url: "https://apps.microsoft.com/detail/9N9PN1MM3BD5"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "Vibe"
+        logo: "assets/tools/vibe.png"
+        subtitle: "Transcribe audio/video offline using OpenAI Whisper"
+        url: "https://github.com/thewh1teagle/vibe/releases"
+        target: "_blank" # optional html a tag target attribute
+
   - name: "Drivers"
     icon: "fa-solid fa-gears"
     items:
