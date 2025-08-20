@@ -2509,6 +2509,11 @@ services:
         url: "https://github.com/2dust/v2rayN/releases"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "Mihomo Party"
+        logo: "assets/tools/mihomoparty.png"
+        url: "https://github.com/mihomo-party-org/mihomo-party/releases"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "sing-box"
         logo: "assets/tools/singbox.png"
         url: "https://github.com/SagerNet/sing-box/releases"
