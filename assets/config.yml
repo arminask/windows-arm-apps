@@ -142,11 +142,6 @@ services:
         url: "https://vivaldi.com/download/?platform=windows"
         target: "_blank" # optional html a tag target attribute
 
-      - name: "Midori"
-        logo: "assets/tools/midori.png"
-        url: "https://astian.org/midori-browser/download/windows/"
-        target: "_blank" # optional html a tag target attribute
-
       - name: "Opera"
         logo: "assets/tools/opera.png"
         url: "https://www.opera.com/download"
