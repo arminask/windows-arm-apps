@@ -3036,6 +3036,12 @@ services:
         url: "https://www.dbvis.com/download/"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "ImHex"
+        logo: "assets/tools/imhex.png"
+        tag: "Nightly"
+        url: "https://github.com/WerWolv/ImHex/releases"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "Free Hex Editor Neo"
         logo: "assets/tools/FreeHexEditorNeo.png"
         url: "https://www.hhdsoftware.com/free-hex-editor"
