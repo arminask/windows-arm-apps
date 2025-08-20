@@ -3992,10 +3992,10 @@ services:
         url: "https://wiki.rocrail.net/rocrail-snapshot/"
         target: "_blank" # optional html a tag target attribute
 
-      - name: "RunCat"
+      - name: "RunCat 365"
         logo: "assets/tools/runcat.png"
         subtitle: "a cute running cat animation reflects CPU Utilization"
-        url: "https://github.com/Kyome22/RunCat_for_windows/releases"
+        url: "https://apps.microsoft.com/detail/9NW5LPNVWFWJ"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Ambie"
