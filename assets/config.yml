@@ -327,6 +327,11 @@ services:
         url: "https://github.com/lyswhut/lx-music-desktop/releases"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "Alger Music Player"
+        logo: "assets/tools/AlgerMusicPlayer.png"
+        url: "https://github.com/algerkong/AlgerMusicPlayer/releases"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "Listen 1"
         logo: "assets/tools/listen1.png"
         subtitle: "One for all free music in china"
