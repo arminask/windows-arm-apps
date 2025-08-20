@@ -1777,6 +1777,11 @@ services:
         url: "https://apps.microsoft.com/detail/9p4clcrv93dq" # URL to download the app
         target: "_blank"
 
+      - name: "OpenHashTab"
+        logo: "assets/tools/OpenHashTab.png"
+        url: "https://github.com/namazso/OpenHashTab/releases"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "Window Switcher" # App name
         logo: "assets/tools/windowswitcher.png" # App icon
         subtitle: "switch between windows of the same app."
