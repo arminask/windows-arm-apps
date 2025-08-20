@@ -142,11 +142,6 @@ services:
         url: "https://vivaldi.com/download/?platform=windows"
         target: "_blank" # optional html a tag target attribute
 
-      - name: "Midori"
-        logo: "assets/tools/midori.png"
-        url: "https://astian.org/midori-browser/download/windows/"
-        target: "_blank" # optional html a tag target attribute
-
       - name: "Opera"
         logo: "assets/tools/opera.png"
         url: "https://www.opera.com/download"
@@ -330,6 +325,11 @@ services:
         logo: "assets/tools/lx-music-desktop.png"
         subtitle: "A music app based on electron"
         url: "https://github.com/lyswhut/lx-music-desktop/releases"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Alger Music Player"
+        logo: "assets/tools/AlgerMusicPlayer.png"
+        url: "https://github.com/algerkong/AlgerMusicPlayer/releases"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Listen 1"
@@ -1554,12 +1554,6 @@ services:
         url: "https://github.com/bastengao/gncdu/releases"
         target: "_blank" # optional html a tag target attribute
 
-      - name: "Shell"
-        logo: "assets/tools/Shell.png"
-        subtitle: "Powerful context menu manager for Windows File Explorer"
-        url: "https://nilesoft.org/download"
-        target: "_blank" # optional html a tag target attribute
-
       - name: "Microsoft PowerToys"
         logo: "assets/tools/microsoftpowertoys.png"
         url: "https://apps.microsoft.com/store/detail/microsoft-powertoys/XP89DCGQ3K6VLD"
@@ -1783,6 +1777,11 @@ services:
         url: "https://apps.microsoft.com/detail/9p4clcrv93dq" # URL to download the app
         target: "_blank"
 
+      - name: "OpenHashTab"
+        logo: "assets/tools/OpenHashTab.png"
+        url: "https://github.com/namazso/OpenHashTab/releases"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "Window Switcher" # App name
         logo: "assets/tools/windowswitcher.png" # App icon
         subtitle: "switch between windows of the same app."
@@ -1897,10 +1896,21 @@ services:
         url: "https://carinastudio.azurewebsites.net/ULogViewer/"
         target: "_blank"
 
+      - name: "Shell"
+        logo: "assets/tools/Shell.png"
+        subtitle: "Powerful context menu manager for Windows File Explorer"
+        url: "https://nilesoft.org/download"
+        target: "_blank"
+
       - name: "Custom Context Menu"
         logo: "assets/tools/CustomContextMenu.png"
         subtitle: "Add Custom Context Menu For Windows 11"
-        url: "https://github.com/ikas-mc/ContextMenuForWindows11/releases"
+        url: "https://apps.microsoft.com/detail/9PC7BZZ28G0X"
+        target: "_blank"
+
+      - name: "Windows11 Context Menu Manager"
+        logo: "assets/tools/Windows11ContextMenuManager.png"
+        url: "https://github.com/branhill/windows-11-context-menu-manager/releases"
         target: "_blank"
 
       - name: "Macrium Reflect X"
@@ -2005,6 +2015,12 @@ services:
         url: "https://www.dell.com/support/home/en-us/drivers/osiso/recoverytool"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "LiveCaptions Translator"
+        logo: "assets/tools/LiveCaptionsTranslator.png"
+        subtitle: "real-time audio/speech translation tool based on Windows LiveCaptions."
+        url: "https://github.com/SakiRinn/LiveCaptions-Translator/releases"
+        target: "_blank" # optional html a tag target attribute
+
   - name: "Cross-Device Integration"
     icon: "fa-solid fa-circle-nodes"
     items:
@@ -2085,12 +2101,24 @@ services:
         url: "https://github.com/doraemonkeys/WindSend/releases"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "croc"
+        logo: "assets/tools/clionly.png"
+        subtitle: "any two computers to simply and securely transfer files and folders"
+        url: "https://github.com/schollz/croc/releases"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "qrcp"
         logo: "assets/tools/qrcp.png"
         subtitle: "Transfer files over wifi from your computer to your mobile device by scanning a QR code without leaving the terminal."
         url: "https://github.com/claudiodangelis/qrcp/releases"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "Sync Clipboard"
+        logo: "assets/tools/SyncClipboard.png"
+        subtitle: "Cross-Platform Cipboard Syncing Solution"
+        url: "https://github.com/Jeric-X/SyncClipboard/releases"
+        target: "_blank" # optional html a tag target attribute
+  
   - name: "VPN"
     icon: "fa-solid fa-globe"
     items:
@@ -2496,6 +2524,11 @@ services:
       - name: "v2rayN"
         logo: "assets/tools/v2rayN.png"
         url: "https://github.com/2dust/v2rayN/releases"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Mihomo Party"
+        logo: "assets/tools/mihomoparty.png"
+        url: "https://github.com/mihomo-party-org/mihomo-party/releases"
         target: "_blank" # optional html a tag target attribute
 
       - name: "sing-box"
@@ -3023,6 +3056,12 @@ services:
         logo: "assets/tools/DbVisualizer.png"
         subtitle: "an advanced database manager"
         url: "https://www.dbvis.com/download/"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "ImHex"
+        logo: "assets/tools/imhex.png"
+        tag: "Nightly"
+        url: "https://github.com/WerWolv/ImHex/releases"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Free Hex Editor Neo"
@@ -3993,10 +4032,10 @@ services:
         url: "https://wiki.rocrail.net/rocrail-snapshot/"
         target: "_blank" # optional html a tag target attribute
 
-      - name: "RunCat"
+      - name: "RunCat 365"
         logo: "assets/tools/runcat.png"
         subtitle: "a cute running cat animation reflects CPU Utilization"
-        url: "https://github.com/Kyome22/RunCat_for_windows/releases"
+        url: "https://apps.microsoft.com/detail/9NW5LPNVWFWJ"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Ambie"
@@ -4120,6 +4159,12 @@ services:
         logo: "assets/tools/glance.png"
         subtitle: "A self-hosted dashboard that puts all your feeds in one place"
         url: "https://github.com/glanceapp/glance/releases"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "fusion"
+        logo: "assets/tools/fusion.png"
+        subtitle: "A lightweight, self-hosted friendly RSS reader"
+        url: "https://github.com/0x2E/fusion/releases"
         target: "_blank" # optional html a tag target attribute
 
       - name: "BASS"
@@ -5284,6 +5329,12 @@ services:
         logo: "assets/tools/AiDevGallery.png"
         subtitle: "integrate AI capabilities within their own apps and projects."
         url: "https://apps.microsoft.com/detail/9N9PN1MM3BD5"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Vibe"
+        logo: "assets/tools/vibe.png"
+        subtitle: "Transcribe audio/video offline using OpenAI Whisper"
+        url: "https://github.com/thewh1teagle/vibe/releases"
         target: "_blank" # optional html a tag target attribute
 
   - name: "Drivers"
