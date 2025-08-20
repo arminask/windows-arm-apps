@@ -1898,6 +1898,11 @@ services:
         url: "https://apps.microsoft.com/detail/9PC7BZZ28G0X"
         target: "_blank"
 
+      - name: "Windows11 Context Menu Manager"
+        logo: "assets/tools/Windows11ContextMenuManager.png"
+        url: "https://github.com/branhill/windows-11-context-menu-manager/releases"
+        target: "_blank"
+
       - name: "Macrium Reflect X"
         logo: "assets/tools/macriumreflect.png"
         subtitle: "Clone, Image, Backup and Restore Drives"
