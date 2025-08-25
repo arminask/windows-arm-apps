@@ -4991,6 +4991,7 @@ services:
 
       - name: "World of Warcraft"
         logo: "assets/tools/worldofwarcraft.png"
+        tag: "ARM version does not work in China"
         url: "https://worldofwarcraft.blizzard.com/"
         target: "_blank" # optional html a tag target attribute
 
