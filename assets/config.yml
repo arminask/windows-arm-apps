@@ -1098,6 +1098,12 @@ services:
         url: "https://github.com/logisim-evolution/logisim-evolution/releases"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "Adobe Creative Cloud Desktop"
+        logo: "assets/tools/AdobeCCDesktop.png"
+        subtitle: "Creative Cloud for desktop is a great place to start any creative project. Quickly launch and update your desktop apps. Manage and share assets stored in Creative Cloud."
+        url: "https://www.adobe.com/creativecloud/desktop-app.html"
+        target: "_blank" # optional html a tag target attribute
+
   - name: "Compression"
     icon: "fa-solid fa-file-zipper"
     items:
@@ -4900,13 +4906,6 @@ services:
         url: "https://www.minecraft.net/download"
         target: "_blank" # optional html a tag target attribute
 
-      - name: "Minecraft"
-        logo: "assets/tools/Minecraft.png"
-        tag: "Purchases,ARM32"
-        subtitle: "Bedrock"
-        url: "https://apps.microsoft.com/detail/9NBLGGH2JHXJ"
-        target: "_blank" # optional html a tag target attribute
-
       - name: "HMCL"
         logo: "assets/tools/HMCL.png"
         subtitle: "A Minecraft Launcher"
@@ -4992,6 +4991,7 @@ services:
 
       - name: "World of Warcraft"
         logo: "assets/tools/worldofwarcraft.png"
+        tag: "ARM version does not work in China"
         url: "https://worldofwarcraft.blizzard.com/"
         target: "_blank" # optional html a tag target attribute
 
