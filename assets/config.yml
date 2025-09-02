@@ -1961,6 +1961,12 @@ services:
         url: "https://www.winimage.com/download.htm"
         target: "_blank"
 
+      - name: "Arsenal Image Mounter"
+        logo: "assets/tools/aim-icon.png"
+        subtitle: "Mount disk images, create RAMdisk and many more"
+        url: "https://arsenalrecon.com/products/arsenal-image-mounter"
+        target: "_blank"
+
       - name: "Kermit 95"
         logo: "assets/tools/kermit.png"
         subtitle: "Network and serial communication package for Kermit protocol"
