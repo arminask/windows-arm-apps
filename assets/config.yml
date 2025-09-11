@@ -466,8 +466,8 @@ services:
 
       - name: "Kodi"
         logo: "assets/tools/kodi.png"
-        tag: "ARM32"
-        url: "https://mirrors.kodi.tv/nightlies/windows/uwp-arm/Omega/"
+        subtitle: "Nightly Alpha Builds"
+        url: "https://mirrors.kodi.tv/nightlies/windows/winarm64/master/"
         target: "_blank" # optional html a tag target attribute
 
       - name: "DVDForge"
@@ -4232,9 +4232,9 @@ services:
 
       - name: "Ymir"
         logo: "assets/tools/ymir.png"
-        subtitle: "Unofficial Build, Sega Saturn emulator"
+        subtitle: "Sega Saturn emulator"
         tag: "original emulator data needed"
-        url: "https://github.com/tordona/Ymir/releases"
+        url: "https://github.com/StrikerX3/Ymir/releases"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Citra"
