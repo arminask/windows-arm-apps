@@ -2206,7 +2206,7 @@ services:
         url: "https://my.f5.com/manage/s/"
         target: "_blank" # optional html a tag target attribute
 
-      - name: "Surfshark"
+      - name: "Surfshark VPN"
         logo: "assets/tools/surfshark.png"
         subtitle: "VPN Client."
         url: "https://surfshark.com/download/windows"
@@ -3858,6 +3858,12 @@ services:
         subtitle: "Excluding VPN"
         url: "https://www.f-secure.com/en/total"
         target: "_blank" # optional html a tag target attribute
+  
+      - name: "Surfshark AV"
+        logo: "assets/tools/surfshark.png"
+        subtitle: "Surfshark antivirus"
+        url: "https://surfshark.com/antivirus"
+        target: "_blank" # optional html a tag target attribute  
 
   - name: "Theme & Styles"
     icon: "fa-solid fa-brush"
