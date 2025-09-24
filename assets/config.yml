@@ -206,6 +206,11 @@ services:
         url: "https://sourceforge.net/projects/sacddecoder/files/macOS%20%2BWindows/foo_input_udsd/"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "Boom Audio Player"
+        logo: "assets/tools/boomaudioplayer.png"
+        url: "https://www.foobar2000.org/other/boom"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "PlanetMusicPlayer"
         logo: "assets/tools/planetmusicplayer.png"
         url: "https://github.com/Pigeon-Ming/CorePlanetMusicPlayer/releases"
@@ -986,8 +991,8 @@ services:
 
       - name: "Pinta"
         logo: "assets/tools/pinta.png"
-        subtitle: "unofficial builds"
-        url: "https://github.com/tordona/pinta/releases"
+        subtitle: "Beta release"
+        url: "https://github.com/PintaProject/Pinta/releases/tag/3.1-beta1"
         target: "_blank" # optional html a tag target attribute
 
       - name: "PixelViewer"
