@@ -736,6 +736,13 @@ services:
         url: "https://apps.microsoft.com/detail/9nbdxk71nk08"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "Discord"
+        logo: "assets/tools/discord.png"
+        subtitle: "Voice and text chat with friends"
+        tag: "Stable channel build"
+        url: "https://canary.discord.com/api/downloads/distributions/app/installers/latest?channel=stable&platform=win&arch=arm64"
+        target: "_blank" # optional html a tag target attribute
+        
       - name: "Discord PTB (Public Test Build)"
         logo: "assets/tools/discord.png"
         subtitle: "Voice and text chat with friends"
