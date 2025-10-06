@@ -4414,6 +4414,12 @@ services:
         subtitle: "Master System / Game Gear / SG-1000 emulator and debugger"
         url: "https://github.com/drhelius/Gearsystem/releases"
         target: "_blank" # optional html a tag target attribute
+        
+      - name: "Gearlynx"
+        logo: "assets/tools/clionly.png"
+        subtitle: "Atari Lynx emulator"
+        url: "https://github.com/drhelius/Gearlynx/releases"
+        target: "_blank" # optional html a tag target attribute
 
       - name: "Geargrafx"
         logo: "assets/tools/clionly.png"
