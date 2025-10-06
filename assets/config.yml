@@ -4286,20 +4286,6 @@ services:
         subtitle: "Multi system emulator, nightly builds (download as artifact)"
         url: "https://github.com/mamedev/mame/actions/workflows/ci-windows.yml"
         target: "_blank" # optional html a tag target attribute
-        
-      - name: "RetroArch"
-        logo: "assets/tools/RetroArch.png"
-        subtitle: "Unofficial builds, multi console emulator"
-        tag: "ARM32"
-        url: "https://github.com/basharast/RetroArch-ARM/releases"
-        target: "_blank" # optional html a tag target attribute
-
-      - name: "RetriXGold"
-        logo: "assets/tools/retrixgold.png"
-        subtitle: "Universal Libretro Frontend"
-        tag: "ARM32"
-        url: "https://github.com/basharast/RetrixGold/releases"
-        target: "_blank" # optional html a tag target attribute
 
       - name: "DuckStation"
         logo: "assets/tools/duckstation.png"
@@ -4522,6 +4508,20 @@ services:
         logo: "assets/tools/libretro.png"
         subtitle: "Unofficial build"
         url: "https://github.com/tordona/win-arm64-libretro/releases"
+        target: "_blank" # optional html a tag target attribute
+        
+      - name: "RetroArch"
+        logo: "assets/tools/RetroArch.png"
+        subtitle: "Unofficial builds, multi console emulator"
+        tag: "ARM32"
+        url: "https://github.com/basharast/RetroArch-ARM/releases"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "RetriXGold"
+        logo: "assets/tools/retrixgold.png"
+        subtitle: "Universal Libretro Frontend"
+        tag: "ARM32"
+        url: "https://github.com/basharast/RetrixGold/releases"
         target: "_blank" # optional html a tag target attribute
         
   - name: "Games"
