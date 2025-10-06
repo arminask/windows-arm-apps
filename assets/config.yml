@@ -4529,6 +4529,13 @@ services:
         tag: "ARM32"
         url: "https://github.com/basharast/RetrixGold/releases"
         target: "_blank" # optional html a tag target attribute
+
+      - name: "Simple Launcher"
+        logo: "assets/tools/simplelauncher.png"
+        subtitle: "an emulator frontend"
+        tag: "Ordo et structura ROMae"
+        url: "https://github.com/drpetersonfernandes/SimpleLauncher/releases"
+        target: "_blank" # optional html a tag target attribute
         
   - name: "Games"
     icon: "fa-solid fa-gamepad"
