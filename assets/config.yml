@@ -4218,22 +4218,16 @@ services:
         url: "https://store.kde.org/p/2148094/"
         target: "_blank" # optional html a tag target attribute
 
-      - name: "Ryujinx"
-        logo: "assets/tools/ryujinx-rainbow.png"
-        subtitle: "unofficial build, Switch emulator"
-        url: "http://mikahintz.de/fileDownload.php"
-        target: "_blank" # optional html a tag target attribute
-
-      - name: "Ryujinx KTB"
-        logo: "assets/tools/ryujinx-ktb.png"
-        subtitle: "semi-official builds of KeatonTheBot's fork, Switch emulator"   
-        url: "https://github.com/KeatonTheBot/Ryujinx/releases"
+      - name: "Kenji-NX"
+        logo: "assets/tools/kenjinx.png"
+        subtitle: "a fork of Ryujinx, Switch emulator"   
+        url: "https://git.ryujinx.app/kenji-nx/ryujinx/-/releases"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Ryubing"
         logo: "assets/tools/ryubing.png"
-        subtitle: "Canary Fork of Ryujinx, Switch emulator"   
-        url: "https://github.com/Ryubing/Canary-Releases/releases"
+        subtitle: "another fork of Ryujinx, Switch emulator"   
+        url: "https://git.ryujinx.app/groups/ryubing/-/packages/208"
         target: "_blank" # optional html a tag target attribute
         
       - name: "Dolphin"
