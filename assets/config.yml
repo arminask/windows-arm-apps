@@ -640,6 +640,12 @@ services:
         url: "https://www.fxsound.com"
         target: "_blank"
 
+      - name: "YT-DLP"
+        logo: "assets/tools/ytdlp.png"
+        subtitle: "Feature-rich command-line audio/video downloader with support for thousands of sites."
+        url: "https://github.com/yt-dlp/yt-dlp/releases"
+        target: "_blank"
+        
   - name: "Social"
     icon: "fa-solid fa-message"
     items:
