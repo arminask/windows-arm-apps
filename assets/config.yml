@@ -3890,6 +3890,13 @@ services:
         url: "https://surfshark.com/antivirus"
         target: "_blank" # optional html a tag target attribute  
 
+      - name: "ClamAV"
+        logo: "assets/tools/clamav.png"
+        subtitle: "open source anti-virus toolkit"
+        tag: "command-line only"
+        url: "https://www.clamav.net/downloads#collapseWindowsproduction"
+        target: "_blank" # optional html a tag target attribute
+
   - name: "Theme & Styles"
     icon: "fa-solid fa-brush"
     items:
