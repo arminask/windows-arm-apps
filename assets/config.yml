@@ -5215,6 +5215,7 @@ services:
 
       - name: "Leela Chess Zero (Lc0)"
         logo: "assets/tools/Lc0.png"
+        subtitle: "neural network chess engine with GPU & NPU acceleration"        
         url: "https://github.com/ArminiusTux/WinARM64-binaries/releases/tag/Lc0"
         target: "_blank" # optional html a tag target attribute
 
