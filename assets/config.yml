@@ -4904,6 +4904,13 @@ services:
         url: "https://github.com/ArminiusTux/WinARM64-binaries/releases/tag/dhewm3"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "RBDOOM-3-BFG"
+        logo: "assets/tools/rbdoom3bfg.png"
+        subtitle: "Doom³ BFG Edition 2012 modernisation effort"
+        tag: "original game data needed"
+        url: "https://github.com/ArminiusTux/WinARM64-binaries/releases/tag/rbdoom3bfg"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "OpenMW"
         logo: "assets/tools/openmw.png"
         subtitle: "The Elder Scrolls III: Morrowind 2002 rejuvenation"
