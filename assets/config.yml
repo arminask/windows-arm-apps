@@ -4163,7 +4163,7 @@ services:
 
       - name: "MediaInfo"
         logo: "assets/tools/mediainfo.png"
-        subtitle: "Technical and tag data for video and audio files."
+        subtitle: "Technical and tag data for video and audio files"
         url: "https://mediaarea.net/en/MediaInfo/Download/Windows"
         target: "_blank" # optional html a tag target attribute
 
@@ -4172,6 +4172,12 @@ services:
         subtitle: "backup tool collection for optical media"
         tag: "only partially native"        
         url: "https://github.com/SabreTools/MPF/releases"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "redumper"
+        logo: "assets/tools/clionly.png"
+        subtitle: "a low-level CD dumper utility"
+        url: "https://github.com/superg/redumper/releases"
         target: "_blank" # optional html a tag target attribute
 
       - name: "USB Device Tree Viewer"
