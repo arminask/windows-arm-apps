@@ -5094,6 +5094,12 @@ services:
         url: "https://github.com/ArminiusTux/WinARM64-binaries/releases/tag/Stockfish"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "Nibbler"
+        logo: "assets/tools/nibbler.png"
+        subtitle: "alternative GUI for UCI engines with extra analysis for Lc0"
+        url: "https://github.com/ArminiusTux/WinARM64-binaries/releases/tag/Lc0"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "Obsidian"
         logo: "assets/tools/obsidian_chess.png"
         url: "https://github.com/ArminiusTux/WinARM64-binaries/releases/tag/ChessEngines"
