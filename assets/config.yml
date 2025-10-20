@@ -4295,8 +4295,8 @@ services:
 
       - name: "MAME"
         logo: "assets/tools/mame.png"
-        subtitle: "Multi system emulator, nightly builds (download as artifact)"
-        url: "https://github.com/mamedev/mame/actions/workflows/ci-windows.yml"
+        subtitle: "Multi system emulator"
+        url: "https://www.mamedev.org/release.html"
         target: "_blank" # optional html a tag target attribute
         
       - name: "RetroArch"
