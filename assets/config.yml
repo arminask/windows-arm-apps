@@ -3630,6 +3630,12 @@ services:
         url: "https://www.gpuscore.com/benchmarks/gpuscore/sacred-path"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "GPUScore: Breaking Limit"
+        logo: "assets/tools/gpuscore-bl.png"
+        tag: "ARM64EC"
+        url: "https://www.gpuscore.com/benchmarks/gpuscore/breaking-limit/"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "PassMark PerformanceTest"
         logo: "assets/tools/performancetest.png"
         url: "https://www.passmark.com/products/performancetest/download.php"
@@ -3889,6 +3895,13 @@ services:
         subtitle: "Surfshark antivirus"
         url: "https://surfshark.com/antivirus"
         target: "_blank" # optional html a tag target attribute  
+
+      - name: "ClamAV"
+        logo: "assets/tools/clamav.png"
+        subtitle: "open source anti-virus toolkit"
+        tag: "command-line only"
+        url: "https://www.clamav.net/downloads#collapseWindowsproduction"
+        target: "_blank" # optional html a tag target attribute
 
   - name: "Theme & Styles"
     icon: "fa-solid fa-brush"
@@ -4169,7 +4182,7 @@ services:
 
       - name: "MediaInfo"
         logo: "assets/tools/mediainfo.png"
-        subtitle: "Technical and tag data for video and audio files."
+        subtitle: "Technical and tag data for video and audio files"
         url: "https://mediaarea.net/en/MediaInfo/Download/Windows"
         target: "_blank" # optional html a tag target attribute
 
@@ -4178,6 +4191,12 @@ services:
         subtitle: "backup tool collection for optical media"
         tag: "only partially native"        
         url: "https://github.com/SabreTools/MPF/releases"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "redumper"
+        logo: "assets/tools/clionly.png"
+        subtitle: "a low-level CD dumper utility"
+        url: "https://github.com/superg/redumper/releases"
         target: "_blank" # optional html a tag target attribute
 
       - name: "USB Device Tree Viewer"
@@ -4224,22 +4243,16 @@ services:
         url: "https://store.kde.org/p/2148094/"
         target: "_blank" # optional html a tag target attribute
 
-      - name: "Ryujinx"
-        logo: "assets/tools/ryujinx-rainbow.png"
-        subtitle: "unofficial build, Switch emulator"
-        url: "http://mikahintz.de/fileDownload.php"
-        target: "_blank" # optional html a tag target attribute
-
-      - name: "Ryujinx KTB"
-        logo: "assets/tools/ryujinx-ktb.png"
-        subtitle: "semi-official builds of KeatonTheBot's fork, Switch emulator"   
-        url: "https://github.com/KeatonTheBot/Ryujinx/releases"
+      - name: "Kenji-NX"
+        logo: "assets/tools/kenjinx.png"
+        subtitle: "a fork of Ryujinx, Switch emulator"   
+        url: "https://git.ryujinx.app/kenji-nx/ryujinx/-/releases"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Ryubing"
         logo: "assets/tools/ryubing.png"
-        subtitle: "Canary Fork of Ryujinx, Switch emulator"   
-        url: "https://github.com/Ryubing/Canary-Releases/releases"
+        subtitle: "another fork of Ryujinx, Switch emulator"   
+        url: "https://git.ryujinx.app/groups/ryubing/-/packages/208"
         target: "_blank" # optional html a tag target attribute
         
       - name: "Dolphin"
@@ -4295,22 +4308,8 @@ services:
 
       - name: "MAME"
         logo: "assets/tools/mame.png"
-        subtitle: "Multi system emulator, nightly builds (download as artifact)"
-        url: "https://github.com/mamedev/mame/actions/workflows/ci-windows.yml"
-        target: "_blank" # optional html a tag target attribute
-        
-      - name: "RetroArch"
-        logo: "assets/tools/RetroArch.png"
-        subtitle: "Unofficial builds, multi console emulator"
-        tag: "ARM32"
-        url: "https://github.com/basharast/RetroArch-ARM/releases"
-        target: "_blank" # optional html a tag target attribute
-
-      - name: "RetriXGold"
-        logo: "assets/tools/retrixgold.png"
-        subtitle: "Universal Libretro Frontend"
-        tag: "ARM32"
-        url: "https://github.com/basharast/RetrixGold/releases"
+        subtitle: "renowned & venerable multi system emulator"
+        url: "https://www.mamedev.org/release.php"
         target: "_blank" # optional html a tag target attribute
 
       - name: "DuckStation"
@@ -4440,6 +4439,12 @@ services:
         subtitle: "Master System / Game Gear / SG-1000 emulator and debugger"
         url: "https://github.com/drhelius/Gearsystem/releases"
         target: "_blank" # optional html a tag target attribute
+        
+      - name: "Gearlynx"
+        logo: "assets/tools/clionly.png"
+        subtitle: "Atari Lynx emulator"
+        url: "https://github.com/drhelius/Gearlynx/releases"
+        target: "_blank" # optional html a tag target attribute
 
       - name: "Geargrafx"
         logo: "assets/tools/clionly.png"
@@ -4534,6 +4539,27 @@ services:
         logo: "assets/tools/libretro.png"
         subtitle: "Unofficial build"
         url: "https://github.com/tordona/win-arm64-libretro/releases"
+        target: "_blank" # optional html a tag target attribute
+        
+      - name: "RetroArch"
+        logo: "assets/tools/RetroArch.png"
+        subtitle: "Unofficial builds, multi console emulator"
+        tag: "ARM32"
+        url: "https://github.com/basharast/RetroArch-ARM/releases"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "RetriXGold"
+        logo: "assets/tools/retrixgold.png"
+        subtitle: "Universal Libretro Frontend"
+        tag: "ARM32"
+        url: "https://github.com/basharast/RetrixGold/releases"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Simple Launcher"
+        logo: "assets/tools/simplelauncher.png"
+        subtitle: "an emulator frontend"
+        tag: "Ordo et structura ROMae"
+        url: "https://github.com/drpetersonfernandes/SimpleLauncher/releases"
         target: "_blank" # optional html a tag target attribute
         
   - name: "Games"
@@ -4891,6 +4917,13 @@ services:
         url: "https://github.com/ArminiusTux/WinARM64-binaries/releases/tag/dhewm3"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "RBDOOM-3-BFG"
+        logo: "assets/tools/rbdoom3bfg.png"
+        subtitle: "Doom³ BFG Edition 2012 modernisation effort"
+        tag: "original game data needed"
+        url: "https://github.com/ArminiusTux/WinARM64-binaries/releases/tag/rbdoom3bfg"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "OpenMW"
         logo: "assets/tools/openmw.png"
         subtitle: "The Elder Scrolls III: Morrowind 2002 rejuvenation"
@@ -5074,6 +5107,12 @@ services:
         url: "https://github.com/ArminiusTux/WinARM64-binaries/releases/tag/Stockfish"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "Nibbler"
+        logo: "assets/tools/nibbler.png"
+        subtitle: "alternative GUI for UCI engines with extra analysis for Lc0"
+        url: "https://github.com/ArminiusTux/WinARM64-binaries/releases/tag/Lc0"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "Obsidian"
         logo: "assets/tools/obsidian_chess.png"
         url: "https://github.com/ArminiusTux/WinARM64-binaries/releases/tag/ChessEngines"
@@ -5178,6 +5217,12 @@ services:
       - name: "Patricia"
         logo: "assets/tools/patricia_chess.png"
         url: "https://github.com/ArminiusTux/WinARM64-binaries/releases/tag/ChessEngines"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Leela Chess Zero (Lc0)"
+        logo: "assets/tools/Lc0.png"
+        subtitle: "neural network chess engine with GPU & NPU acceleration"        
+        url: "https://github.com/ArminiusTux/WinARM64-binaries/releases/tag/Lc0"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Tucano"
