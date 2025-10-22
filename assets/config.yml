@@ -3293,6 +3293,12 @@ services:
         url: "https://docs.fluentbit.io/manual/installation/windows"
         target: "_blank"
 
+      - name: "Google OrTools ARM64 nuget package" # App name
+        logo: "assets/tools/ortools.png" # App icon
+        subtitle: "ARM64, unofficial build of Google.OrTools.runtime.win-arm64.9.14.6213.nupkg"
+        url: "https://github.com/fobrs/or-tools/releases/tag/v9.14" # URL to download the app
+        target: "_blank" # Opens the URL in a new tab
+
   - name: "Emulation & Virtualization"
     icon: "fa-solid fa-microchip"
     items:
