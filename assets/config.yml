@@ -942,22 +942,10 @@ services:
         url: "https://github.com/Tohrusky/Final2x/releases"
         target: "_blank" # optional html a tag target attribute
 
-      - name: "Affinity Designer"
-        logo: "assets/tools/affinity-designer.png"
-        subtitle: "vector graphics editor"
-        url: "https://affinity.serif.com/en-us/designer/"
-        target: "_blank" # optional html a tag target attribute
-
-      - name: "Affinity Photo"
-        logo: "assets/tools/affinity-photo.png"
-        subtitle: "raster graphics editor"
-        url: "https://affinity.serif.com/en-us/photo/"
-        target: "_blank" # optional html a tag target attribute
-
-      - name: "Affinity Publisher"
-        logo: "assets/tools/affinity-publisher.png"
-        subtitle: "page layout & design"
-        url: "https://affinity.serif.com/en-us/publisher/"
+      - name: "Affinity by Canva"
+        logo: "assets/tools/affinity.png"
+        subtitle: "Free graphic design, photo editing, and page layout and design editor"
+        url: "https://www.affinity.studio/"
         target: "_blank" # optional html a tag target attribute
 
       - name: "CapCut"
