@@ -158,6 +158,13 @@ services:
         url: "https://zen-browser.app/download/"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "Wavebox"
+        logo: "assets/tools/wavebox.png"
+        tag: "beta"       
+        subtitle: "Productivity browser that organizes web applications and tabs into dedicated workspaces"
+        url: "https://wavebox.io/download/beta"
+        target: "_blank" # optional html a tag target attribute
+        
   - name: "Media"
     icon: "fa-solid fa-photo-film"
     items:
@@ -1867,6 +1874,12 @@ services:
         url: "https://github.com/jenius-apps/nightingale-rest-api-client/releases"
         target: "_blank"
 
+      - name: "Postman"
+        logo: "assets/tools/postman.png"
+        subtitle: "REST API development tool"
+        url: "https://dl.pstmn.io/download/latest/windows_arm64"
+        target: "_blank"
+        
       - name: "PakePlus"
         logo: "assets/tools/PakePlus.png"
         subtitle: "Turn any webpage/Vue/React and so on into desktop and mobile app under 5M with easy in few minutes"
@@ -5486,6 +5499,12 @@ services:
         logo: "assets/tools/winfsp.png"
         subtitle: "Windows File System Proxy platform for custom file systems"
         url: "https://winfsp.dev/rel/"
+        target: "_blank" # optional html a tag target attribute
+        
+      - name: "Alternative A2DP Driver"
+        logo: "assets/tools/alternativea2dp.png"
+        subtitle: "Replaces Windows 10/11 inbox Bluetooth A2DP driver and allows you to fine-tune CODEC parameters"
+        url: "https://www.bluetoothgoodies.com/a2dp/"
         target: "_blank" # optional html a tag target attribute
 
   - name: "Printers"
