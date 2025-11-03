@@ -5488,6 +5488,12 @@ services:
         url: "https://winfsp.dev/rel/"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "Alternative A2DP Driver"
+        logo: "assets/tools/a2dp.png"
+        subtitle: "Paid Bluetooth A2DP driver with more codecs and allows you to fine-tune CODEC parameters."
+        url: "https://www.bluetoothgoodies.com/a2dp/"
+        target: "_blank" # optional html a tag target attribute
+        
   - name: "Printers"
     icon: "fa-solid fa-print"
     items:
