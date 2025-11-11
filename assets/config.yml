@@ -164,7 +164,13 @@ services:
         subtitle: "Productivity browser that organizes web applications and tabs into dedicated workspaces"
         url: "https://wavebox.io/download/beta"
         target: "_blank" # optional html a tag target attribute
-        
+
+      - name: "HackBrowserData"
+        logo: "assets/tools/hackbrowserdata.png"
+        subtitle: "Extract and decrypt browser data, supporting multiple data types, runnable on various operating systems"
+        url: "https://github.com/moonD4rk/HackBrowserData/releases"
+        target: "_blank" # optional html a tag target attribute
+
   - name: "Media"
     icon: "fa-solid fa-photo-film"
     items:
