@@ -5365,6 +5365,12 @@ services:
         url: "https://docs.nexa.ai/nexa-sdk-go/quickstart#windows-arm64"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "Foundry Local"
+        logo: "assets/tools/foundrylocal.png"
+        subtitle: "Run AI models locally on your device. Foundry Local provides on-device inference with complete data privacy, no Azure subscription required."
+        url: "https://www.foundrylocal.ai/"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "Netron"
         logo: "assets/tools/netron.png"
         subtitle: "Visualizer for neural network, deep learning and machine learning models"
