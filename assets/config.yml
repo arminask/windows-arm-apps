@@ -4040,6 +4040,12 @@ services:
         url: "https://www.coodesker.com/"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "Seelen-UI"
+        logo: "assets/tools/seelen.png"
+        subtitle: "Fully Customizable Desktop Environment"
+        url: "https://github.com/eythaann/Seelen-UI/releases"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "Cairo"
         logo: "assets/tools/cairo.png"
         url: "https://github.com/cairoshell/cairoshell/releases"
