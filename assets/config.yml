@@ -4022,6 +4022,12 @@ services:
         url: "https://github.com/glzr-io/zebar/releases"
         target: "_blank"
 
+      - name: "BeWidgets"
+        logo: "assets/tools/bewidgets.png"
+        subtitle: "Widgets that make your desktop shine. Modern, personal, effortless."
+        url: "https://apps.microsoft.com/detail/9nq07fg50h2q"
+        target: "_blank"
+
       - name: "MicaForEveryone"
         logo: "assets/tools/MicaForEveryone.png"
         subtitle: "enable backdrop effects on the title bars of Win32 apps on Windows 11."
