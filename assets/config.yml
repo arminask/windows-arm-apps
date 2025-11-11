@@ -194,6 +194,12 @@ services:
         url: "https://github.com/minnyres/mpv-windows-arm64/releases"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "Rodel Player (小幻影视)"
+        logo: "assets/tools/rodelplayer.png"
+        subtitle: "Player that supports Local/SMB/WebDAV/Emby/Jellyfin"
+        url: "https://apps.microsoft.com/detail/9nb0h051m4v4"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "Screenbox"
         logo: "assets/tools/screenbox.png"
         subtitle: "LibVLC-based media player for the Universal Windows Platform"
