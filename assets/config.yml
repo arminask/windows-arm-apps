@@ -3591,6 +3591,12 @@ services:
         url: "https://github.com/tordona/openMSX/releases"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "EMMA 02"
+        logo: "assets/tools/emma02.png"
+        subtitle: "RCA CDP 1802 Multi-system Emulator"
+        url: "https://www.emma02.hobby-site.com/download.html"
+        target: "_blank" # optional html a tag target attribute
+        
   - name: "Benchmarking & Diagnostics"
     icon: "fa-solid fa-stopwatch"
     items:
@@ -5424,6 +5430,12 @@ services:
         logo: "assets/tools/vibe.png"
         subtitle: "Transcribe audio/video offline using OpenAI Whisper"
         url: "https://github.com/thewh1teagle/vibe/releases"
+        target: "_blank" # optional html a tag target attribute
+        
+      - name: "NexaSDK"
+        logo: "assets/tools/nexa_sdk.png"
+        subtitle: "Developer toolkit for running any AI model locally — across NPUs, GPUs, and CPUs"
+        url: "https://github.com/NexaAI/nexa-sdk"
         target: "_blank" # optional html a tag target attribute
 
   - name: "Drivers"
