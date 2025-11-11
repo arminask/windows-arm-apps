@@ -2579,6 +2579,12 @@ services:
         url: "https://github.com/GUI-for-Cores/GUI.for.SingBox/releases"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "Throne"
+        logo: "assets/tools/throne.png"
+        subtitle: "Cross-platform GUI proxy utility (Empowered by sing-box)"
+        url: "https://github.com/throneproj/Throne/releases"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "Zen"
         logo: "assets/tools/zen.png"
         subtitle: "ad-blocker and privacy guard"
