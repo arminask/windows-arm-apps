@@ -652,7 +652,13 @@ services:
         subtitle: "Feature-rich command-line audio/video downloader with support for thousands of sites."
         url: "https://github.com/yt-dlp/yt-dlp/releases"
         target: "_blank"
-        
+     
+      - name: "OpenUtau"
+        logo: "assets/tools/openutau.png"
+        subtitle: "Open singing synthesis platform / Open source UTAU successor"
+        url: "https://github.com/stakira/OpenUtau/releases"
+        target: "_blank"
+
   - name: "Social"
     icon: "fa-solid fa-message"
     items:
