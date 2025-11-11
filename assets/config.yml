@@ -5358,7 +5358,13 @@ services:
         subtitle: "Run Llama 3.2, Phi 3, Mistral, Gemma 2, and other models. Customize and create your own."
         url: "https://ollama.com/"
         target: "_blank" # optional html a tag target attribute
-        
+
+      - name: "Nexa AI"
+        logo: "assets/tools/nexa.png"
+        subtitle: "Run the latest LLMs and VLMs across GPU, NPU, and CPU with PC"
+        url: "https://docs.nexa.ai/nexa-sdk-go/quickstart#windows-arm64"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "Netron"
         logo: "assets/tools/netron.png"
         subtitle: "Visualizer for neural network, deep learning and machine learning models"
