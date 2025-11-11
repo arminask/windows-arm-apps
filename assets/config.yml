@@ -2121,6 +2121,12 @@ services:
         url: "https://github.com/medav/realvnc-arm64/releases/tag/final"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "screego"
+        logo: "assets/tools/screego.png"
+        subtitle: "screen sharing for developers"
+        url: "https://github.com/screego/server/releases"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "向日葵远程控制 Sunlogin remotecontrol"
         logo: "assets/tools/sunlogin.png"
         subtitle: "向日葵远程控制 Sunlogin remote control app"
