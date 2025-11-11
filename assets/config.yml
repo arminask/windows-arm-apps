@@ -4241,6 +4241,11 @@ services:
         subtitle: "Audio library for use in software on several platforms"
         url: "https://www.un4seen.com/forum/?topic=20601"
 
+      - name: "DepotDownloader"
+        logo: "assets/tools/depotdownloader.png"
+        subtitle: "Steam depot downloader utilizing the SteamKit2 library."
+        url: "https://github.com/SteamRE/DepotDownloader/releases"
+
   - name: "Game Console Emulation"
     icon: "fa-brands fa-playstation"
     items:
