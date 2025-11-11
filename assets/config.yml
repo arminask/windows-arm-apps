@@ -1624,6 +1624,11 @@ services:
         url: "https://www.voidtools.com/downloads/"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "EverythingToolbar"
+        logo: "assets/tools/everythingtoolbar.png"
+        url: "https://github.com/srwi/EverythingToolbar/releases"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "Fluent Search"
         logo: "assets/tools/fluentsearch.png"
         subtitle: "Nightly version"
