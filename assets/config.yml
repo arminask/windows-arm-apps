@@ -2744,12 +2744,6 @@ services:
         url: "https://sniffnet.net/download/"
         target: "_blank" # optional html a tag target attribute
 
-      - name: "Charles"
-        logo: "assets/tools/charles-proxy.png"
-        subtitle: "Web debugging HTTP Proxy / HTTP Monitor"
-        url: "https://www.charlesproxy.com/download/"
-        target: "_blank" # optional html a tag target attribute
-
   - name: "Coding"
     icon: "fa-solid fa-code"
     items:
