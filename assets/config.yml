@@ -5411,12 +5411,6 @@ services:
         url: "https://ollama.com/"
         target: "_blank" # optional html a tag target attribute
 
-      - name: "Nexa AI"
-        logo: "assets/tools/nexa.png"
-        subtitle: "Run the latest LLMs and VLMs across GPU, NPU, and CPU with PC"
-        url: "https://docs.nexa.ai/nexa-sdk-go/quickstart#windows-arm64"
-        target: "_blank" # optional html a tag target attribute
-
       - name: "Foundry Local"
         logo: "assets/tools/foundrylocal.png"
         subtitle: "Run AI models locally on your device. Foundry Local provides on-device inference with complete data privacy, no Azure subscription required."
