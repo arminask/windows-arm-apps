@@ -164,7 +164,13 @@ services:
         subtitle: "Productivity browser that organizes web applications and tabs into dedicated workspaces"
         url: "https://wavebox.io/download/beta"
         target: "_blank" # optional html a tag target attribute
-        
+
+      - name: "HackBrowserData"
+        logo: "assets/tools/hackbrowserdata.png"
+        subtitle: "Extract and decrypt browser data, supporting multiple data types, runnable on various operating systems"
+        url: "https://github.com/moonD4rk/HackBrowserData/releases"
+        target: "_blank" # optional html a tag target attribute
+
   - name: "Media"
     icon: "fa-solid fa-photo-film"
     items:
@@ -192,6 +198,12 @@ services:
         logo: "assets/tools/mpv.png"
         subtitle: "unofficial builds / use 'mpv.exe --hwdec'"
         url: "https://github.com/minnyres/mpv-windows-arm64/releases"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Rodel Player (小幻影视)"
+        logo: "assets/tools/rodelplayer.png"
+        subtitle: "Player that supports Local/SMB/WebDAV/Emby/Jellyfin"
+        url: "https://apps.microsoft.com/detail/9nb0h051m4v4"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Screenbox"
@@ -652,7 +664,13 @@ services:
         subtitle: "Feature-rich command-line audio/video downloader with support for thousands of sites."
         url: "https://github.com/yt-dlp/yt-dlp/releases"
         target: "_blank"
-        
+     
+      - name: "OpenUtau"
+        logo: "assets/tools/openutau.png"
+        subtitle: "Open singing synthesis platform / Open source UTAU successor"
+        url: "https://github.com/stakira/OpenUtau/releases"
+        target: "_blank"
+
   - name: "Social"
     icon: "fa-solid fa-message"
     items:
@@ -1606,6 +1624,11 @@ services:
         url: "https://www.voidtools.com/downloads/"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "EverythingToolbar"
+        logo: "assets/tools/everythingtoolbar.png"
+        url: "https://github.com/srwi/EverythingToolbar/releases"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "Fluent Search"
         logo: "assets/tools/fluentsearch.png"
         subtitle: "Nightly version"
@@ -2109,6 +2132,12 @@ services:
         url: "https://github.com/medav/realvnc-arm64/releases/tag/final"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "screego"
+        logo: "assets/tools/screego.png"
+        subtitle: "screen sharing for developers"
+        url: "https://github.com/screego/server/releases"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "向日葵远程控制 Sunlogin remotecontrol"
         logo: "assets/tools/sunlogin.png"
         subtitle: "向日葵远程控制 Sunlogin remote control app"
@@ -2577,6 +2606,12 @@ services:
       - name: "GUI for SingBox"
         logo: "assets/tools/singbox.png"
         url: "https://github.com/GUI-for-Cores/GUI.for.SingBox/releases"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Throne"
+        logo: "assets/tools/throne.png"
+        subtitle: "Cross-platform GUI proxy utility (Empowered by sing-box)"
+        url: "https://github.com/throneproj/Throne/releases"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Zen"
@@ -4017,6 +4052,12 @@ services:
         url: "https://www.coodesker.com/"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "Seelen-UI"
+        logo: "assets/tools/seelen.png"
+        subtitle: "Fully Customizable Desktop Environment"
+        url: "https://github.com/eythaann/Seelen-UI/releases"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "Cairo"
         logo: "assets/tools/cairo.png"
         url: "https://github.com/cairoshell/cairoshell/releases"
@@ -4026,6 +4067,12 @@ services:
         logo: "assets/tools/zebar.png"
         subtitle: "creating customizable and cross-platform taskbars, desktop widgets, and popups."
         url: "https://github.com/glzr-io/zebar/releases"
+        target: "_blank"
+
+      - name: "BeWidgets"
+        logo: "assets/tools/bewidgets.png"
+        subtitle: "Widgets that make your desktop shine. Modern, personal, effortless."
+        url: "https://apps.microsoft.com/detail/9nq07fg50h2q"
         target: "_blank"
 
       - name: "MicaForEveryone"
@@ -4252,6 +4299,11 @@ services:
         logo: "assets/tools/clionly.png"
         subtitle: "Audio library for use in software on several platforms"
         url: "https://www.un4seen.com/forum/?topic=20601"
+
+      - name: "DepotDownloader"
+        logo: "assets/tools/depotdownloader.png"
+        subtitle: "Steam depot downloader utilizing the SteamKit2 library."
+        url: "https://github.com/SteamRE/DepotDownloader/releases"
 
   - name: "Game Console Emulation"
     icon: "fa-brands fa-playstation"
@@ -5370,7 +5422,13 @@ services:
         subtitle: "Run Llama 3.2, Phi 3, Mistral, Gemma 2, and other models. Customize and create your own."
         url: "https://ollama.com/"
         target: "_blank" # optional html a tag target attribute
-        
+
+      - name: "Foundry Local"
+        logo: "assets/tools/foundrylocal.png"
+        subtitle: "Run AI models locally on your device. Foundry Local provides on-device inference with complete data privacy, no Azure subscription required."
+        url: "https://www.foundrylocal.ai/"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "Netron"
         logo: "assets/tools/netron.png"
         subtitle: "Visualizer for neural network, deep learning and machine learning models"
