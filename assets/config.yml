@@ -3300,6 +3300,12 @@ services:
         url: "https://github.com/fobrs/or-tools/releases/tag/v9.14" # URL to download the app
         target: "_blank" # Opens the URL in a new tab
 
+      - name: "Erdos"
+        logo: "assets/tools/erdos.png"
+        subtitle: "a next-generation data science IDE."
+        url: "https://www.lotas.ai/erdos"
+        target: "_blank" # optional html a tag target attribute
+
   - name: "Emulation & Virtualization"
     icon: "fa-solid fa-microchip"
     items:
