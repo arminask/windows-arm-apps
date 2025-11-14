@@ -671,6 +671,12 @@ services:
         url: "https://github.com/stakira/OpenUtau/releases"
         target: "_blank"
 
+      - name: "MusicPlayer2"
+        logo: "assets/tools/musticplayer2.png"
+        subtitle: "Unofficial Build - Audio player with music collection playback, lyrics display, format conversion, and more"
+        url: "https://github.com/tordona/MusicPlayer2/releases/latest"
+        target: "_blank"
+
   - name: "Social"
     icon: "fa-solid fa-message"
     items:
@@ -1073,6 +1079,12 @@ services:
         logo: "assets/tools/Inkeys.png"
         subtitle: "excellent open-source screen annotation"
         url: "https://github.com/Alan-CRL/Inkeys/releases"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Simple Icon File Maker"
+        logo: "assets/tools/simple-icon-file-maker.png"
+        subtitle: "Generate icons of different sizes with just a few clicks"
+        url: "https://apps.microsoft.com/detail/9ns1bm1fb99z"
         target: "_blank" # optional html a tag target attribute
 
   - name: "Design"
@@ -2082,6 +2094,12 @@ services:
         url: "https://github.com/SakiRinn/LiveCaptions-Translator/releases"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "O&O ShutUp10++"
+        logo: "assets/tools/oo-shutup10.png"
+        subtitle: "Free antispy tool for Windows 10 and 11"
+        url: "https://www.oo-software.com/en/download/current/ooshutup10"
+        target: "_blank" # optional html a tag target attribute
+
   - name: "Cross-Device Integration"
     icon: "fa-solid fa-circle-nodes"
     items:
@@ -2722,8 +2740,8 @@ services:
 
       - name: "Sniffnet"
         logo: "assets/tools/sniffnet.png"
-        subtitle: "unofficial builds - RComfortably monitor your Internet traffic"
-        url: "https://github.com/iKineticate/Windows-ARM64-Binaries/releases/tag/Sniffnet"
+        subtitle: "Comfortably monitor your Internet traffic"
+        url: "https://sniffnet.net/download/"
         target: "_blank" # optional html a tag target attribute
 
   - name: "Coding"
@@ -3202,6 +3220,12 @@ services:
         url: "https://godotengine.org/download/windows/"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "Godot Launcher"
+        logo: "assets/tools/godot-launcher.png"
+        subtitle: "Streamlines Godot downloads, manages multiple versions, and simplifies the download experience"
+        url: "https://godotlauncher.org/download/"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "Lunati"
         logo: "assets/tools/lunati.png"
         subtitle: "unofficial build, Open source voxel game engine."
@@ -3339,6 +3363,12 @@ services:
         logo: "assets/tools/erdos.png"
         subtitle: "a next-generation data science IDE."
         url: "https://www.lotas.ai/erdos"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Zed"
+        logo: "assets/tools/zed-editor.png"
+        subtitle: "Code editor for high-performance collaboration with humans and AI"
+        url: "https://zed.dev/download"
         target: "_blank" # optional html a tag target attribute
 
   - name: "Emulation & Virtualization"
