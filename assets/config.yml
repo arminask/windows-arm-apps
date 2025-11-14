@@ -5535,6 +5535,22 @@ services:
   - name: "Drivers"
     icon: "fa-solid fa-gears"
     items:
+      - name: "Adreno Control Panel for devices with Snapdragon X Platform"
+        logo: "assets/tools/snapdragon.png"
+        subtitle: "Beta"
+        url: "https://www.qualcomm.com/developer/blog/2025/05/introducing-adreno-control-panel-snapdragon-x-elite-2025-1-beta"
+        target: "_blank" # optional html a tag target attribute
+        
+      - name: "Windows Adreno GPU driver for Snapdragon X Platform"
+        logo: "assets/tools/qualcommdev.png"
+        url: "https://softwarecenter.qualcomm.com/catalog/item/Windows_Graphics_Driver"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Qualcomm® Hexagon™ NPU Driver"
+        logo: "assets/tools/qualcommdev.png"
+        url: "https://softwarecenter.qualcomm.com/catalog/item/Qualcomm_HND"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "Zadig (libwdi)"
         logo: "assets/tools/zadig.png"
         subtitle: "create & autosign USB drivers"
@@ -5581,18 +5597,6 @@ services:
         logo: "assets/tools/vigem.png"
         subtitle: "Retired project, Windows kernel-mode driver emulating well-known USB game controllers."
         url: "https://github.com/nefarius/ViGEmBus/releases"
-        target: "_blank" # optional html a tag target attribute
-
-      - name: "Adreno Control Panel for devices with Snapdragon X"
-        logo: "assets/tools/snapdragon.png"
-        subtitle: "Beta"
-        url: "https://www.qualcomm.com/developer/blog/2025/05/introducing-adreno-control-panel-snapdragon-x-elite-2025-1-beta"
-        target: "_blank" # optional html a tag target attribute
-        
-      - name: "Microsoft Surface Snapdragon X Elite Graphic Drivers"
-        logo: "assets/tools/qualcommdev.png"
-        subtitle: "Latest graphics drivers for Microsoft Surface Snapdragon X Elite laptops"
-        url: "https://www.qualcomm.com/developer/blog/2024/11/upgrade-latest-graphics-driver-for-snapdragon-x-elite-devices"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Wacom Drivers"
