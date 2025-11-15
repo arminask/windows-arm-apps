@@ -664,6 +664,13 @@ services:
         url: "https://apps.microsoft.com/detail/9NZKLSCRWRSQ"
         target: "_blank" # optional html a tag target attribute  
         
+      - name: "Surge XT"
+        logo: "assets/tools/surgext.png"
+        subtitle: "Free and open-source hybrid synthesizer"
+        tag: "Nightly"
+        url: "https://github.com/surge-synthesizer/surge/releases"
+        target: "_blank" # optional html a tag target attribute 
+        
       - name: "Schism Tracker"
         logo: "assets/tools/schismtracker.png"
         subtitle: "Reimplementation of Impulse Tracker"
