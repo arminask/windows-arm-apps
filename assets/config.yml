@@ -640,6 +640,18 @@ services:
         url: "https://www.bitwig.com/download/"
         target: "_blank" # optional html a tag target attribute  
 
+      - name: "Cakewalk Next"
+        logo: "assets/tools/cakewalknext.png"
+        subtitle: "Make your brilliant song ideas a reality with next-generation music creation tools designed to fuel creativity and streamline your workflow."
+        url: "https://www.cakewalk.com/next"
+        target: "_blank" # optional html a tag target attribute  
+
+      - name: "Cakewalk Sonar"
+        logo: "assets/tools/cakewalksonar.png"
+        subtitle: "Music production package for creative minds."
+        url: "https://www.cakewalk.com/sonar"
+        target: "_blank" # optional html a tag target attribute  
+        
       - name: "Schism Tracker"
         logo: "assets/tools/schismtracker.png"
         subtitle: "Reimplementation of Impulse Tracker"
