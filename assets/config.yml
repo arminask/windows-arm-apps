@@ -703,7 +703,7 @@ services:
         target: "_blank"
 
       - name: "MusicPlayer2"
-        logo: "assets/tools/musticplayer2.png"
+        logo: "assets/tools/musicplayer2.png"
         subtitle: "Unofficial Build - Audio player with music collection playback, lyrics display, format conversion, and more"
         url: "https://github.com/tordona/MusicPlayer2/releases/latest"
         target: "_blank"
