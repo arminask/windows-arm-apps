@@ -389,11 +389,16 @@ services:
 
       - name: "JellyFin Server"
         logo: "assets/tools/jellyfin.png"
-        tag: "Needs ARM64 ffmpeg for transcoding, tested with System233 7.0 unofficial build."
         subtitle: "Free Media Server (like Plex)"
         url: "https://repo.jellyfin.org/?path=/server/windows/latest-stable/arm64"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "JellyFin FFmpeg"
+        logo: "assets/tools/jellyfin.png"
+        subtitle: "Special build for JellyFin Server"        
+        url: "https://github.com/jellyfin/jellyfin-ffmpeg/releases"
+        target: "_blank" # optional html a tag target attribute
+        
       - name: "FFmpeg"
         logo: "assets/tools/FFmpeg.png"
         subtitle: "unofficial builds by dvhh"
@@ -640,6 +645,37 @@ services:
         url: "https://www.bitwig.com/download/"
         target: "_blank" # optional html a tag target attribute  
 
+      - name: "Cakewalk Next"
+        logo: "assets/tools/cakewalknext.png"
+        subtitle: "Make your brilliant song ideas a reality with next-generation music creation tools designed to fuel creativity and streamline your workflow."
+        url: "https://www.cakewalk.com/next"
+        target: "_blank" # optional html a tag target attribute  
+
+      - name: "Cakewalk Sonar"
+        logo: "assets/tools/cakewalksonar.png"
+        subtitle: "Music production package for creative minds."
+        url: "https://www.cakewalk.com/sonar"
+        target: "_blank" # optional html a tag target attribute  
+
+      - name: "Presonus Studio One Pro 7"
+        logo: "assets/tools/presonusstudioonepro7.png"
+        subtitle: "One DAW for All."
+        url: "https://www.presonus.com/pages/studio-one-pro"
+        target: "_blank" # optional html a tag target attribute  
+        
+      - name: "Fender Studio"
+        logo: "assets/tools/fenderstudio.png"
+        subtitle: "Record, jam and capture your creativity whenever and wherever it strikes."
+        url: "https://apps.microsoft.com/detail/9NZKLSCRWRSQ"
+        target: "_blank" # optional html a tag target attribute  
+        
+      - name: "Surge XT"
+        logo: "assets/tools/surgext.png"
+        subtitle: "Free and open-source hybrid synthesizer"
+        tag: "Nightly"
+        url: "https://github.com/surge-synthesizer/surge/releases"
+        target: "_blank" # optional html a tag target attribute 
+        
       - name: "Schism Tracker"
         logo: "assets/tools/schismtracker.png"
         subtitle: "Reimplementation of Impulse Tracker"
@@ -672,7 +708,7 @@ services:
         target: "_blank"
 
       - name: "MusicPlayer2"
-        logo: "assets/tools/musticplayer2.png"
+        logo: "assets/tools/musicplayer2.png"
         subtitle: "Unofficial Build - Audio player with music collection playback, lyrics display, format conversion, and more"
         url: "https://github.com/tordona/MusicPlayer2/releases/latest"
         target: "_blank"
