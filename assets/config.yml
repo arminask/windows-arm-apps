@@ -651,6 +651,12 @@ services:
         subtitle: "Music production package for creative minds."
         url: "https://www.cakewalk.com/sonar"
         target: "_blank" # optional html a tag target attribute  
+
+      - name: "Fender Studio"
+        logo: "assets/tools/fenderstudio.png"
+        subtitle: "Record, jam and capture your creativity whenever and wherever it strikes."
+        url: "https://apps.microsoft.com/detail/9NZKLSCRWRSQ"
+        target: "_blank" # optional html a tag target attribute  
         
       - name: "Schism Tracker"
         logo: "assets/tools/schismtracker.png"
