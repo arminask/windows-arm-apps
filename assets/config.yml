@@ -652,6 +652,12 @@ services:
         url: "https://www.cakewalk.com/sonar"
         target: "_blank" # optional html a tag target attribute  
 
+      - name: "Presonus Studio One Pro 7"
+        logo: "assets/tools/presonusstudioonepro7.png"
+        subtitle: "One DAW for All."
+        url: "https://www.presonus.com/pages/studio-one-pro"
+        target: "_blank" # optional html a tag target attribute  
+        
       - name: "Fender Studio"
         logo: "assets/tools/fenderstudio.png"
         subtitle: "Record, jam and capture your creativity whenever and wherever it strikes."
