@@ -485,6 +485,13 @@ services:
       - name: "Davinci Resolve"
         logo: "assets/tools/davinci.png"
         url: "https://www.blackmagicdesign.com/products/davinciresolve"
+        subtitle: "Professional, all-in-one software for video editing, color correction, visual effects, and audio post-production"
+        target: "_blank" # optional html a tag target attribute'
+
+      - name: "VEGAS Pro"
+        logo: "assets/tools/vegaspro.png"
+        subtitle: "A professional video editing software package"
+        url: "https://www.vegascreativesoftware.info/us/forum/release-vegas-pro-23--149552/"
         target: "_blank" # optional html a tag target attribute'
         
       - name: "CapCut"
