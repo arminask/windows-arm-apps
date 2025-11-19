@@ -122,6 +122,12 @@ services:
         url: "https://chromium.woolyss.com/#windows-on-arm"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "Perplexity Comet"
+        logo: "assets/tools/perplexitycomet.png"
+        subtitle: "AI-powered web browser (Chromium fork)"
+        url: "https://www.perplexity.ai/comet"
+        target: "_blank" # optional html a tag target attribute
+        
       - name: "SRWare Iron"
         logo: "assets/tools/iron.png"
         url: "https://www.srware.net/forum/viewforum.php?f=18"
@@ -171,8 +177,157 @@ services:
         url: "https://github.com/moonD4rk/HackBrowserData/releases"
         target: "_blank" # optional html a tag target attribute
 
-  - name: "Media"
-    icon: "fa-solid fa-photo-film"
+  - name: "Online Media Streaming, Podcasts & Downloaders"
+    icon: "fa-solid fa-broadcast-tower"
+    items:
+      - name: "Netflix"
+        logo: "assets/tools/netflix.png"
+        url: "https://apps.microsoft.com/store/detail/netflix/9WZDNCRFJ3TJ"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Prime Video"
+        logo: "assets/tools/primevideo.png"
+        url: "https://apps.microsoft.com/store/detail/prime-video-for-windows/9P6RC76MSMMJ"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Disney+"
+        logo: "assets/tools/disneyplus.png"
+        url: "https://apps.microsoft.com/store/detail/disney/9NXQXXLFST89"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Paramount+"
+        logo: "assets/tools/paramountplus.png"
+        url: "https://apps.microsoft.com/detail/paramountplus/9WZDNCRFJ0WK"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Hulu"
+        logo: "assets/tools/hulu.png"
+        url: "https://apps.microsoft.com/detail/hulu/9WZDNCRFJ3L1"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "VUDU"
+        logo: "assets/tools/vudu.png"
+        url: "https://apps.microsoft.com/detail/vudu-movies-and-tv/9NBLGGH4V68B"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "FreeTube"
+        logo: "assets/tools/freetube.png"
+        subtitle: "Private YouTube client"
+        url: "https://freetubeapp.io/#download"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Spotify"
+        logo: "assets/tools/spotify.png"
+        url: "https://community.spotify.com/t5/Live-Ideas/Desktop-Developer-Spotify-for-Windows-on-Arm-Win32-Desktop-app/idi-p/4992167/page/4#M243280"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "QQ音乐UWP"
+        logo: "assets/tools/QQMusic.png"
+        url: "https://apps.microsoft.com/detail/9WZDNCRFJ1Q1"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "KuGou"
+        logo: "assets/tools/KuGou.png"
+        url: "https://apps.microsoft.com/detail/XPFPFG7M44SKWX"
+        target: "_blank" # optional html a tag target attribute
+        
+      - name: "FluentCast"
+        logo: "assets/tools/fluentcast.png"
+        tag: "ARM32"
+        subtitle: "free and Ad-free podcast app"
+        url: "https://apps.microsoft.com/detail/9pm46jrsdqqr"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Podcasted"
+        logo: "assets/tools/podcasted.png"
+        subtitle: "the most immersive podcast app"
+        url: "https://apps.microsoft.com/detail/9nxwgr2b1p26"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Grover Podcast"
+        logo: "assets/tools/groverpodcast.png"
+        subtitle: "Podcast Management Software"
+        url: "https://apps.microsoft.com/detail/9nblggh6c4bc"
+        target: "_blank" # optional html a tag target attribute
+        
+      - name: "BiliBili"
+        logo: "assets/tools/bilibili.png"
+        url: "https://apps.microsoft.com/detail/XPDDVC6XTQQKMM"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Bili Copilot"
+        logo: "assets/tools/bilicopilot.png"
+        subtitle: "3rd-party desktop app for Bilibili"
+        url: "https://www.microsoft.com/store/apps/9MVFJLPH517M"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "WiliWili"
+        logo: "assets/tools/wiliwili.png"
+        subtitle: "3rd-party desktop app for Bilibili"
+        url: "https://github.com/xfangfang/wiliwili/releases"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "iQIYI"
+        logo: "assets/tools/iqiyi.png"
+        url: "https://apps.microsoft.com/detail/9NBLGGH5WXNW"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "聚合直播"
+        logo: "assets/tools/alllive.png"
+        subtitle: "聚合多个直播网站"
+        url: "https://apps.microsoft.com/detail/9n1twg2g84vd"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Listen 1"
+        logo: "assets/tools/listen1.png"
+        subtitle: "One for all free music in china"
+        url: "https://github.com/listen1/listen1_desktop/releases"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Lyricify"
+        logo: "assets/tools/lyricify.png"
+        subtitle: "provide scroll lyrics, apps connected to SMTC, such as Spotify, Apple Music, Foobar 2000, HyPlayer, LyricEase, QQ Music, Netease Cloud Music UWP, Kugou Music, Groove Music, etc"
+        url: "https://github.com/WXRIW/Lyricify-App"
+        target: "_blank" # optional html a tag target attribute
+        
+      - name: "lx-music"
+        logo: "assets/tools/lx-music-desktop.png"
+        subtitle: "A music app based on electron, aggregate online music sources from China and local media"
+        url: "https://github.com/lyswhut/lx-music-desktop/releases"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Alger Music Player"
+        logo: "assets/tools/AlgerMusicPlayer.png"
+        subtitle: "Plays music from both local files and online sources"
+        url: "https://github.com/algerkong/AlgerMusicPlayer/releases"
+        target: "_blank" # optional html a tag target attribute
+        
+      - name: "YT-DLP"
+        logo: "assets/tools/ytdlp.png"
+        subtitle: "Feature-rich command-line audio/video downloader with support for thousands of sites."
+        url: "https://github.com/yt-dlp/yt-dlp/releases"
+        target: "_blank"
+        
+      - name: "Lux"
+        logo: "assets/tools/Lux.png"
+        subtitle: "video downloader"
+        url: "https://github.com/iawia002/lux/releases"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "BBDown"
+        logo: "assets/tools/clionly.png"
+        subtitle: "Bilibili video downloader."
+        url: "https://github.com/nilaoda/BBDown/releases"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "N_m3u8DL-RE"
+        logo: "assets/tools/clionly.png"
+        subtitle: "Cross-Platform, modern and powerful stream downloader for MPD/M3U8/ISM."
+        url: "https://github.com/nilaoda/N_m3u8DL-RE/releases"
+        target: "_blank" # optional html a tag target attribute
+        
+  - name: "Local Media Streaming & Playback"
+    icon: "fa-solid fa-play"
     items:
       - name: "VLC media player"
         logo: "assets/tools/vlc.png"
@@ -200,6 +355,42 @@ services:
         url: "https://github.com/minnyres/mpv-windows-arm64/releases"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "Kodi"
+        logo: "assets/tools/kodi.png"
+        subtitle: "Nightly Alpha Builds"
+        url: "https://mirrors.kodi.tv/nightlies/windows/winarm64/master/"
+        target: "_blank" # optional html a tag target attribute
+        
+      - name: "JellyFin Server"
+        logo: "assets/tools/jellyfin.png"
+        subtitle: "Free Media Server (like Plex)"
+        url: "https://repo.jellyfin.org/?path=/server/windows/latest-stable/arm64"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "JellyFin FFmpeg"
+        logo: "assets/tools/jellyfin.png"
+        subtitle: "Special build for JellyFin Server"        
+        url: "https://github.com/jellyfin/jellyfin-ffmpeg/releases"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Switchfin"
+        logo: "assets/tools/switchfin.png"
+        subtitle: "Third-party native Jellyfin client"
+        url: "https://github.com/dragonflylee/switchfin/releases/latest"
+        target: "_blank" # optional html a tag target attribute       
+
+      - name: "MediaOnTauri"
+        logo: "assets/tools/mediaontauri.png"
+        subtitle: "Plex web client, web wrapper written in Tauri"
+        url: "https://github.com/Snazzie/MediaOnTauri/releases"
+        target: "_blank" # optional html a tag target attribute        
+        
+      - name: "MusicPlayer2"
+        logo: "assets/tools/musicplayer2.png"
+        subtitle: "Unofficial Build - Audio player with music collection playback, lyrics display, format conversion, and more"
+        url: "https://github.com/tordona/MusicPlayer2/releases/latest"
+        target: "_blank"
+        
       - name: "Rodel Player (小幻影视)"
         logo: "assets/tools/rodelplayer.png"
         subtitle: "Player that supports Local/SMB/WebDAV/Emby/Jellyfin"
@@ -211,7 +402,7 @@ services:
         subtitle: "LibVLC-based media player for the Universal Windows Platform"
         url: "https://apps.microsoft.com/detail/9ntsnmsvcb5l"
         target: "_blank" # optional html a tag target attribute
-
+        
       - name: "foobar2000"
         logo: "assets/tools/foobar2000.png"
         tag: "ARM64EC"
@@ -230,9 +421,16 @@ services:
         url: "https://www.foobar2000.org/other/boom"
         target: "_blank" # optional html a tag target attribute
 
-      - name: "PlanetMusicPlayer"
+      - name: "CorePlanetMusicPlayer"
         logo: "assets/tools/planetmusicplayer.png"
+        subtitle: "Foundational codebase for developing your own music player apps on UWP"
         url: "https://github.com/Pigeon-Ming/CorePlanetMusicPlayer/releases"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "ZXTune"
+        logo: "assets/tools/zxtune.png"
+        subtitle: "A chiptunes player"
+        url: "https://zxtune.bitbucket.io"
         target: "_blank" # optional html a tag target attribute
 
       - name: "HEVC Video Extensions"
@@ -255,150 +453,101 @@ services:
         url: "https://apps.microsoft.com/detail/9N0866FS04W8"
         target: "_blank" # optional html a tag target attribute
 
-      - name: "Netflix"
-        logo: "assets/tools/netflix.png"
-        url: "https://apps.microsoft.com/store/detail/netflix/9WZDNCRFJ3TJ"
-        target: "_blank" # optional html a tag target attribute
-
-      - name: "Prime Video"
-        logo: "assets/tools/primevideo.png"
-        url: "https://apps.microsoft.com/store/detail/prime-video-for-windows/9P6RC76MSMMJ"
-        target: "_blank" # optional html a tag target attribute
-
-      - name: "Disney+"
-        logo: "assets/tools/disneyplus.png"
-        url: "https://apps.microsoft.com/store/detail/disney/9NXQXXLFST89"
-        target: "_blank" # optional html a tag target attribute
-
-      - name: "Paramount+"
-        logo: "assets/tools/paramountplus.png"
-        url: "https://apps.microsoft.com/detail/paramountplus/9WZDNCRFJ0WK"
-        target: "_blank" # optional html a tag target attribute
-
-      - name: "Hulu"
-        logo: "assets/tools/hulu.png"
-        url: "https://apps.microsoft.com/detail/hulu/9WZDNCRFJ3L1"
-        target: "_blank" # optional html a tag target attribute
-
-      - name: "MediaOnTauri"
-        logo: "assets/tools/mediaontauri.png"
-        subtitle: "Plex web client, web wrapper written in Tauri"
-        url: "https://github.com/Snazzie/MediaOnTauri/releases"
-        target: "_blank" # optional html a tag target attribute
-        
-      - name: "VUDU"
-        logo: "assets/tools/vudu.png"
-        url: "https://apps.microsoft.com/detail/vudu-movies-and-tv/9NBLGGH4V68B"
-        target: "_blank" # optional html a tag target attribute
-
-      - name: "BiliBili"
-        logo: "assets/tools/bilibili.png"
-        url: "https://apps.microsoft.com/detail/XPDDVC6XTQQKMM"
-        target: "_blank" # optional html a tag target attribute
-
-      - name: "Bili Copilot"
-        logo: "assets/tools/bilicopilot.png"
-        subtitle: "3rd-party desktop app for Bilibili"
-        url: "https://www.microsoft.com/store/apps/9MVFJLPH517M"
-        target: "_blank" # optional html a tag target attribute
-
-      - name: "WiliWili"
-        logo: "assets/tools/wiliwili.png"
-        subtitle: "3rd-party desktop app for Bilibili"
-        url: "https://github.com/xfangfang/wiliwili/releases"
-        target: "_blank" # optional html a tag target attribute
-
-      - name: "iQIYI"
-        logo: "assets/tools/iqiyi.png"
-        url: "https://apps.microsoft.com/detail/9NBLGGH5WXNW"
-        target: "_blank" # optional html a tag target attribute
-
-      - name: "FreeTube"
-        logo: "assets/tools/freetube.png"
-        url: "https://freetubeapp.io/#download"
-        target: "_blank" # optional html a tag target attribute
-
-      - name: "聚合直播"
-        logo: "assets/tools/alllive.png"
-        subtitle: "聚合多个直播网站"
-        url: "https://apps.microsoft.com/detail/9n1twg2g84vd"
-        target: "_blank" # optional html a tag target attribute
-
       - name: "ruffle"
         logo: "assets/tools/ruffle.png"
         subtitle: "unofficial builds - A Flash Player emulator"
         url: "https://github.com/iKineticate/Windows-ARM64-Binaries/releases/tag/ruffle"
         target: "_blank" # optional html a tag target attribute
-
-      - name: "Spotify"
-        logo: "assets/tools/spotify.png"
-        url: "https://community.spotify.com/t5/Live-Ideas/Desktop-Developer-Spotify-for-Windows-on-Arm-Win32-Desktop-app/idi-p/4992167/page/4#M243280"
-        target: "_blank" # optional html a tag target attribute
-
-      - name: "QQ音乐UWP"
-        logo: "assets/tools/QQMusic.png"
-        url: "https://apps.microsoft.com/detail/9WZDNCRFJ1Q1"
-        target: "_blank" # optional html a tag target attribute
-
-      - name: "KuGou"
-        logo: "assets/tools/KuGou.png"
-        url: "https://apps.microsoft.com/detail/XPFPFG7M44SKWX"
-        target: "_blank" # optional html a tag target attribute
-
-      - name: "lx-music"
-        logo: "assets/tools/lx-music-desktop.png"
-        subtitle: "A music app based on electron"
-        url: "https://github.com/lyswhut/lx-music-desktop/releases"
-        target: "_blank" # optional html a tag target attribute
-
-      - name: "Alger Music Player"
-        logo: "assets/tools/AlgerMusicPlayer.png"
-        url: "https://github.com/algerkong/AlgerMusicPlayer/releases"
-        target: "_blank" # optional html a tag target attribute
-
-      - name: "Listen 1"
-        logo: "assets/tools/listen1.png"
-        subtitle: "One for all free music in china"
-        url: "https://github.com/listen1/listen1_desktop/releases"
-        target: "_blank" # optional html a tag target attribute
-
-      - name: "Lyricify"
-        logo: "assets/tools/lyricify.png"
-        subtitle: "provide scroll lyrics"
-        url: "https://github.com/WXRIW/Lyricify-App"
-        target: "_blank" # optional html a tag target attribute
-
-      - name: "Grover Podcast"
-        logo: "assets/tools/groverpodcast.png"
-        subtitle: "Podcast Management Software"
-        url: "https://apps.microsoft.com/detail/9nblggh6c4bc"
-        target: "_blank" # optional html a tag target attribute
-
-      - name: "FluentCast"
-        logo: "assets/tools/fluentcast.png"
-        tag: "ARM32"
-        subtitle: "free and Ad-free podcast app"
-        url: "https://apps.microsoft.com/detail/9pm46jrsdqqr"
-        target: "_blank" # optional html a tag target attribute
-
-      - name: "Podcasted"
-        logo: "assets/tools/podcasted.png"
-        subtitle: "the most immersive podcast app"
-        url: "https://apps.microsoft.com/detail/9nxwgr2b1p26"
-        target: "_blank" # optional html a tag target attribute
-
-      - name: "JellyFin Server"
-        logo: "assets/tools/jellyfin.png"
-        subtitle: "Free Media Server (like Plex)"
-        url: "https://repo.jellyfin.org/?path=/server/windows/latest-stable/arm64"
-        target: "_blank" # optional html a tag target attribute
-
-      - name: "JellyFin FFmpeg"
-        logo: "assets/tools/jellyfin.png"
-        subtitle: "Special build for JellyFin Server"        
-        url: "https://github.com/jellyfin/jellyfin-ffmpeg/releases"
+ 
+      - name: "FxSound"
+        logo: "assets/tools/fxsound.png"
+        subtitle: "Free open-source software to boost sound quality, volume, and bass."
+        tag: "Beta"
+        url: "https://www.fxsound.com"
+        target: "_blank"
+ 
+      - name: "Equalizer APO"
+        logo: "assets/tools/equalizerapo.png"
+        subtitle: "System-wide equalizer"
+        url: "https://sourceforge.net/projects/equalizerapo/files/1.4.1/"
         target: "_blank" # optional html a tag target attribute
         
+      - name: "Virtual Audio Cable (VAC)"
+        logo: "assets/tools/virtualaudiocable.png"
+        subtitle: "Creates a set of virtual audio devices"
+        url: "https://vac.muzychenko.net"
+        target: "_blank" # optional html a tag target attribute
+        
+  - name: "Video Editing & Broadcasting"
+    icon: "fa-solid fa-clapperboard"
+    items:
+    
+      - name: "Davinci Resolve"
+        logo: "assets/tools/davinci.png"
+        url: "https://www.blackmagicdesign.com/products/davinciresolve"
+        subtitle: "Professional, all-in-one software for video editing, color correction, visual effects, and audio post-production"
+        target: "_blank" # optional html a tag target attribute'
+
+      - name: "VEGAS Pro"
+        logo: "assets/tools/vegaspro.png"
+        subtitle: "A professional video editing software package"
+        url: "https://www.vegascreativesoftware.info/us/forum/release-vegas-pro-23--149552/"
+        target: "_blank" # optional html a tag target attribute'
+        
+      - name: "CapCut"
+        logo: "assets/tools/capcut.png"
+        subtitle: "linear video editor"
+        tag: "ARM64EC"
+        url: "https://apps.microsoft.com/detail/xp9kn75rrb9nhs?hl=en-us&gl=FI"
+        target: "_blank" # optional html a tag target attribute'
+
+      - name: "Microsoft Clipchamp"
+        logo: "assets/tools/Microsoft Clipchamp.png"
+        subtitle: "Video editor"
+        url: "https://apps.microsoft.com/detail/9p1j8s7ccwwt?hl=en-gb&gl=CN"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Shotcut"
+        logo: "assets/tools/shotcut.png"
+        subtitle: "Free, open source, cross-platform video editor"
+        url: "https://www.shotcut.org/download/"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Gyroflow"
+        logo: "assets/tools/gyroflow.png"
+        subtitle: "Video stabilization using gyroscope data"
+        url: "https://github.com/gyroflow/gyroflow/releases"
+        target: "_blank" # optional html a tag target attribute
+ 
+      - name: "go2rtc"
+        logo: "assets/tools/go2rtc.png"
+        subtitle: "camera streaming solution"
+        url: "https://github.com/AlexxIT/go2rtc/releases"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Fluent Screen Recorder"
+        logo: "assets/tools/fluentscreenrecorder.png"
+        url: "https://apps.microsoft.com/detail/9mwv79xlfqh7"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "OBS Studio"
+        logo: "assets/tools/obs.png"
+        subtitle: "Experimental"
+        url: "https://github.com/obsproject/obs-studio/releases"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Camo Studio"
+        logo: "assets/tools/camostudio.png"
+        subtitle: "Uses cameras you already own to produce pro-quality video, for meetings, streaming, or recordings"
+        url: "https://apps.microsoft.com/detail/9PGM3QB3PDRD"
+        target: "_blank" # optional html a tag target attribute
+        
+      - name: "AviSynth+ (plus)"
+        logo: "assets/tools/avisynth.png"
+        subtitle: "Improved version of the AviSynth frameserver"
+        url: "https://github.com/AviSynth/AviSynthPlus/releases"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "FFmpeg"
         logo: "assets/tools/FFmpeg.png"
         subtitle: "unofficial builds by dvhh"
@@ -429,168 +578,33 @@ services:
         url: "https://handbrake.fr/downloads.php"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "ImgDrive"
+        logo: "assets/tools/imgdrive.png"
+        subtitle: "lightweight virtual CD/DVD/Blu-ray drive that enables to emulate up all popular image types of CD, DVD and Blu-ray Discs to drives."
+        url: "https://www.yubsoft.com/imgdrive/"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Xreveal"
+        logo: "assets/tools/xreveal.png"
+        subtitle: "Similar to AnyDVD that removes restrictions of DVD, and Blu-ray media automatically in the background."
+        url: "https://www.xreveal.com/"
+        target: "_blank" # optional html a tag target attribute
+        
       - name: "Aegisub"
         logo: "assets/tools/aegisub.png"
         subtitle: "unofficial builds / advanced subtitle editor"
         url: "https://github.com/driver1998/Aegisub/releases"
         target: "_blank" # optional html a tag target attribute
 
-      - name: "Lux"
-        logo: "assets/tools/Lux.png"
-        subtitle: "video downloader"
-        url: "https://github.com/iawia002/lux/releases"
-        target: "_blank" # optional html a tag target attribute
-
-      - name: "BBDown"
-        logo: "assets/tools/clionly.png"
-        subtitle: "Bilibili video downloader."
-        url: "https://github.com/nilaoda/BBDown/releases"
-        target: "_blank" # optional html a tag target attribute
-
-      - name: "N_m3u8DL-RE"
-        logo: "assets/tools/clionly.png"
-        subtitle: "Cross-Platform, modern and powerful stream downloader for MPD/M3U8/ISM."
-        url: "https://github.com/nilaoda/N_m3u8DL-RE/releases"
-        target: "_blank" # optional html a tag target attribute
-
-      - name: "MilkyTracker"
-        logo: "assets/tools/milkytracker.png"
-        subtitle: "unofficial builds"
-        url: "https://github.com/carlo-bramini/MilkyTracker/releases"
-        target: "_blank" # optional html a tag target attribute
-
-      - name: "OpenMPT"
-        logo: "assets/tools/openmpt.png"
-        url: "https://openmpt.org/download"
-        target: "_blank" # optional html a tag target attribute
-
-      - name: "ZXTune"
-        logo: "assets/tools/zxtune.png"
-        subtitle: "a chiptunes player"
-        url: "https://zxtune.bitbucket.io"
-        target: "_blank" # optional html a tag target attribute
-
-      - name: "fre:ac"
-        logo: "assets/tools/freac.png"
-        url: "https://www.freac.org/downloads-mainmenu-33"
-        target: "_blank" # optional html a tag target attribute
-
-      - name: "Audacity"
-        logo: "assets/tools/audacity.png"
-        subtitle: "Official beta builds"
-        url: "https://www.audacityteam.org/download/windows/"
-        target: "_blank" # optional html a tag target attribute
-
-      - name: "Awave Studio"
-        logo: "assets/tools/awavestudio.png"
-        subtitle: "a multi-purpose audio tool"
-        url: "https://www.fmjsoft.com/awavestudio.html#download"
-        target: "_blank" # optional html a tag target attribute
-
       - name: "tsMuxeR"
         logo: "assets/tools/tsmuxer.png"
-        subtitle: "unofficial builds"
+        subtitle: "unofficial build,  muxing tool when re-encondings of video streams are to be avoided"
         url: "https://github.com/ArminiusTux/WinARM64-binaries/releases/tag/tsMuxeR"
-        target: "_blank" # optional html a tag target attribute
+        target: "_blank" # optional html aFame: "Media"
 
-      - name: "Kodi"
-        logo: "assets/tools/kodi.png"
-        subtitle: "Nightly Alpha Builds"
-        url: "https://mirrors.kodi.tv/nightlies/windows/winarm64/master/"
-        target: "_blank" # optional html a tag target attribute
-
-      - name: "DVDForge"
-        logo: "assets/tools/dvdforge.png"
-        url: "https://www.yubsoft.com/dvdforge/"
-        target: "_blank" # optional html a tag target attribute
-
-      - name: "ImgDrive"
-        logo: "assets/tools/imgdrive.png"
-        url: "https://www.yubsoft.com/imgdrive/"
-        target: "_blank" # optional html a tag target attribute
-
-      - name: "Xreveal"
-        logo: "assets/tools/xreveal.png"
-        url: "https://www.xreveal.com/"
-        target: "_blank" # optional html a tag target attribute
-
-      - name: "ACDR"
-        logo: "assets/tools/acdr.png"
-        subtitle: "Audio Compact Disc Reader"
-        url: "https://www.fmjsoft.com/acdr.html#download"
-        target: "_blank" # optional html a tag target attribute
-
-      - name: "go2rtc"
-        logo: "assets/tools/go2rtc.png"
-        subtitle: "camera streaming solution"
-        url: "https://github.com/AlexxIT/go2rtc/releases"
-        target: "_blank" # optional html a tag target attribute
-
-      - name: "Fluent Screen Recorder"
-        logo: "assets/tools/fluentscreenrecorder.png"
-        url: "https://apps.microsoft.com/detail/9mwv79xlfqh7"
-        target: "_blank" # optional html a tag target attribute
-
-      - name: "OBS Studio"
-        logo: "assets/tools/obs.png"
-        subtitle: "Experimental"
-        url: "https://github.com/obsproject/obs-studio/releases"
-        target: "_blank" # optional html a tag target attribute
-
-      - name: "Camo Studio"
-        logo: "assets/tools/camostudio.png"
-        subtitle: "Uses cameras you already own to produce pro-quality video, for meetings, streaming, or recordings"
-        url: "https://apps.microsoft.com/detail/9PGM3QB3PDRD"
-        target: "_blank" # optional html a tag target attribute
-        
-      - name: "AviSynth+ (plus)"
-        logo: "assets/tools/avisynth.png"
-        subtitle: "Improved version of the AviSynth frameserver"
-        url: "https://github.com/AviSynth/AviSynthPlus/releases"
-        target: "_blank" # optional html a tag target attribute
-
-      - name: "djay Pro"
-        logo: "assets/tools/djaypro.png"
-        url: "https://www.algoriddim.com/djay-pro-windows"
-        target: "_blank" # optional html a tag target attribute
-
-      - name: "FamiStudio"
-        logo: "assets/tools/famistudio.png"
-        subtitle: "unofficial builds"
-        url: "https://github.com/tordona/famistudio/releases"
-        target: "_blank" # optional html a tag target attribute
-
-      - name: "Furnace"
-        logo: "assets/tools/furnace.png"
-        subtitle: "unofficial builds"
-        url: "https://github.com/tordona/furnace/releases"
-        target: "_blank" # optional html a tag target attribute
-  
-      - name: "Virtual Audio Cable (VAC)"
-        logo: "assets/tools/virtualaudiocable.png"
-        subtitle: "Creates a set of virtual audio devices"
-        url: "https://vac.muzychenko.net"
-        target: "_blank" # optional html a tag target attribute
-  
-      - name: "Equalizer APO"
-        logo: "assets/tools/equalizerapo.png"
-        subtitle: "System-wide equalizer"
-        url: "https://sourceforge.net/projects/equalizerapo/files/1.4.1/"
-        target: "_blank" # optional html a tag target attribute
-        
-      - name: "Reaper"
-        logo: "assets/tools/reaper.png"
-        subtitle: "Beta version, complete digital audio production application"
-        tag: "ARM64EC"
-        url: "https://www.reaper.fm/download.php"
-        target: "_blank" # optional html a tag target attribute 
-        
-      - name: "Tropy"
-        logo: "assets/tools/tropy.png"
-        subtitle: "Reserarch Photo Management Software"
-        url: "https://tropy.org/"
-        target: "_blank" # optional html a tag target attribute        
-        
+  - name: "Audio Editing"
+    icon: "fa-solid fa-wave-square"
+    items:
       - name: "n-Track Studio 10"
         logo: "assets/tools/ntrackstudio.png"
         subtitle: "A digital audio workstation (DAW) and multitrack recording software that allows users to record, edit, mix, and produce music"
@@ -675,44 +689,80 @@ services:
         tag: "Nightly"
         url: "https://github.com/surge-synthesizer/surge/releases"
         target: "_blank" # optional html a tag target attribute 
-        
-      - name: "Schism Tracker"
-        logo: "assets/tools/schismtracker.png"
-        subtitle: "Reimplementation of Impulse Tracker"
-        url: "https://github.com/schismtracker/schismtracker/releases"
-        target: "_blank" # optional html a tag target attribute
-
-      - name: "Switchfin"
-        logo: "assets/tools/switchfin.png"
-        subtitle: "Third-party native Jellyfin client"
-        url: "https://github.com/dragonflylee/switchfin/releases/latest"
-        target: "_blank" # optional html a tag target attribute
-
-      - name: "FxSound"
-        logo: "assets/tools/fxsound.png"
-        subtitle: "Free open-source software to boost sound quality, volume, and bass."
-        tag: "Beta"
-        url: "https://www.fxsound.com"
-        target: "_blank"
-
-      - name: "YT-DLP"
-        logo: "assets/tools/ytdlp.png"
-        subtitle: "Feature-rich command-line audio/video downloader with support for thousands of sites."
-        url: "https://github.com/yt-dlp/yt-dlp/releases"
-        target: "_blank"
      
       - name: "OpenUtau"
         logo: "assets/tools/openutau.png"
         subtitle: "Open singing synthesis platform / Open source UTAU successor"
         url: "https://github.com/stakira/OpenUtau/releases"
         target: "_blank"
+        
+      - name: "MilkyTracker"
+        logo: "assets/tools/milkytracker.png"
+        subtitle: "unofficial build, for creating .MOD and .XM module files"
+        url: "https://github.com/carlo-bramini/MilkyTracker/releases"
+        target: "_blank" # optional html a tag target attribute
 
-      - name: "MusicPlayer2"
-        logo: "assets/tools/musicplayer2.png"
-        subtitle: "Unofficial Build - Audio player with music collection playback, lyrics display, format conversion, and more"
-        url: "https://github.com/tordona/MusicPlayer2/releases/latest"
-        target: "_blank"
+      - name: "OpenMPT"
+        logo: "assets/tools/openmpt.png"
+        subtitle: "popular tracker software"
+        url: "https://openmpt.org/download"
+        target: "_blank" # optional html a tag target attribute
+        
+      - name: "Audacity"
+        logo: "assets/tools/audacity.png"
+        subtitle: "Official beta builds"
+        url: "https://www.audacityteam.org/download/windows/"
+        target: "_blank" # optional html a tag target attribute
 
+      - name: "Awave Studio"
+        logo: "assets/tools/awavestudio.png"
+        subtitle: "a multi-purpose audio tool"
+        url: "https://www.fmjsoft.com/awavestudio.html#download"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "djay Pro"
+        logo: "assets/tools/djaypro.png"
+        subtitle: "Professional DJ Software for Windows"
+        url: "https://www.algoriddim.com/djay-pro-windows"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "FamiStudio"
+        logo: "assets/tools/famistudio.png"
+        subtitle: "unofficial build, NES Music Editor"
+        url: "https://github.com/tordona/famistudio/releases"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Furnace"
+        logo: "assets/tools/furnace.png"
+        subtitle: "unofficial build, the biggest multi-system chiptune tracker ever made"
+        url: "https://github.com/tordona/furnace/releases"
+        target: "_blank" # optional html a tag target attribute
+        
+      - name: "Reaper"
+        logo: "assets/tools/reaper.png"
+        subtitle: "Beta version, complete digital audio production application"
+        tag: "ARM64EC"
+        url: "https://www.reaper.fm/download.php"
+        target: "_blank" # optional html a tag target attribute 
+        
+      - name: "Schism Tracker"
+        logo: "assets/tools/schismtracker.png"
+        subtitle: "Reimplementation of Impulse Tracker"
+        url: "https://github.com/schismtracker/schismtracker/releases"
+        target: "_blank" # optional html a tag target attribute		
+
+      - name: "ACDR"
+        logo: "assets/tools/acdr.png"
+        subtitle: "Free  CD-ripper makes it easy to convert your audio CD's into audio clips."
+        url: "https://www.fmjsoft.com/acdr.html#download"
+        target: "_blank" # optional html a tag target attribute
+        
+      - name: "fre:ac"
+        logo: "assets/tools/freac.png"
+        subtitle: "Free audio converter"
+        url: "https://www.freac.org/downloads-mainmenu-33"
+        target: "_blank" # optional html a tag target attribute
+        
   - name: "Social"
     icon: "fa-solid fa-message"
     items:
@@ -878,7 +928,7 @@ services:
         url: "https://github.com/RocketChat/Rocket.Chat.Electron/releases"
         target: "_blank" # optional html a tag target attribute
         
-  - name: "Photo/Video Editing & Drawing Tools"
+  - name: "Photo Editing & Drawing Tools"
     icon: "fa-solid fa-paintbrush"
     items:
       - name: "GIMP"
@@ -966,11 +1016,13 @@ services:
 
       - name: "Concepts"
         logo: "assets/tools/concepts.png"
+        subtitle: "Sketch your ideas on the infinite canvas, write notes and doodles with tilt + pressure, draw storyboards, product sketches and design plans"
         url: "https://apps.microsoft.com/detail/concepts/9NGQM8FPH9WQ"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Leonardo"
         logo: "assets/tools/leonardo.png"
+        subtitle: "Drawing & painting app for Windows"
         url: "https://www.getleonardo.com/download/"
         target: "_blank" # optional html a tag target attribute
 
@@ -994,12 +1046,13 @@ services:
 
       - name: "Pixeval"
         logo: "assets/tools/pixeval.png"
+        subtitle: "third-party client for Pixiv"
         url: "https://apps.microsoft.com/detail/9p1rzl9z8454"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Pointless"
         logo: "assets/tools/pointless.png"
-        subtitle: "unofficial builds"
+        subtitle: "unofficial build, drawing app"
         url: "https://github.com/ArminiusTux/WinARM64-binaries/releases/tag/Pointless"
         target: "_blank" # optional html a tag target attribute
 
@@ -1015,51 +1068,21 @@ services:
         url: "https://www.affinity.studio/"
         target: "_blank" # optional html a tag target attribute
 
-      - name: "CapCut"
-        logo: "assets/tools/capcut.png"
-        subtitle: "linear video editor"
-        tag: "ARM64EC"
-        url: "https://apps.microsoft.com/detail/xp9kn75rrb9nhs?hl=en-us&gl=FI"
-        target: "_blank" # optional html a tag target attribute'
-
-      - name: "Davinci Resolve"
-        logo: "assets/tools/davinci.png"
-        url: "https://www.blackmagicdesign.com/products/davinciresolve"
-        target: "_blank" # optional html a tag target attribute'
-
-      - name: "Microsoft Clipchamp"
-        logo: "assets/tools/Microsoft Clipchamp.png"
-        subtitle: "Video editor"
-        url: "https://apps.microsoft.com/detail/9p1j8s7ccwwt?hl=en-gb&gl=CN"
-        target: "_blank" # optional html a tag target attribute
-
-      - name: "Shotcut"
-        logo: "assets/tools/shotcut.png"
-        subtitle: "Free, open source, cross-platform video editor"
-        url: "https://www.shotcut.org/download/"
-        target: "_blank" # optional html a tag target attribute
-
-      - name: "Gyroflow"
-        logo: "assets/tools/gyroflow.png"
-        subtitle: "Video stabilization using gyroscope data"
-        url: "https://github.com/gyroflow/gyroflow/releases"
-        target: "_blank" # optional html a tag target attribute
-
       - name: "Glaxnimate"
         logo: "assets/tools/glaxnimate.png"
-        subtitle: "unofficial builds"
+        subtitle: "unofficial build, simple vector graphics animation program"
         url: "https://github.com/tordona/glaxnimate/releases"
         target: "_blank" # optional html a tag target attribute
 
       - name: "LibreSprite"
         logo: "assets/tools/libresprite.png"
-        subtitle: "unofficial builds"
+        subtitle: "unofficial build, open source program for creating and animating your sprites"
         url: "https://github.com/tordona/libresprite/releases"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Pinta"
         logo: "assets/tools/pinta.png"
-        subtitle: "Beta release"
+        subtitle: "Beta release, GTK clone of Paint.Net 3.0"
         url: "https://github.com/PintaProject/Pinta/releases/tag/3.1-beta1"
         target: "_blank" # optional html a tag target attribute
 
@@ -1071,19 +1094,19 @@ services:
 
       - name: "PixiEditor"
         logo: "assets/tools/pixieditor.png"
-        subtitle: "unofficial builds"
+        subtitle: "unofficial build, Pixel art editing software"
         url: "https://github.com/tordona/pixieditor/releases"
         target: "_blank" # optional html a tag target attribute
 
       - name: "darktable"
         logo: "assets/tools/darktable.png"
-        subtitle: "unofficial builds"
+        subtitle: "unofficial build, open source photography workflow application"
         url: "https://github.com/tordona/darktable/releases"
         target: "_blank" # optional html a tag target attribute
 
       - name: "RawTherapee"
         logo: "assets/tools/rawtherapee.png"
-        subtitle: "unofficial builds"
+        subtitle: "unofficial build, raw photo processing program"
         url: "https://github.com/tordona/rawtherapee/releases"
         target: "_blank" # optional html a tag target attribute
 
@@ -1122,6 +1145,12 @@ services:
         subtitle: "Generate icons of different sizes with just a few clicks"
         url: "https://apps.microsoft.com/detail/9ns1bm1fb99z"
         target: "_blank" # optional html a tag target attribute
+
+      - name: "Tropy"
+        logo: "assets/tools/tropy.png"
+        subtitle: "Reserarch Photo Management Software"
+        url: "https://tropy.org/"
+        target: "_blank" # optional html a tag target attribute               
 
   - name: "Design"
     icon: "fa-solid fa-cube"
@@ -4548,9 +4577,9 @@ services:
 
       - name: "melonDS"
         logo: "assets/tools/melonds.png"
-        subtitle: "unofficial builds, Nintendo DS emulator"
+        subtitle: "Nintendo DS emulator"
         tag: "original emulator data needed"
-        url: "https://github.com/mijk84/win-arm64-binaries/releases/tag/melonds"
+        url: "https://melonds.kuribo64.net/downloads.php"
         target: "_blank" # optional html a tag target attribute
 
       - name: "NooDS"
@@ -5519,12 +5548,24 @@ services:
         url: "https://www.doubao.com/download/desktop"
         target: "_blank" # optional html a tag target attribute
 
-      - name: "Cursor"
-        logo: "assets/tools/cursor.png"
-        subtitle: "The AI Code Editor"
-        url: "https://www.cursor.com/downloads"
+      - name: "Windsurf"
+        logo: "assets/tools/windsurf.png"
+        subtitle: "Agentic IDE (VS Code Fork)"
+        url: "https://windsurf.com/download/editor#all-download-options"
+        target: "_blank" # optional html a tag target attribute
+        
+      - name: "Google Antigravity"
+        logo: "assets/tools/googleantigravity.png"
+        subtitle: "Google code editor with Gemini (VS Code Fork)"
+        url: "https://antigravity.google/download"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "Cursor"
+        logo: "assets/tools/cursor.png"
+        subtitle: "The AI Code Editor (VS Code Fork)"
+        url: "https://www.cursor.com/downloads"
+        target: "_blank" # optional html a tag target attribute
+        
       - name: "AnythingLLM"
         logo: "assets/tools/anythingllm.png"
         subtitle: "Run local LLMs fast with powerful built-in tools and features."
@@ -5571,10 +5612,10 @@ services:
   - name: "Drivers"
     icon: "fa-solid fa-gears"
     items:
-      - name: "Adreno Control Panel for devices with Snapdragon X Platform"
+      - name: "Snapdragon Control Panel for devices with Snapdragon X Platform"
         logo: "assets/tools/snapdragon.png"
-        subtitle: "Beta"
-        url: "https://www.qualcomm.com/developer/blog/2025/05/introducing-adreno-control-panel-snapdragon-x-elite-2025-1-beta"
+        subtitle: "Optimize game settings and keep drivers up to date."
+        url: "https://softwarecenter.qualcomm.com/catalog/item/SnapdragonControlPanel"
         target: "_blank" # optional html a tag target attribute
         
       - name: "Windows Adreno GPU driver for Snapdragon X Platform"
