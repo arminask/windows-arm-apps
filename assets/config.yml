@@ -5519,12 +5519,24 @@ services:
         url: "https://www.doubao.com/download/desktop"
         target: "_blank" # optional html a tag target attribute
 
-      - name: "Cursor"
-        logo: "assets/tools/cursor.png"
-        subtitle: "The AI Code Editor"
-        url: "https://www.cursor.com/downloads"
+      - name: "Windsurf"
+        logo: "assets/tools/windsurf.png"
+        subtitle: "Agentic IDE (VS Code Fork)"
+        url: "https://windsurf.com/download/editor#all-download-options"
+        target: "_blank" # optional html a tag target attribute
+        
+      - name: "Google Antigravity"
+        logo: "assets/tools/googleantigravity.png"
+        subtitle: "Google code editor with Gemini (VS Code Fork)"
+        url: "https://antigravity.google/download"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "Cursor"
+        logo: "assets/tools/cursor.png"
+        subtitle: "The AI Code Editor (VS Code Fork)"
+        url: "https://www.cursor.com/downloads"
+        target: "_blank" # optional html a tag target attribute
+        
       - name: "AnythingLLM"
         logo: "assets/tools/anythingllm.png"
         subtitle: "Run local LLMs fast with powerful built-in tools and features."
