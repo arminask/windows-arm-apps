@@ -5612,10 +5612,10 @@ services:
   - name: "Drivers"
     icon: "fa-solid fa-gears"
     items:
-      - name: "Adreno Control Panel for devices with Snapdragon X Platform"
+      - name: "Snapdragon Control Panel for devices with Snapdragon X Platform"
         logo: "assets/tools/snapdragon.png"
-        subtitle: "Beta"
-        url: "https://www.qualcomm.com/developer/blog/2025/05/introducing-adreno-control-panel-snapdragon-x-elite-2025-1-beta"
+        subtitle: "Optimize game settings and keep drivers up to date."
+        url: "https://softwarecenter.qualcomm.com/catalog/item/SnapdragonControlPanel"
         target: "_blank" # optional html a tag target attribute
         
       - name: "Windows Adreno GPU driver for Snapdragon X Platform"
