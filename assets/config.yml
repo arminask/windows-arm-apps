@@ -122,6 +122,12 @@ services:
         url: "https://chromium.woolyss.com/#windows-on-arm"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "Perplexity Comet"
+        logo: "assets/tools/perplexitycomet.png"
+        subtitle: "AI-powered web browser (Chromium fork)"
+        url: "https://www.perplexity.ai/comet"
+        target: "_blank" # optional html a tag target attribute
+        
       - name: "SRWare Iron"
         logo: "assets/tools/iron.png"
         url: "https://www.srware.net/forum/viewforum.php?f=18"
