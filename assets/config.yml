@@ -614,45 +614,66 @@ services:
       - name: "Steinberg Cubase 14"
         logo: "assets/tools/cubase.png"
         tag: "ARM64EC"
-        subtitle: "Preview version, Digital audio workstation (DAW) that allows users to record, arrange, and edit music and MIDI"
+        subtitle: "Digital audio workstation (DAW) that allows users to record, arrange, and edit music and MIDI"
         url: "https://o.steinberg.net/en/support/downloads/cubase_14.html"
         target: "_blank" # optional html a tag target attribute  
+
+      - name: "Steinberg Cubase 15"
+        logo: "assets/tools/cubase.png"
+        tag: "ARM64EC"
+        subtitle: "Digital audio workstation (DAW) that allows users to record, arrange, and edit music and MIDI"
+        url: "https://o.steinberg.net/en/support/downloads/cubase_15.html"
+        target: "_blank" # optional html a tag target attribute 
         
       - name: "Steinberg Groove Agent 5"
         logo: "assets/tools/steinberg-groove-agent.png"
         tag: "ARM64EC"
-        subtitle: "Preview version. VST drum plug-in."
+        subtitle: "VST drum plug-in."
         url: "https://o.steinberg.net/en/support/downloads/groove_agent_5.html"
         target: "_blank" # optional html a tag target attribute  
         
       - name: "Steinberg HALion 7 / HALion Sonic 7"
         logo: "assets/tools/steinberg-halion.png"
         tag: "ARM64EC"
-        subtitle: "Preview version. Multitimbral plug-in and music creation workstation that allows users to load, combine, and create sounds."
+        subtitle: "Multitimbral plug-in and music creation workstation that allows users to load, combine, and create sounds."
         url: "https://o.steinberg.net/en/support/downloads/halion_7.html"
         target: "_blank" # optional html a tag target attribute  
         
       - name: "Steinberg Nuendo 14"
         logo: "assets/tools/steinberg-nuendo.png"
         tag: "ARM64EC"
-        subtitle: "Preview version, Digital Audio Workstation (DAW) for recording, editing, arranging, and post-production of audio and video."
+        subtitle: "Digital Audio Workstation (DAW) for recording, editing, arranging, and post-production of audio and video."
         url: "https://o.steinberg.net/en/support/downloads/nuendo_14.html"
         target: "_blank" # optional html a tag target attribute  
         
       - name: "Steinberg Padshop 2"
         logo: "assets/tools/steinberg-padshop.png"
         tag: "ARM64EC"
-        subtitle: "Preview version. A sophisticated granular and spectral synthesizer."
-        url: "https://helpcenter.steinberg.de/hc/en-us/articles/21829527504530-Preview-versions-for-Windows-on-Arm-WoA"
+        subtitle: "A sophisticated granular and spectral synthesizer."
+        url: "https://o.steinberg.net/index.php?id=downloads_padshop_2&L=1"
         target: "_blank" # optional html a tag target attribute  
         
       - name: "Steinberg Retrologue 2"
         logo: "assets/tools/steinberg-retrologue.png"
         tag: "ARM64EC"
-        subtitle: "Preview version. Virtual Analog Synthesizer to brings back the sound of analog circuitry and vintage warmth, but with a modern twist."
-        url: "https://helpcenter.steinberg.de/hc/en-us/articles/21829527504530-Preview-versions-for-Windows-on-Arm-WoA"
+        subtitle: "Virtual Analog Synthesizer to brings back the sound of analog circuitry and vintage warmth, but with a modern twist."
+        url: "https://o.steinberg.net/index.php?id=downloads_retrologue_2&L=1"
+        target: "_blank" # optional html a tag target attribute  
+        
+      - name: "Steinberg Spectral Layers 12"
+        logo: "assets/tools/steinberg-spectralayers.png"
+        tag: "ARM64EC"
+        subtitle: "Spectral audio editing software that allows users to visualize and manipulate audio in a visual, layer-based format."
+        url: "https://o.steinberg.net/index.php?id=15424&L=1"
         target: "_blank" # optional html a tag target attribute  
 
+      - name: "Steinberg The Grand 3"
+        logo: "assets/tools/steinberg-thegrand.png"
+        tag: "ARM64EC"
+        subtitle: "A virtual piano suite. It features five piano models with an overwhelming sound quality."
+        url: "https://o.steinberg.net/index.php?id=downloads_the_grand_3&L=1"
+        target: "_blank" # optional html a tag target attribute  
+        
       - name: "Bitwig Studio"
         logo: "assets/tools/bitwigstudio.png"
         subtitle: "Digital audio workstation (DAW) and music production software."
@@ -4409,6 +4430,12 @@ services:
         url: "https://store.kde.org/p/2148094/"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "Eden"
+        logo: "assets/tools/eden.png"
+        subtitle: "a fork of Yuzu, Switch emulator"   
+        url: "https://github.com/eden-emulator/Releases/releases"
+        target: "_blank" # optional html a tag target attribute
+        
       - name: "Kenji-NX"
         logo: "assets/tools/kenjinx.png"
         subtitle: "a fork of Ryujinx, Switch emulator"   
