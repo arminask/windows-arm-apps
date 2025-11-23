@@ -4430,6 +4430,12 @@ services:
         url: "https://store.kde.org/p/2148094/"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "Eden"
+        logo: "assets/tools/eden.png"
+        subtitle: "a fork of Yuzu, Switch emulator"   
+        url: "https://github.com/eden-emulator/Releases/releases"
+        target: "_blank" # optional html a tag target attribute
+        
       - name: "Kenji-NX"
         logo: "assets/tools/kenjinx.png"
         subtitle: "a fork of Ryujinx, Switch emulator"   
