@@ -1302,11 +1302,24 @@ services:
         url: "https://dev-builds.libreoffice.org/pre-releases/win/aarch64/?C=M&O=D"
         target: "_blank" # optional html a tag target attribute
 
-      - name: "PDF X-Change Editor"
+      - name: "PDF X-Change Editor (Free, Plus and Pro)"
         logo: "assets/tools/pdfxchange.png"
-        url: "https://pdf-xchange.eu/DL/pdf-xchange-editor.htm"
+        subtitle: "Feature-rich PDF viewer/editor"
+        url: "https://www.pdf-xchange.com/products"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "PDF X-Change Printer (Lite Free and Standard)"
+        logo: "assets/tools/pdf-xchange-printer-lite.png"
+        subtitle: "Enables the printing-to-PDF of documents from other applications, and creates fully compatible, text-searchable PDF files."
+        url: "https://www.pdf-xchange.com/products"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "PDF-Tools"
+        logo: "assets/tools/pdf-tools.png"
+        subtitle: "batch creation, manipulation and modification of PDF files."
+        url: "https://www.pdf-xchange.com/product/pdf-tools"
+        target: "_blank" # optional html a tag target attribute
+        
       - name: "Xodo"
         logo: "assets/tools/xodo.png"
         url: "https://apps.microsoft.com/detail/9WZDNCRDJXP4"
@@ -4523,6 +4536,12 @@ services:
         url: "https://ares-emu.net/download"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "Gopher64"
+        logo: "assets/tools/gopher64.png"
+        subtitle: "unofficial build, Nintendo 64 emulator"
+        url: "https://github.com/ArminiusTux/WinARM64-binaries/releases/tag/gopher64"
+        target: "_blank" # optional html a tag target attribute
+        
       - name: "Visual Boy Advance (VBA-M)"
         logo: "assets/tools/visualboyadvance-m.png"
         subtitle: "Game Boy Advance (GBA) emulator"
