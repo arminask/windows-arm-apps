@@ -1,0 +1,23 @@
+/* Collapse state: fixed-ish height + ellipsis */
+#main-section .card-content {
+  max-height: 85px;
+  overflow: hidden;
+  transition: max-height 0.2s ease;
+}
+
+#main-section .card .subtitle {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* Hover: let content grow */
+#main-section .card:hover .card-content {
+  max-height: 500px;          /* big enough to show everything */
+}
+
+#main-section .card:hover .subtitle {
+  white-space: normal;
+  overflow: visible;
+  text-overflow: clip;
+}

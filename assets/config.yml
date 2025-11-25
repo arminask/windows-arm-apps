@@ -14,6 +14,9 @@ defaults:
   # auto, light, dark
   colorTheme: auto
 
+stylesheet:
+  - "assets/custom.css"
+  
 # Optional theme customization
 theme: default
 colors:
