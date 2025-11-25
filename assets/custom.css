@@ -1,22 +1,34 @@
-/* Collapse state: fixed-ish height + ellipsis */
-#main-section .card-content {
-  max-height: 85px;
-  overflow: hidden;
-  transition: max-height 0.2s ease;
+/* 1. Let card bodies grow instead of being fixed */
+#app #main-section .card-content,
+#app #main-section .card .card-content {
+  height: auto !important;
+  max-height: 85px !important;
+  overflow: visible !important;
 }
 
-#main-section .card .subtitle {
+/* Some builds also pin the whole card */
+#app #main-section .card {
+  height: auto !important;
+}
+
+/* 2. Default: single-line subtitle with ellipsis */
+#app #main-section .card .subtitle {
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
+  transition: all 0.2s ease;
 }
 
-/* Hover: let content grow */
-#main-section .card:hover .card-content {
-  max-height: 500px;          /* big enough to show everything */
+/* 3. On card hover: unwrap the subtitle, let it wrap,
+      and the card will grow with it */
+
+#app #main-section .card:hover .card-content {
+  max-height: none !important;
 }
 
-#main-section .card:hover .subtitle {
+	  
+#app #main-section .card:hover .subtitle {
+  max-height: none !important;
   white-space: normal;
   overflow: visible;
   text-overflow: clip;
