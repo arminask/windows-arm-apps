@@ -86,19 +86,19 @@ services:
         url: "?sec=web-browsers"
         target: _self
      
-      - name: "Online Media Streaming, Podcasts & Downloaders"
+      - name: "Online Media Streaming"
         icon: "fa-solid fa-broadcast-tower"
-        url: "?sec=online-media-streaming-podcasts-downloaders"
+        url: "?sec=online-media-streaming"
         target: _self
 
-      - name: "Local Media Streaming & Playback"
+      - name: "Local Media Streaming"
         icon: "fa-solid fa-play"
-        url: "?sec=local-media-streaming-playback"
+        url: "?sec=local-media-streaming"
         target: _self
 
-      - name: "Video Editing & Broadcasting"
+      - name: "Video Editing/Broadcast"
         icon: "fa-solid fa-clapperboard"
-        url: "?sec=video-editing-broadcasting"
+        url: "?sec=video-editing-broadcast"
         target: _self
 
       - name: "Audio Editing"
@@ -315,7 +315,7 @@ services:
         url: "https://github.com/moonD4rk/HackBrowserData/releases"
         target: "_blank" # optional html a tag target attribute
 
-  - name: "Online Media Streaming, Podcasts & Downloaders"
+  - name: "Online Media Streaming"
     icon: "fa-solid fa-broadcast-tower"
     items:
       - name: "Netflix"
@@ -464,7 +464,7 @@ services:
         url: "https://github.com/nilaoda/N_m3u8DL-RE/releases"
         target: "_blank" # optional html a tag target attribute
         
-  - name: "Local Media Streaming & Playback"
+  - name: "Local Media Streaming"
     icon: "fa-solid fa-play"
     items:
       - name: "VLC media player"
@@ -616,7 +616,7 @@ services:
         url: "https://vac.muzychenko.net"
         target: "_blank" # optional html a tag target attribute
         
-  - name: "Video Editing & Broadcasting"
+  - name: "Video Editing/Broadcast"
     icon: "fa-solid fa-clapperboard"
     items:
     

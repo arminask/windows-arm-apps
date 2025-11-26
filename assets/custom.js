@@ -20,14 +20,14 @@ onReady(function () {
 	  
 	  "Web Browsers": "web-browsers",
 
-	  "Online Media Streaming, Podcasts & Downloaders":
-		"online-media-streaming-podcasts-downloaders",
+	  "Online Media Streaming":
+		"online-media-streaming",
 
-	  "Local Media Streaming & Playback":
-		"local-media-streaming-playback",
+	  "Local Media Streaming":
+		"local-media-streaming",
 
-	  "Video Editing & Broadcasting":
-		"video-editing-broadcasting",
+	  "Video Editing/Broadcast":
+		"video-editing-broadcast",
 
 	  "Social": "social",
 
