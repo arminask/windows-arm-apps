@@ -206,41 +206,80 @@ onReady(function () {
 
   // ---- Sorting helpers ----
 
-  // Find the "cards" for a given heading.
-  // For your layout: all .column siblings after the h2 until the next h2.group-title.
 function getCardsForHeading(h2) {
-  const cards = [];
-  const container = h2.parentElement; // h2 + .column siblings live in the same parent
+  const parent = h2.parentElement;
+  if (!parent) {
+    return { container: null, cards: [] };
+  }
+
+  // --- COLUMN MODE ---
+  // <div class="column is-4">
+  //   <h2 class="group-title">...</h2>
+  //   <div><div class="card">...</div></div>
+  //   <div><div class="card">...</div></div>
+  //   ...
+  // </div>
+  if (parent.classList.contains("column")) {
+    const container = parent;
+    const wrappers = [];
+    let node = h2.nextSibling;
+
+    while (node) {
+      if (node.nodeType === 1) { // ELEMENT_NODE
+        // any child that contains a .card is a wrapper
+        const card = node.querySelector && node.querySelector(".card");
+        if (card) {
+          wrappers.push(node);
+        }
+      }
+      node = node.nextSibling;
+    }
+
+    return { container, cards: wrappers };
+  }
+
+  // --- LIST MODE ---
+  // h2.group-title as a sibling of several .column card wrappers,
+  // until the next h2.group-title.
+  const wrappers = [];
   let node = h2.nextSibling;
 
   while (node) {
-    if (node.nodeType === 1) { // ELEMENT_NODE
+    if (node.nodeType === 1) {
       if (node.matches("h2.group-title")) {
-        break; // reached the next category
+        break; // next category
       }
       if (node.classList.contains("column")) {
-        cards.push(node);
+        const card = node.querySelector && node.querySelector(".card");
+        if (card) {
+          wrappers.push(node);
+        }
       }
     }
     node = node.nextSibling;
   }
 
-  return { container, cards };
+  const container = wrappers.length ? wrappers[0].parentElement : null;
+  return { container, cards: wrappers };
 }
 
 
 
-  // How to read the title of a card.
-  // For your snippet: .card .title is-4
+
 function getCardTitle(cardWrapper) {
-  const titleEl = cardWrapper.querySelector(".card .title");
-  return titleEl ? titleEl.textContent.trim().toLowerCase() : "";
+  const card = cardWrapper.querySelector(".card") || cardWrapper;
+  const titleEl = card.querySelector(".title");
+  const txt = (titleEl ? titleEl.textContent : card.textContent || "").trim();
+  return txt.toLowerCase();
 }
 
 
-  function sortGroup(h2, direction) {
+
+
+function sortGroup(h2, direction) {
   const { container, cards } = getCardsForHeading(h2);
   if (!container || !cards.length) {
+    // console.log("[Homer] No cards for", h2.textContent.trim());
     return;
   }
 
@@ -252,14 +291,14 @@ function getCardTitle(cardWrapper) {
     return 0;
   });
 
-  // 🔑 Keep them in the same “block” by inserting
-  // them BEFORE the node that originally followed the last card.
+  // Keep them in the same block: insert before the node that originally followed the last card.
   const after = cards[cards.length - 1].nextSibling;
 
   sorted.forEach((card) => {
     container.insertBefore(card, after);
   });
 }
+
 
 
   function addSortButton(h2) {
