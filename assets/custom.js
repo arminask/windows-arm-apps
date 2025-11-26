@@ -15,8 +15,10 @@ onReady(function () {
 
   // Map category titles (exact visible text) -> id
 	const groupMap = {
+	  
 	  "Audio Editing": "audio-editing",
-	  "Web Browsing": "web-browsing",
+	  
+	  "Web Browsers": "web-browsers",
 
 	  "Online Media Streaming, Podcasts & Downloaders":
 		"online-media-streaming-podcasts-downloaders",
