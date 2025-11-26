@@ -33,3 +33,18 @@
   overflow: visible;
   text-overflow: clip;
 }
+
+h2.group-title {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.category-sort-toggle {
+  font-size: 0.8rem;
+  padding: 0.1rem 0.3rem;
+  border-radius: 4px;
+  border: 1px solid currentColor;
+  background: white;
+  cursor: pointer;
+}

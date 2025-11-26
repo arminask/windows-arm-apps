@@ -159,16 +159,17 @@ onReady(function () {
   // MutationObserver: tag headings + attach handlers to buttons as they appear
   const observer = new MutationObserver(function () {
     // 1) Tag category headings
-    const headings = document.querySelectorAll("h2.group-title");
+     const headings = document.querySelectorAll("h2.group-title");
     headings.forEach(function (h2) {
       const txt = (h2.textContent || "").trim();
       const id = groupMap[txt];
-      if (!id) return;
-      if (!h2.id) {
+      if (id && !h2.id) {
         h2.id = id;
-		
-        //console.log("[Homer] Assigned id", id, "to heading", txt);
+        // console.log("[Homer] Assigned id", id, "to heading", txt);
       }
+
+      // Add sort button next to heading
+      addSortButton(h2);
     });
 
     // 2) Attach handlers to any links with ?sec=...
@@ -194,9 +195,94 @@ onReady(function () {
         h2.id = id;
         //console.log("[Homer] Assigned id", id, "to heading", txt);
       }
+	  
+	   addSortButton(h2);
     });
 
     const jumpLinks = document.querySelectorAll('a[href*="?sec="]');
     jumpLinks.forEach(attachJumpHandler);
   })();
 });
+
+  // ---- Sorting helpers ----
+
+  // Find the "cards" for a given heading.
+  // For your layout: all .column siblings after the h2 until the next h2.group-title.
+function getCardsForHeading(h2) {
+  const cards = [];
+  const container = h2.parentElement; // h2 + .column siblings live in the same parent
+  let node = h2.nextSibling;
+
+  while (node) {
+    if (node.nodeType === 1) { // ELEMENT_NODE
+      if (node.matches("h2.group-title")) {
+        break; // reached the next category
+      }
+      if (node.classList.contains("column")) {
+        cards.push(node);
+      }
+    }
+    node = node.nextSibling;
+  }
+
+  return { container, cards };
+}
+
+
+
+  // How to read the title of a card.
+  // For your snippet: .card .title is-4
+function getCardTitle(cardWrapper) {
+  const titleEl = cardWrapper.querySelector(".card .title");
+  return titleEl ? titleEl.textContent.trim().toLowerCase() : "";
+}
+
+
+  function sortGroup(h2, direction) {
+  const { container, cards } = getCardsForHeading(h2);
+  if (!container || !cards.length) {
+    return;
+  }
+
+  const sorted = cards.slice().sort((a, b) => {
+    const ta = getCardTitle(a);
+    const tb = getCardTitle(b);
+    if (ta < tb) return direction === "asc" ? -1 : 1;
+    if (ta > tb) return direction === "asc" ? 1 : -1;
+    return 0;
+  });
+
+  // 🔑 Keep them in the same “block” by inserting
+  // them BEFORE the node that originally followed the last card.
+  const after = cards[cards.length - 1].nextSibling;
+
+  sorted.forEach((card) => {
+    container.insertBefore(card, after);
+  });
+}
+
+
+  function addSortButton(h2) {
+    if (h2.dataset.sortButtonAdded === "1") return;
+
+    const btn = document.createElement("button");
+    btn.type = "button";
+    btn.textContent = "⇅"; // or "A↕Z" / "AZ"
+    btn.title = "Toggle alphabetical sort";
+    btn.className = "category-sort-toggle";
+
+    btn.addEventListener("click", function (e) {
+      e.preventDefault();
+      e.stopPropagation();
+
+      const current = h2.dataset.sortDir || "none";
+      const next = current === "asc" ? "desc" : "asc";
+      h2.dataset.sortDir = next;
+
+      sortGroup(h2, next);
+    });
+
+    // place after the heading content
+    h2.appendChild(btn);
+    h2.dataset.sortButtonAdded = "1";
+  }
