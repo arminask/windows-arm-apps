@@ -85,48 +85,60 @@ onReady(function () {
 
   // Attach click handler directly to a ?sec=... link
   function attachJumpHandler(link) {
-    if (!link || link.dataset.secJumpAttached === "1") return;
+  if (!link || link.dataset.secJumpAttached === "1") return;
 
-    const rawHref = link.getAttribute("href") || "";
-    if (!rawHref.includes("?sec=")) return;
+  const rawHref = link.getAttribute("href") || "";
 
-    //console.log("[Homer] Attaching jump handler to", rawHref);
-
-    link.addEventListener(
-      "click",
-      function (e) {
-        //console.log("[Homer] ?sec link clicked:", rawHref);
-
-        e.preventDefault();
-        e.stopPropagation(); // block Homer/SPA handling + default nav
-
-        // Extract the query (?sec=...)
-        const queryPart = rawHref.includes("?")
-          ? rawHref.slice(rawHref.indexOf("?"))
-          : rawHref;
-        const params = new URLSearchParams(queryPart.replace(/^\?/, ""));
-        const sec = params.get("sec");
-        if (!sec) return;
-
-        // Update URL (bookmarkable) without reload
-        const url = new URL(window.location.href);
-        url.searchParams.set("sec", sec);
-        history.pushState({}, "", url.toString());
-
-        const targetEl = document.getElementById(sec);
-        if (targetEl) {
-          //console.log("[Homer] Scrolling to section:", sec);
-          targetEl.scrollIntoView({ behavior: "smooth", block: "start" });
-        } else {
-          console.log("[Homer] No element with id", sec, "yet");
-        }
-      },
-      true // capture on the element
-    );
-
-    // Mark so we don’t attach twice
-    link.dataset.secJumpAttached = "1";
+  // Only intercept real local section links
+  if (
+    !rawHref.startsWith("?sec=") &&
+    !rawHref.startsWith("./?sec=") &&
+    !rawHref.startsWith("/?sec=")
+  ) {
+    return;
   }
+
+  link.addEventListener(
+    "click",
+    function (e) {
+      // Parse sec from the href on the link itself (not from window.location)
+      const queryPart = rawHref.includes("?")
+        ? rawHref.slice(rawHref.indexOf("?"))
+        : rawHref;
+      const params = new URLSearchParams(queryPart.replace(/^\?/, ""));
+      const sec = params.get("sec");
+
+      // If no sec param, do nothing special – let browser handle it.
+      if (!sec) {
+        return;
+      }
+
+      const targetEl = document.getElementById(sec);
+
+      // 🔑 If the section isn't in the DOM (e.g. filtered out),
+      // don't block the default navigation.
+      if (!targetEl) {
+        console.log("[Homer] No element with id", sec, "in current view; letting link behave normally");
+        return;
+      }
+
+      // We *do* have a target in this page: intercept and scroll.
+      e.preventDefault();
+      e.stopPropagation(); // avoid Homer SPA routing
+
+      // Update URL ?sec=... without reload
+      const url = new URL(window.location.href);
+      url.searchParams.set("sec", sec);
+      history.pushState({}, "", url.toString());
+
+      targetEl.scrollIntoView({ behavior: "smooth", block: "start" });
+    },
+    true
+  );
+
+  link.dataset.secJumpAttached = "1";
+}
+
 
   // Scroll to section based on current ?sec=...
   function scrollToSecFromLocation(attempt) {
@@ -173,8 +185,11 @@ onReady(function () {
     });
 
     // 2) Attach handlers to any links with ?sec=...
-    const jumpLinks = document.querySelectorAll('a[href*="?sec="]');
-    jumpLinks.forEach(attachJumpHandler);
+   const jumpLinks = document.querySelectorAll(
+	'a[href^="?sec="], a[href^="./?sec="], a[href^="/?sec="]'
+	);
+	jumpLinks.forEach(attachJumpHandler);
+
   });
 
   if (document.body) {
