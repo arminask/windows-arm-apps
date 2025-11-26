@@ -51,7 +51,7 @@ message:
   style: "is-dark" # See https://bulma.io/documentation/components/message/#colors for styling options.
   title: "Note"
   icon: "fa fa-house"
-  content: "Collection of native software for Windows on ARM architecture. <br /> Explore our curated list of applications and contribute to its growth by adding more software on our GitHub page."
+  content: "Collection of native software for Windows on ARM architecture. <br /> Explore our curated list of applications and contribute to its growth by adding more software on our GitHub page. <a href='?sec=audio-editing' data-target='audio-editing' class='jump-link'>Audio Editing</a> · <a href='video-editing'>Video Editing</a>"
 
 links:
   - name: "Home"
@@ -77,6 +77,141 @@ links:
 
 # Services
 services:
+
+  - name: "Category Jump List"
+    icon: fas fa-list
+    items:      
+      - name: "Web Browsers"
+        icon: "fa-brands fa-internet-explorer"
+        url: "?sec=web-browsers"
+        target: _self
+     
+      - name: "Online Media Streaming, Podcasts & Downloaders"
+        icon: "fa-solid fa-broadcast-tower"
+        url: "?sec=online-media-streaming-podcasts-downloaders"
+        target: _self
+
+      - name: "Local Media Streaming & Playback"
+        icon: "fa-solid fa-play"
+        url: "?sec=local-media-streaming-playback"
+        target: _self
+
+      - name: "Video Editing & Broadcasting"
+        icon: "fa-solid fa-clapperboard"
+        url: "?sec=video-editing-broadcasting"
+        target: _self
+
+      - name: "Audio Editing"
+        icon: "fa-solid fa-wave-square"
+        url: "?sec=audio-editing"
+        target: _self
+
+      - name: "Social"
+        icon: "fa-solid fa-message"
+        url: "?sec=social"
+        target: _self
+
+      - name: "Photo Editing & Drawing Tools"
+        icon: "fa-solid fa-paintbrush"
+        url: "?sec=photo-editing-drawing-tools"
+        target: _self
+
+      - name: "Design"
+        icon: "fa-solid fa-cube"
+        url: "?sec=design"
+        target: _self
+
+      - name: "Compression"
+        icon: "fa-solid fa-file-zipper"
+        url: "?sec=compression"
+        target: _self
+
+      - name: "Office"
+        icon: "fa-solid fa-briefcase"
+        url: "?sec=office"
+        target: _self
+
+      - name: "Tools"
+        icon: "fa-solid fa-screwdriver-wrench"
+        url: "?sec=tools"
+        target: _self
+
+      - name: "Cross-Device Integration"
+        icon: "fa-solid fa-circle-nodes"
+        url: "?sec=cross-device-integration"
+        target: _self
+
+      - name: "VPN"
+        icon: "fa-solid fa-globe"
+        url: "?sec=vpn"
+        target: _self
+
+      - name: "Network & Cloud Storage"
+        icon: "fa-solid fa-network-wired"
+        url: "?sec=network-cloud-storage"
+        target: _self
+
+      - name: "Coding"
+        icon: "fa-solid fa-code"
+        url: "?sec=coding"
+        target: _self
+
+      - name: "Emulation & Virtualization"
+        icon: "fa-solid fa-microchip"
+        url: "?sec=emulation-virtualization"
+        target: _self
+
+      - name: "Benchmarking & Diagnostics"
+        icon: "fa-solid fa-stopwatch"
+        url: "?sec=benchmarking-diagnostics"
+        target: _self
+
+      - name: "Security & Protection"
+        icon: "fa-solid fa-shield"
+        url: "?sec=security-protection"
+        target: _self
+
+      - name: "Theme & Styles"
+        icon: "fa-solid fa-brush"
+        url: "?sec=theme-styles"
+        target: _self
+
+      - name: "Other"
+        icon: "fa-solid fa-question"
+        url: "?sec=other"
+        target: _self
+
+      - name: "Game Console Emulation"
+        icon: "fa-brands fa-playstation"
+        url: "?sec=game-console-emulation"
+        target: _self
+        
+      - name: "Games"
+        icon: "fa-solid fa-gamepad"
+        url: "?sec=games"
+        target: _self
+
+      - name: "Chess / شطرنج"
+        icon: "fa-solid fa-chess-knight"
+        url: "?sec=chess"
+        target: _self
+
+      - name: "Artificial Intelligence"
+        icon: "fa-solid fa-brain"
+        url: "?sec=artificial-intelligence"
+        target: _self
+
+      - name: "Drivers"
+        icon: "fa-solid fa-gears"
+        url: "?sec=drivers"
+        target: _self
+
+      - name: "Printers"
+        icon: "fa-solid fa-print"
+        url: "?sec=printers"
+        target: _self
+     
+        
   - name: "Web Browsers"
     icon: "fa-brands fa-internet-explorer"
     items:
