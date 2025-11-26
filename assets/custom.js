@@ -1,6 +1,6 @@
 // assets/custom.js
 
-console.log("[Homer] custom.js loaded");
+//console.log("[Homer] custom.js loaded");
 
 function onReady(fn) {
   if (document.readyState === "loading") {
@@ -11,7 +11,7 @@ function onReady(fn) {
 }
 
 onReady(function () {
-  console.log("[Homer] DOM ready in custom.js");
+  // console.log("[Homer] DOM ready in custom.js");
 
   // Map category titles (exact visible text) -> id
 	const groupMap = {
@@ -79,7 +79,7 @@ onReady(function () {
 
 	  "Drivers": "drivers",
 
-	  "Printers": "printers"
+	  "Printers": "printers"//
 	};
 
 
@@ -90,12 +90,12 @@ onReady(function () {
     const rawHref = link.getAttribute("href") || "";
     if (!rawHref.includes("?sec=")) return;
 
-    console.log("[Homer] Attaching jump handler to", rawHref);
+    //console.log("[Homer] Attaching jump handler to", rawHref);
 
     link.addEventListener(
       "click",
       function (e) {
-        console.log("[Homer] ?sec link clicked:", rawHref);
+        //console.log("[Homer] ?sec link clicked:", rawHref);
 
         e.preventDefault();
         e.stopPropagation(); // block Homer/SPA handling + default nav
@@ -115,7 +115,7 @@ onReady(function () {
 
         const targetEl = document.getElementById(sec);
         if (targetEl) {
-          console.log("[Homer] Scrolling to section:", sec);
+          //console.log("[Homer] Scrolling to section:", sec);
           targetEl.scrollIntoView({ behavior: "smooth", block: "start" });
         } else {
           console.log("[Homer] No element with id", sec, "yet");
@@ -137,7 +137,7 @@ onReady(function () {
 
     const el = document.getElementById(sec);
     if (el) {
-      console.log("[Homer] Scroll to (from URL)", sec);
+      //console.log("[Homer] Scroll to (from URL)", sec);
       el.scrollIntoView({ behavior: "smooth", block: "start" });
     } else if (attempt < 10) {
       setTimeout(function () {
@@ -167,7 +167,7 @@ onReady(function () {
       if (!h2.id) {
         h2.id = id;
 		
-        console.log("[Homer] Assigned id", id, "to heading", txt);
+        //console.log("[Homer] Assigned id", id, "to heading", txt);
       }
     });
 
@@ -178,7 +178,7 @@ onReady(function () {
 
   if (document.body) {
     observer.observe(document.body, { childList: true, subtree: true });
-    console.log("[Homer] MutationObserver attached");
+    //console.log("[Homer] MutationObserver attached");
   } else {
     console.warn("[Homer] document.body missing when attaching observer");
   }
@@ -192,7 +192,7 @@ onReady(function () {
       if (!id) return;
       if (!h2.id) {
         h2.id = id;
-        console.log("[Homer] Assigned id", id, "to heading", txt);
+        //console.log("[Homer] Assigned id", id, "to heading", txt);
       }
     });
 
