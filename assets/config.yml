@@ -909,7 +909,13 @@ services:
         subtitle: "Reimplementation of Impulse Tracker"
         url: "https://github.com/schismtracker/schismtracker/releases"
         target: "_blank" # optional html a tag target attribute		
-
+        
+      - name: "KEMPER Rig Manager"
+        logo: "assets/tools/kemper-rigmanager.png"
+        subtitle: "Allows you to preview and manage your collection of PROFILER Rigs, Performances and presets."
+        url: "https://www.kemper-amps.com/downloads/12"
+        target: "_blank" # optional html a tag target attribute		
+        
       - name: "ACDR"
         logo: "assets/tools/acdr.png"
         subtitle: "Free  CD-ripper makes it easy to convert your audio CD's into audio clips."
