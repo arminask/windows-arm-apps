@@ -3253,18 +3253,19 @@ services:
         url: "https://apps.microsoft.com/store/detail/visual-studio-code/XP9KHM4BK9FZ7Q"
         target: "_blank" # optional html a tag target attribute
 
-      - name: "Visual Studio Community/Professional/Enterprise 2022"
-        logo: "assets/tools/visualstudiocommunity2022.png"
+      - name: "Visual Studio 2026"
+        logo: "assets/tools/visualstudio2026.png"
+        subtitle: "Microsoft's flagship developer IDE"
         url: "https://visualstudio.microsoft.com/vs/"
         target: "_blank" # optional html a tag target attribute
 
-      - name: "Tabs Studio for Visual Studio 2022"
+      - name: "Tabs Studio for Visual Studio 2022/2026"
         logo: "assets/tools/tabsstudio.png"
         subtitle: "Add-In for multi row, color coded tabs, and more"
         url: "https://tabsstudio.com/download.html"
         target: "_blank" # optional html a tag target attribute
 
-      - name: "Typewriter for Visual Studio 2022"
+      - name: "Typewriter for Visual Studio 2022/2026"
         logo: "assets/tools/typewriteraddin.png"
         subtitle: "Supported fork, add-in for Visual Studio that generates TypeScript files from c# code files using TypeScript templates."
         url: "https://github.com/AdaskoTheBeAsT/Typewriter/releases"
@@ -3495,11 +3496,6 @@ services:
         url: "https://github.com/lhak/Dependencies/releases"
         target: "_blank" # optional html a tag target attribute
 
-      - name: "Vulkan SDK & Runtime"
-        logo: "assets/tools/vulkansdk.png"
-        url: "https://vulkan.lunarg.com/sdk/home#windows"
-        target: "_blank" # optional html a tag target attribute
-
       - name: "Racket"
         logo: "assets/tools/racket.png"
         subtitle: "Racket, cross-platform graphical programming"
@@ -3632,6 +3628,12 @@ services:
         logo: "assets/tools/dosbox-staging.png"
         subtitle: "experimental builds / GitHub login required"        
         url: "https://www.dosbox-staging.org/releases/development-builds/"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "DOSBox Pure Unleashed"
+        logo: "assets/tools/dosboxpureunleashed.png"
+        subtitle: "Fork of DOSBox, an emulator for DOS games, aiming for simplicity and ease of use."        
+        url: "https://github.com/schellingb/dosbox-pure-unleashed/releases"
         target: "_blank" # optional html a tag target attribute
 
       - name: "ntvdm64.dll + winevdm"
@@ -4915,18 +4917,7 @@ services:
   - name: "Games"
     icon: "fa-solid fa-gamepad"
     items:
-      - name: "OpenCL & OpenGL Compatibility Pack"
-        logo: "assets/tools/openglcompat.png"
-        url: "https://apps.microsoft.com/detail/9nqpsl29bfff"
-        target: "_blank" # optional html a tag target attribute
-
-      - name: "*retro-elitist* Vulkan drivers"
-        logo: "assets/tools/vulkandrivers.png"
-        subtitle: "unofficial + unstable = USE AT OWN RISK"
-        tag: "only works on a few Snapdragon pre-Elite SoC models"
-        url: "https://driver1998.github.io/en/posts/vulkan-on-qualcomm-snapdragon-8cx/"
-        target: "_blank" # optional html a tag target attribute
-
+    
       - name: "ScummVM"
         logo: "assets/tools/scummvm.png"
         subtitle: "unofficial builds of THE game engine re-creator"
@@ -5812,6 +5803,23 @@ services:
         url: "https://softwarecenter.qualcomm.com/catalog/item/Qualcomm_HND"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "Vulkan SDK & Runtime"
+        logo: "assets/tools/vulkansdk.png"
+        url: "https://vulkan.lunarg.com/sdk/home#windows"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "*retro-elitist* Vulkan drivers"
+        logo: "assets/tools/vulkandrivers.png"
+        subtitle: "unofficial + unstable = USE AT OWN RISK"
+        tag: "only works on a few Snapdragon pre-Elite SoC models"
+        url: "https://driver1998.github.io/en/posts/vulkan-on-qualcomm-snapdragon-8cx/"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "OpenCL & OpenGL Compatibility Pack"
+        logo: "assets/tools/openglcompat.png"
+        url: "https://apps.microsoft.com/detail/9nqpsl29bfff"
+        target: "_blank" # optional html a tag target attribute
+        
       - name: "Zadig (libwdi)"
         logo: "assets/tools/zadig.png"
         subtitle: "create & autosign USB drivers"
