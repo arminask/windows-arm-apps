@@ -5919,3 +5919,15 @@ services:
         subtitle: "List of supported models."
         url: "https://epson.com/Support/armdrivers"
         target: "_blank" # optional html a tag target attribute
+
+      - name: "Lexmark Generic v4 XL Print Driver Package"
+        logo: "assets/tools/lexmark.png"
+        subtitle: "List of supported models in link."
+        url: "https://support.lexmark.com/content/support/en_us/support/download.DRI1000669.html"
+        target: "_blank" # optional html a tag target attribute        
+
+      - name: "Sharp UD3L PCL6 Printer Driver Package"
+        logo: "assets/tools/sharp.png"
+        subtitle: "List of supported models in link."
+        url: "https://global.sharp/restricted/print/search/detail/019156/download.html?view=2&pid=59&lang=2&region=1&os=62"
+        target: "_blank" # optional html a tag target attribute         
