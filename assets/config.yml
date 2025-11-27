@@ -1596,6 +1596,12 @@ services:
         url: "https://apps.microsoft.com/store/detail/9WZDNCRFJ9W7"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "YACReader"
+        logo: "assets/tools/yacreader.png"
+        subtitle: "Test version, free, open-source comic reader, supports various file formats including CBZ, CBR, ZIP, RAR, PDF, and more."
+        url: "https://yacreader.com/forum/support-windows/2705-request-for-windows-on-arm-support#9715"
+        target: "_blank" # optional html a tag target attribute
+        
       - name: "Rulia - Manga Reader"
         logo: "assets/tools/rulia.png"
         subtitle: "an offline manga reader. It will give you different feeling."
