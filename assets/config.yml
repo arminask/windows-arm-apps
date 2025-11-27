@@ -1727,6 +1727,12 @@ services:
         url: "https://www.portfolio-performance.info/en/download.html#win"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "Digiexam Standalone App"
+        logo: "assets/tools/digiexam.png"
+        subtitle: "Secure, online exam platform used by K-12 schools and universities to administer tests in a controlled environment"
+        url: "https://www.digiexam.com/windows-exam-app-download"
+        target: "_blank" # optional html a tag target attribute
+        
   - name: "Tools"
     icon: "fa-solid fa-screwdriver-wrench"
     items:
