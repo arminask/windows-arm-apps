@@ -5906,3 +5906,9 @@ services:
         subtitle: "List of supported models on main page. Drivers are built into Windows Update."
         url: "https://help.brother-usa.com/app/answers/detail/a_id/170667/~/windows-10-or-windows-11-on-arm-processor---support"
         target: "_blank" # optional html a tag target attribute
+
+      - name: "Epson Printer Drivers"
+        logo: "assets/tools/epson.png"
+        subtitle: "List of supported models."
+        url: "https://epson.com/Support/armdrivers"
+        target: "_blank" # optional html a tag target attribute
