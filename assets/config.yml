@@ -1465,6 +1465,7 @@ services:
 
       - name: "SumatraPDF"
         logo: "assets/tools/sumatrapdf.png"
+        subtitle: "Fast free PDF, eBook (epub, mobi), comic book (cbz/cbr), DjVu, XPS, CHM, image viewer"
         url: "https://www.sumatrapdfreader.org/download-free-pdf-viewer"
         target: "_blank" # optional html a tag target attribute
 
