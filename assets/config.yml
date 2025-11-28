@@ -5319,12 +5319,6 @@ services:
         url: "https://apps.microsoft.com/detail/xbox/9MV0B5HZVK9Z"
         target: "_blank" # optional html a tag target attribute
 
-      - name: "dgVoodoo"
-        logo: "assets/tools/dgvoodoo.png"
-        subtitle: "3dfx Glide & DirectX wrapper"
-        url: "http://dege.freeweb.hu/dgVoodoo2/dgVoodoo2/"
-        target: "_blank" # optional html a tag target attribute
-
       - name: "Plague Inc."
         logo: "assets/tools/plagueinc.png"
         url: "https://apps.microsoft.com/detail/9NBLGGH0DNM7"
@@ -5849,6 +5843,12 @@ services:
       - name: "OpenCL & OpenGL Compatibility Pack"
         logo: "assets/tools/openglcompat.png"
         url: "https://apps.microsoft.com/detail/9nqpsl29bfff"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "dgVoodoo"
+        logo: "assets/tools/dgvoodoo.png"
+        subtitle: "3dfx Glide & DirectX wrapper"
+        url: "http://dege.freeweb.hu/dgVoodoo2/dgVoodoo2/"
         target: "_blank" # optional html a tag target attribute
         
       - name: "Zadig (libwdi)"
