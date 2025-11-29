@@ -3485,6 +3485,12 @@ services:
         url: "https://www.autohotkey.com/boards/viewtopic.php?style=2&p=535036#p535036"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "AutoHotKey v2.1-alpha.18-8-g282cf3a7"
+        logo: "assets/tools/autohotkey.png"
+        subtitle: "unofficial builds, automation scripting language"
+        url: "https://github.com/t-satoru/AutoHotkey-woa/releases"
+        target: "_blank" # optional html a tag target attribute
+        
       - name: "Godot"
         logo: "assets/tools/godot.png"
         subtitle: "Free, open‑source game engine."
