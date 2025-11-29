@@ -1499,11 +1499,13 @@ services:
 
       - name: "Foxit PDF Reader"
         logo: "assets/tools/foxitreader.png"
+        subtitle: "ARM version only available in Chinese language"
         url: "https://www.foxitsoftware.cn/downloads/"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Foxit PDF Editor"
         logo: "assets/tools/foxiteditor.png"
+        subtitle: "ARM version only available in Chinese language"
         url: "https://www.foxitsoftware.cn/downloads/"
         target: "_blank" # optional html a tag target attribute
 
