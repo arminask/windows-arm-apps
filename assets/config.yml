@@ -657,6 +657,12 @@ services:
         subtitle: "Open source project that provides scalable, multi-user conferencing based on WebRTC."
         url: "https://github.com/livekit/livekit/releases"
         target: "_blank" # optional html a tag target attribute
+
+      - name: "Livekit CLI"
+        logo: "assets/tools/livekit.png"
+        subtitle: "Command line interface to LiveKit"
+        url: "https://github.com/livekit/livekit-cli/releases"
+        target: "_blank" # optional html a tag target attribute
         
       - name: "CapCut"
         logo: "assets/tools/capcut.png"
