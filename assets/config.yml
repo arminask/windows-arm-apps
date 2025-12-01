@@ -3032,7 +3032,7 @@ services:
         url: "https://github.com/microsoft/vcpkg-tool/releases"
         target: "_blank" # optional html a tag target attribute
 
-      - name: "git"
+      - name: "Git for Windows"
         logo: "assets/tools/git.png"
         subtitle: "ARM64 builds available since 2.47.1"
         url: "https://github.com/git-for-windows/git/releases"
@@ -3182,61 +3182,73 @@ services:
 
       - name: "JetBrains IntelliJ IDEA"
         logo: "assets/tools/jetbrainsintellij-idea.png"
+        subtitle: "Leading IDE for Professional Development in Java and Kotlin"
         url: "https://www.jetbrains.com/idea/download/"
         target: "_blank" # optional html a tag target attribute
 
       - name: "JetBrains PyCharm"
         logo: "assets/tools/jetbrainspycharm.png"
+        subtitle: "Python IDE for web, data, and AI/ML professionals."
         url: "https://www.jetbrains.com/pycharm/download/?section=windows"
         target: "_blank" # optional html a tag target attribute
 
       - name: "JetBrains PhpStorm"
         logo: "assets/tools/jetbrainsphpstorm.png"
+        subtitle: "PHP IDE empowering PHP Developers"
         url: "https://www.jetbrains.com/phpstorm/download/download-thanks.html?platform=windowsARM64"
         target: "_blank" # optional html a tag target attribute
 
       - name: "JetBrains GoLand"
         logo: "assets/tools/jetbrainsgoland.png"
+        subtitle: "IDE for Professional Development in Go"
         url: "https://www.jetbrains.com/go/download/download-thanks.html?platform=windowsARM64"
         target: "_blank" # optional html a tag target attribute
 
       - name: "JetBrains Rider"
         logo: "assets/tools/jetbrainsrider.png"
+        subtitle: "Cross-platform IDE for .NET and game developers"
         url: "https://www.jetbrains.com/rider/download/download-thanks.html?platform=windowsARM64"
         target: "_blank" # optional html a tag target attribute
 
       - name: "JetBrains CLion"
         logo: "assets/tools/jetbrainsclion.png"
+        subtitle: "Cross-platform IDE for C and C++"
         url: "https://www.jetbrains.com/clion/download/download-thanks.html?platform=windowsARM64"
         target: "_blank" # optional html a tag target attribute
 
       - name: "JetBrains RustRover"
         logo: "assets/tools/jetbrainsrustover.png"
-        url: "https://www.jetbrains.com/rust/nextversion/"
+        subtitle: "A Powerful IDE for Rust"
+        url: "https://www.jetbrains.com/rust/download/download-thanks.html?platform=windowsARM64"
         target: "_blank" # optional html a tag target attribute
 
       - name: "JetBrains WebStorm"
         logo: "assets/tools/jetbrainswebstorm.png"
+        subtitle: "JavaScript and TypeScript IDE"
         url: "https://www.jetbrains.com/webstorm/download/download-thanks.html?platform=windowsARM64"
         target: "_blank" # optional html a tag target attribute
 
       - name: "JetBrains RubyMine"
         logo: "assets/tools/jetbrainsrubymine.png"
+        subtitle: "Ruby on Rails IDE"
         url: "https://www.jetbrains.com/ruby/download/download-thanks.html?platform=windowsARM64"
         target: "_blank" # optional html a tag target attribute
 
       - name: "JetBrains DataGrip"
         logo: "assets/tools/jetbrainsdatagrip.png"
+        subtitle: "Cross-platform IDE for relational and NoSQL databases"
         url: "https://www.jetbrains.com/datagrip/download/download-thanks.html?platform=windowsARM64"
         target: "_blank" # optional html a tag target attribute
 
       - name: "JetBrains DataSpell"
         logo: "assets/tools/jetbrainsdataspell.png"
+        subtitle: "AI-powered tool for analyzing data and sharing insights"
         url: "https://www.jetbrains.com/dataspell/download/download-thanks.html?platform=windowsARM64"
         target: "_blank" # optional html a tag target attribute
       
       - name: "JetBrains Toolbox"
         logo: "assets/tools/toolbox.png"
+        subtitle: "Manage your JetBrains IDEs the easy way"
         url: "https://www.jetbrains.com/toolbox-app/download/download-thanks.html?platform=windowsARM64"
         target: "_blank" # optional html a tag target attribute
 
