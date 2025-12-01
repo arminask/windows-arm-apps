@@ -3767,6 +3767,18 @@ services:
         url: "https://www.emma02.hobby-site.com/download.html"
         target: "_blank" # optional html a tag target attribute
         
+      - name: "Denise"
+        logo: "assets/tools/denise.png"
+        subtitle: "Unofficial Build. C64 / Amiga 500/1000 emulator"
+        url: "https://github.com/tordona/win-arm64-binaries/releases/tag/denise"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Snow"
+        logo: "assets/tools/snow.png"
+        subtitle: "Unofficial Build. Emulates classic (Motorola 680x0-based) Macintosh computers"
+        url: "https://github.com/tordona/snow/releases/latest"
+        target: "_blank" # optional html a tag target attribute
+
   - name: "Benchmarking & Diagnostics"
     icon: "fa-solid fa-stopwatch"
     items:
