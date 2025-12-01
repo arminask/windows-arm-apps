@@ -3062,6 +3062,66 @@ services:
         url: "https://github.com/chirontt/gitextensions/releases"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "Visual Studio 2026"
+        logo: "assets/tools/visualstudio2026.png"
+        subtitle: "Microsoft's flagship developer IDE"
+        url: "https://visualstudio.microsoft.com/vs/"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Tabs Studio for Visual Studio 2022/2026"
+        logo: "assets/tools/tabsstudio.png"
+        subtitle: "Add-In for multi row, color coded tabs, and more"
+        url: "https://tabsstudio.com/download.html"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Typewriter for Visual Studio 2022/2026"
+        logo: "assets/tools/typewriteraddin.png"
+        subtitle: "Supported fork, add-in for Visual Studio that generates TypeScript files from c# code files using TypeScript templates."
+        url: "https://github.com/AdaskoTheBeAsT/Typewriter/releases"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Wix Toolset Votive2022"
+        logo: "assets/tools/votive2022.png"
+        subtitle: "ARM64 Visual Studio 2022 Extension, unofficial build"
+        url: "https://github.com/fobrs/VisualStudioExtension/releases"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Visual Studio Code"
+        logo: "assets/tools/visualstudiocode.png"
+        subtitle: "Free, open-source, and highly extensible code editor developed by Microsoft"
+        url: "https://apps.microsoft.com/store/detail/visual-studio-code/XP9KHM4BK9FZ7Q"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "VSCodium"
+        logo: "assets/tools/vscodium.png"
+        subtitle: "Binary releases of Visual Studio Code without MS branding/telemetry/licensing"
+        url: "https://github.com/VSCodium/vscodium/releases"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Cursor"
+        logo: "assets/tools/cursor.png"
+        subtitle: "The AI Code Editor (Visual Studio Code Fork)"
+        url: "https://www.cursor.com/downloads"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Google Antigravity"
+        logo: "assets/tools/googleantigravity.png"
+        subtitle: "Google code editor with Gemini (Visual Studio Code Fork)"
+        url: "https://antigravity.google/download"
+        target: "_blank" # optional html a tag target attribute
+        
+      - name: "Windsurf"
+        logo: "assets/tools/windsurf.png"
+        subtitle: "Agentic IDE (Visual Studio Code Fork)"
+        url: "https://windsurf.com/download/editor#all-download-options"
+        target: "_blank" # optional html a tag target attribute        
+        
+      - name: "Arduino App Lab"
+        logo: "assets/tools/arduino.png"
+        subtitle: "Visual environment for managing your UNO Q board"
+        url: "https://www.arduino.cc/en/software/#app-lab-section"
+        target: "_blank" # optional html a tag target attribute
+        
       - name: "Python"
         logo: "assets/tools/python.png"
         url: "https://www.python.org/downloads/windows/"
@@ -3281,29 +3341,6 @@ services:
         url: "https://github.com/icsharpcode/ILSpy/releases"
         target: "_blank" # optional html a tag target attribute
 
-      - name: "Visual Studio Code"
-        logo: "assets/tools/visualstudiocode.png"
-        url: "https://apps.microsoft.com/store/detail/visual-studio-code/XP9KHM4BK9FZ7Q"
-        target: "_blank" # optional html a tag target attribute
-
-      - name: "Visual Studio 2026"
-        logo: "assets/tools/visualstudio2026.png"
-        subtitle: "Microsoft's flagship developer IDE"
-        url: "https://visualstudio.microsoft.com/vs/"
-        target: "_blank" # optional html a tag target attribute
-
-      - name: "Tabs Studio for Visual Studio 2022/2026"
-        logo: "assets/tools/tabsstudio.png"
-        subtitle: "Add-In for multi row, color coded tabs, and more"
-        url: "https://tabsstudio.com/download.html"
-        target: "_blank" # optional html a tag target attribute
-
-      - name: "Typewriter for Visual Studio 2022/2026"
-        logo: "assets/tools/typewriteraddin.png"
-        subtitle: "Supported fork, add-in for Visual Studio that generates TypeScript files from c# code files using TypeScript templates."
-        url: "https://github.com/AdaskoTheBeAsT/Typewriter/releases"
-        target: "_blank" # optional html a tag target attribute
-
       - name: "Zig"
         logo: "assets/tools/zig.png"
         subtitle: "a general-purpose programming language and toolchain"
@@ -3431,12 +3468,6 @@ services:
         url: "https://www.hhdsoftware.com/free-hex-editor"
         target: "_blank" # optional html a tag target attribute
 
-      - name: "VSCodium"
-        logo: "assets/tools/vscodium.png"
-        subtitle: "binary releases of VS Code without MS branding/telemetry/licensing"
-        url: "https://github.com/VSCodium/vscodium/releases"
-        target: "_blank" # optional html a tag target attribute
-
       - name: "rust-analyzer"
         logo: "assets/tools/rust.png"
         subtitle: "A Rust compiler front-end for IDEs"
@@ -3539,12 +3570,6 @@ services:
         logo: "assets/tools/racket.png"
         subtitle: "Racket, cross-platform graphical programming"
         url: "https://download.racket-lang.org/"
-        target: "_blank" # optional html a tag target attribute
-        
-      - name: "Wix Toolset Votive2022"
-        logo: "assets/tools/votive2022.png"
-        subtitle: "ARM64 Visual Studio 2022 Extension, unofficial build"
-        url: "https://github.com/fobrs/VisualStudioExtension/releases"
         target: "_blank" # optional html a tag target attribute
         
       - name: "ArcGIS Maps SDK"
@@ -5754,24 +5779,6 @@ services:
         logo: "assets/tools/doubao.png"
         subtitle: "Desktop AI Assistant"
         url: "https://www.doubao.com/download/desktop"
-        target: "_blank" # optional html a tag target attribute
-
-      - name: "Windsurf"
-        logo: "assets/tools/windsurf.png"
-        subtitle: "Agentic IDE (VS Code Fork)"
-        url: "https://windsurf.com/download/editor#all-download-options"
-        target: "_blank" # optional html a tag target attribute
-        
-      - name: "Google Antigravity"
-        logo: "assets/tools/googleantigravity.png"
-        subtitle: "Google code editor with Gemini (VS Code Fork)"
-        url: "https://antigravity.google/download"
-        target: "_blank" # optional html a tag target attribute
-
-      - name: "Cursor"
-        logo: "assets/tools/cursor.png"
-        subtitle: "The AI Code Editor (VS Code Fork)"
-        url: "https://www.cursor.com/downloads"
         target: "_blank" # optional html a tag target attribute
         
       - name: "AnythingLLM"
