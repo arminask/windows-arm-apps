@@ -3697,12 +3697,13 @@ services:
         
       - name: "DOSBox-X"
         logo: "assets/tools/dosbox.png"
+        subtitle: "Fork of DOSBox, focuses more on general emulation and accuracy."
         url: "https://github.com/joncampbell123/dosbox-x/releases"
         target: "_blank" # optional html a tag target attribute
 
       - name: "DOSBox Staging"
         logo: "assets/tools/dosbox-staging.png"
-        subtitle: "experimental builds / GitHub login required"        
+        subtitle: "Experimental builds / GitHub login required"        
         url: "https://www.dosbox-staging.org/releases/development-builds/"
         target: "_blank" # optional html a tag target attribute
 
@@ -3774,6 +3775,12 @@ services:
         target: "_blank" # optional html a tag target attribute
 
       - name: "86Box"
+        logo: "assets/tools/86box.png"
+        subtitle: "Experimental dev official builds"
+        url: "https://github.com/86Box/86Box/actions/workflows/cmake_windows_msys2.yml"
+        target: "_blank" # optional html a tag target attribute
+        
+      - name: "86Box 4.2"
         logo: "assets/tools/86box.png"
         subtitle: "unofficial builds"
         url: "https://github.com/ArminiusTux/WinARM64-binaries/releases/tag/86Box"
