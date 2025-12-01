@@ -631,6 +631,32 @@ services:
         subtitle: "A professional video editing software package"
         url: "https://www.vegascreativesoftware.info/us/forum/release-vegas-pro-23--149552/"
         target: "_blank" # optional html a tag target attribute'
+
+      - name: "Adobe Premiere Pro"
+        logo: "assets/tools/adobe-premiere.png"
+        subtitle: "Video editor, install via 'Beta Apps' section of Creative Cloud app"
+        tag: "Beta"
+        url: "https://helpx.adobe.com/download-install/apps/system-requirements/apps-compatibility-copilot.html"
+        target: "_blank" # optional html a tag target attribute'
+
+      - name: "Adobe After Effects"
+        logo: "assets/tools/adobe-aftereffects.png"
+        subtitle: "Motion graphics and visual effects, install via 'Beta Apps' section of Creative Cloud app"
+        tag: "Beta"
+        url: "https://helpx.adobe.com/download-install/apps/system-requirements/apps-compatibility-copilot.html"
+        target: "_blank" # optional html a tag target attribute'
+        
+      - name: "OBS Studio"
+        logo: "assets/tools/obs.png"
+        subtitle: "Experimental"
+        url: "https://github.com/obsproject/obs-studio/releases"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Livekit"
+        logo: "assets/tools/livekit.png"
+        subtitle: "Open source project that provides scalable, multi-user conferencing based on WebRTC."
+        url: "https://github.com/livekit/livekit/releases"
+        target: "_blank" # optional html a tag target attribute
         
       - name: "CapCut"
         logo: "assets/tools/capcut.png"
@@ -666,12 +692,6 @@ services:
       - name: "Fluent Screen Recorder"
         logo: "assets/tools/fluentscreenrecorder.png"
         url: "https://apps.microsoft.com/detail/9mwv79xlfqh7"
-        target: "_blank" # optional html a tag target attribute
-
-      - name: "OBS Studio"
-        logo: "assets/tools/obs.png"
-        subtitle: "Experimental"
-        url: "https://github.com/obsproject/obs-studio/releases"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Camo Studio"
@@ -743,6 +763,20 @@ services:
   - name: "Audio Editing"
     icon: "fa-solid fa-wave-square"
     items:
+      - name: "Adobe Audition"
+        logo: "assets/tools/adobe-audition.png"
+        subtitle: "Audio software for professional recording, mixing, and editing, install via 'Beta Apps' section of Creative Cloud app"
+        tag: "Beta"
+        url: "https://helpx.adobe.com/download-install/apps/system-requirements/apps-compatibility-copilot.html"
+        target: "_blank" # optional html a tag target attribute'
+
+      - name: "Adobe Media Encoder"
+        logo: "assets/tools/adobe-mediaencoder.png"
+        subtitle: "Encode, transcode, and convert media, install via 'Beta Apps' section of Creative Cloud app"
+        tag: "Beta"
+        url: "https://helpx.adobe.com/download-install/apps/system-requirements/apps-compatibility-copilot.html"
+        target: "_blank" # optional html a tag target attribute'
+        
       - name: "n-Track Studio 10"
         logo: "assets/tools/ntrackstudio.png"
         subtitle: "A digital audio workstation (DAW) and multitrack recording software that allows users to record, edit, mix, and produce music"
@@ -1178,16 +1212,19 @@ services:
 
       - name: "Adobe Lightroom"
         logo: "assets/tools/lightroom.png"
+        subtitle: "Digital image organization and workflow tool"
         url: "https://apps.microsoft.com/store/detail/adobe-lightroom/XPDP264X2DK8NB"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Adobe Photoshop"
         logo: "assets/tools/photoshop.png"
+        subtitle: "Image editing software"
         url: "https://apps.microsoft.com/store/detail/adobe-photoshop/XPFD4T9N395QN6"
         target: "_blank" # optional html a tag target attribute
 
-      - name: "Adobe Camera Raw"
+      - name: "Adobe Camera Raw plug-in"
         logo: "assets/tools/adobe-camera-raw.png"
+        subtitle: "Tool for adding advanced raw photos adjustment capabilities to Photoshop and Bridge"
         url: "https://helpx.adobe.com/camera-raw/kb/camera-raw-plug-in-installer.html"
         target: "_blank" # optional html a tag target attribute
 
@@ -1295,7 +1332,7 @@ services:
 
       - name: "Adobe DNG Converter"
         logo: "assets/tools/adobedngconverter.png"
-        subtitle: "convert to a more universal DNG raw file"
+        subtitle: "Convert to a more universal DNG raw file"
         url: "https://helpx.adobe.com/ee/camera-raw/using/adobe-dng-converter.html"
         target: "_blank" # optional html a tag target attribute
 
