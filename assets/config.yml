@@ -1136,21 +1136,102 @@ services:
   - name: "Photo Editing & Drawing Tools"
     icon: "fa-solid fa-paintbrush"
     items:
+      - name: "Affinity by Canva"
+        logo: "assets/tools/affinity.png"
+        subtitle: "Free graphic design, photo editing, and page layout and design editor"
+        url: "https://www.affinity.studio/"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Krita"
+        logo: "assets/tools/krita.png"
+        subtitle: "Unofficial experimental build, Open-source digital painting and 2D animation program."
+        url: "https://github.com/NAP64/Krita-WoA-Port/releases"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Adobe Photoshop"
+        logo: "assets/tools/photoshop.png"
+        subtitle: "Image editing software"
+        url: "https://apps.microsoft.com/store/detail/adobe-photoshop/XPFD4T9N395QN6"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Adobe Lightroom"
+        logo: "assets/tools/lightroom.png"
+        subtitle: "Digital image organization and workflow tool"
+        url: "https://apps.microsoft.com/store/detail/adobe-lightroom/XPDP264X2DK8NB"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Adobe Camera Raw plug-in"
+        logo: "assets/tools/adobe-camera-raw.png"
+        subtitle: "Tool for adding advanced raw photos adjustment capabilities to Photoshop and Bridge"
+        url: "https://helpx.adobe.com/camera-raw/kb/camera-raw-plug-in-installer.html"
+        target: "_blank" # optional html a tag target attribute
+        
+      - name: "Adobe DNG Converter"
+        logo: "assets/tools/adobedngconverter.png"
+        subtitle: "Convert to a more universal DNG raw file"
+        url: "https://helpx.adobe.com/ee/camera-raw/using/adobe-dng-converter.html"
+        target: "_blank" # optional html a tag target attribute
+        
       - name: "GIMP"
         logo: "assets/tools/gimp.png"
+        subtitle: "Open-source image editor for creating digital art and manipulating photos"
         url: "https://www.gimp.org/downloads/"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Paint.NET"
         logo: "assets/tools/paintnet.png"
+        subtitle: "Free image and photo editing software"
         url: "https://github.com/paintdotnet/release/releases/latest"
         target: "_blank" # optional html a tag target attribute
 
-      - name: "BandiView"
-        logo: "assets/tools/bandiview.png"
-        url: "https://www.bandisoft.com/bandiview/"
+      - name: "Pinta"
+        logo: "assets/tools/pinta.png"
+        subtitle: "Beta release, GTK clone of Paint.Net 3.0"
+        url: "https://github.com/PintaProject/Pinta/releases/tag/3.1-beta1"
+        target: "_blank" # optional html a tag target attribute
+        
+      - name: "Luminar Neo"
+        logo: "assets/tools/LuminarNeo.png"
+        subtitle: "AI Photo Editor"
+        url: "https://apps.microsoft.com/detail/9P7JQGL6GC8P"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "ImageMagick"
+        logo: "assets/tools/imagemagick.png"
+        subtitle: "Free, open-source software suite, used for editing and manipulating digital image"
+        url: "https://imagemagick.org/script/download.php#windows"
+        target: "_blank" # optional html a tag target attribute
+        
+      - name: "Leonardo"
+        logo: "assets/tools/leonardo.png"
+        subtitle: "Drawing & painting app for Windows"
+        url: "https://www.getleonardo.com/download/"
+        target: "_blank" # optional html a tag target attribute
+        
+      - name: "Lunacy"
+        logo: "assets/tools/Lunacy.png"
+        subtitle: "a vector graphic design app"
+        url: "https://apps.microsoft.com/detail/9PNLMKKPCLJJ"
+        target: "_blank" # optional html a tag target attribute
+        
+      - name: "Concepts"
+        logo: "assets/tools/concepts.png"
+        subtitle: "Sketch your ideas on the infinite canvas, write notes and doodles with tilt + pressure, draw storyboards, product sketches and design plans"
+        url: "https://apps.microsoft.com/detail/concepts/9NGQM8FPH9WQ"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Pointless"
+        logo: "assets/tools/pointless.png"
+        subtitle: "unofficial build, drawing app"
+        url: "https://github.com/ArminiusTux/WinARM64-binaries/releases/tag/Pointless"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "PixiEditor"
+        logo: "assets/tools/pixieditor.png"
+        subtitle: "unofficial build, Pixel art editing software"
+        url: "https://github.com/tordona/pixieditor/releases"
+        target: "_blank" # optional html a tag target attribute
+        
       - name: "Topaz Photo"
         logo: "assets/tools/topaz-photo.png"
         subtitle: "Image enhancement made for on-location photographers."
@@ -1162,47 +1243,72 @@ services:
         subtitle: "Super scale any image with AI. Like magic."
         url: "https://www.topazlabs.com/downloads"
         target: "_blank" # optional html a tag target attribute
+
+      - name: "Final2x"
+        logo: "assets/tools/Final2x.png"
+        subtitle: "Image Super-Resolution"
+        url: "https://github.com/Tohrusky/Final2x/releases"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Figma Desktop app"
+        logo: "assets/tools/figma.png"
+        subtitle: "design collaboration tool for creating and exporting digital assets"
+        url: "https://www.figma.com/downloads/"
+        target: "_blank" # optional html a tag target attribute
+        
+      - name: "BandiView"
+        logo: "assets/tools/bandiview.png"
+        subtitle: "Fast, lightweight, and free image viewer with a simple interface for quickly opening and browsing images."
+        url: "https://www.bandisoft.com/bandiview/"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Image Eye"
+        logo: "assets/tools/imageeye.png"
+        subtitle: "viewing images as quickly — nothing else"        
+        url: "https://www.fmjsoft.com/imageeye.html#download"
+        target: "_blank" # optional html a tag target attribute
         
       - name: "Visum Photo Viewer"
         logo: "assets/tools/visum.png"
+        subtitle: "View and edit photos and video."
         url: "https://apps.microsoft.com/detail/9n1x3z50blm8"
         target: "_blank" # optional html a tag target attribute
 
       - name: "ImageGlass"
         logo: "assets/tools/imageglass.png"
+        subtitle: "Lightweight software designed for seamless viewing of images in a clean and intuitive interface."
         url: "https://github.com/d2phap/ImageGlass/releases"
         target: "_blank" # optional html a tag target attribute
 
       - name: "PicView"
         logo: "assets/tools/picview.png"
+        subtitle: "Fast, free and fully customizable picture viewer"
         url: "https://github.com/Ruben2776/PicView/releases/"
-        target: "_blank" # optional html a tag target attribute
-
-      - name: "Image Eye"
-        logo: "assets/tools/imageeye.png"
-        subtitle: "viewing images as quickly — nothing else"
-        url: "https://www.fmjsoft.com/imageeye.html#download"
         target: "_blank" # optional html a tag target attribute
 
       - name: "ScreenToGif"
         logo: "assets/tools/screentogif.png"
+        subtitle: "Screen, webcam and sketchboard recorder with an integrated editor"
         url: "https://www.screentogif.com/"
         target: "_blank" # optional html a tag target attribute
 
       - name: "VueScan"
         logo: "assets/tools/vuescan.png"
+        subtitle: "Reverse engineered over 7400 scanners and included built in drivers in VueScan so you can keep using the scanner you already have"
         url: "https://www.hamrick.com/alternate-versions.html"
         target: "_blank" # optional html a tag target attribute
 
       - name: "NAPS2 - Not Another PDF Scanner"
         logo: "assets/tools/naps.png"
+        subtitle: "Document scanning application with a focus on simplicity and ease of use"
         url: "https://github.com/cyanfish/naps2/releases"
         target: "_blank" # optional html a tag target attribute
-        
-      - name: "ImageMagick"
-        logo: "assets/tools/imagemagick.png"
-        url: "https://imagemagick.org/script/download.php#windows"
-        target: "_blank" # optional html a tag target attribute
+
+      - name: "Scanner"
+        logo: "assets/tools/scanner.png"
+        subtitle: "Quick and Easy Document Scanning"
+        url: "https://apps.microsoft.com/detail/9n438mzhd3zf"
+        target: "_blank" # optional html a tag target attribute        
 
       - name: "Any Image"
         logo: "assets/tools/anyimage.png"
@@ -1212,50 +1318,8 @@ services:
 
       - name: "Gifsicle"
         logo: "assets/tools/gifsicle.png"
-        subtitle: "unofficial builds"
+        subtitle: "unofficial builds, command-line utility for working with GIF images."
         url: "https://eternallybored.org/misc/gifsicle/"
-        target: "_blank" # optional html a tag target attribute
-
-      - name: "Adobe Lightroom"
-        logo: "assets/tools/lightroom.png"
-        subtitle: "Digital image organization and workflow tool"
-        url: "https://apps.microsoft.com/store/detail/adobe-lightroom/XPDP264X2DK8NB"
-        target: "_blank" # optional html a tag target attribute
-
-      - name: "Adobe Photoshop"
-        logo: "assets/tools/photoshop.png"
-        subtitle: "Image editing software"
-        url: "https://apps.microsoft.com/store/detail/adobe-photoshop/XPFD4T9N395QN6"
-        target: "_blank" # optional html a tag target attribute
-
-      - name: "Adobe Camera Raw plug-in"
-        logo: "assets/tools/adobe-camera-raw.png"
-        subtitle: "Tool for adding advanced raw photos adjustment capabilities to Photoshop and Bridge"
-        url: "https://helpx.adobe.com/camera-raw/kb/camera-raw-plug-in-installer.html"
-        target: "_blank" # optional html a tag target attribute
-
-      - name: "Concepts"
-        logo: "assets/tools/concepts.png"
-        subtitle: "Sketch your ideas on the infinite canvas, write notes and doodles with tilt + pressure, draw storyboards, product sketches and design plans"
-        url: "https://apps.microsoft.com/detail/concepts/9NGQM8FPH9WQ"
-        target: "_blank" # optional html a tag target attribute
-
-      - name: "Leonardo"
-        logo: "assets/tools/leonardo.png"
-        subtitle: "Drawing & painting app for Windows"
-        url: "https://www.getleonardo.com/download/"
-        target: "_blank" # optional html a tag target attribute
-
-      - name: "Luminar Neo"
-        logo: "assets/tools/LuminarNeo.png"
-        subtitle: "AI Photo Editor"
-        url: "https://apps.microsoft.com/detail/9P7JQGL6GC8P"
-        target: "_blank" # optional html a tag target attribute
-
-      - name: "Lunacy"
-        logo: "assets/tools/Lunacy.png"
-        subtitle: "a vector graphic design app"
-        url: "https://apps.microsoft.com/detail/9PNLMKKPCLJJ"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Pichon"
@@ -1270,24 +1334,6 @@ services:
         url: "https://apps.microsoft.com/detail/9p1rzl9z8454"
         target: "_blank" # optional html a tag target attribute
 
-      - name: "Pointless"
-        logo: "assets/tools/pointless.png"
-        subtitle: "unofficial build, drawing app"
-        url: "https://github.com/ArminiusTux/WinARM64-binaries/releases/tag/Pointless"
-        target: "_blank" # optional html a tag target attribute
-
-      - name: "Final2x"
-        logo: "assets/tools/Final2x.png"
-        subtitle: "Image Super-Resolution"
-        url: "https://github.com/Tohrusky/Final2x/releases"
-        target: "_blank" # optional html a tag target attribute
-
-      - name: "Affinity by Canva"
-        logo: "assets/tools/affinity.png"
-        subtitle: "Free graphic design, photo editing, and page layout and design editor"
-        url: "https://www.affinity.studio/"
-        target: "_blank" # optional html a tag target attribute
-
       - name: "Glaxnimate"
         logo: "assets/tools/glaxnimate.png"
         subtitle: "unofficial build, simple vector graphics animation program"
@@ -1300,22 +1346,10 @@ services:
         url: "https://github.com/tordona/libresprite/releases"
         target: "_blank" # optional html a tag target attribute
 
-      - name: "Pinta"
-        logo: "assets/tools/pinta.png"
-        subtitle: "Beta release, GTK clone of Paint.Net 3.0"
-        url: "https://github.com/PintaProject/Pinta/releases/tag/3.1-beta1"
-        target: "_blank" # optional html a tag target attribute
-
       - name: "PixelViewer"
         logo: "assets/tools/pixelviewer.png"
         subtitle: "cross-platform image viewer"
         url: "https://github.com/carina-studio/PixelViewer/releases"
-        target: "_blank" # optional html a tag target attribute
-
-      - name: "PixiEditor"
-        logo: "assets/tools/pixieditor.png"
-        subtitle: "unofficial build, Pixel art editing software"
-        url: "https://github.com/tordona/pixieditor/releases"
         target: "_blank" # optional html a tag target attribute
 
       - name: "darktable"
@@ -1334,18 +1368,6 @@ services:
         logo: "assets/tools/ptgui.png"
         subtitle: "Panorama Image Stitcher"
         url: "https://ptgui.com/download.html"
-        target: "_blank" # optional html a tag target attribute
-
-      - name: "Adobe DNG Converter"
-        logo: "assets/tools/adobedngconverter.png"
-        subtitle: "Convert to a more universal DNG raw file"
-        url: "https://helpx.adobe.com/ee/camera-raw/using/adobe-dng-converter.html"
-        target: "_blank" # optional html a tag target attribute
-
-      - name: "Figma Desktop app"
-        logo: "assets/tools/figma.png"
-        subtitle: "design collaboration tool for creating and exporting digital assets"
-        url: "https://www.figma.com/downloads/"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Gowall"
@@ -1569,12 +1591,6 @@ services:
         subtitle: "virtual PDF printer"
         tag: "only partially native"        
         url: "https://www.cube-soft.com/cubepdf/"
-        target: "_blank" # optional html a tag target attribute
-
-      - name: "Scanner"
-        logo: "assets/tools/scanner.png"
-        subtitle: "Quick and Easy Document Scanning"
-        url: "https://apps.microsoft.com/detail/9n438mzhd3zf"
         target: "_blank" # optional html a tag target attribute
 
       - name: "TeXstudio"
