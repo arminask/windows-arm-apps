@@ -1234,6 +1234,12 @@ services:
         url: "https://helpx.adobe.com/camera-raw/kb/camera-raw-plug-in-installer.html"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "Krita"
+        logo: "assets/tools/krita.png"
+        subtitle: "Unofficial experimental build, Open-source digital painting and 2D animation program."
+        url: "https://github.com/NAP64/Krita-WoA-Port/releases"
+        target: "_blank" # optional html a tag target attribute
+        
       - name: "Concepts"
         logo: "assets/tools/concepts.png"
         subtitle: "Sketch your ideas on the infinite canvas, write notes and doodles with tilt + pressure, draw storyboards, product sketches and design plans"
