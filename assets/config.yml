@@ -14,6 +14,9 @@ defaults:
   # auto, light, dark
   colorTheme: auto
 
+stylesheet:
+  - "assets/custom.css"
+  
 # Optional theme customization
 theme: default
 colors:
@@ -48,7 +51,7 @@ message:
   style: "is-dark" # See https://bulma.io/documentation/components/message/#colors for styling options.
   title: "Note"
   icon: "fa fa-house"
-  content: "Collection of native software for Windows on ARM architecture. <br /> Explore our curated list of applications and contribute to its growth by adding more software on our GitHub page."
+  content: "Collection of native software for Windows on ARM architecture. <br /> Explore our curated list of applications and contribute to its growth by adding more software on our <a href='https://github.com/arminask/windows-arm-apps' target='_blank'>GitHub</a> page."
 
 links:
   - name: "Home"
@@ -74,6 +77,141 @@ links:
 
 # Services
 services:
+
+  - name: "Category Jump List"
+    icon: fas fa-list
+    items:      
+      - name: "Web Browsers"
+        icon: "fa-brands fa-internet-explorer"
+        url: "?sec=web-browsers"
+        target: _self
+     
+      - name: "Online Media Streaming"
+        icon: "fa-solid fa-broadcast-tower"
+        url: "?sec=online-media-streaming"
+        target: _self
+
+      - name: "Local Media Streaming"
+        icon: "fa-solid fa-play"
+        url: "?sec=local-media-streaming"
+        target: _self
+
+      - name: "Video Editing/Broadcast"
+        icon: "fa-solid fa-clapperboard"
+        url: "?sec=video-editing-broadcast"
+        target: _self
+
+      - name: "Audio Editing"
+        icon: "fa-solid fa-wave-square"
+        url: "?sec=audio-editing"
+        target: _self
+
+      - name: "Social"
+        icon: "fa-solid fa-message"
+        url: "?sec=social"
+        target: _self
+
+      - name: "Photo Editing & Drawing Tools"
+        icon: "fa-solid fa-paintbrush"
+        url: "?sec=photo-editing-drawing-tools"
+        target: _self
+
+      - name: "Design"
+        icon: "fa-solid fa-cube"
+        url: "?sec=design"
+        target: _self
+
+      - name: "Compression"
+        icon: "fa-solid fa-file-zipper"
+        url: "?sec=compression"
+        target: _self
+
+      - name: "Office"
+        icon: "fa-solid fa-briefcase"
+        url: "?sec=office"
+        target: _self
+
+      - name: "Tools"
+        icon: "fa-solid fa-screwdriver-wrench"
+        url: "?sec=tools"
+        target: _self
+
+      - name: "Cross-Device Integration"
+        icon: "fa-solid fa-circle-nodes"
+        url: "?sec=cross-device-integration"
+        target: _self
+
+      - name: "VPN"
+        icon: "fa-solid fa-globe"
+        url: "?sec=vpn"
+        target: _self
+
+      - name: "Network & Cloud Storage"
+        icon: "fa-solid fa-network-wired"
+        url: "?sec=network-cloud-storage"
+        target: _self
+
+      - name: "Coding"
+        icon: "fa-solid fa-code"
+        url: "?sec=coding"
+        target: _self
+
+      - name: "Emulation & Virtualization"
+        icon: "fa-solid fa-microchip"
+        url: "?sec=emulation-virtualization"
+        target: _self
+
+      - name: "Benchmarking & Diagnostics"
+        icon: "fa-solid fa-stopwatch"
+        url: "?sec=benchmarking-diagnostics"
+        target: _self
+
+      - name: "Security & Protection"
+        icon: "fa-solid fa-shield"
+        url: "?sec=security-protection"
+        target: _self
+
+      - name: "Theme & Styles"
+        icon: "fa-solid fa-brush"
+        url: "?sec=theme-styles"
+        target: _self
+
+      - name: "Other"
+        icon: "fa-solid fa-question"
+        url: "?sec=other"
+        target: _self
+
+      - name: "Game Console Emulation"
+        icon: "fa-brands fa-playstation"
+        url: "?sec=game-console-emulation"
+        target: _self
+        
+      - name: "Games"
+        icon: "fa-solid fa-gamepad"
+        url: "?sec=games"
+        target: _self
+
+      - name: "Chess / شطرنج"
+        icon: "fa-solid fa-chess-knight"
+        url: "?sec=chess"
+        target: _self
+
+      - name: "Artificial Intelligence"
+        icon: "fa-solid fa-brain"
+        url: "?sec=artificial-intelligence"
+        target: _self
+
+      - name: "Drivers"
+        icon: "fa-solid fa-gears"
+        url: "?sec=drivers"
+        target: _self
+
+      - name: "Printers"
+        icon: "fa-solid fa-print"
+        url: "?sec=printers"
+        target: _self
+     
+        
   - name: "Web Browsers"
     icon: "fa-brands fa-internet-explorer"
     items:
@@ -177,7 +315,7 @@ services:
         url: "https://github.com/moonD4rk/HackBrowserData/releases"
         target: "_blank" # optional html a tag target attribute
 
-  - name: "Online Media Streaming, Podcasts & Downloaders"
+  - name: "Online Media Streaming"
     icon: "fa-solid fa-broadcast-tower"
     items:
       - name: "Netflix"
@@ -326,7 +464,7 @@ services:
         url: "https://github.com/nilaoda/N_m3u8DL-RE/releases"
         target: "_blank" # optional html a tag target attribute
         
-  - name: "Local Media Streaming & Playback"
+  - name: "Local Media Streaming"
     icon: "fa-solid fa-play"
     items:
       - name: "VLC media player"
@@ -478,7 +616,7 @@ services:
         url: "https://vac.muzychenko.net"
         target: "_blank" # optional html a tag target attribute
         
-  - name: "Video Editing & Broadcasting"
+  - name: "Video Editing/Broadcast"
     icon: "fa-solid fa-clapperboard"
     items:
     
@@ -493,6 +631,38 @@ services:
         subtitle: "A professional video editing software package"
         url: "https://www.vegascreativesoftware.info/us/forum/release-vegas-pro-23--149552/"
         target: "_blank" # optional html a tag target attribute'
+
+      - name: "Adobe Premiere Pro"
+        logo: "assets/tools/adobe-premiere.png"
+        subtitle: "Video editor, install via 'Beta Apps' section of Creative Cloud app"
+        tag: "Beta"
+        url: "https://helpx.adobe.com/download-install/apps/system-requirements/apps-compatibility-copilot.html"
+        target: "_blank" # optional html a tag target attribute'
+
+      - name: "Adobe After Effects"
+        logo: "assets/tools/adobe-aftereffects.png"
+        subtitle: "Motion graphics and visual effects, install via 'Beta Apps' section of Creative Cloud app"
+        tag: "Beta"
+        url: "https://helpx.adobe.com/download-install/apps/system-requirements/apps-compatibility-copilot.html"
+        target: "_blank" # optional html a tag target attribute'
+        
+      - name: "OBS Studio"
+        logo: "assets/tools/obs.png"
+        subtitle: "Experimental"
+        url: "https://github.com/obsproject/obs-studio/releases"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Livekit"
+        logo: "assets/tools/livekit.png"
+        subtitle: "Open source project that provides scalable, multi-user conferencing based on WebRTC."
+        url: "https://github.com/livekit/livekit/releases"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Livekit CLI"
+        logo: "assets/tools/livekit.png"
+        subtitle: "Command line interface to LiveKit"
+        url: "https://github.com/livekit/livekit-cli/releases"
+        target: "_blank" # optional html a tag target attribute
         
       - name: "CapCut"
         logo: "assets/tools/capcut.png"
@@ -528,12 +698,6 @@ services:
       - name: "Fluent Screen Recorder"
         logo: "assets/tools/fluentscreenrecorder.png"
         url: "https://apps.microsoft.com/detail/9mwv79xlfqh7"
-        target: "_blank" # optional html a tag target attribute
-
-      - name: "OBS Studio"
-        logo: "assets/tools/obs.png"
-        subtitle: "Experimental"
-        url: "https://github.com/obsproject/obs-studio/releases"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Camo Studio"
@@ -605,6 +769,20 @@ services:
   - name: "Audio Editing"
     icon: "fa-solid fa-wave-square"
     items:
+      - name: "Adobe Audition"
+        logo: "assets/tools/adobe-audition.png"
+        subtitle: "Audio software for professional recording, mixing, and editing, install via 'Beta Apps' section of Creative Cloud app"
+        tag: "Beta"
+        url: "https://helpx.adobe.com/download-install/apps/system-requirements/apps-compatibility-copilot.html"
+        target: "_blank" # optional html a tag target attribute'
+
+      - name: "Adobe Media Encoder"
+        logo: "assets/tools/adobe-mediaencoder.png"
+        subtitle: "Encode, transcode, and convert media, install via 'Beta Apps' section of Creative Cloud app"
+        tag: "Beta"
+        url: "https://helpx.adobe.com/download-install/apps/system-requirements/apps-compatibility-copilot.html"
+        target: "_blank" # optional html a tag target attribute'
+        
       - name: "n-Track Studio 10"
         logo: "assets/tools/ntrackstudio.png"
         subtitle: "A digital audio workstation (DAW) and multitrack recording software that allows users to record, edit, mix, and produce music"
@@ -771,7 +949,13 @@ services:
         subtitle: "Reimplementation of Impulse Tracker"
         url: "https://github.com/schismtracker/schismtracker/releases"
         target: "_blank" # optional html a tag target attribute		
-
+        
+      - name: "KEMPER Rig Manager"
+        logo: "assets/tools/kemper-rigmanager.png"
+        subtitle: "Allows you to preview and manage your collection of PROFILER Rigs, Performances and presets."
+        url: "https://www.kemper-amps.com/downloads/12"
+        target: "_blank" # optional html a tag target attribute		
+        
       - name: "ACDR"
         logo: "assets/tools/acdr.png"
         subtitle: "Free  CD-ripper makes it easy to convert your audio CD's into audio clips."
@@ -967,6 +1151,18 @@ services:
         url: "https://www.bandisoft.com/bandiview/"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "Topaz Photo"
+        logo: "assets/tools/topaz-photo.png"
+        subtitle: "Image enhancement made for on-location photographers."
+        url: "https://www.topazlabs.com/downloads"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Topaz Gigapixel"
+        logo: "assets/tools/topaz-gigapixel.png"
+        subtitle: "Super scale any image with AI. Like magic."
+        url: "https://www.topazlabs.com/downloads"
+        target: "_blank" # optional html a tag target attribute
+        
       - name: "Visum Photo Viewer"
         logo: "assets/tools/visum.png"
         url: "https://apps.microsoft.com/detail/9n1x3z50blm8"
@@ -1022,16 +1218,19 @@ services:
 
       - name: "Adobe Lightroom"
         logo: "assets/tools/lightroom.png"
+        subtitle: "Digital image organization and workflow tool"
         url: "https://apps.microsoft.com/store/detail/adobe-lightroom/XPDP264X2DK8NB"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Adobe Photoshop"
         logo: "assets/tools/photoshop.png"
+        subtitle: "Image editing software"
         url: "https://apps.microsoft.com/store/detail/adobe-photoshop/XPFD4T9N395QN6"
         target: "_blank" # optional html a tag target attribute
 
-      - name: "Adobe Camera Raw"
+      - name: "Adobe Camera Raw plug-in"
         logo: "assets/tools/adobe-camera-raw.png"
+        subtitle: "Tool for adding advanced raw photos adjustment capabilities to Photoshop and Bridge"
         url: "https://helpx.adobe.com/camera-raw/kb/camera-raw-plug-in-installer.html"
         target: "_blank" # optional html a tag target attribute
 
@@ -1139,7 +1338,7 @@ services:
 
       - name: "Adobe DNG Converter"
         logo: "assets/tools/adobedngconverter.png"
-        subtitle: "convert to a more universal DNG raw file"
+        subtitle: "Convert to a more universal DNG raw file"
         url: "https://helpx.adobe.com/ee/camera-raw/using/adobe-dng-converter.html"
         target: "_blank" # optional html a tag target attribute
 
@@ -1327,6 +1526,7 @@ services:
 
       - name: "SumatraPDF"
         logo: "assets/tools/sumatrapdf.png"
+        subtitle: "Fast free PDF, eBook (epub, mobi), comic book (cbz/cbr), DjVu, XPS, CHM, image viewer"
         url: "https://www.sumatrapdfreader.org/download-free-pdf-viewer"
         target: "_blank" # optional html a tag target attribute
 
@@ -1342,11 +1542,13 @@ services:
 
       - name: "Foxit PDF Reader"
         logo: "assets/tools/foxitreader.png"
+        subtitle: "ARM version only available in Chinese language"
         url: "https://www.foxitsoftware.cn/downloads/"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Foxit PDF Editor"
         logo: "assets/tools/foxiteditor.png"
+        subtitle: "ARM version only available in Chinese language"
         url: "https://www.foxitsoftware.cn/downloads/"
         target: "_blank" # optional html a tag target attribute
 
@@ -1458,6 +1660,12 @@ services:
         url: "https://apps.microsoft.com/store/detail/9WZDNCRFJ9W7"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "YACReader"
+        logo: "assets/tools/yacreader.png"
+        subtitle: "Test version, free, open-source comic reader, supports various file formats including CBZ, CBR, ZIP, RAR, PDF, and more."
+        url: "https://yacreader.com/forum/support-windows/2705-request-for-windows-on-arm-support#9715"
+        target: "_blank" # optional html a tag target attribute
+        
       - name: "Rulia - Manga Reader"
         logo: "assets/tools/rulia.png"
         subtitle: "an offline manga reader. It will give you different feeling."
@@ -1564,6 +1772,12 @@ services:
         url: "https://www.portfolio-performance.info/en/download.html#win"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "Digiexam Standalone App"
+        logo: "assets/tools/digiexam.png"
+        subtitle: "Secure, online exam platform used by K-12 schools and universities to administer tests in a controlled environment"
+        url: "https://www.digiexam.com/windows-exam-app-download"
+        target: "_blank" # optional html a tag target attribute
+        
   - name: "Tools"
     icon: "fa-solid fa-screwdriver-wrench"
     items:
@@ -2861,7 +3075,7 @@ services:
         url: "https://github.com/microsoft/vcpkg-tool/releases"
         target: "_blank" # optional html a tag target attribute
 
-      - name: "git"
+      - name: "Git for Windows"
         logo: "assets/tools/git.png"
         subtitle: "ARM64 builds available since 2.47.1"
         url: "https://github.com/git-for-windows/git/releases"
@@ -2891,6 +3105,66 @@ services:
         url: "https://github.com/chirontt/gitextensions/releases"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "Visual Studio 2026"
+        logo: "assets/tools/visualstudio2026.png"
+        subtitle: "Microsoft's flagship developer IDE"
+        url: "https://visualstudio.microsoft.com/vs/"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Tabs Studio for Visual Studio 2022/2026"
+        logo: "assets/tools/tabsstudio.png"
+        subtitle: "Add-In for multi row, color coded tabs, and more"
+        url: "https://tabsstudio.com/download.html"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Typewriter for Visual Studio 2022/2026"
+        logo: "assets/tools/typewriteraddin.png"
+        subtitle: "Supported fork, add-in for Visual Studio that generates TypeScript files from c# code files using TypeScript templates."
+        url: "https://github.com/AdaskoTheBeAsT/Typewriter/releases"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Wix Toolset Votive2022"
+        logo: "assets/tools/votive2022.png"
+        subtitle: "ARM64 Visual Studio 2022 Extension, unofficial build"
+        url: "https://github.com/fobrs/VisualStudioExtension/releases"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Visual Studio Code"
+        logo: "assets/tools/visualstudiocode.png"
+        subtitle: "Free, open-source, and highly extensible code editor developed by Microsoft"
+        url: "https://apps.microsoft.com/store/detail/visual-studio-code/XP9KHM4BK9FZ7Q"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "VSCodium"
+        logo: "assets/tools/vscodium.png"
+        subtitle: "Binary releases of Visual Studio Code without MS branding/telemetry/licensing"
+        url: "https://github.com/VSCodium/vscodium/releases"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Cursor"
+        logo: "assets/tools/cursor.png"
+        subtitle: "The AI Code Editor (Visual Studio Code Fork)"
+        url: "https://www.cursor.com/downloads"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Google Antigravity"
+        logo: "assets/tools/googleantigravity.png"
+        subtitle: "Google code editor with Gemini (Visual Studio Code Fork)"
+        url: "https://antigravity.google/download"
+        target: "_blank" # optional html a tag target attribute
+        
+      - name: "Windsurf"
+        logo: "assets/tools/windsurf.png"
+        subtitle: "Agentic IDE (Visual Studio Code Fork)"
+        url: "https://windsurf.com/download/editor#all-download-options"
+        target: "_blank" # optional html a tag target attribute        
+        
+      - name: "Arduino App Lab"
+        logo: "assets/tools/arduino.png"
+        subtitle: "Visual environment for managing your UNO Q board"
+        url: "https://www.arduino.cc/en/software/#app-lab-section"
+        target: "_blank" # optional html a tag target attribute
+        
       - name: "Python"
         logo: "assets/tools/python.png"
         url: "https://www.python.org/downloads/windows/"
@@ -2951,61 +3225,73 @@ services:
 
       - name: "JetBrains IntelliJ IDEA"
         logo: "assets/tools/jetbrainsintellij-idea.png"
+        subtitle: "Leading IDE for Professional Development in Java and Kotlin"
         url: "https://www.jetbrains.com/idea/download/"
         target: "_blank" # optional html a tag target attribute
 
       - name: "JetBrains PyCharm"
         logo: "assets/tools/jetbrainspycharm.png"
+        subtitle: "Python IDE for web, data, and AI/ML professionals."
         url: "https://www.jetbrains.com/pycharm/download/?section=windows"
         target: "_blank" # optional html a tag target attribute
 
       - name: "JetBrains PhpStorm"
         logo: "assets/tools/jetbrainsphpstorm.png"
+        subtitle: "PHP IDE empowering PHP Developers"
         url: "https://www.jetbrains.com/phpstorm/download/download-thanks.html?platform=windowsARM64"
         target: "_blank" # optional html a tag target attribute
 
       - name: "JetBrains GoLand"
         logo: "assets/tools/jetbrainsgoland.png"
+        subtitle: "IDE for Professional Development in Go"
         url: "https://www.jetbrains.com/go/download/download-thanks.html?platform=windowsARM64"
         target: "_blank" # optional html a tag target attribute
 
       - name: "JetBrains Rider"
         logo: "assets/tools/jetbrainsrider.png"
+        subtitle: "Cross-platform IDE for .NET and game developers"
         url: "https://www.jetbrains.com/rider/download/download-thanks.html?platform=windowsARM64"
         target: "_blank" # optional html a tag target attribute
 
       - name: "JetBrains CLion"
         logo: "assets/tools/jetbrainsclion.png"
+        subtitle: "Cross-platform IDE for C and C++"
         url: "https://www.jetbrains.com/clion/download/download-thanks.html?platform=windowsARM64"
         target: "_blank" # optional html a tag target attribute
 
       - name: "JetBrains RustRover"
         logo: "assets/tools/jetbrainsrustover.png"
-        url: "https://www.jetbrains.com/rust/nextversion/"
+        subtitle: "A Powerful IDE for Rust"
+        url: "https://www.jetbrains.com/rust/download/download-thanks.html?platform=windowsARM64"
         target: "_blank" # optional html a tag target attribute
 
       - name: "JetBrains WebStorm"
         logo: "assets/tools/jetbrainswebstorm.png"
+        subtitle: "JavaScript and TypeScript IDE"
         url: "https://www.jetbrains.com/webstorm/download/download-thanks.html?platform=windowsARM64"
         target: "_blank" # optional html a tag target attribute
 
       - name: "JetBrains RubyMine"
         logo: "assets/tools/jetbrainsrubymine.png"
+        subtitle: "Ruby on Rails IDE"
         url: "https://www.jetbrains.com/ruby/download/download-thanks.html?platform=windowsARM64"
         target: "_blank" # optional html a tag target attribute
 
       - name: "JetBrains DataGrip"
         logo: "assets/tools/jetbrainsdatagrip.png"
+        subtitle: "Cross-platform IDE for relational and NoSQL databases"
         url: "https://www.jetbrains.com/datagrip/download/download-thanks.html?platform=windowsARM64"
         target: "_blank" # optional html a tag target attribute
 
       - name: "JetBrains DataSpell"
         logo: "assets/tools/jetbrainsdataspell.png"
+        subtitle: "AI-powered tool for analyzing data and sharing insights"
         url: "https://www.jetbrains.com/dataspell/download/download-thanks.html?platform=windowsARM64"
         target: "_blank" # optional html a tag target attribute
       
       - name: "JetBrains Toolbox"
         logo: "assets/tools/toolbox.png"
+        subtitle: "Manage your JetBrains IDEs the easy way"
         url: "https://www.jetbrains.com/toolbox-app/download/download-thanks.html?platform=windowsARM64"
         target: "_blank" # optional html a tag target attribute
 
@@ -3108,28 +3394,6 @@ services:
         logo: "assets/tools/ilspy.png"
         subtitle: ".NET assembly browser and decompiler"
         url: "https://github.com/icsharpcode/ILSpy/releases"
-        target: "_blank" # optional html a tag target attribute
-
-      - name: "Visual Studio Code"
-        logo: "assets/tools/visualstudiocode.png"
-        url: "https://apps.microsoft.com/store/detail/visual-studio-code/XP9KHM4BK9FZ7Q"
-        target: "_blank" # optional html a tag target attribute
-
-      - name: "Visual Studio Community/Professional/Enterprise 2022"
-        logo: "assets/tools/visualstudiocommunity2022.png"
-        url: "https://visualstudio.microsoft.com/vs/"
-        target: "_blank" # optional html a tag target attribute
-
-      - name: "Tabs Studio for Visual Studio 2022"
-        logo: "assets/tools/tabsstudio.png"
-        subtitle: "Add-In for multi row, color coded tabs, and more"
-        url: "https://tabsstudio.com/download.html"
-        target: "_blank" # optional html a tag target attribute
-
-      - name: "Typewriter for Visual Studio 2022"
-        logo: "assets/tools/typewriteraddin.png"
-        subtitle: "Supported fork, add-in for Visual Studio that generates TypeScript files from c# code files using TypeScript templates."
-        url: "https://github.com/AdaskoTheBeAsT/Typewriter/releases"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Zig"
@@ -3259,12 +3523,6 @@ services:
         url: "https://www.hhdsoftware.com/free-hex-editor"
         target: "_blank" # optional html a tag target attribute
 
-      - name: "VSCodium"
-        logo: "assets/tools/vscodium.png"
-        subtitle: "binary releases of VS Code without MS branding/telemetry/licensing"
-        url: "https://github.com/VSCodium/vscodium/releases"
-        target: "_blank" # optional html a tag target attribute
-
       - name: "rust-analyzer"
         logo: "assets/tools/rust.png"
         subtitle: "A Rust compiler front-end for IDEs"
@@ -3313,6 +3571,12 @@ services:
         url: "https://www.autohotkey.com/boards/viewtopic.php?style=2&p=535036#p535036"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "AutoHotKey v2.1-alpha.18-8-g282cf3a7"
+        logo: "assets/tools/autohotkey.png"
+        subtitle: "unofficial builds, automation scripting language"
+        url: "https://github.com/t-satoru/AutoHotkey-woa/releases"
+        target: "_blank" # optional html a tag target attribute
+        
       - name: "Godot"
         logo: "assets/tools/godot.png"
         subtitle: "Free, open‑source game engine."
@@ -3357,21 +3621,10 @@ services:
         url: "https://github.com/lhak/Dependencies/releases"
         target: "_blank" # optional html a tag target attribute
 
-      - name: "Vulkan SDK & Runtime"
-        logo: "assets/tools/vulkansdk.png"
-        url: "https://vulkan.lunarg.com/sdk/home#windows"
-        target: "_blank" # optional html a tag target attribute
-
       - name: "Racket"
         logo: "assets/tools/racket.png"
         subtitle: "Racket, cross-platform graphical programming"
         url: "https://download.racket-lang.org/"
-        target: "_blank" # optional html a tag target attribute
-        
-      - name: "Wix Toolset Votive2022"
-        logo: "assets/tools/votive2022.png"
-        subtitle: "ARM64 Visual Studio 2022 Extension, unofficial build"
-        url: "https://github.com/fobrs/VisualStudioExtension/releases"
         target: "_blank" # optional html a tag target attribute
         
       - name: "ArcGIS Maps SDK"
@@ -3487,13 +3740,20 @@ services:
         
       - name: "DOSBox-X"
         logo: "assets/tools/dosbox.png"
+        subtitle: "Fork of DOSBox, focuses more on general emulation and accuracy."
         url: "https://github.com/joncampbell123/dosbox-x/releases"
         target: "_blank" # optional html a tag target attribute
 
       - name: "DOSBox Staging"
         logo: "assets/tools/dosbox-staging.png"
-        subtitle: "experimental builds / GitHub login required"        
+        subtitle: "Experimental builds / GitHub login required"        
         url: "https://www.dosbox-staging.org/releases/development-builds/"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "DOSBox Pure Unleashed"
+        logo: "assets/tools/dosboxpureunleashed.png"
+        subtitle: "Fork of DOSBox, an emulator for DOS games, aiming for simplicity and ease of use."        
+        url: "https://github.com/schellingb/dosbox-pure-unleashed/releases"
         target: "_blank" # optional html a tag target attribute
 
       - name: "ntvdm64.dll + winevdm"
@@ -3558,6 +3818,12 @@ services:
         target: "_blank" # optional html a tag target attribute
 
       - name: "86Box"
+        logo: "assets/tools/86box.png"
+        subtitle: "Experimental dev official builds"
+        url: "https://github.com/86Box/86Box/actions/workflows/cmake_windows_msys2.yml"
+        target: "_blank" # optional html a tag target attribute
+        
+      - name: "86Box 4.2"
         logo: "assets/tools/86box.png"
         subtitle: "unofficial builds"
         url: "https://github.com/ArminiusTux/WinARM64-binaries/releases/tag/86Box"
@@ -4789,18 +5055,7 @@ services:
   - name: "Games"
     icon: "fa-solid fa-gamepad"
     items:
-      - name: "OpenCL & OpenGL Compatibility Pack"
-        logo: "assets/tools/openglcompat.png"
-        url: "https://apps.microsoft.com/detail/9nqpsl29bfff"
-        target: "_blank" # optional html a tag target attribute
-
-      - name: "*retro-elitist* Vulkan drivers"
-        logo: "assets/tools/vulkandrivers.png"
-        subtitle: "unofficial + unstable = USE AT OWN RISK"
-        tag: "only works on a few Snapdragon pre-Elite SoC models"
-        url: "https://driver1998.github.io/en/posts/vulkan-on-qualcomm-snapdragon-8cx/"
-        target: "_blank" # optional html a tag target attribute
-
+    
       - name: "ScummVM"
         logo: "assets/tools/scummvm.png"
         subtitle: "unofficial builds of THE game engine re-creator"
@@ -5169,12 +5424,6 @@ services:
         logo: "assets/tools/xbox.png"
         subtitle: "cloud game streaming"
         url: "https://apps.microsoft.com/detail/xbox/9MV0B5HZVK9Z"
-        target: "_blank" # optional html a tag target attribute
-
-      - name: "dgVoodoo"
-        logo: "assets/tools/dgvoodoo.png"
-        subtitle: "3dfx Glide & DirectX wrapper"
-        url: "http://dege.freeweb.hu/dgVoodoo2/dgVoodoo2/"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Plague Inc."
@@ -5605,24 +5854,6 @@ services:
         subtitle: "Desktop AI Assistant"
         url: "https://www.doubao.com/download/desktop"
         target: "_blank" # optional html a tag target attribute
-
-      - name: "Windsurf"
-        logo: "assets/tools/windsurf.png"
-        subtitle: "Agentic IDE (VS Code Fork)"
-        url: "https://windsurf.com/download/editor#all-download-options"
-        target: "_blank" # optional html a tag target attribute
-        
-      - name: "Google Antigravity"
-        logo: "assets/tools/googleantigravity.png"
-        subtitle: "Google code editor with Gemini (VS Code Fork)"
-        url: "https://antigravity.google/download"
-        target: "_blank" # optional html a tag target attribute
-
-      - name: "Cursor"
-        logo: "assets/tools/cursor.png"
-        subtitle: "The AI Code Editor (VS Code Fork)"
-        url: "https://www.cursor.com/downloads"
-        target: "_blank" # optional html a tag target attribute
         
       - name: "AnythingLLM"
         logo: "assets/tools/anythingllm.png"
@@ -5686,6 +5917,29 @@ services:
         url: "https://softwarecenter.qualcomm.com/catalog/item/Qualcomm_HND"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "Vulkan SDK & Runtime"
+        logo: "assets/tools/vulkansdk.png"
+        url: "https://vulkan.lunarg.com/sdk/home#windows"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "*retro-elitist* Vulkan drivers"
+        logo: "assets/tools/vulkandrivers.png"
+        subtitle: "unofficial + unstable = USE AT OWN RISK"
+        tag: "only works on a few Snapdragon pre-Elite SoC models"
+        url: "https://driver1998.github.io/en/posts/vulkan-on-qualcomm-snapdragon-8cx/"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "OpenCL & OpenGL Compatibility Pack"
+        logo: "assets/tools/openglcompat.png"
+        url: "https://apps.microsoft.com/detail/9nqpsl29bfff"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "dgVoodoo"
+        logo: "assets/tools/dgvoodoo.png"
+        subtitle: "3dfx Glide & DirectX wrapper"
+        url: "http://dege.freeweb.hu/dgVoodoo2/dgVoodoo2/"
+        target: "_blank" # optional html a tag target attribute
+        
       - name: "Zadig (libwdi)"
         logo: "assets/tools/zadig.png"
         subtitle: "create & autosign USB drivers"
@@ -5772,3 +6026,21 @@ services:
         subtitle: "List of supported models on main page. Drivers are built into Windows Update."
         url: "https://help.brother-usa.com/app/answers/detail/a_id/170667/~/windows-10-or-windows-11-on-arm-processor---support"
         target: "_blank" # optional html a tag target attribute
+
+      - name: "Epson Printer Drivers"
+        logo: "assets/tools/epson.png"
+        subtitle: "List of supported models."
+        url: "https://epson.com/Support/armdrivers"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Lexmark Generic v4 XL Print Driver Package"
+        logo: "assets/tools/lexmark.png"
+        subtitle: "List of supported models in link."
+        url: "https://support.lexmark.com/content/support/en_us/support/download.DRI1000669.html"
+        target: "_blank" # optional html a tag target attribute        
+
+      - name: "Sharp UD3L PCL6 Printer Driver Package"
+        logo: "assets/tools/sharp.png"
+        subtitle: "List of supported models in link."
+        url: "https://global.sharp/restricted/print/search/detail/019156/download.html?view=2&pid=59&lang=2&region=1&os=62"
+        target: "_blank" # optional html a tag target attribute         
