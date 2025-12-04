@@ -2400,8 +2400,7 @@ services:
 
       - name: "Kando"
         logo: "assets/tools/kando.png"
-        subtitle: "a pie menu for doing things with utmost efficiency."
-        tag: "Alpha"
+        subtitle: "A pie menu for doing things with utmost efficiency."
         url: "https://github.com/kando-menu/kando/releases"
         
       - name: "HttpMaster"
@@ -2807,7 +2806,7 @@ services:
 
       - name: "ArozOS"
         logo: "assets/tools/arozos.png"
-        tag: "Experimental"
+        subtitle: "Web Desktop Operating System for low power platforms"
         url: "https://github.com/tobychui/arozos/releases"
         target: "_blank" # optional html a tag target attribute
 
