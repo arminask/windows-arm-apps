@@ -304,9 +304,8 @@ services:
 
       - name: "Wavebox"
         logo: "assets/tools/wavebox.png"
-        tag: "beta"       
         subtitle: "Productivity browser that organizes web applications and tabs into dedicated workspaces"
-        url: "https://wavebox.io/download/beta"
+        url: "https://wavebox.io/download"
         target: "_blank" # optional html a tag target attribute
 
       - name: "HackBrowserData"
@@ -600,8 +599,7 @@ services:
       - name: "FxSound"
         logo: "assets/tools/fxsound.png"
         subtitle: "Free open-source software to boost sound quality, volume, and bass."
-        tag: "Beta"
-        url: "https://www.fxsound.com"
+        url: "https://www.fxsound.com/download"
         target: "_blank"
  
       - name: "Equalizer APO"
@@ -1766,8 +1764,9 @@ services:
 
       - name: "Zotero"
         logo: "assets/tools/zotero.png"
+        subtitle: "Free tool to help you collect, organize, annotate, cite, and share research"
         tag: "Purchases"
-        url: "https://www.zotero.org/support/beta_builds"
+        url: "https://www.zotero.org/download/"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Notion"
@@ -2574,7 +2573,7 @@ services:
 
       - name: "ExpressVPN"
         logo: "assets/tools/expressvpn.png"
-        subtitle: "beta version, click CoPilot PC beta link"
+        subtitle: "Click CoPilot+ PC download link"
         url: "https://www.expressvpn.com/vpn-download/vpn-windows"
         target: "_blank" # optional html a tag target attribute
 
@@ -3346,7 +3345,8 @@ services:
 
       - name: "Dart"
         logo: "assets/tools/dart.png"
-        url: "https://dart.dev/get-dart/archive#beta-channel"
+        subtitle: "Approachable, portable, and productive language for high-quality apps on any platform"
+        url: "https://dart.dev/get-dart/archive"
         target: "_blank" # optional html a tag target attribute
 
       - name: "MS OpenJDK"
