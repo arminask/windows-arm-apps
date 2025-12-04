@@ -1793,6 +1793,12 @@ services:
         subtitle: "Secure, online exam platform used by K-12 schools and universities to administer tests in a controlled environment"
         url: "https://www.digiexam.com/windows-exam-app-download"
         target: "_blank" # optional html a tag target attribute
+
+      - name: "Moneydance"
+        logo: "assets/tools/moneydance.png"
+        subtitle: "Full-featured personal finance app that doesn't compromise your privacy."
+        url: "https://infinitekind.com/download-moneydance-personal-finance-software"
+        target: "_blank" # optional html a tag target attribute
         
   - name: "Tools"
     icon: "fa-solid fa-screwdriver-wrench"
@@ -2572,6 +2578,12 @@ services:
         url: "https://www.expressvpn.com/vpn-download/vpn-windows"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "LetsVPN"
+        logo: "assets/tools/letsvpn.png"
+        subtitle: "Hybrid app, VPN driver is ARM64, app is x86"
+        url: "https://letsvpn.world/"
+        target: "_blank" # optional html a tag target attribute
+        
       - name: "Mullvad VPN"
         logo: "assets/tools/mullvad.png"
         subtitle: "ARM64 supported as of version 2025.3"
@@ -2753,8 +2765,7 @@ services:
       - name: "Charles"
         logo: "assets/tools/charles.png"
         subtitle: "an HTTP proxy / HTTP monitor / Reverse Proxy"
-        tag: "Beta"
-        url: "https://www.charlesproxy.com/download/beta/"
+        url: "https://www.charlesproxy.com/download"
         target: "_blank" # optional html a tag target attribute
 
       - name: "NaïveProxy"
