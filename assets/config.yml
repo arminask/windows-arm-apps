@@ -304,9 +304,8 @@ services:
 
       - name: "Wavebox"
         logo: "assets/tools/wavebox.png"
-        tag: "beta"       
         subtitle: "Productivity browser that organizes web applications and tabs into dedicated workspaces"
-        url: "https://wavebox.io/download/beta"
+        url: "https://wavebox.io/download"
         target: "_blank" # optional html a tag target attribute
 
       - name: "HackBrowserData"
@@ -600,8 +599,7 @@ services:
       - name: "FxSound"
         logo: "assets/tools/fxsound.png"
         subtitle: "Free open-source software to boost sound quality, volume, and bass."
-        tag: "Beta"
-        url: "https://www.fxsound.com"
+        url: "https://www.fxsound.com/download"
         target: "_blank"
  
       - name: "Equalizer APO"
@@ -1766,8 +1764,9 @@ services:
 
       - name: "Zotero"
         logo: "assets/tools/zotero.png"
+        subtitle: "Free tool to help you collect, organize, annotate, cite, and share research"
         tag: "Purchases"
-        url: "https://www.zotero.org/support/beta_builds"
+        url: "https://www.zotero.org/download/"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Notion"
@@ -1776,6 +1775,12 @@ services:
         url: "https://www.notion.so/download"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "Noteastic"
+        logo: "assets/tools/noteastic.png"
+        subtitle: "Note-Taking made simple, created by students for students"
+        url: "https://www.noteastic.app"
+        target: "_blank" # optional html a tag target attribute
+        
       - name: "AFFiNE"
         logo: "assets/tools/affine.png"
         subtitle: "One note like whiteboard application."
@@ -1792,6 +1797,12 @@ services:
         logo: "assets/tools/digiexam.png"
         subtitle: "Secure, online exam platform used by K-12 schools and universities to administer tests in a controlled environment"
         url: "https://www.digiexam.com/windows-exam-app-download"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Moneydance"
+        logo: "assets/tools/moneydance.png"
+        subtitle: "Full-featured personal finance app that doesn't compromise your privacy."
+        url: "https://infinitekind.com/download-moneydance-personal-finance-software"
         target: "_blank" # optional html a tag target attribute
         
   - name: "Tools"
@@ -2395,8 +2406,7 @@ services:
 
       - name: "Kando"
         logo: "assets/tools/kando.png"
-        subtitle: "a pie menu for doing things with utmost efficiency."
-        tag: "Alpha"
+        subtitle: "A pie menu for doing things with utmost efficiency."
         url: "https://github.com/kando-menu/kando/releases"
         
       - name: "HttpMaster"
@@ -2568,10 +2578,16 @@ services:
 
       - name: "ExpressVPN"
         logo: "assets/tools/expressvpn.png"
-        subtitle: "beta version, click CoPilot PC beta link"
+        subtitle: "Click CoPilot+ PC download link"
         url: "https://www.expressvpn.com/vpn-download/vpn-windows"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "LetsVPN"
+        logo: "assets/tools/letsvpn.png"
+        subtitle: "Hybrid app, VPN driver is ARM64, app is x86"
+        url: "https://letsvpn.world/"
+        target: "_blank" # optional html a tag target attribute
+        
       - name: "Mullvad VPN"
         logo: "assets/tools/mullvad.png"
         subtitle: "ARM64 supported as of version 2025.3"
@@ -2753,8 +2769,7 @@ services:
       - name: "Charles"
         logo: "assets/tools/charles.png"
         subtitle: "an HTTP proxy / HTTP monitor / Reverse Proxy"
-        tag: "Beta"
-        url: "https://www.charlesproxy.com/download/beta/"
+        url: "https://www.charlesproxy.com/download"
         target: "_blank" # optional html a tag target attribute
 
       - name: "NaïveProxy"
@@ -2797,7 +2812,7 @@ services:
 
       - name: "ArozOS"
         logo: "assets/tools/arozos.png"
-        tag: "Experimental"
+        subtitle: "Web Desktop Operating System for low power platforms"
         url: "https://github.com/tobychui/arozos/releases"
         target: "_blank" # optional html a tag target attribute
 
@@ -3335,7 +3350,8 @@ services:
 
       - name: "Dart"
         logo: "assets/tools/dart.png"
-        url: "https://dart.dev/get-dart/archive#beta-channel"
+        subtitle: "Approachable, portable, and productive language for high-quality apps on any platform"
+        url: "https://dart.dev/get-dart/archive"
         target: "_blank" # optional html a tag target attribute
 
       - name: "MS OpenJDK"
