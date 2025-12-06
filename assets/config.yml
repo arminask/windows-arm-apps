@@ -1775,6 +1775,12 @@ services:
         url: "https://www.notion.so/download"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "Noteastic"
+        logo: "assets/tools/noteastic.png"
+        subtitle: "Note-Taking made simple, created by students for students"
+        url: "https://www.noteastic.app"
+        target: "_blank" # optional html a tag target attribute
+        
       - name: "AFFiNE"
         logo: "assets/tools/affine.png"
         subtitle: "One note like whiteboard application."
