@@ -910,7 +910,14 @@ services:
         subtitle: "Official beta builds"
         url: "https://www.audacityteam.org/download/windows/"
         target: "_blank" # optional html a tag target attribute
-
+        
+      - name: "Moises Live"
+        logo: "assets/tools/moiseslive.png"
+        subtitle: "Control vocals, instruments, and cinematic audio in real-time with AI Smart Volume for any app"
+        tag: "Beta"
+        url: "https://apps.microsoft.com/detail/xpdf75xhhztnhw"
+        target: "_blank" # optional html a tag target attribute
+        
       - name: "Awave Studio"
         logo: "assets/tools/awavestudio.png"
         subtitle: "a multi-purpose audio tool"
