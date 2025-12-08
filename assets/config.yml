@@ -3022,6 +3022,12 @@ services:
         url: "https://github.com/caddyserver/caddy/releases"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "ngrok"
+        logo: "assets/tools/ngrok.png"
+        subtitle: "Globally distributed reverse proxy that secures, protects, and accelerates your applications and network services."
+        url: "https://ngrok.com/download/windows/?tab=download"
+        target: "_blank" # optional html a tag target attribute
+        
       - name: "Nginx"
         logo: "assets/tools/nginx.png"
         subtitle: "Unofficial builds"
