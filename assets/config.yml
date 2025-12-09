@@ -1491,7 +1491,7 @@ services:
         subtitle: "Unofficial build of 7-Zip with zstd support"
         url: "https://github.com/mcmilk/7-Zip-zstd/releases"
         target: "_blank" # optional html a tag target attribute
-
+    
       - name: "Bandizip"
         logo: "assets/tools/bandizip.png"
         url: "https://apps.microsoft.com/store/detail/bandizip/9P2W3W81SPPB"
@@ -1499,6 +1499,7 @@ services:
 
       - name: "NanaZip"
         logo: "assets/tools/nanazip.png"
+        subtitle: "Fork of 7-zip with a modern UI"
         url: "https://apps.microsoft.com/detail/nanazip/9N8G7TSCL18R"
         target: "_blank" # optional html a tag target attribute
 
@@ -2887,6 +2888,7 @@ services:
 
       - name: "NanaGet"
         logo: "assets/tools/nanaget.png"
+        subtitle: "Lightweight file transfer utility based on aria2 and XAML Islands."
         url: "https://apps.microsoft.com/store/detail/nanaget/9PD5F2D90LS5"
         target: "_blank" # optional html a tag target attribute
 
@@ -3810,6 +3812,7 @@ services:
     items:
       - name: "Docker Desktop"
         logo: "assets/tools/docker.png"
+        subtitle: "Build, share, run containerized apps easily."
         url: "https://www.docker.com/products/docker-desktop/"
         target: "_blank"
         
@@ -3901,13 +3904,13 @@ services:
 
       - name: "86Box"
         logo: "assets/tools/86box.png"
-        subtitle: "Experimental dev official builds"
+        subtitle: "Experimental dev official builds, highly accurate vintage PC emulator."
         url: "https://github.com/86Box/86Box/actions/workflows/cmake_windows_msys2.yml"
         target: "_blank" # optional html a tag target attribute
         
       - name: "86Box 4.2"
         logo: "assets/tools/86box.png"
-        subtitle: "unofficial builds"
+        subtitle: "unofficial builds, highly accurate vintage PC emulator."
         url: "https://github.com/ArminiusTux/WinARM64-binaries/releases/tag/86Box"
         target: "_blank" # optional html a tag target attribute
 
@@ -3920,18 +3923,20 @@ services:
         
       - name: "Bochs"
         logo: "assets/tools/bochs.png"
-        subtitle: "unofficial builds"
+        subtitle: "unofficial builds, cross-platform x86 PC emulator for development and testing"
         tag: "original emulator data needed"
         url: "https://github.com/mijk84/win-arm64-binaries/releases/tag/bochs"
         target: "_blank" # optional html a tag target attribute
 
       - name: "NanaBox"
         logo: "assets/tools/nanabox.png"
+        subtitle: "Hyper-V client using host compute system API instead of Hyper-V WMI providers for  portable virtual machine configurations."
         url: "https://apps.microsoft.com/detail/nanabox/9NJXJSCB2JK0"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Sandboxie Plus"
         logo: "assets/tools/sandboxieplus.png"
+        subtitle: "Safely run programs in isolated environment"
         url: "https://sandboxie-plus.com/downloads/"
         target: "_blank" # optional html a tag target attribute
 
@@ -3943,6 +3948,7 @@ services:
 
       - name: "Disk Jockey"
         logo: "assets/tools/diskjockey.png"
+        subtitle: "Free tool to create disk images that work in devices like BlueSCSI, Floppy Emu and PiSCSI, as well as in emulators like Snow, Basilisk II and Mini vMac."
         url: "https://diskjockey.onegeekarmy.eu/windows/"
         target: "_blank" # optional html a tag target attribute
 
@@ -4040,6 +4046,7 @@ services:
 
       - name: "Parallels RAS client"
         logo: "assets/tools/parallelsrasclient.png"
+        subtitle: "Remote application server client"
         url: "https://www.parallels.com/products/ras/download/client/#ras-19-windows"
         target: "_blank" # optional html a tag target attribute
 
@@ -4613,11 +4620,6 @@ services:
         logo: "assets/tools/uotantoolboxnt.png"
         subtitle: "A Modern Toolbox for Geeks"
         url: "https://github.com/Uotan-Dev/UotanToolboxNT/releases"
-        target: "_blank" # optional html a tag target attribute
-
-      - name: "Windows Maps"
-        logo: "assets/tools/windowsmaps.png"
-        url: "https://apps.microsoft.com/store/detail/windows-maps/9WZDNCRDTBVB"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Prometheus"
