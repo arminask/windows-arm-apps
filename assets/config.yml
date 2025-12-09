@@ -746,6 +746,12 @@ services:
         url: "https://www.yubsoft.com/imgdrive/"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "DAEMON Tools (Lite, Pro, Ultra)"
+        logo: "assets/tools/daemon-tools-lite.png"
+        subtitle: "Virtual drive software that allows users to create virtual drives on their computer to mount disc image files, such as ISOs, without needing physical discs"
+        url: "https://www.daemon-tools.cc/downloads"
+        target: "_blank" # optional html a tag target attribute
+        
       - name: "Xreveal"
         logo: "assets/tools/xreveal.png"
         subtitle: "Similar to AnyDVD that removes restrictions of DVD, and Blu-ray media automatically in the background."
@@ -849,6 +855,12 @@ services:
         subtitle: "A virtual piano suite. It features five piano models with an overwhelming sound quality."
         url: "https://o.steinberg.net/index.php?id=downloads_the_grand_3&L=1"
         target: "_blank" # optional html a tag target attribute  
+
+      - name: "Piano 3D"
+        logo: "assets/tools/piano3d.png"        
+        subtitle: "Realistic piano application with full-size, 88-key keyboard, high-quality sound, built-in piano tutorials and much more!"
+        url: "https://apps.microsoft.com/detail/9WZDNCRDCWVN"
+        target: "_blank" # optional html a tag target attribute 
         
       - name: "Bitwig Studio"
         logo: "assets/tools/bitwigstudio.png"
@@ -2625,6 +2637,12 @@ services:
         url: "https://www.cisco.com/c/en_uk/products/security/anyconnect-secure-mobility-client/index.html"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "Cisco Secure Access"
+        logo: "assets/tools/cisco-secure-access.png"
+        subtitle: "Replacement for Anyconnect. Zero Trust Network Access (ZTNA) solution that replaces traditional VPNs."
+        url: "https://www.citrix.com/downloads/citrix-secure-access/plug-ins/citrix-secure-access-client-for-windows.html"
+        target: "_blank" # optional html a tag target attribute
+        
       - name: "F5 Big IP"
         logo: "assets/tools/f5bigip.png"
         subtitle: "Corporate VPN Client."
@@ -2701,6 +2719,12 @@ services:
         logo: "assets/tools/azurevpn.png"
         subtitle: "VPN client."
         url: "https://apps.microsoft.com/detail/9NP355QT2SQB?hl=en-us&gl=US&ocid=pdpshare"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "PrivadoVPN"
+        logo: "assets/tools/privadodvpn.png"
+        subtitle: "Online Security and Privacy Suite with VPN, Ad Blocker, Antivirus, and More."
+        url: "https://privadovpn.com/software/?device=windows"
         target: "_blank" # optional html a tag target attribute
         
   - name: "Network & Cloud Storage"
@@ -6060,6 +6084,12 @@ services:
         url: "https://www.support.xerox.com/en-us/product/global-printer-driver/downloads?language=en&platform=win11arm64"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "Xerox Print and Scan Experience"
+        logo: "assets/tools/xerox-print-scan-exp.png"
+        subtitle: "Xerox Print and Scan Experience extends print and scan features for customers with Xerox print and scan devices. To fully utilize this app you need a Xerox device and a Xerox print driver, or an IPP or Universal Print connection."
+        url: "https://apps.microsoft.com/detail/9WZDNCRFJ1F8"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "HP Smart UPD"
         logo: "assets/tools/hp.png"
         subtitle: "For list of supported models, check the support documentation"
@@ -6089,3 +6119,63 @@ services:
         subtitle: "List of supported models in link."
         url: "https://global.sharp/restricted/print/search/detail/019156/download.html?view=2&pid=59&lang=2&region=1&os=62"
         target: "_blank" # optional html a tag target attribute         
+
+      - name: "Sharp Print Support App"
+        logo: "assets/tools/sharp-printsupport.png"
+        subtitle: "Software to enhance the printing experience for Windows users."
+        url: "https://apps.microsoft.com/detail/9pp4h104q898"
+        target: "_blank" # optional html a tag target attribute  
+        
+      - name: "RICOH Print Support Application"
+        logo: "assets/tools/ricohprintsupport.png"
+        subtitle: "Enables advanced printing features specific to Ricoh printers and multifunction devices using Windows built-in printer driver"
+        url: "https://apps.microsoft.com/detail/9nm73jsr2pzv"
+        target: "_blank" # optional html a tag target attribute           
+
+      - name: "KYOCERA Print Center"
+        logo: "assets/tools/kyoceraprintcenter.png"
+        subtitle: "Utility app for KYOCERA printers that share a network connection with computers or tablets running on Windows 10 or later."
+        url: "https://apps.microsoft.com/detail/9wzdncrfj2v4"
+        target: "_blank" # optional html a tag target attribute 
+        
+      - name: "Canon imageCLASS, imageCLASS X and imageFORCE"
+        logo: "assets/tools/canon.png"
+        subtitle: "Information on ARM compatibility"
+        url: "https://support.usa.canon.com/kb/s/article/imageCLAS-ARM"
+        target: "_blank" # optional html a tag target attribute 
+        
+      - name: "Canon PIXMA / MAXIFY Products"
+        logo: "assets/tools/canon.png"
+        subtitle: "Information on ARM compatibility"
+        url: "https://support.usa.canon.com/kb/s/article/FAQ100604"
+        target: "_blank" # optional html a tag target attribute 
+        
+      - name: "Canon Print"
+        logo: "assets/tools/canonprint.png"
+        subtitle: "Enables advanced printing features specific to Canon printers using Windows built-in printer driver"
+        url: "https://apps.microsoft.com/detail/9pmk584kqvc2"
+        target: "_blank" # optional html a tag target attribute 
+
+      - name: "Konica Minolta"
+        logo: "assets/tools/konicaminolta.png"
+        subtitle: "Find Windows 11 support drivers for supported systems or ones that can utilized universal printer driver v4."
+        url: "https://www.konicaminolta.com.au/support#drivers"
+        target: "_blank" # optional html a tag target attribute 
+        
+      - name: "uniFLOW Online Virtual Printer"
+        logo: "assets/tools/uniflow.png"
+        subtitle: "Print securely from any Windows 11 PC to uniFLOW Online"
+        url: "https://apps.microsoft.com/detail/9ns24r0d2wr5"
+        target: "_blank" # optional html a tag target attribute   
+
+      - name: "uniFLOW Printer App"
+        logo: "assets/tools/uniflow.png"
+        subtitle: "The uniFLOW Printer App extends the built in IPP functionality to provide a better user interface and more printing options than are currently available with the built-in Mopria functionality alone."
+        url: "https://apps.microsoft.com/detail/9nmbr75x8994"
+        target: "_blank" # optional html a tag target attribute   
+        
+      - name: "Zebra Printer Printer Driver"
+        logo: "assets/tools/zebraprinters.png"
+        subtitle: "Version 10 adds Windows ARM support. Check release notes for supported printers."
+        url: "https://www.zebra.com/us/en/support-downloads/printers/printer-drivers.html?nocache="
+        target: "_blank" # optional html a tag target attribute           
