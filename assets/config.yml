@@ -3792,6 +3792,13 @@ services:
         url: "https://www.lotas.ai/erdos"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "R"
+        logo: "assets/tools/r.png"
+        subtitle: "Open-source programming language and environment specifically designed for statistical computing and graphic"
+        tag: "Experimental"
+        url: "https://blog.r-project.org/2024/04/23/r-on-64-bit-arm-windows/"
+        target: "_blank" # optional html a tag target attribute
+        
       - name: "Zed"
         logo: "assets/tools/zed-editor.png"
         subtitle: "Code editor for high-performance collaboration with humans and AI"
