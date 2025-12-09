@@ -1830,13 +1830,14 @@ services:
     items:
       - name: "TextPad"
         logo: "assets/tools/TextPad.png"
-        subtitle: "ARM64 build. Editor for plain text files of any size."
+        subtitle: "Editor for plain text files of any size."
         tag: "Purchases"
         url: "https://www.textpad.com/download/"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Notepad++"
         logo: "assets/tools/notepadplusplus.png"
+        subtitle: "Free, fast, customizable code editor with syntax highlighting notepad replacement."
         url: "https://notepad-plus-plus.org/downloads/"
         target: "_blank" # optional html a tag target attribute
 
@@ -1848,16 +1849,19 @@ services:
         
       - name: "Notepads App"
         logo: "assets/tools/notepadsapp.png"
+        subtitle: "A modern, lightweight text editor with a minimalist design."
         url: "https://apps.microsoft.com/detail/9nhl4nsc67wm"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Notepad4"
         logo: "assets/tools/notepad4.png"
+        subtitle: "Light-weight Scintilla based text editor with syntax highlighting, code folding, auto-completion and API list for many programming languages and documents"
         url: "https://github.com/zufuliu/notepad4/releases"
         target: "_blank" # optional html a tag target attribute
 
       - name: "EditPlus"
         logo: "assets/tools/editplus.png"
+        subtitle: "Text editor for Windows with built-in FTP, FTPS and sftp capabilities"
         tag: "Purchases"
         url: "https://www.editplus.com/download.html"
         target: "_blank" # optional html a tag target attribute
@@ -1870,21 +1874,21 @@ services:
 
       - name: "Quick Pad"
         logo: "assets/tools/quickpad.png"
-        subtitle: "a modern notepad app featuring fluent design"
+        subtitle: "A modern notepad app featuring fluent design"
         tag: "Purchases"
         url: "https://apps.microsoft.com/detail/9pdlwqhtlsv3"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Typora" # App name
         logo: "assets/tools/typora.png" # App icon
-        subtitle: "minimal markdown editor and reader"
+        subtitle: "Minimal markdown editor and reader"
         tag: "Purchases"
         url: "https://typora.io/#download" # URL to download the app
         target: "_blank"
 
       - name: "Markdown Lite" # App name
         logo: "assets/tools/markdownlite.png" # App icon
-        subtitle: "supports LaTeX formulas and UML drawings."
+        subtitle: "Supports LaTeX formulas and UML drawings."
         url: "https://apps.microsoft.com/detail/9nnsddp6nvkd" # URL to download the app
         target: "_blank"
 
@@ -1896,17 +1900,19 @@ services:
 
       - name: "Windows File Manager (WinFile)"
         logo: "assets/tools/winfile.png"
-        url: "https://apps.microsoft.com/store/detail/windows-file-manager/9P7VBBBC49RB"
+        subtitle: "Discontinued, Original Windows File Manager with enhancements"
+        url: "https://github.com/microsoft/winfile/releases"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Explorer++"
         logo: "assets/tools/Explorer.png"
+        subtitle: "Development build, a lightweight and fast file manager"
         url: "https://explorerplusplus.com/download"
         target: "_blank" # optional html a tag target attribute
 
       - name: "yazi"
         logo: "assets/tools/yazi.png"
-        subtitle: "blazing fast terminal file manager"
+        subtitle: "Blazing fast terminal file manager"
         url: "https://github.com/sxyazi/yazi/releases"
         target: "_blank" # optional html a tag target attribute
 
@@ -1924,7 +1930,7 @@ services:
 
       - name: "zoxide"
         logo: "assets/tools/clionly.png"
-        subtitle: "a smarter cd command. Supports all major shells."
+        subtitle: "A smarter cd command. Supports all major shells."
         url: "https://github.com/ajeetdsouza/zoxide/releases"
         target: "_blank"
 
@@ -1942,19 +1948,19 @@ services:
 
       - name: "cs"
         logo: "assets/tools/clionly.png"
-        subtitle: "codespelunker or code search"
+        subtitle: "Codespelunker or code search"
         url: "https://github.com/boyter/cs/releases"
         target: "_blank" # optional html a tag target attribute
 
       - name: "WinDirStat"
         logo: "assets/tools/windirstat.png"
-        subtitle: "disk usage statistics viewer and cleanup tool"
+        subtitle: "Disk usage statistics viewer and cleanup tool"
         url: "https://windirstat.net/download.html"
         target: "_blank" # optional html a tag target attribute
 
       - name: "TreeMap"
         logo: "assets/tools/treemap.png"
-        subtitle: "display of hard disk space usage through list and graphical views"
+        subtitle: "Display of hard disk space usage through list and graphical views"
         url: "https://apps.microsoft.com/detail/9n7wbsl9l8s8"
         target: "_blank" # optional html a tag target attribute
 
@@ -1972,61 +1978,67 @@ services:
 
       - name: "Microsoft PowerToys"
         logo: "assets/tools/microsoftpowertoys.png"
+        subtitle: "Set of utilities for power users to tune and streamline their Windows 10 and 11 experience for greater productivity"
         url: "https://apps.microsoft.com/store/detail/microsoft-powertoys/XP89DCGQ3K6VLD"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Rufus"
         logo: "assets/tools/rufus.png"
+        subtitle: "Free, create bootable USB drives the easy way"
         url: "https://rufus.ie/"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Ventoy"
         logo: "assets/tools/ventoy.png"
+        subtitle: "Open source tool to create bootable USB drive for ISO/WIM/IMG/VHD(x)/EFI files."
         url: "https://www.ventoy.net/en/download.html"
         target: "_blank" # optional html a tag target attribute
 
       - name: "WinMerge"
         logo: "assets/tools/winmerge.png"
-        subtitle: "compare both folders and files, presenting differences"
+        subtitle: "Compare both folders and files, presenting differences"
         url: "https://winmerge.org/downloads/"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Everything"
         logo: "assets/tools/everything.png"
+        subtitle: "Locate files and folders by name instantly"
         url: "https://www.voidtools.com/downloads/"
         target: "_blank" # optional html a tag target attribute
 
       - name: "EverythingToolbar"
         logo: "assets/tools/everythingtoolbar.png"
+        subtitle: "Everything integration for the Windows taskbar"
         url: "https://github.com/srwi/EverythingToolbar/releases"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Fluent Search"
         logo: "assets/tools/fluentsearch.png"
-        subtitle: "Nightly version"
-        url: "https://github.com/adirh3/Fluent-Search#gem-downloads"
+        subtitle: "Search for running apps, browser tabs, in-app content, files and more."
+        url: "https://github.com/adirh3/Fluent-Search/releases"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Sysinternals Suite"
         logo: "assets/tools/sysinternals.png"
-        subtitle: "includes tools like Autoruns, ZoomIt, and Process Explorer."
+        subtitle: "Includes tools like Autoruns, ZoomIt, and Process Explorer."
         url: "https://www.sysinternals.com/downloads"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Dism++"
         logo: "assets/tools/Dism++.png"
-        subtitle: "Windows Optimization Tools"
+        subtitle: "Resource files for supporting translation to various languages"
         url: "https://github.com/Chuyu-Team/Dism-Multi-language/releases"
         target: "_blank" # optional html a tag target attribute
 
       - name: "WebView2 Runtime"
         logo: "assets/tools/edge.png"
+        subtitle: "Developer control that allows developers to embed web content (HTML, CSS, JavaScript) into native applications using the Microsoft Edge (Chromium-based) rendering engine"
         url: "https://developer.microsoft.com/en-us/microsoft-edge/webview2/#download"
         target: "_blank" # optional html a tag target attribute
 
       - name: "EnergyStar X"
         logo: "assets/tools/energystarx.png"
-        subtitle: "improve battery life by throttle background applications"
+        subtitle: "Improve battery life by throttle background applications"
         url: "https://apps.microsoft.com/detail/9NF7JTB3B17P"
         target: "_blank" # optional html a tag target attribute
 
@@ -2038,11 +2050,13 @@ services:
 
       - name: "Character Map UWP"
         logo: "assets/tools/CharacterMap.png"
+        subtitle: "A modern, native UWP replacement for the Win32 Character Map and Windows Font Viewer with flawless high DPI and touch support."
         url: "https://apps.microsoft.com/detail/9WZDNCRDXF41"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Fluent Emoji Gallery"
         logo: "assets/tools/fluentemojigallery.png"
+        subtitle: "Collection of familiar, friendly, and modern emojis in three styles: 3D, 2D, and monochrome"
         url: "https://apps.microsoft.com/detail/9N965R0G2SND"
         target: "_blank" # optional html a tag target attribute
 
@@ -2060,19 +2074,19 @@ services:
 
       - name: "EcoPaste"
         logo: "assets/tools/ecopaste.png"
-        subtitle: "clipboard management tool"
+        subtitle: "Clipboard management tool"
         url: "https://github.com/EcoPasteHub/EcoPaste/releases"
         target: "_blank"
 
       - name: "Pot"
         logo: "assets/tools/Pot.png"
-        subtitle: "text translation and recognition"
+        subtitle: "Text translation and recognition"
         url: "https://github.com/pot-app/pot-desktop/releases"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Youdao"
         logo: "assets/tools/Youdao.png"
-        subtitle: "more than just translations"
+        subtitle: "More than just translations"
         url: "https://apps.microsoft.com/detail/XPFNZLNH748XD2"
         target: "_blank" # optional html a tag target attribute
 
@@ -2084,7 +2098,7 @@ services:
 
       - name: "Twinkle Tray"
         logo: "assets/tools/TwinkleTray.png"
-        subtitle: "manage the brightness levels of multiple monitors."
+        subtitle: "Manage the brightness levels of multiple monitors."
         url: "https://apps.microsoft.com/detail/9PLJWWSV01LK"
         target: "_blank" # optional html a tag target attribute
 
@@ -2096,64 +2110,69 @@ services:
 
       - name: "WinQuickLook"
         logo: "assets/tools/WinQuickLook.png"
+        subtitle: "Instantly view file contents by simply pressing the space key"
         url: "https://apps.microsoft.com/detail/9NJMTKK6JC0Q"
         target: "_blank" # optional html a tag target attribute
 
       - name: "GetStoreApp"
         logo: "assets/tools/getstoreapp.png"
-        subtitle: "download the required app installation packages offline"
+        subtitle: "Download the required app installation packages offline"
         url: "https://github.com/Gaoyifei1011/GetStoreApp/releases"
         target: "_blank" # optional html a tag target attribute
 
       - name: "UUP Media Creator"
         logo: "assets/tools/uupmediacreator.png"
+        subtitle: "Utility to create Windows Media files (.ISO, .WIM, .VHD) from Unified Update Platform files"
         url: "https://github.com/gus33000/UUPMediaCreator/releases"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Windows Universal Tool"
         logo: "assets/tools/wut.png"
+        subtitle: "Collection of tool for complex tasks work in one place."
         url: "https://github.com/basharast/wut/releases"
         target: "_blank" # optional html a tag target attribute
 
       - name: "TrafficMonitor"
         logo: "assets/tools/TrafficMonitor.png"
+        subtitle: "Floating window software used to display current network speed, CPU and memory utilization"
         tag: "ARM64EC"
         url: "https://github.com/zhongyang219/TrafficMonitor/releases"
         target: "_blank" # optional html a tag target attribute
 
       - name: "CapsLockIndicator"
         logo: "assets/tools/CapsLockIndicator.png"
-        subtitle: "unofficial builds"
+        subtitle: "unofficial builds, utility that indicates the state of the Num lock, Caps lock and Scroll lock key"
         url: "https://github.com/xgdgsc/CapsLockIndicator/releases"
         target: "_blank" # optional html a tag target attribute
 
       - name: "EarTrumpet"
         logo: "assets/tools/eartrumpet.png"
-        subtitle: "unofficial builds"
+        subtitle: "unofficial builds, volume control tool"
         url: "https://github.com/xgdgsc/EarTrumpet/releases"
         target: "_blank" # optional html a tag target attribute
         
       - name: "Pingu"
         logo: "assets/tools/pingu.png"
-        subtitle: "colored output of ping command"
+        subtitle: "Colored output of ping command"
         url: "https://github.com/sheepla/pingu/releases"
         target: "_blank" # optional html a tag target attribute
 
       - name: "System Informer"
         logo: "assets/tools/SystemInformer.png"
-        subtitle: "monitor system resources, debug software and detect malware"
+        subtitle: "Monitor system resources, debug software and detect malware"
         url: "https://systeminformer.sourceforge.io/nightly.php"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Company Portal"
         logo: "assets/tools/CompanyPortal.png"
+        subtitle: "Microsoft Intune helps organizations manage access to corporate apps, data, and resources."
         url: "https://apps.microsoft.com/detail/9wzdncrfj3pz"
         target: "_blank" # optional html a tag target attribute
 
       - name: "WGestures" # App name
         logo: "assets/tools/WGestures.png" # App icon
-        subtitle: "unofficial builds"
-        url: "https://github.com/TonyHuang6666/WGestures-arm64-/releases/tag/1.8.3.0" # URL to download the app
+        subtitle: "unofficial builds, modern mouse gestures tool"
+        url: "https://github.com/TonyHuang6666/WGestures-arm64-/releases" # URL to download the app
         target: "_blank"
 
       - name: "Office Tool Plus" # App name
@@ -2176,36 +2195,37 @@ services:
 
       - name: "EdgePolicyManager" # App name
         logo: "assets/tools/edgepolicymanager.png" # App icon
-        subtitle: "customize Edge's functionality to better suit our usage habits."
+        subtitle: "Customize Edge's functionality to better suit our usage habits."
         url: "https://github.com/NXY666/EdgePolicyManager/releases" # URL to download the app
         target: "_blank"
 
       - name: "ViVeTool" # App name
         logo: "assets/tools/clionly.png" # App icon
-        subtitle: "using new feature control APIs available in Windows 10 version 2004 and newer"
+        subtitle: "C# library and console app for using new feature control APIs available in Windows 10 version 2004 and newer"
         url: "https://github.com/thebookisclosed/ViVe/releases" # URL to download the app
         target: "_blank"
 
       - name: "HashTool" # App name
         logo: "assets/tools/hashtool.png" # App icon
-        subtitle: "calculate the hash values of files or folders."
+        subtitle: "Calculate the hash values of files or folders."
         url: "https://github.com/KiyanYang/DotVast.HashTool.WinUI/releases" # URL to download the app
         target: "_blank"
 
       - name: "fHash" # App name
         logo: "assets/tools/fhash.png" # App icon
-        subtitle: "files hash calculator"
+        subtitle: "Files hash calculator"
         url: "https://apps.microsoft.com/detail/9p4clcrv93dq" # URL to download the app
         target: "_blank"
 
       - name: "OpenHashTab"
         logo: "assets/tools/OpenHashTab.png"
+        subtitle: "File hashing and checking shell extension"
         url: "https://github.com/namazso/OpenHashTab/releases"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Window Switcher" # App name
         logo: "assets/tools/windowswitcher.png" # App icon
-        subtitle: "switch between windows of the same app."
+        subtitle: "Switch between windows of the same app."
         url: "https://github.com/sigoden/window-switcher/releases" # URL to download the app
         target: "_blank"
 
@@ -2259,13 +2279,13 @@ services:
 
       - name: "Three Finger Drag"
         logo: "assets/tools/threefingerdrag.png"
-        subtitle: "embrace the seamless three-finger drag."
+        subtitle: "Embrace the seamless three-finger drag."
         url: "https://apps.microsoft.com/detail/9msx91wqcm2v"
         target: "_blank"
 
       - name: "Nightingale"
         logo: "assets/tools/nightingale.png"
-        subtitle: "resource-efficient REST API client for Windows"
+        subtitle: "Resource-efficient REST API client for Windows"
         url: "https://github.com/jenius-apps/nightingale-rest-api-client/releases"
         target: "_blank"
 
@@ -2337,6 +2357,7 @@ services:
 
       - name: "Windows11 Context Menu Manager"
         logo: "assets/tools/Windows11ContextMenuManager.png"
+        subtitle: "Allows you to disable unwanted entries in Windows 11 Explorer new right-click context menu"
         url: "https://github.com/branhill/windows-11-context-menu-manager/releases"
         target: "_blank"
 
@@ -2449,7 +2470,7 @@ services:
 
       - name: "LiveCaptions Translator"
         logo: "assets/tools/LiveCaptionsTranslator.png"
-        subtitle: "real-time audio/speech translation tool based on Windows LiveCaptions."
+        subtitle: "Real-time audio/speech translation tool based on Windows LiveCaptions."
         url: "https://github.com/SakiRinn/LiveCaptions-Translator/releases"
         target: "_blank" # optional html a tag target attribute
 
