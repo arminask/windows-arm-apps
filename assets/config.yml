@@ -2458,6 +2458,12 @@ services:
         url: "https://www.oo-software.com/en/download/current/ooshutup10"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "Mendeley Reference Manager"
+        logo: "assets/tools/mendeley.png"
+        subtitle: "Universal installer, Mendeley helps you stay organized, do more in less time, and bring ease to your research workflow."
+        url: "https://www.mendeley.com/"
+        target: "_blank" # optional html a tag target attribute
+        
   - name: "Cross-Device Integration"
     icon: "fa-solid fa-circle-nodes"
     items:
