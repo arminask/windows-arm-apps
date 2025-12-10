@@ -3350,6 +3350,13 @@ services:
         url: "https://www.jetbrains.com/rider/download/download-thanks.html?platform=windowsARM64"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "JetBrains dotPeek"
+        logo: "assets/tools/jetbrains-dotpeek.png"
+        subtitle: "Free .NET Decompiler & Assembly Browser"
+        url: "https://www.jetbrains.com/decompiler/download/other.html"
+        target: "_blank" # optional html a tag target attribute
+
+
       - name: "JetBrains CLion"
         logo: "assets/tools/jetbrainsclion.png"
         subtitle: "Cross-platform IDE for C and C++"
@@ -4047,6 +4054,13 @@ services:
         url: "https://github.com/infinitepower18/WSA-SystemControl"
         target: "_blank"
 
+      - name: "Mumu Player"
+        logo: "assets/tools/mumuplayer.png"
+        tag: "Beta"
+        subtitle: "Android emulator, only Chinese version available currently, beta requires mobile text activation"
+        url: "https://mumu.163.com/"
+        target: "_blank"
+        
       - name: "windows95"
         logo: "assets/tools/windows95.png"
         subtitle: "Windows 95 in Electron"
