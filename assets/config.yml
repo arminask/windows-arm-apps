@@ -1879,6 +1879,12 @@ services:
         url: "https://apps.microsoft.com/detail/9pdlwqhtlsv3"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "Markdown Monster" # App name
+        logo: "assets/tools/markdownmonster.png" # App icon
+        subtitle: "Markdown Editor"
+        url: "https://markdownmonster.west-wind.com/download" # URL to download the app
+        target: "_blank"
+        
       - name: "Typora" # App name
         logo: "assets/tools/typora.png" # App icon
         subtitle: "Minimal markdown editor and reader"
