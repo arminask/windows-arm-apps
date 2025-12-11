@@ -3510,7 +3510,7 @@ services:
       - name: "UWPSpy"
         logo: "assets/tools/uwpspy.png"
         subtitle: "Inspection tool for UWP and WinUI 3 applications. Seamlessly view and manipulate UI elements and their properties in real time."
-        url: "https://github.com/icsharpcode/ILSpy/releases"
+        url: "https://github.com/m417z/UWPSpy/releases"
         target: "_blank" # optional html a tag target attribute
         
       - name: "Zig"
