@@ -3507,6 +3507,12 @@ services:
         url: "https://github.com/icsharpcode/ILSpy/releases"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "UWPSpy"
+        logo: "assets/tools/uwpspy.png"
+        subtitle: "Inspection tool for UWP and WinUI 3 applications. Seamlessly view and manipulate UI elements and their properties in real time."
+        url: "https://github.com/icsharpcode/ILSpy/releases"
+        target: "_blank" # optional html a tag target attribute
+        
       - name: "Zig"
         logo: "assets/tools/zig.png"
         subtitle: "a general-purpose programming language and toolchain"
