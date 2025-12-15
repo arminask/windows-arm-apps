@@ -2415,6 +2415,13 @@ services:
         url: "https://arsenalrecon.com/products/arsenal-image-mounter"
         target: "_blank"
 
+      - name: "SoftPerfect RAM Disk"
+        logo: "assets/tools/softperfect_ramdisk.png"
+        tag: "x64 GUI"
+        subtitle: "high-performance RAM disk application"
+        url: "https://www.softperfect.com/products/ramdisk"
+        target: "_blank"
+
       - name: "Kermit 95"
         logo: "assets/tools/kermit.png"
         subtitle: "Network and serial communication package for Kermit protocol"
@@ -6136,6 +6143,12 @@ services:
         subtitle: "Replaces Windows 10/11 inbox Bluetooth A2DP driver and allows you to fine-tune CODEC parameters"
         url: "https://www.bluetoothgoodies.com/a2dp/"
         target: "_blank" # optional html a tag target attribute
+
+      - name: "PL2303 Driver"
+        logo: "assets/tools/pl2303.png"
+        subtitle: "For PL2303 GC, GS, GT, GL, GE , GD, GR versions"
+        url: "https://www.prolific.com.tw/portfolio-item/pl2303gt"
+        target: "_blank"
 
   - name: "Printers"
     icon: "fa-solid fa-print"
