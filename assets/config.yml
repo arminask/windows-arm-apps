@@ -2774,6 +2774,12 @@ services:
         url: "https://apps.microsoft.com/detail/9NP355QT2SQB?hl=en-us&gl=US&ocid=pdpshare"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "AWS Client VPN"
+        logo: "assets/tools/awsvpn.png"
+        subtitle: "Managed service that securely connects your remote workforce to AWS or on-premises networks"
+        url: "https://aws.amazon.com/vpn/client-vpn-download/"
+        target: "_blank" # optional html a tag target attribute
+        
       - name: "PrivadoVPN"
         logo: "assets/tools/privadodvpn.png"
         subtitle: "Online Security and Privacy Suite with VPN, Ad Blocker, Antivirus, and More."
