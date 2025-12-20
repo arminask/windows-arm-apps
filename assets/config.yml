@@ -469,38 +469,38 @@ services:
       - name: "VLC media player"
         logo: "assets/tools/vlc.png"
         tag: "somewhat stable"        
-        subtitle: "Nightly builds of v3.0 'Vetinari'"
+        subtitle: "Nightly builds of v3.0 'Vetinari', open source player that plays nearly any media file"
         url: "https://artifacts.videolan.org/vlc-3.0/nightly-win64-arm-llvm/"
         target: "_blank" # optional html a tag target attribute
 
       - name: "VLC media player Dev"
         logo: "assets/tools/vlc.png"
         tag: "very unstable, may crash"            
-        subtitle: "Nightly dev-builds of v4.0 'Otto Chriek'"
+        subtitle: "Nightly dev-builds of v4.0 'Otto Chriek', open source player that plays nearly any media file"
         url: "https://artifacts.videolan.org/vlc/nightly-win64-arm-llvm/"
         target: "_blank" # optional html a tag target attribute
 
       - name: "SMPlayer"
         logo: "assets/tools/smplayer.png"
-        subtitle: "unofficial builds / enable HW decoding"
+        subtitle: "unofficial builds / enable HW decoding, free multimedia player, work as front-end for MPlayer and mpv playback engines. Designed to play virtually all video and audio formats without requiring external codecs"
         url: "https://github.com/minnyres/smplayer-windows-arm64/releases"
         target: "_blank" # optional html a tag target attribute
 
       - name: "mpv"
         logo: "assets/tools/mpv.png"
-        subtitle: "unofficial builds / use 'mpv.exe --hwdec'"
+        subtitle: "unofficial builds / use 'mpv.exe --hwdec', open-source, command-line media player based on MPlayer, known for playing nearly any format with powerful features like advanced video output (HDR, scaling) and extensive customization via scripts and configuration, making it a versatile and high-performance choice for video enthusiasts."
         url: "https://github.com/minnyres/mpv-windows-arm64/releases"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Kodi"
         logo: "assets/tools/kodi.png"
-        subtitle: "Nightly Alpha Builds"
+        subtitle: "Nightly Alpha Builds, Open-source media center that organizes and plays your digital content—movies, shows, music, photos"
         url: "https://mirrors.kodi.tv/nightlies/windows/winarm64/master/"
         target: "_blank" # optional html a tag target attribute
         
       - name: "JellyFin Server"
         logo: "assets/tools/jellyfin.png"
-        subtitle: "Free Media Server (like Plex)"
+        subtitle: "Free Media Server (like Plex), stream your private media library anywhere"
         url: "https://repo.jellyfin.org/?path=/server/windows/latest-stable/arm64"
         target: "_blank" # optional html a tag target attribute
 
@@ -542,19 +542,21 @@ services:
         
       - name: "foobar2000"
         logo: "assets/tools/foobar2000.png"
+        subtitle: "LibVLC-based media player for the Universal Windows Platform"
         tag: "ARM64EC"
         url: "https://www.foobar2000.org/download"
         target: "_blank" # optional html a tag target attribute
 
       - name: "foo_input_udsd"
         logo: "assets/tools/foobar2000-dll.png"
-        subtitle: "SACD/DSD decoder plugin for foobar2000"        
+        subtitle: "Advanced, customizable, freeware audio player"        
         tag: "ARM64EC"
         url: "https://sourceforge.net/projects/sacddecoder/files/macOS%20%2BWindows/foo_input_udsd/"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Boom Audio Player"
         logo: "assets/tools/boomaudioplayer.png"
+        subtitle: "Simplified, lightweight, 'just play music' audio player for casual users, forked from the powerful but complex foobar2000."
         url: "https://www.foobar2000.org/other/boom"
         target: "_blank" # optional html a tag target attribute
 
@@ -572,21 +574,25 @@ services:
 
       - name: "HEVC Video Extensions"
         logo: "assets/tools/HEVC.png"
+        subtitle: "Adds HEVC video codec for Windows"
         url: "https://apps.microsoft.com/detail/9NMZLZ57R3T7"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Dolby Vision"
         logo: "assets/tools/dolbyvision.png"
+        subtitle: "With this app, Dolby Vision will be enabled on your PC. When viewing Dolby Vision content, you’ll see spectacular imagery using one of three Dolby Vision picture modes: Dark, Bright, and Vivid."
         url: "https://apps.microsoft.com/detail/9MVMZ93N61T9"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Dolby Vision Extensions"
         logo: "assets/tools/dolbyvision.png"
+        subtitle: "With this app, Dolby Vision will be enabled on your PC. When viewing Dolby Vision content, you’ll see spectacular imagery using one of three Dolby Vision picture modes: Dark, Bright, and Vivid."
         url: "https://apps.microsoft.com/detail/9PLTG1LWPHLF"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Dolby Access"
         logo: "assets/tools/dolbyaccess.png"
+        subtitle: "Hear stunning detail, precision, and realism in your games, movies, and shows with sound that flows all around you — even overhead and behind you."
         url: "https://apps.microsoft.com/detail/9N0866FS04W8"
         target: "_blank" # optional html a tag target attribute
 
@@ -652,7 +658,7 @@ services:
         
       - name: "OBS Studio"
         logo: "assets/tools/obs.png"
-        subtitle: "Experimental"
+        subtitle: "Experimental, open source streaming and recording"
         url: "https://github.com/obsproject/obs-studio/releases"
         target: "_blank" # optional html a tag target attribute
 
