@@ -607,6 +607,12 @@ services:
         subtitle: "System-wide equalizer"
         url: "https://sourceforge.net/projects/equalizerapo/files/1.4.1/"
         target: "_blank" # optional html a tag target attribute
+
+      - name: "VB-CABLE"
+        logo: "assets/tools/vbcable.png"
+        subtitle: "Virtual audio device working as virtual audio cable."
+        url: "https://vb-audio.com/Cable/index.htm"
+        target: "_blank" # optional html a tag target attribute
         
       - name: "Virtual Audio Cable (VAC)"
         logo: "assets/tools/virtualaudiocable.png"
