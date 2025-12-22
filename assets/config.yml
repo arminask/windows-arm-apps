@@ -5536,6 +5536,13 @@ services:
         tag: "original game data needed"
         url: "https://github.com/ArminiusTux/WinARM64-binaries/releases/tag/QuakeSpasm"
         target: "_blank" # optional html a tag target attribute
+        
+      - name: "vkQuake"
+        logo: "assets/tools/quake1.png"
+        subtitle: "Vulkan Quake port based on QuakeSpasm"
+        tag: "original game data needed"
+        url: "https://github.com/Novum/vkQuake/releases/"
+        target: "_blank" # optional html a tag target attribute
 
       - name: "Yamagi Quake II"
         logo: "assets/tools/quake2.png"
