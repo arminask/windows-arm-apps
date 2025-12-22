@@ -6115,6 +6115,13 @@ services:
         logo: "assets/tools/openglcompat.png"
         url: "https://apps.microsoft.com/detail/9nqpsl29bfff"
         target: "_blank" # optional html a tag target attribute
+        
+      - name: "Mesa 3D Gallium drivers"
+        logo: "assets/tools/mesa3d.png"
+        subtitle: "unofficial builds of D3D12 (OpenGL -> Direct3D 12 wrapper), Dozen (Vulkan -> Direct3D 12 wrapper) & Zink (OpenGL -> Vulkan wrapper)"
+        tag: "Dozen is limited to newer SoCs and Zink requires native Vulkan drivers"          
+        url: "https://github.com/mmozeiko/build-mesa/releases"
+        target: "_blank" # optional html a tag target attribute
 
       - name: "dgVoodoo"
         logo: "assets/tools/dgvoodoo.png"
