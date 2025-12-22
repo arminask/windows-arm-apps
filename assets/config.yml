@@ -3513,7 +3513,8 @@ services:
 
       - name: "Node.js"
         logo: "assets/tools/nodejs.png"
-        url: "https://nodejs.org/en/download/prebuilt-installer/current"
+        subtitle: "a free, open-source, cross-platform JavaScript runtime environment"        
+        url: "https://nodejs.org/en/download"
         target: "_blank" # optional html a tag target attribute
 
       - name: "NVM for Windows"
