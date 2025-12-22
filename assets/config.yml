@@ -5712,7 +5712,7 @@ services:
         logo: "assets/tools/widelands.png"
         subtitle: "Settlers II 1996 remake"
         tag: "full game"
-        url: "https://github.com/ArminiusTux/WinARM64-binaries/releases/tag/Widelands"
+        url: "https://github.com/widelands/widelands/releases/latest"
         target: "_blank" # optional html a tag target attribute
 
       - name: "World of Warcraft"
