@@ -6008,6 +6008,12 @@ services:
         url: "https://ollama.com/"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "ONNX Runtime"
+        logo: "assets/tools/onnx.png"
+        subtitle: "a cross-platform, high performance ML inferencing and training accelerator"
+        url: "https://github.com/microsoft/onnxruntime/releases"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "Foundry Local"
         logo: "assets/tools/foundrylocal.png"
         subtitle: "Run AI models locally on your device. Foundry Local provides on-device inference with complete data privacy, no Azure subscription required."
