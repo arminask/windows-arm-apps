@@ -4889,6 +4889,12 @@ services:
         subtitle: "Steam depot downloader utilizing the SteamKit2 library."
         url: "https://github.com/SteamRE/DepotDownloader/releases"
 
+      - name: "OpenBLAS"
+        logo: "assets/tools/dllonly.png"
+        subtitle: "an optimized Basic Linear Algebra Subprograms (BLAS) library"
+        url: "https://github.com/OpenMathLib/OpenBLAS/releases"
+        target: "_blank" # optional html a tag target attribute
+
   - name: "Game Console Emulation"
     icon: "fa-brands fa-playstation"
     items:
