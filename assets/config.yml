@@ -6078,19 +6078,24 @@ services:
   - name: "Drivers"
     icon: "fa-solid fa-gears"
     items:
-      - name: "Snapdragon Control Panel for devices with Snapdragon X Platform"
+      - name: "Snapdragon Control Panel"
         logo: "assets/tools/snapdragon.png"
         subtitle: "Optimize game settings and keep drivers up to date."
+        tag: "for Snapdragon X platforms only"   
         url: "https://softwarecenter.qualcomm.com/catalog/item/SnapdragonControlPanel"
         target: "_blank" # optional html a tag target attribute
         
-      - name: "Windows Adreno GPU driver for Snapdragon X Platform"
+      - name: "Qualcomm Adreno GPU Drivers"
         logo: "assets/tools/qualcommdev.png"
+        subtitle: "Windows graphics drivers (Direct3D, OpenCL & Vulkan)"
+        tag: "for Snapdragon X platforms only"          
         url: "https://softwarecenter.qualcomm.com/catalog/item/Windows_Graphics_Driver"
         target: "_blank" # optional html a tag target attribute
 
-      - name: "Qualcomm® Hexagon™ NPU Driver"
+      - name: "Qualcomm Hexagon NPU Driver"
         logo: "assets/tools/qualcommdev.png"
+        subtitle: "Windows AI interface drivers"
+        tag: "for Snapdragon X platforms only"         
         url: "https://softwarecenter.qualcomm.com/catalog/item/Qualcomm_HND"
         target: "_blank" # optional html a tag target attribute
 
@@ -6101,8 +6106,8 @@ services:
 
       - name: "*retro-elitist* Vulkan drivers"
         logo: "assets/tools/vulkandrivers.png"
-        subtitle: "unofficial + unstable = USE AT OWN RISK"
-        tag: "only works on a few Snapdragon pre-Elite SoC models"
+        subtitle: "unofficial + unstable = USE AT OWN RISK! Check GitHub issue #118"
+        tag: "only works on a few Snapdragon pre-X SoC models"
         url: "https://driver1998.github.io/en/posts/vulkan-on-qualcomm-snapdragon-8cx/"
         target: "_blank" # optional html a tag target attribute
 
