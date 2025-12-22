@@ -1206,6 +1206,13 @@ services:
         subtitle: "Open-source image editor for creating digital art and manipulating photos"
         url: "https://www.gimp.org/downloads/"
         target: "_blank" # optional html a tag target attribute
+        
+      - name: "IrfanView"
+        logo: "assets/tools/irfanview.png"
+        subtitle: "a fast, compact and innovative graphic viewer"
+        tag: "ARM64EC"        
+        url: "https://www.irfanview.com/arm64.htm"
+        target: "_blank" # optional html a tag target attribute
 
       - name: "Paint.NET"
         logo: "assets/tools/paintnet.png"
