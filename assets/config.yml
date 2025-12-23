@@ -5224,7 +5224,15 @@ services:
   - name: "Games"
     icon: "fa-solid fa-gamepad"
     items:
+
     
+      - name: "Alien: Rogue Incursion Evolved Edition"
+        logo: "assets/tools/alien_rogue_incursion_evolved_edition.png"
+        subtitle: "Action-horror story set in the iconic Alien universe, has Qualcomm SGSR upscale option."
+        tag: "ARM64EC"        
+        url: "https://store.steampowered.com/app/3655390/Alien_Rogue_Incursion_Evolved_Edition/"
+        target: "_blank" # optional html a tag target attribute
+        
       - name: "ScummVM"
         logo: "assets/tools/scummvm.png"
         subtitle: "unofficial builds of THE game engine re-creator"
