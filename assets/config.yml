@@ -5188,16 +5188,29 @@ services:
         url: "https://github.com/mijk84/win-arm64-binaries/releases/tag/haiyajan"
         target: "_blank" # optional html a tag target attribute
 
-      - name: "Libretro Cores"
+      - name: "Libretro Cores Collection"
+        logo: "assets/tools/libretro.png"
+        subtitle: "Unofficial build"
+        url: "https://github.com/talynone/RetroArch/releases/tag/winarm_cores_12_22_2025"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Another Libretro Cores Collection"
         logo: "assets/tools/libretro.png"
         subtitle: "Unofficial build"
         url: "https://github.com/mijk84/win-arm64-binaries/releases/tag/libretro"
         target: "_blank" # optional html a tag target attribute
-
+        
       - name: "Genesis Plus GX Libretro Core"
         logo: "assets/tools/libretro.png"
         subtitle: "Unofficial build"
         url: "https://github.com/tordona/win-arm64-libretro/releases"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "RetroArch"
+        logo: "assets/tools/RetroArch.png"
+        subtitle: "Nightly MSYS2 builds, multi console emulator"
+        tag: "Nightly"
+        url: "https://github.com/libretro/RetroArch/actions/workflows/MSYS2.yml"
         target: "_blank" # optional html a tag target attribute
         
       - name: "RetroArch"
