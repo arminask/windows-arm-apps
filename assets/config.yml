@@ -5820,6 +5820,13 @@ services:
         url: "https://github.com/Matthies/RubiChess/releases"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "pawnocchio"
+        logo: "assets/tools/pawnocchio.png"
+        subtitle: "official builds"
+        tag: "strongest UCI chess engine written in zig"        
+        url: "https://github.com/JonathanHallstrom/pawnocchio/releases"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "Motor"
         logo: "assets/tools/motor_chess.png"
         url: "https://github.com/ArminiusTux/WinARM64-binaries/releases/tag/ChessEngines"
