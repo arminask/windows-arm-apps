@@ -4913,7 +4913,7 @@ services:
       - name: "Eden"
         logo: "assets/tools/eden.png"
         subtitle: "a fork of Yuzu, Switch emulator"   
-        url: "https://github.com/eden-emulator/Releases/releases"
+        url: "https://github.com/eden-emulator/Releases/releases/latest"
         target: "_blank" # optional html a tag target attribute
         
       - name: "Kenji-NX"
