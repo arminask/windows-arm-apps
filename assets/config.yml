@@ -5445,6 +5445,13 @@ services:
         tag: "Java / full game"
         url: "https://github.com/akarnokd/open-ig"
         target: "_blank" # optional html a tag target attribute
+
+      - name: "JA2-Stracciatella"
+        logo: "assets/tools/ja2stracciatella.png"
+        subtitle: "improved & stable runtime of Jagged Alliance 2 1999"
+        tag: "original game data needed"
+        url: "https://github.com/ArminiusTux/WinARM64-binaries/releases/tag/JA2-Stracciatella"
+        target: "_blank" # optional html a tag target attribute
         
       - name: "Space Cadet Pinball"
         logo: "assets/tools/spacecadetpinball.png"
