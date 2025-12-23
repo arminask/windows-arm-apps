@@ -4294,6 +4294,12 @@ services:
         url: "https://www.geekbench.com/ai/download/"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "glmark2"
+        logo: "assets/tools/clionly.png"
+        subtitle: "unofficial builds of an OpenGL 2.0 benchmark"
+        url: "https://github.com/ArminiusTux/WinARM64-binaries/releases/tag/glmark2"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "CrystalDiskInfo"
         logo: "assets/tools/crystaldiskinfo.png"
         url: "https://crystalmark.info/en/download/"
