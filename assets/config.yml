@@ -1848,6 +1848,12 @@ services:
         subtitle: "Reminds you with event windows, Windows notifications, music, speech, applications"
         url: "https://apps.microsoft.com/detail/9wzdncrdlvcn"
         target: "_blank" # optional html a tag target attribute        
+
+      - name: "Packages Tracker"
+        logo: "assets/tools/packagestracker.png"
+        subtitle: "For tracking packages for different sending couriers"
+        url: "https://apps.microsoft.com/detail/9pn0mhpxh0g6"
+        target: "_blank" # optional html a tag target attribute  
         
   - name: "Tools"
     icon: "fa-solid fa-screwdriver-wrench"
@@ -5188,16 +5194,29 @@ services:
         url: "https://github.com/mijk84/win-arm64-binaries/releases/tag/haiyajan"
         target: "_blank" # optional html a tag target attribute
 
-      - name: "Libretro Cores"
+      - name: "Libretro Cores Collection"
+        logo: "assets/tools/libretro.png"
+        subtitle: "Unofficial build"
+        url: "https://github.com/talynone/RetroArch/releases/tag/winarm_cores_12_22_2025"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Another Libretro Cores Collection"
         logo: "assets/tools/libretro.png"
         subtitle: "Unofficial build"
         url: "https://github.com/mijk84/win-arm64-binaries/releases/tag/libretro"
         target: "_blank" # optional html a tag target attribute
-
+        
       - name: "Genesis Plus GX Libretro Core"
         logo: "assets/tools/libretro.png"
         subtitle: "Unofficial build"
         url: "https://github.com/tordona/win-arm64-libretro/releases"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "RetroArch"
+        logo: "assets/tools/RetroArch.png"
+        subtitle: "Nightly MSYS2 builds, multi console emulator"
+        tag: "Nightly"
+        url: "https://github.com/libretro/RetroArch/actions/workflows/MSYS2.yml"
         target: "_blank" # optional html a tag target attribute
         
       - name: "RetroArch"
@@ -5224,7 +5243,15 @@ services:
   - name: "Games"
     icon: "fa-solid fa-gamepad"
     items:
+
     
+      - name: "Alien: Rogue Incursion Evolved Edition"
+        logo: "assets/tools/alien_rogue_incursion_evolved_edition.png"
+        subtitle: "Action-horror story set in the iconic Alien universe, has Qualcomm SGSR upscale option."
+        tag: "ARM64EC"        
+        url: "https://store.steampowered.com/app/3655390/Alien_Rogue_Incursion_Evolved_Edition/"
+        target: "_blank" # optional html a tag target attribute
+        
       - name: "ScummVM"
         logo: "assets/tools/scummvm.png"
         subtitle: "unofficial builds of THE game engine re-creator"
