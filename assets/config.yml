@@ -1848,6 +1848,12 @@ services:
         subtitle: "Reminds you with event windows, Windows notifications, music, speech, applications"
         url: "https://apps.microsoft.com/detail/9wzdncrdlvcn"
         target: "_blank" # optional html a tag target attribute        
+
+      - name: "Packages Tracker"
+        logo: "assets/tools/packagestracker.png"
+        subtitle: "For tracking packages for different sending couriers"
+        url: "https://apps.microsoft.com/detail/9pn0mhpxh0g6"
+        target: "_blank" # optional html a tag target attribute  
         
   - name: "Tools"
     icon: "fa-solid fa-screwdriver-wrench"
