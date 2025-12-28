@@ -5295,6 +5295,60 @@ services:
         url: "https://apps.microsoft.com/detail/9wzdncrdkrds"
         target: "_blank" # optional html a tag target attribute
         
+      - name: "Simple Solitaire"
+        logo: "assets/tools/simplesolitaire.png"
+        subtitle: "Enjoy the classic game of Solitaire on Windows"             
+        url: "https://apps.microsoft.com/detail/9wzdncrfj3tt"
+        target: "_blank" # optional html a tag target attribute
+        
+      - name: "Simple FreeCell"
+        logo: "assets/tools/simplefreecell.png"
+        subtitle: "Comes with 4 different game modes for you to try (Classic FreeCell, Baker's Game, Eight Off, and Two Deck FreeCell)"             
+        url: "https://apps.microsoft.com/detail/9NBLGGH68LN4"
+        target: "_blank" # optional html a tag target attribute
+        
+      - name: "King of Puzzles"
+        logo: "assets/tools/kingofpuzzles.png"
+        subtitle: "Has more than 500 HD puzzles to choose from"             
+        url: "https://apps.microsoft.com/detail/9pkn7qkq5988"
+        target: "_blank" # optional html a tag target attribute
+        
+      - name: "Simple Word Search"
+        logo: "assets/tools/simplewordsearch.png"
+        subtitle: "All game boards are generated dynamically so you will never get the same board twice. Finish puzzles to earn stars and collect special alphabet characters"             
+        url: "https://apps.microsoft.com/detail/9nblggh5qbx1"
+        target: "_blank" # optional html a tag target attribute
+        
+      - name: "Dominoes"
+        logo: "assets/tools/dominoes.png"
+        subtitle: "Play 3 classic game modes (Muggins, Block, and Draw) against a clever computer opponent."             
+        url: "https://apps.microsoft.com/detail/9WZDNCRFJ3WT"
+        target: "_blank" # optional html a tag target attribute
+        
+      - name: "Spades"
+        logo: "assets/tools/spades.png"
+        subtitle: "Enjoy both normal and suicide modes as well as three difficulty settings."             
+        url: "https://apps.microsoft.com/detail/9wzdncrfj3gm"
+        target: "_blank" # optional html a tag target attribute
+        
+      - name: "Cribbage Deluxe"
+        logo: "assets/tools/cribbagedeluxe.png"
+        subtitle: "Cribbage is a card game where two players try to score points by forming combinations of cards. The first person to reach 121 points wins"             
+        url: "https://apps.microsoft.com/detail/9p6nl2g2flns"
+        target: "_blank" # optional html a tag target attribute
+        
+      - name: "Sudoku - Pro"
+        logo: "assets/tools/sudokupro.png"
+        subtitle: "A fun version of the classic puzzle game. Enjoy 5 game modes, including HyperSudoku"             
+        url: "https://apps.microsoft.com/detail/9wzdncrfj3g5"
+        target: "_blank" # optional html a tag target attribute
+        
+      - name: "Blackjack Professional"
+        logo: "assets/tools/blackjackprofessional.png"
+        subtitle: "Blackjack is a card game where you face off against the dealer. You're both trying to get to 21 points without going over. Whoever gets closest, wins."             
+        url: "https://apps.microsoft.com/detail/9NBLGGH4TLJK"
+        target: "_blank" # optional html a tag target attribute
+   
       - name: "Great Conqueror"
         logo: "assets/tools/GreatConqueror.png"
         url: "https://www.ieasytech.com/en/Desktop/"
