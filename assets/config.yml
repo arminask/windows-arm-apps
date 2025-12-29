@@ -5277,6 +5277,12 @@ services:
         url: "https://apps.microsoft.com/detail/9wzdncrdv0l0"
         target: "_blank" # optional html a tag target attribute
         
+      - name: "Sunset Bike Racing - Motocross"
+        logo: "assets/tools/sunsetbikeracingmotocross.png"
+        subtitle: "Test your reflexes! - Turn the key, kick the starter and push the limits of your motocross racing skill."             
+        url: "https://apps.microsoft.com/detail/9nblggh4w49x"
+        target: "_blank" # optional html a tag target attribute
+        
       - name: "Hearts Online"
         logo: "assets/tools/heartsonline.png"
         subtitle: "Enjoy the classic game of Hearts with real live players!"             
