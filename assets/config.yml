@@ -1855,6 +1855,12 @@ services:
         subtitle: "Reminds you with event windows, Windows notifications, music, speech, applications"
         url: "https://apps.microsoft.com/detail/9wzdncrdlvcn"
         target: "_blank" # optional html a tag target attribute        
+
+      - name: "Packages Tracker"
+        logo: "assets/tools/packagestracker.png"
+        subtitle: "For tracking packages for different sending couriers"
+        url: "https://apps.microsoft.com/detail/9pn0mhpxh0g6"
+        target: "_blank" # optional html a tag target attribute  
         
   - name: "Tools"
     icon: "fa-solid fa-screwdriver-wrench"
@@ -1971,6 +1977,12 @@ services:
         url: "https://github.com/ajeetdsouza/zoxide/releases"
         target: "_blank"
 
+      - name: "fzf"
+        logo: "assets/tools/clionly.png"
+        subtitle: "A command-line fuzzy finder"
+        url: "https://github.com/junegunn/fzf/releases"
+        target: "_blank"
+        
       - name: "bat"
         logo: "assets/tools/clionly.png"
         subtitle: "unofficial builds / display a single file on the terminal"
@@ -5208,16 +5220,29 @@ services:
         url: "https://github.com/mijk84/win-arm64-binaries/releases/tag/haiyajan"
         target: "_blank" # optional html a tag target attribute
 
-      - name: "Libretro Cores"
+      - name: "Libretro Cores Collection"
+        logo: "assets/tools/libretro.png"
+        subtitle: "Unofficial build"
+        url: "https://github.com/talynone/RetroArch/releases/tag/winarm_cores_12_22_2025"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Another Libretro Cores Collection"
         logo: "assets/tools/libretro.png"
         subtitle: "Unofficial build"
         url: "https://github.com/mijk84/win-arm64-binaries/releases/tag/libretro"
         target: "_blank" # optional html a tag target attribute
-
+        
       - name: "Genesis Plus GX Libretro Core"
         logo: "assets/tools/libretro.png"
         subtitle: "Unofficial build"
         url: "https://github.com/tordona/win-arm64-libretro/releases"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "RetroArch"
+        logo: "assets/tools/RetroArch.png"
+        subtitle: "Nightly MSYS2 builds, multi console emulator"
+        tag: "Nightly"
+        url: "https://github.com/libretro/RetroArch/actions/workflows/MSYS2.yml"
         target: "_blank" # optional html a tag target attribute
         
       - name: "RetroArch"
@@ -5244,27 +5269,125 @@ services:
   - name: "Games"
     icon: "fa-solid fa-gamepad"
     items:
+
     
+      - name: "Alien: Rogue Incursion Evolved Edition"
+        logo: "assets/tools/alien_rogue_incursion_evolved_edition.png"
+        subtitle: "Action-horror story set in the iconic Alien universe, has Qualcomm SGSR upscale option."
+        tag: "ARM64EC"        
+        url: "https://store.steampowered.com/app/3655390/Alien_Rogue_Incursion_Evolved_Edition/"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "ScummVM"
         logo: "assets/tools/scummvm.png"
         subtitle: "unofficial builds of THE game engine re-creator"
         tag: "over 325 games supported"        
         url: "https://github.com/ArminiusTux/WinARM64-binaries/releases/tag/ScummVM"
         target: "_blank" # optional html a tag target attribute
-
-      - name: "Great Conqueror"
-        logo: "assets/tools/GreatConqueror.png"
-        url: "https://www.ieasytech.com/en/Desktop/"
+        
+      - name: "Asphalt 8: Airborne"
+        logo: "assets/tools/asphalt8airborn.png"
+        subtitle: "Perform high-speed aerial stunts in an intensive driving experience powered by a brand-new physics engine."             
+        url: "https://apps.microsoft.com/detail/9wzdncrfj26j"
+        target: "_blank" # optional html a tag target attribute
+        
+      - name: "Beach Buggy Racing"
+        logo: "assets/tools/beachbuggyracing.png"
+        subtitle: "Fast, furious, fun and FREE, Beach Buggy Racing is a kart-racing island adventure for all ages."             
+        url: "https://apps.microsoft.com/detail/9wzdncrdv0l0"
+        target: "_blank" # optional html a tag target attribute
+        
+      - name: "Sunset Bike Racing - Motocross"
+        logo: "assets/tools/sunsetbikeracingmotocross.png"
+        subtitle: "Test your reflexes! - Turn the key, kick the starter and push the limits of your motocross racing skill."             
+        url: "https://apps.microsoft.com/detail/9nblggh4w49x"
+        target: "_blank" # optional html a tag target attribute
+        
+      - name: "Hearts Online"
+        logo: "assets/tools/heartsonline.png"
+        subtitle: "Enjoy the classic game of Hearts with real live players!"             
+        url: "https://apps.microsoft.com/detail/9nblggh2nt88"
+        target: "_blank" # optional html a tag target attribute
+        
+      - name: "Hearts Deluxe"
+        logo: "assets/tools/heartsdeluxe.png"
+        subtitle: "Trick taking game where players try to go for the lowest score possible by avoiding any Hearts and especially the Queen of Spades."             
+        url: "https://apps.microsoft.com/detail/9WZDNCRFJ3WL"
+        target: "_blank" # optional html a tag target attribute
+        
+      - name: "Simple Mahjong"
+        logo: "assets/tools/simplemahjong.png"
+        subtitle: "Enjoy the classic game of Mahjong right on your PC"             
+        url: "https://apps.microsoft.com/detail/9wzdncrdkrds"
+        target: "_blank" # optional html a tag target attribute
+        
+      - name: "Simple Solitaire"
+        logo: "assets/tools/simplesolitaire.png"
+        subtitle: "Enjoy the classic game of Solitaire on Windows"             
+        url: "https://apps.microsoft.com/detail/9wzdncrfj3tt"
+        target: "_blank" # optional html a tag target attribute
+        
+      - name: "Simple FreeCell"
+        logo: "assets/tools/simplefreecell.png"
+        subtitle: "Comes with 4 different game modes for you to try (Classic FreeCell, Baker's Game, Eight Off, and Two Deck FreeCell)"             
+        url: "https://apps.microsoft.com/detail/9NBLGGH68LN4"
+        target: "_blank" # optional html a tag target attribute
+        
+      - name: "King of Puzzles"
+        logo: "assets/tools/kingofpuzzles.png"
+        subtitle: "Has more than 500 HD puzzles to choose from"             
+        url: "https://apps.microsoft.com/detail/9pkn7qkq5988"
+        target: "_blank" # optional html a tag target attribute
+        
+      - name: "Simple Word Search"
+        logo: "assets/tools/simplewordsearch.png"
+        subtitle: "All game boards are generated dynamically so you will never get the same board twice. Finish puzzles to earn stars and collect special alphabet characters"             
+        url: "https://apps.microsoft.com/detail/9nblggh5qbx1"
+        target: "_blank" # optional html a tag target attribute
+        
+      - name: "Dominoes"
+        logo: "assets/tools/dominoes.png"
+        subtitle: "Play 3 classic game modes (Muggins, Block, and Draw) against a clever computer opponent."             
+        url: "https://apps.microsoft.com/detail/9WZDNCRFJ3WT"
+        target: "_blank" # optional html a tag target attribute
+        
+      - name: "Spades"
+        logo: "assets/tools/spades.png"
+        subtitle: "Enjoy both normal and suicide modes as well as three difficulty settings."             
+        url: "https://apps.microsoft.com/detail/9wzdncrfj3gm"
+        target: "_blank" # optional html a tag target attribute
+        
+      - name: "Cribbage Deluxe"
+        logo: "assets/tools/cribbagedeluxe.png"
+        subtitle: "Cribbage is a card game where two players try to score points by forming combinations of cards. The first person to reach 121 points wins"             
+        url: "https://apps.microsoft.com/detail/9p6nl2g2flns"
+        target: "_blank" # optional html a tag target attribute
+        
+      - name: "Sudoku - Pro"
+        logo: "assets/tools/sudokupro.png"
+        subtitle: "A fun version of the classic puzzle game. Enjoy 5 game modes, including HyperSudoku"             
+        url: "https://apps.microsoft.com/detail/9wzdncrfj3g5"
+        target: "_blank" # optional html a tag target attribute
+        
+      - name: "Blackjack Professional"
+        logo: "assets/tools/blackjackprofessional.png"
+        subtitle: "Blackjack is a card game where you face off against the dealer. You're both trying to get to 21 points without going over. Whoever gets closest, wins."             
+        url: "https://apps.microsoft.com/detail/9NBLGGH4TLJK"
         target: "_blank" # optional html a tag target attribute
 
-      - name: "European War"
-        logo: "assets/tools/EuropeanWar.png"
-        url: "https://www.ieasytech.com/en/Desktop/"
+      - name: "European War 5: Empire"
+        logo: "assets/tools/europeanwar5empire.png"
+        url: "https://apps.microsoft.com/detail/9NBLGGH41BWF"
         target: "_blank" # optional html a tag target attribute
 
-      - name: "Glory of Generals"
-        logo: "assets/tools/GloryofGenerals.png"
-        url: "https://www.ieasytech.com/en/Desktop/"
+      - name: "European War 7: Medieval"
+        logo: "assets/tools/europeanwar7medieval.png"
+        url: "https://apps.microsoft.com/detail/9NMSZGD39TL1"
+        target: "_blank" # optional html a tag target attribute
+        
+      - name: "Glory of Generals 3"
+        logo: "assets/tools/gloryofgenerals3.png"
+        url: "https://apps.microsoft.com/detail/9N345PF9VVKT"
         target: "_blank" # optional html a tag target attribute
 
       - name: "SDLPoP"
