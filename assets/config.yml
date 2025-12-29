@@ -468,9 +468,9 @@ services:
     items:
       - name: "VLC media player"
         logo: "assets/tools/vlc.png"
-        tag: "somewhat stable"        
-        subtitle: "Nightly builds of v3.0 'Vetinari', open source player that plays nearly any media file"
-        url: "https://artifacts.videolan.org/vlc-3.0/nightly-win64-arm-llvm/"
+        tag: "somewhat stable, pick the vlc-3.x.yz-winarm64.exe"        
+        subtitle: "Release builds of v3.0 'Vetinari', open source player that plays nearly any media file"
+        url: "https://artifacts.videolan.org/vlc/release-win64-arm/"
         target: "_blank" # optional html a tag target attribute
 
       - name: "VLC media player Dev"
@@ -488,8 +488,8 @@ services:
 
       - name: "mpv"
         logo: "assets/tools/mpv.png"
-        subtitle: "unofficial builds / use 'mpv.exe --hwdec', open-source, command-line media player based on MPlayer, known for playing nearly any format with powerful features like advanced video output (HDR, scaling) and extensive customization via scripts and configuration, making it a versatile and high-performance choice for video enthusiasts."
-        url: "https://github.com/minnyres/mpv-windows-arm64/releases"
+        subtitle: "use 'mpv.exe --hwdec', open-source, command-line media player based on MPlayer, known for playing nearly any format with powerful features like advanced video output (HDR, scaling) and extensive customization via scripts and configuration, making it a versatile and high-performance choice for video enthusiasts."
+        url: "https://github.com/mpv-player/mpv/releases"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Kodi"
@@ -542,14 +542,14 @@ services:
         
       - name: "foobar2000"
         logo: "assets/tools/foobar2000.png"
-        subtitle: "LibVLC-based media player for the Universal Windows Platform"
+        subtitle: "Advanced, customizable, freeware audio player"
         tag: "ARM64EC"
         url: "https://www.foobar2000.org/download"
         target: "_blank" # optional html a tag target attribute
 
       - name: "foo_input_udsd"
         logo: "assets/tools/foobar2000-dll.png"
-        subtitle: "Advanced, customizable, freeware audio player"        
+        subtitle: "SACD/DSD decoder plugin for foobar2000"        
         tag: "ARM64EC"
         url: "https://sourceforge.net/projects/sacddecoder/files/macOS%20%2BWindows/foo_input_udsd/"
         target: "_blank" # optional html a tag target attribute
@@ -1205,6 +1205,13 @@ services:
         logo: "assets/tools/gimp.png"
         subtitle: "Open-source image editor for creating digital art and manipulating photos"
         url: "https://www.gimp.org/downloads/"
+        target: "_blank" # optional html a tag target attribute
+        
+      - name: "IrfanView"
+        logo: "assets/tools/irfanview.png"
+        subtitle: "a fast, compact and innovative graphic viewer"
+        tag: "ARM64EC"        
+        url: "https://www.irfanview.com/arm64.htm"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Paint.NET"
@@ -3525,7 +3532,8 @@ services:
 
       - name: "Node.js"
         logo: "assets/tools/nodejs.png"
-        url: "https://nodejs.org/en/download/prebuilt-installer/current"
+        subtitle: "a free, open-source, cross-platform JavaScript runtime environment"        
+        url: "https://nodejs.org/en/download"
         target: "_blank" # optional html a tag target attribute
 
       - name: "NVM for Windows"
@@ -4298,6 +4306,12 @@ services:
         url: "https://www.geekbench.com/ai/download/"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "glmark2"
+        logo: "assets/tools/clionly.png"
+        subtitle: "unofficial builds of an OpenGL 2.0 benchmark"
+        url: "https://github.com/ArminiusTux/WinARM64-binaries/releases/tag/glmark2"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "CrystalDiskInfo"
         logo: "assets/tools/crystaldiskinfo.png"
         url: "https://crystalmark.info/en/download/"
@@ -4893,6 +4907,12 @@ services:
         subtitle: "Steam depot downloader utilizing the SteamKit2 library."
         url: "https://github.com/SteamRE/DepotDownloader/releases"
 
+      - name: "OpenBLAS"
+        logo: "assets/tools/dllonly.png"
+        subtitle: "an optimized Basic Linear Algebra Subprograms (BLAS) library"
+        url: "https://github.com/OpenMathLib/OpenBLAS/releases"
+        target: "_blank" # optional html a tag target attribute
+
   - name: "Game Console Emulation"
     icon: "fa-brands fa-playstation"
     items:
@@ -4905,7 +4925,7 @@ services:
       - name: "Eden"
         logo: "assets/tools/eden.png"
         subtitle: "a fork of Yuzu, Switch emulator"   
-        url: "https://github.com/eden-emulator/Releases/releases"
+        url: "https://github.com/eden-emulator/Releases/releases/latest"
         target: "_blank" # optional html a tag target attribute
         
       - name: "Kenji-NX"
@@ -5560,6 +5580,13 @@ services:
         tag: "Java / full game"
         url: "https://github.com/akarnokd/open-ig"
         target: "_blank" # optional html a tag target attribute
+
+      - name: "JA2-Stracciatella"
+        logo: "assets/tools/ja2stracciatella.png"
+        subtitle: "improved & stable runtime of Jagged Alliance 2 1999"
+        tag: "original game data needed"
+        url: "https://github.com/ArminiusTux/WinARM64-binaries/releases/tag/JA2-Stracciatella"
+        target: "_blank" # optional html a tag target attribute
         
       - name: "Space Cadet Pinball"
         logo: "assets/tools/spacecadetpinball.png"
@@ -5650,6 +5677,13 @@ services:
         subtitle: "Modern cross-platform Quake 1 engine based on FitzQuake."
         tag: "original game data needed"
         url: "https://github.com/ArminiusTux/WinARM64-binaries/releases/tag/QuakeSpasm"
+        target: "_blank" # optional html a tag target attribute
+        
+      - name: "vkQuake"
+        logo: "assets/tools/quake1.png"
+        subtitle: "Vulkan Quake port based on QuakeSpasm"
+        tag: "original game data needed"
+        url: "https://github.com/Novum/vkQuake/releases/"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Yamagi Quake II"
@@ -5834,7 +5868,7 @@ services:
         logo: "assets/tools/widelands.png"
         subtitle: "Settlers II 1996 remake"
         tag: "full game"
-        url: "https://github.com/ArminiusTux/WinARM64-binaries/releases/tag/Widelands"
+        url: "https://github.com/widelands/widelands/releases/latest"
         target: "_blank" # optional html a tag target attribute
 
       - name: "World of Warcraft"
@@ -5920,6 +5954,13 @@ services:
         logo: "assets/tools/rubichess.png"
         subtitle: "official builds"
         url: "https://github.com/Matthies/RubiChess/releases"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "pawnocchio"
+        logo: "assets/tools/pawnocchio.png"
+        subtitle: "official builds"
+        tag: "strongest UCI chess engine written in zig"        
+        url: "https://github.com/JonathanHallstrom/pawnocchio/releases"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Motor"
@@ -6130,6 +6171,12 @@ services:
         url: "https://ollama.com/"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "ONNX Runtime"
+        logo: "assets/tools/onnx.png"
+        subtitle: "a cross-platform, high performance ML inferencing and training accelerator"
+        url: "https://github.com/microsoft/onnxruntime/releases"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "Foundry Local"
         logo: "assets/tools/foundrylocal.png"
         subtitle: "Run AI models locally on your device. Foundry Local provides on-device inference with complete data privacy, no Azure subscription required."
@@ -6206,19 +6253,24 @@ services:
   - name: "Drivers"
     icon: "fa-solid fa-gears"
     items:
-      - name: "Snapdragon Control Panel for devices with Snapdragon X Platform"
+      - name: "Snapdragon Control Panel"
         logo: "assets/tools/snapdragon.png"
         subtitle: "Optimize game settings and keep drivers up to date."
+        tag: "for Snapdragon X platforms only"   
         url: "https://softwarecenter.qualcomm.com/catalog/item/SnapdragonControlPanel"
         target: "_blank" # optional html a tag target attribute
         
-      - name: "Windows Adreno GPU driver for Snapdragon X Platform"
+      - name: "Qualcomm Adreno GPU Drivers"
         logo: "assets/tools/qualcommdev.png"
+        subtitle: "Windows graphics drivers (Direct3D, OpenCL & Vulkan)"
+        tag: "for Snapdragon X platforms only"          
         url: "https://softwarecenter.qualcomm.com/catalog/item/Windows_Graphics_Driver"
         target: "_blank" # optional html a tag target attribute
 
-      - name: "Qualcomm® Hexagon™ NPU Driver"
+      - name: "Qualcomm Hexagon NPU Driver"
         logo: "assets/tools/qualcommdev.png"
+        subtitle: "Windows AI interface drivers"
+        tag: "for Snapdragon X platforms only"         
         url: "https://softwarecenter.qualcomm.com/catalog/item/Qualcomm_HND"
         target: "_blank" # optional html a tag target attribute
 
@@ -6229,14 +6281,21 @@ services:
 
       - name: "*retro-elitist* Vulkan drivers"
         logo: "assets/tools/vulkandrivers.png"
-        subtitle: "unofficial + unstable = USE AT OWN RISK"
-        tag: "only works on a few Snapdragon pre-Elite SoC models"
+        subtitle: "unofficial + unstable = USE AT OWN RISK! Check GitHub issue #118"
+        tag: "only works on a few Snapdragon pre-X SoC models"
         url: "https://driver1998.github.io/en/posts/vulkan-on-qualcomm-snapdragon-8cx/"
         target: "_blank" # optional html a tag target attribute
 
       - name: "OpenCL & OpenGL Compatibility Pack"
         logo: "assets/tools/openglcompat.png"
         url: "https://apps.microsoft.com/detail/9nqpsl29bfff"
+        target: "_blank" # optional html a tag target attribute
+        
+      - name: "Mesa 3D Gallium drivers"
+        logo: "assets/tools/mesa3d.png"
+        subtitle: "unofficial builds of D3D12 (OpenGL -> Direct3D 12 wrapper), Dozen (Vulkan -> Direct3D 12 wrapper) & Zink (OpenGL -> Vulkan wrapper)"
+        tag: "Dozen is limited to newer SoCs and Zink requires native Vulkan drivers"          
+        url: "https://github.com/mmozeiko/build-mesa/releases"
         target: "_blank" # optional html a tag target attribute
 
       - name: "dgVoodoo"
