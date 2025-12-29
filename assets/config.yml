@@ -5777,14 +5777,21 @@ services:
         url: "https://runelite.net/"
         target: "_blank" # optional html a tag target attribute
 
-      - name: "Solitaire Collection"
+      - name: "Microsoft Solitaire Collection"
         logo: "assets/tools/solitaire.png"
-        url: "https://www.microsoft.com/store/productId/9WZDNCRFHWD2/"
+        subtitle: "Enjoy classic Solitaire game modes everyone loves - Klondike Solitaire, Spider Solitaire, FreeCell Solitaire, TriPeaks Solitaire & Pyramid Solitaire."
+        url: "https://apps.microsoft.com/detail/9WZDNCRFHWD2"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "Microsoft Mahjong"
+        logo: "assets/tools/microsoftmahjong.png"
+        subtitle: "Classic tile-matching game now updated with Daily Challenges, a new look and feel, and over 40 puzzles!"
+        url: "https://apps.microsoft.com/detail/9WZDNCRFHWCP"
+        target: "_blank" # optional html a tag target attribute
+        
       - name: "Ink Ball"
         logo: "assets/tools/inkball.png"
-        url: "https://www.microsoft.com/store/productId/9NBK1BJ87MCF/"
+        url: "https://apps.microsoft.com/detail/9NBK1BJ87MCF"
         target: "_blank" # optional html a tag target attribute
 
       - name: "poi"
