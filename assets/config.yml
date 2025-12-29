@@ -5283,6 +5283,12 @@ services:
         url: "https://apps.microsoft.com/detail/9nblggh4w49x"
         target: "_blank" # optional html a tag target attribute
         
+      - name: "Cut the Rope Classic"
+        logo: "assets/tools/cuttheropeclassic.png"
+        subtitle: "Slice your way to sweet victory in Cut The Rope – the ultimate candy-feeding puzzle adventure!"             
+        url: "https://apps.microsoft.com/detail/9n7xc5cxdx0g"
+        target: "_blank" # optional html a tag target attribute
+        
       - name: "Hearts Online"
         logo: "assets/tools/heartsonline.png"
         subtitle: "Enjoy the classic game of Hearts with real live players!"             
