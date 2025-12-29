@@ -5348,20 +5348,20 @@ services:
         subtitle: "Blackjack is a card game where you face off against the dealer. You're both trying to get to 21 points without going over. Whoever gets closest, wins."             
         url: "https://apps.microsoft.com/detail/9NBLGGH4TLJK"
         target: "_blank" # optional html a tag target attribute
-   
-      - name: "Great Conqueror"
-        logo: "assets/tools/GreatConqueror.png"
-        url: "https://www.ieasytech.com/en/Desktop/"
+
+      - name: "European War 5: Empire"
+        logo: "assets/tools/europeanwar5empire.png"
+        url: "https://apps.microsoft.com/detail/9NBLGGH41BWF"
         target: "_blank" # optional html a tag target attribute
 
-      - name: "European War"
-        logo: "assets/tools/EuropeanWar.png"
-        url: "https://www.ieasytech.com/en/Desktop/"
+      - name: "European War 7: Medieval"
+        logo: "assets/tools/europeanwar7medieval.png"
+        url: "https://apps.microsoft.com/detail/9NMSZGD39TL1"
         target: "_blank" # optional html a tag target attribute
-
-      - name: "Glory of Generals"
-        logo: "assets/tools/GloryofGenerals.png"
-        url: "https://www.ieasytech.com/en/Desktop/"
+        
+      - name: "Glory of Generals 3"
+        logo: "assets/tools/gloryofgenerals3.png"
+        url: "https://apps.microsoft.com/detail/9N345PF9VVKT"
         target: "_blank" # optional html a tag target attribute
 
       - name: "SDLPoP"
