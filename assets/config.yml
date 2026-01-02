@@ -2835,6 +2835,13 @@ services:
         url: "https://jdownloader.org/jdownloader2"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "SABnzbd"
+        logo: "assets/tools/sabnzbd.png"
+        subtitle: "Free and easy NZB downloader"
+        tag: "Beta"
+        url: "https://sabnzbd.org/downloads.html#"
+        target: "_blank" # optional html a tag target attribute
+        
       - name: "SmartFTP"
         logo: "assets/tools/smartftp.png"
         tag: "Available under All Downloads section"
