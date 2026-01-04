@@ -2835,6 +2835,13 @@ services:
         url: "https://jdownloader.org/jdownloader2"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "SABnzbd"
+        logo: "assets/tools/sabnzbd.png"
+        subtitle: "Free and easy NZB downloader"
+        tag: "Beta"
+        url: "https://sabnzbd.org/downloads.html#"
+        target: "_blank" # optional html a tag target attribute
+        
       - name: "SmartFTP"
         logo: "assets/tools/smartftp.png"
         tag: "Available under All Downloads section"
@@ -3952,6 +3959,12 @@ services:
         url: "https://github.com/mijk84/win-arm64-binaries/releases/tag/qtemu"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "QEMU v10"
+        logo: "assets/tools/qemu.png"
+        subtitle: "Experimental builds, generic and open source machine emulator and virtualizer"
+        url: "https://qemu.weilnetz.de/aarch64/"
+        target: "_blank" # optional html a tag target attribute
+        
       - name: "QEMU v9"
         logo: "assets/tools/qemu.png"
         subtitle: "Unofficial Build, generic and open source machine emulator and virtualizer"
@@ -5269,8 +5282,6 @@ services:
   - name: "Games"
     icon: "fa-solid fa-gamepad"
     items:
-
-    
       - name: "Alien: Rogue Incursion Evolved Edition"
         logo: "assets/tools/alien_rogue_incursion_evolved_edition.png"
         subtitle: "Action-horror story set in the iconic Alien universe, has Qualcomm SGSR upscale option."
@@ -5290,6 +5301,54 @@ services:
         subtitle: "Perform high-speed aerial stunts in an intensive driving experience powered by a brand-new physics engine."             
         url: "https://apps.microsoft.com/detail/9wzdncrfj26j"
         target: "_blank" # optional html a tag target attribute
+
+      - name: "Five Nights at Freddy’s: Original Series (1-4)"
+        logo: "assets/tools/fnaforiginalseries.png"
+        subtitle: "Experience the original Five Nights at Freddy’s games that started the legendary horror franchise."
+        url: "https://apps.microsoft.com/detail/9PJ2DSSXZR0P"
+        target: "_blank"
+        
+      - name: "Five Nights at Freddy’s"
+        logo: "assets/tools/fnaf1.png"
+        subtitle: "Welcome to your new summer job at Freddy Fazbear's Pizza, where kids and parents alike come for entertainment and food as far as the eye can see!"
+        url: "https://apps.microsoft.com/detail/9n5253j559lr"
+        target: "_blank"
+
+      - name: "Five Nights at Freddy’s 2"
+        logo: "assets/tools/fnaf2.png"
+        subtitle: "The old and aging animatronics are joined by a new cast of characters."
+        url: "https://apps.microsoft.com/detail/9nbr2zsd99fx"
+        target: "_blank"
+
+      - name: "Five Nights at Freddy’s 3"
+        logo: "assets/tools/fnaf3.png"
+        subtitle: "Thirty years after Freddy Fazbear’s Pizza closed, the past returns to haunt a horror attraction."
+        url: "https://apps.microsoft.com/detail/9p6n7lq4hzfd"
+        target: "_blank"
+        
+      - name: "Five Nights at Freddy’s 4"
+        logo: "assets/tools/fnaf4.png"
+        subtitle: "Face animatronic nightmares in your own home, where sound and timing are your only defense."
+        url: "https://apps.microsoft.com/detail/9pldlmplr7jv"
+        target: "_blank"
+
+      - name: "Five Nights at Freddy’s: Sister Location"
+        logo: "assets/tools/fnafsisterlocation.png"
+        subtitle: "Circus Baby's Pizza World, where family fun and interactivity go beyond anything you've seen at those *other* pizza places!"
+        url: "https://apps.microsoft.com/detail/9ndh606jxlwj"
+        target: "_blank"
+        
+      - name: "Ultimate Custom Night"
+        logo: "assets/tools/ultimatecustomnight.png"
+        subtitle: "Create your own ultimate FNAF challenge with over 50 animatronics and customizable difficulty."
+        url: "https://apps.microsoft.com/detail/9phz6mlv5ndd"
+        target: "_blank"
+
+      - name: "Endless Memories"
+        logo: "assets/tools/endlessmemories.png"
+        subtitle: "Enter the world of dreams in this action-adventure that mixes handcrafted non-linear worlds with ARPG elements."
+        url: "https://apps.microsoft.com/detail/9P2BSRS2MV38"
+        target: "_blank"
         
       - name: "Beach Buggy Racing"
         logo: "assets/tools/beachbuggyracing.png"
@@ -5301,6 +5360,12 @@ services:
         logo: "assets/tools/sunsetbikeracingmotocross.png"
         subtitle: "Test your reflexes! - Turn the key, kick the starter and push the limits of your motocross racing skill."             
         url: "https://apps.microsoft.com/detail/9nblggh4w49x"
+        target: "_blank" # optional html a tag target attribute
+        
+      - name: "Cut the Rope Classic"
+        logo: "assets/tools/cuttheropeclassic.png"
+        subtitle: "Slice your way to sweet victory in Cut The Rope – the ultimate candy-feeding puzzle adventure!"             
+        url: "https://apps.microsoft.com/detail/9n7xc5cxdx0g"
         target: "_blank" # optional html a tag target attribute
         
       - name: "Hearts Online"
@@ -5811,14 +5876,21 @@ services:
         url: "https://runelite.net/"
         target: "_blank" # optional html a tag target attribute
 
-      - name: "Solitaire Collection"
+      - name: "Microsoft Solitaire Collection"
         logo: "assets/tools/solitaire.png"
-        url: "https://www.microsoft.com/store/productId/9WZDNCRFHWD2/"
+        subtitle: "Enjoy classic Solitaire game modes everyone loves - Klondike Solitaire, Spider Solitaire, FreeCell Solitaire, TriPeaks Solitaire & Pyramid Solitaire."
+        url: "https://apps.microsoft.com/detail/9WZDNCRFHWD2"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "Microsoft Mahjong"
+        logo: "assets/tools/microsoftmahjong.png"
+        subtitle: "Classic tile-matching game now updated with Daily Challenges, a new look and feel, and over 40 puzzles!"
+        url: "https://apps.microsoft.com/detail/9WZDNCRFHWCP"
+        target: "_blank" # optional html a tag target attribute
+        
       - name: "Ink Ball"
         logo: "assets/tools/inkball.png"
-        url: "https://www.microsoft.com/store/productId/9NBK1BJ87MCF/"
+        url: "https://apps.microsoft.com/detail/9NBK1BJ87MCF"
         target: "_blank" # optional html a tag target attribute
 
       - name: "poi"
