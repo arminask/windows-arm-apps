@@ -2500,11 +2500,6 @@ services:
         subtitle: "unofficial builds - Screen capture, file sharing and productivity tool"
         url: "https://github.com/ahossny/ShareX/releases"
         target: "_blank"
-
-      - name: "Kando"
-        logo: "assets/tools/kando.png"
-        subtitle: "A pie menu for doing things with utmost efficiency."
-        url: "https://github.com/kando-menu/kando/releases"
         
       - name: "HttpMaster"
         logo: "assets/tools/httpmaster.png"
@@ -4706,6 +4701,17 @@ services:
         subtitle: "a collection of modern flyouts"
         url: "https://apps.microsoft.com/detail/9ppcm05rw87x"
         target: "_blank"
+
+      - name: "EdgeGesture"
+        logo: "assets/tools/edgegesture.png"
+        subtitle: "Enables edge gesture to your windows computer, enhancing the touchscreen experience"
+        url: "https://github.com/felix-sky/EdgeGesture/releases"
+
+      - name: "Kando"
+        logo: "assets/tools/kando.png"
+        subtitle: "A pie menu for doing things with utmost efficiency."
+        url: "https://github.com/kando-menu/kando/releases"
+
 
       - name: "FlipIt"
         logo: "assets/tools/flipit.png"
