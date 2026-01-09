@@ -468,9 +468,9 @@ services:
     items:
       - name: "VLC media player"
         logo: "assets/tools/vlc.png"
-        tag: "somewhat stable, pick the vlc-3.x.yz-winarm64.exe"        
-        subtitle: "Release builds of v3.0 'Vetinari', open source player that plays nearly any media file"
-        url: "https://artifacts.videolan.org/vlc/release-win64-arm/"
+        tag: "Click white arrow on 'Download VLC' button to get ARM version"        
+        subtitle: "Open source player that plays nearly any media file"
+        url: "https://images.videolan.org/vlc/download-windows.html"
         target: "_blank" # optional html a tag target attribute
 
       - name: "VLC media player Dev"
