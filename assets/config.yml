@@ -2537,6 +2537,13 @@ services:
         url: "https://github.com/SakiRinn/LiveCaptions-Translator/releases"
         target: "_blank" # optional html a tag target attribute
 
+
+      - name: "Handy"
+        logo: "assets/tools/handy.png"
+        subtitle: "Open source, and extensible speech-to-text application that works completely offline.."
+        url: "https://github.com/cjpais/Handy/releases"
+        target: "_blank" # optional html a tag target attribute
+        
       - name: "O&O ShutUp10++"
         logo: "assets/tools/oo-shutup10.png"
         subtitle: "Free antispy tool for Windows 10 and 11"
