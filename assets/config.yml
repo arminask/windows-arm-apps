@@ -4953,13 +4953,19 @@ services:
 
   - name: "Game Console Emulation"
     icon: "fa-brands fa-playstation"
-    items:
+    items:        
       - name: "Aethersx2"
         logo: "assets/tools/aethersx2.png"
         subtitle: "unofficial build, PS2 emulator"
         url: "https://store.kde.org/p/2148094/"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "RPCS3"
+        logo: "assets/tools/rpcs3.png"
+        subtitle: "nightly build, PS3 emulator"
+        url: "https://github.com/RPCS3/rpcs3/actions/workflows/rpcs3.yml"
+        target: "_blank" # optional html a tag target attribute
+        
       - name: "Eden"
         logo: "assets/tools/eden.png"
         subtitle: "a fork of Yuzu, Switch emulator"   
