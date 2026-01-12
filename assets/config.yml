@@ -468,9 +468,9 @@ services:
     items:
       - name: "VLC media player"
         logo: "assets/tools/vlc.png"
-        tag: "somewhat stable, pick the vlc-3.x.yz-winarm64.exe"        
-        subtitle: "Release builds of v3.0 'Vetinari', open source player that plays nearly any media file"
-        url: "https://artifacts.videolan.org/vlc/release-win64-arm/"
+        tag: "Click white arrow on 'Download VLC' button to get ARM version"        
+        subtitle: "Open source player that plays nearly any media file"
+        url: "https://images.videolan.org/vlc/download-windows.html"
         target: "_blank" # optional html a tag target attribute
 
       - name: "VLC media player Dev"
@@ -521,6 +521,12 @@ services:
         subtitle: "Plex web client, web wrapper written in Tauri"
         url: "https://github.com/Snazzie/MediaOnTauri/releases"
         target: "_blank" # optional html a tag target attribute        
+        
+      - name: "VuIO Media Server"
+        logo: "assets/tools/clionly.png"
+        subtitle: "DLNA Media Server"
+        url: "https://github.com/vuiodev/vuio/releases"
+        target: "_blank" # optional html a tag target attribute
         
       - name: "MusicPlayer2"
         logo: "assets/tools/musicplayer2.png"
@@ -1150,6 +1156,12 @@ services:
         url: "https://github.com/telegramdesktop/tdesktop/releases"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "AyuGram Desktop"
+        logo: "assets/tools/ayugram.png"
+        subtitle: "Unofficial build, Telegram client with good customization and Ghost mode"
+        url: "https://github.com/pStrikeZ/AyuGram-Desktop-Windows-ARM64/releases"
+        target: "_blank" # optional html a tag target attribute
+        
       - name: "Halloy"
         logo: "assets/tools/halloy.png"
         subtitle: "Unofficial build, IRC client written in Rust."
@@ -2500,11 +2512,6 @@ services:
         subtitle: "unofficial builds - Screen capture, file sharing and productivity tool"
         url: "https://github.com/ahossny/ShareX/releases"
         target: "_blank"
-
-      - name: "Kando"
-        logo: "assets/tools/kando.png"
-        subtitle: "A pie menu for doing things with utmost efficiency."
-        url: "https://github.com/kando-menu/kando/releases"
         
       - name: "HttpMaster"
         logo: "assets/tools/httpmaster.png"
@@ -2530,6 +2537,13 @@ services:
         url: "https://github.com/SakiRinn/LiveCaptions-Translator/releases"
         target: "_blank" # optional html a tag target attribute
 
+
+      - name: "Handy"
+        logo: "assets/tools/handy.png"
+        subtitle: "Open source, and extensible speech-to-text application that works completely offline.."
+        url: "https://github.com/cjpais/Handy/releases"
+        target: "_blank" # optional html a tag target attribute
+        
       - name: "O&O ShutUp10++"
         logo: "assets/tools/oo-shutup10.png"
         subtitle: "Free antispy tool for Windows 10 and 11"
@@ -4707,6 +4721,17 @@ services:
         url: "https://apps.microsoft.com/detail/9ppcm05rw87x"
         target: "_blank"
 
+      - name: "EdgeGesture"
+        logo: "assets/tools/edgegesture.png"
+        subtitle: "Enables edge gesture to your windows computer, enhancing the touchscreen experience"
+        url: "https://github.com/felix-sky/EdgeGesture/releases"
+
+      - name: "Kando"
+        logo: "assets/tools/kando.png"
+        subtitle: "A pie menu for doing things with utmost efficiency."
+        url: "https://github.com/kando-menu/kando/releases"
+
+
       - name: "FlipIt"
         logo: "assets/tools/flipit.png"
         subtitle: "Flip Clock Screensaver"
@@ -4928,13 +4953,19 @@ services:
 
   - name: "Game Console Emulation"
     icon: "fa-brands fa-playstation"
-    items:
+    items:        
       - name: "Aethersx2"
         logo: "assets/tools/aethersx2.png"
         subtitle: "unofficial build, PS2 emulator"
         url: "https://store.kde.org/p/2148094/"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "RPCS3"
+        logo: "assets/tools/rpcs3.png"
+        subtitle: "Alpha nightly build, PS3 emulator"
+        url: "https://github.com/RPCS3/rpcs3/actions/workflows/rpcs3.yml"
+        target: "_blank" # optional html a tag target attribute
+        
       - name: "Eden"
         logo: "assets/tools/eden.png"
         subtitle: "a fork of Yuzu, Switch emulator"   
@@ -4963,6 +4994,12 @@ services:
         logo: "assets/tools/ppsspp.png"
         subtitle: "PSP Emulator"
         url: "https://www.ppsspp.org/download/"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Vita3K"
+        logo: "assets/tools/vita3k.png"
+        subtitle: "Alpha nightly, Sony Vita Emulator"
+        url: "https://github.com/Vita3K/Vita3K/actions/workflows/c-cpp.yml"
         target: "_blank" # optional html a tag target attribute
         
       - name: "Yabause"
