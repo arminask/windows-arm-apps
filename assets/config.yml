@@ -4962,7 +4962,7 @@ services:
 
       - name: "RPCS3"
         logo: "assets/tools/rpcs3.png"
-        subtitle: "nightly build, PS3 emulator"
+        subtitle: "Alpha nightly build, PS3 emulator"
         url: "https://github.com/RPCS3/rpcs3/actions/workflows/rpcs3.yml"
         target: "_blank" # optional html a tag target attribute
         
@@ -4994,6 +4994,12 @@ services:
         logo: "assets/tools/ppsspp.png"
         subtitle: "PSP Emulator"
         url: "https://www.ppsspp.org/download/"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Vita3K"
+        logo: "assets/tools/vita3k.png"
+        subtitle: "Alpha nightly, Sony Vita Emulator"
+        url: "https://github.com/Vita3K/Vita3K/actions/workflows/c-cpp.yml"
         target: "_blank" # optional html a tag target attribute
         
       - name: "Yabause"
