@@ -4962,7 +4962,7 @@ services:
 
       - name: "RPCS3"
         logo: "assets/tools/rpcs3.png"
-        subtitle: "Alpha nightly build, PS3 emulator"
+        subtitle: "Alpha nightly build, currently not working. PS3 emulator"
         url: "https://github.com/RPCS3/rpcs3/actions/workflows/rpcs3.yml"
         target: "_blank" # optional html a tag target attribute
         
@@ -4998,7 +4998,8 @@ services:
 
       - name: "Vita3K"
         logo: "assets/tools/vita3k.png"
-        subtitle: "Alpha nightly, Sony Vita Emulator"
+        subtitle: "Alpha nightly build, Sony Vita Emulator"
+        tag: "Edit config.yml, find Vulkan and change to OpenGL"
         url: "https://github.com/Vita3K/Vita3K/actions/workflows/c-cpp.yml"
         target: "_blank" # optional html a tag target attribute
         
