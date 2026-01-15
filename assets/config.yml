@@ -5346,8 +5346,8 @@ services:
         
       - name: "Frontline 1942: World War 2 Online Shooter"
         logo: "assets/tools/frontline1942.png"
-        subtitle: "Epic online World War II battles"             
-        url: "https://apps.microsoft.com/detail/9NMG6ZQ3VM4B
+        subtitle: "Epic online World War II battles"     
+        url: "https://apps.microsoft.com/detail/9NMG6ZQ3VM4B"
         target: "_blank" # optional html a tag target attribute
         
       - name: "Five Nights at Freddy’s: Original Series (1-4)"
