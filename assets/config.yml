@@ -4731,7 +4731,11 @@ services:
         subtitle: "A pie menu for doing things with utmost efficiency."
         url: "https://github.com/kando-menu/kando/releases"
 
-
+      - name: "FluentFlyout"
+        logo: "assets/tools/fluentflyout.png"
+        subtitle: "Media Flyouts, Taskbar Widgets and more."
+        url: "https://github.com/unchihugo/FluentFlyout/releases"
+        
       - name: "FlipIt"
         logo: "assets/tools/flipit.png"
         subtitle: "Flip Clock Screensaver"
@@ -4999,7 +5003,7 @@ services:
       - name: "Vita3K"
         logo: "assets/tools/vita3k.png"
         subtitle: "Alpha nightly build, Sony Vita Emulator"
-        tag: "Edit config.yml, find Vulkan and change to OpenGL"
+        tag: "In config.yml, set gpu-idx if Vulkan fails to launch or change to OpenGL"
         url: "https://github.com/Vita3K/Vita3K/actions/workflows/c-cpp.yml"
         target: "_blank" # optional html a tag target attribute
         
