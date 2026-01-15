@@ -5343,7 +5343,13 @@ services:
         subtitle: "Perform high-speed aerial stunts in an intensive driving experience powered by a brand-new physics engine."             
         url: "https://apps.microsoft.com/detail/9wzdncrfj26j"
         target: "_blank" # optional html a tag target attribute
-
+        
+      - name: "Frontline 1942: World War 2 Online Shooter"
+        logo: "assets/tools/frontline1942.png"
+        subtitle: "Epic online World War II battles"             
+        url: "https://apps.microsoft.com/detail/9NMG6ZQ3VM4B
+        target: "_blank" # optional html a tag target attribute
+        
       - name: "Five Nights at Freddy’s: Original Series (1-4)"
         logo: "assets/tools/fnaforiginalseries.png"
         subtitle: "Experience the original Five Nights at Freddy’s games that started the legendary horror franchise."
