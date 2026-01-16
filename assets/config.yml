@@ -5002,9 +5002,9 @@ services:
 
       - name: "Vita3K"
         logo: "assets/tools/vita3k.png"
-        subtitle: "Alpha nightly build, Sony Vita Emulator"
+        subtitle: "Nightly builds, Sony Vita Emulator"
         tag: "In config.yml, set gpu-idx if Vulkan fails to launch or change to OpenGL"
-        url: "https://github.com/Vita3K/Vita3K/actions/workflows/c-cpp.yml"
+        url: "https://github.com/Vita3K/Vita3K/releases"
         target: "_blank" # optional html a tag target attribute
         
       - name: "Yabause"
