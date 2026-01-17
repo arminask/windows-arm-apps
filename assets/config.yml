@@ -4966,8 +4966,8 @@ services:
 
       - name: "RPCS3"
         logo: "assets/tools/rpcs3.png"
-        subtitle: "Alpha nightly build, currently not working. PS3 emulator"
-        url: "https://github.com/RPCS3/rpcs3/actions/workflows/rpcs3.yml"
+        subtitle: "Alpha build, currently not working. PS3 emulator"
+        url: "https://rpcs3.net/download"
         target: "_blank" # optional html a tag target attribute
         
       - name: "Eden"
