@@ -365,6 +365,12 @@ services:
         tag: "ARM64EC"
         url: "https://apps.microsoft.com/detail/9PFHDD62MXS1"
         target: "_blank" # optional html a tag target attribute
+
+      - name: "Cider (Preview)"
+        logo: "assets/tools/cider.png"
+        subtitle: "Commercial third party Apple Music client."
+        url: "https://apps.microsoft.com/detail/9pl8wph0qk9m"
+        target: "_blank" # optional html a tag target attribute
         
       - name: "Spotify"
         logo: "assets/tools/spotify.png"
