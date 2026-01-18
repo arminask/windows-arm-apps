@@ -319,32 +319,38 @@ services:
     items:
       - name: "Netflix"
         logo: "assets/tools/netflix.png"
-        url: "https://apps.microsoft.com/store/detail/netflix/9WZDNCRFJ3TJ"
+        subtitle: "Award-winning series, movies, documentaries, and stand-up specials"
+        url: "https://apps.microsoft.com/detail/9WZDNCRFJ3TJ"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Prime Video"
         logo: "assets/tools/primevideo.png"
-        url: "https://apps.microsoft.com/store/detail/prime-video-for-windows/9P6RC76MSMMJ"
+        subtitle: "Watch movies and TV shows recommended for you, including award-winning Amazon Originals and more."
+        url: "https://apps.microsoft.com/detail/9P6RC76MSMMJ"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Disney+"
         logo: "assets/tools/disneyplus.png"
-        url: "https://apps.microsoft.com/store/detail/disney/9NXQXXLFST89"
+        subtitle: "Stream Disney, Pixar, Marvel, Star Wars and National Geographic"
+        url: "https://apps.microsoft.com/detail/9NXQXXLFST89"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Paramount+"
         logo: "assets/tools/paramountplus.png"
-        url: "https://apps.microsoft.com/detail/paramountplus/9WZDNCRFJ0WK"
+        subtitle: "Stream exclusive originals, hit movies, live sports like NFL on CBS and UEFA Champions League, all of SHOWTIME® (Premium plan only), and favorites from CBS, Nickelodeon, Comedy Central, BET, MTV, VH1 and more."
+        url: "https://apps.microsoft.com/detail/9WZDNCRFJ0WK"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Hulu"
         logo: "assets/tools/hulu.png"
-        url: "https://apps.microsoft.com/detail/hulu/9WZDNCRFJ3L1"
+        subtitle: "Stream everything you love."
+        url: "https://apps.microsoft.com/detail/9WZDNCRFJ3L1"
         target: "_blank" # optional html a tag target attribute
 
-      - name: "VUDU"
+      - name: "Fandago at Home (VUDU)"
         logo: "assets/tools/vudu.png"
-        url: "https://apps.microsoft.com/detail/vudu-movies-and-tv/9NBLGGH4V68B"
+        subtitle: "Offers more than 250,000 new releases and catalog movies and TV shows to rent or buy."
+        url: "https://apps.microsoft.com/detail/9NBLGGH4V68B"
         target: "_blank" # optional html a tag target attribute
 
       - name: "FreeTube"
@@ -353,18 +359,28 @@ services:
         url: "https://freetubeapp.io/#download"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "Apple Music"
+        logo: "assets/tools/applemusic.png"
+        subtitle: "Unlimited access to millions of songs and your entire Apple music library."
+        tag: "ARM64EC"
+        url: "https://apps.microsoft.com/detail/9PFHDD62MXS1"
+        target: "_blank" # optional html a tag target attribute
+        
       - name: "Spotify"
         logo: "assets/tools/spotify.png"
-        url: "https://community.spotify.com/t5/Live-Ideas/Desktop-Developer-Spotify-for-Windows-on-Arm-Win32-Desktop-app/idi-p/4992167/page/4#M243280"
+        subtitle: "Play your favorite songs, podcasts and albums on Windows with Spotify."
+        url: "https://apps.microsoft.com/detail/9ncbcszsjrsb"
         target: "_blank" # optional html a tag target attribute
 
       - name: "QQ音乐UWP"
         logo: "assets/tools/QQMusic.png"
+        subtitle: "QQ Music is an online music platform launched by Tencent. It is a leading platform for authentic digital music services in China's Internet field."
         url: "https://apps.microsoft.com/detail/9WZDNCRFJ1Q1"
         target: "_blank" # optional html a tag target attribute
 
       - name: "KuGou"
         logo: "assets/tools/KuGou.png"
+        subtitle: "Online music player created by Kugou Music, China's largest music service provider. "
         url: "https://apps.microsoft.com/detail/XPFPFG7M44SKWX"
         target: "_blank" # optional html a tag target attribute
         
@@ -389,13 +405,14 @@ services:
         
       - name: "BiliBili"
         logo: "assets/tools/bilibili.png"
+        subtitle: "Major Chinese video-sharing platform, often called China's 'YouTube meets Crunchyroll'"
         url: "https://apps.microsoft.com/detail/XPDDVC6XTQQKMM"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Bili Copilot"
         logo: "assets/tools/bilicopilot.png"
         subtitle: "3rd-party desktop app for Bilibili"
-        url: "https://www.microsoft.com/store/apps/9MVFJLPH517M"
+        url: "https://apps.microsoft.com/detail/9MVFJLPH517M"
         target: "_blank" # optional html a tag target attribute
 
       - name: "WiliWili"
@@ -406,6 +423,7 @@ services:
 
       - name: "iQIYI"
         logo: "assets/tools/iqiyi.png"
+        subtitle: "iQIYI (pronounced eye-CHEE-yee) is a leading Chinese online video streaming service, often called the 'Netflix of China', owned by Baidu"
         url: "https://apps.microsoft.com/detail/9NBLGGH5WXNW"
         target: "_blank" # optional html a tag target attribute
 
