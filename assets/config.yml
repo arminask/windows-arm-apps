@@ -4174,7 +4174,6 @@ services:
         url: "https://github.com/infinitepower18/WSA-SystemControl"
         target: "_blank"
 
-
       - name: "Mumu Player (Global)"
         logo: "assets/tools/mumuplayer.png"
         tag: "Beta"
@@ -4185,7 +4184,7 @@ services:
       - name: "Mumu Player (China)"
         logo: "assets/tools/mumuplayer.png"
         tag: "Beta"
-        subtitle: "Android emulator, only Chinese version available currently, beta requires mobile text activation"
+        subtitle: "Android emulator, Chinese version, beta requires mobile text activation"
         url: "https://mumu.163.com/"
         target: "_blank"
         
