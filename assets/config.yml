@@ -4515,7 +4515,7 @@ services:
 
       - name: "Glow"
         logo: "assets/tools/glow.png"
-        subtitle: "System Analysis Software"
+        subtitle: "System Analysis Software."
         url: "https://github.com/roines45/glow/releases"
         target: "_blank" # optional html a tag target attribute
 
@@ -4549,71 +4549,85 @@ services:
 
       - name: "Malwarebytes"
         logo: "assets/tools/malwarebytes.png"
+        subtitle: "Fast, effective anti-malware tool designed to scan for and remove malicious threats."
         url: "https://www.malwarebytes.com/"
         target: "_blank" # optional html a tag target attribute
 
       - name: "SpyShelter Antispyware"
         logo: "assets/tools/spyshelter.png"
+        subtitle: "Specialized antispyware tool that provides real-time protection, focusing on blocking keyloggers and other surveillance software by encrypting keystrokes and controlling suspicious application behavior to safeguard sensitive data."
         url: "https://www.spyshelter.com"
         target: "_blank" # optional html a tag target attribute
         
       - name: "Huorong"
         logo: "assets/tools/huorong.png"
+        subtitle: "Small, light, powerful Chinese security."
         url: "https://www.huorong.cn/person6.html"
         target: "_blank" # optional html a tag target attribute
 
       - name: "CrowdStrike Falcon"
         logo: "assets/tools/Crowdstrike.png"
+        subtitle: "Cloud-native endpoint protection platform designed to stop breaches through AI-driven, real-time threat detection."
         url: "https://www.crowdstrike.com/products/faq/"
         target: "_blank" # optional html a tag target attribute
 
       - name: "ESET NOD32 Antivirus"
         logo: "assets/tools/ESET.png"
+        subtitle: "Lightweight, proactive, real-time protection against malware, viruses, and other online threats with minimal system impact."
         url: "https://www.eset.com/int/home/antivirus/download/"
         target: "_blank" # optional html a tag target attribute
 
       - name: "ESET Internet Security"
         logo: "assets/tools/ESET.png"
+        subtitle: "Provides comprehensive, AI-powered protection against malware, ransomware, and phishing, while securing online banking, browsing, and your home network with features like a firewall and webcam protection, all with minimal impact on system performance."
         url: "https://www.eset.com/us/home/internet-security/download/"
         target: "_blank" # optional html a tag target attribute
 
       - name: "ESET Smart Security Premium"
         logo: "assets/tools/ESET.png"
+        subtitle: "Comprehensive, multi-layered digital protection, blending powerful antivirus with features like VPN, banking security, parental controls, and data encryption."
         url: "https://www.eset.com/int/home/smart-security-premium/download/"
         target: "_blank" # optional html a tag target attribute
 
       - name: "ESET Security Ultimate"
         logo: "assets/tools/ESET.png"
+        subtitle: "Comprehensive digital protection suite offering antivirus, VPN, password management, and identity theft protection."
         url: "https://www.eset.com/us/home/free-trial/"
         target: "_blank" # optional html a tag target attribute
 
       - name: "ESET Small Business Security"
         logo: "assets/tools/ESET.png"
+        subtitle: "Easy-to-manage, AI-powered cybersecurity that protects small businesses from malware, ransomware, and online threats across all devices, including servers, without slowing performance."
         url: "https://www.eset.com/us/home/free-trial/#small-office-protection"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Bitdefender Antivirus Free"
         logo: "assets/tools/bitdefender.png"
+        subtitle: "Powerful, award-winning, real-time virus protection."
         url: "https://www.bitdefender.com/solutions/free.html"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Fort Firewall"
         logo: "assets/tools/fortfirewall.png"
+        subtitle: "Fortigate, powerful digital gatekeeper that blocks bad data and lets good data through, protecting your entire network with integrated features."
         url: "https://github.com/tnodir/fort/releases"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Cisco Endpoint Protection"
         logo: "assets/tools/ciscoendpoint.png"
+        subtitle: "Cloud-native, unified agent that blocks, detects, and remediates endpoint malware."
         url: "https://www.cisco.com/site/us/en/products/security/endpoint-security/secure-endpoint/index.html"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Microsoft Defender"
         logo: "assets/tools/defender.png"
+        subtitle: "Comprehensive security suite that offers real-time, AI-powered protection against cyber threats like malware, ransomware, and phishing, securing devices, identities, apps, and data across personal and business environments."
         url: "https://www.microsoft.com/en-us/security/business/microsoft-defender"
         target: "_blank" # optional html a tag target attribute
 
       - name: "RSA NetWitness"
         logo: "assets/tools/rsanetwitness.png"
+        subtitle: "XDR platform providing pervasive visibility and threat detection by unifying network, endpoint, and log data for faster incident response across modern IT infrastructures, going beyond traditional SIEM."
         url: "https://www.netwitness.com/"
         target: "_blank" # optional html a tag target attribute
 
@@ -4655,13 +4669,13 @@ services:
 
       - name: "KeePass"
         logo: "assets/tools/keepass.png"
-        subtitle: "Free, open source, light-weight and easy-to-use password manager"
+        subtitle: "Open source, light-weight and easy-to-use password manager."
         url: "https://keepass.info/download.html"
         target: "_blank" # optional html a tag target attribute
 
       - name: "KeePassXC"
         logo: "assets/tools/keepassxc.png"
-        subtitle: "unofficial builds"
+        subtitle: "unofficial build, modern fork of the original KeePass, offering a nicer interface, built-in features like TOTP and browser integration, and C++ native performance."
         url: "https://github.com/minnyres/keepassxc-windows-arm64/releases"
         target: "_blank" # optional html a tag target attribute
 
@@ -4697,31 +4711,31 @@ services:
 
       - name: "VeraCrypt"
         logo: "assets/tools/veracrypt.png"
-        subtitle: "a free open source disk encryption software"
+        subtitle: "Open source disk encryption software."
         url: "https://www.veracrypt.fr/en/Downloads.html"
         target: "_blank" # optional html a tag target attribute
 
       - name: "UFS Explorer"
         logo: "assets/tools/ufsexplorer.png"
-        subtitle: "date recovery and access software"
+        subtitle: "Date recovery and access software."
         url: "https://www.ufsexplorer.com/download/"
         target: "_blank" # optional html a tag target attribute
       
       - name: "F-Secure"
         logo: "assets/tools/F-Secure.png"
-        subtitle: "Excluding VPN"
+        subtitle: "Finnish provider of comprehensive consumer cybersecurity software, excluding VPN."
         url: "https://www.f-secure.com/en/total"
         target: "_blank" # optional html a tag target attribute
   
       - name: "Surfshark AV"
         logo: "assets/tools/surfshark.png"
-        subtitle: "Surfshark antivirus"
+        subtitle: "Antivirus, lightweight, real-time malware protection, stopping viruses and spyware while also featuring webcam security."
         url: "https://surfshark.com/antivirus"
         target: "_blank" # optional html a tag target attribute  
 
       - name: "ClamAV"
         logo: "assets/tools/clamav.png"
-        subtitle: "open source anti-virus toolkit"
+        subtitle: "Open source anti-virus toolkit."
         tag: "command-line only"
         url: "https://www.clamav.net/downloads#collapseWindowsproduction"
         target: "_blank" # optional html a tag target attribute
