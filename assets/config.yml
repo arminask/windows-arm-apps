@@ -1045,78 +1045,103 @@ services:
     items:
       - name: "Zoom"
         logo: "assets/tools/zoom.png"
+        subtitle: "Cloud-based platform for video conferencing, online meetings, chat, and collaboration."
         url: "https://zoom.us/download#client_4meeting"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Twitter"
         logo: "assets/tools/twitter.png"
+        subtitle: "Microblogging platform for sharing short posts, photos, and videos."
         url: "https://apps.microsoft.com/store/detail/twitter/9WZDNCRFJ140"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Instagram"
         logo: "assets/tools/instagram.png"
+        subtitle: "Visual social media platform for sharing photos and short videos."
         url: "https://apps.microsoft.com/store/detail/instagram/9NBLGGH5L9XT"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "Telegram"
+        logo: "assets/tools/telegram.png"
+        subtitle: "Fast and secure desktop app, perfectly synced with your mobile phone."
+        url: "https://github.com/telegramdesktop/tdesktop/releases"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "AyuGram Desktop"
+        logo: "assets/tools/ayugram.png"
+        subtitle: "Unofficial build, Telegram client with good customization and Ghost mode"
+        url: "https://github.com/pStrikeZ/AyuGram-Desktop-Windows-ARM64/releases"
+        target: "_blank" # optional html a tag target attribute
+        
       - name: "Unigram"
         logo: "assets/tools/unigram.png"
-        subtitle: "alternative access to Telegram"
+        subtitle: "Alternative Telegram client."
         url: "https://apps.microsoft.com/detail/9n97zckpd60q"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Tiktok"
         logo: "assets/tools/tiktok.png"
+        subtitle: "Popular social media app designed for creating, sharing, and discovering short-form, vertical video."
         url: "https://apps.microsoft.com/store/detail/tiktok/9NH2GPH4JZS4"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "Slack"
+        logo: "assets/tools/slack.png"
+        subtitle: "Cloud-based, AI-powered team messaging platform that organizes workplace communication into searchable channels, direct messages, and integrated, automated workflows."
+        url: "https://slack.com/downloads/windows"
+        target: "_blank" # optional html a tag target attribute
+        
       - name: "Microsoft Teams"
         logo: "assets/tools/teams.png"
+        subtitle: "Cloud-based, all-in-one collaboration hub within Microsoft 365 that combines persistent chat, video conferencing, file storage."
         url: "https://apps.microsoft.com/store/detail/microsoft-teams/XP8BT8DW290MPQ"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Signal"
         logo: "assets/tools/signal.png"
-        subtitle: "Official build, a free, secure messaging app that uses end-to-end encryption to keep conversations private"
+        subtitle: "Free, secure messaging app that uses end-to-end encryption to keep conversations private"
         url: "https://signal.org/download/"
         target: "_blank" # optional html a tag target attribute      
 
       - name: "Ferdium"
         logo: "assets/tools/ferdium.png"
+        subtitle: "Open-source desktop app that consolidates multiple messaging, social, and productivity services (like WhatsApp, Slack, Gmail, Discord) into a single interface."
         url: "https://ferdium.org/download"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Pinterest"
         logo: "assets/tools/pinterest.png"
+        subtitle: "Visual discovery engine and digital bookmarking app used for finding, organizing, and saving creative ideas, such as recipes, home decor, and style inspiration."
         url: "https://apps.microsoft.com/store/detail/pinterest/9PFHDSF91B9R"
         target: "_blank" # optional html a tag target attribute
 
       - name: "GroupMe"
         logo: "assets/tools/groupme.png"
+        subtitle: "Free and simple way to stay in touch with friends and family, quickly and easily."
         url: "https://apps.microsoft.com/store/detail/groupme/9NBLGGH5Z4F2"
-        target: "_blank" # optional html a tag target attribute
-
-      - name: "Piny"
-        logo: "assets/tools/piny.png"
-        url: "https://apps.microsoft.com/store/detail/piny/9NBLGGH441NQ"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Reddit"
         logo: "assets/tools/reddit.png"
+        subtitle: "Social platform of niche communities (subreddits) where users share content, vote on posts, and discuss topics from news to hobbies."
         url: "https://apps.microsoft.com/store/detail/reddit/9NS3RBQ5HV5F"
         target: "_blank" # optional html a tag target attribute
 
       - name: "RingCentral"
         logo: "assets/tools/ringcentral.png"
+        subtitle: "Unified communication platform that brings together business phone, video meetings, and team messaging in one place."
         url: "https://support.ringcentral.com/download.html"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Social Page Manager"
         logo: "assets/tools/socialpagemanager.png"
+        subtitle: "Fully featured Facebook (Meta) Pages Manager app."
         url: "https://apps.microsoft.com/store/detail/social-page-manager/9WZDNCRFJ9N7"
         target: "_blank" # optional html a tag target attribute
 
       - name: "QQ (NT)"
         logo: "assets/tools/QQ(NT).png"
+        subtitle: "Instant messaging software service and web portal developed by the Chinese technology company Tencent."
         url: "https://im.qq.com/pcqq/index.shtml"
         target: "_blank" # optional html a tag target attribute
 
@@ -1128,11 +1153,13 @@ services:
 
       - name: "WhatsApp"
         logo: "assets/tools/whatsapp.png"
+        subtitle: "Free, cross-platform messaging app that uses the internet to let users send text, voice, video messages, and make calls, allowing for easy, low-cost global communication."
         url: "https://apps.microsoft.com/detail/9nksqgp7f2nh"
         target: "_blank" # optional html a tag target attribute
 
       - name: "WhatsApp (Beta)"
         logo: "assets/tools/whatsapp.png"
+        subtitle: "Beta build, test out new features/fixes early."
         url: "https://apps.microsoft.com/detail/9nbdxk71nk08"
         target: "_blank" # optional html a tag target attribute
 
@@ -1169,35 +1196,17 @@ services:
         url: "https://github.com/Legcord/Legcord/releases"
         target: "_blank" # optional html a tag target attribute
 
-      - name: "Ventrilo"
-        logo: "assets/tools/ventrilo.png"
-        subtitle: "Group communications / voice software client for gamers"
-        url: "https://www.ventrilo.com/download.php"
-        target: "_blank" # optional html a tag target attribute
-
       - name: "Vesktop"
         logo: "assets/tools/Vesktop.png"
         subtitle: "Custom Discord App aiming to provide better performance"
         url: "https://github.com/Vencord/Vesktop/releases/latest"
-        target: "_blank" # optional html a tag target attribute
+        target: "_blank" # optional html a tag target attribute  
         
-      - name: "Slack"
-        logo: "assets/tools/slack.png"
-        subtitle: "With the Slack app, your team is never more than a click away."
-        url: "https://slack.com/downloads/windows"
-        target: "_blank" # optional html a tag target attribute
-
-      - name: "Telegram"
-        logo: "assets/tools/telegram.png"
-        subtitle: "Fast and secure desktop app, perfectly synced with your mobile phone."
-        url: "https://github.com/telegramdesktop/tdesktop/releases"
-        target: "_blank" # optional html a tag target attribute
-
-      - name: "AyuGram Desktop"
-        logo: "assets/tools/ayugram.png"
-        subtitle: "Unofficial build, Telegram client with good customization and Ghost mode"
-        url: "https://github.com/pStrikeZ/AyuGram-Desktop-Windows-ARM64/releases"
-        target: "_blank" # optional html a tag target attribute
+      - name: "Ventrilo"
+        logo: "assets/tools/ventrilo.png"
+        subtitle: "Group communications / voice software client for gamers"
+        url: "https://www.ventrilo.com/download.php"
+        target: "_blank" # optional html a tag target attribute     
         
       - name: "Halloy"
         logo: "assets/tools/halloy.png"
@@ -1207,7 +1216,7 @@ services:
 
       - name: "RocketChat"
         logo: "assets/tools/rocketchat.png"
-        subtitle: "Desktop Client for Rocket.Chat"
+        subtitle: "Desktop Client for Rocket.Chat, Secure CommsOS for mission-critical operations"
         url: "https://github.com/RocketChat/Rocket.Chat.Electron/releases"
         target: "_blank" # optional html a tag target attribute
         
