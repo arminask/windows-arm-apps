@@ -4920,74 +4920,80 @@ services:
     items:
       - name: "DBeaver"
         logo: "assets/tools/dbeaver.png"
-        subtitle: "unofficial builds"
+        subtitle: "Unofficial build, Free universal database tool and SQL client."
         url: "https://github.com/chirontt/dbeaver/releases"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Uotan Toolbox NT"
         logo: "assets/tools/uotantoolboxnt.png"
-        subtitle: "A Modern Toolbox for Geeks"
+        subtitle: "Modern Toolbox for Android & OpenHarmony Devices."
         url: "https://github.com/Uotan-Dev/UotanToolboxNT/releases"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Prometheus"
         logo: "assets/tools/prometheus.png"
+        subtitle: "Open source metrics and monitoring for your systems and services."
         url: "https://prometheus.io/download/"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Foxglove Studio"
         logo: "assets/tools/foxglovestudio.png"
-        subtitle: "robotics development solution"
+        subtitle: "Robotics development solution."
         url: "https://foxglove.dev/download"
         target: "_blank" # optional html a tag target attribute
 
       - name: "SystemView"
         logo: "assets/tools/systemview.png"
-        subtitle: "real-time recording and visualization tool for embedded systems"
+        subtitle: "Real-time recording and visualization tool for embedded systems."
         url: "https://www.segger.com/downloads/systemview/"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Rocrail Basic"
         logo: "assets/tools/rocrail.png"
-        subtitle: "free software for controlling model trains"
+        subtitle: "Free software for controlling model trains."
         url: "https://wiki.rocrail.net/rocrail-snapshot/"
         target: "_blank" # optional html a tag target attribute
 
       - name: "RunCat 365"
         logo: "assets/tools/runcat.png"
-        subtitle: "a cute running cat animation reflects CPU Utilization"
+        subtitle: "Cute running cat animation reflects CPU Utilization."
         url: "https://apps.microsoft.com/detail/9NW5LPNVWFWJ"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Ambie"
         logo: "assets/tools/ambie.png"
-        subtitle: "play white noise and natural sounds"
+        subtitle: "Play white noise and natural sounds."
         url: "https://apps.microsoft.com/detail/9P07XNM5CHP0"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Battery Tracker"
         logo: "assets/tools/BatteryTracker.png"
+        subtitle: "Display the remaining battery percentage on the taskbar."
         url: "https://apps.microsoft.com/detail/9P1FBSLRNM43"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Human Anatomy Atlas"
         logo: "assets/tools/VisibleBody.png"
+        subtitle: "The go-to 3D anatomy reference app for healthcare professionals, students, and professors."
         tag: "Purchases"
         url: "https://apps.microsoft.com/detail/9NCGKTBT3S2Q"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Microsoft PC Manager"
         logo: "assets/tools/msPCManager.png"
+        subtitle: "Utility app for your PC that effortlessly enhances PC performance with just one click. Enjoy seamless storage clean-up, efficient file management, and a host of other powerful features designed to keep your PC running smoothly."
         url: "https://apps.microsoft.com/detail/9PM860492SZD"
         target: "_blank" # optional html a tag target attribute
 
       - name: "FluentWeather"
         logo: "assets/tools/FluentWeather.png"
+        subtitle: "A beautiful weather app."
         url: "https://apps.microsoft.com/detail/9PFD136M8457"
         target: "_blank" # optional html a tag target attribute
 
       - name: "SkylineWeather"
         logo: "assets/tools/SkylineWeather.png"
+        subtitle: "Open-source UWP weather application."
         url: "https://apps.microsoft.com/detail/9N33PK9646X9"
         target: "_blank" # optional html a tag target attribute
 
@@ -4999,37 +5005,37 @@ services:
 
       - name: "Stellarium"
         logo: "assets/tools/stellarium.png"
-        subtitle: "A free open source planetarium for your computer"
+        subtitle: "Open source planetarium for your computer."
         url: "https://github.com/Stellarium/stellarium/releases"
         target: "_blank" # optional html a tag target attribute
 
       - name: "BongoCat"
         logo: "assets/tools/BongoCat.png"
-        subtitle: "An adorable desktop mascot that mirrors your keyboard taps & mouse movements in real-time"
+        subtitle: "Adorable desktop mascot that mirrors your keyboard taps & mouse movements in real-time."
         url: "https://github.com/ayangweb/BongoCat/releases"
         target: "_blank" # optional html a tag target attribute
 
       - name: "KeyEcho"
         logo: "assets/tools/keyccho.png"
-        subtitle: "Listen to Mechanical Keyboard Sounds with Every Keystroke"
+        subtitle: "Listen to Mechanical Keyboard Sounds with Every Keystroke."
         url: "https://github.com/ZacharyL2/KeyEcho/releases"
         target: "_blank" # optional html a tag target attribute
 
       - name: "genact"
         logo: "assets/tools/clionly.png"
-        subtitle: "A nonsense activity generator"
+        subtitle: "Nonsense activity generator."
         url: "https://github.com/svenstaro/genact/releases"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Praat"
         logo: "assets/tools/praat.png"
-        subtitle: "Tool for linguistic research"
+        subtitle: "Tool for linguistic research."
         url: "https://www.fon.hum.uva.nl/praat/download_win.html"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Windows Exporter"
         logo: "assets/tools/windowsexporter.png"
-        subtitle: "A Prometheus exporter for Windows machines"
+        subtitle: "A Prometheus exporter for Windows machines."
         url: "https://github.com/prometheus-community/windows_exporter/releases/latest"
         target: "_blank" # optional html a tag target attribute
         
@@ -5047,50 +5053,50 @@ services:
 
       - name: "MediaInfo"
         logo: "assets/tools/mediainfo.png"
-        subtitle: "Technical and tag data for video and audio files"
+        subtitle: "Technical and tag data for video and audio files."
         url: "https://mediaarea.net/en/MediaInfo/Download/Windows"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Media Preservation Frontend (MPF)"
         logo: "assets/tools/clionly.png"
-        subtitle: "backup tool collection for optical media"
+        subtitle: Bbackup tool collection for optical media."
         tag: "only partially native"        
         url: "https://github.com/SabreTools/MPF/releases"
         target: "_blank" # optional html a tag target attribute
 
       - name: "redumper"
         logo: "assets/tools/clionly.png"
-        subtitle: "a low-level CD dumper utility"
+        subtitle: "Low-level CD dumper utility."
         url: "https://github.com/superg/redumper/releases"
         target: "_blank" # optional html a tag target attribute
 
       - name: "USB Device Tree Viewer"
         logo: "assets/tools/usbdevicetree.png"
-        subtitle: "Shows the USB devices and their properties on Windows"
+        subtitle: "Shows the USB devices and their properties on Windows."
         url: "https://www.uwe-sieber.de/usbtreeview_e.html"
         target: "_blank" # optional html a tag target attribute
 
       - name: "LM-X License Manager"
         logo: "assets/tools/lmxlicense.png"
-        subtitle: "Software licensing management solution"
+        subtitle: "Software licensing management solution."
         url: "https://www.x-formation.com/lm-x-license-manager/get-trial-version/"
         target: "_blank" # optional html a tag target attribute
 
       - name: "JAWS Screen Reader"
         logo: "assets/tools/jawsscreen.png"
-        subtitle: "World’s most popular screen reader software"
+        subtitle: "World’s most popular screen reader software."
         url: "https://support.freedomscientific.com/Downloads/JAWS"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Glance"
         logo: "assets/tools/glance.png"
-        subtitle: "A self-hosted dashboard that puts all your feeds in one place"
+        subtitle: "A self-hosted dashboard that puts all your feeds in one place."
         url: "https://github.com/glanceapp/glance/releases"
         target: "_blank" # optional html a tag target attribute
 
       - name: "fusion"
         logo: "assets/tools/fusion.png"
-        subtitle: "A lightweight, self-hosted friendly RSS reader"
+        subtitle: "A lightweight, self-hosted friendly RSS reader."
         url: "https://github.com/0x2E/fusion/releases"
         target: "_blank" # optional html a tag target attribute
 
@@ -5106,7 +5112,7 @@ services:
 
       - name: "OpenBLAS"
         logo: "assets/tools/dllonly.png"
-        subtitle: "an optimized Basic Linear Algebra Subprograms (BLAS) library"
+        subtitle: "Optimized Basic Linear Algebra Subprograms (BLAS) library"
         url: "https://github.com/OpenMathLib/OpenBLAS/releases"
         target: "_blank" # optional html a tag target attribute
 
