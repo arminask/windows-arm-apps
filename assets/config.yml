@@ -217,12 +217,14 @@ services:
     items:
       - name: "Google Chrome"
         logo: "assets/tools/chrome.png"
+        subtitle: "A fast, widely used cross-platform web browser that integrates seamlessly with Google services."
         tag: "Installers (web & standalone) support Win11 only"           
         url: "https://www.google.com/chrome/?platform=win_arm64&standalone=1"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Google Chrome Enterprise"
         logo: "assets/tools/chrome.png"
+        subtitle: "Packaged with IT management tools, enabling centralized control, advanced security policies (like DLP), and easier deployment (MSI/GPO) for organizations."
         tag: "Use MSI package for Win10"           
         url: "https://chromeenterprise.google/download/"
         target: "_blank" # optional html a tag target attribute
@@ -235,6 +237,7 @@ services:
 
       - name: "Mozilla Firefox"
         logo: "assets/tools/firefox.png"
+        subtitle: "Open-source web browser known for its speed, security, and privacy features"
         url: "https://www.mozilla.org/firefox/all/#product-desktop-release"
         target: "_blank" # optional html a tag target attribute
 
@@ -247,64 +250,68 @@ services:
 
       - name: "Microsoft Edge"
         logo: "assets/tools/edge.png"
+        subtitle: "Chromium engine based, versatile web browser from Microsoft, offering deep integration with Windows and AI features like Copilot."
         url: "https://apps.microsoft.com/detail/xpfftq037jwmhs"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Brave Browser"
         logo: "assets/tools/brave.png"
+        subtitle: "Chromium engine based, privacy-focused web browser that blocks ads and trackers by default."
         url: "https://laptop-updates.brave.com/latest/winarm64"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Chromium"
         logo: "assets/tools/chromium.png"
+        subtitle: "Open-source web browser project that serves as the foundation for Google Chrome, Microsoft Edge, and many other browsers."
         url: "https://chromium.woolyss.com/#windows-on-arm"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Perplexity Comet"
         logo: "assets/tools/perplexitycomet.png"
-        subtitle: "AI-powered web browser (Chromium fork)"
+        subtitle: "Chromium engine based, AI-powered web browser"
         url: "https://www.perplexity.ai/comet"
         target: "_blank" # optional html a tag target attribute
         
       - name: "SRWare Iron"
         logo: "assets/tools/iron.png"
+        subtitle: "Chromium engine based, designed as a privacy-focused alternative to Google Chrome that removes usage tracking and built-in privacy compromises."
         url: "https://www.srware.net/forum/viewforum.php?f=18"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Thorium"
         logo: "assets/tools/thorium.png"
+        subtitle: "Chromium engine based, fast, privacy-focused web browser, featuring aggressive compiler optimizations and minimal Google bloat for enhanced speed, performance"
         url: "https://github.com/Alex313031/Thorium-WOA/releases"
-        target: "_blank" # optional html a tag target attribute
-
-      - name: "Bluebird"
-        logo: "assets/tools/bluebird.png"
-        url: "https://apps.microsoft.com/detail/9pnxw61t4t0v"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Vivaldi"
         logo: "assets/tools/Vivaldi.png"
+        subtitle: "Chromium engine based, highly customizable, privacy-focused web browser that offers advanced features like built-in ad/tracker blocking, tab management, notes, and a mail client."
         url: "https://vivaldi.com/download/?platform=windows"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Opera"
         logo: "assets/tools/opera.png"
+        subtitle: "Chromium engine based, known for its unique features like a built-in free VPN, ad blocker, AI integration, and social media messengers."
         url: "https://www.opera.com/download"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Arc"
         logo: "assets/tools/arcbrowser.png"
-        subtitle: "Chrome based"
+        subtitle: "Chromium engine based, browser that reimagines the interface with a customizable sidebar for organizing tabs and bookmarks into 'Spaces,' offering a streamlined, productivity-focused environment with features like split-screen multitasking, notes"
+        tag: "Discontinued"
         url: "https://arc.net/download"
         target: "_blank" # optional html a tag target attribute        
 
       - name: "Zen Browser"
         logo: "assets/tools/zenbrowser.png"
+        subtitle: "FireFox engine based, privacy-focused, open-source web browser that offers a minimalist, distraction-free experience with powerful tab management, workspaces, and productivity features."
         url: "https://zen-browser.app/download/"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Wavebox"
         logo: "assets/tools/wavebox.png"
-        subtitle: "Productivity browser that organizes web applications and tabs into dedicated workspaces"
+        subtitle: "Chromium engine based, productivity browser that organizes web applications and tabs into dedicated workspaces"
         url: "https://wavebox.io/download"
         target: "_blank" # optional html a tag target attribute
 
