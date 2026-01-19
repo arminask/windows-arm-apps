@@ -377,6 +377,12 @@ services:
         subtitle: "Play your favorite songs, podcasts and albums on Windows with Spotify."
         url: "https://apps.microsoft.com/detail/9ncbcszsjrsb"
         target: "_blank" # optional html a tag target attribute
+        
+      - name: "Trdo (Tiny Internet Radio Player)"
+        logo: "assets/tools/trdo.png"
+        subtitle: "Lightweight, elegant radio player that lives in your system tray, giving you instant access to your favorite internet radio stations without cluttering your desktop."
+        url: "https://apps.microsoft.com/detail/9nxt4tgjvhvv"
+        target: "_blank" # optional html a tag target attribute
 
       - name: "QQ音乐UWP"
         logo: "assets/tools/QQMusic.png"
