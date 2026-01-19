@@ -1483,17 +1483,20 @@ services:
     items:
       - name: "Unity"
         logo: "assets/tools/unity.png"
+        subtitle: "Popular, cross-platform real-time 3D game engine and development platform used to create 2D, 3D, VR, and AR games and interactive applications"
         url: "https://unity.com/releases/editor/"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Blender"
         logo: "assets/tools/blender.png"
+        subtitle: "open-source 3D creation suite that supports the entire 3D pipeline, including modeling, rigging, animation, simulation, rendering, compositing, motion tracking, and video editing."
         tag: "OpenGL 4.3 driver required"
         url: "https://www.blender.org/download/"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Shapr3D"
         logo: "assets/tools/shapr3d.png"
+        subtitle: "3D design workflow application."
         url: "https://apps.microsoft.com/detail/9n4k9qfv4xfc"
         target: "_blank" # optional html a tag target attribute
 
@@ -1503,10 +1506,10 @@ services:
         url: "https://www.kicad.org/download/windows/#mirrors-arm64"
         target: "_blank" # optional html a tag target attribute
 
-      - name: "Zoo Modeling App"
+      - name: "Zoo Design Studio"
         logo: "assets/tools/zoomodel.png"
-        subtitle: "formerly known as KittyCAD"        
-        url: "https://zoo.dev/modeling-app/download"
+        subtitle: "Professional CAD platform, enhanced with ML through Text-to-CAD, formerly known as KittyCAD"        
+        url: "https://zoo.dev/design-studio/download"
         target: "_blank" # optional html a tag target attribute
 
       - name: "GameMaker"
@@ -1518,12 +1521,14 @@ services:
 
       - name: "Microsoft 3D Builder"
         logo: "assets/tools/3dbuilder.png"
+        subtitle: "View, create, and personalize 3D objects."
+        tag: "discontinued"
         url: "https://apps.microsoft.com/detail/9wzdncrfj3t6"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Blockbench"
         logo: "assets/tools/blockbench.png"
-        subtitle: "a low-poly 3D model editor"
+        subtitle: "A low-poly 3D model editor"
         url: "https://www.blockbench.net/downloads"
         target: "_blank" # optional html a tag target attribute
 
@@ -1550,6 +1555,7 @@ services:
     items:
       - name: "7-Zip"
         logo: "assets/tools/7zip.png"
+        subtitle: "File archiver with a high compression ratio."
         url: "https://www.7-zip.org/download.html"
         target: "_blank" # optional html a tag target attribute
 
@@ -1561,6 +1567,7 @@ services:
     
       - name: "Bandizip"
         logo: "assets/tools/bandizip.png"
+        subtitle: "Free zip, 7z, unzip, unrar Archiver."
         url: "https://apps.microsoft.com/store/detail/bandizip/9P2W3W81SPPB"
         target: "_blank" # optional html a tag target attribute
 
@@ -1572,24 +1579,25 @@ services:
 
       - name: "Ouch"
         logo: "assets/tools/clionly.png"
+        subtitle: "Painless compression and decompression in the terminal"
         url: "https://github.com/ouch-org/ouch/releases"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Monkey's Audio"
         logo: "assets/tools/monkeysaudio.png"
-        subtitle: "unofficial builds / lossless PCM"
+        subtitle: "Unofficial builds / lossless PCM"
         url: "https://github.com/ArminiusTux/WinARM64-binaries/releases/tag/MonkeysAudio"
         target: "_blank" # optional html a tag target attribute
 
       - name: "FLAC"
         logo: "assets/tools/flac.png"
-        subtitle: "unofficial builds / lossless PCM"
+        subtitle: "Unofficial builds / lossless PCM"
         url: "https://github.com/ArminiusTux/WinARM64-binaries/releases/tag/FLAC"
         target: "_blank" # optional html a tag target attribute
 
       - name: "WavPack"
         logo: "assets/tools/wavpack.png"
-        subtitle: "unofficial builds / lossless PCM & DSD"
+        subtitle: "Unofficial builds / lossless PCM & DSD"
         url: "https://github.com/ArminiusTux/WinARM64-binaries/releases/tag/WavPack"
         target: "_blank" # optional html a tag target attribute
 
@@ -1598,13 +1606,13 @@ services:
     items:
       - name: "LibreOffice"
         logo: "assets/tools/libreoffice.png"
-        subtitle: "stable (🤞) builds"
+        subtitle: "Open source office suite, compatible with Microsoft Office/365 files (.doc, .docx, .xls, .xlsx, .ppt, .pptx)"
         url: "https://www.libreoffice.org/download/download-libreoffice/?type=win-aarch64"
         target: "_blank" # optional html a tag target attribute
 
       - name: "LibreOffice Dev"
         logo: "assets/tools/libreoffice.png"
-        subtitle: "pre-release builds for testing"
+        subtitle: "Pre-release builds for testing"
         url: "https://dev-builds.libreoffice.org/pre-releases/win/aarch64/?C=M&O=D"
         target: "_blank" # optional html a tag target attribute
 
@@ -1622,12 +1630,13 @@ services:
 
       - name: "PDF-Tools"
         logo: "assets/tools/pdf-tools.png"
-        subtitle: "batch creation, manipulation and modification of PDF files."
+        subtitle: "Batch creation, manipulation and modification of PDF files."
         url: "https://www.pdf-xchange.com/product/pdf-tools"
         target: "_blank" # optional html a tag target attribute
         
       - name: "Xodo"
         logo: "assets/tools/xodo.png"
+        subtitle: "PDF reader & editor, securely view, edit, annotate, fill & sign, convert, compress, and measure your PDFs."
         url: "https://apps.microsoft.com/detail/9WZDNCRDJXP4"
         target: "_blank" # optional html a tag target attribute
 
@@ -1638,12 +1647,14 @@ services:
         target: "_blank" # optional html a tag target attribute
 
       - name: "Drawboard PDF"
-        logo: "assets/tools/drawboardpdf.png"  # delete the tag as drawboard pdf has already support arm64
+        logo: "assets/tools/drawboardpdf.png"
+        subtitle: "Easily edit, mark up and share PDF. Bring edits together with instant on-page collaboration for team members."
         url: "https://apps.microsoft.com/detail/drawboard-pdf/9WZDNCRFHWQT"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Drawboard Projects"
         logo: "assets/tools/drawboardprojects.png"
+        subtitle: "Makes PDF collaboration and communication easier. Live markup, discussion and issue management on every drawing."
         url: "https://apps.microsoft.com/detail/drawboard-projects/9NBLGGH314V8"
         target: "_blank" # optional html a tag target attribute
 
@@ -1661,7 +1672,7 @@ services:
 
       - name: "PDF24 Creator"
         logo: "assets/tools/pdf24creator.png"
-        subtitle: "assemble, create and modify PDF files"
+        subtitle: "Assemble, create and modify PDF files"
         url: "https://creator.pdf24.org/listVersions.php"
         target: "_blank" # optional html a tag target attribute
 
@@ -1673,37 +1684,40 @@ services:
 
       - name: "CubePDF"
         logo: "assets/tools/cubepdf.png"
-        subtitle: "virtual PDF printer"
+        subtitle: "Virtual PDF printer"
         tag: "only partially native"        
         url: "https://www.cube-soft.com/cubepdf/"
         target: "_blank" # optional html a tag target attribute
 
       - name: "TeXstudio"
         logo: "assets/tools/texstudio.png"
-        subtitle: "unofficial builds"
+        subtitle: "Unofficial builds, fully featured LaTeX editor"
         url: "https://github.com/minnyres/texstudio-windows-arm64/releases"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Typst"
         logo: "assets/tools/typst.png"
-        subtitle: "a new markup-based typesetting system that is designed to be as powerful as LaTeX while being much easier to learn and use"
+        subtitle: "A new markup-based typesetting system that is designed to be as powerful as LaTeX while being much easier to learn and use"
         url: "https://github.com/typst/typst/releases"
         target: "_blank" # optional html a tag target attribute
 
       - name: "QZ Tray"
         logo: "assets/tools/qztray.png"
+        subtitle: "Print labels, barcodes, receipts and more from a webpage using HTML, JavaScript and Java."
         tag: "Java"
         url: "https://qz.io/download/?arch=aarch64#"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Microsoft 365 (Office)"
         logo: "assets/tools/msoffice365.png"
+        subtitle: "Word, Excel, PowerPoint, and more."
         tag: "ARM64EC"
         url: "https://apps.microsoft.com/store/detail/microsoft-365-office/9WZDNCRD29V9"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Microsoft To do"
         logo: "assets/tools/msTodo.png"
+        subtitle: "Daily planner and list management."
         url: "https://apps.microsoft.com/detail/9NBLGGH5R558"
         target: "_blank" # optional html a tag target attribute
 
@@ -1715,50 +1729,56 @@ services:
 
       - name: "uyou To do"
         logo: "assets/tools/uyoutodo.png"
+        subtitle: "Todo list management."
         url: "https://github.com/tonylu110/uyou-todo-electron/releases"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Microsoft Journal"
         logo: "assets/tools/msJournal.png"
+        subtitle: "Invites people who love to journal to pick up their digital pen, express themselves quickly, and evolve their ideas."
         url: "https://apps.microsoft.com/detail/9N318R854RHH"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Readest"
         logo: "assets/tools/readest.png"
+        subtitle: "Modern, feature-rich ebook reader."
         url: "https://github.com/readest/readest/releases/"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Aquile Reader"
         logo: "assets/tools/aquile.png"
+        subtitle: "Powerful and highly customizable eBook reader app."
         url: "https://apps.microsoft.com/detail/9P08T4JLTQNK"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Starrea ePub Reader"
         logo: "assets/tools/Starrea.png"
+        subtitle: "A versatile ePub reader integrating note-taking and audiobook (TTS) features."
         url: "https://apps.microsoft.com/detail/9NK7HZ90B3S6"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Koodo-Reader"
         logo: "assets/tools/koodo.png"
-        subtitle: "an all-in-one ebook reader"
+        subtitle: "An all-in-one ebook reader"
         url: "https://github.com/koodo-reader/koodo-reader/releases"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Reader Assistant"
         logo: "assets/tools/ReaderAssistant.png"
+        subtitle: "Supports various reading formats such as TXT, EPUB, AZW3, MOBI, CBZ, FB2, PDF, ZIP, RSS, and podcasts."
         tag: "Purchases"
         url: "https://apps.microsoft.com/detail/9PFZCKRHW0BC"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Thorium Reader"
         logo: "assets/tools/thoriumreader.png"
-        subtitle: "a free, multi-format reading application"
+        subtitle: "A free, multi-format reading application"
         url: "https://apps.microsoft.com/detail/9NFZP1G7M2SC"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Cover - Comic reader"
         logo: "assets/tools/cover.png"
-        subtitle: "the best app to read and manage your comic books."
+        subtitle: "The best app to read and manage your comic books."
         url: "https://apps.microsoft.com/store/detail/9WZDNCRFJ9W7"
         target: "_blank" # optional html a tag target attribute
 
@@ -1770,7 +1790,7 @@ services:
         
       - name: "Rulia - Manga Reader"
         logo: "assets/tools/rulia.png"
-        subtitle: "an offline manga reader. It will give you different feeling."
+        subtitle: "An offline manga reader. It will give you different feeling."
         url: "https://apps.microsoft.com/detail/9MVVLRZWRXX8"
         target: "_blank" # optional html a tag target attribute
 
@@ -1782,12 +1802,13 @@ services:
 
       - name: "Obsidian"
         logo: "assets/tools/obsidian.png"
+        subtitle: "Powerful, local-first note-taking and knowledge management app."
         url: "https://obsidian.md/download"
         target: "_blank" # optional html a tag target attribute
 
       - name: "SiYuan"
         logo: "assets/tools/siyuan.png"
-        subtitle: "a privacy-first personal knowledge management system"
+        subtitle: "A privacy-first personal knowledge management system"
         url: "https://b3log.org/siyuan/download.html"
         target: "_blank" # optional html a tag target attribute
 
@@ -1799,7 +1820,7 @@ services:
 
       - name: "妙笔 / WonderPen"
         logo: "assets/tools/wonderpen.png"
-        subtitle: "a professional writing app with a focused and fluid writing experience."
+        subtitle: "A professional writing app with a focused and fluid writing experience."
         url: "https://www.tominlab.com/wonderpen/downloads"
         target: "_blank" # optional html a tag target attribute
 
@@ -1810,25 +1831,26 @@ services:
         target: "_blank"
 
       - name: "LiquidText" # App name
-        subtitle: "review, gather, and organize information across all your documents: th"
+        subtitle: "Review, gather, and organize information across all your documents: th"
         logo: "assets/tools/liquidtext.png" # App icon
         url: "https://apps.microsoft.com/detail/9n9z9nsv47fl" # URL to download the app
         target: "_blank"
 
       - name: "Microsoft Whiteboard"
         logo: "assets/tools/mswhiteboard.png"
+        subtitle: "The collaborative digital canvas in Microsoft 365 for effective meetings and engaged learning."
         url: "https://apps.microsoft.com/detail/9mspc6mp8fm4"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Xmind"
         logo: "assets/tools/xmind.png"
-        subtitle: "the full-featured mind mapping and brainstorming app."
+        subtitle: "The full-featured mind mapping and brainstorming app."
         url: "https://apps.microsoft.com/detail/XPFFBJ2C6B1JGR"
         target: "_blank" # optional html a tag target attribute
 
       - name: "draw.io"
         logo: "assets/tools/drawio.png"
-        subtitle: "a diagramming and whiteboarding desktop app"
+        subtitle: "A diagramming and whiteboarding desktop app"
         url: "https://github.com/jgraph/drawio-desktop/releases"
         target: "_blank" # optional html a tag target attribute
 
@@ -1859,7 +1881,7 @@ services:
 
       - name: "Notion"
         logo: "assets/tools/notion.png"
-        subtitle: "Notion helps you and your team get more done with peace of mind."
+        subtitle: "Helps you and your team get more done with peace of mind."
         url: "https://www.notion.so/download"
         target: "_blank" # optional html a tag target attribute
 
