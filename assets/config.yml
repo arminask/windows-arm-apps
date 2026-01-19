@@ -1709,7 +1709,8 @@ services:
 
       - name: "Todoist"
         logo: "assets/tools/todoist.png"
-        url: "https://appsource.microsoft.com/de-de/product/office/wa200001974?tab=overview"
+        subtitle: "Organize tasks, capture ideas by voice, and keep your teamwork on the same page."
+        url: "https://apps.microsoft.com/detail/9MWF2DWS5Z9N"
         target: "_blank"
 
       - name: "uyou To do"
