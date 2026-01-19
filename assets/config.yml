@@ -2906,151 +2906,165 @@ services:
     items:
       - name: "Google Drive"
         logo: "assets/tools/googledrive.png"
-        url: "https://support.google.com/drive/answer/10838124?hl=en#d4d_install"
+        subtitle: "Secure, cloud-based file storage and synchronization service that allows users to store, share, and collaborate on files from any device."
+        url: "https://dl.google.com/drive-file-stream/GoogleDriveSetup.exe"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Proton Drive"
         logo: "assets/tools/proton_drive.png"
+        subtitle: "Secure, Swiss-based cloud storage service that uses end-to-end encryption to ensure only you can access your files."
         url: "https://proton.me/drive"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "OneDrive"
+        logo: "assets/tools/onedrive.png"
+        subtitle: "Cloud-based storage service that allows you to store, sync, access, and share your files and photos across all your devices."
+        url: "https://apps.microsoft.com/detail/onedrive/9WZDNCRFJ1P3"
         target: "_blank" # optional html a tag target attribute
         
       - name: "JDownloader2"
         logo: "assets/tools/jdownloader.png"
+        subtitle: "Open-source download management tool that streamlines downloading, batch processing, and file extraction from various hosting websites."
         url: "https://jdownloader.org/jdownloader2"
         target: "_blank" # optional html a tag target attribute
 
       - name: "SABnzbd"
         logo: "assets/tools/sabnzbd.png"
-        subtitle: "Free and easy NZB downloader"
+        subtitle: "Free and easy NZB (newsgroup binary) downloader"
         tag: "Beta"
         url: "https://sabnzbd.org/downloads.html#"
         target: "_blank" # optional html a tag target attribute
         
       - name: "SmartFTP"
         logo: "assets/tools/smartftp.png"
+        subtitle: "Secure, Windows-based FTP and cloud storage client used for transferring, managing, and synchronizing files between a local computer and remote servers."
         tag: "Available under All Downloads section"
         url: "https://www.smartftp.com/en-us/download"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Filezilla Client"
         logo: "assets/tools/filezilla.png"
-        subtitle: "unofficial builds"
+        subtitle: "Unofficial build, free, fast, and secure cross-platform tool used to transfer files between your local computer and a remote server via FTP, SFTP, and FTPS."
         url: "https://github.com/minnyres/filezilla-windows-arm64/releases"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Filezilla Server"
         logo: "assets/tools/filezillaserver.png"
-        subtitle: "unofficial builds"
+        subtitle: "Unofficial build, open-source Windows application that allows you to securely host and manage FTP/FTPS file transfers."
         url: "https://github.com/minnyres/filezilla-server-windows-arm64/releases"
         target: "_blank" # optional html a tag target attribute
 
       - name: "MyFTP"
         logo: "assets/tools/myftp.png"
+        subtitle: "Simple, fast, lightweight, beautiful, and Open-Source FTP client."
         url: "https://apps.microsoft.com/detail/9nwzsp0xcmhc"
         target: "_blank" # optional html a tag target attribute
 
       - name: "SFTPGo"
         logo: "assets/tools/sftpgo.png"
-        subtitle: "Open source, server protocols: SFTP, HTTP/S, FTP/S, WebDAV"
+        subtitle: "Open source, server protocols: SFTP, HTTP/S, FTP/S, WebDAV."
         url: "https://github.com/drakkan/sftpgo/releases"
         target: "_blank" # optional html a tag target attribute
         
       - name: "PuTTY"
         logo: "assets/tools/putty.png"
+        subtitle: "Free, lightweight, open-source terminal emulator for Windows that enables secure remote server management via SSH, Telnet, and serial connections."
         url: "https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Natpass"
         logo: "assets/tools/natpass.png"
-        subtitle: "supports shell management and remote desktop management"
+        subtitle: "Supports shell management and remote desktop management."
         url: "https://github.com/lwch/natpass/releases"
         target: "_blank" # optional html a tag target attribute
 
       - name: "贝锐蒲公英"
         logo: "assets/tools/pgyvisitor.png"
-        subtitle: "make off-site networking easier"
+        subtitle: "Make off-site networking easier."
         url: "https://pgy.oray.com/download/"
         target: "_blank" # optional html a tag target attribute
 
       - name: "hysteria"
         logo: "assets/tools/hysteria.png"
-        subtitle: "a censorship resistant proxy"
+        subtitle: "A censorship resistant proxy."
         url: "https://github.com/apernet/hysteria/releases"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Charles"
         logo: "assets/tools/charles.png"
-        subtitle: "an HTTP proxy / HTTP monitor / Reverse Proxy"
+        subtitle: "An HTTP proxy / HTTP monitor / Reverse Proxy."
         url: "https://www.charlesproxy.com/download"
         target: "_blank" # optional html a tag target attribute
 
       - name: "NaïveProxy"
         logo: "assets/tools/clionly.png"
-        subtitle: "uses Chromium's network stack to camouflage traffic"
+        subtitle: "Uses Chromium's network stack to camouflage traffic."
         url: "https://github.com/klzgrad/naiveproxy/releases"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Privoxy"
         logo: "assets/tools/privoxy.png"
-        subtitle: "unofficial builds"
+        subtitle: "Unofficial build, free, non-caching web proxy that enhances privacy by filtering web content, removing ads, blocking trackers, managing cookies, and modifying HTTP headers to give users more control over their browsing experience."
         url: "https://github.com/minnyres/privoxy-windows-arm64/releases"
         target: "_blank" # optional html a tag target attribute
 
       - name: "traefik"
         logo: "assets/tools/traefik.png"
-        subtitle: "The Cloud Native Application Proxy"
+        subtitle: "The cloud native application proxy."
         url: "https://github.com/traefik/traefik/releases"
         target: "_blank" # optional html a tag target attribute
 
       - name: "AdGuardHome"
         logo: "assets/tools/AdGuardHome.png"
+        subtitle: "Self-hosted, network-wide DNS server that blocks ads, trackers, and malicious sites for all devices on your network without needing client-side software."
         url: "https://github.com/AdguardTeam/AdGuardHome/releases"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Alist"
         logo: "assets/tools/Alist.png"
+        subtitle: "File list/WebDAV program that supports multiple storages, powered by Gin and Solidjs."
         url: "https://github.com/alist-org/alist/releases"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Cloudreve"
         logo: "assets/tools/Cloudreve.png"
+        subtitle: "Self-hosted file management and sharing system, supports multiple storage providers."
         url: "https://github.com/cloudreve/Cloudreve/releases"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Filebrowser"
         logo: "assets/tools/filebrowser.png"
+        subtitle: "Web based file manager."
         url: "https://github.com/filebrowser/filebrowser/releases"
         target: "_blank" # optional html a tag target attribute
 
       - name: "ArozOS"
         logo: "assets/tools/arozos.png"
-        subtitle: "Web Desktop Operating System for low power platforms"
+        subtitle: "Web Desktop Operating System for low power platforms."
         url: "https://github.com/tobychui/arozos/releases"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Dropbox"
         logo: "assets/tools/dropbox.png"
+        subtitle: "Cloud-based file storage and synchronization service that allows users to store, access, and share files across multiple devices."
         url: "https://www.dropbox.com/downloading?plat=win&type=full&arch=arm64"
-        target: "_blank" # optional html a tag target attribute
-
-      - name: "OneDrive"
-        logo: "assets/tools/onedrive.png"
-        url: "https://apps.microsoft.com/detail/onedrive/9WZDNCRFJ1P3"
         target: "_blank" # optional html a tag target attribute
 
       - name: "小白羊网盘"
         logo: "assets/tools/AliyunDrive.png"
-        subtitle: "unofficial builds / 第三方阿里云盘"
+        subtitle: "Unofficial builds / 第三方阿里云盘"
         url: "https://github.com/gaozhangmin/aliyunpan/releases"
         target: "_blank" # optional html a tag target attribute
 
       - name: "RaiDrive"
         logo: "assets/tools/raidrive.png"
+        subtitle: "Software that mounts various cloud storage services as local network drives."
         url: "https://www.raidrive.com/download"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Rclone"
         logo: "assets/tools/rclone.png"
+        subtitle: "Command-line program for syncing and managing files and directories across many cloud storage services and local systems."
         url: "https://rclone.org/downloads/"
         target: "_blank" # optional html a tag target attribute
 
@@ -3068,36 +3082,37 @@ services:
 
       - name: "aria2"
         logo: "assets/tools/clionly.png"
-        subtitle: "unofficial builds"
+        subtitle: "Unofficial build, lightweight, multi-protocol command-line download utility that accelerates file transfers by fetching from multiple sources and supports HTTP/HTTPS, FTP, SFTP, BitTorrent, and Metalink, with built-in JSON-RPC/XML-RPC interfaces for remote control."
         url: "https://github.com/minnyres/aria2-windows-arm64/releases"
         target: "_blank" # optional html a tag target attribute
 
       - name: "GNU Wget"
         logo: "assets/tools/clionly.png"
-        subtitle: "unofficial builds"
+        subtitle: "Unofficial build, free, command-line utility for non-interactive, automated downloading of files from the web using HTTP, HTTPS, and FTP protocols."
         url: "https://eternallybored.org/misc/wget/"
         target: "_blank" # optional html a tag target attribute
 
       - name: "croc"
         logo: "assets/tools/clionly.png"
+        subtitle: "Easily and securely send things from one computer to another."
         url: "https://github.com/schollz/croc/releases"
         target: "_blank" # optional html a tag target attribute
 
       - name: "qBittorrent"
         logo: "assets/tools/qbittorrent.png"
-        subtitle: "unofficial builds, Torrent client"
+        subtitle: "Unofficial build, torrent client."
         url: "https://github.com/minnyres/qbittorrent-windows-arm64/releases"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Transmission"
         logo: "assets/tools/transmission.png"
-        subtitle: "unofficial builds, Torrent client"
+        subtitle: "Unofficial build, torrent client."
         url: "https://github.com/minnyres/transmission-windows-arm64/releases"
         target: "_blank" # optional html a tag target attribute
 
       - name: "PeerBanHelper"
         logo: "assets/tools/peerbanhelper.png"
-        subtitle: "Automatically block unwanted, leeches and abnormal BT peers with support for customized and cloud rules"
+        subtitle: "Automatically block unwanted, leeches and abnormal BT peers with support for customized and cloud rules."
         url: "https://github.com/PBH-BTN/PeerBanHelper/releases"
         target: "_blank" # optional html a tag target attribute
         
@@ -3109,20 +3124,20 @@ services:
         
       - name: "Gopeed"
         logo: "assets/tools/gopeed.png"
-        subtitle: "a high-speed downloader developed"
+        subtitle: "A high-speed downloader."
         url: "https://github.com/GopeedLab/gopeed/releases"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Gopeed(Fluent)"
         logo: "assets/tools/gopeed.png"
-        subtitle: "unofficial builds /a high-speed downloader developed"
+        subtitle: "Unofficial build, a high-speed downloader."
         url: "https://github.com/Minessential/gopeed-fluent/releases"
         target: "_blank" # optional html a tag target attribute
 
       - name: "aMule"
         logo: "assets/tools/amule.png"
         tag: "ARM32"
-        subtitle: "unofficial builds"
+        subtitle: "Unofficial build, eMule-like client for the eDonkey and Kademlia networks."
         url: "https://github.com/minnyres/amule-win32/releases"
         target: "_blank" # optional html a tag target attribute
 
@@ -3134,104 +3149,115 @@ services:
 
       - name: "curl"
         logo: "assets/tools/curl.png"
-        subtitle: "OS-included since Win10 v1803"
+        subtitle: "OS-included since Win10 v1803, fetches or sends data (like HTML, JSON, images) for URLs."
         url: "https://curl.se/windows/"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Wireshark"
         logo: "assets/tools/wireshark.png"
+        subtitle: "World's leading, open-source graphical network protocol analyzer used to capture and deeply inspect live network traffic."
         url: "https://www.wireshark.org/download.html"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Clash Verge Rev"
         logo: "assets/tools/clashvergerev.png"
+        subtitle: "Cross-platform graphical user interface (GUI) for the Clash proxy core."
         url: "https://github.com/clash-verge-rev/clash-verge-rev/releases"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Clash Nyanpasu"
         logo: "assets/tools/clashnyanpasu.png"
+        subtitle: "Lightweight, cross-platform Clash GUI built on Tauri that offers advanced rule-based proxy management with a modern, user-friendly interface."
         url: "https://github.com/libnyanpasu/clash-nyanpasu/releases/tag/pre-release"
         target: "_blank" # optional html a tag target attribute
 
       - name: "GUI for Clash"
         logo: "assets/tools/guiforclash.png"
+        subtitle: "Gui based on vue3 + wails for Clash proxy."
         url: "https://github.com/GUI-for-Cores/GUI.for.Clash/releases"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Clash for Windows"
         logo: "assets/tools/Clash.png"
+        subtitle: "Clash client."
         url: "https://github.com/cfwtf/clash_for_windows/releases/tag/0.20.39"
         target: "_blank" # optional html a tag target attribute
 
       - name: "v2rayN"
         logo: "assets/tools/v2rayN.png"
+        subtitle: "UI client that supports Xray and sing-box and others."
         url: "https://github.com/2dust/v2rayN/releases"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Mihomo Party"
         logo: "assets/tools/mihomoparty.png"
+        subtitle: "Clash party Mihomo GUI."
         url: "https://github.com/mihomo-party-org/mihomo-party/releases"
         target: "_blank" # optional html a tag target attribute
 
       - name: "sing-box"
         logo: "assets/tools/singbox.png"
+        subtitle: "Universal proxy platform"
         url: "https://github.com/SagerNet/sing-box/releases"
         target: "_blank" # optional html a tag target attribute
 
       - name: "GUI for SingBox"
         logo: "assets/tools/singbox.png"
+        subtitle: "UI app for sing-box universal proxy platform."
         url: "https://github.com/GUI-for-Cores/GUI.for.SingBox/releases"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Throne"
         logo: "assets/tools/throne.png"
-        subtitle: "Cross-platform GUI proxy utility (Empowered by sing-box)"
+        subtitle: "Cross-platform GUI proxy utility (Empowered by sing-box)."
         url: "https://github.com/throneproj/Throne/releases"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Zen"
         logo: "assets/tools/zen.png"
-        subtitle: "ad-blocker and privacy guard"
+        subtitle: "Ad-blocker and privacy guard."
         url: "https://github.com/anfragment/zen/releases"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Oblivion Desktop"
         logo: "assets/tools/oblivion.png"
-        subtitle: "Unofficial Warp Client"
+        subtitle: "Unofficial Warp Client."
         url: "https://github.com/bepass-org/oblivion-desktop/releases"
         target: "_blank" # optional html a tag target attribute
 
       - name: "wgcf"
         logo: "assets/tools/clionly.png"
-        subtitle: "an unofficial, cross-platform CLI for Cloudflare Warp"
+        subtitle: "An unofficial, cross-platform CLI for Cloudflare Warp."
         url: "https://github.com/ViRb3/wgcf/releases"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Nebula"
         logo: "assets/tools/clionly.png"
-        subtitle: "connect computers anywhere"
+        subtitle: "Connect computers anywhere."
         url: "https://github.com/slackhq/nebula/releases"
         target: "_blank" # optional html a tag target attribute
 
       - name: "frp"
         logo: "assets/tools/clionly.png"
-        subtitle: "a fast reverse proxy"
+        subtitle: "A fast reverse proxy."
         url: "https://github.com/fatedier/frp/releases"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Syncthing"
         logo: "assets/tools/Syncthing.png"
+        subtitle: "Open-source, peer-to-peer file synchronization tool that securely syncs folders across multiple device."
         url: "https://github.com/syncthing/syncthing/releases"
         target: "_blank" # optional html a tag target attribute
 
       - name: "SyncthingTray"
         logo: "assets/tools/Syncthing.png"
+        subtitle: "Tray application and Dolphin/Plasma integration for Syncthing."
         url: "https://github.com/Martchus/syncthingtray/releases"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Caddy"
         logo: "assets/tools/caddy.png"
-        subtitle: "Fast and extensible web server with automatic HTTPS"
+        subtitle: "Fast and extensible web server with automatic HTTPS."
         url: "https://github.com/caddyserver/caddy/releases"
         target: "_blank" # optional html a tag target attribute
 
@@ -3243,7 +3269,7 @@ services:
         
       - name: "Nginx"
         logo: "assets/tools/nginx.png"
-        subtitle: "Unofficial builds"
+        subtitle: "Unofficial build, a high-performance, open-source software that acts as a web server, reverse proxy, load balancer, and HTTP cache."
         url: "https://github.com/Aliebc/nginx-windows-arm/releases"
         target: "_blank" # optional html a tag target attribute
 
@@ -3255,13 +3281,13 @@ services:
 
       - name: "fscan"
         logo: "assets/tools/clionly.png"
-        subtitle: "an intranet comprehensive scanning tool"
+        subtitle: "An intranet comprehensive scanning tool."
         url: "https://github.com/shadow1ng/fscan/releases"
         target: "_blank" # optional html a tag target attribute
 
       - name: "pinger"
         logo: "assets/tools/clionly.png"
-        subtitle: "alternative ping utility"
+        subtitle: "Alternative ping utility."
         url: "https://github.com/teivarodiere/pinger/releases"
         target: "_blank" # optional html a tag target attribute
 
@@ -3279,7 +3305,7 @@ services:
 
       - name: "NatTypeTester"
         logo: "assets/tools/nattypetester.png"
-        subtitle: "Test the NAT type of the current network"
+        subtitle: "Test the NAT type of the current network."
         url: "https://github.com/HMBSbige/NatTypeTester/releases"
         target: "_blank" # optional html a tag target attribute
 
@@ -3291,19 +3317,19 @@ services:
       
       - name: "Trippy"
         logo: "assets/tools/trippy.png"
-        subtitle: "A network diagnostic tool"
+        subtitle: "A network diagnostic tool."
         url: "https://github.com/fujiapple852/trippy/releases"
         target: "_blank" # optional html a tag target attribute
 
       - name: "LocaltoNet"
         logo: "assets/tools/localtonet.png"
-        subtitle: "Reverse proxy for exposing localhost services"
+        subtitle: "Reverse proxy for exposing localhost services."
         url: "https://localtonet.com/download"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Sniffnet"
         logo: "assets/tools/sniffnet.png"
-        subtitle: "Comfortably monitor your Internet traffic"
+        subtitle: "Comfortably monitor your Internet traffic."
         url: "https://sniffnet.net/download/"
         target: "_blank" # optional html a tag target attribute
 
