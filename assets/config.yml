@@ -4390,110 +4390,126 @@ services:
     items:
       - name: "Geekbench"
         logo: "assets/tools/geekbench6.png"
+        subtitle: "Performance benchmark that measures your device's processor and GPU power through standardized tasks, providing scores to compare your system's speed and capabilities against other devices."
         url: "https://www.geekbench.com/download/"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Cinebench"
         logo: "assets/tools/cinebench.png"
+        subtitle: "Free, popular benchmarking tool that tests a computer's CPU and GPU performance by rendering complex 3D scenes,"
         url: "https://www.maxon.net/de/downloads/cinebench-2024-downloads"
         target: "_blank" # optional html a tag target attribute
 
       - name: "GFXBench"
         logo: "assets/tools/gfxbench.png"
+        subtitle: "3D graphics benchmark that tests and compares the GPU performance of mobile and desktop devices using realistic, game-like scenes and low-level graphics tests."
         url: "https://gfxbench.com/windows-arm-download"
         target: "_blank" # optional html a tag target attribute
 
       - name: "3DMark"
         logo: "assets/tools/3dmark.png"
-        subtitle: "only Night Raid, Wild Life & Steel Nomad"
+        subtitle: "Benchmarking tool that runs demanding, game-like tests to measure and compare the real-world gaming performance of PCs and mobile devices, only Night Raid, Wild Life & Steel Nomad available as ARM native."
         url: "https://benchmarks.ul.com/3dmark/download"
         target: "_blank" # optional html a tag target attribute
 
       - name: "ANTUTU"
         logo: "assets/tools/antutu.png"
-        subtitle: "Professional Benchmark Tests"
+        subtitle: "Professional Benchmark Tests."
         url: "https://www.antutu.com/en/download.htm"
         target: "_blank" # optional html a tag target attribute
 
       - name: "GravityMark"
         logo: "assets/tools/gravitymark.png"
+        subtitle: "GPU-accelerated tool that benchmarks performance by rendering massive amounts of objects."
         url: "https://gravitymark.tellusim.com/"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Basemark GPU"
         logo: "assets/tools/basemark.png"
+        subtitle: "Tool that provides a single score to measure and compare graphics performance on mobile and desktop devices using realistic, game-like workloads and modern graphics APIs like Vulkan, DirectX."
         url: "https://www.gpuscore.com/benchmarks/basemark-gpu/"
         target: "_blank" # optional html a tag target attribute
 
       - name: "GPUScore: Sacred Path"
         logo: "assets/tools/gpuscore-sp.png"
+        subtitle: "Graphics benchmark for testing GPU performance across mobile and desktop devices."
         tag: "ARM64EC"
         url: "https://www.gpuscore.com/benchmarks/gpuscore/sacred-path"
         target: "_blank" # optional html a tag target attribute
 
       - name: "GPUScore: Breaking Limit"
         logo: "assets/tools/gpuscore-bl.png"
+        subtitle: "Demanding cross-platform ray tracing benchmark for mobile and desktop."
         tag: "ARM64EC"
         url: "https://www.gpuscore.com/benchmarks/gpuscore/breaking-limit/"
         target: "_blank" # optional html a tag target attribute
 
       - name: "PassMark PerformanceTest"
         logo: "assets/tools/performancetest.png"
+        subtitle: "PC benchmarking tool that runs tests on your computer's CPU, graphics, memory, and disk."
         url: "https://www.passmark.com/products/performancetest/download.php"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Novabench"
         logo: "assets/tools/novabench.png"
-        subtitle: "Test, monitor, and understand computer performance"
+        subtitle: "Test, monitor, and understand computer performance."
         url: "https://novabench.com/download"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Geekbench AI"
         logo: "assets/tools/geekbenchai.png"
+        subtitle: "Benchmark that measures a device's CPU, GPU, and NPU performance on real-world machine learning tasks."
         url: "https://www.geekbench.com/ai/download/"
         target: "_blank" # optional html a tag target attribute
 
       - name: "glmark2"
         logo: "assets/tools/clionly.png"
-        subtitle: "unofficial builds of an OpenGL 2.0 benchmark"
+        subtitle: "Unofficial build, OpenGL 2.0 benchmark."
         url: "https://github.com/ArminiusTux/WinARM64-binaries/releases/tag/glmark2"
         target: "_blank" # optional html a tag target attribute
 
       - name: "CrystalDiskInfo"
         logo: "assets/tools/crystaldiskinfo.png"
+        subtitle: "Free tool that monitors your computer's hard drive (HDD) and solid-state drive (SSD) health, showing status, temperature, and S.M.A.R.T. data to help prevent data loss."
         url: "https://crystalmark.info/en/download/"
         target: "_blank" # optional html a tag target attribute
 
       - name: "CrystalDiskMark"
         logo: "assets/tools/crystaldiskmark.png"
+        subtitle: "Simple, free Windows utility that benchmarks storage drive speed, showing sequential and random read/write performance in MB/s for quick health checks and comparisons."
         url: "https://crystalmark.info/en/download/"
         target: "_blank" # optional html a tag target attribute
 
       - name: "AIDA64"
         logo: "assets/tools/aida64.png"
+        subtitle: "System diagnostics, benchmarking, and hardware monitoring tool for PC enthusiasts."
         tag: "ARM32"
         url: "https://apps.microsoft.com/detail/9NBLGGH2WNWH"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Speedtest by Ookla"
         logo: "assets/tools/speedtest.png"
+        subtitle: "Leading tool for accurately measuring your internet's download speed, upload speed, and latency."
         tag: "ARM32"
         url: "https://apps.microsoft.com/store/detail/speedtest-by-ookla/9NBLGGH4Z1JC"
         target: "_blank" # optional html a tag target attribute
 
       - name: "MemTest86"
         logo: "assets/tools/memtest86.png"
+        subtitle: "Standalone bootable tool that thoroughly tests a computer's RAM for errors."
         tag: "UEFI boot"
         url: "https://www.memtest86.com/download.htm"
         target: "_blank" # optional html a tag target attribute
 
       - name: "CPU-Z"
         logo: "assets/tools/cpuz.png"
+        subtitle: "Free utility that provides detailed, real-time information about your computer's core hardware, including the processor (CPU), motherboard, RAM, and graphics card."
         url: "https://www.cpuid.com/softwares/cpu-z-arm64.html"
         target: "_blank" # optional html a tag target attribute
 
       - name: "HWMonitor"
         logo: "assets/tools/hwmonitor.png"
+        subtitle: "Real-time PC hardware sensor monitoring tool."
         url: "https://www.cpuid.com/softwares/hwmonitor-arm64.html"
         target: "_blank" # optional html a tag target attribute
 
@@ -4505,25 +4521,25 @@ services:
 
       - name: "precord"
         logo: "assets/tools/clionly.png"
-        subtitle: "unofficial builds - recording process or system performance data."
+        subtitle: "Unofficial build, recording process or system performance data."
         url: "https://github.com/iKineticate/Windows-ARM64-Binaries/releases/tag/precord"
         target: "_blank" # optional html a tag target attribute
 
       - name: "fastfetch"
         logo: "assets/tools/clionly.png"
-        subtitle: "fetching system information and displaying them in a pretty way."
+        subtitle: "Fetching system information and displaying them in a pretty way."
         url: "https://github.com/fastfetch-cli/fastfetch/releases"
         target: "_blank" # optional html a tag target attribute
 
       - name: "HWiNFO"
         logo: "assets/tools/hwinfo.png"
-        subtitle: "System Information"
+        subtitle: "System Information."
         url: "https://www.hwinfo.com/download/"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Iperf"
         logo: "assets/tools/iperf.png"
-        subtitle: "ARM64 version of iperf 2.2.n, unofficial build"
+        subtitle: "Unofficial build, iperf 2.2.n."
         url: "https://github.com/fobrs/iperf2/releases"
         target: "_blank" # optional html a tag target attribute
 
