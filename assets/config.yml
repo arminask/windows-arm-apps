@@ -2628,9 +2628,10 @@ services:
   - name: "Cross-Device Integration"
     icon: "fa-solid fa-circle-nodes"
     items:
-      - name: "Phone Link"
+      - name: "Microsoft Phone Link"
         logo: "assets/tools/phonelink.png"
         url: "https://apps.microsoft.com/store/detail/phone-link/9NMPJ99VJBWV"
+        subtitle: "Connects your Android or iOS smartphone to your PC, allowing you to view notifications, send texts, make calls, and access photos directly from your desktop."
         target: "_blank" # optional html a tag target attribute
 
       - name: "Lenovo Smart Connect"
@@ -2647,37 +2648,37 @@ services:
 
       - name: "Escrcpy"
         logo: "assets/tools/Escrcpy.png"
-        subtitle: "display and control Android"
+        subtitle: "Display and control Android."
         url: "https://github.com/viarotel-org/escrcpy/releases"
         target: "_blank" # optional html a tag target attribute
 
       - name: "SpaceDesk"
         logo: "assets/tools/spacedesk.png"
-        subtitle: "Turns mobile devices, laptops and desktops into an additional extension display monitor"
+        subtitle: "Turns mobile devices, laptops and desktops into an additional extension display monitor."
         url: "https://www.spacedesk.net/download/#server-driver"
         target: "_blank"
 
       - name: "Devolutions Remote Desktop Manager"
         logo: "assets/tools/devolutionsrdm.png"
-        subtitle: "Centralizes all remote connections on a single platform"
+        subtitle: "Centralizes all remote connections on a single platform."
         url: "https://devolutions.net/remote-desktop-manager/"
         target: "_blank" # optional html a tag target attribute
 
       - name: "MeshCentral"
         logo: "assets/tools/meshcentral.png"
-        subtitle: "web site for remote device management"
+        subtitle: "web site for remote device management."
         url: "https://meshcentral.com/downloads.html"
         target: "_blank" # optional html a tag target attribute
 
       - name: "RealVNC"
         logo: "assets/tools/realvnc.png"
-        subtitle: "unofficial builds, Remote control tool"
+        subtitle: "Unofficial builds, Remote control tool."
         url: "https://github.com/medav/realvnc-arm64/releases/tag/final"
         target: "_blank" # optional html a tag target attribute
 
       - name: "screego"
         logo: "assets/tools/screego.png"
-        subtitle: "screen sharing for developers"
+        subtitle: "Screen sharing for developers."
         url: "https://github.com/screego/server/releases"
         target: "_blank" # optional html a tag target attribute
 
@@ -2689,7 +2690,7 @@ services:
 
       - name: "Moonlight Client"
         logo: "assets/tools/moonlight.png"
-        subtitle: "remote & local game streaming"
+        subtitle: "Remote & local game streaming app."
         url: "https://github.com/moonlight-stream/moonlight-qt/releases/latest"
         target: "_blank" # optional html a tag target attribute
 
@@ -2701,19 +2702,19 @@ services:
 
       - name: "LocalSend(Fluent)"
         logo: "assets/tools/localsend.png"
-        subtitle: "unofficial builds / securely share files and messages with nearby devices over your local network without needing an internet connection."
+        subtitle: "Unofficial builds / securely share files and messages with nearby devices over your local network without needing an internet connection."
         url: "https://github.com/Minessential/localsend_fluent/releases"
         target: "_blank" # optional html a tag target attribute
 
       - name: "WindSend"
         logo: "assets/tools/windsend.png"
-        subtitle: "sync clipboard, transfer files and directories between"
+        subtitle: "Sync clipboard, transfer files and directories between."
         url: "https://github.com/doraemonkeys/WindSend/releases"
         target: "_blank" # optional html a tag target attribute
 
       - name: "croc"
         logo: "assets/tools/clionly.png"
-        subtitle: "any two computers to simply and securely transfer files and folders"
+        subtitle: "Any two computers to simply and securely transfer files and folders."
         url: "https://github.com/schollz/croc/releases"
         target: "_blank" # optional html a tag target attribute
 
@@ -2725,7 +2726,7 @@ services:
 
       - name: "Sync Clipboard"
         logo: "assets/tools/SyncClipboard.png"
-        subtitle: "Cross-Platform Cipboard Syncing Solution"
+        subtitle: "Cross-Platform Cipboard Syncing Solution."
         url: "https://github.com/Jeric-X/SyncClipboard/releases"
         target: "_blank" # optional html a tag target attribute
   
