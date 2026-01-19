@@ -6560,6 +6560,12 @@ services:
         url: "https://www.prolific.com.tw/portfolio-item/pl2303gt"
         target: "_blank"
 
+      - name: "Custom Apple Magic Trackpad 2 Driver"
+        logo: "assets/tools/clionly.png"
+        subtitle: "Windows Precision Touchpad Driver Implementation for Apple MacBook / Magic Trackpad"
+        url: "https://github.com/imbushuo/mac-precision-touchpad/releases"
+        target: "_blank"
+        
   - name: "Printers"
     icon: "fa-solid fa-print"
     items:
