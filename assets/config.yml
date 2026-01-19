@@ -4745,23 +4745,25 @@ services:
     items:
       - name: "Sucrose Wallpaper Engine"
         logo: "assets/tools/sucrose.png"
-        subtitle: "a versatile wallpaper engine"
+        subtitle: "A versatile wallpaper engine."
         url: "https://apps.microsoft.com/detail/xp8jgpbhtjglcq"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Timeline Wallpaper"
         logo: "assets/tools/Timeline.png"
+        subtitle: "A neat, comfortable and smooth wallpaper application. Timeline selects content from over 30 image sources, refining the masterpieces to bring you a touch of surprise."
         url: "https://apps.microsoft.com/detail/9N7VHQ989BB7"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Dynamic Theme"
         logo: "assets/tools/dynamictheme.png"
+        subtitle: "Dynamic background and/or lock screen picture with daily Bing or Windows Spotlight pictures, one Bing or Windows Spotlight picture or personal pictures."
         url: "https://apps.microsoft.com/detail/9nblggh1zbkw"
         target: "_blank" # optional html a tag target attribute
 
       - name: "WinDynamicDesktop"
         logo: "assets/tools/WinDynamicDesktop.png"
-        subtitle: "changes wallpaper based on the time of day."
+        subtitle: "Changes wallpaper based on the time of day."
         url: "https://apps.microsoft.com/detail/9nm8n7dq3z5f"
         target: "_blank" # optional html a tag target attribute
 
@@ -4773,7 +4775,7 @@ services:
 
       - name: "DarkMode"
         logo: "assets/tools/DarkMode.png"
-        subtitle: "automatically switch the color mode of Windows 10/11 systems"
+        subtitle: "Automatically switch the color mode of Windows 10/11 systems."
         url: "https://github.com/Melon-Studio/DarkMode2/releases"
         target: "_blank" # optional html a tag target attribute
 
@@ -4785,71 +4787,74 @@ services:
 
       - name: "ExplorerPatcher"
         logo: "assets/tools/Explorer.png"
-        subtitle: "Customize Windows 10/11 Start Menu/Taskbar/Explorer behavior"
+        subtitle: "Customize Windows 10/11 Start Menu/Taskbar/Explorer behavior."
         url: "https://github.com/valinet/ExplorerPatcher/releases"
         target: "_blank" # optional html a tag target attribute
         
-      - name: "Start 11"
+      - name: "Stardock Start 11"
         logo: "assets/tools/Start11.png"
+        subtitle: "Industry's Most Advanced Start Menu replacement."
         url: "https://www.stardock.com/products/start11/"
         target: "_blank" # optional html a tag target attribute
 
       - name: "StartAllBack"
         logo: "assets/tools/StartAllBack.png"
-        subtitle: "Windows 11 taskbar, file explorer, start menu, and control panel from a better timeline"
+        subtitle: "Windows 11 taskbar, file explorer, start menu, and control panel from a better timeline."
         url: "https://www.startallback.com/"
         target: "_blank" # optional html a tag target attribute
 
       - name: "TranslucentTB"
         logo: "assets/tools/translucenttb.png"
-        subtitle: "makes the Windows taskbar translucent/transparent"
+        subtitle: "Makes the Windows taskbar translucent/transparent."
         url: "https://github.com/TranslucentTB/TranslucentTB/releases"
         target: "_blank" # optional html a tag target attribute
 
       - name: "RetroBar"
         logo: "assets/tools/retrobar.png"
-        subtitle: "Classic Windows taskbar replacement"
+        subtitle: "Classic Windows taskbar replacement."
         url: "https://github.com/dremin/RetroBar/releases"
         target: "_blank"
 
       - name: "WindowPet"
         logo: "assets/tools/windowpet.png"
-        subtitle: "unofficial builds"
+        subtitle: "Unofficial build, whether you are bored of your current desktop or just miss Clippy, Genius and Rover, WindowPet's little rascals will uplift your moods."
         url: "https://github.com/ArminiusTux/WinARM64-binaries/releases/tag/WindowPet"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Desktop Pet (eSheep)"
         logo: "assets/tools/desktoppet.png"
-        subtitle: "Unofficial build, add a pet to your desktop"
+        subtitle: "Unofficial build, add a pet to your desktop."
         url: "https://github.com/tordona/win-arm64-binaries/releases/tag/desktoppet"
         target: "_blank" # optional html a tag target attribute
         
       - name: "Files"
         logo: "assets/tools/files.png"
+        subtitle: "Sleek, open-source file explorer built for Windows, designed to help you organize files and folders with ease."
         url: "https://files.community/download"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Coodesker"
         logo: "assets/tools/coodesker.png"
-        subtitle: "Automatically organize your desktop shortcuts icons and running tasks"
+        subtitle: "Automatically organize your desktop shortcuts icons and running tasks."
         tag: "Purchases"
         url: "https://www.coodesker.com/"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Seelen-UI"
         logo: "assets/tools/seelen.png"
-        subtitle: "Fully Customizable Desktop Environment"
+        subtitle: "Fully Customizable Desktop Environment."
         url: "https://github.com/eythaann/Seelen-UI/releases"
         target: "_blank" # optional html a tag target attribute
 
-      - name: "Cairo"
+      - name: "Cairo Desktop Environment"
         logo: "assets/tools/cairo.png"
+        subtitle: "Customizable, intuitive desktop environment."
         url: "https://github.com/cairoshell/cairoshell/releases"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Zebar"
         logo: "assets/tools/zebar.png"
-        subtitle: "creating customizable and cross-platform taskbars, desktop widgets, and popups."
+        subtitle: "Creating customizable and cross-platform taskbars, desktop widgets, and popups."
         url: "https://github.com/glzr-io/zebar/releases"
         target: "_blank"
 
@@ -4861,24 +4866,24 @@ services:
 
       - name: "MicaForEveryone"
         logo: "assets/tools/MicaForEveryone.png"
-        subtitle: "enable backdrop effects on the title bars of Win32 apps on Windows 11."
+        subtitle: "Enable backdrop effects on the title bars of Win32 apps on Windows 11."
         url: "https://github.com/MicaForEveryone/MicaForEveryone/releases"
         target: "_blank"
 
       - name: "Fluent Flyouts"
         logo: "assets/tools/fluentflyouts.png"
-        subtitle: "a collection of modern flyouts"
+        subtitle: "Collection of modern flyouts."
         url: "https://apps.microsoft.com/detail/9ppcm05rw87x"
         target: "_blank"
 
       - name: "EdgeGesture"
         logo: "assets/tools/edgegesture.png"
-        subtitle: "Enables edge gesture to your windows computer, enhancing the touchscreen experience"
+        subtitle: "Enables edge gesture to your windows computer, enhancing the touchscreen experience."
         url: "https://github.com/felix-sky/EdgeGesture/releases"
 
       - name: "Kando"
         logo: "assets/tools/kando.png"
-        subtitle: "A pie menu for doing things with utmost efficiency."
+        subtitle: "Pie menu for doing things with utmost efficiency."
         url: "https://github.com/kando-menu/kando/releases"
 
       - name: "FluentFlyout"
@@ -4888,25 +4893,25 @@ services:
         
       - name: "FlipIt"
         logo: "assets/tools/flipit.png"
-        subtitle: "Flip Clock Screensaver"
+        subtitle: "Flip Clock Screensaver."
         url: "https://github.com/tordona/FlipIt/releases"
         target: "_blank"
 
       - name: "Starship"
         logo: "assets/tools/Starship.png"
-        subtitle: "infinitely customizable prompt for any shell"
+        subtitle: "Infinitely customizable prompt for any shell."
         url: "https://github.com/starship/starship/releases"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Oh My Posh"
         logo: "assets/tools/ohmyposh.png"
-        subtitle: "platform/shell prompt renderer"
+        subtitle: "Platform/shell prompt renderer."
         url: "https://github.com/JanDeDobbeleer/oh-my-posh/releases"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Open-Shell"
         logo: "assets/tools/openshell.png"
-        subtitle: "Collection of utilities bringing back classic features to Windows"
+        subtitle: "Collection of utilities bringing back classic features to Windows."
         url: "https://github.com/Open-Shell/Open-Shell-Menu/releases"
         target: "_blank" # optional html a tag target attribute
 
