@@ -5318,8 +5318,7 @@ services:
 
       - name: "melonDS"
         logo: "assets/tools/melonds.png"
-        subtitle: "Nintendo DS emulator"
-        tag: "original emulator data needed"
+        subtitle: "Nintendo DS emulator"        
         url: "https://melonds.kuribo64.net/downloads.php"
         target: "_blank" # optional html a tag target attribute
 
@@ -6530,20 +6529,21 @@ services:
         
       - name: "Qualcomm Adreno GPU Drivers"
         logo: "assets/tools/qualcommdev.png"
-        subtitle: "Windows graphics drivers (Direct3D, OpenCL & Vulkan)"
+        subtitle: "Windows graphics drivers (Direct3D, OpenCL & Vulkan)."
         tag: "for Snapdragon X platforms only"          
         url: "https://softwarecenter.qualcomm.com/catalog/item/Windows_Graphics_Driver"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Qualcomm Hexagon NPU Driver"
         logo: "assets/tools/qualcommdev.png"
-        subtitle: "Windows AI interface drivers"
+        subtitle: "Windows AI interface drivers."
         tag: "for Snapdragon X platforms only"         
         url: "https://softwarecenter.qualcomm.com/catalog/item/Qualcomm_HND"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Vulkan SDK & Runtime"
         logo: "assets/tools/vulkansdk.png"
+        subtitle: "SDK provides tools to build apps, offering compilers, debuggers, and validation layers, while the Vulkan Runtime provides the essential, low-level drivers and loaders needed to execute those apps on hardware, often bundled with graphics drivers for high-performance, cross-platform graphics."
         url: "https://vulkan.lunarg.com/sdk/home#windows"
         target: "_blank" # optional html a tag target attribute
 
@@ -6556,6 +6556,7 @@ services:
 
       - name: "OpenCL & OpenGL Compatibility Pack"
         logo: "assets/tools/openglcompat.png"
+        subtitle: "Lets OpenGL apps run by translating calls to DirectX 12, providing hardware acceleration where native drivers are missing."
         url: "https://apps.microsoft.com/detail/9nqpsl29bfff"
         target: "_blank" # optional html a tag target attribute
         
@@ -6568,49 +6569,50 @@ services:
 
       - name: "dgVoodoo"
         logo: "assets/tools/dgvoodoo.png"
-        subtitle: "3dfx Glide & DirectX wrapper"
+        subtitle: "3dfx Glide & DirectX wrapper."
         url: "http://dege.freeweb.hu/dgVoodoo2/dgVoodoo2/"
         target: "_blank" # optional html a tag target attribute
         
       - name: "Zadig (libwdi)"
         logo: "assets/tools/zadig.png"
-        subtitle: "create & autosign USB drivers"
+        subtitle: "Windows Driver Installation library for USB devices."
         url: "https://github.com/pbatard/libwdi/releases"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Ext4Fsd"
         logo: "assets/tools/ext4fsd.png"
-        subtitle: "ext2/3/4 file system driver"
-        tag: "read from & write onto Linux partitions"
+        subtitle: "Ext 2/3/4 file system driver."
+        tag: "Read from & write onto Linux partitions"
         url: "https://www.accum.se/~bosse/ext2fsd/0.71/signed/"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Rockchip"
         logo: "assets/tools/rockchip.png"
-        subtitle: "RK35xx-based platforms"
+        subtitle: "Drivers for RK35xx platforms."
         url: "https://github.com/worproject/Rockchip-Windows-Drivers/releases"
         target: "_blank" # optional html a tag target attribute
 
       - name: "FTDI Drivers"
         logo: "assets/tools/ftdi.png"
-        subtitle: "USB-to-Serial with VCP, D2XX, and D3XX support"
+        subtitle: "USB-to-Serial with VCP, D2XX, and D3XX support."
         url: "https://ftdichip.com/drivers/"
         target: "_blank" # optional html a tag target attribute
 
       - name: "SEGGER J-Link"
         logo: "assets/tools/seggerjlink.png"
-        subtitle: "line of debug probes available"
+        subtitle: "Drive for line of debug probes."
         url: "https://www.segger.com/downloads/jlink/"
         target: "_blank" # optional html a tag target attribute
 
       - name: "CP210x USB to UART Bridge"
         logo: "assets/tools/siliconlabs.png"
+        subtitle: "The CP210x USB to UART Bridge Virtual COM Port (VCP) drivers are required for device operation as a Virtual COM Port to facilitate host communication with CP210x products."
         url: "https://www.silabs.com/developers/usb-to-uart-bridge-vcp-drivers?tab=downloads"
         target: "_blank" # optional html a tag target attribute
 
       - name: "CH343SER"
         logo: "assets/tools/wch.png"
-        subtitle: "supports CH342/CH343/CH344/CH347/CH9101/CH9102/CH9103/CH9104/CH9143"
+        subtitle: "Supports CH342/CH343/CH344/CH347/CH9101/CH9102/CH9103/CH9104/CH9143 USB to high-speed serial port VCP."
         url: "https://www.wch-ic.com/downloads/CH343SER_ZIP.html"
         target: "_blank" # optional html a tag target attribute
 
@@ -6622,31 +6624,31 @@ services:
 
       - name: "Wacom Drivers"
         logo: "assets/tools/wacom.png"
-        subtitle: "ARM support added as of version 6.4.9"
+        subtitle: "Digital panel drivers, ARM support added as of version 6.4.9."
         url: "https://wacom.com/en-us/support/product-support/drivers"
         target: "_blank" # optional html a tag target attribute
 
       - name: "WinFsp"
         logo: "assets/tools/winfsp.png"
-        subtitle: "Windows File System Proxy platform for custom file systems"
+        subtitle: "Windows File System Proxy platform for custom file systems."
         url: "https://winfsp.dev/rel/"
         target: "_blank" # optional html a tag target attribute
         
       - name: "Alternative A2DP Driver"
         logo: "assets/tools/alternativea2dp.png"
-        subtitle: "Replaces Windows 10/11 inbox Bluetooth A2DP driver and allows you to fine-tune CODEC parameters"
+        subtitle: "Replaces Windows 10/11 inbox Bluetooth A2DP driver and allows you to fine-tune CODEC parameters."
         url: "https://www.bluetoothgoodies.com/a2dp/"
         target: "_blank" # optional html a tag target attribute
 
       - name: "PL2303 Driver"
         logo: "assets/tools/pl2303.png"
-        subtitle: "For PL2303 GC, GS, GT, GL, GE , GD, GR versions"
+        subtitle: "For PL2303 GC, GS, GT, GL, GE , GD, GR versions."
         url: "https://www.prolific.com.tw/portfolio-item/pl2303gt"
         target: "_blank"
 
       - name: "Custom Apple Magic Trackpad 2 Driver"
         logo: "assets/tools/clionly.png"
-        subtitle: "Windows Precision Touchpad Driver Implementation for Apple MacBook / Magic Trackpad"
+        subtitle: "Windows Precision Touchpad Driver Implementation for Apple MacBook / Magic Trackpad."
         url: "https://github.com/imbushuo/mac-precision-touchpad/releases"
         target: "_blank"
         
