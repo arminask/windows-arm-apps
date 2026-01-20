@@ -217,12 +217,14 @@ services:
     items:
       - name: "Google Chrome"
         logo: "assets/tools/chrome.png"
+        subtitle: "A fast, widely used cross-platform web browser that integrates seamlessly with Google services."
         tag: "Installers (web & standalone) support Win11 only"           
         url: "https://www.google.com/chrome/?platform=win_arm64&standalone=1"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Google Chrome Enterprise"
         logo: "assets/tools/chrome.png"
+        subtitle: "Packaged with IT management tools, enabling centralized control, advanced security policies (like DLP), and easier deployment (MSI/GPO) for organizations."
         tag: "Use MSI package for Win10"           
         url: "https://chromeenterprise.google/download/"
         target: "_blank" # optional html a tag target attribute
@@ -235,6 +237,7 @@ services:
 
       - name: "Mozilla Firefox"
         logo: "assets/tools/firefox.png"
+        subtitle: "Open-source web browser known for its speed, security, and privacy features"
         url: "https://www.mozilla.org/firefox/all/#product-desktop-release"
         target: "_blank" # optional html a tag target attribute
 
@@ -247,64 +250,68 @@ services:
 
       - name: "Microsoft Edge"
         logo: "assets/tools/edge.png"
+        subtitle: "Chromium engine based, versatile web browser from Microsoft, offering deep integration with Windows and AI features like Copilot."
         url: "https://apps.microsoft.com/detail/xpfftq037jwmhs"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Brave Browser"
         logo: "assets/tools/brave.png"
+        subtitle: "Chromium engine based, privacy-focused web browser that blocks ads and trackers by default."
         url: "https://laptop-updates.brave.com/latest/winarm64"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Chromium"
         logo: "assets/tools/chromium.png"
+        subtitle: "Open-source web browser project that serves as the foundation for Google Chrome, Microsoft Edge, and many other browsers."
         url: "https://chromium.woolyss.com/#windows-on-arm"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Perplexity Comet"
         logo: "assets/tools/perplexitycomet.png"
-        subtitle: "AI-powered web browser (Chromium fork)"
+        subtitle: "Chromium engine based, AI-powered web browser"
         url: "https://www.perplexity.ai/comet"
         target: "_blank" # optional html a tag target attribute
         
       - name: "SRWare Iron"
         logo: "assets/tools/iron.png"
+        subtitle: "Chromium engine based, designed as a privacy-focused alternative to Google Chrome that removes usage tracking and built-in privacy compromises."
         url: "https://www.srware.net/forum/viewforum.php?f=18"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Thorium"
         logo: "assets/tools/thorium.png"
+        subtitle: "Chromium engine based, fast, privacy-focused web browser, featuring aggressive compiler optimizations and minimal Google bloat for enhanced speed, performance"
         url: "https://github.com/Alex313031/Thorium-WOA/releases"
-        target: "_blank" # optional html a tag target attribute
-
-      - name: "Bluebird"
-        logo: "assets/tools/bluebird.png"
-        url: "https://apps.microsoft.com/detail/9pnxw61t4t0v"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Vivaldi"
         logo: "assets/tools/Vivaldi.png"
+        subtitle: "Chromium engine based, highly customizable, privacy-focused web browser that offers advanced features like built-in ad/tracker blocking, tab management, notes, and a mail client."
         url: "https://vivaldi.com/download/?platform=windows"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Opera"
         logo: "assets/tools/opera.png"
+        subtitle: "Chromium engine based, known for its unique features like a built-in free VPN, ad blocker, AI integration, and social media messengers."
         url: "https://www.opera.com/download"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Arc"
         logo: "assets/tools/arcbrowser.png"
-        subtitle: "Chrome based"
+        subtitle: "Chromium engine based, browser that reimagines the interface with a customizable sidebar for organizing tabs and bookmarks into 'Spaces,' offering a streamlined, productivity-focused environment with features like split-screen multitasking, notes"
+        tag: "Discontinued"
         url: "https://arc.net/download"
         target: "_blank" # optional html a tag target attribute        
 
       - name: "Zen Browser"
         logo: "assets/tools/zenbrowser.png"
+        subtitle: "FireFox engine based, privacy-focused, open-source web browser that offers a minimalist, distraction-free experience with powerful tab management, workspaces, and productivity features."
         url: "https://zen-browser.app/download/"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Wavebox"
         logo: "assets/tools/wavebox.png"
-        subtitle: "Productivity browser that organizes web applications and tabs into dedicated workspaces"
+        subtitle: "Chromium engine based, productivity browser that organizes web applications and tabs into dedicated workspaces"
         url: "https://wavebox.io/download"
         target: "_blank" # optional html a tag target attribute
 
@@ -319,32 +326,38 @@ services:
     items:
       - name: "Netflix"
         logo: "assets/tools/netflix.png"
-        url: "https://apps.microsoft.com/store/detail/netflix/9WZDNCRFJ3TJ"
+        subtitle: "Award-winning series, movies, documentaries, and stand-up specials"
+        url: "https://apps.microsoft.com/detail/9WZDNCRFJ3TJ"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Prime Video"
         logo: "assets/tools/primevideo.png"
-        url: "https://apps.microsoft.com/store/detail/prime-video-for-windows/9P6RC76MSMMJ"
+        subtitle: "Watch movies and TV shows recommended for you, including award-winning Amazon Originals and more."
+        url: "https://apps.microsoft.com/detail/9P6RC76MSMMJ"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Disney+"
         logo: "assets/tools/disneyplus.png"
-        url: "https://apps.microsoft.com/store/detail/disney/9NXQXXLFST89"
+        subtitle: "Stream Disney, Pixar, Marvel, Star Wars and National Geographic"
+        url: "https://apps.microsoft.com/detail/9NXQXXLFST89"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Paramount+"
         logo: "assets/tools/paramountplus.png"
-        url: "https://apps.microsoft.com/detail/paramountplus/9WZDNCRFJ0WK"
+        subtitle: "Stream exclusive originals, hit movies, live sports like NFL on CBS and UEFA Champions League, all of SHOWTIME® (Premium plan only), and favorites from CBS, Nickelodeon, Comedy Central, BET, MTV, VH1 and more."
+        url: "https://apps.microsoft.com/detail/9WZDNCRFJ0WK"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Hulu"
         logo: "assets/tools/hulu.png"
-        url: "https://apps.microsoft.com/detail/hulu/9WZDNCRFJ3L1"
+        subtitle: "Stream everything you love."
+        url: "https://apps.microsoft.com/detail/9WZDNCRFJ3L1"
         target: "_blank" # optional html a tag target attribute
 
-      - name: "VUDU"
+      - name: "Fandago at Home (VUDU)"
         logo: "assets/tools/vudu.png"
-        url: "https://apps.microsoft.com/detail/vudu-movies-and-tv/9NBLGGH4V68B"
+        subtitle: "Offers more than 250,000 new releases and catalog movies and TV shows to rent or buy."
+        url: "https://apps.microsoft.com/detail/9NBLGGH4V68B"
         target: "_blank" # optional html a tag target attribute
 
       - name: "FreeTube"
@@ -353,18 +366,40 @@ services:
         url: "https://freetubeapp.io/#download"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "Apple Music"
+        logo: "assets/tools/applemusic.png"
+        subtitle: "Unlimited access to millions of songs and your entire Apple music library."
+        tag: "ARM64EC"
+        url: "https://apps.microsoft.com/detail/9PFHDD62MXS1"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Cider (Preview)"
+        logo: "assets/tools/cider.png"
+        subtitle: "Commercial third party Apple Music client."
+        url: "https://apps.microsoft.com/detail/9pl8wph0qk9m"
+        target: "_blank" # optional html a tag target attribute
+        
       - name: "Spotify"
         logo: "assets/tools/spotify.png"
-        url: "https://community.spotify.com/t5/Live-Ideas/Desktop-Developer-Spotify-for-Windows-on-Arm-Win32-Desktop-app/idi-p/4992167/page/4#M243280"
+        subtitle: "Play your favorite songs, podcasts and albums on Windows with Spotify."
+        url: "https://apps.microsoft.com/detail/9ncbcszsjrsb"
+        target: "_blank" # optional html a tag target attribute
+        
+      - name: "Trdo (Tiny Internet Radio Player)"
+        logo: "assets/tools/trdo.png"
+        subtitle: "Lightweight, elegant radio player that lives in your system tray, giving you instant access to your favorite internet radio stations without cluttering your desktop."
+        url: "https://apps.microsoft.com/detail/9nxt4tgjvhvv"
         target: "_blank" # optional html a tag target attribute
 
       - name: "QQ音乐UWP"
         logo: "assets/tools/QQMusic.png"
+        subtitle: "QQ Music is an online music platform launched by Tencent. It is a leading platform for authentic digital music services in China's Internet field."
         url: "https://apps.microsoft.com/detail/9WZDNCRFJ1Q1"
         target: "_blank" # optional html a tag target attribute
 
       - name: "KuGou"
         logo: "assets/tools/KuGou.png"
+        subtitle: "Online music player created by Kugou Music, China's largest music service provider. "
         url: "https://apps.microsoft.com/detail/XPFPFG7M44SKWX"
         target: "_blank" # optional html a tag target attribute
         
@@ -389,13 +424,14 @@ services:
         
       - name: "BiliBili"
         logo: "assets/tools/bilibili.png"
+        subtitle: "Major Chinese video-sharing platform, often called China's 'YouTube meets Crunchyroll'"
         url: "https://apps.microsoft.com/detail/XPDDVC6XTQQKMM"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Bili Copilot"
         logo: "assets/tools/bilicopilot.png"
         subtitle: "3rd-party desktop app for Bilibili"
-        url: "https://www.microsoft.com/store/apps/9MVFJLPH517M"
+        url: "https://apps.microsoft.com/detail/9MVFJLPH517M"
         target: "_blank" # optional html a tag target attribute
 
       - name: "WiliWili"
@@ -406,6 +442,7 @@ services:
 
       - name: "iQIYI"
         logo: "assets/tools/iqiyi.png"
+        subtitle: "iQIYI (pronounced eye-CHEE-yee) is a leading Chinese online video streaming service, often called the 'Netflix of China', owned by Baidu"
         url: "https://apps.microsoft.com/detail/9NBLGGH5WXNW"
         target: "_blank" # optional html a tag target attribute
 
@@ -1008,78 +1045,103 @@ services:
     items:
       - name: "Zoom"
         logo: "assets/tools/zoom.png"
+        subtitle: "Cloud-based platform for video conferencing, online meetings, chat, and collaboration."
         url: "https://zoom.us/download#client_4meeting"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Twitter"
         logo: "assets/tools/twitter.png"
+        subtitle: "Microblogging platform for sharing short posts, photos, and videos."
         url: "https://apps.microsoft.com/store/detail/twitter/9WZDNCRFJ140"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Instagram"
         logo: "assets/tools/instagram.png"
+        subtitle: "Visual social media platform for sharing photos and short videos."
         url: "https://apps.microsoft.com/store/detail/instagram/9NBLGGH5L9XT"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "Telegram"
+        logo: "assets/tools/telegram.png"
+        subtitle: "Fast and secure desktop app, perfectly synced with your mobile phone."
+        url: "https://github.com/telegramdesktop/tdesktop/releases"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "AyuGram Desktop"
+        logo: "assets/tools/ayugram.png"
+        subtitle: "Unofficial build, Telegram client with good customization and Ghost mode"
+        url: "https://github.com/pStrikeZ/AyuGram-Desktop-Windows-ARM64/releases"
+        target: "_blank" # optional html a tag target attribute
+        
       - name: "Unigram"
         logo: "assets/tools/unigram.png"
-        subtitle: "alternative access to Telegram"
+        subtitle: "Alternative Telegram client."
         url: "https://apps.microsoft.com/detail/9n97zckpd60q"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Tiktok"
         logo: "assets/tools/tiktok.png"
+        subtitle: "Popular social media app designed for creating, sharing, and discovering short-form, vertical video."
         url: "https://apps.microsoft.com/store/detail/tiktok/9NH2GPH4JZS4"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "Slack"
+        logo: "assets/tools/slack.png"
+        subtitle: "Cloud-based, AI-powered team messaging platform that organizes workplace communication into searchable channels, direct messages, and integrated, automated workflows."
+        url: "https://slack.com/downloads/windows"
+        target: "_blank" # optional html a tag target attribute
+        
       - name: "Microsoft Teams"
         logo: "assets/tools/teams.png"
+        subtitle: "Cloud-based, all-in-one collaboration hub within Microsoft 365 that combines persistent chat, video conferencing, file storage."
         url: "https://apps.microsoft.com/store/detail/microsoft-teams/XP8BT8DW290MPQ"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Signal"
         logo: "assets/tools/signal.png"
-        subtitle: "Official build, a free, secure messaging app that uses end-to-end encryption to keep conversations private"
+        subtitle: "Free, secure messaging app that uses end-to-end encryption to keep conversations private"
         url: "https://signal.org/download/"
         target: "_blank" # optional html a tag target attribute      
 
       - name: "Ferdium"
         logo: "assets/tools/ferdium.png"
+        subtitle: "Open-source desktop app that consolidates multiple messaging, social, and productivity services (like WhatsApp, Slack, Gmail, Discord) into a single interface."
         url: "https://ferdium.org/download"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Pinterest"
         logo: "assets/tools/pinterest.png"
+        subtitle: "Visual discovery engine and digital bookmarking app used for finding, organizing, and saving creative ideas, such as recipes, home decor, and style inspiration."
         url: "https://apps.microsoft.com/store/detail/pinterest/9PFHDSF91B9R"
         target: "_blank" # optional html a tag target attribute
 
       - name: "GroupMe"
         logo: "assets/tools/groupme.png"
+        subtitle: "Free and simple way to stay in touch with friends and family, quickly and easily."
         url: "https://apps.microsoft.com/store/detail/groupme/9NBLGGH5Z4F2"
-        target: "_blank" # optional html a tag target attribute
-
-      - name: "Piny"
-        logo: "assets/tools/piny.png"
-        url: "https://apps.microsoft.com/store/detail/piny/9NBLGGH441NQ"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Reddit"
         logo: "assets/tools/reddit.png"
+        subtitle: "Social platform of niche communities (subreddits) where users share content, vote on posts, and discuss topics from news to hobbies."
         url: "https://apps.microsoft.com/store/detail/reddit/9NS3RBQ5HV5F"
         target: "_blank" # optional html a tag target attribute
 
       - name: "RingCentral"
         logo: "assets/tools/ringcentral.png"
+        subtitle: "Unified communication platform that brings together business phone, video meetings, and team messaging in one place."
         url: "https://support.ringcentral.com/download.html"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Social Page Manager"
         logo: "assets/tools/socialpagemanager.png"
+        subtitle: "Fully featured Facebook (Meta) Pages Manager app."
         url: "https://apps.microsoft.com/store/detail/social-page-manager/9WZDNCRFJ9N7"
         target: "_blank" # optional html a tag target attribute
 
       - name: "QQ (NT)"
         logo: "assets/tools/QQ(NT).png"
+        subtitle: "Instant messaging software service and web portal developed by the Chinese technology company Tencent."
         url: "https://im.qq.com/pcqq/index.shtml"
         target: "_blank" # optional html a tag target attribute
 
@@ -1091,11 +1153,13 @@ services:
 
       - name: "WhatsApp"
         logo: "assets/tools/whatsapp.png"
+        subtitle: "Free, cross-platform messaging app that uses the internet to let users send text, voice, video messages, and make calls, allowing for easy, low-cost global communication."
         url: "https://apps.microsoft.com/detail/9nksqgp7f2nh"
         target: "_blank" # optional html a tag target attribute
 
       - name: "WhatsApp (Beta)"
         logo: "assets/tools/whatsapp.png"
+        subtitle: "Beta build, test out new features/fixes early."
         url: "https://apps.microsoft.com/detail/9nbdxk71nk08"
         target: "_blank" # optional html a tag target attribute
 
@@ -1132,35 +1196,17 @@ services:
         url: "https://github.com/Legcord/Legcord/releases"
         target: "_blank" # optional html a tag target attribute
 
-      - name: "Ventrilo"
-        logo: "assets/tools/ventrilo.png"
-        subtitle: "Group communications / voice software client for gamers"
-        url: "https://www.ventrilo.com/download.php"
-        target: "_blank" # optional html a tag target attribute
-
       - name: "Vesktop"
         logo: "assets/tools/Vesktop.png"
         subtitle: "Custom Discord App aiming to provide better performance"
         url: "https://github.com/Vencord/Vesktop/releases/latest"
-        target: "_blank" # optional html a tag target attribute
+        target: "_blank" # optional html a tag target attribute  
         
-      - name: "Slack"
-        logo: "assets/tools/slack.png"
-        subtitle: "With the Slack app, your team is never more than a click away."
-        url: "https://slack.com/downloads/windows"
-        target: "_blank" # optional html a tag target attribute
-
-      - name: "Telegram"
-        logo: "assets/tools/telegram.png"
-        subtitle: "Fast and secure desktop app, perfectly synced with your mobile phone."
-        url: "https://github.com/telegramdesktop/tdesktop/releases"
-        target: "_blank" # optional html a tag target attribute
-
-      - name: "AyuGram Desktop"
-        logo: "assets/tools/ayugram.png"
-        subtitle: "Unofficial build, Telegram client with good customization and Ghost mode"
-        url: "https://github.com/pStrikeZ/AyuGram-Desktop-Windows-ARM64/releases"
-        target: "_blank" # optional html a tag target attribute
+      - name: "Ventrilo"
+        logo: "assets/tools/ventrilo.png"
+        subtitle: "Group communications / voice software client for gamers"
+        url: "https://www.ventrilo.com/download.php"
+        target: "_blank" # optional html a tag target attribute     
         
       - name: "Halloy"
         logo: "assets/tools/halloy.png"
@@ -1170,7 +1216,7 @@ services:
 
       - name: "RocketChat"
         logo: "assets/tools/rocketchat.png"
-        subtitle: "Desktop Client for Rocket.Chat"
+        subtitle: "Desktop Client for Rocket.Chat, Secure CommsOS for mission-critical operations"
         url: "https://github.com/RocketChat/Rocket.Chat.Electron/releases"
         target: "_blank" # optional html a tag target attribute
         
@@ -1453,17 +1499,20 @@ services:
     items:
       - name: "Unity"
         logo: "assets/tools/unity.png"
+        subtitle: "Popular, cross-platform real-time 3D game engine and development platform used to create 2D, 3D, VR, and AR games and interactive applications"
         url: "https://unity.com/releases/editor/"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Blender"
         logo: "assets/tools/blender.png"
+        subtitle: "open-source 3D creation suite that supports the entire 3D pipeline, including modeling, rigging, animation, simulation, rendering, compositing, motion tracking, and video editing."
         tag: "OpenGL 4.3 driver required"
         url: "https://www.blender.org/download/"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Shapr3D"
         logo: "assets/tools/shapr3d.png"
+        subtitle: "3D design workflow application."
         url: "https://apps.microsoft.com/detail/9n4k9qfv4xfc"
         target: "_blank" # optional html a tag target attribute
 
@@ -1473,10 +1522,10 @@ services:
         url: "https://www.kicad.org/download/windows/#mirrors-arm64"
         target: "_blank" # optional html a tag target attribute
 
-      - name: "Zoo Modeling App"
+      - name: "Zoo Design Studio"
         logo: "assets/tools/zoomodel.png"
-        subtitle: "formerly known as KittyCAD"        
-        url: "https://zoo.dev/modeling-app/download"
+        subtitle: "Professional CAD platform, enhanced with ML through Text-to-CAD, formerly known as KittyCAD"        
+        url: "https://zoo.dev/design-studio/download"
         target: "_blank" # optional html a tag target attribute
 
       - name: "GameMaker"
@@ -1488,12 +1537,14 @@ services:
 
       - name: "Microsoft 3D Builder"
         logo: "assets/tools/3dbuilder.png"
+        subtitle: "View, create, and personalize 3D objects."
+        tag: "discontinued"
         url: "https://apps.microsoft.com/detail/9wzdncrfj3t6"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Blockbench"
         logo: "assets/tools/blockbench.png"
-        subtitle: "a low-poly 3D model editor"
+        subtitle: "A low-poly 3D model editor"
         url: "https://www.blockbench.net/downloads"
         target: "_blank" # optional html a tag target attribute
 
@@ -1520,6 +1571,7 @@ services:
     items:
       - name: "7-Zip"
         logo: "assets/tools/7zip.png"
+        subtitle: "File archiver with a high compression ratio."
         url: "https://www.7-zip.org/download.html"
         target: "_blank" # optional html a tag target attribute
 
@@ -1531,6 +1583,7 @@ services:
     
       - name: "Bandizip"
         logo: "assets/tools/bandizip.png"
+        subtitle: "Free zip, 7z, unzip, unrar Archiver."
         url: "https://apps.microsoft.com/store/detail/bandizip/9P2W3W81SPPB"
         target: "_blank" # optional html a tag target attribute
 
@@ -1542,24 +1595,25 @@ services:
 
       - name: "Ouch"
         logo: "assets/tools/clionly.png"
+        subtitle: "Painless compression and decompression in the terminal"
         url: "https://github.com/ouch-org/ouch/releases"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Monkey's Audio"
         logo: "assets/tools/monkeysaudio.png"
-        subtitle: "unofficial builds / lossless PCM"
+        subtitle: "Unofficial builds / lossless PCM"
         url: "https://github.com/ArminiusTux/WinARM64-binaries/releases/tag/MonkeysAudio"
         target: "_blank" # optional html a tag target attribute
 
       - name: "FLAC"
         logo: "assets/tools/flac.png"
-        subtitle: "unofficial builds / lossless PCM"
+        subtitle: "Unofficial builds / lossless PCM"
         url: "https://github.com/ArminiusTux/WinARM64-binaries/releases/tag/FLAC"
         target: "_blank" # optional html a tag target attribute
 
       - name: "WavPack"
         logo: "assets/tools/wavpack.png"
-        subtitle: "unofficial builds / lossless PCM & DSD"
+        subtitle: "Unofficial builds / lossless PCM & DSD"
         url: "https://github.com/ArminiusTux/WinARM64-binaries/releases/tag/WavPack"
         target: "_blank" # optional html a tag target attribute
 
@@ -1568,13 +1622,13 @@ services:
     items:
       - name: "LibreOffice"
         logo: "assets/tools/libreoffice.png"
-        subtitle: "stable (🤞) builds"
+        subtitle: "Open source office suite, compatible with Microsoft Office/365 files (.doc, .docx, .xls, .xlsx, .ppt, .pptx)"
         url: "https://www.libreoffice.org/download/download-libreoffice/?type=win-aarch64"
         target: "_blank" # optional html a tag target attribute
 
       - name: "LibreOffice Dev"
         logo: "assets/tools/libreoffice.png"
-        subtitle: "pre-release builds for testing"
+        subtitle: "Pre-release builds for testing"
         url: "https://dev-builds.libreoffice.org/pre-releases/win/aarch64/?C=M&O=D"
         target: "_blank" # optional html a tag target attribute
 
@@ -1592,12 +1646,13 @@ services:
 
       - name: "PDF-Tools"
         logo: "assets/tools/pdf-tools.png"
-        subtitle: "batch creation, manipulation and modification of PDF files."
+        subtitle: "Batch creation, manipulation and modification of PDF files."
         url: "https://www.pdf-xchange.com/product/pdf-tools"
         target: "_blank" # optional html a tag target attribute
         
       - name: "Xodo"
         logo: "assets/tools/xodo.png"
+        subtitle: "PDF reader & editor, securely view, edit, annotate, fill & sign, convert, compress, and measure your PDFs."
         url: "https://apps.microsoft.com/detail/9WZDNCRDJXP4"
         target: "_blank" # optional html a tag target attribute
 
@@ -1608,12 +1663,14 @@ services:
         target: "_blank" # optional html a tag target attribute
 
       - name: "Drawboard PDF"
-        logo: "assets/tools/drawboardpdf.png"  # delete the tag as drawboard pdf has already support arm64
+        logo: "assets/tools/drawboardpdf.png"
+        subtitle: "Easily edit, mark up and share PDF. Bring edits together with instant on-page collaboration for team members."
         url: "https://apps.microsoft.com/detail/drawboard-pdf/9WZDNCRFHWQT"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Drawboard Projects"
         logo: "assets/tools/drawboardprojects.png"
+        subtitle: "Makes PDF collaboration and communication easier. Live markup, discussion and issue management on every drawing."
         url: "https://apps.microsoft.com/detail/drawboard-projects/9NBLGGH314V8"
         target: "_blank" # optional html a tag target attribute
 
@@ -1631,7 +1688,7 @@ services:
 
       - name: "PDF24 Creator"
         logo: "assets/tools/pdf24creator.png"
-        subtitle: "assemble, create and modify PDF files"
+        subtitle: "Assemble, create and modify PDF files"
         url: "https://creator.pdf24.org/listVersions.php"
         target: "_blank" # optional html a tag target attribute
 
@@ -1643,103 +1700,113 @@ services:
 
       - name: "CubePDF"
         logo: "assets/tools/cubepdf.png"
-        subtitle: "virtual PDF printer"
+        subtitle: "Virtual PDF printer"
         tag: "only partially native"        
         url: "https://www.cube-soft.com/cubepdf/"
         target: "_blank" # optional html a tag target attribute
 
       - name: "TeXstudio"
         logo: "assets/tools/texstudio.png"
-        subtitle: "unofficial builds"
+        subtitle: "Unofficial builds, fully featured LaTeX editor"
         url: "https://github.com/minnyres/texstudio-windows-arm64/releases"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Typst"
         logo: "assets/tools/typst.png"
-        subtitle: "a new markup-based typesetting system that is designed to be as powerful as LaTeX while being much easier to learn and use"
+        subtitle: "A new markup-based typesetting system that is designed to be as powerful as LaTeX while being much easier to learn and use"
         url: "https://github.com/typst/typst/releases"
         target: "_blank" # optional html a tag target attribute
 
       - name: "QZ Tray"
         logo: "assets/tools/qztray.png"
+        subtitle: "Print labels, barcodes, receipts and more from a webpage using HTML, JavaScript and Java."
         tag: "Java"
         url: "https://qz.io/download/?arch=aarch64#"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Microsoft 365 (Office)"
         logo: "assets/tools/msoffice365.png"
+        subtitle: "Word, Excel, PowerPoint, and more."
         tag: "ARM64EC"
         url: "https://apps.microsoft.com/store/detail/microsoft-365-office/9WZDNCRD29V9"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Microsoft To do"
         logo: "assets/tools/msTodo.png"
+        subtitle: "Daily planner and list management."
         url: "https://apps.microsoft.com/detail/9NBLGGH5R558"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Todoist"
         logo: "assets/tools/todoist.png"
-        url: "https://appsource.microsoft.com/de-de/product/office/wa200001974?tab=overview"
+        subtitle: "Organize tasks, capture ideas by voice, and keep your teamwork on the same page."
+        url: "https://apps.microsoft.com/detail/9MWF2DWS5Z9N"
         target: "_blank"
 
       - name: "uyou To do"
         logo: "assets/tools/uyoutodo.png"
+        subtitle: "Todo list management."
         url: "https://github.com/tonylu110/uyou-todo-electron/releases"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Microsoft Journal"
         logo: "assets/tools/msJournal.png"
+        subtitle: "Invites people who love to journal to pick up their digital pen, express themselves quickly, and evolve their ideas."
         url: "https://apps.microsoft.com/detail/9N318R854RHH"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Readest"
         logo: "assets/tools/readest.png"
+        subtitle: "Modern, feature-rich ebook reader."
         url: "https://github.com/readest/readest/releases/"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Aquile Reader"
         logo: "assets/tools/aquile.png"
+        subtitle: "Powerful and highly customizable eBook reader app."
         url: "https://apps.microsoft.com/detail/9P08T4JLTQNK"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Starrea ePub Reader"
         logo: "assets/tools/Starrea.png"
+        subtitle: "A versatile ePub reader integrating note-taking and audiobook (TTS) features."
         url: "https://apps.microsoft.com/detail/9NK7HZ90B3S6"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Koodo-Reader"
         logo: "assets/tools/koodo.png"
-        subtitle: "an all-in-one ebook reader"
+        subtitle: "An all-in-one ebook reader"
         url: "https://github.com/koodo-reader/koodo-reader/releases"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Reader Assistant"
         logo: "assets/tools/ReaderAssistant.png"
+        subtitle: "Supports various reading formats such as TXT, EPUB, AZW3, MOBI, CBZ, FB2, PDF, ZIP, RSS, and podcasts."
         tag: "Purchases"
         url: "https://apps.microsoft.com/detail/9PFZCKRHW0BC"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Thorium Reader"
         logo: "assets/tools/thoriumreader.png"
-        subtitle: "a free, multi-format reading application"
+        subtitle: "A free, multi-format reading application"
         url: "https://apps.microsoft.com/detail/9NFZP1G7M2SC"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Cover - Comic reader"
         logo: "assets/tools/cover.png"
-        subtitle: "the best app to read and manage your comic books."
+        subtitle: "The best app to read and manage your comic books."
         url: "https://apps.microsoft.com/store/detail/9WZDNCRFJ9W7"
         target: "_blank" # optional html a tag target attribute
 
       - name: "YACReader"
         logo: "assets/tools/yacreader.png"
-        subtitle: "Test version, free, open-source comic reader, supports various file formats including CBZ, CBR, ZIP, RAR, PDF, and more."
-        url: "https://yacreader.com/forum/support-windows/2705-request-for-windows-on-arm-support#9715"
+        subtitle: "Open-source comic reader, supports various file formats including CBZ, CBR, ZIP, RAR, PDF, and more."
+        url: "https://yacreader.com/downloads"
         target: "_blank" # optional html a tag target attribute
         
       - name: "Rulia - Manga Reader"
         logo: "assets/tools/rulia.png"
-        subtitle: "an offline manga reader. It will give you different feeling."
+        subtitle: "An offline manga reader. It will give you different feeling."
         url: "https://apps.microsoft.com/detail/9MVVLRZWRXX8"
         target: "_blank" # optional html a tag target attribute
 
@@ -1751,12 +1818,13 @@ services:
 
       - name: "Obsidian"
         logo: "assets/tools/obsidian.png"
+        subtitle: "Powerful, local-first note-taking and knowledge management app."
         url: "https://obsidian.md/download"
         target: "_blank" # optional html a tag target attribute
 
       - name: "SiYuan"
         logo: "assets/tools/siyuan.png"
-        subtitle: "a privacy-first personal knowledge management system"
+        subtitle: "A privacy-first personal knowledge management system"
         url: "https://b3log.org/siyuan/download.html"
         target: "_blank" # optional html a tag target attribute
 
@@ -1768,7 +1836,7 @@ services:
 
       - name: "妙笔 / WonderPen"
         logo: "assets/tools/wonderpen.png"
-        subtitle: "a professional writing app with a focused and fluid writing experience."
+        subtitle: "A professional writing app with a focused and fluid writing experience."
         url: "https://www.tominlab.com/wonderpen/downloads"
         target: "_blank" # optional html a tag target attribute
 
@@ -1779,25 +1847,26 @@ services:
         target: "_blank"
 
       - name: "LiquidText" # App name
-        subtitle: "review, gather, and organize information across all your documents: th"
+        subtitle: "Review, gather, and organize information across all your documents: th"
         logo: "assets/tools/liquidtext.png" # App icon
         url: "https://apps.microsoft.com/detail/9n9z9nsv47fl" # URL to download the app
         target: "_blank"
 
       - name: "Microsoft Whiteboard"
         logo: "assets/tools/mswhiteboard.png"
+        subtitle: "The collaborative digital canvas in Microsoft 365 for effective meetings and engaged learning."
         url: "https://apps.microsoft.com/detail/9mspc6mp8fm4"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Xmind"
         logo: "assets/tools/xmind.png"
-        subtitle: "the full-featured mind mapping and brainstorming app."
+        subtitle: "The full-featured mind mapping and brainstorming app."
         url: "https://apps.microsoft.com/detail/XPFFBJ2C6B1JGR"
         target: "_blank" # optional html a tag target attribute
 
       - name: "draw.io"
         logo: "assets/tools/drawio.png"
-        subtitle: "a diagramming and whiteboarding desktop app"
+        subtitle: "A diagramming and whiteboarding desktop app"
         url: "https://github.com/jgraph/drawio-desktop/releases"
         target: "_blank" # optional html a tag target attribute
 
@@ -1828,7 +1897,7 @@ services:
 
       - name: "Notion"
         logo: "assets/tools/notion.png"
-        subtitle: "Notion helps you and your team get more done with peace of mind."
+        subtitle: "Helps you and your team get more done with peace of mind."
         url: "https://www.notion.so/download"
         target: "_blank" # optional html a tag target attribute
 
@@ -2559,9 +2628,10 @@ services:
   - name: "Cross-Device Integration"
     icon: "fa-solid fa-circle-nodes"
     items:
-      - name: "Phone Link"
+      - name: "Microsoft Phone Link"
         logo: "assets/tools/phonelink.png"
         url: "https://apps.microsoft.com/store/detail/phone-link/9NMPJ99VJBWV"
+        subtitle: "Connects your Android or iOS smartphone to your PC, allowing you to view notifications, send texts, make calls, and access photos directly from your desktop."
         target: "_blank" # optional html a tag target attribute
 
       - name: "Lenovo Smart Connect"
@@ -2578,37 +2648,37 @@ services:
 
       - name: "Escrcpy"
         logo: "assets/tools/Escrcpy.png"
-        subtitle: "display and control Android"
+        subtitle: "Display and control Android."
         url: "https://github.com/viarotel-org/escrcpy/releases"
         target: "_blank" # optional html a tag target attribute
 
       - name: "SpaceDesk"
         logo: "assets/tools/spacedesk.png"
-        subtitle: "Turns mobile devices, laptops and desktops into an additional extension display monitor"
+        subtitle: "Turns mobile devices, laptops and desktops into an additional extension display monitor."
         url: "https://www.spacedesk.net/download/#server-driver"
         target: "_blank"
 
       - name: "Devolutions Remote Desktop Manager"
         logo: "assets/tools/devolutionsrdm.png"
-        subtitle: "Centralizes all remote connections on a single platform"
+        subtitle: "Centralizes all remote connections on a single platform."
         url: "https://devolutions.net/remote-desktop-manager/"
         target: "_blank" # optional html a tag target attribute
 
       - name: "MeshCentral"
         logo: "assets/tools/meshcentral.png"
-        subtitle: "web site for remote device management"
+        subtitle: "web site for remote device management."
         url: "https://meshcentral.com/downloads.html"
         target: "_blank" # optional html a tag target attribute
 
       - name: "RealVNC"
         logo: "assets/tools/realvnc.png"
-        subtitle: "unofficial builds, Remote control tool"
+        subtitle: "Unofficial builds, Remote control tool."
         url: "https://github.com/medav/realvnc-arm64/releases/tag/final"
         target: "_blank" # optional html a tag target attribute
 
       - name: "screego"
         logo: "assets/tools/screego.png"
-        subtitle: "screen sharing for developers"
+        subtitle: "Screen sharing for developers."
         url: "https://github.com/screego/server/releases"
         target: "_blank" # optional html a tag target attribute
 
@@ -2620,7 +2690,7 @@ services:
 
       - name: "Moonlight Client"
         logo: "assets/tools/moonlight.png"
-        subtitle: "remote & local game streaming"
+        subtitle: "Remote & local game streaming app."
         url: "https://github.com/moonlight-stream/moonlight-qt/releases/latest"
         target: "_blank" # optional html a tag target attribute
 
@@ -2632,19 +2702,19 @@ services:
 
       - name: "LocalSend(Fluent)"
         logo: "assets/tools/localsend.png"
-        subtitle: "unofficial builds / securely share files and messages with nearby devices over your local network without needing an internet connection."
+        subtitle: "Unofficial builds / securely share files and messages with nearby devices over your local network without needing an internet connection."
         url: "https://github.com/Minessential/localsend_fluent/releases"
         target: "_blank" # optional html a tag target attribute
 
       - name: "WindSend"
         logo: "assets/tools/windsend.png"
-        subtitle: "sync clipboard, transfer files and directories between"
+        subtitle: "Sync clipboard, transfer files and directories between."
         url: "https://github.com/doraemonkeys/WindSend/releases"
         target: "_blank" # optional html a tag target attribute
 
       - name: "croc"
         logo: "assets/tools/clionly.png"
-        subtitle: "any two computers to simply and securely transfer files and folders"
+        subtitle: "Any two computers to simply and securely transfer files and folders."
         url: "https://github.com/schollz/croc/releases"
         target: "_blank" # optional html a tag target attribute
 
@@ -2656,7 +2726,7 @@ services:
 
       - name: "Sync Clipboard"
         logo: "assets/tools/SyncClipboard.png"
-        subtitle: "Cross-Platform Cipboard Syncing Solution"
+        subtitle: "Cross-Platform Cipboard Syncing Solution."
         url: "https://github.com/Jeric-X/SyncClipboard/releases"
         target: "_blank" # optional html a tag target attribute
   
@@ -2836,151 +2906,165 @@ services:
     items:
       - name: "Google Drive"
         logo: "assets/tools/googledrive.png"
-        url: "https://support.google.com/drive/answer/10838124?hl=en#d4d_install"
+        subtitle: "Secure, cloud-based file storage and synchronization service that allows users to store, share, and collaborate on files from any device."
+        url: "https://dl.google.com/drive-file-stream/GoogleDriveSetup.exe"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Proton Drive"
         logo: "assets/tools/proton_drive.png"
+        subtitle: "Secure, Swiss-based cloud storage service that uses end-to-end encryption to ensure only you can access your files."
         url: "https://proton.me/drive"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "OneDrive"
+        logo: "assets/tools/onedrive.png"
+        subtitle: "Cloud-based storage service that allows you to store, sync, access, and share your files and photos across all your devices."
+        url: "https://apps.microsoft.com/detail/onedrive/9WZDNCRFJ1P3"
         target: "_blank" # optional html a tag target attribute
         
       - name: "JDownloader2"
         logo: "assets/tools/jdownloader.png"
+        subtitle: "Open-source download management tool that streamlines downloading, batch processing, and file extraction from various hosting websites."
         url: "https://jdownloader.org/jdownloader2"
         target: "_blank" # optional html a tag target attribute
 
       - name: "SABnzbd"
         logo: "assets/tools/sabnzbd.png"
-        subtitle: "Free and easy NZB downloader"
+        subtitle: "Free and easy NZB (newsgroup binary) downloader"
         tag: "Beta"
         url: "https://sabnzbd.org/downloads.html#"
         target: "_blank" # optional html a tag target attribute
         
       - name: "SmartFTP"
         logo: "assets/tools/smartftp.png"
+        subtitle: "Secure, Windows-based FTP and cloud storage client used for transferring, managing, and synchronizing files between a local computer and remote servers."
         tag: "Available under All Downloads section"
         url: "https://www.smartftp.com/en-us/download"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Filezilla Client"
         logo: "assets/tools/filezilla.png"
-        subtitle: "unofficial builds"
+        subtitle: "Unofficial build, free, fast, and secure cross-platform tool used to transfer files between your local computer and a remote server via FTP, SFTP, and FTPS."
         url: "https://github.com/minnyres/filezilla-windows-arm64/releases"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Filezilla Server"
         logo: "assets/tools/filezillaserver.png"
-        subtitle: "unofficial builds"
+        subtitle: "Unofficial build, open-source Windows application that allows you to securely host and manage FTP/FTPS file transfers."
         url: "https://github.com/minnyres/filezilla-server-windows-arm64/releases"
         target: "_blank" # optional html a tag target attribute
 
       - name: "MyFTP"
         logo: "assets/tools/myftp.png"
+        subtitle: "Simple, fast, lightweight, beautiful, and Open-Source FTP client."
         url: "https://apps.microsoft.com/detail/9nwzsp0xcmhc"
         target: "_blank" # optional html a tag target attribute
 
       - name: "SFTPGo"
         logo: "assets/tools/sftpgo.png"
-        subtitle: "Open source, server protocols: SFTP, HTTP/S, FTP/S, WebDAV"
+        subtitle: "Open source, server protocols: SFTP, HTTP/S, FTP/S, WebDAV."
         url: "https://github.com/drakkan/sftpgo/releases"
         target: "_blank" # optional html a tag target attribute
         
       - name: "PuTTY"
         logo: "assets/tools/putty.png"
+        subtitle: "Free, lightweight, open-source terminal emulator for Windows that enables secure remote server management via SSH, Telnet, and serial connections."
         url: "https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Natpass"
         logo: "assets/tools/natpass.png"
-        subtitle: "supports shell management and remote desktop management"
+        subtitle: "Supports shell management and remote desktop management."
         url: "https://github.com/lwch/natpass/releases"
         target: "_blank" # optional html a tag target attribute
 
       - name: "贝锐蒲公英"
         logo: "assets/tools/pgyvisitor.png"
-        subtitle: "make off-site networking easier"
+        subtitle: "Make off-site networking easier."
         url: "https://pgy.oray.com/download/"
         target: "_blank" # optional html a tag target attribute
 
       - name: "hysteria"
         logo: "assets/tools/hysteria.png"
-        subtitle: "a censorship resistant proxy"
+        subtitle: "A censorship resistant proxy."
         url: "https://github.com/apernet/hysteria/releases"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Charles"
         logo: "assets/tools/charles.png"
-        subtitle: "an HTTP proxy / HTTP monitor / Reverse Proxy"
+        subtitle: "An HTTP proxy / HTTP monitor / Reverse Proxy."
         url: "https://www.charlesproxy.com/download"
         target: "_blank" # optional html a tag target attribute
 
       - name: "NaïveProxy"
         logo: "assets/tools/clionly.png"
-        subtitle: "uses Chromium's network stack to camouflage traffic"
+        subtitle: "Uses Chromium's network stack to camouflage traffic."
         url: "https://github.com/klzgrad/naiveproxy/releases"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Privoxy"
         logo: "assets/tools/privoxy.png"
-        subtitle: "unofficial builds"
+        subtitle: "Unofficial build, free, non-caching web proxy that enhances privacy by filtering web content, removing ads, blocking trackers, managing cookies, and modifying HTTP headers to give users more control over their browsing experience."
         url: "https://github.com/minnyres/privoxy-windows-arm64/releases"
         target: "_blank" # optional html a tag target attribute
 
       - name: "traefik"
         logo: "assets/tools/traefik.png"
-        subtitle: "The Cloud Native Application Proxy"
+        subtitle: "The cloud native application proxy."
         url: "https://github.com/traefik/traefik/releases"
         target: "_blank" # optional html a tag target attribute
 
       - name: "AdGuardHome"
         logo: "assets/tools/AdGuardHome.png"
+        subtitle: "Self-hosted, network-wide DNS server that blocks ads, trackers, and malicious sites for all devices on your network without needing client-side software."
         url: "https://github.com/AdguardTeam/AdGuardHome/releases"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Alist"
         logo: "assets/tools/Alist.png"
+        subtitle: "File list/WebDAV program that supports multiple storages, powered by Gin and Solidjs."
         url: "https://github.com/alist-org/alist/releases"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Cloudreve"
         logo: "assets/tools/Cloudreve.png"
+        subtitle: "Self-hosted file management and sharing system, supports multiple storage providers."
         url: "https://github.com/cloudreve/Cloudreve/releases"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Filebrowser"
         logo: "assets/tools/filebrowser.png"
+        subtitle: "Web based file manager."
         url: "https://github.com/filebrowser/filebrowser/releases"
         target: "_blank" # optional html a tag target attribute
 
       - name: "ArozOS"
         logo: "assets/tools/arozos.png"
-        subtitle: "Web Desktop Operating System for low power platforms"
+        subtitle: "Web Desktop Operating System for low power platforms."
         url: "https://github.com/tobychui/arozos/releases"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Dropbox"
         logo: "assets/tools/dropbox.png"
+        subtitle: "Cloud-based file storage and synchronization service that allows users to store, access, and share files across multiple devices."
         url: "https://www.dropbox.com/downloading?plat=win&type=full&arch=arm64"
-        target: "_blank" # optional html a tag target attribute
-
-      - name: "OneDrive"
-        logo: "assets/tools/onedrive.png"
-        url: "https://apps.microsoft.com/detail/onedrive/9WZDNCRFJ1P3"
         target: "_blank" # optional html a tag target attribute
 
       - name: "小白羊网盘"
         logo: "assets/tools/AliyunDrive.png"
-        subtitle: "unofficial builds / 第三方阿里云盘"
+        subtitle: "Unofficial builds / 第三方阿里云盘"
         url: "https://github.com/gaozhangmin/aliyunpan/releases"
         target: "_blank" # optional html a tag target attribute
 
       - name: "RaiDrive"
         logo: "assets/tools/raidrive.png"
+        subtitle: "Software that mounts various cloud storage services as local network drives."
         url: "https://www.raidrive.com/download"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Rclone"
         logo: "assets/tools/rclone.png"
+        subtitle: "Command-line program for syncing and managing files and directories across many cloud storage services and local systems."
         url: "https://rclone.org/downloads/"
         target: "_blank" # optional html a tag target attribute
 
@@ -2998,36 +3082,37 @@ services:
 
       - name: "aria2"
         logo: "assets/tools/clionly.png"
-        subtitle: "unofficial builds"
+        subtitle: "Unofficial build, lightweight, multi-protocol command-line download utility that accelerates file transfers by fetching from multiple sources and supports HTTP/HTTPS, FTP, SFTP, BitTorrent, and Metalink, with built-in JSON-RPC/XML-RPC interfaces for remote control."
         url: "https://github.com/minnyres/aria2-windows-arm64/releases"
         target: "_blank" # optional html a tag target attribute
 
       - name: "GNU Wget"
         logo: "assets/tools/clionly.png"
-        subtitle: "unofficial builds"
+        subtitle: "Unofficial build, free, command-line utility for non-interactive, automated downloading of files from the web using HTTP, HTTPS, and FTP protocols."
         url: "https://eternallybored.org/misc/wget/"
         target: "_blank" # optional html a tag target attribute
 
       - name: "croc"
         logo: "assets/tools/clionly.png"
+        subtitle: "Easily and securely send things from one computer to another."
         url: "https://github.com/schollz/croc/releases"
         target: "_blank" # optional html a tag target attribute
 
       - name: "qBittorrent"
         logo: "assets/tools/qbittorrent.png"
-        subtitle: "unofficial builds, Torrent client"
+        subtitle: "Unofficial build, torrent client."
         url: "https://github.com/minnyres/qbittorrent-windows-arm64/releases"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Transmission"
         logo: "assets/tools/transmission.png"
-        subtitle: "unofficial builds, Torrent client"
+        subtitle: "Unofficial build, torrent client."
         url: "https://github.com/minnyres/transmission-windows-arm64/releases"
         target: "_blank" # optional html a tag target attribute
 
       - name: "PeerBanHelper"
         logo: "assets/tools/peerbanhelper.png"
-        subtitle: "Automatically block unwanted, leeches and abnormal BT peers with support for customized and cloud rules"
+        subtitle: "Automatically block unwanted, leeches and abnormal BT peers with support for customized and cloud rules."
         url: "https://github.com/PBH-BTN/PeerBanHelper/releases"
         target: "_blank" # optional html a tag target attribute
         
@@ -3039,20 +3124,20 @@ services:
         
       - name: "Gopeed"
         logo: "assets/tools/gopeed.png"
-        subtitle: "a high-speed downloader developed"
+        subtitle: "A high-speed downloader."
         url: "https://github.com/GopeedLab/gopeed/releases"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Gopeed(Fluent)"
         logo: "assets/tools/gopeed.png"
-        subtitle: "unofficial builds /a high-speed downloader developed"
+        subtitle: "Unofficial build, a high-speed downloader."
         url: "https://github.com/Minessential/gopeed-fluent/releases"
         target: "_blank" # optional html a tag target attribute
 
       - name: "aMule"
         logo: "assets/tools/amule.png"
         tag: "ARM32"
-        subtitle: "unofficial builds"
+        subtitle: "Unofficial build, eMule-like client for the eDonkey and Kademlia networks."
         url: "https://github.com/minnyres/amule-win32/releases"
         target: "_blank" # optional html a tag target attribute
 
@@ -3064,104 +3149,115 @@ services:
 
       - name: "curl"
         logo: "assets/tools/curl.png"
-        subtitle: "OS-included since Win10 v1803"
+        subtitle: "OS-included since Win10 v1803, fetches or sends data (like HTML, JSON, images) for URLs."
         url: "https://curl.se/windows/"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Wireshark"
         logo: "assets/tools/wireshark.png"
+        subtitle: "World's leading, open-source graphical network protocol analyzer used to capture and deeply inspect live network traffic."
         url: "https://www.wireshark.org/download.html"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Clash Verge Rev"
         logo: "assets/tools/clashvergerev.png"
+        subtitle: "Cross-platform graphical user interface (GUI) for the Clash proxy core."
         url: "https://github.com/clash-verge-rev/clash-verge-rev/releases"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Clash Nyanpasu"
         logo: "assets/tools/clashnyanpasu.png"
+        subtitle: "Lightweight, cross-platform Clash GUI built on Tauri that offers advanced rule-based proxy management with a modern, user-friendly interface."
         url: "https://github.com/libnyanpasu/clash-nyanpasu/releases/tag/pre-release"
         target: "_blank" # optional html a tag target attribute
 
       - name: "GUI for Clash"
         logo: "assets/tools/guiforclash.png"
+        subtitle: "Gui based on vue3 + wails for Clash proxy."
         url: "https://github.com/GUI-for-Cores/GUI.for.Clash/releases"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Clash for Windows"
         logo: "assets/tools/Clash.png"
+        subtitle: "Clash client."
         url: "https://github.com/cfwtf/clash_for_windows/releases/tag/0.20.39"
         target: "_blank" # optional html a tag target attribute
 
       - name: "v2rayN"
         logo: "assets/tools/v2rayN.png"
+        subtitle: "UI client that supports Xray and sing-box and others."
         url: "https://github.com/2dust/v2rayN/releases"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Mihomo Party"
         logo: "assets/tools/mihomoparty.png"
+        subtitle: "Clash party Mihomo GUI."
         url: "https://github.com/mihomo-party-org/mihomo-party/releases"
         target: "_blank" # optional html a tag target attribute
 
       - name: "sing-box"
         logo: "assets/tools/singbox.png"
+        subtitle: "Universal proxy platform"
         url: "https://github.com/SagerNet/sing-box/releases"
         target: "_blank" # optional html a tag target attribute
 
       - name: "GUI for SingBox"
         logo: "assets/tools/singbox.png"
+        subtitle: "UI app for sing-box universal proxy platform."
         url: "https://github.com/GUI-for-Cores/GUI.for.SingBox/releases"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Throne"
         logo: "assets/tools/throne.png"
-        subtitle: "Cross-platform GUI proxy utility (Empowered by sing-box)"
+        subtitle: "Cross-platform GUI proxy utility (Empowered by sing-box)."
         url: "https://github.com/throneproj/Throne/releases"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Zen"
         logo: "assets/tools/zen.png"
-        subtitle: "ad-blocker and privacy guard"
+        subtitle: "Ad-blocker and privacy guard."
         url: "https://github.com/anfragment/zen/releases"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Oblivion Desktop"
         logo: "assets/tools/oblivion.png"
-        subtitle: "Unofficial Warp Client"
+        subtitle: "Unofficial Warp Client."
         url: "https://github.com/bepass-org/oblivion-desktop/releases"
         target: "_blank" # optional html a tag target attribute
 
       - name: "wgcf"
         logo: "assets/tools/clionly.png"
-        subtitle: "an unofficial, cross-platform CLI for Cloudflare Warp"
+        subtitle: "An unofficial, cross-platform CLI for Cloudflare Warp."
         url: "https://github.com/ViRb3/wgcf/releases"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Nebula"
         logo: "assets/tools/clionly.png"
-        subtitle: "connect computers anywhere"
+        subtitle: "Connect computers anywhere."
         url: "https://github.com/slackhq/nebula/releases"
         target: "_blank" # optional html a tag target attribute
 
       - name: "frp"
         logo: "assets/tools/clionly.png"
-        subtitle: "a fast reverse proxy"
+        subtitle: "A fast reverse proxy."
         url: "https://github.com/fatedier/frp/releases"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Syncthing"
         logo: "assets/tools/Syncthing.png"
+        subtitle: "Open-source, peer-to-peer file synchronization tool that securely syncs folders across multiple device."
         url: "https://github.com/syncthing/syncthing/releases"
         target: "_blank" # optional html a tag target attribute
 
       - name: "SyncthingTray"
         logo: "assets/tools/Syncthing.png"
+        subtitle: "Tray application and Dolphin/Plasma integration for Syncthing."
         url: "https://github.com/Martchus/syncthingtray/releases"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Caddy"
         logo: "assets/tools/caddy.png"
-        subtitle: "Fast and extensible web server with automatic HTTPS"
+        subtitle: "Fast and extensible web server with automatic HTTPS."
         url: "https://github.com/caddyserver/caddy/releases"
         target: "_blank" # optional html a tag target attribute
 
@@ -3173,7 +3269,7 @@ services:
         
       - name: "Nginx"
         logo: "assets/tools/nginx.png"
-        subtitle: "Unofficial builds"
+        subtitle: "Unofficial build, a high-performance, open-source software that acts as a web server, reverse proxy, load balancer, and HTTP cache."
         url: "https://github.com/Aliebc/nginx-windows-arm/releases"
         target: "_blank" # optional html a tag target attribute
 
@@ -3185,13 +3281,13 @@ services:
 
       - name: "fscan"
         logo: "assets/tools/clionly.png"
-        subtitle: "an intranet comprehensive scanning tool"
+        subtitle: "An intranet comprehensive scanning tool."
         url: "https://github.com/shadow1ng/fscan/releases"
         target: "_blank" # optional html a tag target attribute
 
       - name: "pinger"
         logo: "assets/tools/clionly.png"
-        subtitle: "alternative ping utility"
+        subtitle: "Alternative ping utility."
         url: "https://github.com/teivarodiere/pinger/releases"
         target: "_blank" # optional html a tag target attribute
 
@@ -3209,7 +3305,7 @@ services:
 
       - name: "NatTypeTester"
         logo: "assets/tools/nattypetester.png"
-        subtitle: "Test the NAT type of the current network"
+        subtitle: "Test the NAT type of the current network."
         url: "https://github.com/HMBSbige/NatTypeTester/releases"
         target: "_blank" # optional html a tag target attribute
 
@@ -3221,19 +3317,19 @@ services:
       
       - name: "Trippy"
         logo: "assets/tools/trippy.png"
-        subtitle: "A network diagnostic tool"
+        subtitle: "A network diagnostic tool."
         url: "https://github.com/fujiapple852/trippy/releases"
         target: "_blank" # optional html a tag target attribute
 
       - name: "LocaltoNet"
         logo: "assets/tools/localtonet.png"
-        subtitle: "Reverse proxy for exposing localhost services"
+        subtitle: "Reverse proxy for exposing localhost services."
         url: "https://localtonet.com/download"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Sniffnet"
         logo: "assets/tools/sniffnet.png"
-        subtitle: "Comfortably monitor your Internet traffic"
+        subtitle: "Comfortably monitor your Internet traffic."
         url: "https://sniffnet.net/download/"
         target: "_blank" # optional html a tag target attribute
 
@@ -3242,23 +3338,20 @@ services:
     items:
       - name: "CMake"
         logo: "assets/tools/cmake.png"
+        subtitle: "Cross-platform build system that generates native build files (like Makefiles or Visual Studio projects) from simple configuration scripts (CMakeLists.txt)"
         url: "https://cmake.org/download/"
-        target: "_blank" # optional html a tag target attribute
-
-      - name: "Github Desktop"
-        logo: "assets/tools/githubdesktop.png"
-        url: "https://central.github.com/deployments/desktop/desktop/latest/win32-arm64"
-        target: "_blank" # optional html a tag target attribute
-
-      - name: "vcpkg"
-        logo: "assets/tools/vcpkg.png"
-        url: "https://github.com/microsoft/vcpkg-tool/releases"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Git for Windows"
         logo: "assets/tools/git.png"
         subtitle: "ARM64 builds available since 2.47.1"
         url: "https://github.com/git-for-windows/git/releases"
+        target: "_blank" # optional html a tag target attribute
+        
+      - name: "Github Desktop"
+        logo: "assets/tools/githubdesktop.png"
+        subtitle: "Simplifies Git with a graphical interface, letting you commit, push, and pull changes easily without the command line."
+        url: "https://central.github.com/deployments/desktop/desktop/latest/win32-arm64"
         target: "_blank" # optional html a tag target attribute
 
       - name: "SourceGit"
@@ -3275,25 +3368,31 @@ services:
 
       - name: "git-cliff"
         logo: "assets/tools/gitcliff.png"
-        subtitle: "A highly customizable Changelog Generator"
+        subtitle: "A highly customizable Changelog Generator."
         url: "https://github.com/orhun/git-cliff/releases"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Git Extensions"
         logo: "assets/tools/gitextensions.png"
-        subtitle: "unofficial builds"
+        subtitle: "Unofficial build, standalone UI tool for managing git repositories."
         url: "https://github.com/chirontt/gitextensions/releases"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "vcpkg"
+        logo: "assets/tools/vcpkg.png"
+        subtitle: "C++ library manager."
+        url: "https://github.com/microsoft/vcpkg-tool/releases"
+        target: "_blank" # optional html a tag target attribute
+        
       - name: "Visual Studio 2026"
         logo: "assets/tools/visualstudio2026.png"
-        subtitle: "Microsoft's flagship developer IDE"
+        subtitle: "Microsoft's flagship developer IDE."
         url: "https://visualstudio.microsoft.com/vs/"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Tabs Studio for Visual Studio 2022/2026"
         logo: "assets/tools/tabsstudio.png"
-        subtitle: "Add-In for multi row, color coded tabs, and more"
+        subtitle: "Add-In for multi row, color coded tabs, and more."
         url: "https://tabsstudio.com/download.html"
         target: "_blank" # optional html a tag target attribute
 
@@ -3305,71 +3404,73 @@ services:
 
       - name: "Wix Toolset Votive2022"
         logo: "assets/tools/votive2022.png"
-        subtitle: "ARM64 Visual Studio 2022 Extension, unofficial build"
+        subtitle: "ARM64 Visual Studio 2022 Extension, unofficial build."
         url: "https://github.com/fobrs/VisualStudioExtension/releases"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Visual Studio Code"
         logo: "assets/tools/visualstudiocode.png"
-        subtitle: "Free, open-source, and highly extensible code editor developed by Microsoft"
+        subtitle: "Open-source, and highly extensible code editor developed by Microsoft."
         url: "https://apps.microsoft.com/store/detail/visual-studio-code/XP9KHM4BK9FZ7Q"
         target: "_blank" # optional html a tag target attribute
 
       - name: "VSCodium"
         logo: "assets/tools/vscodium.png"
-        subtitle: "Binary releases of Visual Studio Code without MS branding/telemetry/licensing"
+        subtitle: "Binary releases of Visual Studio Code without MS branding/telemetry/licensing."
         url: "https://github.com/VSCodium/vscodium/releases"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Cursor"
         logo: "assets/tools/cursor.png"
-        subtitle: "The AI Code Editor (Visual Studio Code Fork)"
+        subtitle: "The AI Code Editor (Visual Studio Code Fork)."
         url: "https://www.cursor.com/downloads"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Google Antigravity"
         logo: "assets/tools/googleantigravity.png"
-        subtitle: "Google code editor with Gemini (Visual Studio Code Fork)"
+        subtitle: "Google code editor with Gemini (Visual Studio Code Fork)."
         url: "https://antigravity.google/download"
         target: "_blank" # optional html a tag target attribute
         
       - name: "Windsurf"
         logo: "assets/tools/windsurf.png"
-        subtitle: "Agentic IDE (Visual Studio Code Fork)"
+        subtitle: "Agentic IDE (Visual Studio Code Fork)."
         url: "https://windsurf.com/download/editor#all-download-options"
         target: "_blank" # optional html a tag target attribute        
         
       - name: "Arduino App Lab"
         logo: "assets/tools/arduino.png"
-        subtitle: "Visual environment for managing your UNO Q board"
+        subtitle: "Visual environment for managing your UNO Q board."
         url: "https://www.arduino.cc/en/software/#app-lab-section"
         target: "_blank" # optional html a tag target attribute
         
       - name: "Python"
         logo: "assets/tools/python.png"
+        subtitle: "Programming language. Has simple, readable syntax."
         url: "https://www.python.org/downloads/windows/"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Python Wheels"
         logo: "assets/tools/python.png"
-        subtitle: "unofficial builds"
+        subtitle: "unofficial build, pre-built distribution packages, simplifying Python package installation by bundling compiled code and metadata, making them the standard, faster way to install packages than building from source."
         url: "https://github.com/cgohlke/win_arm64-wheels/releases"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Jupyterlab Desktop"
         logo: "assets/tools/jupyterlabdesktop.png"
-        subtitle: "unofficial builds"
+        subtitle: "Unofficial build, self-contained application that bundles the powerful JupyterLab environment with Python and essential libraries, offering an easy way to run interactive notebooks, code, and data science tools directly on your computer."
         url: "https://github.com/xgdgsc/jupyterlab-desktop/releases"
         target: "_blank" # optional html a tag target attribute
   
       - name: "ruff"
         logo: "assets/tools/ruff.png"
-        subtitle: "an extremely fast Python linter and code formatter"
+        subtitle: "An extremely fast Python linter and code formatter."
         url: "https://github.com/astral-sh/ruff/releases"
         target: "_blank" # optional html a tag target attribute
 
       - name: "LLVM"
         logo: "assets/tools/llvm.png"
+        subtitle: "Modular compiler infrastructure providing reusable tools and libraries to build compilers and related development tool."
         url: "https://releases.llvm.org/"
         target: "_blank" # optional html a tag target attribute
 
@@ -3381,31 +3482,31 @@ services:
 
       - name: "Ninja"
         logo: "assets/tools/clionly.png"
-        subtitle: "small build system focused on speed"
+        subtitle: "Small build system focused on speed."
         url: "https://github.com/ninja-build/ninja/releases"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Qt"
         logo: "assets/tools/qt.png"
-        subtitle: "a GUI development framework"
+        subtitle: "A GUI development framework."
         url: "https://www.qt.io/download-qt-installer-oss"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Qt Creator"
         logo: "assets/tools/qt.png"
-        subtitle: "GUI development environment"
-        url: "https://www.qt.io/blog/qt-creator-15-released"
+        subtitle: "GUI development environment."
+        url: "https://www.qt.io/development/offline-installers"
         target: "_blank" # optional html a tag target attribute
         
       - name: "Qt Visual Studio Tools"
         logo: "assets/tools/qt.png"
-        subtitle: "Official Qt Group extension"
+        subtitle: "Official Qt Group extension."
         url: "https://marketplace.visualstudio.com/items?itemName=TheQtCompany.QtVisualStudioTools2022ARM"
         target: "_blank" # optional html a tag target attribute
 
       - name: "JetBrains IntelliJ IDEA"
         logo: "assets/tools/jetbrainsintellij-idea.png"
-        subtitle: "Leading IDE for Professional Development in Java and Kotlin"
+        subtitle: "Leading IDE for Professional Development in Java and Kotlin."
         url: "https://www.jetbrains.com/idea/download/"
         target: "_blank" # optional html a tag target attribute
 
@@ -3417,114 +3518,115 @@ services:
 
       - name: "JetBrains PhpStorm"
         logo: "assets/tools/jetbrainsphpstorm.png"
-        subtitle: "PHP IDE empowering PHP Developers"
+        subtitle: "PHP IDE empowering PHP Developers."
         url: "https://www.jetbrains.com/phpstorm/download/download-thanks.html?platform=windowsARM64"
         target: "_blank" # optional html a tag target attribute
 
       - name: "JetBrains GoLand"
         logo: "assets/tools/jetbrainsgoland.png"
-        subtitle: "IDE for Professional Development in Go"
+        subtitle: "IDE for Professional Development in Go."
         url: "https://www.jetbrains.com/go/download/download-thanks.html?platform=windowsARM64"
         target: "_blank" # optional html a tag target attribute
 
       - name: "JetBrains Rider"
         logo: "assets/tools/jetbrainsrider.png"
-        subtitle: "Cross-platform IDE for .NET and game developers"
+        subtitle: "Cross-platform IDE for .NET and game developers."
         url: "https://www.jetbrains.com/rider/download/download-thanks.html?platform=windowsARM64"
         target: "_blank" # optional html a tag target attribute
 
       - name: "JetBrains dotPeek"
         logo: "assets/tools/jetbrains-dotpeek.png"
-        subtitle: "Free .NET Decompiler & Assembly Browser"
+        subtitle: "Free .NET Decompiler & Assembly Browser."
         url: "https://www.jetbrains.com/decompiler/download/other.html"
         target: "_blank" # optional html a tag target attribute
 
-
       - name: "JetBrains CLion"
         logo: "assets/tools/jetbrainsclion.png"
-        subtitle: "Cross-platform IDE for C and C++"
+        subtitle: "Cross-platform IDE for C and C++."
         url: "https://www.jetbrains.com/clion/download/download-thanks.html?platform=windowsARM64"
         target: "_blank" # optional html a tag target attribute
 
       - name: "JetBrains RustRover"
         logo: "assets/tools/jetbrainsrustover.png"
-        subtitle: "A Powerful IDE for Rust"
+        subtitle: "A Powerful IDE for Rust."
         url: "https://www.jetbrains.com/rust/download/download-thanks.html?platform=windowsARM64"
         target: "_blank" # optional html a tag target attribute
 
       - name: "JetBrains WebStorm"
         logo: "assets/tools/jetbrainswebstorm.png"
-        subtitle: "JavaScript and TypeScript IDE"
+        subtitle: "JavaScript and TypeScript IDE."
         url: "https://www.jetbrains.com/webstorm/download/download-thanks.html?platform=windowsARM64"
         target: "_blank" # optional html a tag target attribute
 
       - name: "JetBrains RubyMine"
         logo: "assets/tools/jetbrainsrubymine.png"
-        subtitle: "Ruby on Rails IDE"
+        subtitle: "Ruby on Rails IDE."
         url: "https://www.jetbrains.com/ruby/download/download-thanks.html?platform=windowsARM64"
         target: "_blank" # optional html a tag target attribute
 
       - name: "JetBrains DataGrip"
         logo: "assets/tools/jetbrainsdatagrip.png"
-        subtitle: "Cross-platform IDE for relational and NoSQL databases"
+        subtitle: "Cross-platform IDE for relational and NoSQL databases."
         url: "https://www.jetbrains.com/datagrip/download/download-thanks.html?platform=windowsARM64"
         target: "_blank" # optional html a tag target attribute
 
       - name: "JetBrains DataSpell"
         logo: "assets/tools/jetbrainsdataspell.png"
-        subtitle: "AI-powered tool for analyzing data and sharing insights"
+        subtitle: "AI-powered tool for analyzing data and sharing insights."
         url: "https://www.jetbrains.com/dataspell/download/download-thanks.html?platform=windowsARM64"
         target: "_blank" # optional html a tag target attribute
       
       - name: "JetBrains Toolbox"
         logo: "assets/tools/toolbox.png"
-        subtitle: "Manage your JetBrains IDEs the easy way"
+        subtitle: "Manage your JetBrains IDEs the easy way."
         url: "https://www.jetbrains.com/toolbox-app/download/download-thanks.html?platform=windowsARM64"
         target: "_blank" # optional html a tag target attribute
 
       - name: "helix"
         logo: "assets/tools/helix.png"
-        subtitle: "unofficial builds - A post-modern modal text editor"
+        subtitle: "Unofficial build, A post-modern modal text editor."
         url: "https://github.com/iKineticate/Windows-ARM64-Binaries/releases/tag/helix"
         target: "_blank" # optional html a tag target attribute
 
       - name: "lapce"
         logo: "assets/tools/lapce.png"
-        subtitle: "unofficial builds - Lightning-fast and Powerful Code Editor"
+        subtitle: "Unofficial builds, lightning-fast and Powerful Code Editor."
         url: "https://github.com/iKineticate/Windows-ARM64-Binaries/releases/tag/lapce"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Golang"
         logo: "assets/tools/Golang.png"
+        subtitle: "Unofficial build, simple, fast, statically typed language designed for efficiency and concurrency."
         url: "https://go.dev/dl/"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Rust"
         logo: "assets/tools/rust.png"
+        subtitle: "Programming language focused on safety, speed, and concurrency, offering C/C++ performance without garbage collection."
         url: "https://forge.rust-lang.org/infra/other-installation-methods.html#standalone"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Dart"
         logo: "assets/tools/dart.png"
-        subtitle: "Approachable, portable, and productive language for high-quality apps on any platform"
+        subtitle: "Approachable, portable, and productive language for high-quality apps on any platform."
         url: "https://dart.dev/get-dart/archive"
         target: "_blank" # optional html a tag target attribute
 
       - name: "MS OpenJDK"
         logo: "assets/tools/openjdk.png"
-        subtitle: "Microsoft builds"
+        subtitle: "Microsoft builds - Java Development Kit."
         url: "https://docs.microsoft.com/en-us/java/openjdk/download"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Liberica OpenJDK (+Java RE)"
         logo: "assets/tools/openjdk.png"
-        subtitle: "BellSoft builds"
+        subtitle: "BellSoft builds - Java Development Kit."
         url: "https://bell-sw.com/pages/downloads/?os=windows&architecture=arm"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Zulu OpenJDK (+Java RE)"
         logo: "assets/tools/openjdk.png"
-        subtitle: "Azul builds"
+        subtitle: "Azul builds - Java Development Kit."
         url: "https://www.azul.com/downloads/?os=windows&architecture=arm-64-bit"
         target: "_blank" # optional html a tag target attribute
 
@@ -3548,40 +3650,44 @@ services:
 
       - name: "Bazel"
         logo: "assets/tools/bazel.png"
+        subtitle: "Fast, scalable, multi-language and extensible build system."
         url: "https://github.com/bazelbuild/bazel/releases"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Node.js"
         logo: "assets/tools/nodejs.png"
-        subtitle: "a free, open-source, cross-platform JavaScript runtime environment"        
+        subtitle: "Open-source, cross-platform JavaScript runtime environment."        
         url: "https://nodejs.org/en/download"
         target: "_blank" # optional html a tag target attribute
 
       - name: "NVM for Windows"
         logo: "assets/tools/clionly.png"
         tag: "Supports ARM64 versions of Node.js"
-        subtitle: "Node.js version manager for Windows"
+        subtitle: "Node.js version manager for Windows."
         url: "https://github.com/coreybutler/nvm-windows/releases"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Electron"
         logo: "assets/tools/electron.png"
+        subtitle: "Framework for building cross-platform desktop apps using JavaScript, HTML, and CSS."
         url: "https://github.com/electron/electron/releases"
         target: "_blank" # optional html a tag target attribute
 
       - name: "DevToys"
         logo: "assets/tools/devtoys.png"
+        subtitle: "Open source, set of 30 default offline tools, including: Json to Yaml, Yaml to Json converter, Base64 Text & Image converter, JWT encoder and decoder, Text comparer, and Hash generator."
         url: "https://devtoys.app/"
         target: "_blank" # optional html a tag target attribute
 
       - name: ".NET SDK & Runtime"
         logo: "assets/tools/dotnet.png"
+        subtitle: "SDK provides tools to build .NET apps, while the .NET Runtime provides the environment to run them."
         url: "https://dotnet.microsoft.com/en-us/download/dotnet"
         target: "_blank" # optional html a tag target attribute
 
       - name: "ILSpy"
         logo: "assets/tools/ilspy.png"
-        subtitle: ".NET assembly browser and decompiler"
+        subtitle: ".NET assembly browser and decompiler."
         url: "https://github.com/icsharpcode/ILSpy/releases"
         target: "_blank" # optional html a tag target attribute
 
@@ -3593,41 +3699,44 @@ services:
         
       - name: "Zig"
         logo: "assets/tools/zig.png"
-        subtitle: "a general-purpose programming language and toolchain"
+        subtitle: "A general-purpose programming language and toolchain."
         url: "https://ziglang.org/download/"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Free Pascal Compiler (FPC)"
         logo: "assets/tools/fpc.png"
         tag: "use of Lazarus IDE limits to console projects"        
-        subtitle: "Development snapshots - unfinished & unstable"
+        subtitle: "Development snapshots - unfinished & unstable."
         url: "https://downloads.freepascal.org/fpc/snapshot/trunk/aarch64-win64/"
         target: "_blank" # optional html a tag target attribute
 
       - name: "PowerShell"
         logo: "assets/tools/powershell.png"
+        subtitle: "Command-line shell and scripting language for automating tasks and managing systems."
         url: "https://github.com/PowerShell/PowerShell/releases/"
         target: "_blank" # optional html a tag target attribute
 
       - name: "nushell"
         logo: "assets/tools/nushell.png"
+        subtitle: "Modern shell for the GitHub era that treats data as structured, not text."
         url: "https://github.com/nushell/nushell/releases"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Windows Terminal"
         logo: "assets/tools/windowsterminal.png"
+        subtitle: "Modern, multi-tabbed command-line host for PowerShell, CMD, and WSL, offering powerful customization, panes, and GPU-accelerated rendering in one fast application."
         url: "https://aka.ms/terminal"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Hyper"
         logo: "assets/tools/hyper.png"
-        subtitle: "A terminal built on web technologies"
+        subtitle: "A terminal built on web technologies."
         url: "https://github.com/vercel/hyper/releases"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Tabby"
         logo: "assets/tools/tabby.png"
-        subtitle: "A terminal for a more modern age"
+        subtitle: "A terminal for a more modern age."
         url: "https://github.com/Eugeny/tabby/releases"
         target: "_blank" # optional html a tag target attribute
 
@@ -3639,94 +3748,98 @@ services:
 
       - name: "Alacritty"
         logo: "assets/tools/alacritty.png"
-        subtitle: "Unofficial build, terminal emulator"
+        subtitle: "Unofficial build, terminal emulator."
         tag: "original app files needed"
         url: "https://github.com/mijk84/win-arm64-binaries/releases/tag/alacritty"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Warp"
         logo: "assets/tools/warp.png"
-        subtitle: "a modern, Rust-based terminal with AI built in so you and your team can build great software, faster"
+        subtitle: "A modern, Rust-based terminal with AI built in so you and your team can build great software, faster."
         url: "https://www.warp.dev/download"
         target: "_blank" # optional html a tag target attribute
 
       - name: "WinSSHTerm"
         logo: "assets/tools/WinSSHTerm.png"
-        subtitle: "a tabbed SSH solution for Windows"
+        subtitle: "A tabbed SSH solution for Windows."
         url: "https://apps.microsoft.com/detail/XP99F8QBDFR0H5"
         target: "_blank" # optional html a tag target attribute
 
       - name: "MSYS2"
         logo: "assets/tools/msys2.png"
+        subtitle: "Software environment providing a Linux-like shell and tools (Bash, GCC, Git) for building native Windows applications, using a package manager (pacman) for easy installation, making cross-platform development simpler."
         url: "https://www.msys2.org/wiki/arm64/"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Red Panda C++"
         logo: "assets/tools/redpanda.png"
+        subtitle: "High-performance, C++ based, Kafka-compatible streaming engine."
         url: "https://github.com/redpanda-cpp/woa/releases"
         target: "_blank" # optional html a tag target attribute
 
       - name: "TortoiseSVN"
         logo: "assets/tools/TortoiseSVN.png"
-        subtitle: "a Subversion client, implemented as a windows shell extension"
+        subtitle: "A Subversion client, implemented as a windows shell extension."
         url: "https://tortoisesvn.net/downloads.html"
         target: "_blank" # optional html a tag target attribute
 
       - name: "TortoiseGit"
         logo: "assets/tools/TortoiseGit.png"
-        subtitle: "a Windows Shell Interface to Git and based on TortoiseSVN"
+        subtitle: "A Windows Shell Interface to Git and based on TortoiseSVN."
         url: "https://tortoisegit.org/download/"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Page Spy"
         logo: "assets/tools/PageSpy.png"
+        subtitle: "Lightweight remote debugging platform."
         url: "https://github.com/HuolalaTech/page-spy-web/releases"
         target: "_blank" # optional html a tag target attribute
 
       - name: "SWC"
         logo: "assets/tools/swc.png"
-        subtitle: "Speedy Web Compiler"
+        subtitle: "Speedy Web Compiler."
         url: "https://github.com/swc-project/swc/releases"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Azure Data Studio"
         logo: "assets/tools/AzureDataStudio.png"
-        subtitle: "a data management and development tool"
+        subtitle: "A data management and development tool."
         url: "https://learn.microsoft.com/en-us/azure-data-studio/download-azure-data-studio?tabs=win-install%2Cwin-user-install%2Credhat-install%2Cwindows-uninstall%2Credhat-uninstall"
         target: "_blank" # optional html a tag target attribute
 
       - name: "DbGate"
         logo: "assets/tools/DbGate.png"
-        subtitle: "an open-source database manager"
+        subtitle: "Open-source database manager."
         url: "https://github.com/dbgate/dbgate/releases"
         target: "_blank" # optional html a tag target attribute
 
       - name: "DbVisualizer"
         logo: "assets/tools/DbVisualizer.png"
-        subtitle: "an advanced database manager"
+        subtitle: "Advanced database manager."
         url: "https://www.dbvis.com/download/"
         target: "_blank" # optional html a tag target attribute
 
       - name: "ImHex"
         logo: "assets/tools/imhex.png"
-        tag: "Nightly"
+        subtitle: "Hex Editor for Reverse Engineers, Programmers and people who value their retinas when working at 3 AM."
         url: "https://github.com/WerWolv/ImHex/releases"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Free Hex Editor Neo"
         logo: "assets/tools/FreeHexEditorNeo.png"
+        subtitle: "Fastest large files optimized binary file editor."
         url: "https://www.hhdsoftware.com/free-hex-editor"
         target: "_blank" # optional html a tag target attribute
 
       - name: "rust-analyzer"
         logo: "assets/tools/rust.png"
-        subtitle: "A Rust compiler front-end for IDEs"
+        subtitle: "A Rust compiler front-end for IDEs."
         url: "https://github.com/rust-lang/rust-analyzer/releases"
         target: "_blank" # optional html a tag target attribute
 
       - name: "GitHub CLI"
         logo: "assets/tools/clionly.png"
-        subtitle: "GitHub’s official command line tool"
+        subtitle: "GitHub’s official command line tool."
         url: "https://github.com/cli/cli/releases"
         target: "_blank" # optional html a tag target attribute
 
@@ -3738,62 +3851,62 @@ services:
 
       - name: "LINQPad"
         logo: "assets/tools/linqpad.png"
-        subtitle: "The .NET Programmer’s Playground"
+        subtitle: "An interactive .NET scratchpad for instant code prototyping and database querying."
         url: "https://www.linqpad.net/Download.aspx"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Another Redis Desktop Manager"
         logo: "assets/tools/ardm.png"
-        subtitle: "A faster, better and more stable Redis desktop manager"
+        subtitle: "A faster, better and more stable Redis desktop manager."
         url: "https://github.com/qishibo/AnotherRedisDesktopManager/releases"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Tiny RDM"
         logo: "assets/tools/tinyrdm.png"
-        subtitle: "A Modern Redis GUI Client"
+        subtitle: "A Modern Redis GUI Client."
         url: "https://github.com/tiny-craft/tiny-rdm/releases"
         target: "_blank" # optional html a tag target attribute
 
       - name: "AutoHotKey v1.1.33.12"
         logo: "assets/tools/autohotkey.png"
-        subtitle: "unofficial builds, automation scripting language"
+        subtitle: "Unofficial build, automation scripting language."
         url: "https://github.com/fobrs/AutoHotkey_L/releases"
         target: "_blank" # optional html a tag target attribute
 
       - name: "AutoHotKey v1.1.37.01"
         logo: "assets/tools/autohotkey.png"
-        subtitle: "unofficial builds, automation scripting language"
+        subtitle: "Unofficial build, automation scripting language."
         url: "https://www.autohotkey.com/boards/viewtopic.php?style=2&p=535036#p535036"
         target: "_blank" # optional html a tag target attribute
 
       - name: "AutoHotKey v2.1-alpha.18-8-g282cf3a7"
         logo: "assets/tools/autohotkey.png"
-        subtitle: "unofficial builds, automation scripting language"
+        subtitle: "Unofficial build, automation scripting language."
         url: "https://github.com/t-satoru/AutoHotkey-woa/releases"
         target: "_blank" # optional html a tag target attribute
         
       - name: "Godot"
         logo: "assets/tools/godot.png"
-        subtitle: "Free, open‑source game engine."
+        subtitle: "Free, open-source game engine."
         url: "https://godotengine.org/download/windows/"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Godot Launcher"
         logo: "assets/tools/godot-launcher.png"
-        subtitle: "Streamlines Godot downloads, manages multiple versions, and simplifies the download experience"
+        subtitle: "Streamlines Godot downloads, manages multiple versions, and simplifies the download experience."
         url: "https://godotlauncher.org/download/"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Lunati"
         logo: "assets/tools/lunati.png"
-        subtitle: "unofficial build, Open source voxel game engine."
+        subtitle: "Unofficial build, Open source voxel game engine."
         tag: "original port files needed"
         url: "https://github.com/mijk84/win-arm64-binaries/releases/tag/luanti"
         target: "_blank" # optional html a tag target attribute
         
       - name: "TIC-80"
         logo: "assets/tools/tic80.png"
-        subtitle: "Unofficial Build, Open source fantasy computer for making, playing and sharing tiny games."
+        subtitle: "Unofficial build, Open source fantasy computer for making, playing and sharing tiny games."
         tag: "original port files needed"
         url: "https://github.com/mijk84/win-arm64-binaries/releases/tag/tic80"
         target: "_blank" # optional html a tag target attribute
@@ -3806,73 +3919,73 @@ services:
 
       - name: "DTrace"
         logo: "assets/tools/clionly.png"
-        subtitle: "Dynamic tracing framework"
+        subtitle: "Dynamic tracing framework."
         url: "https://www.microsoft.com/en-us/download/details.aspx?id=100441"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Dependencies"
         logo: "assets/tools/dependencies.png"
-        subtitle: "rewrite of famous 'Dependency Walker'"
+        subtitle: "Rewrite of famous 'Dependency Walker'."
         url: "https://github.com/lhak/Dependencies/releases"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Racket"
         logo: "assets/tools/racket.png"
-        subtitle: "Racket, cross-platform graphical programming"
+        subtitle: "Racket, cross-platform graphical programming."
         url: "https://download.racket-lang.org/"
         target: "_blank" # optional html a tag target attribute
         
       - name: "ArcGIS Maps SDK"
         logo: "assets/tools/arcgismapssdk.png"
-        subtitle: "ARM64 .NET Mapping SDK by Esri"
+        subtitle: "ARM64 .NET Mapping SDK by Esri."
         url: "https://developers.arcgis.com/net/"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Npcap"
         logo: "assets/tools/npcap.png"
-        subtitle: "Packet capture library"
+        subtitle: "Packet capture library."
         url: "https://npcap.com/#download"
         target: "_blank" # optional html a tag target attribute
 
       - name: "C64Studio"
         logo: "assets/tools/c64studio.png"
-        subtitle: "IDE specializing in game development for the C64 in assembler and BASIC"
+        subtitle: "IDE specializing in game development for the C64 in assembler and BASIC."
         url: "https://github.com/GeorgRottensteiner/C64Studio/releases"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Ruby Installer"
         logo: "assets/tools/rubyinstaller.png"
-        subtitle: "Ruby-language execution environment"
+        subtitle: "Ruby-language execution environment."
         url: "https://rubyinstaller.org/downloads/"
         target: "_blank" # optional html a tag target attribute
         
       - name: "OrmFactory"
         logo: "assets/tools/ormfactory.png"
-        subtitle: "Model-first database manager"
+        subtitle: "Model-first database manager."
         url: "https://ormfactory.com/downloads/"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Segger Embedded Studio"
         logo: "assets/tools/embedded-studio.png"
-        subtitle: "C/C++ IDE for microcontrollers"
+        subtitle: "C/C++ IDE for microcontrollers."
         url: "https://www.segger.com/downloads/embedded-studio/"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Volta"
         logo: "assets/tools/volta.png"
-        subtitle: "JS Toolchains as Code"
+        subtitle: "JS Toolchains as Code."
         url: "https://github.com/volta-cli/volta/releases"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Eclipse IDE"
         logo: "assets/tools/eclipse.png"
-        subtitle: "IDE with extensible plug-in system"
+        subtitle: "IDE with extensible plug-in system."
         url: "https://www.eclipse.org/downloads/packages/installer"
         target: "_blank" # optional html a tag target attribute
 
       - name: "OSV-Scanner"
         logo: "assets/tools/osvscanner.png"
-        subtitle: "Vulnerability scanner"
+        subtitle: "Vulnerability scanner."
         url: "https://github.com/google/osv-scanner/releases"
 
       - name: "ecode"
@@ -3908,20 +4021,20 @@ services:
 
       - name: "Erdos"
         logo: "assets/tools/erdos.png"
-        subtitle: "a next-generation data science IDE."
+        subtitle: "A next-generation data science IDE."
         url: "https://www.lotas.ai/erdos"
         target: "_blank" # optional html a tag target attribute
 
       - name: "R"
         logo: "assets/tools/r.png"
-        subtitle: "Open-source programming language and environment specifically designed for statistical computing and graphic"
+        subtitle: "Open-source programming language and environment specifically designed for statistical computing and graphic."
         tag: "Experimental"
         url: "https://blog.r-project.org/2024/04/23/r-on-64-bit-arm-windows/"
         target: "_blank" # optional html a tag target attribute
         
       - name: "Zed"
         logo: "assets/tools/zed-editor.png"
-        subtitle: "Code editor for high-performance collaboration with humans and AI"
+        subtitle: "Code editor for high-performance collaboration with humans and AI."
         url: "https://zed.dev/download"
         target: "_blank" # optional html a tag target attribute
 
@@ -4150,10 +4263,17 @@ services:
         url: "https://github.com/infinitepower18/WSA-SystemControl"
         target: "_blank"
 
-      - name: "Mumu Player"
+      - name: "Mumu Player (Global)"
         logo: "assets/tools/mumuplayer.png"
         tag: "Beta"
-        subtitle: "Android emulator, only Chinese version available currently, beta requires mobile text activation"
+        subtitle: "Android emulator"
+        url: "https://www.mumuplayer.com/"
+        target: "_blank"
+        
+      - name: "Mumu Player (China)"
+        logo: "assets/tools/mumuplayer.png"
+        tag: "Beta"
+        subtitle: "Android emulator, Chinese version, beta requires mobile text activation"
         url: "https://mumu.163.com/"
         target: "_blank"
         
@@ -4270,140 +4390,156 @@ services:
     items:
       - name: "Geekbench"
         logo: "assets/tools/geekbench6.png"
+        subtitle: "Performance benchmark that measures your device's processor and GPU power through standardized tasks, providing scores to compare your system's speed and capabilities against other devices."
         url: "https://www.geekbench.com/download/"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Cinebench"
         logo: "assets/tools/cinebench.png"
+        subtitle: "Free, popular benchmarking tool that tests a computer's CPU and GPU performance by rendering complex 3D scenes,"
         url: "https://www.maxon.net/de/downloads/cinebench-2024-downloads"
         target: "_blank" # optional html a tag target attribute
 
       - name: "GFXBench"
         logo: "assets/tools/gfxbench.png"
+        subtitle: "3D graphics benchmark that tests and compares the GPU performance of mobile and desktop devices using realistic, game-like scenes and low-level graphics tests."
         url: "https://gfxbench.com/windows-arm-download"
         target: "_blank" # optional html a tag target attribute
 
       - name: "3DMark"
         logo: "assets/tools/3dmark.png"
-        subtitle: "only Night Raid, Wild Life & Steel Nomad"
+        subtitle: "Benchmarking tool that runs demanding, game-like tests to measure and compare the real-world gaming performance of PCs and mobile devices, only Night Raid, Wild Life & Steel Nomad available as ARM native."
         url: "https://benchmarks.ul.com/3dmark/download"
         target: "_blank" # optional html a tag target attribute
 
       - name: "ANTUTU"
         logo: "assets/tools/antutu.png"
-        subtitle: "Professional Benchmark Tests"
+        subtitle: "Professional Benchmark Tests."
         url: "https://www.antutu.com/en/download.htm"
         target: "_blank" # optional html a tag target attribute
 
       - name: "GravityMark"
         logo: "assets/tools/gravitymark.png"
+        subtitle: "GPU-accelerated tool that benchmarks performance by rendering massive amounts of objects."
         url: "https://gravitymark.tellusim.com/"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Basemark GPU"
         logo: "assets/tools/basemark.png"
+        subtitle: "Tool that provides a single score to measure and compare graphics performance on mobile and desktop devices using realistic, game-like workloads and modern graphics APIs like Vulkan, DirectX."
         url: "https://www.gpuscore.com/benchmarks/basemark-gpu/"
         target: "_blank" # optional html a tag target attribute
 
       - name: "GPUScore: Sacred Path"
         logo: "assets/tools/gpuscore-sp.png"
+        subtitle: "Graphics benchmark for testing GPU performance across mobile and desktop devices."
         tag: "ARM64EC"
         url: "https://www.gpuscore.com/benchmarks/gpuscore/sacred-path"
         target: "_blank" # optional html a tag target attribute
 
       - name: "GPUScore: Breaking Limit"
         logo: "assets/tools/gpuscore-bl.png"
+        subtitle: "Demanding cross-platform ray tracing benchmark for mobile and desktop."
         tag: "ARM64EC"
         url: "https://www.gpuscore.com/benchmarks/gpuscore/breaking-limit/"
         target: "_blank" # optional html a tag target attribute
 
       - name: "PassMark PerformanceTest"
         logo: "assets/tools/performancetest.png"
+        subtitle: "PC benchmarking tool that runs tests on your computer's CPU, graphics, memory, and disk."
         url: "https://www.passmark.com/products/performancetest/download.php"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Novabench"
         logo: "assets/tools/novabench.png"
-        subtitle: "Test, monitor, and understand computer performance"
+        subtitle: "Test, monitor, and understand computer performance."
         url: "https://novabench.com/download"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Geekbench AI"
         logo: "assets/tools/geekbenchai.png"
+        subtitle: "Benchmark that measures a device's CPU, GPU, and NPU performance on real-world machine learning tasks."
         url: "https://www.geekbench.com/ai/download/"
         target: "_blank" # optional html a tag target attribute
 
       - name: "glmark2"
         logo: "assets/tools/clionly.png"
-        subtitle: "unofficial builds of an OpenGL 2.0 benchmark"
+        subtitle: "Unofficial build, OpenGL 2.0 benchmark."
         url: "https://github.com/ArminiusTux/WinARM64-binaries/releases/tag/glmark2"
         target: "_blank" # optional html a tag target attribute
 
       - name: "CrystalDiskInfo"
         logo: "assets/tools/crystaldiskinfo.png"
+        subtitle: "Free tool that monitors your computer's hard drive (HDD) and solid-state drive (SSD) health, showing status, temperature, and S.M.A.R.T. data to help prevent data loss."
         url: "https://crystalmark.info/en/download/"
         target: "_blank" # optional html a tag target attribute
 
       - name: "CrystalDiskMark"
         logo: "assets/tools/crystaldiskmark.png"
+        subtitle: "Simple, free Windows utility that benchmarks storage drive speed, showing sequential and random read/write performance in MB/s for quick health checks and comparisons."
         url: "https://crystalmark.info/en/download/"
         target: "_blank" # optional html a tag target attribute
 
       - name: "AIDA64"
         logo: "assets/tools/aida64.png"
+        subtitle: "System diagnostics, benchmarking, and hardware monitoring tool for PC enthusiasts."
         tag: "ARM32"
         url: "https://apps.microsoft.com/detail/9NBLGGH2WNWH"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Speedtest by Ookla"
         logo: "assets/tools/speedtest.png"
+        subtitle: "Leading tool for accurately measuring your internet's download speed, upload speed, and latency."
         tag: "ARM32"
         url: "https://apps.microsoft.com/store/detail/speedtest-by-ookla/9NBLGGH4Z1JC"
         target: "_blank" # optional html a tag target attribute
 
       - name: "MemTest86"
         logo: "assets/tools/memtest86.png"
+        subtitle: "Standalone bootable tool that thoroughly tests a computer's RAM for errors."
         tag: "UEFI boot"
         url: "https://www.memtest86.com/download.htm"
         target: "_blank" # optional html a tag target attribute
 
       - name: "CPU-Z"
         logo: "assets/tools/cpuz.png"
+        subtitle: "Free utility that provides detailed, real-time information about your computer's core hardware, including the processor (CPU), motherboard, RAM, and graphics card."
         url: "https://www.cpuid.com/softwares/cpu-z-arm64.html"
         target: "_blank" # optional html a tag target attribute
 
       - name: "HWMonitor"
         logo: "assets/tools/hwmonitor.png"
+        subtitle: "Real-time PC hardware sensor monitoring tool."
         url: "https://www.cpuid.com/softwares/hwmonitor-arm64.html"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Glow"
         logo: "assets/tools/glow.png"
-        subtitle: "System Analysis Software"
+        subtitle: "System Analysis Software."
         url: "https://github.com/roines45/glow/releases"
         target: "_blank" # optional html a tag target attribute
 
       - name: "precord"
         logo: "assets/tools/clionly.png"
-        subtitle: "unofficial builds - recording process or system performance data."
+        subtitle: "Unofficial build, recording process or system performance data."
         url: "https://github.com/iKineticate/Windows-ARM64-Binaries/releases/tag/precord"
         target: "_blank" # optional html a tag target attribute
 
       - name: "fastfetch"
         logo: "assets/tools/clionly.png"
-        subtitle: "fetching system information and displaying them in a pretty way."
+        subtitle: "Fetching system information and displaying them in a pretty way."
         url: "https://github.com/fastfetch-cli/fastfetch/releases"
         target: "_blank" # optional html a tag target attribute
 
       - name: "HWiNFO"
         logo: "assets/tools/hwinfo.png"
-        subtitle: "System Information"
+        subtitle: "System Information."
         url: "https://www.hwinfo.com/download/"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Iperf"
         logo: "assets/tools/iperf.png"
-        subtitle: "ARM64 version of iperf 2.2.n, unofficial build"
+        subtitle: "Unofficial build, iperf 2.2.n."
         url: "https://github.com/fobrs/iperf2/releases"
         target: "_blank" # optional html a tag target attribute
 
@@ -4413,71 +4549,85 @@ services:
 
       - name: "Malwarebytes"
         logo: "assets/tools/malwarebytes.png"
+        subtitle: "Fast, effective anti-malware tool designed to scan for and remove malicious threats."
         url: "https://www.malwarebytes.com/"
         target: "_blank" # optional html a tag target attribute
 
       - name: "SpyShelter Antispyware"
         logo: "assets/tools/spyshelter.png"
+        subtitle: "Specialized antispyware tool that provides real-time protection, focusing on blocking keyloggers and other surveillance software by encrypting keystrokes and controlling suspicious application behavior to safeguard sensitive data."
         url: "https://www.spyshelter.com"
         target: "_blank" # optional html a tag target attribute
         
       - name: "Huorong"
         logo: "assets/tools/huorong.png"
+        subtitle: "Small, light, powerful Chinese security."
         url: "https://www.huorong.cn/person6.html"
         target: "_blank" # optional html a tag target attribute
 
       - name: "CrowdStrike Falcon"
         logo: "assets/tools/Crowdstrike.png"
+        subtitle: "Cloud-native endpoint protection platform designed to stop breaches through AI-driven, real-time threat detection."
         url: "https://www.crowdstrike.com/products/faq/"
         target: "_blank" # optional html a tag target attribute
 
       - name: "ESET NOD32 Antivirus"
         logo: "assets/tools/ESET.png"
+        subtitle: "Lightweight, proactive, real-time protection against malware, viruses, and other online threats with minimal system impact."
         url: "https://www.eset.com/int/home/antivirus/download/"
         target: "_blank" # optional html a tag target attribute
 
       - name: "ESET Internet Security"
         logo: "assets/tools/ESET.png"
+        subtitle: "Provides comprehensive, AI-powered protection against malware, ransomware, and phishing, while securing online banking, browsing, and your home network with features like a firewall and webcam protection, all with minimal impact on system performance."
         url: "https://www.eset.com/us/home/internet-security/download/"
         target: "_blank" # optional html a tag target attribute
 
       - name: "ESET Smart Security Premium"
         logo: "assets/tools/ESET.png"
+        subtitle: "Comprehensive, multi-layered digital protection, blending powerful antivirus with features like VPN, banking security, parental controls, and data encryption."
         url: "https://www.eset.com/int/home/smart-security-premium/download/"
         target: "_blank" # optional html a tag target attribute
 
       - name: "ESET Security Ultimate"
         logo: "assets/tools/ESET.png"
+        subtitle: "Comprehensive digital protection suite offering antivirus, VPN, password management, and identity theft protection."
         url: "https://www.eset.com/us/home/free-trial/"
         target: "_blank" # optional html a tag target attribute
 
       - name: "ESET Small Business Security"
         logo: "assets/tools/ESET.png"
+        subtitle: "Easy-to-manage, AI-powered cybersecurity that protects small businesses from malware, ransomware, and online threats across all devices, including servers, without slowing performance."
         url: "https://www.eset.com/us/home/free-trial/#small-office-protection"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Bitdefender Antivirus Free"
         logo: "assets/tools/bitdefender.png"
+        subtitle: "Powerful, award-winning, real-time virus protection."
         url: "https://www.bitdefender.com/solutions/free.html"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Fort Firewall"
         logo: "assets/tools/fortfirewall.png"
+        subtitle: "Fortigate, powerful digital gatekeeper that blocks bad data and lets good data through, protecting your entire network with integrated features."
         url: "https://github.com/tnodir/fort/releases"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Cisco Endpoint Protection"
         logo: "assets/tools/ciscoendpoint.png"
+        subtitle: "Cloud-native, unified agent that blocks, detects, and remediates endpoint malware."
         url: "https://www.cisco.com/site/us/en/products/security/endpoint-security/secure-endpoint/index.html"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Microsoft Defender"
         logo: "assets/tools/defender.png"
+        subtitle: "Comprehensive security suite that offers real-time, AI-powered protection against cyber threats like malware, ransomware, and phishing, securing devices, identities, apps, and data across personal and business environments."
         url: "https://www.microsoft.com/en-us/security/business/microsoft-defender"
         target: "_blank" # optional html a tag target attribute
 
       - name: "RSA NetWitness"
         logo: "assets/tools/rsanetwitness.png"
+        subtitle: "XDR platform providing pervasive visibility and threat detection by unifying network, endpoint, and log data for faster incident response across modern IT infrastructures, going beyond traditional SIEM."
         url: "https://www.netwitness.com/"
         target: "_blank" # optional html a tag target attribute
 
@@ -4519,13 +4669,13 @@ services:
 
       - name: "KeePass"
         logo: "assets/tools/keepass.png"
-        subtitle: "Free, open source, light-weight and easy-to-use password manager"
+        subtitle: "Open source, light-weight and easy-to-use password manager."
         url: "https://keepass.info/download.html"
         target: "_blank" # optional html a tag target attribute
 
       - name: "KeePassXC"
         logo: "assets/tools/keepassxc.png"
-        subtitle: "unofficial builds"
+        subtitle: "unofficial build, modern fork of the original KeePass, offering a nicer interface, built-in features like TOTP and browser integration, and C++ native performance."
         url: "https://github.com/minnyres/keepassxc-windows-arm64/releases"
         target: "_blank" # optional html a tag target attribute
 
@@ -4561,31 +4711,31 @@ services:
 
       - name: "VeraCrypt"
         logo: "assets/tools/veracrypt.png"
-        subtitle: "a free open source disk encryption software"
+        subtitle: "Open source disk encryption software."
         url: "https://www.veracrypt.fr/en/Downloads.html"
         target: "_blank" # optional html a tag target attribute
 
       - name: "UFS Explorer"
         logo: "assets/tools/ufsexplorer.png"
-        subtitle: "date recovery and access software"
+        subtitle: "Date recovery and access software."
         url: "https://www.ufsexplorer.com/download/"
         target: "_blank" # optional html a tag target attribute
       
       - name: "F-Secure"
         logo: "assets/tools/F-Secure.png"
-        subtitle: "Excluding VPN"
+        subtitle: "Finnish provider of comprehensive consumer cybersecurity software, excluding VPN."
         url: "https://www.f-secure.com/en/total"
         target: "_blank" # optional html a tag target attribute
   
       - name: "Surfshark AV"
         logo: "assets/tools/surfshark.png"
-        subtitle: "Surfshark antivirus"
+        subtitle: "Antivirus, lightweight, real-time malware protection, stopping viruses and spyware while also featuring webcam security."
         url: "https://surfshark.com/antivirus"
         target: "_blank" # optional html a tag target attribute  
 
       - name: "ClamAV"
         logo: "assets/tools/clamav.png"
-        subtitle: "open source anti-virus toolkit"
+        subtitle: "Open source anti-virus toolkit."
         tag: "command-line only"
         url: "https://www.clamav.net/downloads#collapseWindowsproduction"
         target: "_blank" # optional html a tag target attribute
@@ -4595,23 +4745,25 @@ services:
     items:
       - name: "Sucrose Wallpaper Engine"
         logo: "assets/tools/sucrose.png"
-        subtitle: "a versatile wallpaper engine"
+        subtitle: "A versatile wallpaper engine."
         url: "https://apps.microsoft.com/detail/xp8jgpbhtjglcq"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Timeline Wallpaper"
         logo: "assets/tools/Timeline.png"
+        subtitle: "A neat, comfortable and smooth wallpaper application. Timeline selects content from over 30 image sources, refining the masterpieces to bring you a touch of surprise."
         url: "https://apps.microsoft.com/detail/9N7VHQ989BB7"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Dynamic Theme"
         logo: "assets/tools/dynamictheme.png"
+        subtitle: "Dynamic background and/or lock screen picture with daily Bing or Windows Spotlight pictures, one Bing or Windows Spotlight picture or personal pictures."
         url: "https://apps.microsoft.com/detail/9nblggh1zbkw"
         target: "_blank" # optional html a tag target attribute
 
       - name: "WinDynamicDesktop"
         logo: "assets/tools/WinDynamicDesktop.png"
-        subtitle: "changes wallpaper based on the time of day."
+        subtitle: "Changes wallpaper based on the time of day."
         url: "https://apps.microsoft.com/detail/9nm8n7dq3z5f"
         target: "_blank" # optional html a tag target attribute
 
@@ -4623,7 +4775,7 @@ services:
 
       - name: "DarkMode"
         logo: "assets/tools/DarkMode.png"
-        subtitle: "automatically switch the color mode of Windows 10/11 systems"
+        subtitle: "Automatically switch the color mode of Windows 10/11 systems."
         url: "https://github.com/Melon-Studio/DarkMode2/releases"
         target: "_blank" # optional html a tag target attribute
 
@@ -4635,71 +4787,74 @@ services:
 
       - name: "ExplorerPatcher"
         logo: "assets/tools/Explorer.png"
-        subtitle: "Customize Windows 10/11 Start Menu/Taskbar/Explorer behavior"
+        subtitle: "Customize Windows 10/11 Start Menu/Taskbar/Explorer behavior."
         url: "https://github.com/valinet/ExplorerPatcher/releases"
         target: "_blank" # optional html a tag target attribute
         
-      - name: "Start 11"
+      - name: "Stardock Start 11"
         logo: "assets/tools/Start11.png"
+        subtitle: "Industry's Most Advanced Start Menu replacement."
         url: "https://www.stardock.com/products/start11/"
         target: "_blank" # optional html a tag target attribute
 
       - name: "StartAllBack"
         logo: "assets/tools/StartAllBack.png"
-        subtitle: "Windows 11 taskbar, file explorer, start menu, and control panel from a better timeline"
+        subtitle: "Windows 11 taskbar, file explorer, start menu, and control panel from a better timeline."
         url: "https://www.startallback.com/"
         target: "_blank" # optional html a tag target attribute
 
       - name: "TranslucentTB"
         logo: "assets/tools/translucenttb.png"
-        subtitle: "makes the Windows taskbar translucent/transparent"
+        subtitle: "Makes the Windows taskbar translucent/transparent."
         url: "https://github.com/TranslucentTB/TranslucentTB/releases"
         target: "_blank" # optional html a tag target attribute
 
       - name: "RetroBar"
         logo: "assets/tools/retrobar.png"
-        subtitle: "Classic Windows taskbar replacement"
+        subtitle: "Classic Windows taskbar replacement."
         url: "https://github.com/dremin/RetroBar/releases"
         target: "_blank"
 
       - name: "WindowPet"
         logo: "assets/tools/windowpet.png"
-        subtitle: "unofficial builds"
+        subtitle: "Unofficial build, whether you are bored of your current desktop or just miss Clippy, Genius and Rover, WindowPet's little rascals will uplift your moods."
         url: "https://github.com/ArminiusTux/WinARM64-binaries/releases/tag/WindowPet"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Desktop Pet (eSheep)"
         logo: "assets/tools/desktoppet.png"
-        subtitle: "Unofficial build, add a pet to your desktop"
+        subtitle: "Unofficial build, add a pet to your desktop."
         url: "https://github.com/tordona/win-arm64-binaries/releases/tag/desktoppet"
         target: "_blank" # optional html a tag target attribute
         
       - name: "Files"
         logo: "assets/tools/files.png"
+        subtitle: "Sleek, open-source file explorer built for Windows, designed to help you organize files and folders with ease."
         url: "https://files.community/download"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Coodesker"
         logo: "assets/tools/coodesker.png"
-        subtitle: "Automatically organize your desktop shortcuts icons and running tasks"
+        subtitle: "Automatically organize your desktop shortcuts icons and running tasks."
         tag: "Purchases"
         url: "https://www.coodesker.com/"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Seelen-UI"
         logo: "assets/tools/seelen.png"
-        subtitle: "Fully Customizable Desktop Environment"
+        subtitle: "Fully Customizable Desktop Environment."
         url: "https://github.com/eythaann/Seelen-UI/releases"
         target: "_blank" # optional html a tag target attribute
 
-      - name: "Cairo"
+      - name: "Cairo Desktop Environment"
         logo: "assets/tools/cairo.png"
+        subtitle: "Customizable, intuitive desktop environment."
         url: "https://github.com/cairoshell/cairoshell/releases"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Zebar"
         logo: "assets/tools/zebar.png"
-        subtitle: "creating customizable and cross-platform taskbars, desktop widgets, and popups."
+        subtitle: "Creating customizable and cross-platform taskbars, desktop widgets, and popups."
         url: "https://github.com/glzr-io/zebar/releases"
         target: "_blank"
 
@@ -4711,48 +4866,52 @@ services:
 
       - name: "MicaForEveryone"
         logo: "assets/tools/MicaForEveryone.png"
-        subtitle: "enable backdrop effects on the title bars of Win32 apps on Windows 11."
+        subtitle: "Enable backdrop effects on the title bars of Win32 apps on Windows 11."
         url: "https://github.com/MicaForEveryone/MicaForEveryone/releases"
         target: "_blank"
 
       - name: "Fluent Flyouts"
         logo: "assets/tools/fluentflyouts.png"
-        subtitle: "a collection of modern flyouts"
+        subtitle: "Collection of modern flyouts."
         url: "https://apps.microsoft.com/detail/9ppcm05rw87x"
         target: "_blank"
 
       - name: "EdgeGesture"
         logo: "assets/tools/edgegesture.png"
-        subtitle: "Enables edge gesture to your windows computer, enhancing the touchscreen experience"
+        subtitle: "Enables edge gesture to your windows computer, enhancing the touchscreen experience."
         url: "https://github.com/felix-sky/EdgeGesture/releases"
 
       - name: "Kando"
         logo: "assets/tools/kando.png"
-        subtitle: "A pie menu for doing things with utmost efficiency."
+        subtitle: "Pie menu for doing things with utmost efficiency."
         url: "https://github.com/kando-menu/kando/releases"
 
-
+      - name: "FluentFlyout"
+        logo: "assets/tools/fluentflyout.png"
+        subtitle: "Media Flyouts, Taskbar Widgets and more."
+        url: "https://github.com/unchihugo/FluentFlyout/releases"
+        
       - name: "FlipIt"
         logo: "assets/tools/flipit.png"
-        subtitle: "Flip Clock Screensaver"
+        subtitle: "Flip Clock Screensaver."
         url: "https://github.com/tordona/FlipIt/releases"
         target: "_blank"
 
       - name: "Starship"
         logo: "assets/tools/Starship.png"
-        subtitle: "infinitely customizable prompt for any shell"
+        subtitle: "Infinitely customizable prompt for any shell."
         url: "https://github.com/starship/starship/releases"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Oh My Posh"
         logo: "assets/tools/ohmyposh.png"
-        subtitle: "platform/shell prompt renderer"
+        subtitle: "Platform/shell prompt renderer."
         url: "https://github.com/JanDeDobbeleer/oh-my-posh/releases"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Open-Shell"
         logo: "assets/tools/openshell.png"
-        subtitle: "Collection of utilities bringing back classic features to Windows"
+        subtitle: "Collection of utilities bringing back classic features to Windows."
         url: "https://github.com/Open-Shell/Open-Shell-Menu/releases"
         target: "_blank" # optional html a tag target attribute
 
@@ -4761,74 +4920,80 @@ services:
     items:
       - name: "DBeaver"
         logo: "assets/tools/dbeaver.png"
-        subtitle: "unofficial builds"
+        subtitle: "Unofficial build, Free universal database tool and SQL client."
         url: "https://github.com/chirontt/dbeaver/releases"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Uotan Toolbox NT"
         logo: "assets/tools/uotantoolboxnt.png"
-        subtitle: "A Modern Toolbox for Geeks"
+        subtitle: "Modern Toolbox for Android & OpenHarmony Devices."
         url: "https://github.com/Uotan-Dev/UotanToolboxNT/releases"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Prometheus"
         logo: "assets/tools/prometheus.png"
+        subtitle: "Open source metrics and monitoring for your systems and services."
         url: "https://prometheus.io/download/"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Foxglove Studio"
         logo: "assets/tools/foxglovestudio.png"
-        subtitle: "robotics development solution"
+        subtitle: "Robotics development solution."
         url: "https://foxglove.dev/download"
         target: "_blank" # optional html a tag target attribute
 
       - name: "SystemView"
         logo: "assets/tools/systemview.png"
-        subtitle: "real-time recording and visualization tool for embedded systems"
+        subtitle: "Real-time recording and visualization tool for embedded systems."
         url: "https://www.segger.com/downloads/systemview/"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Rocrail Basic"
         logo: "assets/tools/rocrail.png"
-        subtitle: "free software for controlling model trains"
+        subtitle: "Free software for controlling model trains."
         url: "https://wiki.rocrail.net/rocrail-snapshot/"
         target: "_blank" # optional html a tag target attribute
 
       - name: "RunCat 365"
         logo: "assets/tools/runcat.png"
-        subtitle: "a cute running cat animation reflects CPU Utilization"
+        subtitle: "Cute running cat animation reflects CPU Utilization."
         url: "https://apps.microsoft.com/detail/9NW5LPNVWFWJ"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Ambie"
         logo: "assets/tools/ambie.png"
-        subtitle: "play white noise and natural sounds"
+        subtitle: "Play white noise and natural sounds."
         url: "https://apps.microsoft.com/detail/9P07XNM5CHP0"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Battery Tracker"
         logo: "assets/tools/BatteryTracker.png"
+        subtitle: "Display the remaining battery percentage on the taskbar."
         url: "https://apps.microsoft.com/detail/9P1FBSLRNM43"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Human Anatomy Atlas"
         logo: "assets/tools/VisibleBody.png"
+        subtitle: "The go-to 3D anatomy reference app for healthcare professionals, students, and professors."
         tag: "Purchases"
         url: "https://apps.microsoft.com/detail/9NCGKTBT3S2Q"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Microsoft PC Manager"
         logo: "assets/tools/msPCManager.png"
+        subtitle: "Utility app for your PC that effortlessly enhances PC performance with just one click. Enjoy seamless storage clean-up, efficient file management, and a host of other powerful features designed to keep your PC running smoothly."
         url: "https://apps.microsoft.com/detail/9PM860492SZD"
         target: "_blank" # optional html a tag target attribute
 
       - name: "FluentWeather"
         logo: "assets/tools/FluentWeather.png"
+        subtitle: "A beautiful weather app."
         url: "https://apps.microsoft.com/detail/9PFD136M8457"
         target: "_blank" # optional html a tag target attribute
 
       - name: "SkylineWeather"
         logo: "assets/tools/SkylineWeather.png"
+        subtitle: "Open-source UWP weather application."
         url: "https://apps.microsoft.com/detail/9N33PK9646X9"
         target: "_blank" # optional html a tag target attribute
 
@@ -4840,37 +5005,37 @@ services:
 
       - name: "Stellarium"
         logo: "assets/tools/stellarium.png"
-        subtitle: "A free open source planetarium for your computer"
+        subtitle: "Open source planetarium for your computer."
         url: "https://github.com/Stellarium/stellarium/releases"
         target: "_blank" # optional html a tag target attribute
 
       - name: "BongoCat"
         logo: "assets/tools/BongoCat.png"
-        subtitle: "An adorable desktop mascot that mirrors your keyboard taps & mouse movements in real-time"
+        subtitle: "Adorable desktop mascot that mirrors your keyboard taps & mouse movements in real-time."
         url: "https://github.com/ayangweb/BongoCat/releases"
         target: "_blank" # optional html a tag target attribute
 
       - name: "KeyEcho"
         logo: "assets/tools/keyccho.png"
-        subtitle: "Listen to Mechanical Keyboard Sounds with Every Keystroke"
+        subtitle: "Listen to Mechanical Keyboard Sounds with Every Keystroke."
         url: "https://github.com/ZacharyL2/KeyEcho/releases"
         target: "_blank" # optional html a tag target attribute
 
       - name: "genact"
         logo: "assets/tools/clionly.png"
-        subtitle: "A nonsense activity generator"
+        subtitle: "Nonsense activity generator."
         url: "https://github.com/svenstaro/genact/releases"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Praat"
         logo: "assets/tools/praat.png"
-        subtitle: "Tool for linguistic research"
+        subtitle: "Tool for linguistic research."
         url: "https://www.fon.hum.uva.nl/praat/download_win.html"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Windows Exporter"
         logo: "assets/tools/windowsexporter.png"
-        subtitle: "A Prometheus exporter for Windows machines"
+        subtitle: "A Prometheus exporter for Windows machines."
         url: "https://github.com/prometheus-community/windows_exporter/releases/latest"
         target: "_blank" # optional html a tag target attribute
         
@@ -4888,50 +5053,50 @@ services:
 
       - name: "MediaInfo"
         logo: "assets/tools/mediainfo.png"
-        subtitle: "Technical and tag data for video and audio files"
+        subtitle: "Technical and tag data for video and audio files."
         url: "https://mediaarea.net/en/MediaInfo/Download/Windows"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Media Preservation Frontend (MPF)"
         logo: "assets/tools/clionly.png"
-        subtitle: "backup tool collection for optical media"
+        subtitle: Bbackup tool collection for optical media."
         tag: "only partially native"        
         url: "https://github.com/SabreTools/MPF/releases"
         target: "_blank" # optional html a tag target attribute
 
       - name: "redumper"
         logo: "assets/tools/clionly.png"
-        subtitle: "a low-level CD dumper utility"
+        subtitle: "Low-level CD dumper utility."
         url: "https://github.com/superg/redumper/releases"
         target: "_blank" # optional html a tag target attribute
 
       - name: "USB Device Tree Viewer"
         logo: "assets/tools/usbdevicetree.png"
-        subtitle: "Shows the USB devices and their properties on Windows"
+        subtitle: "Shows the USB devices and their properties on Windows."
         url: "https://www.uwe-sieber.de/usbtreeview_e.html"
         target: "_blank" # optional html a tag target attribute
 
       - name: "LM-X License Manager"
         logo: "assets/tools/lmxlicense.png"
-        subtitle: "Software licensing management solution"
+        subtitle: "Software licensing management solution."
         url: "https://www.x-formation.com/lm-x-license-manager/get-trial-version/"
         target: "_blank" # optional html a tag target attribute
 
       - name: "JAWS Screen Reader"
         logo: "assets/tools/jawsscreen.png"
-        subtitle: "World’s most popular screen reader software"
+        subtitle: "World’s most popular screen reader software."
         url: "https://support.freedomscientific.com/Downloads/JAWS"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Glance"
         logo: "assets/tools/glance.png"
-        subtitle: "A self-hosted dashboard that puts all your feeds in one place"
+        subtitle: "A self-hosted dashboard that puts all your feeds in one place."
         url: "https://github.com/glanceapp/glance/releases"
         target: "_blank" # optional html a tag target attribute
 
       - name: "fusion"
         logo: "assets/tools/fusion.png"
-        subtitle: "A lightweight, self-hosted friendly RSS reader"
+        subtitle: "A lightweight, self-hosted friendly RSS reader."
         url: "https://github.com/0x2E/fusion/releases"
         target: "_blank" # optional html a tag target attribute
 
@@ -4947,7 +5112,7 @@ services:
 
       - name: "OpenBLAS"
         logo: "assets/tools/dllonly.png"
-        subtitle: "an optimized Basic Linear Algebra Subprograms (BLAS) library"
+        subtitle: "Optimized Basic Linear Algebra Subprograms (BLAS) library"
         url: "https://github.com/OpenMathLib/OpenBLAS/releases"
         target: "_blank" # optional html a tag target attribute
 
@@ -4962,8 +5127,8 @@ services:
 
       - name: "RPCS3"
         logo: "assets/tools/rpcs3.png"
-        subtitle: "Alpha nightly build, PS3 emulator"
-        url: "https://github.com/RPCS3/rpcs3/actions/workflows/rpcs3.yml"
+        subtitle: "Alpha build, currently not working. PS3 emulator"
+        url: "https://rpcs3.net/download"
         target: "_blank" # optional html a tag target attribute
         
       - name: "Eden"
@@ -4998,8 +5163,9 @@ services:
 
       - name: "Vita3K"
         logo: "assets/tools/vita3k.png"
-        subtitle: "Alpha nightly, Sony Vita Emulator"
-        url: "https://github.com/Vita3K/Vita3K/actions/workflows/c-cpp.yml"
+        subtitle: "Nightly builds, Sony Vita Emulator"
+        tag: "In config.yml, set gpu-idx if Vulkan fails to launch or change to OpenGL"
+        url: "https://github.com/Vita3K/Vita3K/releases"
         target: "_blank" # optional html a tag target attribute
         
       - name: "Yabause"
@@ -5152,8 +5318,7 @@ services:
 
       - name: "melonDS"
         logo: "assets/tools/melonds.png"
-        subtitle: "Nintendo DS emulator"
-        tag: "original emulator data needed"
+        subtitle: "Nintendo DS emulator"        
         url: "https://melonds.kuribo64.net/downloads.php"
         target: "_blank" # optional html a tag target attribute
 
@@ -5338,7 +5503,13 @@ services:
         subtitle: "Perform high-speed aerial stunts in an intensive driving experience powered by a brand-new physics engine."             
         url: "https://apps.microsoft.com/detail/9wzdncrfj26j"
         target: "_blank" # optional html a tag target attribute
-
+        
+      - name: "Frontline 1942: World War 2 Online Shooter"
+        logo: "assets/tools/frontline1942.png"
+        subtitle: "Epic online World War II battles"     
+        url: "https://apps.microsoft.com/detail/9NMG6ZQ3VM4B"
+        target: "_blank" # optional html a tag target attribute
+        
       - name: "Five Nights at Freddy’s: Original Series (1-4)"
         logo: "assets/tools/fnaforiginalseries.png"
         subtitle: "Experience the original Five Nights at Freddy’s games that started the legendary horror franchise."
@@ -6358,20 +6529,21 @@ services:
         
       - name: "Qualcomm Adreno GPU Drivers"
         logo: "assets/tools/qualcommdev.png"
-        subtitle: "Windows graphics drivers (Direct3D, OpenCL & Vulkan)"
+        subtitle: "Windows graphics drivers (Direct3D, OpenCL & Vulkan)."
         tag: "for Snapdragon X platforms only"          
         url: "https://softwarecenter.qualcomm.com/catalog/item/Windows_Graphics_Driver"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Qualcomm Hexagon NPU Driver"
         logo: "assets/tools/qualcommdev.png"
-        subtitle: "Windows AI interface drivers"
+        subtitle: "Windows AI interface drivers."
         tag: "for Snapdragon X platforms only"         
         url: "https://softwarecenter.qualcomm.com/catalog/item/Qualcomm_HND"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Vulkan SDK & Runtime"
         logo: "assets/tools/vulkansdk.png"
+        subtitle: "SDK provides tools to build apps, offering compilers, debuggers, and validation layers, while the Vulkan Runtime provides the essential, low-level drivers and loaders needed to execute those apps on hardware, often bundled with graphics drivers for high-performance, cross-platform graphics."
         url: "https://vulkan.lunarg.com/sdk/home#windows"
         target: "_blank" # optional html a tag target attribute
 
@@ -6384,6 +6556,7 @@ services:
 
       - name: "OpenCL & OpenGL Compatibility Pack"
         logo: "assets/tools/openglcompat.png"
+        subtitle: "Lets OpenGL apps run by translating calls to DirectX 12, providing hardware acceleration where native drivers are missing."
         url: "https://apps.microsoft.com/detail/9nqpsl29bfff"
         target: "_blank" # optional html a tag target attribute
         
@@ -6396,49 +6569,50 @@ services:
 
       - name: "dgVoodoo"
         logo: "assets/tools/dgvoodoo.png"
-        subtitle: "3dfx Glide & DirectX wrapper"
+        subtitle: "3dfx Glide & DirectX wrapper."
         url: "http://dege.freeweb.hu/dgVoodoo2/dgVoodoo2/"
         target: "_blank" # optional html a tag target attribute
         
       - name: "Zadig (libwdi)"
         logo: "assets/tools/zadig.png"
-        subtitle: "create & autosign USB drivers"
+        subtitle: "Windows Driver Installation library for USB devices."
         url: "https://github.com/pbatard/libwdi/releases"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Ext4Fsd"
         logo: "assets/tools/ext4fsd.png"
-        subtitle: "ext2/3/4 file system driver"
-        tag: "read from & write onto Linux partitions"
+        subtitle: "Ext 2/3/4 file system driver."
+        tag: "Read from & write onto Linux partitions"
         url: "https://www.accum.se/~bosse/ext2fsd/0.71/signed/"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Rockchip"
         logo: "assets/tools/rockchip.png"
-        subtitle: "RK35xx-based platforms"
+        subtitle: "Drivers for RK35xx platforms."
         url: "https://github.com/worproject/Rockchip-Windows-Drivers/releases"
         target: "_blank" # optional html a tag target attribute
 
       - name: "FTDI Drivers"
         logo: "assets/tools/ftdi.png"
-        subtitle: "USB-to-Serial with VCP, D2XX, and D3XX support"
+        subtitle: "USB-to-Serial with VCP, D2XX, and D3XX support."
         url: "https://ftdichip.com/drivers/"
         target: "_blank" # optional html a tag target attribute
 
       - name: "SEGGER J-Link"
         logo: "assets/tools/seggerjlink.png"
-        subtitle: "line of debug probes available"
+        subtitle: "Drive for line of debug probes."
         url: "https://www.segger.com/downloads/jlink/"
         target: "_blank" # optional html a tag target attribute
 
       - name: "CP210x USB to UART Bridge"
         logo: "assets/tools/siliconlabs.png"
+        subtitle: "The CP210x USB to UART Bridge Virtual COM Port (VCP) drivers are required for device operation as a Virtual COM Port to facilitate host communication with CP210x products."
         url: "https://www.silabs.com/developers/usb-to-uart-bridge-vcp-drivers?tab=downloads"
         target: "_blank" # optional html a tag target attribute
 
       - name: "CH343SER"
         logo: "assets/tools/wch.png"
-        subtitle: "supports CH342/CH343/CH344/CH347/CH9101/CH9102/CH9103/CH9104/CH9143"
+        subtitle: "Supports CH342/CH343/CH344/CH347/CH9101/CH9102/CH9103/CH9104/CH9143 USB to high-speed serial port VCP."
         url: "https://www.wch-ic.com/downloads/CH343SER_ZIP.html"
         target: "_blank" # optional html a tag target attribute
 
@@ -6450,28 +6624,34 @@ services:
 
       - name: "Wacom Drivers"
         logo: "assets/tools/wacom.png"
-        subtitle: "ARM support added as of version 6.4.9"
+        subtitle: "Digital panel drivers, ARM support added as of version 6.4.9."
         url: "https://wacom.com/en-us/support/product-support/drivers"
         target: "_blank" # optional html a tag target attribute
 
       - name: "WinFsp"
         logo: "assets/tools/winfsp.png"
-        subtitle: "Windows File System Proxy platform for custom file systems"
+        subtitle: "Windows File System Proxy platform for custom file systems."
         url: "https://winfsp.dev/rel/"
         target: "_blank" # optional html a tag target attribute
         
       - name: "Alternative A2DP Driver"
         logo: "assets/tools/alternativea2dp.png"
-        subtitle: "Replaces Windows 10/11 inbox Bluetooth A2DP driver and allows you to fine-tune CODEC parameters"
+        subtitle: "Replaces Windows 10/11 inbox Bluetooth A2DP driver and allows you to fine-tune CODEC parameters."
         url: "https://www.bluetoothgoodies.com/a2dp/"
         target: "_blank" # optional html a tag target attribute
 
       - name: "PL2303 Driver"
         logo: "assets/tools/pl2303.png"
-        subtitle: "For PL2303 GC, GS, GT, GL, GE , GD, GR versions"
+        subtitle: "For PL2303 GC, GS, GT, GL, GE , GD, GR versions."
         url: "https://www.prolific.com.tw/portfolio-item/pl2303gt"
         target: "_blank"
 
+      - name: "Custom Apple Magic Trackpad 2 Driver"
+        logo: "assets/tools/clionly.png"
+        subtitle: "Windows Precision Touchpad Driver Implementation for Apple MacBook / Magic Trackpad."
+        url: "https://github.com/imbushuo/mac-precision-touchpad/releases"
+        target: "_blank"
+        
   - name: "Printers"
     icon: "fa-solid fa-print"
     items:
