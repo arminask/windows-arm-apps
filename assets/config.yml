@@ -4920,8 +4920,8 @@ services:
     items:
       - name: "DBeaver"
         logo: "assets/tools/dbeaver.png"
-        subtitle: "Unofficial build, Free universal database tool and SQL client."
-        url: "https://github.com/chirontt/dbeaver/releases"
+        subtitle: "Free universal database tool and SQL client."
+        url: "https://github.com/dbeaver/dbeaver/releases"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Uotan Toolbox NT"
