@@ -1580,7 +1580,13 @@ services:
         subtitle: "Unofficial build of 7-Zip with zstd support"
         url: "https://github.com/mcmilk/7-Zip-zstd/releases"
         target: "_blank" # optional html a tag target attribute
-    
+
+      - name: "7-Zip Dark7zip"
+        logo: "assets/tools/7zip.png"
+        subtitle: "Experiment with dark mode via darkmodelib library for 7-Zip and its fork 7-Zip-zstd."
+        url: "https://github.com/ozone10/7zip-Dark7zip/releases"
+        target: "_blank" # optional html a tag target attribute
+        
       - name: "Bandizip"
         logo: "assets/tools/bandizip.png"
         subtitle: "Free zip, 7z, unzip, unrar Archiver."
@@ -2899,6 +2905,13 @@ services:
         logo: "assets/tools/privadodvpn.png"
         subtitle: "Online Security and Privacy Suite with VPN, Ad Blocker, Antivirus, and More."
         url: "https://privadovpn.com/software/?device=windows"
+        target: "_blank" # optional html a tag target attribute
+        
+      - name: "Radmin VPN"
+        logo: "assets/tools/radminvpn.png"
+        subtitle: "Free and easy-to-use software product to create virtual local networks."
+        tag: "beta"
+        url: "https://radmin-club.com/radmin-vpn/radmin-vpn-for-arm-any-beta-testing-already/"
         target: "_blank" # optional html a tag target attribute
         
   - name: "Network & Cloud Storage"
