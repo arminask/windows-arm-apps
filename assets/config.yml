@@ -6762,6 +6762,12 @@ services:
         subtitle: "Arkscan 2054A, 2054K, 2054N, and 3044C multi-functional thermal printer drivers download half way down page."
         url: "https://www.arkscan.com/technical-support/download"
         target: "_blank" # optional html a tag target attribute 
+
+      - name: "Flash Label"
+        logo: "assets/tools/flashlabel.png"
+        subtitle: "Label and A4 drinter drivers Y810/Y810BT/Y812/Y812BT/Y813/Y813BT/Y41BT/Y42BT/Y43BT, Y468/Y468BT/Y468BT(300DPI)."
+        url: "https://help.flashlabel.com/support/search/solutions?term=windows%20arm"
+        target: "_blank" # optional html a tag target attribute 
         
       - name: "uniFLOW Online Virtual Printer"
         logo: "assets/tools/uniflow.png"
