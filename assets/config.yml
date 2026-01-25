@@ -6756,6 +6756,12 @@ services:
         subtitle: "Microsoft IPP Class Driver (MFP products) supported printers."
         url: "https://www.toshibatec.com/information/20251008_02.html"
         target: "_blank" # optional html a tag target attribute 
+
+      - name: "Arkscan"
+        logo: "assets/tools/arkscan.png"
+        subtitle: "Arkscan 2054A, 2054K, 2054N, and 3044C multi-functional thermal printer drivers download half way down page."
+        url: "https://www.arkscan.com/technical-support/download"
+        target: "_blank" # optional html a tag target attribute 
         
       - name: "uniFLOW Online Virtual Printer"
         logo: "assets/tools/uniflow.png"
