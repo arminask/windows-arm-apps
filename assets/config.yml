@@ -2910,8 +2910,7 @@ services:
       - name: "Radmin VPN"
         logo: "assets/tools/radminvpn.png"
         subtitle: "Free and easy-to-use software product to create virtual local networks."
-        tag: "beta"
-        url: "https://radmin-club.com/radmin-vpn/radmin-vpn-for-arm-any-beta-testing-already/"
+        url: "https://www.radmin-vpn.com/"
         target: "_blank" # optional html a tag target attribute
         
   - name: "Network & Cloud Storage"
