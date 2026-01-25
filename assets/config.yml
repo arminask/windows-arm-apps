@@ -6584,6 +6584,12 @@ services:
         subtitle: "3dfx Glide & DirectX wrapper."
         url: "http://dege.freeweb.hu/dgVoodoo2/dgVoodoo2/"
         target: "_blank" # optional html a tag target attribute
+
+      - name: "Virtual-Display-Driver"
+        logo: "assets/tools/vdd.png"
+        subtitle: "Add virtual monitors to your windows 10/11 device! Works with VR, OBS, Sunshine, and/or any desktop sharing software."
+        url: "https://github.com/VirtualDrivers/Virtual-Display-Driver/releases"
+        target: "_blank" # optional html a tag target attribute
         
       - name: "Zadig (libwdi)"
         logo: "assets/tools/zadig.png"
