@@ -6750,6 +6750,12 @@ services:
         subtitle: "Find Windows 11 support drivers for supported systems or ones that can utilized universal printer driver v4."
         url: "https://www.konicaminolta.com.au/support#drivers"
         target: "_blank" # optional html a tag target attribute 
+
+      - name: "Toshiba"
+        logo: "assets/tools/toshiba.png"
+        subtitle: "Microsoft IPP Class Driver (MFP products) supported printers."
+        url: "https://www.toshibatec.com/information/20251008_02.html"
+        target: "_blank" # optional html a tag target attribute 
         
       - name: "uniFLOW Online Virtual Printer"
         logo: "assets/tools/uniflow.png"
