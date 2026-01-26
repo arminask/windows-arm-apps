@@ -525,10 +525,16 @@ services:
 
       - name: "mpv"
         logo: "assets/tools/mpv.png"
-        subtitle: "use 'mpv.exe --hwdec', open-source, command-line media player based on MPlayer, known for playing nearly any format with powerful features like advanced video output (HDR, scaling) and extensive customization via scripts and configuration, making it a versatile and high-performance choice for video enthusiasts."
-        url: "https://github.com/mpv-player/mpv/releases"
-        target: "_blank" # optional html a tag target attribute
+        subtitle: "Media player, use 'mpv.exe --hwdec', open-source, command-line media player based on MPlayer, known for playing nearly any format with powerful features like advanced video output (HDR, scaling) and extensive customization via scripts and configuration, making it a versatile and high-performance choice for video enthusiasts."
+        url: "httpsMedia player ://github.com/mpv-player/mpv/releases"
+        target: "_blank" # optional html a tag target Media player Ottributeoffering up-to-date dependencies and features.
 
+      - name: "mpv (shinchiro build)"
+        logo: "assets/tools/mpv.png"
+        subtitle: "Media player, Recommend mpv fork build, offering up-to-date dependencies and features."
+        url: "https://github.com/shinchiro/mpv-winbuild-cmake/releases"
+        target: "_blank" # optional html a tag target attribute
+        
       - name: "Kodi"
         logo: "assets/tools/kodi.png"
         subtitle: "Nightly Alpha Builds, Open-source media center that organizes and plays your digital content—movies, shows, music, photos"
