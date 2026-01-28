@@ -525,10 +525,16 @@ services:
 
       - name: "mpv"
         logo: "assets/tools/mpv.png"
-        subtitle: "use 'mpv.exe --hwdec', open-source, command-line media player based on MPlayer, known for playing nearly any format with powerful features like advanced video output (HDR, scaling) and extensive customization via scripts and configuration, making it a versatile and high-performance choice for video enthusiasts."
-        url: "https://github.com/mpv-player/mpv/releases"
-        target: "_blank" # optional html a tag target attribute
+        subtitle: "Media player, use 'mpv.exe --hwdec', open-source, command-line media player based on MPlayer, known for playing nearly any format with powerful features like advanced video output (HDR, scaling) and extensive customization via scripts and configuration, making it a versatile and high-performance choice for video enthusiasts."
+        url: "httpsMedia player ://github.com/mpv-player/mpv/releases"
+        target: "_blank" # optional html a tag target Media player Ottributeoffering up-to-date dependencies and features.
 
+      - name: "mpv (shinchiro build)"
+        logo: "assets/tools/mpv.png"
+        subtitle: "Media player, Recommend mpv fork build, offering up-to-date dependencies and features."
+        url: "https://github.com/shinchiro/mpv-winbuild-cmake/releases"
+        target: "_blank" # optional html a tag target attribute
+        
       - name: "Kodi"
         logo: "assets/tools/kodi.png"
         subtitle: "Nightly Alpha Builds, Open-source media center that organizes and plays your digital content—movies, shows, music, photos"
@@ -952,6 +958,13 @@ services:
         subtitle: "Free and open-source hybrid synthesizer"
         tag: "Nightly"
         url: "https://github.com/surge-synthesizer/surge/releases"
+        target: "_blank" # optional html a tag target attribute 
+        
+      - name: "LMMS (Let's Make Music)"
+        logo: "assets/tools/llms.png"
+        subtitle: "Open-source Digital Audio Workstation (DAW) that enables music creation, editing, and mixing. It includes built-in synthesizers, effects plugins, and a user-friendly interface for composing tracks."
+        tag: "Nightly"
+        url: "https://lmms.io/download#windows"
         target: "_blank" # optional html a tag target attribute 
      
       - name: "OpenUtau"
@@ -1580,7 +1593,13 @@ services:
         subtitle: "Unofficial build of 7-Zip with zstd support"
         url: "https://github.com/mcmilk/7-Zip-zstd/releases"
         target: "_blank" # optional html a tag target attribute
-    
+
+      - name: "7-Zip Dark7zip"
+        logo: "assets/tools/7zip.png"
+        subtitle: "Experiment with dark mode via darkmodelib library for 7-Zip and its fork 7-Zip-zstd."
+        url: "https://github.com/ozone10/7zip-Dark7zip/releases"
+        target: "_blank" # optional html a tag target attribute
+        
       - name: "Bandizip"
         logo: "assets/tools/bandizip.png"
         subtitle: "Free zip, 7z, unzip, unrar Archiver."
@@ -2899,6 +2918,12 @@ services:
         logo: "assets/tools/privadodvpn.png"
         subtitle: "Online Security and Privacy Suite with VPN, Ad Blocker, Antivirus, and More."
         url: "https://privadovpn.com/software/?device=windows"
+        target: "_blank" # optional html a tag target attribute
+        
+      - name: "Radmin VPN"
+        logo: "assets/tools/radminvpn.png"
+        subtitle: "Free and easy-to-use software product to create virtual local networks."
+        url: "https://www.radmin-vpn.com/"
         target: "_blank" # optional html a tag target attribute
         
   - name: "Network & Cloud Storage"
@@ -4920,8 +4945,8 @@ services:
     items:
       - name: "DBeaver"
         logo: "assets/tools/dbeaver.png"
-        subtitle: "Unofficial build, Free universal database tool and SQL client."
-        url: "https://github.com/chirontt/dbeaver/releases"
+        subtitle: "Free universal database tool and SQL client."
+        url: "https://github.com/dbeaver/dbeaver/releases"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Uotan Toolbox NT"
@@ -5662,7 +5687,7 @@ services:
         logo: "assets/tools/gloryofgenerals3.png"
         url: "https://apps.microsoft.com/detail/9N345PF9VVKT"
         target: "_blank" # optional html a tag target attribute
-
+        
       - name: "SDLPoP"
         logo: "assets/tools/sdlpop.png"
         subtitle: "Unofficial build, Prince of Persia 1989 port"
@@ -6572,6 +6597,12 @@ services:
         subtitle: "3dfx Glide & DirectX wrapper."
         url: "http://dege.freeweb.hu/dgVoodoo2/dgVoodoo2/"
         target: "_blank" # optional html a tag target attribute
+
+      - name: "Virtual-Display-Driver"
+        logo: "assets/tools/vdd.png"
+        subtitle: "Add virtual monitors to your windows 10/11 device! Works with VR, OBS, Sunshine, and/or any desktop sharing software."
+        url: "https://github.com/VirtualDrivers/Virtual-Display-Driver/releases"
+        target: "_blank" # optional html a tag target attribute
         
       - name: "Zadig (libwdi)"
         logo: "assets/tools/zadig.png"
@@ -6737,6 +6768,24 @@ services:
         logo: "assets/tools/konicaminolta.png"
         subtitle: "Find Windows 11 support drivers for supported systems or ones that can utilized universal printer driver v4."
         url: "https://www.konicaminolta.com.au/support#drivers"
+        target: "_blank" # optional html a tag target attribute 
+
+      - name: "Toshiba"
+        logo: "assets/tools/toshiba.png"
+        subtitle: "Microsoft IPP Class Driver (MFP products) supported printers."
+        url: "https://www.toshibatec.com/information/20251008_02.html"
+        target: "_blank" # optional html a tag target attribute 
+
+      - name: "Arkscan"
+        logo: "assets/tools/arkscan.png"
+        subtitle: "Arkscan 2054A, 2054K, 2054N, and 3044C multi-functional thermal printer drivers download half way down page."
+        url: "https://www.arkscan.com/technical-support/download"
+        target: "_blank" # optional html a tag target attribute 
+
+      - name: "Flash Label"
+        logo: "assets/tools/flashlabel.png"
+        subtitle: "Label and A4 drinter drivers Y810/Y810BT/Y812/Y812BT/Y813/Y813BT/Y41BT/Y42BT/Y43BT, Y468/Y468BT/Y468BT(300DPI)."
+        url: "https://help.flashlabel.com/support/search/solutions?term=windows%20arm"
         target: "_blank" # optional html a tag target attribute 
         
       - name: "uniFLOW Online Virtual Printer"
