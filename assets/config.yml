@@ -959,6 +959,13 @@ services:
         tag: "Nightly"
         url: "https://github.com/surge-synthesizer/surge/releases"
         target: "_blank" # optional html a tag target attribute 
+        
+      - name: "LMMS (Let's Make Music)"
+        logo: "assets/tools/llms.png"
+        subtitle: "Open-source Digital Audio Workstation (DAW) that enables music creation, editing, and mixing. It includes built-in synthesizers, effects plugins, and a user-friendly interface for composing tracks."
+        tag: "Nightly"
+        url: "https://lmms.io/download#windows"
+        target: "_blank" # optional html a tag target attribute 
      
       - name: "OpenUtau"
         logo: "assets/tools/openutau.png"
@@ -5680,7 +5687,7 @@ services:
         logo: "assets/tools/gloryofgenerals3.png"
         url: "https://apps.microsoft.com/detail/9N345PF9VVKT"
         target: "_blank" # optional html a tag target attribute
-
+        
       - name: "SDLPoP"
         logo: "assets/tools/sdlpop.png"
         subtitle: "Unofficial build, Prince of Persia 1989 port"
