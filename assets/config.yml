@@ -5416,6 +5416,11 @@ services:
         subtitle: "Pie menu for doing things with utmost efficiency."
         url: "https://github.com/kando-menu/kando/releases"
 
+      - name: "Touch Dial"
+        logo: "assets/tools/touchdial.png"
+        subtitle: "Commercial app, customizable on-screen dial that lets you create buttons to open websites and applications, record and play macros, execute key combinations, run Windows actions, launch timers, execute custom PowerShell scripts and more."
+        url: "https://apps.microsoft.com/detail/9p29n7s6zn3b"
+        
       - name: "FluentFlyout"
         logo: "assets/tools/fluentflyout.png"
         subtitle: "Media Flyouts, Taskbar Widgets and more."
