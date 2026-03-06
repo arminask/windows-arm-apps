@@ -4893,8 +4893,8 @@ services:
 
       - name: "Snow"
         logo: "assets/tools/snow.png"
-        subtitle: "Unofficial Build. Emulates classic (Motorola 680x0-based) Macintosh computers"
-        url: "https://github.com/tordona/snow/releases/latest"
+        subtitle: "Emulates classic (Motorola 680x0-based) Macintosh computers"
+        url: "https://github.com/twvd/snow/releases"
         target: "_blank" # optional html a tag target attribute
 
   - name: "Benchmarking & Diagnostics"
@@ -5823,10 +5823,10 @@ services:
         
       - name: "Hades"
         logo: "assets/tools/hades.png"
-        subtitle: "unofficial builds. Game Boy Advance (GBA) emulator"
-        url: "https://github.com/tordona/Hades/releases"
+        subtitle: "Game Boy Advance (GBA) emulator"
+        url: "https://hades-emu.org/download/"
         target: "_blank" # optional html a tag target attribute
-        
+
       - name: "FinalBurn Neo"
         logo: "assets/tools/fbneo.png"
         subtitle: "Unofficial build, arcade Games and select consoles emulator."
