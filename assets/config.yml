@@ -1577,9 +1577,9 @@ services:
 
       - name: "Fly Photos"
         logo: "assets/tools/flyphotos.png"
-        subtitle: "Blazing fast ultra-light photo viewer that works similar to Picasa Photo Viewer."
-        tag: "Nightly build" 
-        url: "https://github.com/riyasy/FlyPhotos/actions"
+        subtitle: "Open Source, Blazing fast ultra-light photo viewer that works similar to Picasa Photo Viewer."
+        tag: "Only MS Store version ARM native" 
+        url: "https://github.com/riyasy/FlyPhotos"
         target: "_blank" # optional html a tag target attribute
         
       - name: "RadiAnt DICOM Viewer"
