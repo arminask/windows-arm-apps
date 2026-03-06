@@ -508,11 +508,11 @@ services:
         url: "https://github.com/yt-dlp/FFmpeg-Builds/releases"
         target: "_blank"
         
-#      - name: "Open Video Downloader"
-#        logo: "assets/tools/openvideodownloader.png"
-#        subtitle: "GUI for YT-DLP."
-#        url: "https://github.com/jely2002/youtube-dl-gui/releases"
-#        target: "_blank"
+      - name: "Open Video Downloader"
+        logo: "assets/tools/openvideodownloader.png"
+        subtitle: "GUI for YT-DLP."
+        url: "https://github.com/jely2002/youtube-dl-gui/releases"
+        target: "_blank"
         
       - name: "Lux"
         logo: "assets/tools/Lux.png"
@@ -657,6 +657,12 @@ services:
         logo: "assets/tools/harmonoid.png"
         subtitle: "Plays & manages your music library."
         url: "https://harmonoid.com/downloads"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Museeks"
+        logo: "assets/tools/museeks.png"
+        subtitle: "Simple, clean, and open-source music player."
+        url: "https://museeks.io/"
         target: "_blank" # optional html a tag target attribute
         
       - name: "Boom Audio Player"
@@ -805,6 +811,13 @@ services:
         url: "https://www.shotcut.org/download/"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "LosslessCut"
+        logo: "assets/tools/losslesscut.png"
+        subtitle: "The swiss army knife of lossless video/audio editing."
+        tag: "Nightly"
+        url: "https://mifi.no/llc/nightly/"
+        target: "_blank" # optional html a tag target attribute
+        
       - name: "Gyroflow"
         logo: "assets/tools/gyroflow.png"
         subtitle: "Video stabilization using gyroscope data"
@@ -1041,7 +1054,7 @@ services:
         tag: "Nightly"
         url: "https://lmms.io/download#windows"
         target: "_blank" # optional html a tag target attribute 
-     
+        
       - name: "OpenUtau"
         logo: "assets/tools/openutau.png"
         subtitle: "Open singing synthesis platform / Open source UTAU successor"
@@ -1062,8 +1075,16 @@ services:
         
       - name: "Audacity"
         logo: "assets/tools/audacity.png"
-        subtitle: "Official beta builds"
+        subtitle: "World's most popular audio editing and recording app."
+        tag: "Beta"
         url: "https://www.audacityteam.org/download/windows/"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Tenacity"
+        logo: "assets/tools/tenacity.png"
+        subtitle: "Open-source easy-to-use, multi-track audio editor/recorder."
+        tag: "Alpha"
+        url: "https://tenacityaudio.org/"
         target: "_blank" # optional html a tag target attribute
         
       - name: "Chordious"
@@ -1087,10 +1108,17 @@ services:
 
       - name: "djay Pro"
         logo: "assets/tools/djaypro.png"
-        subtitle: "Professional DJ Software for Windows"
+        subtitle: "Professional DJ Software."
         url: "https://www.algoriddim.com/djay-pro-windows"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "Mixxx"
+        logo: "assets/tools/mixxx.png"
+        subtitle: "Open source DJ software."
+        tag: "beta"
+        url: "https://mixxx.org/download/#beta"
+        target: "_blank" # optional html a tag target attribute
+        
       - name: "FamiStudio"
         logo: "assets/tools/famistudio.png"
         subtitle: "unofficial build, NES Music Editor"
@@ -1157,8 +1185,21 @@ services:
 
       - name: "Beeskie"
         logo: "assets/tools/beeskie.png"
-        subtitle: "Bluesky client for Windows."
+        subtitle: "Bluesky client."
         url: "https://apps.microsoft.com/detail/9pcgnr7qhqgp"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Dowstodon"
+        logo: "assets/tools/dowstodon.png"
+        subtitle: "Mastodon client."
+        url: "https://apps.microsoft.com/detail/9phnv45jvr2s"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Tuba"
+        logo: "assets/tools/tuba.png"
+        subtitle: "Fediverse / Mastodon client."
+        tag: "Nightly"
+        url: "https://github.com/GeopJr/Tuba/actions/workflows/msys2.yml"
         target: "_blank" # optional html a tag target attribute
         
       - name: "Instagram"
@@ -1500,8 +1541,14 @@ services:
 
       - name: "Image Eye"
         logo: "assets/tools/imageeye.png"
-        subtitle: "viewing images as quickly — nothing else"        
+        subtitle: "Viewing images as quickly — nothing else"        
         url: "https://www.fmjsoft.com/imageeye.html#download"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "void Image Viewer"
+        logo: "assets/tools/voidimageviewer.png"
+        subtitle: "Open-source, lightweight image viewer for Windows with animated GIF/WEBP support"        
+        url: "https://github.com/voidtools/voidImageViewer/releases"
         target: "_blank" # optional html a tag target attribute
         
       - name: "Visum Photo Viewer"
@@ -1526,6 +1573,13 @@ services:
         logo: "assets/tools/clionly.png"
         subtitle: "Practical and minimal image viewer."
         url: "https://github.com/jurplel/qView/releases"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Fly Photos"
+        logo: "assets/tools/flyphotos.png"
+        subtitle: "Open Source, Blazing fast ultra-light photo viewer that works similar to Picasa Photo Viewer."
+        tag: "Beta" 
+        url: "https://github.com/riyasy/FlyPhotos"
         target: "_blank" # optional html a tag target attribute
         
       - name: "RadiAnt DICOM Viewer"
@@ -1991,6 +2045,12 @@ services:
         url: "https://apps.microsoft.com/detail/9PFZCKRHW0BC"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "Fluent Reader"
+        logo: "assets/tools/fluentreader.png"
+        subtitle: "Modern desktop RSS reader."
+        url: "https://apps.microsoft.com/detail/9p71fc94lrh8"
+        target: "_blank" # optional html a tag target attribute
+        
       - name: "Thorium Reader"
         logo: "assets/tools/thoriumreader.png"
         subtitle: "A free, multi-format reading application"
@@ -3258,8 +3318,15 @@ services:
         
       - name: "SonicWALL VPN NetExtender"
         logo: "assets/tools/sonicwallnetextender.png"
-        subtitle: " enables remote users to securely connect and run any application on the company network."
+        subtitle: "Enables remote users to securely connect and run any application on the company network."
         url: "https://old.reddit.com/r/sonicwall/comments/1guir1q/netextender_1030_arm_support_is_finally_here/"
+        target: "_blank" # optional html a tag target attribute
+        
+      - name: "SoftEther VPN"
+        logo: "assets/tools/softether.png"
+        subtitle: "Open source cross-platform multi-protocol VPN software."
+        tag: "Alpha, unsigned network driver"
+        url: "https://github.com/SoftEtherVPN/SoftEtherVPN/actions/workflows/windows.yml"
         target: "_blank" # optional html a tag target attribute
         
   - name: "Network & Cloud Storage"
@@ -4069,13 +4136,19 @@ services:
         url: "https://nodejs.org/en/download"
         target: "_blank" # optional html a tag target attribute
 
-      - name: "NVM for Windows"
-        logo: "assets/tools/clionly.png"
+      - name: "NW.js (Node Webkit)"
+        logo: "assets/tools/nwjs.png"
         tag: "Supports ARM64 versions of Node.js"
-        subtitle: "Node.js version manager for Windows."
-        url: "https://github.com/coreybutler/nvm-windows/releases"
+        subtitle: "Lets you call all Node.js modules directly from DOM and enables a new way of writing applications with all Web technologies."
+        url: "https://nwjs.io/downloads/"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "Node.js"
+        logo: "assets/tools/nodejs.png"
+        subtitle: "Open-source, cross-platform JavaScript runtime environment."        
+        url: "https://nodejs.org/en/download"
+        target: "_blank" # optional html a tag target attribute
+        
       - name: "deno"
         logo: "assets/tools/deno.png"
         subtitle: "Modern runtime for JavaScript and TypeScript."
@@ -4085,8 +4158,7 @@ services:
       - name: "Bun"
         logo: "assets/tools/bun.png"
         subtitle: "All-in-one toolkit for JavaScript and TypeScript apps."
-        tag: "Beta"
-        url: "https://buildkite.com/bun/bun/builds/37525/steps/canvas?sid=019c73a8-0aa1-405a-a3d6-6f7505fd793b"
+        url: "https://github.com/oven-sh/bun/releases"
         target: "_blank" # optional html a tag target attribute
         
       - name: "Electron"
@@ -5344,6 +5416,11 @@ services:
         subtitle: "Pie menu for doing things with utmost efficiency."
         url: "https://github.com/kando-menu/kando/releases"
 
+      - name: "Touch Dial"
+        logo: "assets/tools/touchdial.png"
+        subtitle: "Commercial app, customizable on-screen dial that lets you create buttons to open websites and applications, record and play macros, execute key combinations, run Windows actions, launch timers, execute custom PowerShell scripts and more."
+        url: "https://apps.microsoft.com/detail/9p29n7s6zn3b"
+        
       - name: "FluentFlyout"
         logo: "assets/tools/fluentflyout.png"
         subtitle: "Media Flyouts, Taskbar Widgets and more."
