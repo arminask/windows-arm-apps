@@ -1578,7 +1578,7 @@ services:
       - name: "Fly Photos"
         logo: "assets/tools/flyphotos.png"
         subtitle: "Open Source, Blazing fast ultra-light photo viewer that works similar to Picasa Photo Viewer."
-        tag: "Only MS Store version ARM native" 
+        tag: "Beta" 
         url: "https://github.com/riyasy/FlyPhotos"
         target: "_blank" # optional html a tag target attribute
         
