@@ -2246,6 +2246,13 @@ services:
         subtitle: "Graphical Interface for your package managers."
         url: "https://github.com/Devolutions/UniGetUI/releases"
         target: "_blank" # optional html a tag target attribute
+
+      - name: "Fluent Task Scheduler"
+        logo: "assets/tools/fluenttaskscheduler.png"
+        subtitle: "Professional-grade wrapper for the Windows Task Scheduler API, designed with Microsoft's modern Fluent Design System. It simplifies the creation and management of automation tasks, offering a sleek alternative to the legacy Windows Task Scheduler."
+        tag: "Nightly"
+        url: "https://github.com/TRGamer-tech/FluentTaskScheduler/actions"        
+        target: "_blank" # optional html a tag target attribute
         
       - name: "TextPad"
         logo: "assets/tools/TextPad.png"
