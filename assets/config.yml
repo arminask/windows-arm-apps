@@ -4549,6 +4549,12 @@ services:
         url: "https://www.yubsoft.com/ccode/"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "PureBasic"
+        logo: "assets/tools/purebasic.png"
+        subtitle: "Fast and easy-to-use programming language for creating Windows, Linux, and macOS applications."
+        url: "https://www.purebasic.com/download.php"
+        target: "_blank" # optional html a tag target attribute
+
   - name: "Emulation & Virtualization"
     icon: "fa-solid fa-microchip"
     items:
