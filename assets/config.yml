@@ -913,6 +913,12 @@ services:
         url: "https://github.com/driver1998/Aegisub/releases"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "Subtitle Edit"
+        logo: "assets/tools/subtitle-edit.png"
+        subtitle: "Free (open source) editor for video subtitles"
+        url: "https://github.com/SubtitleEdit/subtitleedit/releases"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "tsMuxeR"
         logo: "assets/tools/tsmuxer.png"
         subtitle: "unofficial build,  muxing tool when re-encondings of video streams are to be avoided"
@@ -2949,6 +2955,12 @@ services:
         url: "https://www.poweriso.com/download.htm"
         target: "_blank"
 
+      - name: "Folder2ISO"
+        logo: "assets/tools/folder2iso.png"
+        subtitle: "Create an ISO Image from a folder"
+        url: "https://www.yubsoft.com/folder2iso/"
+        target: "_blank"
+
       - name: "AnyBurn"
         logo: "assets/tools/anyburn.png"
         subtitle: "Complete solutions for disc burning, imaging, and bootable USB drive creation."
@@ -2996,7 +3008,6 @@ services:
         subtitle: "Real-time audio/speech translation tool based on Windows LiveCaptions."
         url: "https://github.com/SakiRinn/LiveCaptions-Translator/releases"
         target: "_blank" # optional html a tag target attribute
-
 
       - name: "Handy"
         logo: "assets/tools/handy.png"
@@ -4532,6 +4543,12 @@ services:
         url: "https://zed.dev/download"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "CCode"
+        logo: "assets/tools/ccode.png"
+        subtitle: "Free source code editor based on Scintilla"
+        url: "https://www.yubsoft.com/ccode/"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "PureBasic"
         logo: "assets/tools/purebasic.png"
         subtitle: "Fast and easy-to-use programming language for creating Windows, Linux, and macOS applications."
@@ -5459,6 +5476,12 @@ services:
         logo: "assets/tools/openshell.png"
         subtitle: "Collection of utilities bringing back classic features to Windows."
         url: "https://github.com/Open-Shell/Open-Shell-Menu/releases"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "allSnap"
+        logo: "assets/tools/allsnap.png"
+        subtitle: "Utility program that makes all windows snap when moving"
+        url: "https://github.com/tordona/allsnap/releases"
         target: "_blank" # optional html a tag target attribute
 
   - name: "Other"
