@@ -2247,6 +2247,19 @@ services:
   - name: "Tools"
     icon: "fa-solid fa-screwdriver-wrench"
     items:
+      - name: "UniGetUI"
+        logo: "assets/tools/unigetui.png"
+        subtitle: "Graphical Interface for your package managers."
+        url: "https://github.com/Devolutions/UniGetUI/releases"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Fluent Task Scheduler"
+        logo: "assets/tools/fluenttaskscheduler.png"
+        subtitle: "Professional-grade wrapper for the Windows Task Scheduler API, designed with Microsoft's modern Fluent Design System. It simplifies the creation and management of automation tasks, offering a sleek alternative to the legacy Windows Task Scheduler."
+        tag: "Nightly"
+        url: "https://github.com/TRGamer-tech/FluentTaskScheduler/actions"        
+        target: "_blank" # optional html a tag target attribute
+        
       - name: "TextPad"
         logo: "assets/tools/TextPad.png"
         subtitle: "Editor for plain text files of any size."
@@ -3102,6 +3115,13 @@ services:
         url: "https://github.com/moonlight-stream/moonlight-qt/releases/latest"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "Sunshine"
+        logo: "assets/tools/sunshine.png"
+        subtitle: "Self-hosted game stream host for Moonlight."
+        tag: "Nightly"
+        url: "https://github.com/LizardByte/Sunshine/actions/workflows/ci.yml"
+        target: "_blank" # optional html a tag target attribute
+        
       - name: "chiaki-ng"
         logo: "assets/tools/chiaki-ng.png"
         subtitle: "Open Source Software Client for PlayStation 4 and PlayStation 5 Remote Play."
@@ -6063,6 +6083,13 @@ services:
         tag: "Ordo et structura ROMae"
         url: "https://github.com/drpetersonfernandes/SimpleLauncher/releases"
         target: "_blank" # optional html a tag target attribute
+
+      - name: "Nostlan"
+        logo: "assets/tools/nostlan.png"
+        subtitle: "Commercial, The nostalgia launcher for video game emulators."
+        tag: "Demo Available"
+        url: "https://quinton-ashley.itch.io/nostlan"
+        target: "_blank" # optional html a tag target attribute
         
   - name: "Games"
     icon: "fa-solid fa-gamepad"
@@ -6074,6 +6101,13 @@ services:
         url: "https://store.steampowered.com/app/3655390/Alien_Rogue_Incursion_Evolved_Edition/"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "Kingdom Come: Deliverance II"
+        logo: "assets/tools/kingdom_come_2.png"
+        subtitle: "A thrilling story-driven action RPG, with a rich open world, set in 15th century Medieval Europe. Qualcomm SGSR upscale option. Game .exe is x64 stub that loads ARM64EC dll (WHGameArm.dll) process, verified in Process Explorer DLL load list"
+        tag: "ARM64EC"        
+        url: "https://store.steampowered.com/app/1771300/Kingdom_Come_Deliverance_II/"
+        target: "_blank" # optional html a tag target attribute
+        
       - name: "ScummVM"
         logo: "assets/tools/scummvm.png"
         subtitle: "unofficial builds of THE game engine re-creator"
