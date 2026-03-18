@@ -263,9 +263,16 @@ services:
       - name: "Chromium"
         logo: "assets/tools/chromium.png"
         subtitle: "Open-source web browser project that serves as the foundation for Google Chrome, Microsoft Edge, and many other browsers."
+        tag: "Outdated"
         url: "https://chromium.woolyss.com/#windows-on-arm"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "Ungoogled Chromium"
+        logo: "assets/tools/chromium.png"
+        subtitle: "Google Chromium, sans dependency on Google web services. It also features some tweaks to enhance privacy, control, and transparency (almost all of which require manual activation or enabling)."
+        url: "https://ungoogled-software.github.io/ungoogled-chromium-binaries/releases/windows/arm64/"
+        target: "_blank" # optional html a tag target attribute
+        
       - name: "Perplexity Comet"
         logo: "assets/tools/perplexitycomet.png"
         subtitle: "Chromium engine based, AI-powered web browser"
