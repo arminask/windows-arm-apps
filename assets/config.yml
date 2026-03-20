@@ -1756,6 +1756,12 @@ services:
         tag: "Alpha"        
         url: "https://github.com/LibreCAD/LibreCAD/releases/tag/2.2.2_alpha-latest"
         target: "_blank" # optional html a tag target attribute
+
+      - name: "Seamly 2D"
+        logo: "assets/tools/seamly2d.png"
+        subtitle: "Open source patternmaking software to democratize fashion."
+        url: "https://github.com/FashionFreedom/Seamly2D/releases"
+        target: "_blank" # optional html a tag target attribute
         
       - name: "GameMaker"
         logo: "assets/tools/gamemaker.png"
@@ -2524,7 +2530,7 @@ services:
 
       - name: "Ditto"
         logo: "assets/tools/Ditto.png"
-        subtitle: "unofficial builds / windows clipboard"
+        subtitle: "Unofficial build, extension to the Windows Clipboard."
         url: "https://github.com/jglathe/Ditto/tree/jg/arm64build"
         target: "_blank" # optional html a tag target attribute
 
@@ -2539,6 +2545,12 @@ services:
         subtitle: "Clipboard management tool"
         url: "https://github.com/EcoPasteHub/EcoPaste/releases"
         target: "_blank"
+
+      - name: "PastePaw"
+        logo: "assets/tools/pastepaw.png"
+        subtitle: " Elegant clipboard history manager."
+        url: "https://github.com/XueshiQiao/PastePaw/releases"
+        target: "_blank" # optional html a tag target attribute
 
       - name: "Pot"
         logo: "assets/tools/Pot.png"
