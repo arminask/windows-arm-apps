@@ -4615,6 +4615,12 @@ services:
         url: "https://github.com/schellingb/dosbox-pure-unleashed/releases"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "DOSBox"
+        logo: "assets/tools/dosbox-og.png"
+        subtitle: "ARM64 Unofficial Build of DOSBox, the original DOSBox program"
+        url: "https://github.com/jdavidson89/woa-binaries/releases/tag/DosBox"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "ntvdm64.dll + winevdm"
         logo: "assets/tools/win16bit.png"
         tag: "Windows 1.x, 2.x & 3.x"
