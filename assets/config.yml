@@ -263,9 +263,16 @@ services:
       - name: "Chromium"
         logo: "assets/tools/chromium.png"
         subtitle: "Open-source web browser project that serves as the foundation for Google Chrome, Microsoft Edge, and many other browsers."
+        tag: "Outdated"
         url: "https://chromium.woolyss.com/#windows-on-arm"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "Ungoogled Chromium"
+        logo: "assets/tools/chromium.png"
+        subtitle: "Google Chromium, sans dependency on Google web services. It also features some tweaks to enhance privacy, control, and transparency (almost all of which require manual activation or enabling)."
+        url: "https://ungoogled-software.github.io/ungoogled-chromium-binaries/releases/windows/arm64/"
+        target: "_blank" # optional html a tag target attribute
+        
       - name: "Perplexity Comet"
         logo: "assets/tools/perplexitycomet.png"
         subtitle: "Chromium engine based, AI-powered web browser"
@@ -1749,6 +1756,12 @@ services:
         tag: "Alpha"        
         url: "https://github.com/LibreCAD/LibreCAD/releases/tag/2.2.2_alpha-latest"
         target: "_blank" # optional html a tag target attribute
+
+      - name: "Seamly 2D"
+        logo: "assets/tools/seamly2d.png"
+        subtitle: "Open source patternmaking software to democratize fashion."
+        url: "https://github.com/FashionFreedom/Seamly2D/releases"
+        target: "_blank" # optional html a tag target attribute
         
       - name: "GameMaker"
         logo: "assets/tools/gamemaker.png"
@@ -2256,8 +2269,7 @@ services:
       - name: "Fluent Task Scheduler"
         logo: "assets/tools/fluenttaskscheduler.png"
         subtitle: "Professional-grade wrapper for the Windows Task Scheduler API, designed with Microsoft's modern Fluent Design System. It simplifies the creation and management of automation tasks, offering a sleek alternative to the legacy Windows Task Scheduler."
-        tag: "Nightly"
-        url: "https://github.com/TRGamer-tech/FluentTaskScheduler/actions"        
+        url: "https://github.com/TRGamer-tech/FluentTaskScheduler/releases"        
         target: "_blank" # optional html a tag target attribute
         
       - name: "TextPad"
@@ -2518,7 +2530,7 @@ services:
 
       - name: "Ditto"
         logo: "assets/tools/Ditto.png"
-        subtitle: "unofficial builds / windows clipboard"
+        subtitle: "Unofficial build, extension to the Windows Clipboard."
         url: "https://github.com/jglathe/Ditto/tree/jg/arm64build"
         target: "_blank" # optional html a tag target attribute
 
@@ -2533,6 +2545,12 @@ services:
         subtitle: "Clipboard management tool"
         url: "https://github.com/EcoPasteHub/EcoPaste/releases"
         target: "_blank"
+
+      - name: "PastePaw"
+        logo: "assets/tools/pastepaw.png"
+        subtitle: " Elegant clipboard history manager."
+        url: "https://github.com/XueshiQiao/PastePaw/releases"
+        target: "_blank" # optional html a tag target attribute
 
       - name: "Pot"
         logo: "assets/tools/Pot.png"
