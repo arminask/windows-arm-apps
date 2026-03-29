@@ -4868,6 +4868,12 @@ services:
         url: "https://github.com/felixrieseberg/macintosh.js/releases/tag/v1.1.0"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "Pom1"
+        logo: "assets/tools/pom1.png"
+        subtitle: "Unofficial ARM64 build of an Apple I emulator"
+        url: "https://github.com/jdavidson89/woa-binaries/releases/tag/pom1"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "AppleWin"
         logo: "assets/tools/applewin.png"
         subtitle: "unofficial builds of an Apple II emulator"
