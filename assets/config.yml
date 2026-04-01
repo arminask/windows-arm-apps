@@ -303,6 +303,12 @@ services:
         url: "https://www.opera.com/download"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "Samsung Browser"
+        logo: "assets/tools/samsungbrowser.png"
+        subtitle: "Chromium engine based, offering seamless synchronization, ad-blocking, and Agentic AI features (via Perplexity) to summarize content or analyze videos. Designed for Samsung Galaxy users, it enables picking up where you left off between mobile and PC, including shared bookmarks and password auto-fill through Samsung Pass."
+        url: "https://browser.samsung.com/"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "Arc"
         logo: "assets/tools/arcbrowser.png"
         subtitle: "Chromium engine based, browser that reimagines the interface with a customizable sidebar for organizing tabs and bookmarks into 'Spaces,' offering a streamlined, productivity-focused environment with features like split-screen multitasking, notes"
