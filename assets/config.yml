@@ -6829,6 +6829,13 @@ services:
         subtitle: "A free physics sandbox with air pressure, velocity, heat, gravity & endless interactions."
         url: "https://github.com/The-Powder-Toy/The-Powder-Toy/releases"
         target: "_blank" # optional html a tag target attribute
+        
+      - name: "tModLoader"
+        logo: "assets/tools/tModLoader.png"
+        subtitle: "Unnoficial build, a mod to make and play Terraria mods. Supports Terraria 1.4.4 installations."
+        tag: "original game data needed"
+        url: "https://github.com/Alexey-Proger/tModLoader-arm/releases"
+        target: "_blank" # optional html a tag target attribute
      
   - name: "Chess / شطرنج"
     icon: "fa-solid fa-chess-knight"
