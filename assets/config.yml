@@ -2498,6 +2498,13 @@ services:
         url: "https://github.com/srwi/EverythingToolbar/releases"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "OmniSearch"
+        logo: "assets/tools/omnisearch.png"
+        subtitle: "Open source, High-performance Windows file search + duplicate finder using NTFS USN/MFT"
+        tag: "Nightly"
+        url: "https://github.com/Eul45/omni-search/actions/workflows/main.yml"
+        target: "_blank" # optional html a tag target attribute
+        
       - name: "Fluent Search"
         logo: "assets/tools/fluentsearch.png"
         subtitle: "Search for running apps, browser tabs, in-app content, files and more."
