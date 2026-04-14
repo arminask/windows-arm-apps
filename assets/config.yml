@@ -776,14 +776,12 @@ services:
       - name: "Adobe Premiere Pro"
         logo: "assets/tools/adobe-premiere.png"
         subtitle: "Video editor, install via 'Beta Apps' section of Creative Cloud app"
-        tag: "Beta"
         url: "https://helpx.adobe.com/download-install/apps/system-requirements/apps-compatibility-copilot.html"
         target: "_blank" # optional html a tag target attribute'
 
       - name: "Adobe After Effects"
         logo: "assets/tools/adobe-aftereffects.png"
         subtitle: "Motion graphics and visual effects, install via 'Beta Apps' section of Creative Cloud app"
-        tag: "Beta"
         url: "https://helpx.adobe.com/download-install/apps/system-requirements/apps-compatibility-copilot.html"
         target: "_blank" # optional html a tag target attribute'
         
@@ -944,14 +942,12 @@ services:
       - name: "Adobe Audition"
         logo: "assets/tools/adobe-audition.png"
         subtitle: "Audio software for professional recording, mixing, and editing, install via 'Beta Apps' section of Creative Cloud app"
-        tag: "Beta"
         url: "https://helpx.adobe.com/download-install/apps/system-requirements/apps-compatibility-copilot.html"
         target: "_blank" # optional html a tag target attribute'
 
       - name: "Adobe Media Encoder"
         logo: "assets/tools/adobe-mediaencoder.png"
         subtitle: "Encode, transcode, and convert media, install via 'Beta Apps' section of Creative Cloud app"
-        tag: "Beta"
         url: "https://helpx.adobe.com/download-install/apps/system-requirements/apps-compatibility-copilot.html"
         target: "_blank" # optional html a tag target attribute'
         
