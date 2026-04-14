@@ -1599,7 +1599,6 @@ services:
       - name: "Fly Photos"
         logo: "assets/tools/flyphotos.png"
         subtitle: "Open Source, Blazing fast ultra-light photo viewer that works similar to Picasa Photo Viewer."
-        tag: "Beta" 
         url: "https://github.com/riyasy/FlyPhotos"
         target: "_blank" # optional html a tag target attribute
         
@@ -3238,14 +3237,14 @@ services:
         
       - name: "Private Internet Access (PIA)"
         logo: "assets/tools/pia.png"
-        subtitle: "beta version, VPN"
+        subtitle: "Popular, budget-friendly VPN service."
         url: "https://www.privateinternetaccess.com/pages/changelog"
         target: "_blank" # optional html a tag target attribute
 
       - name: "ExpressVPN"
         logo: "assets/tools/expressvpn.png"
-        subtitle: "Click CoPilot+ PC download link"
-        url: "https://www.expressvpn.com/vpn-download/vpn-windows"
+        subtitle: "Top-tier virtual private network (VPN)."
+        url: "https://portal.expressvpn.com/latest#windows"
         target: "_blank" # optional html a tag target attribute
 
       - name: "LetsVPN"
