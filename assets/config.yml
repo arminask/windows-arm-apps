@@ -3897,6 +3897,12 @@ services:
         subtitle: "Subscription based, leading user-friendly graphical Git client."
         url: "https://www.git-tower.com/windows"
         target: "_blank" # optional html a tag target attribute
+
+      - name: "GitComet"
+        logo: "assets/tools/gitcomet.png"
+        subtitle: "Open-source, fastest user interface for GIT workflows."
+        url: "https://github.com/Auto-Explore/GitComet/releases"
+        target: "_blank" # optional html a tag target attribute
         
       - name: "TortoiseSVN"
         logo: "assets/tools/TortoiseSVN.png"
