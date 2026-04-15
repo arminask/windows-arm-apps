@@ -2495,9 +2495,8 @@ services:
 
       - name: "OmniSearch"
         logo: "assets/tools/omnisearch.png"
-        subtitle: "Open source, High-performance Windows file search + duplicate finder using NTFS USN/MFT"
-        tag: "Nightly"
-        url: "https://github.com/Eul45/omni-search/actions/workflows/main.yml"
+        subtitle: "Open source, High-performance Windows file search + duplicate finder using NTFS USN/MFT"        
+        url: "https://github.com/Eul45/omni-search/releases"
         target: "_blank" # optional html a tag target attribute
         
       - name: "Fluent Search"
