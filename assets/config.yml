@@ -1745,6 +1745,30 @@ services:
         url: "https://www.blender.org/download/"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "Maxon Cinema 4D"
+        logo: "assets/tools/maxoncinema4d.png"
+        subtitle: "Professional 3D animation, modeling, simulation and rendering software solution."
+        url: "https://www.maxon.net/en/cinema-4d"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Maxon Red Giant"
+        logo: "assets/tools/maxonredgiant.png"
+        subtitle: "Comprehensive toolkit designed for video post-production, motion graphics, and visual effects."
+        url: "https://www.maxon.net/en/red-giant"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Maxon Red Shift"
+        logo: "assets/tools/maxonredshift.png"
+        subtitle: "Powerful 3D rendering software that helps visualize your 3D designs, models, animations, and scenes."
+        url: "https://www.maxon.net/en/redshift"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Maxon ZBrush"
+        logo: "assets/tools/maxonzbrush.png"
+        subtitle: "Digital sculpting, modeling, and painting software used to create highly detailed 3D models."
+        url: "https://www.maxon.net/en/zbrush"
+        target: "_blank" # optional html a tag target attribute
+        
       - name: "Shapr3D"
         logo: "assets/tools/shapr3d.png"
         subtitle: "3D design workflow application."
