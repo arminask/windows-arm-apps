@@ -5927,8 +5927,8 @@ services:
 
       - name: "Gopher64"
         logo: "assets/tools/gopher64.png"
-        subtitle: "unofficial build, Nintendo 64 emulator"
-        url: "https://github.com/ArminiusTux/WinARM64-binaries/releases/tag/gopher64"
+        subtitle: "Nintendo 64 emulator"
+        url: "https://github.com/gopher64/gopher64/releases"
         target: "_blank" # optional html a tag target attribute
         
       - name: "Visual Boy Advance (VBA-M)"
