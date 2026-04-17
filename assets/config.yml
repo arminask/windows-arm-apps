@@ -775,15 +775,13 @@ services:
 
       - name: "Adobe Premiere Pro"
         logo: "assets/tools/adobe-premiere.png"
-        subtitle: "Video editor, install via 'Beta Apps' section of Creative Cloud app"
-        tag: "Beta"
+        subtitle: "Video editor"
         url: "https://helpx.adobe.com/download-install/apps/system-requirements/apps-compatibility-copilot.html"
         target: "_blank" # optional html a tag target attribute'
 
       - name: "Adobe After Effects"
         logo: "assets/tools/adobe-aftereffects.png"
-        subtitle: "Motion graphics and visual effects, install via 'Beta Apps' section of Creative Cloud app"
-        tag: "Beta"
+        subtitle: "Motion graphics and visual effects"
         url: "https://helpx.adobe.com/download-install/apps/system-requirements/apps-compatibility-copilot.html"
         target: "_blank" # optional html a tag target attribute'
         
@@ -943,15 +941,13 @@ services:
     items:
       - name: "Adobe Audition"
         logo: "assets/tools/adobe-audition.png"
-        subtitle: "Audio software for professional recording, mixing, and editing, install via 'Beta Apps' section of Creative Cloud app"
-        tag: "Beta"
+        subtitle: "Audio software for professional recording, mixing, and editing"
         url: "https://helpx.adobe.com/download-install/apps/system-requirements/apps-compatibility-copilot.html"
         target: "_blank" # optional html a tag target attribute'
 
       - name: "Adobe Media Encoder"
         logo: "assets/tools/adobe-mediaencoder.png"
-        subtitle: "Encode, transcode, and convert media, install via 'Beta Apps' section of Creative Cloud app"
-        tag: "Beta"
+        subtitle: "Encode, transcode, and convert media"
         url: "https://helpx.adobe.com/download-install/apps/system-requirements/apps-compatibility-copilot.html"
         target: "_blank" # optional html a tag target attribute'
         
@@ -1449,6 +1445,12 @@ services:
         url: "https://www.gimp.org/downloads/"
         target: "_blank" # optional html a tag target attribute
         
+      - name: "Computerinsel PhotoLine"
+        logo: "assets/tools/photoline.png"
+        subtitle: "Commercial, photo editing, vector editor, design software."
+        url: "http://www.pl64.com/pages/down.php"
+        target: "_blank" # optional html a tag target attribute
+        
       - name: "IrfanView"
         logo: "assets/tools/irfanview.png"
         subtitle: "a fast, compact and innovative graphic viewer"
@@ -1597,7 +1599,6 @@ services:
       - name: "Fly Photos"
         logo: "assets/tools/flyphotos.png"
         subtitle: "Open Source, Blazing fast ultra-light photo viewer that works similar to Picasa Photo Viewer."
-        tag: "Beta" 
         url: "https://github.com/riyasy/FlyPhotos"
         target: "_blank" # optional html a tag target attribute
         
@@ -1691,6 +1692,12 @@ services:
         subtitle: "unofficial build, raw photo processing program"
         url: "https://github.com/tordona/rawtherapee/releases"
         target: "_blank" # optional html a tag target attribute
+
+      - name: "RapidRAW"
+        logo: "assets/tools/rapidraw.png"
+        subtitle: "Open source non-destructive, and GPU-accelerated RAW image editor built with performance in mind."
+        url: "https://github.com/CyberTimon/RapidRAW/releases"
+        target: "_blank" # optional html a tag target attribute
         
       - name: "PTGui"
         logo: "assets/tools/ptgui.png"
@@ -1738,6 +1745,30 @@ services:
         url: "https://www.blender.org/download/"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "Maxon Cinema 4D"
+        logo: "assets/tools/maxoncinema4d.png"
+        subtitle: "Professional 3D animation, modeling, simulation and rendering software solution."
+        url: "https://www.maxon.net/en/cinema-4d"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Maxon Red Giant"
+        logo: "assets/tools/maxonredgiant.png"
+        subtitle: "Comprehensive toolkit designed for video post-production, motion graphics, and visual effects."
+        url: "https://www.maxon.net/en/red-giant"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Maxon Red Shift"
+        logo: "assets/tools/maxonredshift.png"
+        subtitle: "Powerful 3D rendering software that helps visualize your 3D designs, models, animations, and scenes."
+        url: "https://www.maxon.net/en/redshift"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Maxon ZBrush"
+        logo: "assets/tools/maxonzbrush.png"
+        subtitle: "Digital sculpting, modeling, and painting software used to create highly detailed 3D models."
+        url: "https://www.maxon.net/en/zbrush"
+        target: "_blank" # optional html a tag target attribute
+        
       - name: "Shapr3D"
         logo: "assets/tools/shapr3d.png"
         subtitle: "3D design workflow application."
@@ -2486,6 +2517,12 @@ services:
         url: "https://github.com/srwi/EverythingToolbar/releases"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "OmniSearch"
+        logo: "assets/tools/omnisearch.png"
+        subtitle: "Open source, High-performance Windows file search + duplicate finder using NTFS USN/MFT"        
+        url: "https://github.com/Eul45/omni-search/releases"
+        target: "_blank" # optional html a tag target attribute
+        
       - name: "Fluent Search"
         logo: "assets/tools/fluentsearch.png"
         subtitle: "Search for running apps, browser tabs, in-app content, files and more."
@@ -3021,6 +3058,12 @@ services:
         subtitle: "Capture, share, and boost productivity. All in one. Built on the foundations of ShareX."
         url: "https://github.com/SnapXL/SnapX/releases"
         target: "_blank"
+
+      - name: "Yoink"
+        logo: "assets/tools/yoink.png"
+        subtitle: "Open-source powerful screenshot tool. Capture, annotate, and share with a single hotkey."
+        url: "https://github.com/jasperdevs/yoink/releases"
+        target: "_blank"
         
       - name: "HttpMaster"
         logo: "assets/tools/httpmaster.png"
@@ -3217,14 +3260,14 @@ services:
         
       - name: "Private Internet Access (PIA)"
         logo: "assets/tools/pia.png"
-        subtitle: "beta version, VPN"
+        subtitle: "Popular, budget-friendly VPN service."
         url: "https://www.privateinternetaccess.com/pages/changelog"
         target: "_blank" # optional html a tag target attribute
 
       - name: "ExpressVPN"
         logo: "assets/tools/expressvpn.png"
-        subtitle: "Click CoPilot+ PC download link"
-        url: "https://www.expressvpn.com/vpn-download/vpn-windows"
+        subtitle: "Top-tier virtual private network (VPN)."
+        url: "https://portal.expressvpn.com/latest#windows"
         target: "_blank" # optional html a tag target attribute
 
       - name: "LetsVPN"
@@ -3422,6 +3465,12 @@ services:
         subtitle: "Free and easy NZB (newsgroup binary) downloader"
         tag: "Beta"
         url: "https://sabnzbd.org/downloads.html#"
+        target: "_blank" # optional html a tag target attribute
+        
+      - name: "slskd"
+        logo: "assets/tools/slskd.png"
+        subtitle: "Open source modern client-server application for the Soulseek file sharing network."
+        url: "https://github.com/slskd/slskd/releases"
         target: "_blank" # optional html a tag target attribute
         
       - name: "SmartFTP"
@@ -3871,6 +3920,12 @@ services:
         logo: "assets/tools/towergit.png"
         subtitle: "Subscription based, leading user-friendly graphical Git client."
         url: "https://www.git-tower.com/windows"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "GitComet"
+        logo: "assets/tools/gitcomet.png"
+        subtitle: "Open-source, fastest user interface for GIT workflows."
+        url: "https://github.com/Auto-Explore/GitComet/releases"
         target: "_blank" # optional html a tag target attribute
         
       - name: "TortoiseSVN"
@@ -5872,8 +5927,8 @@ services:
 
       - name: "Gopher64"
         logo: "assets/tools/gopher64.png"
-        subtitle: "unofficial build, Nintendo 64 emulator"
-        url: "https://github.com/ArminiusTux/WinARM64-binaries/releases/tag/gopher64"
+        subtitle: "Nintendo 64 emulator"
+        url: "https://github.com/gopher64/gopher64/releases"
         target: "_blank" # optional html a tag target attribute
         
       - name: "Visual Boy Advance (VBA-M)"
@@ -6130,6 +6185,19 @@ services:
   - name: "Games"
     icon: "fa-solid fa-gamepad"
     items:
+      - name: "Heroic Games Launcher"
+        logo: "assets/tools/heroic.png"
+        subtitle: "Amazon, GOG, Epic game stores launcher."
+        tag: "Nightly"
+        url: "https://github.com/Heroic-Games-Launcher/HeroicGamesLauncher/actions/workflows/build-main.yml"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Xbox"
+        logo: "assets/tools/xbox.png"
+        subtitle: "Install and stream games from Microsoft's XBox app."
+        url: "https://apps.microsoft.com/detail/xbox/9MV0B5HZVK9Z"
+        target: "_blank" # optional html a tag target attribute
+        
       - name: "Alien: Rogue Incursion Evolved Edition"
         logo: "assets/tools/alien_rogue_incursion_evolved_edition.png"
         subtitle: "Action-horror story set in the iconic Alien universe, has Qualcomm SGSR upscale option."
@@ -6665,17 +6733,6 @@ services:
       - name: "Duolingo"
         logo: "assets/tools/duolingo.png"
         url: "https://apps.microsoft.com/store/detail/duolingo-learn-languages-for-free/9WZDNCRCV5XN"
-        target: "_blank" # optional html a tag target attribute
-
-      - name: "Heroic Games Launcher"
-        logo: "assets/tools/heroic.png"
-        url: "https://github.com/Heroic-Games-Launcher/HeroicGamesLauncher/releases/tag/v2.8.0"
-        target: "_blank" # optional html a tag target attribute
-
-      - name: "Xbox"
-        logo: "assets/tools/xbox.png"
-        subtitle: "cloud game streaming"
-        url: "https://apps.microsoft.com/detail/xbox/9MV0B5HZVK9Z"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Plague Inc."
