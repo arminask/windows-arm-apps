@@ -2517,6 +2517,12 @@ services:
         url: "https://www.prestosoft.com/edp_examdiffpro.asp"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "Odiff"
+        logo: "assets/tools/odiff.png"
+        subtitle: "A very fast SIMD-first image comparison library (with nodejs API)"
+        url: "https://github.com/dmtrKovalenko/odiff/releases"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "Everything"
         logo: "assets/tools/everything.png"
         subtitle: "Locate files and folders by name instantly"
