@@ -2222,7 +2222,7 @@ services:
         target: "_blank" # optional html a tag target attribute
 
       - name: "ClassIsland"
-        logo: "assets/tools/cassisland.png"
+        logo: "assets/tools/classisland.png"
         subtitle: "一款功能强、可定制、跨平台，适用于班级多媒体屏幕的课表信息显示工具"
         url: "https://github.com/ClassIsland/ClassIsland/releases"
         target: "_blank" # optional html a tag target attribute
@@ -3658,6 +3658,12 @@ services:
         logo: "assets/tools/transmission.png"
         subtitle: "Unofficial build, torrent client."
         url: "https://github.com/minnyres/transmission-windows-arm64/releases"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Motrix Next"
+        logo: "assets/tools/motrixnext.png"
+        subtitle: "A full-featured download manager — rebuilt from the ground up."
+        url: "https://github.com/AnInsomniacy/motrix-next/releases"
         target: "_blank" # optional html a tag target attribute
 
       - name: "PeerBanHelper"
