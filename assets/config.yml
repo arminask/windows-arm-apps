@@ -6846,6 +6846,12 @@ services:
         url: "https://github.com/Scighost/Starward/releases"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "TinyWiiBackupManager"
+        logo: "assets/tools/tinywiivackupmanager.png"
+        subtitle: "A tiny game backup and homebrew app manager for the Wii"
+        url: "https://github.com/mq1/TinyWiiBackupManager/releases"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "PotatoVN"
         logo: "assets/tools/potatovn.png"
         subtitle: "manage visual novels in your computer."
