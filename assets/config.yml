@@ -2221,6 +2221,12 @@ services:
         url: "https://apps.microsoft.com/detail/9p0kn9s5rp86"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "ClassIsland"
+        logo: "assets/tools/cassisland.png"
+        subtitle: "一款功能强、可定制、跨平台，适用于班级多媒体屏幕的课表信息显示工具"
+        url: "https://github.com/ClassIsland/ClassIsland/releases"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "Super Productivity"
         logo: "assets/tools/superproductivity.png"
         subtitle: "Makes deep work simple by combining tasks, time tracking, and notes inside one open-source task manager."
