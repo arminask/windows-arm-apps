@@ -2069,6 +2069,12 @@ services:
         subtitle: "Invites people who love to journal to pick up their digital pen, express themselves quickly, and evolve their ideas."
         url: "https://apps.microsoft.com/detail/9N318R854RHH"
         target: "_blank" # optional html a tag target attribute
+        
+      - name: "Xournal++"
+        logo: "assets/tools/xournalpp.png"
+        subtitle: "a hand note-taking software written in C++ with the target of flexibility, functionality and speed."
+        url: "https://github.com/xournalpp/xournalpp/releases"
+        target: "_blank" # optional html a tag target attribute
 
       - name: "Readest"
         logo: "assets/tools/readest.png"
