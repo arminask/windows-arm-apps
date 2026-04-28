@@ -5485,6 +5485,12 @@ services:
         url: "https://www.startallback.com/"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "YASB"
+        logo: "assets/tools/yasb.png"
+        subtitle: "A highly configurable Windows status bar written in Python."
+        url: "https://github.com/amnweb/yasb/releases"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "TranslucentTB"
         logo: "assets/tools/translucenttb.png"
         subtitle: "Makes the Windows taskbar translucent/transparent."
