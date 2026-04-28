@@ -2758,6 +2758,12 @@ services:
         url: "https://github.com/TonyHuang6666/WGestures-arm64-/releases" # URL to download the app
         target: "_blank"
 
+      - name: "AltSnap"
+        logo: "assets/tools/altsnap.png"
+        subtitle: "Maintained continuation of Stefan Sundin's AltDrag"
+        url: "https://github.com/RamonUnch/AltSnap/releases"
+        target: "_blank"
+
       - name: "Office Tool Plus" # App name
         logo: "assets/tools/Office Tool Plus.png" # App icon
         subtitle: "A powerful and useful tool for Office deployments"
