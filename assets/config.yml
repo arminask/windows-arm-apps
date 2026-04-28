@@ -5558,6 +5558,12 @@ services:
         url: "https://apps.microsoft.com/detail/9ppcm05rw87x"
         target: "_blank"
 
+      - name: "BongoCat"
+        logo: "assets/tools/BongoCat.png"
+        subtitle: "Adorable desktop mascot that mirrors your keyboard taps & mouse movements in real-time."
+        url: "https://github.com/ayangweb/BongoCat/releases"
+        target: "_blank"
+
       - name: "EdgeGesture"
         logo: "assets/tools/edgegesture.png"
         subtitle: "Enables edge gesture to your windows computer, enhancing the touchscreen experience."
@@ -5711,12 +5717,6 @@ services:
         logo: "assets/tools/openrocket.png"
         subtitle: "Free, fully featured model rocket simulator that allows you to design and simulate your rockets before building and flying them."
         url: "https://openrocket.info/downloads.html"
-        target: "_blank" # optional html a tag target attribute
-        
-      - name: "BongoCat"
-        logo: "assets/tools/BongoCat.png"
-        subtitle: "Adorable desktop mascot that mirrors your keyboard taps & mouse movements in real-time."
-        url: "https://github.com/ayangweb/BongoCat/releases"
         target: "_blank" # optional html a tag target attribute
 
       - name: "KeyEcho"
