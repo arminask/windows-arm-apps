@@ -3071,6 +3071,12 @@ services:
         url: "https://apps.microsoft.com/detail/9mznkqj7sl0b"
         target: "_blank"
 
+      - name: "Snipaste"
+        logo: "assets/tools/snipaste.png"
+        subtitle: "a simple but powerful snipping tool"
+        url: "https://apps.microsoft.com/detail/9p1wxpkb68kx"
+        target: "_blank"
+
       - name: "ShareX"
         logo: "assets/tools/sharex.png"
         subtitle: "unofficial builds - Screen capture, file sharing and productivity tool"
