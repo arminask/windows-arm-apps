@@ -2069,6 +2069,12 @@ services:
         subtitle: "Invites people who love to journal to pick up their digital pen, express themselves quickly, and evolve their ideas."
         url: "https://apps.microsoft.com/detail/9N318R854RHH"
         target: "_blank" # optional html a tag target attribute
+        
+      - name: "Xournal++"
+        logo: "assets/tools/xournalpp.png"
+        subtitle: "a hand note-taking software written in C++ with the target of flexibility, functionality and speed."
+        url: "https://github.com/xournalpp/xournalpp/releases"
+        target: "_blank" # optional html a tag target attribute
 
       - name: "Readest"
         logo: "assets/tools/readest.png"
@@ -2221,6 +2227,12 @@ services:
         url: "https://apps.microsoft.com/detail/9p0kn9s5rp86"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "ClassIsland"
+        logo: "assets/tools/classisland.png"
+        subtitle: "一款功能强、可定制、跨平台，适用于班级多媒体屏幕的课表信息显示工具"
+        url: "https://github.com/ClassIsland/ClassIsland/releases"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "Super Productivity"
         logo: "assets/tools/superproductivity.png"
         subtitle: "Makes deep work simple by combining tasks, time tracking, and notes inside one open-source task manager."
@@ -2293,7 +2305,13 @@ services:
         subtitle: "For tracking packages for different sending couriers"
         url: "https://apps.microsoft.com/detail/9pn0mhpxh0g6"
         target: "_blank" # optional html a tag target attribute  
-        
+
+      - name: "Tencent Docs"
+        logo: "assets/tools/tencentdocs.png"
+        subtitle: "腾讯文档是一款可协作的云端Office工具"
+        url: "https://docs.qq.com/home/download"
+        target: "_blank" # optional html a tag target attribute  
+
   - name: "Tools"
     icon: "fa-solid fa-screwdriver-wrench"
     items:
@@ -2503,6 +2521,12 @@ services:
         logo: "assets/tools/examdiff.png"
         subtitle: "Powerful and easy-to-use file and directory comparison tool."
         url: "https://www.prestosoft.com/edp_examdiffpro.asp"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Odiff"
+        logo: "assets/tools/odiff.png"
+        subtitle: "A very fast SIMD-first image comparison library (with nodejs API)"
+        url: "https://github.com/dmtrKovalenko/odiff/releases"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Everything"
@@ -2744,6 +2768,12 @@ services:
         logo: "assets/tools/WGestures.png" # App icon
         subtitle: "unofficial builds, modern mouse gestures tool"
         url: "https://github.com/TonyHuang6666/WGestures-arm64-/releases" # URL to download the app
+        target: "_blank"
+
+      - name: "AltSnap"
+        logo: "assets/tools/altsnap.png"
+        subtitle: "Maintained continuation of Stefan Sundin's AltDrag"
+        url: "https://github.com/RamonUnch/AltSnap/releases"
         target: "_blank"
 
       - name: "Office Tool Plus" # App name
@@ -3045,6 +3075,12 @@ services:
         logo: "assets/tools/textgrab.png"
         subtitle: "Use OCR in Windows quickly and easily with Text Grab."
         url: "https://apps.microsoft.com/detail/9mznkqj7sl0b"
+        target: "_blank"
+
+      - name: "Snipaste"
+        logo: "assets/tools/snipaste.png"
+        subtitle: "a simple but powerful snipping tool"
+        url: "https://apps.microsoft.com/detail/9p1wxpkb68kx"
         target: "_blank"
 
       - name: "ShareX"
@@ -3652,6 +3688,12 @@ services:
         logo: "assets/tools/transmission.png"
         subtitle: "Unofficial build, torrent client."
         url: "https://github.com/minnyres/transmission-windows-arm64/releases"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Motrix Next"
+        logo: "assets/tools/motrixnext.png"
+        subtitle: "A full-featured download manager — rebuilt from the ground up."
+        url: "https://github.com/AnInsomniacy/motrix-next/releases"
         target: "_blank" # optional html a tag target attribute
 
       - name: "PeerBanHelper"
@@ -5455,6 +5497,12 @@ services:
         url: "https://www.startallback.com/"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "YASB"
+        logo: "assets/tools/yasb.png"
+        subtitle: "A highly configurable Windows status bar written in Python."
+        url: "https://github.com/amnweb/yasb/releases"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "TranslucentTB"
         logo: "assets/tools/translucenttb.png"
         subtitle: "Makes the Windows taskbar translucent/transparent."
@@ -5538,6 +5586,12 @@ services:
         logo: "assets/tools/fluentflyouts.png"
         subtitle: "Collection of modern flyouts."
         url: "https://apps.microsoft.com/detail/9ppcm05rw87x"
+        target: "_blank"
+
+      - name: "BongoCat"
+        logo: "assets/tools/BongoCat.png"
+        subtitle: "Adorable desktop mascot that mirrors your keyboard taps & mouse movements in real-time."
+        url: "https://github.com/ayangweb/BongoCat/releases"
         target: "_blank"
 
       - name: "EdgeGesture"
@@ -5693,12 +5747,6 @@ services:
         logo: "assets/tools/openrocket.png"
         subtitle: "Free, fully featured model rocket simulator that allows you to design and simulate your rockets before building and flying them."
         url: "https://openrocket.info/downloads.html"
-        target: "_blank" # optional html a tag target attribute
-        
-      - name: "BongoCat"
-        logo: "assets/tools/BongoCat.png"
-        subtitle: "Adorable desktop mascot that mirrors your keyboard taps & mouse movements in real-time."
-        url: "https://github.com/ayangweb/BongoCat/releases"
         target: "_blank" # optional html a tag target attribute
 
       - name: "KeyEcho"
@@ -6826,6 +6874,12 @@ services:
         logo: "assets/tools/Starward.png"
         subtitle: "miHoYo games launcher"
         url: "https://github.com/Scighost/Starward/releases"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "TinyWiiBackupManager"
+        logo: "assets/tools/tinywiivackupmanager.png"
+        subtitle: "A tiny game backup and homebrew app manager for the Wii"
+        url: "https://github.com/mq1/TinyWiiBackupManager/releases"
         target: "_blank" # optional html a tag target attribute
 
       - name: "PotatoVN"
