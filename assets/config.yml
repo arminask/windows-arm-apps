@@ -2305,7 +2305,13 @@ services:
         subtitle: "For tracking packages for different sending couriers"
         url: "https://apps.microsoft.com/detail/9pn0mhpxh0g6"
         target: "_blank" # optional html a tag target attribute  
-        
+
+      - name: "Tencent Docs"
+        logo: "assets/tools/tencentdocs.png"
+        subtitle: "腾讯文档是一款可协作的云端Office工具"
+        url: "https://docs.qq.com/home/download"
+        target: "_blank" # optional html a tag target attribute  
+
   - name: "Tools"
     icon: "fa-solid fa-screwdriver-wrench"
     items:
