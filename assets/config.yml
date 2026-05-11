@@ -272,6 +272,12 @@ services:
         subtitle: "Google Chromium, sans dependency on Google web services. It also features some tweaks to enhance privacy, control, and transparency (almost all of which require manual activation or enabling)."
         url: "https://ungoogled-software.github.io/ungoogled-chromium-binaries/releases/windows/arm64/"
         target: "_blank" # optional html a tag target attribute
+
+      - name: "Helium Browser"
+        logo: "assets/tools/heliumbrowser.png"
+        subtitle: "Ungoogled Chromium based, privacy-first with unbiased ad-blocking. No bloat and no noise."
+        url: "https://helium.computer/"
+        target: "_blank" # optional html a tag target attribute
         
       - name: "Perplexity Comet"
         logo: "assets/tools/perplexitycomet.png"
@@ -525,7 +531,7 @@ services:
         logo: "assets/tools/openvideodownloader.png"
         subtitle: "GUI for YT-DLP."
         url: "https://github.com/jely2002/youtube-dl-gui/releases"
-        target: "_blank"
+        target: "_blank"       
         
       - name: "Lux"
         logo: "assets/tools/Lux.png"
@@ -618,7 +624,7 @@ services:
         
       - name: "Plezy"
         logo: "assets/tools/plezy.png"
-        subtitle: "Modern cross-platform Plex client built with Flutter"
+        subtitle: "Modern cross-platform Plex and JellyFin client, unified installer detects CPU and installs native version."
         url: "https://github.com/edde746/plezy/releases"
         target: "_blank" # optional html a tag target attribute        
 
@@ -1552,6 +1558,12 @@ services:
         logo: "assets/tools/wireframesketcher.png"
         subtitle: "Commercial wireframing tool that helps designers, developers and product managers quickly create wireframes, mockups and prototypes for desktop, web and mobile applications."
         url: "https://wireframesketcher.com/download.html"
+        target: "_blank" # optional html a tag target attribute
+        
+      - name: "Lap"
+        logo: "assets/tools/lap.png"
+        subtitle: "Fast Picasa like offline-first photo manager for large local libraries."
+        url: "https://github.com/julyx10/lap/releases"
         target: "_blank" # optional html a tag target attribute
         
       - name: "BandiView"
@@ -2907,6 +2919,12 @@ services:
         subtitle: "Donateware, Http Rest Client and Load Testing for Windows."
         url: "https://websurge.west-wind.com/download"
         target: "_blank"
+
+      - name: "Yaak"
+        logo: "assets/tools/yaak.png"
+        subtitle: "Open-source, most intuitive desktop API client. Organize and execute REST, GraphQL, WebSockets, Server Sent Events, and gRPC."
+        url: "https://github.com/mountain-loop/yaak/releases"
+        target: "_blank"
         
       - name: "PakePlus"
         logo: "assets/tools/PakePlus.png"
@@ -3095,10 +3113,16 @@ services:
         url: "https://github.com/SnapXL/SnapX/releases"
         target: "_blank"
 
-      - name: "Yoink"
-        logo: "assets/tools/yoink.png"
+      - name: "OddSnap"
+        logo: "assets/tools/oddsnap.png"
         subtitle: "Open-source powerful screenshot tool. Capture, annotate, and share with a single hotkey."
-        url: "https://github.com/jasperdevs/yoink/releases"
+        url: "https://github.com/jasperdevs/odd-snap/releases"
+        target: "_blank"
+
+      - name: "Capster"
+        logo: "assets/tools/capster.png"
+        subtitle: "Screen and video capture with 1TB of free cloud storage."
+        url: "https://github.com/jasperdevs/odd-snap/releases"
         target: "_blank"
         
       - name: "HttpMaster"
@@ -3127,8 +3151,14 @@ services:
 
       - name: "Handy"
         logo: "assets/tools/handy.png"
-        subtitle: "Open source, and extensible speech-to-text application that works completely offline.."
+        subtitle: "Open source, and extensible speech-to-text application that works completely offline."
         url: "https://github.com/cjpais/Handy/releases"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Parla"
+        logo: "assets/tools/parla.png"
+        subtitle: "Open source, voice to text using Whisper, Parakeet and llama.cpp."
+        url: "https://github.com/LitteRabbit-37/Parla/releases"
         target: "_blank" # optional html a tag target attribute
         
       - name: "O&O ShutUp10++"
@@ -4222,6 +4252,12 @@ services:
         url: "https://go.dev/dl/"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "Positron"
+        logo: "assets/tools/positron.png"
+        subtitle: "Unifies exploration and production work in one free, AI-assisted environment, empowering the full spectrum of data science in Python and R."
+        url: "https://positron.posit.co/download.html"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "Rust"
         logo: "assets/tools/rust.png"
         subtitle: "Programming language focused on safety, speed, and concurrency, offering C/C++ performance without garbage collection."
@@ -4239,7 +4275,13 @@ services:
         subtitle: "Approachable, portable, and productive language for high-quality apps on any platform."
         url: "https://dart.dev/get-dart/archive"
         target: "_blank" # optional html a tag target attribute
-
+        
+      - name: "FVM"
+        logo: "assets/tools/clionly.png"
+        subtitle: "Manages Flutter SDK versions per project. Switch between Flutter versions instantly without reinstalling, making it easy to test new releases and maintain consistent builds across your team."
+        url: "https://github.com/leoafarias/fvm/releases"
+        target: "_blank" # optional html a tag target attribute
+        
       - name: "MS OpenJDK"
         logo: "assets/tools/openjdk.png"
         subtitle: "Microsoft builds - Java Development Kit."
@@ -5598,26 +5640,37 @@ services:
         logo: "assets/tools/edgegesture.png"
         subtitle: "Enables edge gesture to your windows computer, enhancing the touchscreen experience."
         url: "https://github.com/felix-sky/EdgeGesture/releases"
-
+        target: "_blank"
+        
       - name: "Kando"
         logo: "assets/tools/kando.png"
         subtitle: "Pie menu for doing things with utmost efficiency."
         url: "https://github.com/kando-menu/kando/releases"
-
+        target: "_blank"
+        
       - name: "Touch Dial"
         logo: "assets/tools/touchdial.png"
         subtitle: "Commercial app, customizable on-screen dial that lets you create buttons to open websites and applications, record and play macros, execute key combinations, run Windows actions, launch timers, execute custom PowerShell scripts and more."
         url: "https://apps.microsoft.com/detail/9p29n7s6zn3b"
+        target: "_blank"
         
       - name: "FluentFlyout"
         logo: "assets/tools/fluentflyout.png"
         subtitle: "Media Flyouts, Taskbar Widgets and more."
         url: "https://github.com/unchihugo/FluentFlyout/releases"
-
+        target: "_blank"
+        
       - name: "DynamicWin Legacy"
         logo: "assets/tools/dynamicwin.png"
         subtitle: "Dynamic Island inspired Windows App that brings in a bunch of features like widgets or a file tray that works like a clipboard. Similar to dynamic notches that you can find on macOS like NotchNook."
         url: "https://github.com/59xa/DynamicWin-Legacy/releases"
+        target: "_blank"
+        
+      - name: "GlazeWM"
+        logo: "assets/tools/glazewm.png"
+        subtitle: "Tiling window manager inspired by i3wm."
+        url: "https://github.com/glzr-io/glazewm"
+        target: "_blank"
         
       - name: "FlipIt"
         logo: "assets/tools/flipit.png"
@@ -6033,7 +6086,14 @@ services:
         subtitle: "unofficial builds, Sega Dreamcast emulator"
         url: "https://github.com/ArminiusTux/WinARM64-binaries/releases/tag/flycast"
         target: "_blank" # optional html a tag target attribute
-
+        
+      - name: "nullDC"
+        logo: "assets/tools/nulldc.png"
+        subtitle: "Sega Dreamcast emulator"
+        tag: "Nightly"
+        url: "https://nulldc.emudev.org/builds/"
+        target: "_blank" # optional html a tag target attribute
+        
       - name: "Nintendulator"
         logo: "assets/tools/nintendulator.png"
         subtitle: "unofficial builds, NES (Nintendo) emulator"
@@ -6108,8 +6168,14 @@ services:
 
       - name: "BigPEmu"
         logo: "assets/tools/bigpemu.png"
-        subtitle: "an Atari Jaguar emulator"
+        subtitle: "Atari Jaguar emulator"
         url: "https://www.richwhitehouse.com/jaguar/index.php?content=download"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "BigInstinct"
+        logo: "assets/tools/biginstinct.png"
+        subtitle: "Killer Instinct 1 and 2 arcade emulator"
+        url: "https://richwhitehouse.com/ki/index.php?content=download"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Supermodel"
@@ -6236,8 +6302,7 @@ services:
       - name: "Heroic Games Launcher"
         logo: "assets/tools/heroic.png"
         subtitle: "Amazon, GOG, Epic game stores launcher."
-        tag: "Nightly"
-        url: "https://github.com/Heroic-Games-Launcher/HeroicGamesLauncher/actions/workflows/build-main.yml"
+        url: "https://github.com/Heroic-Games-Launcher/HeroicGamesLauncher/releases"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Xbox"
@@ -7305,7 +7370,7 @@ services:
         subtitle: "All-in-one LLM CLI tool featuring Shell Assistant, Chat-REPL, RAG, AI Tools & Agents, with access to OpenAI, Claude, Gemini, Ollama, Groq, and more."
         url: "https://github.com/sigoden/aichat/releases"
         target: "_blank" # optional html a tag target attribute
-        
+
       - name: "Crush"
         logo: "assets/tools/crush.png"
         subtitle: "Terminal-based AI coding assistant. It supports multiple LLM providers, LSP integration, MCP servers, and session-based context management."
@@ -7316,6 +7381,18 @@ services:
         logo: "assets/tools/github_copilot_taskbar_gui.png"
         subtitle: "System tray access to GitHub Copilot CLI with automatic context awareness. Detects active focus, open applications, file system state, and running services to augment prompts with relevant environment information."
         url: "https://github.com/sirredbeard/ghcopilot-taskbar-gui/releases"
+        target: "_blank" # optional html a tag target attribute
+        
+      - name: "ComfyUI"
+        logo: "assets/tools/comfyui.png"
+        subtitle: "Unofficial build, open-source, powerful, node-based graphical user interface (GUI) for Stable Diffusion that allows users to design and execute advanced AI image and video generation pipelines."
+        url: "https://github.com/Sasen12/ComfyUI-ARM-Windows"
+        target: "_blank" # optional html a tag target attribute
+        
+      - name: "Clawd on Desk"
+        logo: "assets/tools/clawd.png"
+        subtitle: "Open-source, pixel desktop pet that watches Claude Code, Codex, Cursor & other AI coding agents."
+        url: "https://github.com/rullerzhou-afk/clawd-on-desk/releases"
         target: "_blank" # optional html a tag target attribute
         
   - name: "Drivers"
