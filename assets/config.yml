@@ -762,6 +762,12 @@ services:
         subtitle: "Creates a set of virtual audio devices"
         url: "https://vac.muzychenko.net"
         target: "_blank" # optional html a tag target attribute
+
+      - name: "Untamed Music Player"
+        logo: "assets/tools/UntamedMusicPlayer.png"
+        subtitle: "Modern online and local music player built with WinUI 3"
+        url: "https://apps.microsoft.com/detail/9NCFN17F3lXJ"
+        target: "_blank" # optional html a tag target attribute
         
   - name: "Video Editing/Broadcast"
     icon: "fa-solid fa-clapperboard"
