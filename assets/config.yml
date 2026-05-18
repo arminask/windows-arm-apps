@@ -3103,8 +3103,8 @@ services:
 
       - name: "ShareX"
         logo: "assets/tools/sharex.png"
-        subtitle: "unofficial builds - Screen capture, file sharing and productivity tool"
-        url: "https://github.com/ahossny/ShareX/releases"
+        subtitle: "Screen capture, file sharing and productivity tool"
+        url: "https://apps.microsoft.com/detail/9nblggh4z1sp"
         target: "_blank"
 
       - name: "SnapX"
