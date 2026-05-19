@@ -7778,3 +7778,9 @@ services:
         subtitle: "Cloud print management solution."
         url: "https://docshield.tungstenautomation.com/Printix/en_US/help/admin/Printix_admin/t_administrator_software.html"
         target: "_blank" # optional html a tag target attribute  
+
+      - name: "FinePrint"
+        logo: "assets/tools/fineprint.png"
+        subtitle: "FinePrint is a Windows printer driver that is a universal print previewer, print output modifier/enhancer, and even PDF viewer."
+        url: "https://fineprint.com/fp/"
+        target: "_blank" # optional html a tag target attribute  
