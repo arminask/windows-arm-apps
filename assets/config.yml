@@ -3179,7 +3179,7 @@ services:
         url: "https://www.mendeley.com/"
         target: "_blank" # optional html a tag target attribute
 
-      - name: "Soundswitch"
+      - name: "SoundSwitch"
         logo: "assets/tools/soundswitch.png"
         subtitle: "Switch your playback/recording audio devices via triggers such as hotkey, tray menu, or app focus"
         url: "https://soundswitch.aaflalo.me/"
