@@ -568,12 +568,6 @@ services:
         url: "https://artifacts.videolan.org/vlc/nightly-win64-arm-llvm/"
         target: "_blank" # optional html a tag target attribute
 
-      - name: "SMPlayer"
-        logo: "assets/tools/smplayer.png"
-        subtitle: "unofficial builds / enable HW decoding, free multimedia player, work as front-end for MPlayer and mpv playback engines. Designed to play virtually all video and audio formats without requiring external codecs"
-        url: "https://github.com/minnyres/smplayer-windows-arm64/releases"
-        target: "_blank" # optional html a tag target attribute
-
       - name: "mpv"
         logo: "assets/tools/mpv.png"
         subtitle: "Media player, use 'mpv.exe --hwdec', open-source, command-line media player based on MPlayer, known for playing nearly any format with powerful features like advanced video output (HDR, scaling) and extensive customization via scripts and configuration, making it a versatile and high-performance choice for video enthusiasts."
@@ -584,6 +578,18 @@ services:
         logo: "assets/tools/mpv.png"
         subtitle: "Media player, Recommend mpv fork build, offering up-to-date dependencies and features."
         url: "https://github.com/shinchiro/mpv-winbuild-cmake/releases"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Soia"
+        logo: "assets/tools/soia.png"
+        subtitle: "Open-source, mpv based high-performance media player, with HDR/Dolby Vision, WebDAV/DLNA/SMB streaming, dual subtitles, and modern native UI."
+        url: "https://github.com/FengZeng/soia/releases"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "SMPlayer"
+        logo: "assets/tools/smplayer.png"
+        subtitle: "unofficial builds / enable HW decoding, free multimedia player, work as front-end for MPlayer and mpv playback engines. Designed to play virtually all video and audio formats without requiring external codecs"
+        url: "https://github.com/minnyres/smplayer-windows-arm64/releases"
         target: "_blank" # optional html a tag target attribute
         
       - name: "Kodi"
@@ -2976,7 +2982,7 @@ services:
 
       - name: "Keyman 19 Alpha"
         logo: "assets/tools/keyman.png"
-        subtitle: "Open-source, helps you type in over 2500 languages."
+        subtitle: "Open-source, keyboard tool that helps you type in over 2500 languages."
         tag: "Alpha"
         url: "https://downloads.keyman.com/windows/alpha/"
         target: "_blank"
