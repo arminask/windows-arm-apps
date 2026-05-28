@@ -526,10 +526,16 @@ services:
         subtitle: "FFmpeg Builds for YT-DLP."
         url: "https://github.com/yt-dlp/FFmpeg-Builds/releases"
         target: "_blank"
+
+      - name: "NeoDLP"
+        logo: "assets/tools/neodlp.png"
+        subtitle: "Open-source, GUI for YT-DLP (Video/Audio Downloader) with Browser Add-In."
+        url: "https://github.com/neosubhamoy/neodlp/releases"
+        target: "_blank"   
         
       - name: "Open Video Downloader"
         logo: "assets/tools/openvideodownloader.png"
-        subtitle: "GUI for YT-DLP."
+        subtitle: "Open-source, GUI for YT-DLP."
         url: "https://github.com/jely2002/youtube-dl-gui/releases"
         target: "_blank"       
         
@@ -6349,6 +6355,12 @@ services:
         subtitle: "unofficial builds of THE game engine re-creator"
         tag: "over 325 games supported"        
         url: "https://github.com/ArminiusTux/WinARM64-binaries/releases/tag/ScummVM"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Dusklight"
+        logo: "assets/tools/dusklight.png"
+        subtitle: "Open-source reverse-engineered re-implementation of Twilight Princess, requires original game disc data."
+        url: "https://github.com/TwilitRealm/dusklight/releases"
         target: "_blank" # optional html a tag target attribute
         
       - name: "Asphalt 8: Airborne"
