@@ -2300,6 +2300,12 @@ services:
         url: "https://github.com/TriliumNext/Trilium/releases"
         target: "_blank" # optional html a tag target attribute
         
+      - name: "Samsung Notes"
+        logo: "assets/tools/samsungnotes.png"
+        subtitle: "Allows you to use the enhanced S Pen to write or draw, and save files to the Cloud. You can use the S Pen to create notes that contain notes, memos, images, voices or music."
+        url: "https://apps.microsoft.com/detail/9nblggh43vhv"
+        target: "_blank" # optional html a tag target attribute
+        
       - name: "Portfolio Performance"
         logo: "assets/tools/portfolio-performance.png"
         subtitle: "Open source tool for performance of an investment portfolio"
@@ -3282,8 +3288,7 @@ services:
       - name: "Sunshine"
         logo: "assets/tools/sunshine.png"
         subtitle: "Self-hosted game stream host for Moonlight."
-        tag: "Nightly"
-        url: "https://github.com/LizardByte/Sunshine/actions/workflows/ci.yml"
+        url: "https://github.com/LizardByte/Sunshine/releases"
         target: "_blank" # optional html a tag target attribute
         
       - name: "chiaki-ng"
