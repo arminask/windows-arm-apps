@@ -2908,6 +2908,12 @@ services:
         url: "https://github.com/dalyIsaac/Whim/releases"
         target: "_blank"
 
+      - name: "WindowTop"
+        logo: "assets/tools/windowtop.png"
+        subtitle: "Always on Top, Opacity, Picture-in-Picture (PiP), Dark Mode, Anchors"
+        url: "https://windowtop.info/"
+        target: "_blank"
+        
       - name: "Three Finger Drag"
         logo: "assets/tools/threefingerdrag.png"
         subtitle: "Embrace the seamless three-finger drag."
