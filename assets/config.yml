@@ -4889,8 +4889,8 @@ services:
 
       - name: "86Box"
         logo: "assets/tools/86box.png"
-        subtitle: "Experimental dev official builds, highly accurate vintage PC emulator."
-        url: "https://github.com/86Box/86Box/actions/workflows/cmake_windows_msys2.yml"
+        subtitle: "Open-source, highly accurate vintage PC emulator."
+        url: "https://github.com/86Box/86Box/releases/"
         target: "_blank" # optional html a tag target attribute
         
       - name: "86Box 4.2"
