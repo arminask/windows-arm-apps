@@ -6515,7 +6515,13 @@ services:
         logo: "assets/tools/gloryofgenerals3.png"
         url: "https://apps.microsoft.com/detail/9N345PF9VVKT"
         target: "_blank" # optional html a tag target attribute
-        
+
+      - name: "Phira"
+        logo: "assets/tools/phira.png"
+        subtitle: "A community-driven rhythm game simulator"
+        url: "https://github.com/TeamFlos/phira/releases"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "SDLPoP"
         logo: "assets/tools/sdlpop.png"
         subtitle: "Unofficial build, Prince of Persia 1989 port"
