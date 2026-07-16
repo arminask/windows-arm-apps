@@ -3824,7 +3824,7 @@ services:
       - name: "qBittorrent"
         logo: "assets/tools/qbittorrent.png"
         subtitle: "Unofficial build, torrent client."
-        url: "https://github.com/minnyres/qbittorrent-windows-arm64/releases"
+        url: "https://github.com/vectorrilke/qbittorrent-windows-arm64-native/releases"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Transmission"
