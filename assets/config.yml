@@ -1748,21 +1748,15 @@ services:
 
       - name: "darktable"
         logo: "assets/tools/darktable.png"
-        subtitle: "unofficial build, open source photography workflow application"
-        url: "https://github.com/tordona/darktable/releases"
+        subtitle: "Workflow application and raw developer. Virtual lighttable and darkroom for photographers"
+        url: "https://github.com/darktable-org/darktable/releases/latest"
         target: "_blank" # optional html a tag target attribute
 
       - name: "RawTherapee"
         logo: "assets/tools/rawtherapee.png"
-        subtitle: "Nightly build, raw photo processing program"
+        subtitle: "Raw photo processing program"
         tag : "Nightly"
-        url: "https://github.com/RawTherapee/RawTherapee/actions/workflows/windows.yml"
-        target: "_blank" # optional html a tag target attribute
-        
-      - name: "RawTherapee"
-        logo: "assets/tools/rawtherapee.png"
-        subtitle: "unofficial build, raw photo processing program"
-        url: "https://github.com/tordona/rawtherapee/releases"
+        url: "https://github.com/RawTherapee/RawTherapee/releases/latest"
         target: "_blank" # optional html a tag target attribute
 
       - name: "RapidRAW"
