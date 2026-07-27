@@ -5266,7 +5266,7 @@ services:
         target: "_blank" # optional html a tag target attribute
 
       - name: "BluetoothHandsFreeToggle"
-        logo: "assets/tools/devprojex.png"
+        logo: "assets/tools/bluetooth-hands-free-toggle.png"
         subtitle: "Open-source Windows utility for ARM64 that recovers clean Bluetooth stereo by fixing headsets stuck in low-quality Hands-Free mode with safe reset, disable, and restore options."
         tag: "ARM64"
         url: "https://github.com/Avazbek22/BluetoothHandsFreeToggle/releases"
