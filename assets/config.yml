@@ -3288,6 +3288,13 @@ services:
         url: "https://soundswitch.aaflalo.me/"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "DevProjex"
+        logo: "assets/tools/devprojex.png"
+        subtitle: "ARM64. Open-source cross-platform GUI and CLI for selecting project files and exporting structured, token-counted context with Smart Ignore, preview, and multiple output formats."
+        tag: "ARM64"
+        url: "https://github.com/Avazbek22/DevProjex/releases"
+        target: "_blank"
+
   - name: "Cross-Device Integration"
     icon: "fa-solid fa-circle-nodes"
     items:
