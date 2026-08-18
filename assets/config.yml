@@ -720,10 +720,10 @@ services:
         url: "https://www.foobar2000.org/other/boom"
         target: "_blank" # optional html a tag target attribute
 
-      - name: "CorePlanetMusicPlayer"
-        logo: "assets/tools/planetmusicplayer.png"
-        subtitle: "Foundational codebase for developing your own music player apps on UWP"
-        url: "https://github.com/Pigeon-Ming/CorePlanetMusicPlayer/releases"
+      - name: "PlanetMusic"
+        logo: "assets/tools/planet_music.png"
+        subtitle: "Local music player for UWP platform"
+        url: "https://apps.microsoft.com/detail/9nt5122pwqb8"
         target: "_blank" # optional html a tag target attribute
 
       - name: "ZXTune"
