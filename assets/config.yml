@@ -6081,6 +6081,12 @@ services:
         url: "https://github.com/tordona/GalaxyBudsClient/releases"
         target: "_blank"
 
+      - name: "OpenFreebuds"
+        logo: "assets/tools/openfreebuds.png"
+        subtitle: "Open source app for HUAWEI FreeBuds"
+        url: "https://github.com/melianmiko/OpenFreebuds"
+        target: "_blank"
+
   - name: "Game Console Emulation"
     icon: "fa-brands fa-playstation"
     items:        
