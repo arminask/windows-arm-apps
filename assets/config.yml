@@ -3118,12 +3118,6 @@ services:
         subtitle: "open-source backup and restore utility."
         url: "https://plakar.io/download/"
         target: "_blank"
-        
-      - name: "GalaxyBudsClient"
-        logo: "assets/tools/galaxybudsclient.png"
-        subtitle: "An unofficial manager for Galaxy Buds devices"
-        url: "https://github.com/tordona/GalaxyBudsClient/releases"
-        target: "_blank"
 
       - name: "Arcade Manager"
         logo: "assets/tools/arcademanager.png"
@@ -6080,6 +6074,12 @@ services:
         subtitle: "Optimized Basic Linear Algebra Subprograms (BLAS) library"
         url: "https://github.com/OpenMathLib/OpenBLAS/releases"
         target: "_blank" # optional html a tag target attribute
+
+      - name: "GalaxyBudsClient"
+        logo: "assets/tools/galaxybudsclient.png"
+        subtitle: "An unofficial manager for Galaxy Buds devices"
+        url: "https://github.com/tordona/GalaxyBudsClient/releases"
+        target: "_blank"
 
   - name: "Game Console Emulation"
     icon: "fa-brands fa-playstation"
