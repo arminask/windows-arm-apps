@@ -2878,6 +2878,12 @@ services:
         url: "https://github.com/RamonUnch/AltSnap/releases"
         target: "_blank"
 
+      - name: "allSnap"
+        logo: "assets/tools/allsnap.png"
+        subtitle: "Utility program that makes all windows snap when moving"
+        url: "https://github.com/tordona/allsnap/releases"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "Office Tool Plus" # App name
         logo: "assets/tools/Office Tool Plus.png" # App icon
         subtitle: "A powerful and useful tool for Office deployments"
@@ -5864,12 +5870,6 @@ services:
         logo: "assets/tools/openshell.png"
         subtitle: "Collection of utilities bringing back classic features to Windows."
         url: "https://github.com/Open-Shell/Open-Shell-Menu/releases"
-        target: "_blank" # optional html a tag target attribute
-
-      - name: "allSnap"
-        logo: "assets/tools/allsnap.png"
-        subtitle: "Utility program that makes all windows snap when moving"
-        url: "https://github.com/tordona/allsnap/releases"
         target: "_blank" # optional html a tag target attribute
 
   - name: "Other"
