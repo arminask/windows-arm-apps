@@ -2413,6 +2413,12 @@ services:
         url: "https://docs.qq.com/home/download"
         target: "_blank" # optional html a tag target attribute  
 
+      - name: "Zeal"
+        logo: "assets/tools/zeal.png"
+        subtitle: "an offline documentation browser"
+        url: "https://github.com/zealdocs/zeal"
+        target: "_blank" # optional html a tag target attribut
+
   - name: "Tools"
     icon: "fa-solid fa-screwdriver-wrench"
     items:
