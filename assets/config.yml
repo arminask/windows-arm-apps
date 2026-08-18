@@ -7548,6 +7548,12 @@ services:
         url: "https://github.com/NexaAI/nexa-sdk"
         target: "_blank" # optional html a tag target attribute
         
+      - name: "GenieX"
+        logo: "assets/tools/geniex.png"
+        subtitle: "Run frontier LLMs and VLMs locally on Qualcomm devices across NPU, GPU, and CPU with a few lines of code"
+        url: "https://geniex.aihub.qualcomm.com/en/run/cli/install"
+        target: "_blank"
+
       - name: "ChatALL"
         logo: "assets/tools/chatall.png"
         subtitle: "Concurrently chat with ChatGPT, Bing Chat, Bard, Alpaca, Vicuna, Claude, ChatGLM, MOSS, 讯飞星火, 文心一言 and more, discover the best answers."
