@@ -2986,6 +2986,12 @@ services:
         url: "https://apps.microsoft.com/detail/9msx91wqcm2v"
         target: "_blank"
 
+      - name: "PeekDesktop"
+        logo: "assets/tools/executable.png"
+        subtitle: "Click empty desktop wallpaper to reveal your desktop — just like macOS Sonoma"
+        url: "https://github.com/shanselman/PeekDesktop/releases"
+        target: "_blank"
+
       - name: "Nightingale"
         logo: "assets/tools/nightingale.png"
         subtitle: "Resource-efficient REST API client for Windows"
