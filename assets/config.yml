@@ -720,10 +720,10 @@ services:
         url: "https://www.foobar2000.org/other/boom"
         target: "_blank" # optional html a tag target attribute
 
-      - name: "CorePlanetMusicPlayer"
-        logo: "assets/tools/planetmusicplayer.png"
-        subtitle: "Foundational codebase for developing your own music player apps on UWP"
-        url: "https://github.com/Pigeon-Ming/CorePlanetMusicPlayer/releases"
+      - name: "PlanetMusic"
+        logo: "assets/tools/planet_music.png"
+        subtitle: "Local music player for UWP platform"
+        url: "https://apps.microsoft.com/detail/9nt5122pwqb8"
         target: "_blank" # optional html a tag target attribute
 
       - name: "ZXTune"
@@ -1866,6 +1866,13 @@ services:
         url: "https://github.com/LibreCAD/LibreCAD/releases/tag/2.2.2_alpha-latest"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "FreeCAD"
+        logo: "assets/tools/freecad.png"
+        subtitle: "a free and opensource multiplatform 3D parametric modeler."
+        tag: "Alpha"        
+        url: "https://github.com/FreeCAD/FreeCAD/releases"
+        target: "_blank"
+
       - name: "Seamly 2D"
         logo: "assets/tools/seamly2d.png"
         subtitle: "Open source patternmaking software to democratize fashion."
@@ -2005,9 +2012,20 @@ services:
         logo: "assets/tools/wpsoffice.png"
         subtitle: "Asian language version, PDF, Docs, Spreadsheet, Slide View & Edit."
         tag: "beta"
-        url: "https://pc-package.wpscdn.cn/wps/download/wps_arm64_beta20.3102.exe"
+        url: "https://apps.microsoft.com/detail/XPFM9B2W5GH3SK"
         target: "_blank" # optional html a tag target attribute
-        
+
+      - name: "Stirling PDF"
+        logo: "assets/tools/stirling.png"
+        subtitle: "The Open-Source PDF Platform"
+        url: "https://github.com/Stirling-Tools/Stirling-PDF/releases"
+        target: "_blank"
+
+      - name: "Adobe Acrobat Reader DC"
+        logo: "assets/tools/adobe_acrobat_reader.png"
+        url: "https://apps.microsoft.com/detail/xpdp273c0xhqh2"
+        target: "_blank"
+
       - name: "PDF X-Change Editor (Free, Plus and Pro)"
         logo: "assets/tools/pdfxchange.png"
         subtitle: "Feature-rich PDF viewer/editor"
@@ -2402,6 +2420,12 @@ services:
         url: "https://docs.qq.com/home/download"
         target: "_blank" # optional html a tag target attribute  
 
+      - name: "Zeal"
+        logo: "assets/tools/zeal.png"
+        subtitle: "an offline documentation browser"
+        url: "https://github.com/zealdocs/zeal"
+        target: "_blank" # optional html a tag target attribut
+
   - name: "Tools"
     icon: "fa-solid fa-screwdriver-wrench"
     items:
@@ -2528,6 +2552,12 @@ services:
         subtitle: "File and archive manager"
         url: "https://www.farmanager.com/download.php"
         target: "_blank"
+
+      - name: "FileBot"
+        logo: "assets/tools/filebot.png"
+        subtitle: "Commercial, the ultimate TV and Movie Renamer."
+        url: "https://www.filebot.net/#download"
+        target: "_blank" # optional html a tag target attribute
 
       - name: "zoxide"
         logo: "assets/tools/clionly.png"
@@ -2788,12 +2818,6 @@ services:
         url: "https://github.com/xgdgsc/EarTrumpet/releases"
         target: "_blank" # optional html a tag target attribute
         
-      - name: "Pingu"
-        logo: "assets/tools/pingu.png"
-        subtitle: "Colored output of ping command"
-        url: "https://github.com/sheepla/pingu/releases"
-        target: "_blank" # optional html a tag target attribute
-        
       - name: "NextTrace"
         logo: "assets/tools/nexttrace.png"
         subtitle: "Open source light-weight visual traceroute tool."
@@ -2810,48 +2834,6 @@ services:
         logo: "assets/tools/SystemInformer.png"
         subtitle: "Monitor system resources, debug software and detect malware"
         url: "https://systeminformer.sourceforge.io/nightly.php"
-        target: "_blank" # optional html a tag target attribute
-
-      - name: "USB Device Tree Viewer"
-        logo: "assets/tools/clionly.png"
-        subtitle: "Based upon the Microsoft USBView sample application found in the Windows Driver Development Kits."
-        url: "https://www.uwe-sieber.de/usbtreeview_e.html#download"
-        target: "_blank" # optional html a tag target attribute
-
-      - name: "HHD Device Monitoring Studio"
-        logo: "assets/tools/devicemonitoringstudio.png"
-        subtitle: "Commercial application to monitor, log and analyze data flowing through your PC ports and connections."
-        url: "https://hhdsoftware.com/device-monitoring-studio"
-        target: "_blank" # optional html a tag target attribute
-
-      - name: "HHD Free USB Analyzer"
-        logo: "assets/tools/free-usb-protocol-analyzer.png"
-        subtitle: "Monitor and Analyze USB Data Flows."
-        url: "https://freeusbanalyzer.com/"
-        target: "_blank" # optional html a tag target attribute
-
-      - name: "HHD Free Serial Analyzer"
-        logo: "assets/tools/hhd-free-serial-protocol-analyzer.png"
-        subtitle: "Monitor and analyze activity of Serial applications and devices connected to the local or remote PC."
-        url: "https://freeserialanalyzer.com/"
-        target: "_blank" # optional html a tag target attribute
-
-      - name: "HHD Free Network Analyzer"
-        logo: "assets/tools/hhd-free-network-protocol-analyzer.png"
-        subtitle: "Monitor and Analyze Network Data Flows."
-        url: "https://freenetworkanalyzer.com/"
-        target: "_blank" # optional html a tag target attribute
-
-      - name: "HHD Free Serial Port Terminal"
-        logo: "assets/tools/hhd-free-serial-port-terminal.png"
-        subtitle: "Run and automate serial port communication tasks."
-        url: "https://freeserialportterminal.com/"
-        target: "_blank" # optional html a tag target attribute
-
-      - name: "HHD DupeCare"
-        logo: "assets/tools/hhd-free-dupecare.png"
-        subtitle: "Automatically deduplicate data and compress files in your folders."
-        url: "https://dupecare.com/"
         target: "_blank" # optional html a tag target attribute
         
       - name: "Company Portal"
@@ -2871,6 +2853,12 @@ services:
         subtitle: "Maintained continuation of Stefan Sundin's AltDrag"
         url: "https://github.com/RamonUnch/AltSnap/releases"
         target: "_blank"
+
+      - name: "allSnap"
+        logo: "assets/tools/allsnap.png"
+        subtitle: "Utility program that makes all windows snap when moving"
+        url: "https://github.com/tordona/allsnap/releases"
+        target: "_blank" # optional html a tag target attribute
 
       - name: "Office Tool Plus" # App name
         logo: "assets/tools/Office Tool Plus.png" # App icon
@@ -2974,6 +2962,12 @@ services:
         url: "https://github.com/dalyIsaac/Whim/releases"
         target: "_blank"
 
+      - name: "GlazeWM"
+        logo: "assets/tools/glazewm.png"
+        subtitle: "Tiling window manager inspired by i3wm."
+        url: "https://github.com/glzr-io/glazewm"
+        target: "_blank"
+
       - name: "WindowTop"
         logo: "assets/tools/windowtop.png"
         subtitle: "Always on Top, Opacity, Picture-in-Picture (PiP), Dark Mode, Anchors"
@@ -2984,6 +2978,12 @@ services:
         logo: "assets/tools/threefingerdrag.png"
         subtitle: "Embrace the seamless three-finger drag."
         url: "https://apps.microsoft.com/detail/9msx91wqcm2v"
+        target: "_blank"
+
+      - name: "PeekDesktop"
+        logo: "assets/tools/executable.png"
+        subtitle: "Click empty desktop wallpaper to reveal your desktop — just like macOS Sonoma"
+        url: "https://github.com/shanselman/PeekDesktop/releases"
         target: "_blank"
 
       - name: "Nightingale"
@@ -3071,12 +3071,6 @@ services:
         url: "https://carinastudio.azurewebsites.net/ULogViewer/"
         target: "_blank"
 
-      - name: "Shell"
-        logo: "assets/tools/Shell.png"
-        subtitle: "Powerful context menu manager for Windows File Explorer"
-        url: "https://nilesoft.org/download"
-        target: "_blank"
-
       - name: "Custom Context Menu"
         logo: "assets/tools/CustomContextMenu.png"
         subtitle: "Add Custom Context Menu For Windows 11"
@@ -3105,12 +3099,6 @@ services:
         logo: "assets/tools/plakar.png"
         subtitle: "open-source backup and restore utility."
         url: "https://plakar.io/download/"
-        target: "_blank"
-        
-      - name: "GalaxyBudsClient"
-        logo: "assets/tools/galaxybudsclient.png"
-        subtitle: "An unofficial manager for Galaxy Buds devices"
-        url: "https://github.com/tordona/GalaxyBudsClient/releases"
         target: "_blank"
 
       - name: "Arcade Manager"
@@ -3379,6 +3367,12 @@ services:
         logo: "assets/tools/deskflow.png"
         subtitle: "Share a single keyboard and mouse between multiple computers."
         url: "https://github.com/deskflow/deskflow/releases"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "LocalSend"
+        logo: "assets/tools/localsend.png"
+        subtitle: "securely share files and messages with nearby devices over your local network without needing an internet connection."
+        url: "https://github.com/localsend/localsend/releases"
         target: "_blank" # optional html a tag target attribute
 
       - name: "LocalSend(Fluent)"
@@ -5696,11 +5690,29 @@ services:
         url: "https://www.startallback.com/"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "Open-Shell"
+        logo: "assets/tools/openshell.png"
+        subtitle: "Collection of utilities bringing back classic features to Windows."
+        url: "https://github.com/Open-Shell/Open-Shell-Menu/releases"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Shell"
+        logo: "assets/tools/Shell.png"
+        subtitle: "Powerful context menu manager for Windows File Explorer"
+        url: "https://nilesoft.org/download"
+        target: "_blank"
+
       - name: "YASB"
         logo: "assets/tools/yasb.png"
         subtitle: "A highly configurable Windows status bar written in Python."
         url: "https://github.com/amnweb/yasb/releases"
         target: "_blank" # optional html a tag target attribute
+
+      - name: "Zebar"
+        logo: "assets/tools/zebar.png"
+        subtitle: "Creating customizable and cross-platform taskbars, desktop widgets, and popups."
+        url: "https://github.com/glzr-io/zebar/releases"
+        target: "_blank"
 
       - name: "TranslucentTB"
         logo: "assets/tools/translucenttb.png"
@@ -5708,40 +5720,22 @@ services:
         url: "https://github.com/TranslucentTB/TranslucentTB/releases"
         target: "_blank" # optional html a tag target attribute
 
-      - name: "Spooky View"
-        logo: "assets/tools/spookyview.png"
-        subtitle: "Open source, program to make any window transparent."
-        url: "https://github.com/littletijn/spooky-view/releases"
-        target: "_blank" # optional html a tag target attribute
-        
       - name: "RetroBar"
         logo: "assets/tools/retrobar.png"
         subtitle: "Classic Windows taskbar replacement."
         url: "https://github.com/dremin/RetroBar/releases"
         target: "_blank"
 
-      - name: "WindowPet"
-        logo: "assets/tools/windowpet.png"
-        subtitle: "Unofficial build, whether you are bored of your current desktop or just miss Clippy, Genius and Rover, WindowPet's little rascals will uplift your moods."
-        url: "https://github.com/ArminiusTux/WinARM64-binaries/releases/tag/WindowPet"
-        target: "_blank" # optional html a tag target attribute
+      - name: "Spooky View"
+        logo: "assets/tools/spookyview.png"
+        subtitle: "Open source, program to make any window transparent."
+        url: "https://github.com/littletijn/spooky-view/releases"
+        target: "_blank"
 
-      - name: "Desktop Pet (eSheep)"
-        logo: "assets/tools/desktoppet.png"
-        subtitle: "Unofficial build, add a pet to your desktop."
-        url: "https://github.com/tordona/win-arm64-binaries/releases/tag/desktoppet"
-        target: "_blank" # optional html a tag target attribute
-        
       - name: "Files"
         logo: "assets/tools/files.png"
         subtitle: "Sleek, open-source file explorer built for Windows, designed to help you organize files and folders with ease."
         url: "https://files.community/download"
-        target: "_blank" # optional html a tag target attribute
-        
-      - name: "FileBot"
-        logo: "assets/tools/filebot.png"
-        subtitle: "Commercial, the ultimate TV and Movie Renamer."
-        url: "https://www.filebot.net/#download"
         target: "_blank" # optional html a tag target attribute
         
       - name: "Coodesker"
@@ -5763,22 +5757,16 @@ services:
         url: "https://github.com/cairoshell/cairoshell/releases"
         target: "_blank" # optional html a tag target attribute
 
-      - name: "Zebar"
-        logo: "assets/tools/zebar.png"
-        subtitle: "Creating customizable and cross-platform taskbars, desktop widgets, and popups."
-        url: "https://github.com/glzr-io/zebar/releases"
-        target: "_blank"
-
-      - name: "BeWidgets"
-        logo: "assets/tools/bewidgets.png"
-        subtitle: "Widgets that make your desktop shine. Modern, personal, effortless."
-        url: "https://apps.microsoft.com/detail/9nq07fg50h2q"
-        target: "_blank"
-
       - name: "MicaForEveryone"
         logo: "assets/tools/MicaForEveryone.png"
         subtitle: "Enable backdrop effects on the title bars of Win32 apps on Windows 11."
         url: "https://github.com/MicaForEveryone/MicaForEveryone/releases"
+        target: "_blank"
+
+      - name: "FluentFlyout"
+        logo: "assets/tools/fluentflyout.png"
+        subtitle: "Media Flyouts, Taskbar Widgets and more."
+        url: "https://github.com/unchihugo/FluentFlyout/releases"
         target: "_blank"
 
       - name: "Fluent Flyouts"
@@ -5787,10 +5775,16 @@ services:
         url: "https://apps.microsoft.com/detail/9ppcm05rw87x"
         target: "_blank"
 
-      - name: "BongoCat"
-        logo: "assets/tools/BongoCat.png"
-        subtitle: "Adorable desktop mascot that mirrors your keyboard taps & mouse movements in real-time."
-        url: "https://github.com/ayangweb/BongoCat/releases"
+      - name: "BeWidgets"
+        logo: "assets/tools/bewidgets.png"
+        subtitle: "Widgets that make your desktop shine. Modern, personal, effortless."
+        url: "https://apps.microsoft.com/detail/9nq07fg50h2q"
+        target: "_blank"
+
+      - name: "DynamicWin Legacy"
+        logo: "assets/tools/dynamicwin.png"
+        subtitle: "Dynamic Island inspired Windows App that brings in a bunch of features like widgets or a file tray that works like a clipboard. Similar to dynamic notches that you can find on macOS like NotchNook."
+        url: "https://github.com/59xa/DynamicWin-Legacy/releases"
         target: "_blank"
 
       - name: "EdgeGesture"
@@ -5798,67 +5792,61 @@ services:
         subtitle: "Enables edge gesture to your windows computer, enhancing the touchscreen experience."
         url: "https://github.com/felix-sky/EdgeGesture/releases"
         target: "_blank"
-        
-      - name: "Kando"
-        logo: "assets/tools/kando.png"
-        subtitle: "Pie menu for doing things with utmost efficiency."
-        url: "https://github.com/kando-menu/kando/releases"
-        target: "_blank"
-        
-      - name: "Touch Dial"
-        logo: "assets/tools/touchdial.png"
-        subtitle: "Commercial app, customizable on-screen dial that lets you create buttons to open websites and applications, record and play macros, execute key combinations, run Windows actions, launch timers, execute custom PowerShell scripts and more."
-        url: "https://apps.microsoft.com/detail/9p29n7s6zn3b"
-        target: "_blank"
-        
-      - name: "FluentFlyout"
-        logo: "assets/tools/fluentflyout.png"
-        subtitle: "Media Flyouts, Taskbar Widgets and more."
-        url: "https://github.com/unchihugo/FluentFlyout/releases"
-        target: "_blank"
-        
-      - name: "DynamicWin Legacy"
-        logo: "assets/tools/dynamicwin.png"
-        subtitle: "Dynamic Island inspired Windows App that brings in a bunch of features like widgets or a file tray that works like a clipboard. Similar to dynamic notches that you can find on macOS like NotchNook."
-        url: "https://github.com/59xa/DynamicWin-Legacy/releases"
-        target: "_blank"
-        
-      - name: "GlazeWM"
-        logo: "assets/tools/glazewm.png"
-        subtitle: "Tiling window manager inspired by i3wm."
-        url: "https://github.com/glzr-io/glazewm"
-        target: "_blank"
-        
+
       - name: "FlipIt"
         logo: "assets/tools/flipit.png"
         subtitle: "Flip Clock Screensaver."
         url: "https://github.com/tordona/FlipIt/releases"
         target: "_blank"
 
+      - name: "WindowPet"
+        logo: "assets/tools/windowpet.png"
+        subtitle: "Unofficial build, whether you are bored of your current desktop or just miss Clippy, Genius and Rover, WindowPet's little rascals will uplift your moods."
+        url: "https://github.com/ArminiusTux/WinARM64-binaries/releases/tag/WindowPet"
+        target: "_blank"
+
+      - name: "Desktop Pet (eSheep)"
+        logo: "assets/tools/desktoppet.png"
+        subtitle: "Unofficial build, add a pet to your desktop."
+        url: "https://github.com/tordona/win-arm64-binaries/releases/tag/desktoppet"
+        target: "_blank"
+
+      - name: "BongoCat"
+        logo: "assets/tools/BongoCat.png"
+        subtitle: "Adorable desktop mascot that mirrors your keyboard taps & mouse movements in real-time."
+        url: "https://github.com/ayangweb/BongoCat/releases"
+        target: "_blank"
+
+      - name: "Kando"
+        logo: "assets/tools/kando.png"
+        subtitle: "Pie menu for doing things with utmost efficiency."
+        url: "https://github.com/kando-menu/kando/releases"
+        target: "_blank"
+
+      - name: "Touch Dial"
+        logo: "assets/tools/touchdial.png"
+        subtitle: "Commercial app, customizable on-screen dial that lets you create buttons to open websites and applications, record and play macros, execute key combinations, run Windows actions, launch timers, execute custom PowerShell scripts and more."
+        url: "https://apps.microsoft.com/detail/9p29n7s6zn3b"
+        target: "_blank"
+
       - name: "Starship"
         logo: "assets/tools/Starship.png"
         subtitle: "Infinitely customizable prompt for any shell."
         url: "https://github.com/starship/starship/releases"
-        target: "_blank" # optional html a tag target attribute
+        target: "_blank"
 
       - name: "Oh My Posh"
         logo: "assets/tools/ohmyposh.png"
         subtitle: "Platform/shell prompt renderer."
         url: "https://github.com/JanDeDobbeleer/oh-my-posh/releases"
-        target: "_blank" # optional html a tag target attribute
+        target: "_blank"
 
-      - name: "Open-Shell"
-        logo: "assets/tools/openshell.png"
-        subtitle: "Collection of utilities bringing back classic features to Windows."
-        url: "https://github.com/Open-Shell/Open-Shell-Menu/releases"
-        target: "_blank" # optional html a tag target attribute
-
-      - name: "allSnap"
-        logo: "assets/tools/allsnap.png"
-        subtitle: "Utility program that makes all windows snap when moving"
-        url: "https://github.com/tordona/allsnap/releases"
-        target: "_blank" # optional html a tag target attribute
-
+      - name: "Pingu"
+        logo: "assets/tools/pingu.png"
+        subtitle: "Colored output of ping command"
+        url: "https://github.com/sheepla/pingu/releases"
+        target: "_blank"
+  
   - name: "Other"
     icon: "fa-solid fa-question"
     items:
@@ -6020,6 +6008,43 @@ services:
         url: "https://www.uwe-sieber.de/usbtreeview_e.html"
         target: "_blank" # optional html a tag target attribute
 
+
+      - name: "HHD Device Monitoring Studio"
+        logo: "assets/tools/devicemonitoringstudio.png"
+        subtitle: "Commercial application to monitor, log and analyze data flowing through your PC ports and connections."
+        url: "https://hhdsoftware.com/device-monitoring-studio"
+        target: "_blank"
+
+      - name: "HHD Free USB Analyzer"
+        logo: "assets/tools/free-usb-protocol-analyzer.png"
+        subtitle: "Monitor and Analyze USB Data Flows."
+        url: "https://freeusbanalyzer.com/"
+        target: "_blank"
+
+      - name: "HHD Free Serial Analyzer"
+        logo: "assets/tools/hhd-free-serial-protocol-analyzer.png"
+        subtitle: "Monitor and analyze activity of Serial applications and devices connected to the local or remote PC."
+        url: "https://freeserialanalyzer.com/"
+        target: "_blank"
+
+      - name: "HHD Free Network Analyzer"
+        logo: "assets/tools/hhd-free-network-protocol-analyzer.png"
+        subtitle: "Monitor and Analyze Network Data Flows."
+        url: "https://freenetworkanalyzer.com/"
+        target: "_blank"
+
+      - name: "HHD Free Serial Port Terminal"
+        logo: "assets/tools/hhd-free-serial-port-terminal.png"
+        subtitle: "Run and automate serial port communication tasks."
+        url: "https://freeserialportterminal.com/"
+        target: "_blank"
+
+      - name: "HHD DupeCare"
+        logo: "assets/tools/hhd-free-dupecare.png"
+        subtitle: "Automatically deduplicate data and compress files in your folders."
+        url: "https://dupecare.com/"
+        target: "_blank"
+
       - name: "LM-X License Manager"
         logo: "assets/tools/lmxlicense.png"
         subtitle: "Software licensing management solution."
@@ -6067,6 +6092,18 @@ services:
         subtitle: "Optimized Basic Linear Algebra Subprograms (BLAS) library"
         url: "https://github.com/OpenMathLib/OpenBLAS/releases"
         target: "_blank" # optional html a tag target attribute
+
+      - name: "GalaxyBudsClient"
+        logo: "assets/tools/galaxybudsclient.png"
+        subtitle: "An unofficial manager for Galaxy Buds devices"
+        url: "https://github.com/tordona/GalaxyBudsClient/releases"
+        target: "_blank"
+
+      - name: "OpenFreebuds"
+        logo: "assets/tools/openfreebuds.png"
+        subtitle: "Open source app for HUAWEI FreeBuds"
+        url: "https://github.com/melianmiko/OpenFreebuds"
+        target: "_blank"
 
   - name: "Game Console Emulation"
     icon: "fa-brands fa-playstation"
@@ -7534,6 +7571,12 @@ services:
         url: "https://github.com/NexaAI/nexa-sdk"
         target: "_blank" # optional html a tag target attribute
         
+      - name: "GenieX"
+        logo: "assets/tools/geniex.png"
+        subtitle: "Run frontier LLMs and VLMs locally on Qualcomm devices across NPU, GPU, and CPU with a few lines of code"
+        url: "https://geniex.aihub.qualcomm.com/en/run/cli/install"
+        target: "_blank"
+
       - name: "ChatALL"
         logo: "assets/tools/chatall.png"
         subtitle: "Concurrently chat with ChatGPT, Bing Chat, Bard, Alpaca, Vicuna, Claude, ChatGLM, MOSS, 讯飞星火, 文心一言 and more, discover the best answers."
