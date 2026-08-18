@@ -2005,7 +2005,7 @@ services:
         logo: "assets/tools/wpsoffice.png"
         subtitle: "Asian language version, PDF, Docs, Spreadsheet, Slide View & Edit."
         tag: "beta"
-        url: "https://pc-package.wpscdn.cn/wps/download/wps_arm64_beta20.3102.exe"
+        url: "https://apps.microsoft.com/detail/XPFM9B2W5GH3SK"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Adobe Acrobat Reader DC"
