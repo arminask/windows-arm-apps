@@ -2811,48 +2811,6 @@ services:
         subtitle: "Monitor system resources, debug software and detect malware"
         url: "https://systeminformer.sourceforge.io/nightly.php"
         target: "_blank" # optional html a tag target attribute
-
-      - name: "USB Device Tree Viewer"
-        logo: "assets/tools/clionly.png"
-        subtitle: "Based upon the Microsoft USBView sample application found in the Windows Driver Development Kits."
-        url: "https://www.uwe-sieber.de/usbtreeview_e.html#download"
-        target: "_blank" # optional html a tag target attribute
-
-      - name: "HHD Device Monitoring Studio"
-        logo: "assets/tools/devicemonitoringstudio.png"
-        subtitle: "Commercial application to monitor, log and analyze data flowing through your PC ports and connections."
-        url: "https://hhdsoftware.com/device-monitoring-studio"
-        target: "_blank" # optional html a tag target attribute
-
-      - name: "HHD Free USB Analyzer"
-        logo: "assets/tools/free-usb-protocol-analyzer.png"
-        subtitle: "Monitor and Analyze USB Data Flows."
-        url: "https://freeusbanalyzer.com/"
-        target: "_blank" # optional html a tag target attribute
-
-      - name: "HHD Free Serial Analyzer"
-        logo: "assets/tools/hhd-free-serial-protocol-analyzer.png"
-        subtitle: "Monitor and analyze activity of Serial applications and devices connected to the local or remote PC."
-        url: "https://freeserialanalyzer.com/"
-        target: "_blank" # optional html a tag target attribute
-
-      - name: "HHD Free Network Analyzer"
-        logo: "assets/tools/hhd-free-network-protocol-analyzer.png"
-        subtitle: "Monitor and Analyze Network Data Flows."
-        url: "https://freenetworkanalyzer.com/"
-        target: "_blank" # optional html a tag target attribute
-
-      - name: "HHD Free Serial Port Terminal"
-        logo: "assets/tools/hhd-free-serial-port-terminal.png"
-        subtitle: "Run and automate serial port communication tasks."
-        url: "https://freeserialportterminal.com/"
-        target: "_blank" # optional html a tag target attribute
-
-      - name: "HHD DupeCare"
-        logo: "assets/tools/hhd-free-dupecare.png"
-        subtitle: "Automatically deduplicate data and compress files in your folders."
-        url: "https://dupecare.com/"
-        target: "_blank" # optional html a tag target attribute
         
       - name: "Company Portal"
         logo: "assets/tools/CompanyPortal.png"
@@ -6026,6 +5984,43 @@ services:
         subtitle: "Shows the USB devices and their properties on Windows."
         url: "https://www.uwe-sieber.de/usbtreeview_e.html"
         target: "_blank" # optional html a tag target attribute
+
+
+      - name: "HHD Device Monitoring Studio"
+        logo: "assets/tools/devicemonitoringstudio.png"
+        subtitle: "Commercial application to monitor, log and analyze data flowing through your PC ports and connections."
+        url: "https://hhdsoftware.com/device-monitoring-studio"
+        target: "_blank"
+
+      - name: "HHD Free USB Analyzer"
+        logo: "assets/tools/free-usb-protocol-analyzer.png"
+        subtitle: "Monitor and Analyze USB Data Flows."
+        url: "https://freeusbanalyzer.com/"
+        target: "_blank"
+
+      - name: "HHD Free Serial Analyzer"
+        logo: "assets/tools/hhd-free-serial-protocol-analyzer.png"
+        subtitle: "Monitor and analyze activity of Serial applications and devices connected to the local or remote PC."
+        url: "https://freeserialanalyzer.com/"
+        target: "_blank"
+
+      - name: "HHD Free Network Analyzer"
+        logo: "assets/tools/hhd-free-network-protocol-analyzer.png"
+        subtitle: "Monitor and Analyze Network Data Flows."
+        url: "https://freenetworkanalyzer.com/"
+        target: "_blank"
+
+      - name: "HHD Free Serial Port Terminal"
+        logo: "assets/tools/hhd-free-serial-port-terminal.png"
+        subtitle: "Run and automate serial port communication tasks."
+        url: "https://freeserialportterminal.com/"
+        target: "_blank"
+
+      - name: "HHD DupeCare"
+        logo: "assets/tools/hhd-free-dupecare.png"
+        subtitle: "Automatically deduplicate data and compress files in your folders."
+        url: "https://dupecare.com/"
+        target: "_blank"
 
       - name: "LM-X License Manager"
         logo: "assets/tools/lmxlicense.png"
