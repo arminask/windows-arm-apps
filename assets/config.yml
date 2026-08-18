@@ -2794,12 +2794,6 @@ services:
         url: "https://github.com/xgdgsc/EarTrumpet/releases"
         target: "_blank" # optional html a tag target attribute
         
-      - name: "Pingu"
-        logo: "assets/tools/pingu.png"
-        subtitle: "Colored output of ping command"
-        url: "https://github.com/sheepla/pingu/releases"
-        target: "_blank" # optional html a tag target attribute
-        
       - name: "NextTrace"
         logo: "assets/tools/nexttrace.png"
         subtitle: "Open source light-weight visual traceroute tool."
@@ -5872,6 +5866,12 @@ services:
         url: "https://github.com/JanDeDobbeleer/oh-my-posh/releases"
         target: "_blank"
 
+      - name: "Pingu"
+        logo: "assets/tools/pingu.png"
+        subtitle: "Colored output of ping command"
+        url: "https://github.com/sheepla/pingu/releases"
+        target: "_blank"
+  
   - name: "Other"
     icon: "fa-solid fa-question"
     items:
