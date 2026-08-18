@@ -1866,6 +1866,13 @@ services:
         url: "https://github.com/LibreCAD/LibreCAD/releases/tag/2.2.2_alpha-latest"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "FreeCAD"
+        logo: "assets/tools/freecad.png"
+        subtitle: "a free and opensource multiplatform 3D parametric modeler."
+        tag: "Alpha"        
+        url: "https://github.com/FreeCAD/FreeCAD/releases"
+        target: "_blank"
+
       - name: "Seamly 2D"
         logo: "assets/tools/seamly2d.png"
         subtitle: "Open source patternmaking software to democratize fashion."
