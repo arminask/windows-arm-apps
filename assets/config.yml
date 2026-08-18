@@ -3145,7 +3145,6 @@ services:
 
       - name: "SoftPerfect RAM Disk"
         logo: "assets/tools/softperfect_ramdisk.png"
-        tag: "x64 GUI"
         subtitle: "high-performance RAM disk application"
         url: "https://www.softperfect.com/products/ramdisk"
         target: "_blank"
@@ -7569,6 +7568,18 @@ services:
         logo: "assets/tools/clawd.png"
         subtitle: "Open-source, pixel desktop pet that watches Claude Code, Codex, Cursor & other AI coding agents."
         url: "https://github.com/rullerzhou-afk/clawd-on-desk/releases"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "OpenCode"
+        logo: "assets/tools/opencode-logo-light.png"
+        subtitle: "The open source AI coding agent that helps you write code in your terminal, IDE, or desktop."
+        url: "https://github.com/anomalyco/opencode/releases"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "llama.cpp"
+        logo: "assets/tools/llama.cpp.png"
+        subtitle: "A lightweight, high-performance implementation designed to run large language models locally on your own machine."
+        url: "https://github.com/ggml-org/llama.cpp"
         target: "_blank" # optional html a tag target attribute
         
   - name: "Drivers"
