@@ -2529,6 +2529,12 @@ services:
         url: "https://www.farmanager.com/download.php"
         target: "_blank"
 
+      - name: "FileBot"
+        logo: "assets/tools/filebot.png"
+        subtitle: "Commercial, the ultimate TV and Movie Renamer."
+        url: "https://www.filebot.net/#download"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "zoxide"
         logo: "assets/tools/clionly.png"
         subtitle: "A smarter cd command. Supports all major shells."
@@ -5749,12 +5755,6 @@ services:
         logo: "assets/tools/files.png"
         subtitle: "Sleek, open-source file explorer built for Windows, designed to help you organize files and folders with ease."
         url: "https://files.community/download"
-        target: "_blank" # optional html a tag target attribute
-        
-      - name: "FileBot"
-        logo: "assets/tools/filebot.png"
-        subtitle: "Commercial, the ultimate TV and Movie Renamer."
-        url: "https://www.filebot.net/#download"
         target: "_blank" # optional html a tag target attribute
         
       - name: "Coodesker"
