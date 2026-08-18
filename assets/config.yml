@@ -2986,6 +2986,12 @@ services:
         url: "https://github.com/dalyIsaac/Whim/releases"
         target: "_blank"
 
+      - name: "GlazeWM"
+        logo: "assets/tools/glazewm.png"
+        subtitle: "Tiling window manager inspired by i3wm."
+        url: "https://github.com/glzr-io/glazewm"
+        target: "_blank"
+
       - name: "WindowTop"
         logo: "assets/tools/windowtop.png"
         subtitle: "Always on Top, Opacity, Picture-in-Picture (PiP), Dark Mode, Anchors"
@@ -5840,12 +5846,6 @@ services:
         logo: "assets/tools/dynamicwin.png"
         subtitle: "Dynamic Island inspired Windows App that brings in a bunch of features like widgets or a file tray that works like a clipboard. Similar to dynamic notches that you can find on macOS like NotchNook."
         url: "https://github.com/59xa/DynamicWin-Legacy/releases"
-        target: "_blank"
-        
-      - name: "GlazeWM"
-        logo: "assets/tools/glazewm.png"
-        subtitle: "Tiling window manager inspired by i3wm."
-        url: "https://github.com/glzr-io/glazewm"
         target: "_blank"
         
       - name: "FlipIt"
