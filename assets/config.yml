@@ -5721,6 +5721,12 @@ services:
         url: "https://www.startallback.com/"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "Open-Shell"
+        logo: "assets/tools/openshell.png"
+        subtitle: "Collection of utilities bringing back classic features to Windows."
+        url: "https://github.com/Open-Shell/Open-Shell-Menu/releases"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "Shell"
         logo: "assets/tools/Shell.png"
         subtitle: "Powerful context menu manager for Windows File Explorer"
@@ -5733,36 +5739,30 @@ services:
         url: "https://github.com/amnweb/yasb/releases"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "Zebar"
+        logo: "assets/tools/zebar.png"
+        subtitle: "Creating customizable and cross-platform taskbars, desktop widgets, and popups."
+        url: "https://github.com/glzr-io/zebar/releases"
+        target: "_blank"
+
       - name: "TranslucentTB"
         logo: "assets/tools/translucenttb.png"
         subtitle: "Makes the Windows taskbar translucent/transparent."
         url: "https://github.com/TranslucentTB/TranslucentTB/releases"
         target: "_blank" # optional html a tag target attribute
 
-      - name: "Spooky View"
-        logo: "assets/tools/spookyview.png"
-        subtitle: "Open source, program to make any window transparent."
-        url: "https://github.com/littletijn/spooky-view/releases"
-        target: "_blank" # optional html a tag target attribute
-        
       - name: "RetroBar"
         logo: "assets/tools/retrobar.png"
         subtitle: "Classic Windows taskbar replacement."
         url: "https://github.com/dremin/RetroBar/releases"
         target: "_blank"
 
-      - name: "WindowPet"
-        logo: "assets/tools/windowpet.png"
-        subtitle: "Unofficial build, whether you are bored of your current desktop or just miss Clippy, Genius and Rover, WindowPet's little rascals will uplift your moods."
-        url: "https://github.com/ArminiusTux/WinARM64-binaries/releases/tag/WindowPet"
-        target: "_blank" # optional html a tag target attribute
+      - name: "Spooky View"
+        logo: "assets/tools/spookyview.png"
+        subtitle: "Open source, program to make any window transparent."
+        url: "https://github.com/littletijn/spooky-view/releases"
+        target: "_blank"
 
-      - name: "Desktop Pet (eSheep)"
-        logo: "assets/tools/desktoppet.png"
-        subtitle: "Unofficial build, add a pet to your desktop."
-        url: "https://github.com/tordona/win-arm64-binaries/releases/tag/desktoppet"
-        target: "_blank" # optional html a tag target attribute
-        
       - name: "Files"
         logo: "assets/tools/files.png"
         subtitle: "Sleek, open-source file explorer built for Windows, designed to help you organize files and folders with ease."
@@ -5788,22 +5788,16 @@ services:
         url: "https://github.com/cairoshell/cairoshell/releases"
         target: "_blank" # optional html a tag target attribute
 
-      - name: "Zebar"
-        logo: "assets/tools/zebar.png"
-        subtitle: "Creating customizable and cross-platform taskbars, desktop widgets, and popups."
-        url: "https://github.com/glzr-io/zebar/releases"
-        target: "_blank"
-
-      - name: "BeWidgets"
-        logo: "assets/tools/bewidgets.png"
-        subtitle: "Widgets that make your desktop shine. Modern, personal, effortless."
-        url: "https://apps.microsoft.com/detail/9nq07fg50h2q"
-        target: "_blank"
-
       - name: "MicaForEveryone"
         logo: "assets/tools/MicaForEveryone.png"
         subtitle: "Enable backdrop effects on the title bars of Win32 apps on Windows 11."
         url: "https://github.com/MicaForEveryone/MicaForEveryone/releases"
+        target: "_blank"
+
+      - name: "FluentFlyout"
+        logo: "assets/tools/fluentflyout.png"
+        subtitle: "Media Flyouts, Taskbar Widgets and more."
+        url: "https://github.com/unchihugo/FluentFlyout/releases"
         target: "_blank"
 
       - name: "Fluent Flyouts"
@@ -5812,10 +5806,16 @@ services:
         url: "https://apps.microsoft.com/detail/9ppcm05rw87x"
         target: "_blank"
 
-      - name: "BongoCat"
-        logo: "assets/tools/BongoCat.png"
-        subtitle: "Adorable desktop mascot that mirrors your keyboard taps & mouse movements in real-time."
-        url: "https://github.com/ayangweb/BongoCat/releases"
+      - name: "BeWidgets"
+        logo: "assets/tools/bewidgets.png"
+        subtitle: "Widgets that make your desktop shine. Modern, personal, effortless."
+        url: "https://apps.microsoft.com/detail/9nq07fg50h2q"
+        target: "_blank"
+
+      - name: "DynamicWin Legacy"
+        logo: "assets/tools/dynamicwin.png"
+        subtitle: "Dynamic Island inspired Windows App that brings in a bunch of features like widgets or a file tray that works like a clipboard. Similar to dynamic notches that you can find on macOS like NotchNook."
+        url: "https://github.com/59xa/DynamicWin-Legacy/releases"
         target: "_blank"
 
       - name: "EdgeGesture"
@@ -5823,54 +5823,54 @@ services:
         subtitle: "Enables edge gesture to your windows computer, enhancing the touchscreen experience."
         url: "https://github.com/felix-sky/EdgeGesture/releases"
         target: "_blank"
-        
-      - name: "Kando"
-        logo: "assets/tools/kando.png"
-        subtitle: "Pie menu for doing things with utmost efficiency."
-        url: "https://github.com/kando-menu/kando/releases"
-        target: "_blank"
-        
-      - name: "Touch Dial"
-        logo: "assets/tools/touchdial.png"
-        subtitle: "Commercial app, customizable on-screen dial that lets you create buttons to open websites and applications, record and play macros, execute key combinations, run Windows actions, launch timers, execute custom PowerShell scripts and more."
-        url: "https://apps.microsoft.com/detail/9p29n7s6zn3b"
-        target: "_blank"
-        
-      - name: "FluentFlyout"
-        logo: "assets/tools/fluentflyout.png"
-        subtitle: "Media Flyouts, Taskbar Widgets and more."
-        url: "https://github.com/unchihugo/FluentFlyout/releases"
-        target: "_blank"
-        
-      - name: "DynamicWin Legacy"
-        logo: "assets/tools/dynamicwin.png"
-        subtitle: "Dynamic Island inspired Windows App that brings in a bunch of features like widgets or a file tray that works like a clipboard. Similar to dynamic notches that you can find on macOS like NotchNook."
-        url: "https://github.com/59xa/DynamicWin-Legacy/releases"
-        target: "_blank"
-        
+
       - name: "FlipIt"
         logo: "assets/tools/flipit.png"
         subtitle: "Flip Clock Screensaver."
         url: "https://github.com/tordona/FlipIt/releases"
         target: "_blank"
 
+      - name: "WindowPet"
+        logo: "assets/tools/windowpet.png"
+        subtitle: "Unofficial build, whether you are bored of your current desktop or just miss Clippy, Genius and Rover, WindowPet's little rascals will uplift your moods."
+        url: "https://github.com/ArminiusTux/WinARM64-binaries/releases/tag/WindowPet"
+        target: "_blank"
+
+      - name: "Desktop Pet (eSheep)"
+        logo: "assets/tools/desktoppet.png"
+        subtitle: "Unofficial build, add a pet to your desktop."
+        url: "https://github.com/tordona/win-arm64-binaries/releases/tag/desktoppet"
+        target: "_blank"
+
+      - name: "BongoCat"
+        logo: "assets/tools/BongoCat.png"
+        subtitle: "Adorable desktop mascot that mirrors your keyboard taps & mouse movements in real-time."
+        url: "https://github.com/ayangweb/BongoCat/releases"
+        target: "_blank"
+
+      - name: "Kando"
+        logo: "assets/tools/kando.png"
+        subtitle: "Pie menu for doing things with utmost efficiency."
+        url: "https://github.com/kando-menu/kando/releases"
+        target: "_blank"
+
+      - name: "Touch Dial"
+        logo: "assets/tools/touchdial.png"
+        subtitle: "Commercial app, customizable on-screen dial that lets you create buttons to open websites and applications, record and play macros, execute key combinations, run Windows actions, launch timers, execute custom PowerShell scripts and more."
+        url: "https://apps.microsoft.com/detail/9p29n7s6zn3b"
+        target: "_blank"
+
       - name: "Starship"
         logo: "assets/tools/Starship.png"
         subtitle: "Infinitely customizable prompt for any shell."
         url: "https://github.com/starship/starship/releases"
-        target: "_blank" # optional html a tag target attribute
+        target: "_blank"
 
       - name: "Oh My Posh"
         logo: "assets/tools/ohmyposh.png"
         subtitle: "Platform/shell prompt renderer."
         url: "https://github.com/JanDeDobbeleer/oh-my-posh/releases"
-        target: "_blank" # optional html a tag target attribute
-
-      - name: "Open-Shell"
-        logo: "assets/tools/openshell.png"
-        subtitle: "Collection of utilities bringing back classic features to Windows."
-        url: "https://github.com/Open-Shell/Open-Shell-Menu/releases"
-        target: "_blank" # optional html a tag target attribute
+        target: "_blank"
 
   - name: "Other"
     icon: "fa-solid fa-question"
