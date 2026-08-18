@@ -2008,9 +2008,14 @@ services:
         url: "https://apps.microsoft.com/detail/XPFM9B2W5GH3SK"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "Stirling PDF"
+        logo: "assets/tools/stirling.png"
+        subtitle: "The Open-Source PDF Platform"
+        url: "https://github.com/Stirling-Tools/Stirling-PDF/releases"
+        target: "_blank"
+
       - name: "Adobe Acrobat Reader DC"
         logo: "assets/tools/adobe_acrobat_reader.png"
-        tag: "beta"
         url: "https://apps.microsoft.com/detail/xpdp273c0xhqh2"
         target: "_blank"
 
