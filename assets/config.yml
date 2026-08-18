@@ -3382,6 +3382,12 @@ services:
         url: "https://github.com/deskflow/deskflow/releases"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "LocalSend"
+        logo: "assets/tools/localsend.png"
+        subtitle: "securely share files and messages with nearby devices over your local network without needing an internet connection."
+        url: "https://github.com/localsend/localsend/releases"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "LocalSend(Fluent)"
         logo: "assets/tools/localsend.png"
         subtitle: "Unofficial builds / securely share files and messages with nearby devices over your local network without needing an internet connection."
