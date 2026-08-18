@@ -3077,12 +3077,6 @@ services:
         url: "https://carinastudio.azurewebsites.net/ULogViewer/"
         target: "_blank"
 
-      - name: "Shell"
-        logo: "assets/tools/Shell.png"
-        subtitle: "Powerful context menu manager for Windows File Explorer"
-        url: "https://nilesoft.org/download"
-        target: "_blank"
-
       - name: "Custom Context Menu"
         logo: "assets/tools/CustomContextMenu.png"
         subtitle: "Add Custom Context Menu For Windows 11"
@@ -5708,6 +5702,12 @@ services:
         subtitle: "Windows 11 taskbar, file explorer, start menu, and control panel from a better timeline."
         url: "https://www.startallback.com/"
         target: "_blank" # optional html a tag target attribute
+
+      - name: "Shell"
+        logo: "assets/tools/Shell.png"
+        subtitle: "Powerful context menu manager for Windows File Explorer"
+        url: "https://nilesoft.org/download"
+        target: "_blank"
 
       - name: "YASB"
         logo: "assets/tools/yasb.png"
