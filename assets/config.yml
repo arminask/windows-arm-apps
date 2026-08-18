@@ -2007,7 +2007,13 @@ services:
         tag: "beta"
         url: "https://pc-package.wpscdn.cn/wps/download/wps_arm64_beta20.3102.exe"
         target: "_blank" # optional html a tag target attribute
-        
+
+      - name: "Adobe Acrobat Reader DC"
+        logo: "assets/tools/adobe_acrobat_reader.png"
+        tag: "beta"
+        url: "https://apps.microsoft.com/detail/xpdp273c0xhqh2"
+        target: "_blank"
+
       - name: "PDF X-Change Editor (Free, Plus and Pro)"
         logo: "assets/tools/pdfxchange.png"
         subtitle: "Feature-rich PDF viewer/editor"
