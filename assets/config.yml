@@ -2678,7 +2678,13 @@ services:
         subtitle: "Search for running apps, browser tabs, in-app content, files and more."
         url: "https://github.com/adirh3/Fluent-Search/releases"
         target: "_blank" # optional html a tag target attribute
-
+        
+      - name: "CircleX Search"
+        logo: "assets/tools/circlexsearch.png"
+        subtitle: "Brings the mobile Circle to Search experience to your Windows desktop — circle, scribble, or underline anything on screen to search it instantly."
+        url: "https://apps.microsoft.com/detail/9N2QVJBQXV3M"
+        target: "_blank" # optional html a tag target attribute
+        
       - name: "Sysinternals Suite"
         logo: "assets/tools/sysinternals.png"
         subtitle: "Includes tools like Autoruns, ZoomIt, and Process Explorer."
