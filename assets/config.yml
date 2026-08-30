@@ -5081,6 +5081,12 @@ services:
         url: "https://apps.microsoft.com/detail/9NPCP8DRCHSN"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "Winsnap"
+        logo: "assets/tools/clionly.png"
+        subtitle: "Run snap packages from a normal Windows terminal, snap install, snap run, the works, without setting up WSL yourself first."
+        url: "https://gitlab.com/zygoon/winsnap/-/releases/"
+        target: "_blank" # optional html a tag target attribute
+        
       - name: "WSA"
         logo: "assets/tools/wsa.png"
         tag: "ARM32"
