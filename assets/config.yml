@@ -3607,6 +3607,12 @@ services:
         url: "https://privadovpn.com/software/?device=windows"
         target: "_blank" # optional html a tag target attribute
         
+      - name: "IVPN for Desktop"
+        logo: "assets/tools/ivpn.png"
+        subtitle: "No log VPN service."
+        url: "https://www.ivpn.net/en/apps-windows/"
+        target: "_blank" # optional html a tag target attribute
+        
       - name: "Radmin VPN"
         logo: "assets/tools/radminvpn.png"
         subtitle: "Free and easy-to-use software product to create virtual local networks."
