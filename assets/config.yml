@@ -3064,6 +3064,13 @@ services:
         tag: "Alpha"
         url: "https://downloads.keyman.com/windows/alpha/"
         target: "_blank"
+
+      - name: "Mozc (Google)"
+        logo: "assets/tools/mozc.png"
+        subtitle: "Open-source, japanese keyboard input method editor."
+        tag: "Nightly"
+        url: "https://github.com/google/mozc/actions/workflows/windows.yaml"
+        target: "_blank"
         
       - name: "ULogViewer"
         logo: "assets/tools/ulogviewer.png"
