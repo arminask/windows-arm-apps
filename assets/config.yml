@@ -322,6 +322,12 @@ services:
         url: "https://arc.net/download"
         target: "_blank" # optional html a tag target attribute        
 
+      - name: "Waterfox"
+        logo: "assets/tools/waterfox.png"
+        subtitle: "FireFox engine based, free, open-source web browser that has had its data collection and telemetry features disabled. It has built-in ad blocking, private and anonymised DNS, and you can customise the browser to your liking."
+        url: "https://www.waterfox.com/download/"
+        target: "_blank" # optional html a tag target attribute
+        
       - name: "Zen Browser"
         logo: "assets/tools/zenbrowser.png"
         subtitle: "FireFox engine based, privacy-focused, open-source web browser that offers a minimalist, distraction-free experience with powerful tab management, workspaces, and productivity features."
@@ -2376,6 +2382,12 @@ services:
         logo: "assets/tools/neatnotes.png"
         subtitle: "Free note-taking app built from the ground up for stylus users."
         url: "https://apps.microsoft.com/detail/9n8h9xzmhlh6"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Mementa"
+        logo: "assets/tools/mementa.png"
+        subtitle: "Journaling app Windows users spent years waiting for."
+        url: "https://mementa.page/"
         target: "_blank" # optional html a tag target attribute
         
       - name: "Portfolio Performance"
