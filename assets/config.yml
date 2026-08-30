@@ -738,6 +738,12 @@ services:
         url: "https://zxtune.bitbucket.io"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "AirPlay - Screen Mirroring Receiver"
+        logo: "assets/tools/airplayreciever.png"
+        subtitle: "Commercial application, iPhone/iPad screen and audio mirroring to PC"
+        url: "https://apps.microsoft.com/detail/9nslmxffgsz8"
+        target: "_blank" # optional html a tag target attribute
+        
       - name: "HEVC Video Extensions"
         logo: "assets/tools/HEVC.png"
         subtitle: "Adds HEVC video codec for Windows"
