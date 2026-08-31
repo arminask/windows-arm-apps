@@ -2021,11 +2021,6 @@ services:
         url: "https://github.com/Stirling-Tools/Stirling-PDF/releases"
         target: "_blank"
 
-      - name: "Adobe Acrobat Reader DC"
-        logo: "assets/tools/adobe_acrobat_reader.png"
-        url: "https://apps.microsoft.com/detail/xpdp273c0xhqh2"
-        target: "_blank"
-
       - name: "PDF X-Change Editor (Free, Plus and Pro)"
         logo: "assets/tools/pdfxchange.png"
         subtitle: "Feature-rich PDF viewer/editor"
