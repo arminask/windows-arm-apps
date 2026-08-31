@@ -4481,17 +4481,17 @@ services:
         url: "https://nodejs.org/en/download"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "NVM"
+        logo: "assets/tools/clionly.png"
+        subtitle: "Open-source, Node.js version manager for Windows."        
+        url: "https://github.com/nvm-windows/nvm/releases"
+        target: "_blank" # optional html a tag target attribute
+        
       - name: "NW.js (Node Webkit)"
         logo: "assets/tools/nwjs.png"
         tag: "Supports ARM64 versions of Node.js"
         subtitle: "Lets you call all Node.js modules directly from DOM and enables a new way of writing applications with all Web technologies."
         url: "https://nwjs.io/downloads/"
-        target: "_blank" # optional html a tag target attribute
-
-      - name: "Node.js"
-        logo: "assets/tools/nodejs.png"
-        subtitle: "Open-source, cross-platform JavaScript runtime environment."        
-        url: "https://nodejs.org/en/download"
         target: "_blank" # optional html a tag target attribute
         
       - name: "deno"
