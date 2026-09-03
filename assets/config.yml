@@ -3297,7 +3297,7 @@ services:
 
       - name: "DevProjex"
         logo: "assets/tools/devprojex.png"
-        subtitle: "ARM64. Open-source cross-platform GUI and CLI for selecting project files and exporting structured, token-counted context with Smart Ignore, preview, and multiple output formats."
+        subtitle: "ARM64. Open-source cross-platform .NET/Avalonia app with GUI, TUI, CLI, and a built-in read-only MCP server for structured project context with live preview, secret redaction, and syntax-aware compression."
         tag: "ARM64"
         url: "https://github.com/Avazbek22/DevProjex/releases"
         target: "_blank"
