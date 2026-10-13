@@ -5877,6 +5877,12 @@ services:
         url: "https://apps.microsoft.com/detail/9nq07fg50h2q"
         target: "_blank"
 
+      - name: "Layer"
+        logo: "assets/tools/layer.png"
+        subtitle: "Transparent, always-on-top widget canvas for your desktop."
+        url: "https://github.com/Haris357/Layer/releases"
+        target: "_blank"
+        
       - name: "DynamicWin Legacy"
         logo: "assets/tools/dynamicwin.png"
         subtitle: "Dynamic Island inspired Windows App that brings in a bunch of features like widgets or a file tray that works like a clipboard. Similar to dynamic notches that you can find on macOS like NotchNook."
