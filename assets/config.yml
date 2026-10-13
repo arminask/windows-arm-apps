@@ -3632,6 +3632,13 @@ services:
         url: "https://www.ivpn.net/en/apps-windows/"
         target: "_blank" # optional html a tag target attribute
         
+      - name: "TorGuard VPN"
+        logo: "assets/tools/torguard.png"
+        subtitle: "Privacy-focused VPN service primarily designed for advanced users, offering robust security, fast connection speeds, and specialized features for anonymous torrenting and data encryption."
+        tag: "x64 app, ARM64 VPN driver"
+        url: "https://torguard.net/support/articles/Getting-Started-TorGuard-Desktop/getting-started-windows.php"
+        target: "_blank" # optional html a tag target attribute
+        
       - name: "Radmin VPN"
         logo: "assets/tools/radminvpn.png"
         subtitle: "Free and easy-to-use software product to create virtual local networks."
