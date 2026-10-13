@@ -2331,6 +2331,12 @@ services:
         url: "https://apps.microsoft.com/detail/9nblggh4s50q"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "eM Client"
+        logo: "assets/tools/emclient.png"
+        subtitle: "Highly popular and rated featured email client."
+        url: "https://www.emclient.com/"
+        target: "_blank" # optional html a tag target attribute
+        
       - name: "Wino Mail"
         logo: "assets/tools/winomail.png"
         subtitle: "Native mail client for Windows device families."
