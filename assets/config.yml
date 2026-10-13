@@ -7599,6 +7599,12 @@ services:
         url: "https://claude.ai/download"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "Google Gemini Desktop"
+        logo: "assets/tools/geminidesktop.png"
+        subtitle: "Native (unified installer) application that brings Google's AI assistant out of the web browser and into a dedicated workspace."
+        url: "https://gemini.google/desktop/"
+        target: "_blank" # optional html a tag target attribute
+        
       - name: "豆包"
         logo: "assets/tools/doubao.png"
         subtitle: "Desktop AI Assistant"
