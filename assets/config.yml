@@ -2373,6 +2373,12 @@ services:
         url: "https://apps.microsoft.com/detail/9p0kn9s5rp86"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "Side Calendar"
+        logo: "assets/tools/sidecalendar.png"
+        subtitle: "Commercial app. Push the mouse against the edge of the screen, press a shortcut, or click the tray icon, and your calendar slides into view. When you're done, it gets out of the way."
+        url: "https://apps.microsoft.com/detail/9NG5LH6HG69K"
+        target: "_blank" # optional html a tag target attribute
+        
       - name: "ClassIsland"
         logo: "assets/tools/classisland.png"
         subtitle: "一款功能强、可定制、跨平台，适用于班级多媒体屏幕的课表信息显示工具"
