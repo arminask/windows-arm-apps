@@ -5606,8 +5606,9 @@ services:
 
       - name: "KeePassXC"
         logo: "assets/tools/keepassxc.png"
-        subtitle: "unofficial build, modern fork of the original KeePass, offering a nicer interface, built-in features like TOTP and browser integration, and C++ native performance."
-        url: "https://github.com/minnyres/keepassxc-windows-arm64/releases"
+        subtitle: "Modern fork of the original KeePass, offering a nicer interface, built-in features like TOTP and browser integration, and C++ native performance."
+        tag: "Beta"
+        url: "https://github.com/keepassxreboot/keepassxc/releases"
         target: "_blank" # optional html a tag target attribute
 
       - name: "1Password"
