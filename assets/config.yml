@@ -3402,6 +3402,13 @@ services:
         url: "https://github.com/moonlight-stream/moonlight-qt/releases/latest"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "Nonary Moonlight Client"
+        logo: "assets/tools/moonlight.png"
+        subtitle: "Custom fork of Moonlight client which adds true VRR (Variable Refresh Rate) pacing, higher bitrate support, additional codec support such as valve Pyrowave, and ecosystem scripts."
+        tag: "Nightly, requries Vibepollo server software."        
+        url: "https://github.com/Nonary/moonlight-qt/actions/workflows/build-release.yml"
+        target: "_blank" # optional html a tag target attribute
+        
       - name: "Sunshine"
         logo: "assets/tools/sunshine.png"
         subtitle: "Self-hosted game stream host for Moonlight."
