@@ -7637,6 +7637,12 @@ services:
         url: "https://www.foundrylocal.ai/"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "Atomic Agent Desktop"
+        logo: "assets/tools/atomicagent.png"
+        subtitle: "Local-first AI agent. Runs open-weight models on your own machine via llama.cpp."
+        url: "https://github.com/AtomicBot-ai/atomic-agent/releases/tag/desktop-v0.0.1"
+        target: "_blank" # optional html a tag target attribute
+        
       - name: "Netron"
         logo: "assets/tools/netron.png"
         subtitle: "Visualizer for neural network, deep learning and machine learning models"
