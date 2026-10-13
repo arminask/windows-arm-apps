@@ -3372,9 +3372,15 @@ services:
         url: "https://apps.microsoft.com/detail/9PJV6D1JPG0H"
         target: "_blank"
 
+      - name: "scrcpy"
+        logo: "assets/tools/scrcpy.png"
+        subtitle: "Display and control your Android device."
+        url: "https://github.com/Genymobile/scrcpy/releases"
+        target: "_blank" # optional html a tag target attribute
+        
       - name: "Escrcpy"
         logo: "assets/tools/Escrcpy.png"
-        subtitle: "Display and control Android."
+        subtitle: "Gui and more for scrcpy."
         url: "https://github.com/viarotel-org/escrcpy/releases"
         target: "_blank" # optional html a tag target attribute
 
