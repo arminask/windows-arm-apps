@@ -630,8 +630,9 @@ services:
         
       - name: "Kodi"
         logo: "assets/tools/kodi.png"
-        subtitle: "Nightly Alpha Builds, Open-source media center that organizes and plays your digital content—movies, shows, music, photos"
-        url: "https://mirrors.kodi.tv/nightlies/windows/winarm64/master/"
+        subtitle: "Open-source media center that organizes and plays your digital content—movies, shows, music, photos"
+        tag: "Release Candidate"
+        url: "https://mirrors.kodi.tv/releases/windows/winarm64/"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Stremio"
