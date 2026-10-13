@@ -7746,6 +7746,12 @@ services:
         url: "https://github.com/charmbracelet/crush/releases"
         target: "_blank" # optional html a tag target attribute
         
+      - name: "Codex Minibar"
+        logo: "assets/tools/codexminibar.png"
+        subtitle: "Free, open-source Windows tray companion for AI subscription usage limits with configurable tray widgets, a compact usage popup, notifications, auto-start, in-place updates, and local history."
+        url: "https://github.com/vertopolkaLF/codex-minibar/releases"
+        target: "_blank" # optional html a tag target attribute
+        
       - name: "GitHub Copilot Taskbar GUI"
         logo: "assets/tools/github_copilot_taskbar_gui.png"
         subtitle: "System tray access to GitHub Copilot CLI with automatic context awareness. Detects active focus, open applications, file system state, and running services to augment prompts with relevant environment information."
