@@ -744,6 +744,12 @@ services:
         url: "https://zxtune.bitbucket.io"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "uxplay"
+        logo: "assets/tools/uxplay.png"
+        subtitle: "Open-source, AirPlay receiver"
+        url: "https://github.com/leapbtw/uxplay-windows/releases"
+        target: "_blank" # optional html a tag target attribute
+        
       - name: "AirPlay - Screen Mirroring Receiver"
         logo: "assets/tools/airplayreciever.png"
         subtitle: "Commercial application, iPhone/iPad screen and audio mirroring to PC"
