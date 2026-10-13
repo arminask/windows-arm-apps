@@ -1523,6 +1523,24 @@ services:
         subtitle: "Open-source, photo management and editing application"
         url: "https://github.com/Bitpainter75/FerrumPix/releases"
         target: "_blank" # optional html a tag target attribute
+
+      - name: "Photon Studio"
+        logo: "assets/tools/photonstudio.png"
+        subtitle: "Free vibe coded fully featured Photoshop alternative"
+        url: "https://tenzen.studio/photon#get-photon"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Capture Studio"
+        logo: "assets/tools/capturestudio.png"
+        subtitle: "Free vibe coded video editor for product demos, screen recordings and tutorials."
+        url: "https://tenzen.studio/capture/#download"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Light Studio"
+        logo: "assets/tools/lightstudio.png"
+        subtitle: "Commercial vibe coded Lightroom alternative."
+        url: "https://tenzen.studio/light/#download"
+        target: "_blank" # optional html a tag target attribute
         
       - name: "GIMP"
         logo: "assets/tools/gimp.png"
