@@ -1516,6 +1516,12 @@ services:
         subtitle: "Convert to a more universal DNG raw file"
         url: "https://helpx.adobe.com/ee/camera-raw/using/adobe-dng-converter.html"
         target: "_blank" # optional html a tag target attribute
+
+      - name: "FerrumPix"
+        logo: "assets/tools/ferrumpix.png"
+        subtitle: "Open-source, photo management and editing application"
+        url: "https://github.com/Bitpainter75/FerrumPix/releases"
+        target: "_blank" # optional html a tag target attribute
         
       - name: "GIMP"
         logo: "assets/tools/gimp.png"
