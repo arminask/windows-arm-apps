@@ -846,11 +846,25 @@ services:
         url: "https://helpx.adobe.com/download-install/apps/system-requirements/apps-compatibility-copilot.html"
         target: "_blank" # optional html a tag target attribute'
 
+      - name: "FilmCraft"
+        logo: "assets/tools/filmcraft.png"
+        subtitle: "Open-source, clean-room re-implementation of Adobe Premiere Pro, rebuilt in pure Rust."
+        tag: "Beta"
+        url: "https://github.com/storytold/filmcraft/releases"
+        target: "_blank" # optional html a tag target attribute
+        
       - name: "Adobe After Effects"
         logo: "assets/tools/adobe-aftereffects.png"
         subtitle: "Motion graphics and visual effects"
         url: "https://helpx.adobe.com/download-install/apps/system-requirements/apps-compatibility-copilot.html"
         target: "_blank" # optional html a tag target attribute'
+
+      - name: "EffectCraft"
+        logo: "assets/tools/effectcraft.png"
+        subtitle: "Open-source, clean-room re-implementation of Adobe After Effects, rebuilt in pure Rust."
+        tag: "Beta"
+        url: "https://github.com/storytold/effectcraft/releases"
+        target: "_blank" # optional html a tag target attribute
         
       - name: "OBS Studio"
         logo: "assets/tools/obs.png"
@@ -1167,6 +1181,13 @@ services:
         url: "https://www.audacityteam.org/download/windows/"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "SoundCraft"
+        logo: "assets/tools/soundcraft.png"
+        subtitle: "Open-source, clean-room re-implementation of Avid Pro Tools, rebuilt in pure Rust."
+        tag: "Beta"
+        url: "https://github.com/storytold/soundcraft/releases"
+        target: "_blank" # optional html a tag target attribute
+        
       - name: "Tenacity"
         logo: "assets/tools/tenacity.png"
         subtitle: "Open-source easy-to-use, multi-track audio editor/recorder."
@@ -1499,6 +1520,27 @@ services:
         tag: "Beta"
         url: "https://illustrator.uservoice.com/forums/333657-illustrator-desktop-feature-requests/suggestions/39773989-support-for-windows-64-bit-arm64-e-g-snapdragon"        
         target: "_blank" # optional html a tag target attribute
+
+      - name: "VectorCraft"
+        logo: "assets/tools/vectorcraft.png"
+        subtitle: "Open-source, clean-room re-implementation of Adobe Illustrator, rebuilt in pure Rust."
+        tag: "Beta"
+        url: "https://github.com/storytold/vectorcraft/releases"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "DesignCraft"
+        logo: "assets/tools/designcraft.png"
+        subtitle: "Open-source, clean-room re-implementation of Adobe InDesign, rebuilt in pure Rust."
+        tag: "Beta"
+        url: "https://github.com/storytold/designcraft/releases"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "FigCraft"
+        logo: "assets/tools/figcraft.png"
+        subtitle: "Open-source, clean-room re-implementation of Figma, rebuilt in pure Rust."
+        tag: "Beta"
+        url: "https://github.com/storytold/figcraft/releases"
+        target: "_blank" # optional html a tag target attribute
         
       - name: "Adobe Lightroom"
         logo: "assets/tools/lightroom.png"
@@ -1506,6 +1548,13 @@ services:
         url: "https://apps.microsoft.com/store/detail/adobe-lightroom/XPDP264X2DK8NB"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "LightCraft"
+        logo: "assets/tools/lightcraft.png"
+        subtitle: "Open-source, clean-room re-implementation of Adobe Lightroom, rebuilt in pure Rust."
+        tag: "Beta"
+        url: "https://github.com/storytold/lightcraft/releases"
+        target: "_blank" # optional html a tag target attribute
+        
       - name: "Adobe Camera Raw plug-in"
         logo: "assets/tools/adobe-camera-raw.png"
         subtitle: "Tool for adding advanced raw photos adjustment capabilities to Photoshop and Bridge"
@@ -1524,6 +1573,13 @@ services:
         url: "https://github.com/Bitpainter75/FerrumPix/releases"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "PhotoCraft"
+        logo: "assets/tools/photocraft.png"
+        subtitle: "Open-source, clean-room re-implementation of Adobe Photoshop, rebuilt in pure Rust."
+        tag: "Beta"
+        url: "https://github.com/storytold/photocraft/releases"
+        target: "_blank" # optional html a tag target attribute
+        
       - name: "Photon Studio"
         logo: "assets/tools/photonstudio.png"
         subtitle: "Free vibe coded fully featured Photoshop alternative"
@@ -1922,6 +1978,13 @@ services:
         url: "https://github.com/FreeCAD/FreeCAD/releases"
         target: "_blank"
 
+      - name: "CadCraft"
+        logo: "assets/tools/cadcraft.png"
+        subtitle: "Open-source, clean-room re-implementation of Autodesk AutoCAD, rebuilt in pure Rust."
+        tag: "Beta"
+        url: "https://github.com/storytold/cadcraft/releases"
+        target: "_blank" # optional html a tag target attribute
+        
       - name: "Seamly 2D"
         logo: "assets/tools/seamly2d.png"
         subtitle: "Open source patternmaking software to democratize fashion."
@@ -2064,6 +2127,27 @@ services:
         url: "https://apps.microsoft.com/detail/XPFM9B2W5GH3SK"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "WordCraft"
+        logo: "assets/tools/wordcraft.png"
+        subtitle: "Open-source, clean-room re-implementation of Microsoft Word, rebuilt in pure Rust."
+        tag: "Beta"
+        url: "https://github.com/storytold/wordcraft/releases"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "DeckCraft"
+        logo: "assets/tools/deckcraft.png"
+        subtitle: "Open-source, clean-room re-implementation of Microsoft PowerPoint, rebuilt in pure Rust."
+        tag: "Beta"
+        url: "https://github.com/storytold/deckcraft/releases"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "GridCraft"
+        logo: "assets/tools/gridcraft.png"
+        subtitle: "Open-source, clean-room re-implementation of Microsoft Excel, rebuilt in pure Rust."
+        tag: "Beta"
+        url: "https://github.com/storytold/gridcraft/releases"
+        target: "_blank" # optional html a tag target attribute
+        
       - name: "Stirling PDF"
         logo: "assets/tools/stirling.png"
         subtitle: "The Open-Source PDF Platform"
@@ -2082,6 +2166,13 @@ services:
         url: "https://www.pdf-xchange.com/products"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "PdfCraft"
+        logo: "assets/tools/pdfcraft.png"
+        subtitle: "Open-source, clean-room re-implementation of Adobe Acrobat, rebuilt in pure Rust."
+        tag: "Beta"
+        url: "https://github.com/storytold/pdfcraft/releases"
+        target: "_blank" # optional html a tag target attribute
+        
       - name: "PDF-Tools"
         logo: "assets/tools/pdf-tools.png"
         subtitle: "Batch creation, manipulation and modification of PDF files."
