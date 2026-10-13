@@ -5202,12 +5202,18 @@ services:
         url: "https://github.com/snickler/WSA-Patched/releases"
         target: "_blank" # optional html a tag target attribute        
 
+      - name: "ADB-Explorer"
+        logo: "assets/tools/adbexplorer.png"
+        subtitle: "Fluent UI ADB file explorer."
+        url: "https://github.com/Alex4SSB/ADB-Explorer/releases"
+        target: "_blank" # optional html a tag target attribute
+        
       - name: "APK Installers"
         logo: "assets/tools/apkinstallers.png"
         subtitle: "Android™ App Installer for Windows 10/11"
         url: "https://apps.microsoft.com/detail/9P2JFQ43FPPG"
         target: "_blank" # optional html a tag target attribute
-
+        
       - name: "WSA Sideloader"
         logo: "assets/tools/wsasideloader.png"
         subtitle: "Easily sideload Android apps on Windows Subsystem for Android"
