@@ -7564,6 +7564,12 @@ services:
         url: "https://docs.qualcomm.com/bundle/publicresource/topics/80-63442-2/revision_history_windows.html"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "unsloth"
+        logo: "assets/tools/unsloth.png"
+        subtitle: "Desktop app to run and train models."
+        url: "https://github.com/unslothai/unsloth/releases"
+        target: "_blank" # optional html a tag target attribute
+        
       - name: "LM Studio"
         logo: "assets/tools/lmstudio.png"
         subtitle: "Run local AI workloads with Llama 3, Phi-3, and other open-weights LLMs on your Snapdragon X Elite PC."
