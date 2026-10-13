@@ -6177,7 +6177,14 @@ services:
 
   - name: "Game Console Emulation"
     icon: "fa-brands fa-playstation"
-    items:        
+    items:      
+      - name: "ARMSX2"
+        logo: "assets/tools/armsx2.png"
+        subtitle: "Open-source, PS2 emulator"
+        url: "https://github.com/ARMSX2/ARMSX2/releases"
+        tag: "Nightly"
+        target: "_blank" # optional html a tag target attribute
+        
       - name: "Aethersx2"
         logo: "assets/tools/aethersx2.png"
         subtitle: "unofficial build, PS2 emulator"
