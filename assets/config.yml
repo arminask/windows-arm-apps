@@ -2599,6 +2599,13 @@ services:
         subtitle: "Professional-grade wrapper for the Windows Task Scheduler API, designed with Microsoft's modern Fluent Design System. It simplifies the creation and management of automation tasks, offering a sleek alternative to the legacy Windows Task Scheduler."
         url: "https://github.com/TRGamer-tech/FluentTaskScheduler/releases"        
         target: "_blank" # optional html a tag target attribute
+
+      - name: "ArtCraft Launcher"
+        logo: "assets/tools/artcraftlauncher.png"
+        subtitle: "Open-source, One place to install, update and open every app in the Craft App Suite, rebuilt in pure Rust. PhotoCraft, LightCraft, FilmCraft, DesignCraft, VectorCraft, PdfCraft, EffectCraft, WordCraft, DeckCraft, GridCraft, CADCraft and SoundCraft: the right build for your computer, kept up to date."
+        tag: "Beta"
+        url: "https://github.com/storytold/craft-launcher/releases"
+        target: "_blank" # optional html a tag target attribute
         
       - name: "TextPad"
         logo: "assets/tools/TextPad.png"
