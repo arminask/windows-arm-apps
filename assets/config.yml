@@ -630,8 +630,9 @@ services:
         
       - name: "Kodi"
         logo: "assets/tools/kodi.png"
-        subtitle: "Nightly Alpha Builds, Open-source media center that organizes and plays your digital content—movies, shows, music, photos"
-        url: "https://mirrors.kodi.tv/nightlies/windows/winarm64/master/"
+        subtitle: "Open-source media center that organizes and plays your digital content—movies, shows, music, photos"
+        tag: "Release Candidate"
+        url: "https://mirrors.kodi.tv/releases/windows/winarm64/"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Stremio"
@@ -744,6 +745,12 @@ services:
         url: "https://zxtune.bitbucket.io"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "uxplay"
+        logo: "assets/tools/uxplay.png"
+        subtitle: "Open-source, AirPlay receiver"
+        url: "https://github.com/leapbtw/uxplay-windows/releases"
+        target: "_blank" # optional html a tag target attribute
+        
       - name: "AirPlay - Screen Mirroring Receiver"
         logo: "assets/tools/airplayreciever.png"
         subtitle: "Commercial application, iPhone/iPad screen and audio mirroring to PC"
@@ -839,11 +846,25 @@ services:
         url: "https://helpx.adobe.com/download-install/apps/system-requirements/apps-compatibility-copilot.html"
         target: "_blank" # optional html a tag target attribute'
 
+      - name: "FilmCraft"
+        logo: "assets/tools/filmcraft.png"
+        subtitle: "Open-source, clean-room re-implementation of Adobe Premiere Pro, rebuilt in pure Rust."
+        tag: "Beta"
+        url: "https://github.com/storytold/filmcraft/releases"
+        target: "_blank" # optional html a tag target attribute
+        
       - name: "Adobe After Effects"
         logo: "assets/tools/adobe-aftereffects.png"
         subtitle: "Motion graphics and visual effects"
         url: "https://helpx.adobe.com/download-install/apps/system-requirements/apps-compatibility-copilot.html"
         target: "_blank" # optional html a tag target attribute'
+
+      - name: "EffectCraft"
+        logo: "assets/tools/effectcraft.png"
+        subtitle: "Open-source, clean-room re-implementation of Adobe After Effects, rebuilt in pure Rust."
+        tag: "Beta"
+        url: "https://github.com/storytold/effectcraft/releases"
+        target: "_blank" # optional html a tag target attribute
         
       - name: "OBS Studio"
         logo: "assets/tools/obs.png"
@@ -1160,6 +1181,13 @@ services:
         url: "https://www.audacityteam.org/download/windows/"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "SoundCraft"
+        logo: "assets/tools/soundcraft.png"
+        subtitle: "Open-source, clean-room re-implementation of Avid Pro Tools, rebuilt in pure Rust."
+        tag: "Beta"
+        url: "https://github.com/storytold/soundcraft/releases"
+        target: "_blank" # optional html a tag target attribute
+        
       - name: "Tenacity"
         logo: "assets/tools/tenacity.png"
         subtitle: "Open-source easy-to-use, multi-track audio editor/recorder."
@@ -1492,6 +1520,27 @@ services:
         tag: "Beta"
         url: "https://illustrator.uservoice.com/forums/333657-illustrator-desktop-feature-requests/suggestions/39773989-support-for-windows-64-bit-arm64-e-g-snapdragon"        
         target: "_blank" # optional html a tag target attribute
+
+      - name: "VectorCraft"
+        logo: "assets/tools/vectorcraft.png"
+        subtitle: "Open-source, clean-room re-implementation of Adobe Illustrator, rebuilt in pure Rust."
+        tag: "Beta"
+        url: "https://github.com/storytold/vectorcraft/releases"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "DesignCraft"
+        logo: "assets/tools/designcraft.png"
+        subtitle: "Open-source, clean-room re-implementation of Adobe InDesign, rebuilt in pure Rust."
+        tag: "Beta"
+        url: "https://github.com/storytold/designcraft/releases"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "FigCraft"
+        logo: "assets/tools/figcraft.png"
+        subtitle: "Open-source, clean-room re-implementation of Figma, rebuilt in pure Rust."
+        tag: "Beta"
+        url: "https://github.com/storytold/figcraft/releases"
+        target: "_blank" # optional html a tag target attribute
         
       - name: "Adobe Lightroom"
         logo: "assets/tools/lightroom.png"
@@ -1499,6 +1548,13 @@ services:
         url: "https://apps.microsoft.com/store/detail/adobe-lightroom/XPDP264X2DK8NB"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "LightCraft"
+        logo: "assets/tools/lightcraft.png"
+        subtitle: "Open-source, clean-room re-implementation of Adobe Lightroom, rebuilt in pure Rust."
+        tag: "Beta"
+        url: "https://github.com/storytold/lightcraft/releases"
+        target: "_blank" # optional html a tag target attribute
+        
       - name: "Adobe Camera Raw plug-in"
         logo: "assets/tools/adobe-camera-raw.png"
         subtitle: "Tool for adding advanced raw photos adjustment capabilities to Photoshop and Bridge"
@@ -1509,6 +1565,37 @@ services:
         logo: "assets/tools/adobedngconverter.png"
         subtitle: "Convert to a more universal DNG raw file"
         url: "https://helpx.adobe.com/ee/camera-raw/using/adobe-dng-converter.html"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "FerrumPix"
+        logo: "assets/tools/ferrumpix.png"
+        subtitle: "Open-source, photo management and editing application"
+        url: "https://github.com/Bitpainter75/FerrumPix/releases"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "PhotoCraft"
+        logo: "assets/tools/photocraft.png"
+        subtitle: "Open-source, clean-room re-implementation of Adobe Photoshop, rebuilt in pure Rust."
+        tag: "Beta"
+        url: "https://github.com/storytold/photocraft/releases"
+        target: "_blank" # optional html a tag target attribute
+        
+      - name: "Photon Studio"
+        logo: "assets/tools/photonstudio.png"
+        subtitle: "Free vibe coded fully featured Photoshop alternative"
+        url: "https://tenzen.studio/photon#get-photon"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Capture Studio"
+        logo: "assets/tools/capturestudio.png"
+        subtitle: "Free vibe coded video editor for product demos, screen recordings and tutorials."
+        url: "https://tenzen.studio/capture/#download"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Light Studio"
+        logo: "assets/tools/lightstudio.png"
+        subtitle: "Commercial vibe coded Lightroom alternative."
+        url: "https://tenzen.studio/light/#download"
         target: "_blank" # optional html a tag target attribute
         
       - name: "GIMP"
@@ -1891,6 +1978,13 @@ services:
         url: "https://github.com/FreeCAD/FreeCAD/releases"
         target: "_blank"
 
+      - name: "CadCraft"
+        logo: "assets/tools/cadcraft.png"
+        subtitle: "Open-source, clean-room re-implementation of Autodesk AutoCAD, rebuilt in pure Rust."
+        tag: "Beta"
+        url: "https://github.com/storytold/cadcraft/releases"
+        target: "_blank" # optional html a tag target attribute
+        
       - name: "Seamly 2D"
         logo: "assets/tools/seamly2d.png"
         subtitle: "Open source patternmaking software to democratize fashion."
@@ -2033,6 +2127,27 @@ services:
         url: "https://apps.microsoft.com/detail/XPFM9B2W5GH3SK"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "WordCraft"
+        logo: "assets/tools/wordcraft.png"
+        subtitle: "Open-source, clean-room re-implementation of Microsoft Word, rebuilt in pure Rust."
+        tag: "Beta"
+        url: "https://github.com/storytold/wordcraft/releases"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "DeckCraft"
+        logo: "assets/tools/deckcraft.png"
+        subtitle: "Open-source, clean-room re-implementation of Microsoft PowerPoint, rebuilt in pure Rust."
+        tag: "Beta"
+        url: "https://github.com/storytold/deckcraft/releases"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "GridCraft"
+        logo: "assets/tools/gridcraft.png"
+        subtitle: "Open-source, clean-room re-implementation of Microsoft Excel, rebuilt in pure Rust."
+        tag: "Beta"
+        url: "https://github.com/storytold/gridcraft/releases"
+        target: "_blank" # optional html a tag target attribute
+        
       - name: "Stirling PDF"
         logo: "assets/tools/stirling.png"
         subtitle: "The Open-Source PDF Platform"
@@ -2051,6 +2166,13 @@ services:
         url: "https://www.pdf-xchange.com/products"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "PdfCraft"
+        logo: "assets/tools/pdfcraft.png"
+        subtitle: "Open-source, clean-room re-implementation of Adobe Acrobat, rebuilt in pure Rust."
+        tag: "Beta"
+        url: "https://github.com/storytold/pdfcraft/releases"
+        target: "_blank" # optional html a tag target attribute
+        
       - name: "PDF-Tools"
         logo: "assets/tools/pdf-tools.png"
         subtitle: "Batch creation, manipulation and modification of PDF files."
@@ -2318,6 +2440,12 @@ services:
         url: "https://apps.microsoft.com/detail/9nblggh4s50q"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "eM Client"
+        logo: "assets/tools/emclient.png"
+        subtitle: "Highly popular and rated featured email client."
+        url: "https://www.emclient.com/"
+        target: "_blank" # optional html a tag target attribute
+        
       - name: "Wino Mail"
         logo: "assets/tools/winomail.png"
         subtitle: "Native mail client for Windows device families."
@@ -2336,6 +2464,12 @@ services:
         url: "https://apps.microsoft.com/detail/9p0kn9s5rp86"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "Side Calendar"
+        logo: "assets/tools/sidecalendar.png"
+        subtitle: "Commercial app. Push the mouse against the edge of the screen, press a shortcut, or click the tray icon, and your calendar slides into view. When you're done, it gets out of the way."
+        url: "https://apps.microsoft.com/detail/9NG5LH6HG69K"
+        target: "_blank" # optional html a tag target attribute
+        
       - name: "ClassIsland"
         logo: "assets/tools/classisland.png"
         subtitle: "一款功能强、可定制、跨平台，适用于班级多媒体屏幕的课表信息显示工具"
@@ -2464,6 +2598,13 @@ services:
         logo: "assets/tools/fluenttaskscheduler.png"
         subtitle: "Professional-grade wrapper for the Windows Task Scheduler API, designed with Microsoft's modern Fluent Design System. It simplifies the creation and management of automation tasks, offering a sleek alternative to the legacy Windows Task Scheduler."
         url: "https://github.com/TRGamer-tech/FluentTaskScheduler/releases"        
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "ArtCraft Launcher"
+        logo: "assets/tools/artcraftlauncher.png"
+        subtitle: "Open-source, One place to install, update and open every app in the Craft App Suite, rebuilt in pure Rust. PhotoCraft, LightCraft, FilmCraft, DesignCraft, VectorCraft, PdfCraft, EffectCraft, WordCraft, DeckCraft, GridCraft, CADCraft and SoundCraft: the right build for your computer, kept up to date."
+        tag: "Beta"
+        url: "https://github.com/storytold/craft-launcher/releases"
         target: "_blank" # optional html a tag target attribute
         
       - name: "TextPad"
@@ -3335,9 +3476,15 @@ services:
         url: "https://apps.microsoft.com/detail/9PJV6D1JPG0H"
         target: "_blank"
 
+      - name: "scrcpy"
+        logo: "assets/tools/scrcpy.png"
+        subtitle: "Display and control your Android device."
+        url: "https://github.com/Genymobile/scrcpy/releases"
+        target: "_blank" # optional html a tag target attribute
+        
       - name: "Escrcpy"
         logo: "assets/tools/Escrcpy.png"
-        subtitle: "Display and control Android."
+        subtitle: "Gui and more for scrcpy."
         url: "https://github.com/viarotel-org/escrcpy/releases"
         target: "_blank" # optional html a tag target attribute
 
@@ -3383,6 +3530,13 @@ services:
         url: "https://github.com/moonlight-stream/moonlight-qt/releases/latest"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "Nonary Moonlight Client"
+        logo: "assets/tools/moonlight.png"
+        subtitle: "Custom fork of Moonlight client which adds true VRR (Variable Refresh Rate) pacing, higher bitrate support, additional codec support such as valve Pyrowave, and ecosystem scripts."
+        tag: "Nightly, requries Vibepollo server software."        
+        url: "https://github.com/Nonary/moonlight-qt/actions/workflows/build-release.yml"
+        target: "_blank" # optional html a tag target attribute
+        
       - name: "Sunshine"
         logo: "assets/tools/sunshine.png"
         subtitle: "Self-hosted game stream host for Moonlight."
@@ -3618,6 +3772,13 @@ services:
         logo: "assets/tools/ivpn.png"
         subtitle: "No log VPN service."
         url: "https://www.ivpn.net/en/apps-windows/"
+        target: "_blank" # optional html a tag target attribute
+        
+      - name: "TorGuard VPN"
+        logo: "assets/tools/torguard.png"
+        subtitle: "Privacy-focused VPN service primarily designed for advanced users, offering robust security, fast connection speeds, and specialized features for anonymous torrenting and data encryption."
+        tag: "x64 app, ARM64 VPN driver"
+        url: "https://torguard.net/support/articles/Getting-Started-TorGuard-Desktop/getting-started-windows.php"
         target: "_blank" # optional html a tag target attribute
         
       - name: "Radmin VPN"
@@ -5145,12 +5306,18 @@ services:
         url: "https://github.com/snickler/WSA-Patched/releases"
         target: "_blank" # optional html a tag target attribute        
 
+      - name: "ADB-Explorer"
+        logo: "assets/tools/adbexplorer.png"
+        subtitle: "Fluent UI ADB file explorer."
+        url: "https://github.com/Alex4SSB/ADB-Explorer/releases"
+        target: "_blank" # optional html a tag target attribute
+        
       - name: "APK Installers"
         logo: "assets/tools/apkinstallers.png"
         subtitle: "Android™ App Installer for Windows 10/11"
         url: "https://apps.microsoft.com/detail/9P2JFQ43FPPG"
         target: "_blank" # optional html a tag target attribute
-
+        
       - name: "WSA Sideloader"
         logo: "assets/tools/wsasideloader.png"
         subtitle: "Easily sideload Android apps on Windows Subsystem for Android"
@@ -5600,8 +5767,9 @@ services:
 
       - name: "KeePassXC"
         logo: "assets/tools/keepassxc.png"
-        subtitle: "unofficial build, modern fork of the original KeePass, offering a nicer interface, built-in features like TOTP and browser integration, and C++ native performance."
-        url: "https://github.com/minnyres/keepassxc-windows-arm64/releases"
+        subtitle: "Modern fork of the original KeePass, offering a nicer interface, built-in features like TOTP and browser integration, and C++ native performance."
+        tag: "Beta"
+        url: "https://github.com/keepassxreboot/keepassxc/releases"
         target: "_blank" # optional html a tag target attribute
 
       - name: "1Password"
@@ -5825,6 +5993,12 @@ services:
         url: "https://apps.microsoft.com/detail/9nq07fg50h2q"
         target: "_blank"
 
+      - name: "Layer"
+        logo: "assets/tools/layer.png"
+        subtitle: "Transparent, always-on-top widget canvas for your desktop."
+        url: "https://github.com/Haris357/Layer/releases"
+        target: "_blank"
+        
       - name: "DynamicWin Legacy"
         logo: "assets/tools/dynamicwin.png"
         subtitle: "Dynamic Island inspired Windows App that brings in a bunch of features like widgets or a file tray that works like a clipboard. Similar to dynamic notches that you can find on macOS like NotchNook."
@@ -6157,7 +6331,14 @@ services:
 
   - name: "Game Console Emulation"
     icon: "fa-brands fa-playstation"
-    items:        
+    items:      
+      - name: "ARMSX2"
+        logo: "assets/tools/armsx2.png"
+        subtitle: "Open-source, PS2 emulator"
+        url: "https://github.com/ARMSX2/ARMSX2/releases"
+        tag: "Nightly"
+        target: "_blank" # optional html a tag target attribute
+        
       - name: "Aethersx2"
         logo: "assets/tools/aethersx2.png"
         subtitle: "unofficial build, PS2 emulator"
@@ -7530,6 +7711,12 @@ services:
         url: "https://docs.qualcomm.com/bundle/publicresource/topics/80-63442-2/revision_history_windows.html"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "unsloth"
+        logo: "assets/tools/unsloth.png"
+        subtitle: "Desktop app to run and train models."
+        url: "https://github.com/unslothai/unsloth/releases"
+        target: "_blank" # optional html a tag target attribute
+        
       - name: "LM Studio"
         logo: "assets/tools/lmstudio.png"
         subtitle: "Run local AI workloads with Llama 3, Phi-3, and other open-weights LLMs on your Snapdragon X Elite PC."
@@ -7554,6 +7741,12 @@ services:
         url: "https://www.foundrylocal.ai/"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "Atomic Agent Desktop"
+        logo: "assets/tools/atomicagent.png"
+        subtitle: "Local-first AI agent. Runs open-weight models on your own machine via llama.cpp."
+        url: "https://github.com/AtomicBot-ai/atomic-agent/releases/tag/desktop-v0.0.1"
+        target: "_blank" # optional html a tag target attribute
+        
       - name: "Netron"
         logo: "assets/tools/netron.png"
         subtitle: "Visualizer for neural network, deep learning and machine learning models"
@@ -7572,6 +7765,12 @@ services:
         url: "https://claude.ai/download"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "Google Gemini Desktop"
+        logo: "assets/tools/geminidesktop.png"
+        subtitle: "Native (unified installer) application that brings Google's AI assistant out of the web browser and into a dedicated workspace."
+        url: "https://gemini.google/desktop/"
+        target: "_blank" # optional html a tag target attribute
+        
       - name: "豆包"
         logo: "assets/tools/doubao.png"
         subtitle: "Desktop AI Assistant"
@@ -7643,6 +7842,12 @@ services:
         logo: "assets/tools/crush.png"
         subtitle: "Terminal-based AI coding assistant. It supports multiple LLM providers, LSP integration, MCP servers, and session-based context management."
         url: "https://github.com/charmbracelet/crush/releases"
+        target: "_blank" # optional html a tag target attribute
+        
+      - name: "Codex Minibar"
+        logo: "assets/tools/codexminibar.png"
+        subtitle: "Free, open-source Windows tray companion for AI subscription usage limits with configurable tray widgets, a compact usage popup, notifications, auto-start, in-place updates, and local history."
+        url: "https://github.com/vertopolkaLF/codex-minibar/releases"
         target: "_blank" # optional html a tag target attribute
         
       - name: "GitHub Copilot Taskbar GUI"
