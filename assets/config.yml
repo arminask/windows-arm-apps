@@ -3423,6 +3423,12 @@ services:
         subtitle: "Open source, voice to text using Whisper, Parakeet and llama.cpp."
         url: "https://github.com/LitteRabbit-37/Parla/releases"
         target: "_blank" # optional html a tag target attribute
+
+      - name: "Yap"
+        logo: "assets/tools/yap.png"
+        subtitle: "Paid private voice dictation app. Native ARM64 build (x64 also available): hold a key, speak, and the text is typed into any app; speech is recognized on the device. Free days and a 10-day trial, then US$6.90 per month or US$69 per year."
+        url: "https://yapapp.cc/windows"
+        target: "_blank" # optional html a tag target attribute
         
       - name: "O&O ShutUp10++"
         logo: "assets/tools/oo-shutup10.png"
