@@ -6369,6 +6369,12 @@ services:
         url: "https://git.ryujinx.app/groups/ryubing/-/packages/208"
         target: "_blank" # optional html a tag target attribute
         
+      - name: "SnapRYU"
+        logo: "assets/tools/snapryu.png"
+        subtitle: "a fork of Eden, Switch emulator with native ARM64 (NCE)"
+        url: "https://github.com/npark2860-cyber/SnapRYU/releases"
+        target: "_blank" # optional html a tag target attribute
+        
       - name: "Dolphin"
         logo: "assets/tools/dolphin.png"
         subtitle: "Wii and Gamecube emulator"
