@@ -7461,6 +7461,13 @@ services:
         tag: "original game data needed"
         url: "https://github.com/Alexey-Proger/tModLoader-arm/releases"
         target: "_blank" # optional html a tag target attribute
+
+      - name: "Abyssal"
+        logo: "assets/tools/abyssal.png"
+        subtitle: "ARM64. Open-source remake engine for the mobile submarine game DEEP 3D, with enhanced graphics and an offline importer for the original JAR."
+        tag: "original game data needed"
+        url: "https://github.com/TheWWWorm/abyssal/releases/latest"
+        target: "_blank" # optional html a tag target attribute
      
   - name: "Chess / شطرنج"
     icon: "fa-solid fa-chess-knight"
