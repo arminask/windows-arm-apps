@@ -5140,6 +5140,13 @@ services:
         url: "https://github.com/otya128/ntvdm64.dll"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "AQEMU"
+        logo: "assets/tools/aqemu.png"
+        subtitle: "ARM64/x64. Open source Qt GUI for QEMU with VM wizard and 230 OS profiles"
+        tag: "Purchases"
+        url: "https://apps.microsoft.com/detail/9P0HGKHQ9W19?cid=gh-armrepo"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "QtEmu"
         logo: "assets/tools/qtemu.png"
         subtitle: "Unofficial Build, graphical user interface for QEMU written in Qt4"
