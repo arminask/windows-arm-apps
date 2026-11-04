@@ -4261,6 +4261,12 @@ services:
         url: "https://sniffnet.net/download/"
         target: "_blank" # optional html a tag target attribute
 
+      - name: "Anubis"
+        logo: "assets/tools/anubis.png"
+        subtitle: "Anubis is a Web AI Firewall Utility."
+        url: "https://anubis.techaro.lol/"
+        target: "_blank" # optional html a tag target attribute
+
   - name: "Coding"
     icon: "fa-solid fa-code"
     items:
@@ -4567,7 +4573,7 @@ services:
 
       - name: "Golang"
         logo: "assets/tools/Golang.png"
-        subtitle: "Unofficial build, simple, fast, statically typed language designed for efficiency and concurrency."
+        subtitle: "Simple, fast, statically typed language designed for efficiency and concurrency."
         url: "https://go.dev/dl/"
         target: "_blank" # optional html a tag target attribute
 
