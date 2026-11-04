@@ -215,6 +215,12 @@ services:
   - name: "Web Browsers"
     icon: "fa-brands fa-internet-explorer"
     items:
+      - name: "Aside"
+        logo: "assets/tools/aside.png"
+        subtitle: "ARM64. AI browser with a built-in browser agent."
+        url: "https://aside.com/download?os=win&arch=arm64"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "Google Chrome"
         logo: "assets/tools/chrome.png"
         subtitle: "A fast, widely used cross-platform web browser that integrates seamlessly with Google services."
