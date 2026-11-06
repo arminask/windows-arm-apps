@@ -6198,7 +6198,7 @@ services:
 
       - name: "Klakk"
         logo: "assets/tools/klakk.png"
-        subtitle: "Paid keyboard sound app. Native ARM64/x64 builds; 14 packs. 3-day trial from first launch; US$4.49 one-time Windows license, plus applicable tax."
+        subtitle: "Paid keyboard sound app. Native ARM64/x64 builds; 14 packs. 3-day trial from first launch; US$6.99 one-time Windows license, plus applicable tax."
         url: "https://tryklakk.com/en/windows/?utm_source=armrepo&utm_medium=referral&utm_campaign=software_directory&utm_content=windows_arm64_listing"
         target: "_blank"
 
