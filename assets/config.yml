@@ -6399,6 +6399,12 @@ services:
         subtitle: "a fork of Eden, Switch emulator with native ARM64 (NCE)"
         url: "https://github.com/npark2860-cyber/SnapRYU/releases"
         target: "_blank" # optional html a tag target attribute
+
+      - name: "NXN1X"
+        logo: "assets/tools/nxn1x.png"
+        subtitle: "Switch / Switch 2 emulator for NVIDIA N1X, native ARM64 (NCE), NVN on Vulkan, DLSS"
+        url: "https://github.com/npark2860-cyber/NXN1X/releases"
+        target: "_blank" # optional html a tag target attribute
         
       - name: "Dolphin"
         logo: "assets/tools/dolphin.png"
