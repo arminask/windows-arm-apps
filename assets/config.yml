@@ -5495,11 +5495,11 @@ services:
         url: "https://github.com/twvd/snow/releases"
         target: "_blank" # optional html a tag target attribute
 
-      - name: "BluetoothHandsFreeToggle"
+      - name: "StereoKeeper"
         logo: "assets/tools/bluetooth-hands-free-toggle.png"
-        subtitle: "Open-source Windows utility for ARM64 that recovers clean Bluetooth stereo by fixing headsets stuck in low-quality Hands-Free mode with safe reset, disable, and restore options."
+        subtitle: "ARM64. Tray app that fixes bad Bluetooth headphone sound on Windows. When Call of Duty, Warzone, Discord or OBS turns on the headset mic, Windows switches to Hands-Free mode and the sound becomes low-quality mono, like a phone call. StereoKeeper brings back stereo in one click and can keep it on. Also in the Microsoft Store."
         tag: "ARM64"
-        url: "https://github.com/Avazbek22/BluetoothHandsFreeToggle/releases"
+        url: "https://github.com/Avazbek22/StereoKeeper/releases"
         target: "_blank" # optional html a tag target attribute
 
   - name: "Benchmarking & Diagnostics"
